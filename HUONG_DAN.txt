@@ -1,0 +1,7 @@
+CÁCH DÙNG
+- Mở file "index.html" (hoặc "Ôn luật Quảng Bị (1 file).html") bằng Chrome/Safari. Chạy offline, không cần cài gì.
+- Bài học: Trang chủ > chọn văn bản > chọn bài: có tóm tắt, mục "Chỗ hay bị đánh lừa" và câu luyện tập ngay bên dưới.
+- Đề mix: 30 đề x 50 câu / 60 phút, có đồng hồ, đánh dấu câu, nộp bài và xem lại câu sai.
+- Câu làm sai được lưu trên trình duyệt (mục "Câu làm sai").
+CẬP NHẬT CÂU HỎI
+- Sửa file trong data/json/L*.json, rồi chạy: python3 tools/validate.py && python3 tools/build.py && python3 tools/bundle.py

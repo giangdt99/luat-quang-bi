@@ -1,0 +1,2296 @@
+{
+ "id": "L5",
+ "ten": "Nghị định 259/2026/NĐ-CP về tuyển dụng, sử dụng và quản lý viên chức",
+ "so": "Nghị định số 259/2026/NĐ-CP",
+ "ngay": "30/06/2026",
+ "hieuluc": "01/07/2026",
+ "mota": "Nghị định quy định về tuyển dụng (xét tuyển, thi tuyển), xếp lương, hợp đồng làm việc và sử dụng viên chức, ban hành ngày 30/06/2026, có hiệu lực từ 01/07/2026.",
+ "baihoc": [
+  {
+   "id": "L5-1",
+   "ten": "Quy định chung: thẩm quyền, căn cứ, kế hoạch và điều kiện đăng ký dự tuyển",
+   "tomtat": [
+    "Nghị định 259/2026/NĐ-CP ban hành **30/06/2026**, có hiệu lực **01/07/2026**, thay thế NĐ **115/2020** và NĐ **85/2023**.",
+    "Điều 3 khoản 1: đơn vị **tự bảo đảm chi thường xuyên và chi đầu tư (nhóm 1)**, **tự bảo đảm chi thường xuyên (nhóm 2)** và đơn vị khác được giao thẩm quyền theo pháp luật ngành có thẩm quyền tuyển dụng.",
+    "Điều 3 khoản 2: **cơ quan quản lý** đơn vị sự nghiệp tuyển dụng cho đơn vị **tự bảo đảm một phần chi thường xuyên (nhóm 3)** và **do Nhà nước bảo đảm chi thường xuyên (nhóm 4)** theo phân cấp.",
+    "Điều 3 khoản 3: nhóm 3, 4 có thể được tuyển dụng **theo phân cấp hoặc ủy quyền**.",
+    "Điều 4 khoản 1, căn cứ tuyển dụng: **nhu cầu thực tế**, **yêu cầu vị trí việc làm**, **quỹ tiền lương và nguồn thu hợp pháp**, **biên chế** viên chức hưởng lương ngân sách được giao.",
+    "Điều 5, kế hoạch tuyển dụng gồm: phương thức (xét/thi), số biên chế, số vị trí việc làm, số tuyển ở từng vị trí, chỉ tiêu dân tộc thiểu số (nếu có), tiêu chuẩn điều kiện theo bậc nghề nghiệp, yêu cầu ngoại ngữ...",
+    "Điều 6 khoản 1: điều kiện đăng ký dự tuyển thực hiện theo **Điều 19 Luật Viên chức 2025**.",
+    "Điều 6 khoản 1: cơ quan tuyển dụng cụ thể hóa điểm g, h khoản 1 Điều 19 nhưng **không thấp hơn** tiêu chuẩn chung và **không trái nguyên tắc Điều 16** của Luật.",
+    "Điều 6 khoản 2: lĩnh vực **văn hóa, nghệ thuật, thể dục thể thao** có thể từ đủ **15 tuổi**, phải có **văn bản đồng ý của người đại diện theo pháp luật**."
+   ],
+   "bay": [
+    "⚠ Ngày **ban hành (30/06/2026)** ≠ ngày **hiệu lực (01/07/2026)**.",
+    "⚠ Nhóm 1, 2 **tự tuyển**; nhóm 3, 4 **do cơ quan quản lý tuyển** (phân cấp/ủy quyền).",
+    "⚠ **Điều 19** (điều kiện đăng ký) ≠ **Điều 16** (nguyên tắc); 'không **thấp hơn**' tiêu chuẩn chung ≠ 'không cao hơn'.",
+    "⚠ Chỉ 3 lĩnh vực (văn hóa, nghệ thuật, TDTT) mới từ đủ **15** tuổi, không phải 16 hay 18."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Nghị định 259/2026/NĐ-CP quy định về tuyển dụng, sử dụng và quản lý viên chức được ban hành vào ngày nào?",
+     "o": [
+      "31/03/2026",
+      "22/01/2026",
+      "30/06/2026",
+      "01/07/2026"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Nghị định được ban hành ngày 30/06/2026; ngày 01/07/2026 là ngày có hiệu lực (dễ nhầm giữa ngày ban hành và ngày hiệu lực).",
+     "r": "Nghị định 259/2026/NĐ-CP phần thông tin chung"
+    },
+    {
+     "t": "s",
+     "q": "Nghị định 259/2026/NĐ-CP có hiệu lực thi hành từ ngày nào?",
+     "o": [
+      "01/07/2026",
+      "30/06/2026",
+      "01/09/2026",
+      "01/01/2026"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Hiệu lực từ 01/07/2026, sau ngày ban hành 30/06/2026 một ngày; không phải ngày ban hành.",
+     "r": "Nghị định 259/2026/NĐ-CP phần thông tin chung"
+    },
+    {
+     "t": "s",
+     "q": "Theo khoản 1 Điều 3, đơn vị sự nghiệp công lập nào sau đây có thẩm quyền tự tuyển dụng viên chức?",
+     "o": [
+      "Đơn vị tự bảo đảm một phần chi thường xuyên",
+      "Đơn vị do Nhà nước bảo đảm chi thường xuyên",
+      "Mọi đơn vị sự nghiệp công lập không phân biệt mức tự bảo đảm tài chính",
+      "Đơn vị tự bảo đảm chi thường xuyên"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Nhóm 1 (tự bảo đảm chi thường xuyên và chi đầu tư) và nhóm 2 (tự bảo đảm chi thường xuyên) tự tuyển. Nhóm 3 (một phần) và nhóm 4 (Nhà nước bảo đảm) do cơ quan quản lý tuyển theo phân cấp (khoản 2) nên phương án nhiễu sai.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 3 khoản 1, 2"
+    },
+    {
+     "t": "s",
+     "q": "Việc tuyển dụng viên chức cho đơn vị sự nghiệp do Nhà nước bảo đảm chi thường xuyên được thực hiện bởi ai theo khoản 2 Điều 3?",
+     "o": [
+      "Chính phủ trực tiếp tuyển dụng",
+      "Cơ quan quản lý đơn vị sự nghiệp công lập, theo phân cấp",
+      "Chỉ người đứng đầu đơn vị sự nghiệp, không cần phân cấp",
+      "Hội đồng tuyển dụng do Bộ Nội vụ thành lập"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Khoản 2: cơ quan quản lý tuyển dụng cho nhóm 3 và nhóm 4 theo phân cấp (khoản 3 còn cho phép ủy quyền). Hội đồng tuyển dụng chỉ tổ chức thực hiện, không phải cơ quan có thẩm quyền.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 3 khoản 2, 3"
+    },
+    {
+     "t": "s",
+     "q": "Căn cứ nào sau đây KHÔNG nằm trong các căn cứ tuyển dụng viên chức tại khoản 1 Điều 4?",
+     "o": [
+      "Nhu cầu thực tế của đơn vị",
+      "Yêu cầu của vị trí việc làm",
+      "Số lượng người nộp hồ sơ đăng ký dự tuyển",
+      "Biên chế viên chức hưởng lương ngân sách được giao"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Căn cứ gồm nhu cầu thực tế, yêu cầu vị trí việc làm, quỹ tiền lương và nguồn thu hợp pháp, biên chế được giao; không có căn cứ vào số hồ sơ đăng ký.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 4 khoản 1"
+    },
+    {
+     "t": "s",
+     "q": "Điều kiện đăng ký dự tuyển viên chức theo khoản 1 Điều 6 Nghị định 259/2026/NĐ-CP thực hiện theo điều nào của Luật Viên chức 2025?",
+     "o": [
+      "Điều 19",
+      "Điều 30",
+      "Điều 43",
+      "Điều 16"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Khoản 1 Điều 6 dẫn Điều 19 Luật Viên chức 2025. Điều 16 là nguyên tắc mà việc cụ thể hóa không được trái; đây là chỗ dễ nhầm.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 6 khoản 1"
+    },
+    {
+     "t": "s",
+     "q": "Khi cụ thể hóa điểm g, h khoản 1 Điều 19 Luật Viên chức 2025, cơ quan tuyển dụng phải bảo đảm yêu cầu nào?",
+     "o": [
+      "Có thể thấp hơn tiêu chuẩn chung nếu đơn vị thiếu người",
+      "Không cao hơn tiêu chuẩn chung, nhưng được trái nguyên tắc tuyển dụng",
+      "Chỉ cần được người đứng đầu đơn vị đồng ý, không bị ràng buộc",
+      "Không thấp hơn tiêu chuẩn chung và không trái nguyên tắc tại Điều 16 của Luật"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Khoản 1 Điều 6: cụ thể hóa nhưng không thấp hơn tiêu chuẩn chung và không trái nguyên tắc Điều 16. Bẫy: đảo 'không thấp hơn' thành 'không cao hơn'.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 6 khoản 1"
+    },
+    {
+     "t": "s",
+     "q": "Theo khoản 2 Điều 6, người đăng ký dự tuyển trong lĩnh vực văn hóa, nghệ thuật, thể dục thể thao có thể từ đủ bao nhiêu tuổi?",
+     "o": [
+      "Đủ 18 tuổi, kèm văn bản đồng ý của người đại diện theo pháp luật",
+      "Đủ 15 tuổi, kèm văn bản đồng ý của người đại diện theo pháp luật",
+      "Đủ 14 tuổi, kèm văn bản đồng ý của người đại diện theo pháp luật",
+      "Đủ 16 tuổi, không cần văn bản đồng ý"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Chỉ ba lĩnh vực văn hóa, nghệ thuật, thể dục thể thao mới có thể từ đủ 15 tuổi và bắt buộc có văn bản đồng ý của người đại diện theo pháp luật.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 6 khoản 2"
+    },
+    {
+     "t": "s",
+     "q": "Phát biểu nào sau đây đúng về Điều 3 Nghị định 259/2026/NĐ-CP?",
+     "o": [
+      "Đơn vị nhóm 4 bắt buộc tự tuyển dụng, không do cơ quan quản lý tuyển",
+      "Đơn vị nhóm 2 phải do cơ quan quản lý tuyển dụng, còn nhóm 3 tự tuyển",
+      "Đơn vị sự nghiệp nhóm 3 và nhóm 4 có thể được tuyển dụng theo phân cấp hoặc ủy quyền",
+      "Chỉ đơn vị nhóm 1 mới có thẩm quyền tuyển dụng, các nhóm còn lại không được ủy quyền"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Khoản 2, 3: nhóm 3 và 4 do cơ quan quản lý tuyển theo phân cấp hoặc ủy quyền. Các phương án nhiễu đảo nhóm hoặc đảo chủ thể.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 3 khoản 2, 3"
+    },
+    {
+     "t": "s",
+     "q": "Nội dung nào sau đây thuộc kế hoạch tuyển dụng theo Điều 5?",
+     "o": [
+      "Số lượng tuyển ở từng vị trí việc làm",
+      "Kết quả trúng tuyển dự kiến",
+      "Danh sách cụ thể từng người dự tuyển",
+      "Điểm ưu tiên đã tính cho từng thí sinh"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Kế hoạch gồm phương thức (xét/thi), số biên chế, số vị trí việc làm, số tuyển ở từng vị trí, chỉ tiêu dân tộc thiểu số (nếu có)...; không có danh sách người dự tuyển hay kết quả.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 5"
+    },
+    {
+     "t": "s",
+     "q": "Nghị định 259/2026/NĐ-CP thay thế Nghị định nào sau đây?",
+     "o": [
+      "Nghị định 129/2025/NĐ-CP",
+      "Nghị định 93/2026/NĐ-CP",
+      "Nghị định 73/2025/NĐ-CP",
+      "Nghị định 115/2020/NĐ-CP"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Nghị định 259 thay NĐ 115/2020 và NĐ 85/2023. NĐ 93/2026 là nghị định hướng dẫn Luật Nhà giáo; 129/2025 là số của Luật Viên chức (QH15), 73/2025 là số Luật Nhà giáo.",
+     "r": "Nghị định 259/2026/NĐ-CP phần thông tin chung"
+    },
+    {
+     "t": "m",
+     "q": "Theo khoản 1 Điều 3, đơn vị nào có thẩm quyền tuyển dụng viên chức (chọn tất cả đáp án đúng)",
+     "o": [
+      "Đơn vị do Nhà nước bảo đảm chi thường xuyên (theo khoản 1)",
+      "Đơn vị tự bảo đảm chi thường xuyên và chi đầu tư",
+      "Đơn vị tự bảo đảm một phần chi thường xuyên (theo khoản 1)",
+      "Đơn vị tự bảo đảm chi thường xuyên",
+      "Đơn vị khác được giao thẩm quyền theo pháp luật ngành"
+     ],
+     "a": [
+      1,
+      3,
+      4
+     ],
+     "e": "Khoản 1 liệt kê nhóm 1, nhóm 2 và đơn vị khác được giao thẩm quyền; nhóm 3, 4 thuộc khoản 2 (cơ quan quản lý tuyển theo phân cấp).",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 3 khoản 1, 2"
+    },
+    {
+     "t": "m",
+     "q": "Căn cứ tuyển dụng viên chức theo khoản 1 Điều 4 gồm (chọn tất cả đáp án đúng)",
+     "o": [
+      "Quỹ tiền lương và nguồn thu hợp pháp",
+      "Nhu cầu thực tế",
+      "Số lượng hồ sơ đăng ký dự tuyển",
+      "Yêu cầu của vị trí việc làm",
+      "Biên chế viên chức hưởng lương ngân sách được giao"
+     ],
+     "a": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "e": "Bốn căn cứ đầu đúng theo khoản 1 Điều 4; số hồ sơ đăng ký không phải căn cứ.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 4 khoản 1"
+    },
+    {
+     "t": "m",
+     "q": "Kế hoạch tuyển dụng viên chức theo Điều 5 gồm các nội dung nào (chọn tất cả đáp án đúng)",
+     "o": [
+      "Số vị trí việc làm và số tuyển ở từng vị trí",
+      "Chỉ tiêu dân tộc thiểu số (nếu có)",
+      "Danh sách người dự tuyển đã được chấp thuận",
+      "Số biên chế",
+      "Phương thức tuyển dụng (xét hoặc thi)"
+     ],
+     "a": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "e": "Các nội dung đầu thuộc kế hoạch; danh sách người dự tuyển chỉ có sau khi nhận hồ sơ.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 5"
+    },
+    {
+     "t": "m",
+     "q": "Về việc tuyển dụng của đơn vị sự nghiệp công lập nhóm 3 và nhóm 4, các phát biểu đúng là (chọn tất cả đáp án đúng)",
+     "o": [
+      "Có thể được thực hiện thông qua ủy quyền",
+      "Đơn vị tự quyết định mà không cần phân cấp",
+      "Việc tuyển dụng thực hiện theo phân cấp",
+      "Cơ quan quản lý đơn vị sự nghiệp thực hiện tuyển dụng",
+      "Do Bộ Nội vụ trực tiếp tuyển dụng cho từng đơn vị"
+     ],
+     "a": [
+      0,
+      2,
+      3
+     ],
+     "e": "Khoản 2 và 3 Điều 3: cơ quan quản lý tuyển theo phân cấp hoặc ủy quyền.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 3 khoản 2, 3"
+    },
+    {
+     "t": "f",
+     "q": "Điều kiện đăng ký dự tuyển được thực hiện theo Điều ____ Luật Viên chức 2025.",
+     "a": [
+      [
+       "19"
+      ]
+     ],
+     "e": "Khoản 1 Điều 6 dẫn Điều 19; không nhầm với Điều 16 (nguyên tắc).",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 6 khoản 1",
+     "o": [
+      [
+       "20"
+      ],
+      [
+       "18"
+      ],
+      [
+       "21"
+      ],
+      [
+       "19"
+      ]
+     ],
+     "k": 3
+    },
+    {
+     "t": "f",
+     "q": "Lĩnh vực văn hóa, nghệ thuật, thể dục thể thao có thể từ đủ ____ tuổi, phải có văn bản đồng ý của người đại diện theo ____.",
+     "a": [
+      [
+       "15",
+       "mười lăm"
+      ],
+      [
+       "pháp luật"
+      ]
+     ],
+     "e": "Khoản 2 Điều 6: từ đủ 15 tuổi và có văn bản đồng ý của người đại diện theo pháp luật.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 6 khoản 2",
+     "o": [
+      [
+       "16",
+       "pháp luật"
+      ],
+      [
+       "15",
+       "ủy quyền"
+      ],
+      [
+       "15",
+       "pháp luật"
+      ],
+      [
+       "18",
+       "pháp luật"
+      ]
+     ],
+     "k": 2
+    },
+    {
+     "t": "f",
+     "q": "Đơn vị tự bảo đảm chi ____ và chi đầu tư (nhóm 1), tự bảo đảm chi thường xuyên (nhóm 2) có thẩm quyền tuyển dụng.",
+     "a": [
+      [
+       "thường xuyên"
+      ]
+     ],
+     "e": "Nhóm 1 tự bảo đảm chi thường xuyên và chi đầu tư.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 3 khoản 1",
+     "o": [
+      [
+       "thường xuyên"
+      ],
+      [
+       "đột xuất"
+      ],
+      [
+       "cơ bản"
+      ],
+      [
+       "đầu tư"
+      ]
+     ],
+     "k": 0
+    },
+    {
+     "t": "f",
+     "q": "Cơ quan quản lý đơn vị sự nghiệp tuyển dụng cho đơn vị do Nhà nước bảo đảm chi thường xuyên theo ____ hoặc ủy quyền.",
+     "a": [
+      [
+       "phân cấp"
+      ]
+     ],
+     "e": "Khoản 2, 3 Điều 3: theo phân cấp hoặc ủy quyền.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 3 khoản 2, 3",
+     "o": [
+      [
+       "phân cấp"
+      ],
+      [
+       "quy định"
+      ],
+      [
+       "thỏa thuận"
+      ],
+      [
+       "hợp đồng"
+      ]
+     ],
+     "k": 0
+    },
+    {
+     "t": "f",
+     "q": "Căn cứ tuyển dụng gồm nhu cầu thực tế, yêu cầu ____, quỹ tiền lương và nguồn thu hợp pháp, biên chế được giao.",
+     "a": [
+      [
+       "vị trí việc làm"
+      ]
+     ],
+     "e": "Khoản 1 Điều 4.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 4 khoản 1",
+     "o": [
+      [
+       "trình độ đào tạo"
+      ],
+      [
+       "chỉ tiêu tuyển sinh"
+      ],
+      [
+       "kinh nghiệm công tác"
+      ],
+      [
+       "vị trí việc làm"
+      ]
+     ],
+     "k": 3
+    },
+    {
+     "t": "f",
+     "q": "Nghị định 259/2026/NĐ-CP được ban hành ngày ____ và có hiệu lực từ ngày ____.",
+     "a": [
+      [
+       "30/6/2026",
+       "30/06/2026"
+      ],
+      [
+       "1/7/2026",
+       "01/7/2026",
+       "01/07/2026"
+      ]
+     ],
+     "e": "Ban hành 30/6/2026; hiệu lực 01/7/2026.",
+     "r": "Nghị định 259/2026/NĐ-CP phần thông tin chung",
+     "o": [
+      [
+       "30/6/2026",
+       "1/7/2026"
+      ],
+      [
+       "30/6/2026",
+       "15/7/2026"
+      ],
+      [
+       "1/7/2026",
+       "30/6/2026"
+      ],
+      [
+       "15/7/2026",
+       "1/7/2026"
+      ]
+     ],
+     "k": 0
+    },
+    {
+     "t": "f",
+     "q": "Nghị định 259/2026/NĐ-CP thay thế Nghị định số ____/2020/NĐ-CP và Nghị định số ____/2023/NĐ-CP.",
+     "a": [
+      [
+       "115"
+      ],
+      [
+       "85"
+      ]
+     ],
+     "e": "Thay thế NĐ 115/2020 và NĐ 85/2023.",
+     "r": "Nghị định 259/2026/NĐ-CP phần thông tin chung",
+     "o": [
+      [
+       "115",
+       "85"
+      ],
+      [
+       "85",
+       "115"
+      ],
+      [
+       "115",
+       "95"
+      ],
+      [
+       "85",
+       "85"
+      ]
+     ],
+     "k": 0
+    }
+   ],
+   "ynho": [
+    "NĐ 259 ban hành **30/06/2026**, hiệu lực **01/07/2026**.",
+    "Thay thế NĐ **115/2020** và NĐ **85/2023**.",
+    "Nhóm **1, 2** tự tuyển; nhóm **3, 4** do cơ quan quản lý tuyển.",
+    "Điều kiện đăng ký dự tuyển theo **Điều 19** Luật Viên chức 2025.",
+    "Văn hóa, nghệ thuật, TDTT có thể từ đủ **15 tuổi**, cần người đại diện đồng ý."
+   ],
+   "bang": [
+    {
+     "tieu_de": "Ai tuyển dụng",
+     "cot": [
+      "Nhóm đơn vị",
+      "Tuyển dụng"
+     ],
+     "dong": [
+      [
+       "Nhóm 1: tự bảo đảm chi thường xuyên và chi đầu tư",
+       "Đơn vị tự tuyển"
+      ],
+      [
+       "Nhóm 2: tự bảo đảm chi thường xuyên",
+       "Đơn vị tự tuyển"
+      ],
+      [
+       "Nhóm 3: tự bảo đảm một phần chi thường xuyên",
+       "Cơ quan quản lý (phân cấp/ủy quyền)"
+      ],
+      [
+       "Nhóm 4: Nhà nước bảo đảm chi thường xuyên",
+       "Cơ quan quản lý (phân cấp/ủy quyền)"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Căn cứ tuyển dụng (Điều 4)",
+     "cot": [
+      "Căn cứ"
+     ],
+     "dong": [
+      [
+       "Nhu cầu thực tế"
+      ],
+      [
+       "Yêu cầu vị trí việc làm"
+      ],
+      [
+       "Quỹ tiền lương và nguồn thu hợp pháp"
+      ],
+      [
+       "Biên chế viên chức hưởng lương ngân sách được giao"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Trường THCS công lập do Nhà nước bảo đảm chi thường xuyên (nhóm 4) muốn tuyển giáo viên.",
+     "ket_luan": "→ Theo Điều 3 khoản 2, cơ quan quản lý đơn vị sự nghiệp tuyển dụng theo phân cấp hoặc ủy quyền."
+    },
+    {
+     "tinh_huong": "Cô A hỏi NĐ 259 có hiệu lực ngày 30/06/2026 không.",
+     "ket_luan": "→ Sai: ban hành 30/06/2026 nhưng hiệu lực 01/07/2026."
+    },
+    {
+     "tinh_huong": "Một đơn vị đặt điều kiện dự tuyển thấp hơn tiêu chuẩn chung của Điều 19.",
+     "ket_luan": "→ Sai: Điều 6 khoản 1, chỉ được cụ thể hóa, không thấp hơn tiêu chuẩn chung và không trái nguyên tắc Điều 16."
+    },
+    {
+     "tinh_huong": "Một trường nghệ thuật muốn tuyển bạn B tròn 15 tuổi làm diễn viên.",
+     "ket_luan": "→ Có thể: Điều 6 khoản 2, lĩnh vực nghệ thuật từ đủ 15 tuổi, cần văn bản đồng ý của người đại diện theo pháp luật."
+    },
+    {
+     "tinh_huong": "Trường THCS tuyển giáo viên khi chưa có biên chế được giao và chưa có nhu cầu thực tế.",
+     "ket_luan": "→ Không đủ căn cứ theo Điều 4 khoản 1 (nhu cầu, vị trí việc làm, quỹ lương, biên chế)."
+    }
+   ],
+   "nho": [
+    "Ban hành 30/6, hiệu lực 01/7: chỉ cách nhau một ngày, dễ nhầm.",
+    "Nhóm 1-2 'tự lo' nên 'tự tuyển'; nhóm 3-4 'cần cha mẹ' (cơ quan quản lý) tuyển.",
+    "Điều 19 = điều kiện đăng ký; Điều 16 = nguyên tắc - đi theo thứ tự 'nguyên tắc rồi điều kiện'."
+   ]
+  },
+  {
+   "id": "L5-2",
+   "ten": "Xét tuyển, điểm ưu tiên và Hội đồng tuyển dụng",
+   "tomtat": [
+    "Điều 7 khoản 1: xét tuyển người **cam kết tình nguyện làm việc từ đủ 03 năm trở lên** ở vùng đặc biệt khó khăn (y tế, giáo dục, lĩnh vực cơ bản thiết yếu khác).",
+    "Điều 7: các trường hợp xét tuyển còn gồm **cử tuyển** (về công tác tại địa phương cử đi học), **sinh viên tốt nghiệp xuất sắc, người có tài năng** theo chính sách thu hút, và trường hợp khác theo pháp luật ngành.",
+    "Điều 8: điểm ưu tiên **cộng vào kết quả vòng 2**; mức **7,5** (Anh hùng, thương binh...), **5** (dân tộc thiểu số, con liệt sĩ, quân nhân phục viên...), **2,5** (hoàn thành nghĩa vụ quân sự, CAND...), **1,5** (cán bộ công đoàn trưởng thành từ cơ sở).",
+    "Điều 8 khoản 2: thuộc **nhiều diện** ưu tiên chỉ được cộng điểm ưu tiên **cao nhất**.",
+    "Điều 9: Hội đồng tuyển dụng có **05 hoặc 07** thành viên; Chủ tịch là **người đứng đầu hoặc cấp phó** cơ quan có thẩm quyền; Phó Chủ tịch là người phụ trách tổ chức cán bộ; Ủy viên kiêm Thư ký.",
+    "Điều 9 khoản 3: Hội đồng làm việc tập thể, quyết định **theo đa số**, **ngang phiếu theo ý kiến Chủ tịch**, tự giải thể sau khi hoàn thành nhiệm vụ.",
+    "Điều 9 khoản 4: không bố trí người có quan hệ vợ chồng, cha mẹ, con, anh chị em ruột... với người dự tuyển; người đang bị xử lý kỷ luật; người đã bị xử lý về tham nhũng, tiêu cực trong công tác cán bộ.",
+    "Điều 13: xét tuyển **2 vòng**; vòng 1 kiểm tra điều kiện tại Phiếu đăng ký dự tuyển; vòng 2 vấn đáp hoặc thực hành, **thang 100 điểm**; vấn đáp **30 phút**, chuẩn bị **không quá 15 phút**.",
+    "Điều 13 khoản 3: **không kiểm tra ngoại ngữ** khi xét tuyển, trừ khi cơ quan quyết định.",
+    "Điều 14: trúng tuyển khi điểm vòng 2 **từ 50 điểm trở lên** và điểm vòng 2 + ưu tiên cao hơn trong chỉ tiêu; bằng điểm thì người có điểm vòng 2 cao hơn; **không bảo lưu** kết quả."
+   ],
+   "bay": [
+    "⚠ Mức ưu tiên **7,5 / 5 / 2,5 / 1,5**: dễ đánh tráo mức giữa các đối tượng.",
+    "⚠ Nhiều diện ưu tiên: **cao nhất**, không cộng dồn, không phải thấp nhất.",
+    "⚠ Vấn đáp **30 phút** ≠ chuẩn bị **không quá 15 phút**; 'từ 50 điểm trở lên' ≠ 'trên 50 điểm'.",
+    "⚠ Chủ tịch Hội đồng (người đứng đầu/cấp phó) ≠ Phó Chủ tịch (người phụ trách tổ chức cán bộ); ngang phiếu theo ý kiến **Chủ tịch**."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Theo khoản 1 Điều 7, người cam kết tình nguyện làm việc ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn được xét tuyển khi cam kết làm việc từ bao lâu?",
+     "o": [
+      "Từ đủ 02 năm trở lên",
+      "Từ đủ 05 năm trở lên",
+      "Từ đủ 03 năm trở lên",
+      "Dưới 03 năm"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Điều 7 khoản 1: từ đủ 03 năm trở lên, trong lĩnh vực y tế, giáo dục và lĩnh vực cơ bản thiết yếu khác.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 7 khoản 1"
+    },
+    {
+     "t": "s",
+     "q": "Phát biểu nào sau đây đúng về trường hợp xét tuyển theo Điều 7?",
+     "o": [
+      "Người học theo chế độ cử tuyển, sau tốt nghiệp về công tác tại địa phương cử đi học được xét tuyển",
+      "Người học theo chế độ cử tuyển được chọn nơi công tác tùy ý sau tốt nghiệp",
+      "Chỉ người cam kết làm việc ở vùng đặc biệt khó khăn mới được xét tuyển, không có trường hợp nào khác",
+      "Mọi sinh viên tốt nghiệp loại giỏi đều được xét tuyển"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Khoản 2: cử tuyển, về công tác tại địa phương cử đi học. Khoản 3 là sinh viên tốt nghiệp xuất sắc (không phải loại giỏi); khoản 4 còn trường hợp khác theo pháp luật ngành.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 7 khoản 2, 3, 4"
+    },
+    {
+     "t": "s",
+     "q": "Đối tượng nào sau đây được cộng 7,5 điểm ưu tiên theo Điều 8?",
+     "o": [
+      "Người hoàn thành nghĩa vụ quân sự",
+      "Người dân tộc thiểu số",
+      "Cán bộ công đoàn trưởng thành từ cơ sở",
+      "Thương binh"
+     ],
+     "a": [
+      3
+     ],
+     "e": "7,5 điểm: Anh hùng LLVTND, Anh hùng Lao động, thương binh...; dân tộc thiểu số là 5; hoàn thành nghĩa vụ quân sự là 2,5; cán bộ công đoàn là 1,5.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 8 khoản 1"
+    },
+    {
+     "t": "s",
+     "q": "Người dân tộc thiểu số được cộng bao nhiêu điểm ưu tiên?",
+     "o": [
+      "7,5 điểm",
+      "5 điểm",
+      "2,5 điểm",
+      "1,5 điểm"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Dân tộc thiểu số thuộc nhóm 5 điểm (cùng con liệt sĩ, quân nhân phục viên...). Bẫy: nhầm mức 7,5 hoặc 2,5.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 8 khoản 1 điểm b"
+    },
+    {
+     "t": "s",
+     "q": "Điểm ưu tiên theo Điều 8 được cộng vào kết quả của vòng nào?",
+     "o": [
+      "Cả vòng 1 và vòng 2",
+      "Chỉ phần thi ngoại ngữ",
+      "Vòng 2",
+      "Vòng 1"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Điểm ưu tiên cộng vào kết quả vòng 2 (không cộng vào vòng 1).",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 8"
+    },
+    {
+     "t": "s",
+     "q": "Người thuộc nhiều diện ưu tiên theo Điều 8 thì được cộng điểm ưu tiên như thế nào?",
+     "o": [
+      "Chỉ được cộng một mức điểm ưu tiên cao nhất",
+      "Được chọn bất kỳ một mức do mình đề nghị, kể cả mức thấp hơn rồi cộng thêm mức khác",
+      "Được cộng dồn tất cả các mức",
+      "Chỉ được cộng mức thấp nhất"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Khoản 2: nhiều diện thì chỉ cộng mức cao nhất vào kết quả vòng 2.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 8 khoản 2"
+    },
+    {
+     "t": "s",
+     "q": "Hội đồng tuyển dụng viên chức có số lượng thành viên là bao nhiêu?",
+     "o": [
+      "07 hoặc 09 thành viên",
+      "03 hoặc 05 thành viên",
+      "Từ 05 đến 09 thành viên tùy ý",
+      "05 hoặc 07 thành viên"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Điều 9: 05 hoặc 07 thành viên.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 9 khoản 1, 2"
+    },
+    {
+     "t": "s",
+     "q": "Ai là Chủ tịch Hội đồng tuyển dụng?",
+     "o": [
+      "Đại diện cơ quan cấp trên bất kỳ",
+      "Người đứng đầu hoặc cấp phó của cơ quan, đơn vị có thẩm quyền tuyển dụng",
+      "Người phụ trách tổ chức cán bộ",
+      "Ủy viên kiêm Thư ký của Hội đồng"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Chủ tịch là người đứng đầu hoặc cấp phó; người phụ trách tổ chức cán bộ làm Phó Chủ tịch; Ủy viên kiêm Thư ký.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 9 khoản 1, 2"
+    },
+    {
+     "t": "s",
+     "q": "Khi các ý kiến biểu quyết trong Hội đồng tuyển dụng ngang phiếu nhau thì xử lý thế nào?",
+     "o": [
+      "Thực hiện theo ý kiến của Phó Chủ tịch",
+      "Biểu quyết lại cho đến khi đa số",
+      "Thực hiện theo ý kiến của Chủ tịch Hội đồng",
+      "Báo cáo cơ quan cấp trên quyết định"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Khoản 3: làm việc tập thể, quyết định theo đa số; ngang phiếu thì theo ý kiến Chủ tịch.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 9 khoản 3"
+    },
+    {
+     "t": "s",
+     "q": "Theo Điều 13, thời gian chuẩn bị tối đa của thí sinh khi vấn đáp ở vòng 2 xét tuyển là bao nhiêu?",
+     "o": [
+      "Không quá 15 phút",
+      "Không quá 20 phút",
+      "Không quá 30 phút",
+      "Không quá 10 phút"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Vấn đáp 30 phút (thời gian trả lời), chuẩn bị không quá 15 phút. Bẫy: đánh tráo hai con số.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 13"
+    },
+    {
+     "t": "s",
+     "q": "Điều kiện trúng tuyển trong xét tuyển theo Điều 14 là gì?",
+     "o": [
+      "Điểm vòng 2 trên 50 điểm, không tính điểm ưu tiên",
+      "Điểm vòng 1 cao nhất trong chỉ tiêu",
+      "Điểm vòng 2 từ 70 điểm trở lên",
+      "Điểm vòng 2 từ 50 điểm trở lên và điểm vòng 2 cộng ưu tiên cao hơn trong chỉ tiêu"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Điều 14: 'từ 50 điểm trở lên' (bao gồm 50), cộng ưu tiên, lấy cao xuống thấp trong chỉ tiêu. Bẫy: 'trên 50' loại 50 điểm.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 14"
+    },
+    {
+     "t": "s",
+     "q": "Trong xét tuyển viên chức, việc kiểm tra ngoại ngữ được thực hiện như thế nào?",
+     "o": [
+      "Do thí sinh tự chọn có kiểm tra hay không",
+      "Không kiểm tra, trừ khi cơ quan có thẩm quyền quyết định",
+      "Luôn bắt buộc kiểm tra ở vòng 2",
+      "Luôn bắt buộc kiểm tra ở vòng 1"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Điều 13 khoản 3: không kiểm tra ngoại ngữ khi xét tuyển, trừ khi cơ quan quyết định.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 13 khoản 3"
+    },
+    {
+     "t": "m",
+     "q": "Những đối tượng nào được cộng 5 điểm ưu tiên (chọn tất cả đáp án đúng)",
+     "o": [
+      "Con liệt sĩ",
+      "Cán bộ công đoàn trưởng thành từ cơ sở (1,5 điểm)",
+      "Người dân tộc thiểu số",
+      "Người hoàn thành nghĩa vụ quân sự (2,5 điểm)",
+      "Sĩ quan quân đội phục viên"
+     ],
+     "a": [
+      0,
+      2,
+      4
+     ],
+     "e": "Ba đối tượng đầu thuộc nhóm 5 điểm; hai đối tượng sau ở mức 2,5 và 1,5.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 8 khoản 1"
+    },
+    {
+     "t": "m",
+     "q": "Các trường hợp xét tuyển theo Điều 7 gồm (chọn tất cả đáp án đúng)",
+     "o": [
+      "Mọi người đang làm hợp đồng lao động tại đơn vị",
+      "Sinh viên tốt nghiệp xuất sắc, người có tài năng thuộc chính sách thu hút",
+      "Người có kinh nghiệm giảng dạy trên 05 năm",
+      "Người học theo chế độ cử tuyển",
+      "Người cam kết làm việc từ đủ 03 năm ở vùng đặc biệt khó khăn"
+     ],
+     "a": [
+      1,
+      3,
+      4
+     ],
+     "e": "Khoản 1, 2, 3 Điều 7; hai phương án nhiễu không có trong điều luật.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 7"
+    },
+    {
+     "t": "m",
+     "q": "Những người nào KHÔNG được bố trí làm thành viên Hội đồng tuyển dụng (chọn tất cả đáp án đúng)",
+     "o": [
+      "Người có quan hệ vợ hoặc chồng với người dự tuyển",
+      "Người đang trong thời hạn xử lý kỷ luật hoặc thi hành kỷ luật",
+      "Người đã bị xử lý về tham nhũng, tiêu cực trong công tác cán bộ",
+      "Người có quan hệ cha mẹ, con, anh chị em ruột với người dự tuyển",
+      "Người có kinh nghiệm tham gia Hội đồng tuyển dụng trước đây"
+     ],
+     "a": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "e": "Khoản 4 Điều 9 nêu các trường hợp đầu; kinh nghiệm trước đây không phải lý do loại trừ.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 9 khoản 4"
+    },
+    {
+     "t": "m",
+     "q": "Phát biểu đúng về Hội đồng tuyển dụng (chọn tất cả đáp án đúng)",
+     "o": [
+      "Làm việc tập thể",
+      "Hội đồng tồn tại cố định cho các kỳ tuyển dụng sau",
+      "Quyết định theo đa số",
+      "Tự giải thể sau khi hoàn thành nhiệm vụ",
+      "Chủ tịch quyết định riêng mọi vấn đề, không cần biểu quyết"
+     ],
+     "a": [
+      0,
+      2,
+      3
+     ],
+     "e": "Khoản 3 Điều 9: tập thể, đa số, ngang phiếu theo Chủ tịch, tự giải thể khi xong nhiệm vụ.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 9 khoản 3"
+    },
+    {
+     "t": "f",
+     "q": "Anh hùng Lực lượng vũ trang nhân dân, thương binh được cộng ____ điểm ưu tiên.",
+     "a": [
+      [
+       "7,5",
+       "7.5"
+      ]
+     ],
+     "e": "Mức cao nhất là 7,5 điểm.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 8 khoản 1 điểm a",
+     "o": [
+      [
+       "5"
+      ],
+      [
+       "10"
+      ],
+      [
+       "7,5"
+      ],
+      [
+       "2,5"
+      ]
+     ],
+     "k": 2
+    },
+    {
+     "t": "f",
+     "q": "Người dân tộc thiểu số được cộng ____ điểm ưu tiên vào kết quả vòng ____.",
+     "a": [
+      [
+       "5",
+       "năm"
+      ],
+      [
+       "2",
+       "hai"
+      ]
+     ],
+     "e": "5 điểm, cộng vào vòng 2.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 8 khoản 1, 2",
+     "o": [
+      [
+       "5",
+       "1"
+      ],
+      [
+       "2,5",
+       "2"
+      ],
+      [
+       "10",
+       "2"
+      ],
+      [
+       "5",
+       "2"
+      ]
+     ],
+     "k": 3
+    },
+    {
+     "t": "f",
+     "q": "Người hoàn thành nghĩa vụ quân sự được cộng ____ điểm, cán bộ công đoàn trưởng thành từ cơ sở được cộng ____ điểm.",
+     "a": [
+      [
+       "2,5",
+       "2.5"
+      ],
+      [
+       "1,5",
+       "1.5"
+      ]
+     ],
+     "e": "Điểm c: 2,5; điểm d: 1,5.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 8 khoản 1 điểm c, d",
+     "o": [
+      [
+       "1,5",
+       "2,5"
+      ],
+      [
+       "2,5",
+       "1,5"
+      ],
+      [
+       "2,5",
+       "2"
+      ],
+      [
+       "1,5",
+       "1,5"
+      ]
+     ],
+     "k": 1
+    },
+    {
+     "t": "f",
+     "q": "Hội đồng tuyển dụng có ____ hoặc ____ thành viên.",
+     "a": [
+      [
+       "05",
+       "5",
+       "năm"
+      ],
+      [
+       "07",
+       "7",
+       "bảy"
+      ]
+     ],
+     "e": "05 hoặc 07 thành viên.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 9 khoản 1, 2",
+     "o": [
+      [
+       "05",
+       "07"
+      ],
+      [
+       "05",
+       "09"
+      ],
+      [
+       "03",
+       "07"
+      ],
+      [
+       "07",
+       "09"
+      ]
+     ],
+     "k": 0
+    },
+    {
+     "t": "f",
+     "q": "Người thuộc nhiều diện ưu tiên chỉ được cộng điểm ưu tiên ____ nhất.",
+     "a": [
+      [
+       "cao"
+      ]
+     ],
+     "e": "Chỉ cộng mức cao nhất.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 8 khoản 2",
+     "o": [
+      [
+       "thấp"
+      ],
+      [
+       "cao"
+      ],
+      [
+       "trung bình"
+      ],
+      [
+       "tối đa"
+      ]
+     ],
+     "k": 1
+    },
+    {
+     "t": "f",
+     "q": "Khi xét tuyển, không kiểm tra ____, trừ khi cơ quan có thẩm quyền quyết định.",
+     "a": [
+      [
+       "ngoại ngữ"
+      ]
+     ],
+     "e": "Điều 13 khoản 3.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 13 khoản 3",
+     "o": [
+      [
+       "tin học"
+      ],
+      [
+       "kiến thức chung"
+      ],
+      [
+       "trình độ đào tạo"
+      ],
+      [
+       "ngoại ngữ"
+      ]
+     ],
+     "k": 3
+    },
+    {
+     "t": "f",
+     "q": "Vòng 1 xét tuyển là kiểm tra điều kiện dự tuyển tại ____ đăng ký dự tuyển.",
+     "a": [
+      [
+       "phiếu"
+      ]
+     ],
+     "e": "Vòng 1 kiểm tra điều kiện tại Phiếu đăng ký dự tuyển.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 13",
+     "o": [
+      [
+       "đơn"
+      ],
+      [
+       "phiếu"
+      ],
+      [
+       "bản"
+      ],
+      [
+       "thông báo"
+      ]
+     ],
+     "k": 1
+    }
+   ],
+   "ynho": [
+    "Điểm ưu tiên cộng vào **vòng 2**: mức **7,5 / 5 / 2,5 / 1,5**.",
+    "Nhiều diện ưu tiên: chỉ cộng **cao nhất**.",
+    "Hội đồng tuyển dụng có **05 hoặc 07** thành viên.",
+    "Vấn đáp **30 phút**, chuẩn bị không quá **15 phút**; thang **100**.",
+    "Trúng tuyển khi vòng 2 **từ 50 điểm trở lên**; **không bảo lưu** kết quả."
+   ],
+   "bang": [
+    {
+     "tieu_de": "Điểm ưu tiên (Điều 8)",
+     "cot": [
+      "Mức điểm",
+      "Ví dụ đối tượng"
+     ],
+     "dong": [
+      [
+       "7,5",
+       "Anh hùng, thương binh..."
+      ],
+      [
+       "5",
+       "Dân tộc thiểu số, con liệt sĩ, quân nhân phục viên..."
+      ],
+      [
+       "2,5",
+       "Hoàn thành nghĩa vụ quân sự, CAND..."
+      ],
+      [
+       "1,5",
+       "Cán bộ công đoàn trưởng thành từ cơ sở"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Hội đồng tuyển dụng (Điều 9)",
+     "cot": [
+      "Chức danh",
+      "Ai đảm nhiệm"
+     ],
+     "dong": [
+      [
+       "Chủ tịch",
+       "Người đứng đầu hoặc cấp phó cơ quan có thẩm quyền"
+      ],
+      [
+       "Phó Chủ tịch",
+       "Người phụ trách tổ chức cán bộ"
+      ],
+      [
+       "Ủy viên kiêm Thư ký",
+       "Thành viên Hội đồng"
+      ],
+      [
+       "Số thành viên",
+       "05 hoặc 07"
+      ],
+      [
+       "Biểu quyết",
+       "Đa số; ngang phiếu theo ý kiến Chủ tịch"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Cô A là con liệt sĩ, đồng thời thuộc diện dân tộc thiểu số, dự xét tuyển vào trường THCS.",
+     "ket_luan": "→ Chỉ được cộng điểm ưu tiên cao nhất (Điều 8 khoản 2), không cộng dồn."
+    },
+    {
+     "tinh_huong": "Thầy B là thương binh dự xét tuyển, được cộng 7,5 điểm.",
+     "ket_luan": "→ Đúng: mức 7,5 dành cho Anh hùng, thương binh..., cộng vào kết quả vòng 2."
+    },
+    {
+     "tinh_huong": "Hội đồng tuyển dụng có 6 thành viên.",
+     "ket_luan": "→ Sai: Điều 9, Hội đồng có 05 hoặc 07 thành viên."
+    },
+    {
+     "tinh_huong": "Thầy C là anh ruột của một thí sinh và được bố trí vào Hội đồng.",
+     "ket_luan": "→ Vi phạm Điều 9 khoản 4: không bố trí người có quan hệ anh chị em ruột với người dự tuyển."
+    },
+    {
+     "tinh_huong": "Cô D vòng 2 đạt đúng 50 điểm và nằm trong chỉ tiêu.",
+     "ket_luan": "→ Đủ điều kiện: Điều 14, từ 50 điểm trở lên; nếu không trúng thì không bảo lưu kết quả."
+    }
+   ],
+   "nho": [
+    "Bậc thang ưu tiên 7,5 - 5 - 2,5 - 1,5 chia dần xuống.",
+    "Hội đồng lẻ: 05 hoặc 07, không có số chẵn nên ít khi ngang phiếu; nếu ngang thì nghe Chủ tịch.",
+    "Vấn đáp: 30 nói, 15 chuẩn bị - 'chuẩn bị bằng nửa thời gian nói'."
+   ]
+  },
+  {
+   "id": "L5-3",
+   "ten": "Thi tuyển viên chức: hai vòng thi và xác định trúng tuyển",
+   "tomtat": [
+    "Điều 11: thi tuyển gồm **02 vòng**.",
+    "Vòng 1 (khoản 1 điểm a): kiến thức chung, **trắc nghiệm trên máy tính, 60 câu, 60 phút**.",
+    "Vòng 1 (điểm b): ngoại ngữ theo thông báo tuyển dụng, trắc nghiệm máy tính, **số câu do Hội đồng quyết định**, thời gian **tối đa 60 phút**; có văn bằng/chứng chỉ được xác định đáp ứng thì **miễn**.",
+    "Vòng 1 (điểm c): trả lời đúng **từ 50% số câu trở lên của TỪNG phần** thì được dự vòng 2.",
+    "Vòng 2 (khoản 2): thi **môn nghiệp vụ chuyên ngành**; chọn **1 trong 2** hình thức: **thực hành**; hoặc **kết hợp viết và phỏng vấn**.",
+    "Vòng 2 (điểm c): thi viết **180 phút** (không kể chép đề); thi viết trên máy tính 60–120 câu trắc nghiệm, 90–180 phút; phỏng vấn **tối đa 30 phút** (chuẩn bị **không quá 15 phút**).",
+    "Vòng 2 (điểm d): thang điểm **100** cho thực hành, viết, phỏng vấn; kết hợp viết + phỏng vấn quy đổi thang 100 theo tỷ lệ **viết 70%, phỏng vấn 30%** (làm tròn 02 chữ số thập phân).",
+    "Điều 11 khoản 3: yêu cầu đặc thù cao hơn phải ghi trong **Kế hoạch và Thông báo tuyển dụng**.",
+    "Điều 12 khoản 1: trúng tuyển khi điểm nghiệp vụ **từ 50 điểm trở lên** (kết hợp viết + phỏng vấn: dự đủ 2 bài, mỗi bài từ **50% điểm tối đa**) và điểm nghiệp vụ + ưu tiên cao hơn, lấy từ cao xuống thấp trong chỉ tiêu từng vị trí.",
+    "Điều 12 khoản 2: bằng điểm ở chỉ tiêu cuối: điểm nghiệp vụ cao hơn, rồi điểm bài viết vòng 2 cao hơn, vẫn bằng thì **người đứng đầu quyết định**.",
+    "Điều 12 khoản 4: không trúng tuyển thì **không được bảo lưu** kết quả."
+   ],
+   "bay": [
+    "⚠ Vòng 1 (kiến thức chung, ngoại ngữ) ≠ vòng 2 (nghiệp vụ chuyên ngành); '**từng** phần' ≠ 'tổng'.",
+    "⚠ Vòng 2: '**hoặc**' (thực hành hoặc viết+phỏng vấn), không phải bắt buộc cả ba.",
+    "⚠ Viết **70%**, phỏng vấn **30%**; phỏng vấn tối đa **30 phút**, chuẩn bị **15 phút** (dễ đảo).",
+    "⚠ 'từ 50 điểm **trở lên**' (gồm 50) ≠ 'trên 50'; thi viết 180 phút '**không kể** chép đề'."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Thi tuyển viên chức theo Điều 11 Nghị định 259/2026/NĐ-CP gồm mấy vòng?",
+     "o": [
+      "01 vòng",
+      "04 vòng",
+      "02 vòng",
+      "03 vòng"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Thi tuyển gồm vòng 1 (kiến thức chung, ngoại ngữ) và vòng 2 (nghiệp vụ chuyên ngành).",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 11"
+    },
+    {
+     "t": "s",
+     "q": "Phần thi kiến thức chung ở vòng 1 có bao nhiêu câu trắc nghiệm trên máy tính?",
+     "o": [
+      "60 câu",
+      "50 câu",
+      "120 câu",
+      "100 câu"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Kiến thức chung: 60 câu, 60 phút. Các số 60–120 là câu hỏi của thi viết trên máy tính ở vòng 2, nên dễ nhầm.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 11 khoản 1 điểm a"
+    },
+    {
+     "t": "s",
+     "q": "Phát biểu nào đúng về phần thi ngoại ngữ ở vòng 1?",
+     "o": [
+      "Thi viết trên giấy, 60 câu, 60 phút",
+      "Trắc nghiệm trên máy tính, đúng 60 câu, thời gian 90 phút",
+      "Phỏng vấn trực tiếp tối đa 30 phút",
+      "Trắc nghiệm trên máy tính, số câu do Hội đồng quyết định, thời gian tối đa 60 phút"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Điểm b khoản 1: ngoại ngữ theo thông báo tuyển dụng, trắc nghiệm máy tính, số câu do Hội đồng quyết định, tối đa 60 phút (không phải số câu cố định 60).",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 11 khoản 1 điểm b"
+    },
+    {
+     "t": "s",
+     "q": "Điều kiện để người dự tuyển được dự thi vòng 2 là gì?",
+     "o": [
+      "Chỉ cần đạt từ 50% ở phần kiến thức chung",
+      "Trả lời đúng từ 50% số câu trở lên của từng phần thi vòng 1",
+      "Trả lời đúng trên 50% tổng số câu của cả hai phần",
+      "Trả lời đúng từ 60% số câu của từng phần thi"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Điểm c khoản 1: từ 50% trở lên của TỪNG phần. Bẫy: 'tổng' thay 'từng', 'trên' thay 'từ...trở lên'.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 11 khoản 1 điểm c"
+    },
+    {
+     "t": "s",
+     "q": "Người dự tuyển được miễn thi ngoại ngữ ở vòng 1 trong trường hợp nào?",
+     "o": [
+      "Đã từng thi đạt vòng 1 ở kỳ tuyển dụng trước",
+      "Có tuổi đời trên 40",
+      "Có văn bằng hoặc chứng chỉ được xác định đáp ứng yêu cầu ngoại ngữ",
+      "Được người đứng đầu đơn vị đồng ý bằng văn bản vì thiếu người"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Điểm b khoản 1: có văn bằng/chứng chỉ được xác định đáp ứng thì miễn. Không bảo lưu kết quả kỳ trước (Điều 12 khoản 4).",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 11 khoản 1 điểm b"
+    },
+    {
+     "t": "s",
+     "q": "Hình thức thi vòng 2 môn nghiệp vụ chuyên ngành là gì?",
+     "o": [
+      "Chọn một trong hai: thực hành; hoặc kết hợp viết và phỏng vấn",
+      "Bắt buộc cả viết, phỏng vấn và thực hành",
+      "Chọn một trong hai: thực hành; hoặc trắc nghiệm trên máy tính kiến thức chung",
+      "Chỉ thi viết"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Khoản 2 điểm a: chọn 1 trong 2 hình thức. Bẫy: 'và' (bắt buộc cả ba) thay cho 'hoặc'.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 11 khoản 2 điểm a"
+    },
+    {
+     "t": "s",
+     "q": "Thời gian thi viết môn nghiệp vụ chuyên ngành ở vòng 2 là bao nhiêu?",
+     "o": [
+      "120 phút, không kể thời gian chép đề",
+      "180 phút, kể cả thời gian chép đề",
+      "90 phút, không kể thời gian chép đề",
+      "180 phút, không kể thời gian chép đề"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Thi viết 180 phút không kể chép đề. Thi viết trên máy tính là 60–120 câu trắc nghiệm, 90–180 phút.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 11 khoản 2 điểm c"
+    },
+    {
+     "t": "s",
+     "q": "Phát biểu nào đúng về phỏng vấn ở vòng 2?",
+     "o": [
+      "Thời gian phỏng vấn tối thiểu 30 phút, chuẩn bị không quá 15 phút",
+      "Thời gian phỏng vấn tối đa 30 phút, thời gian chuẩn bị không quá 15 phút",
+      "Thời gian phỏng vấn tối đa 15 phút, thời gian chuẩn bị không quá 30 phút",
+      "Thời gian phỏng vấn tối đa 60 phút, không có thời gian chuẩn bị"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Phỏng vấn tối đa 30 phút, chuẩn bị không quá 15 phút; bẫy đảo hai con số hoặc đổi 'tối đa' thành 'tối thiểu'.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 11 khoản 2 điểm c"
+    },
+    {
+     "t": "s",
+     "q": "Khi kết hợp thi viết và phỏng vấn ở vòng 2, kết quả được quy đổi theo thang 100 với tỷ lệ nào?",
+     "o": [
+      "Viết 30%, phỏng vấn 70%",
+      "Viết 50%, phỏng vấn 50%",
+      "Viết 70%, phỏng vấn 30%",
+      "Viết 60%, phỏng vấn 40%"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Điểm d khoản 2: viết 70%, phỏng vấn 30%, làm tròn 02 chữ số thập phân.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 11 khoản 2 điểm d"
+    },
+    {
+     "t": "s",
+     "q": "Khi bằng điểm ở chỉ tiêu cuối cùng, người nào được ưu tiên trúng tuyển trước tiên theo Điều 12?",
+     "o": [
+      "Người có điểm thi nghiệp vụ chuyên ngành cao hơn",
+      "Người có điểm ưu tiên cao hơn",
+      "Người có điểm vòng 1 cao hơn",
+      "Người nhiều tuổi hơn"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Khoản 2: ưu tiên điểm nghiệp vụ chuyên ngành cao hơn; sau đó điểm bài viết vòng 2 cao hơn (nếu kết hợp viết + phỏng vấn); vẫn bằng thì người đứng đầu quyết định.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 12 khoản 2"
+    },
+    {
+     "t": "s",
+     "q": "Người không trúng tuyển trong kỳ thi tuyển viên chức thì kết quả thi được xử lý thế nào?",
+     "o": [
+      "Được bảo lưu 01 năm",
+      "Được bảo lưu sang kỳ tuyển dụng kế tiếp tại cùng đơn vị",
+      "Được bảo lưu nếu điểm từ 50 trở lên",
+      "Không được bảo lưu kết quả"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Khoản 4 Điều 12: không trúng tuyển không được bảo lưu kết quả.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 12 khoản 4"
+    },
+    {
+     "t": "m",
+     "q": "Vòng 1 thi tuyển gồm các nội dung nào (chọn tất cả đáp án đúng)",
+     "o": [
+      "Phỏng vấn",
+      "Thực hành",
+      "Nghiệp vụ chuyên ngành",
+      "Kiến thức chung (trắc nghiệm trên máy tính)",
+      "Ngoại ngữ (trắc nghiệm trên máy tính)"
+     ],
+     "a": [
+      3,
+      4
+     ],
+     "e": "Vòng 1 gồm kiến thức chung và ngoại ngữ; nghiệp vụ chuyên ngành (thực hành hoặc viết + phỏng vấn) là vòng 2.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 11 khoản 1, 2"
+    },
+    {
+     "t": "m",
+     "q": "Điều kiện trúng tuyển thi tuyển theo Điều 12 gồm (chọn tất cả đáp án đúng)",
+     "o": [
+      "Chỉ cần tổng điểm viết và phỏng vấn đạt 50, dù có bài dưới 50% điểm tối đa",
+      "Điểm nghiệp vụ cộng điểm ưu tiên (nếu có) cao hơn, lấy từ cao xuống thấp trong chỉ tiêu từng vị trí",
+      "Điểm thi nghiệp vụ chuyên ngành từ 50 điểm trở lên",
+      "Nếu kết hợp viết và phỏng vấn thì phải dự đủ 2 bài, mỗi bài từ 50% điểm tối đa",
+      "Điểm vòng 1 cao nhất trong chỉ tiêu"
+     ],
+     "a": [
+      1,
+      2,
+      3
+     ],
+     "e": "Điểm a, b khoản 1. Bẫy: bài nào cũng phải từ 50% điểm tối đa, không chỉ tổng.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 12 khoản 1"
+    },
+    {
+     "t": "m",
+     "q": "Phát biểu đúng về vòng 2 thi tuyển (chọn tất cả đáp án đúng)",
+     "o": [
+      "Phỏng vấn chuẩn bị không quá 30 phút",
+      "Thi viết 150 phút không kể chép đề",
+      "Phỏng vấn tối đa 30 phút, chuẩn bị không quá 15 phút",
+      "Thực hành chấm theo thang 100 điểm",
+      "Thi viết và phỏng vấn đều chấm theo thang 100 điểm"
+     ],
+     "a": [
+      2,
+      3,
+      4
+     ],
+     "e": "Thang điểm 100 cho thực hành, viết, phỏng vấn; viết là 180 phút, chuẩn bị phỏng vấn là 15 phút.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 11 khoản 2"
+    },
+    {
+     "t": "m",
+     "q": "Về yêu cầu đặc thù cao hơn của vị trí việc làm, thông tin phải được ghi trong (chọn tất cả đáp án đúng)",
+     "o": [
+      "Phiếu đăng ký dự tuyển của thí sinh",
+      "Kế hoạch tuyển dụng",
+      "Hợp đồng làm việc",
+      "Quyết định công nhận trúng tuyển",
+      "Thông báo tuyển dụng"
+     ],
+     "a": [
+      1,
+      4
+     ],
+     "e": "Khoản 3 Điều 11: yêu cầu đặc thù cao hơn phải ghi trong Kế hoạch và Thông báo tuyển dụng.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 11 khoản 3"
+    },
+    {
+     "t": "m",
+     "q": "Khi bằng điểm ở chỉ tiêu cuối cùng, thứ tự xử lý đúng là (chọn tất cả đáp án đúng)",
+     "o": [
+      "Vẫn bằng điểm thì người đứng đầu quyết định",
+      "Ưu tiên người nhiều tuổi hơn",
+      "Ưu tiên người có điểm thi nghiệp vụ chuyên ngành cao hơn",
+      "Sau đó ưu tiên người có điểm bài viết vòng 2 cao hơn (nếu kết hợp viết và phỏng vấn)",
+      "Ưu tiên người có điểm vòng 1 cao hơn"
+     ],
+     "a": [
+      0,
+      2,
+      3
+     ],
+     "e": "Khoản 2 Điều 12 nêu ba bước đầu; điểm vòng 1 hay tuổi không phải tiêu chí.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 12 khoản 2"
+    },
+    {
+     "t": "f",
+     "q": "Phần thi kiến thức chung ở vòng 1 gồm ____ câu trắc nghiệm trên máy tính, thời gian ____ phút.",
+     "a": [
+      [
+       "60",
+       "sáu mươi"
+      ],
+      [
+       "60",
+       "sáu mươi"
+      ]
+     ],
+     "e": "60 câu, 60 phút.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 11 khoản 1 điểm a",
+     "o": [
+      [
+       "60",
+       "90"
+      ],
+      [
+       "60",
+       "60"
+      ],
+      [
+       "50",
+       "60"
+      ],
+      [
+       "50",
+       "90"
+      ]
+     ],
+     "k": 1
+    },
+    {
+     "t": "f",
+     "q": "Trả lời đúng từ ____% số câu trở lên của từng phần thi vòng 1 thì được dự thi vòng 2.",
+     "a": [
+      [
+       "50",
+       "năm mươi"
+      ]
+     ],
+     "e": "Từ 50% của từng phần.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 11 khoản 1 điểm c",
+     "o": [
+      [
+       "60"
+      ],
+      [
+       "50"
+      ],
+      [
+       "70"
+      ],
+      [
+       "80"
+      ]
+     ],
+     "k": 1
+    },
+    {
+     "t": "f",
+     "q": "Vòng 2 chọn một trong hai hình thức: thực hành; hoặc kết hợp ____ và ____.",
+     "a": [
+      [
+       "viết"
+      ],
+      [
+       "phỏng vấn"
+      ]
+     ],
+     "e": "Khoản 2 điểm a.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 11 khoản 2 điểm a",
+     "o": [
+      [
+       "viết",
+       "phỏng vấn"
+      ],
+      [
+       "viết",
+       "thực hành"
+      ],
+      [
+       "trắc nghiệm",
+       "phỏng vấn"
+      ],
+      [
+       "thực hành",
+       "phỏng vấn"
+      ]
+     ],
+     "k": 0
+    },
+    {
+     "t": "f",
+     "q": "Thi viết ở vòng 2 có thời gian ____ phút, không kể thời gian chép đề.",
+     "a": [
+      [
+       "180",
+       "một trăm tám mươi"
+      ]
+     ],
+     "e": "180 phút.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 11 khoản 2 điểm c",
+     "o": [
+      [
+       "120"
+      ],
+      [
+       "180"
+      ],
+      [
+       "90"
+      ],
+      [
+       "150"
+      ]
+     ],
+     "k": 1
+    },
+    {
+     "t": "f",
+     "q": "Khi kết hợp viết và phỏng vấn, điểm được quy đổi thang 100 theo tỷ lệ viết ____%, phỏng vấn ____%.",
+     "a": [
+      [
+       "70",
+       "bảy mươi"
+      ],
+      [
+       "30",
+       "ba mươi"
+      ]
+     ],
+     "e": "Viết 70%, phỏng vấn 30%.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 11 khoản 2 điểm d",
+     "o": [
+      [
+       "50",
+       "50"
+      ],
+      [
+       "60",
+       "40"
+      ],
+      [
+       "70",
+       "30"
+      ],
+      [
+       "40",
+       "60"
+      ]
+     ],
+     "k": 2
+    },
+    {
+     "t": "f",
+     "q": "Phỏng vấn tối đa ____ phút, thời gian chuẩn bị không quá ____ phút.",
+     "a": [
+      [
+       "30",
+       "ba mươi"
+      ],
+      [
+       "15",
+       "mười lăm"
+      ]
+     ],
+     "e": "Phỏng vấn tối đa 30 phút, chuẩn bị không quá 15 phút.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 11 khoản 2 điểm c",
+     "o": [
+      [
+       "45",
+       "15"
+      ],
+      [
+       "30",
+       "30"
+      ],
+      [
+       "30",
+       "15"
+      ],
+      [
+       "45",
+       "30"
+      ]
+     ],
+     "k": 2
+    },
+    {
+     "t": "f",
+     "q": "Người không trúng tuyển thi tuyển không được ____ kết quả thi.",
+     "a": [
+      [
+       "bảo lưu"
+      ]
+     ],
+     "e": "Khoản 4 Điều 12.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 12 khoản 4",
+     "o": [
+      [
+       "phúc khảo"
+      ],
+      [
+       "công nhận"
+      ],
+      [
+       "thay đổi"
+      ],
+      [
+       "bảo lưu"
+      ]
+     ],
+     "k": 3
+    }
+   ],
+   "ynho": [
+    "Thi tuyển viên chức có **02 vòng**.",
+    "Vòng 1: kiến thức chung **60 câu, 60 phút**; đúng từ **50% từng phần** vào vòng 2.",
+    "Vòng 2: **một trong hai** hình thức: thực hành hoặc viết + phỏng vấn.",
+    "Viết **70%**, phỏng vấn **30%** (thang 100).",
+    "Trúng tuyển: từ **50 điểm trở lên**, **không bảo lưu**."
+   ],
+   "bang": [
+    {
+     "tieu_de": "Hai vòng thi",
+     "cot": [
+      "Nội dung",
+      "Vòng 1",
+      "Vòng 2"
+     ],
+     "dong": [
+      [
+       "Môn",
+       "Kiến thức chung; ngoại ngữ",
+       "Nghiệp vụ chuyên ngành"
+      ],
+      [
+       "Hình thức",
+       "Trắc nghiệm máy tính",
+       "Thực hành, hoặc viết + phỏng vấn"
+      ],
+      [
+       "Thời gian",
+       "Kiến thức chung 60 phút; ngoại ngữ tối đa 60 phút",
+       "Viết 180 phút; phỏng vấn tối đa 30 phút (chuẩn bị 15 phút)"
+      ],
+      [
+       "Điều kiện/điểm",
+       "Đúng từ 50% từng phần",
+       "Thang điểm 100"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Tỷ lệ kết hợp",
+     "cot": [
+      "Bài thi",
+      "Tỷ lệ"
+     ],
+     "dong": [
+      [
+       "Viết",
+       "70%"
+      ],
+      [
+       "Phỏng vấn",
+       "30%"
+      ],
+      [
+       "Làm tròn",
+       "02 chữ số thập phân"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Thí sinh A đạt 60% số câu kiến thức chung nhưng 45% số câu ngoại ngữ.",
+     "ket_luan": "→ Không được vào vòng 2: phải đúng từ 50% số câu của từng phần."
+    },
+    {
+     "tinh_huong": "Hội đồng bắt thí sinh B thi cả thực hành lẫn thi viết lẫn phỏng vấn.",
+     "ket_luan": "→ Sai: Điều 11 khoản 2, chọn một trong hai hình thức: thực hành hoặc kết hợp viết và phỏng vấn."
+    },
+    {
+     "tinh_huong": "Thí sinh C thi viết đạt 80, phỏng vấn đạt 60.",
+     "ket_luan": "→ Điểm nghiệp vụ = 80x70% + 60x30% = 74 điểm."
+    },
+    {
+     "tinh_huong": "Thí sinh D có điểm nghiệp vụ đúng 50 điểm, trong chỉ tiêu.",
+     "ket_luan": "→ Đủ điều kiện: Điều 12 khoản 1, từ 50 điểm trở lên."
+    },
+    {
+     "tinh_huong": "Thí sinh E không trúng tuyển, xin bảo lưu kết quả cho kỳ sau.",
+     "ket_luan": "→ Không được: Điều 12 khoản 4, không bảo lưu kết quả."
+    }
+   ],
+   "nho": [
+    "Vòng 1 'chung' (kiến thức, ngoại ngữ), vòng 2 'riêng' (nghiệp vụ chuyên ngành).",
+    "Viết 7 - phỏng vấn 3: bài viết 'nặng' hơn.",
+    "Viết 180 (không kể chép đề); phỏng vấn 30 + chuẩn bị 15."
+   ]
+  },
+  {
+   "id": "L5-4",
+   "ten": "Xếp lương, quy trình sau thi, hợp đồng làm việc và bố trí vị trí việc làm",
+   "tomtat": [
+    "Điều 10 khoản 1: tuyển vào bậc nghề nghiệp nào thì xếp mức lương **khởi điểm** của bậc đó.",
+    "Điều 10 khoản 2: người có thời gian công tác phù hợp chuyên môn, có đóng **bảo hiểm xã hội bắt buộc** thì **người đứng đầu** quyết định xếp bậc lương phù hợp.",
+    "Điều 10 khoản 4: **Bộ Nội vụ** hướng dẫn việc xếp lương.",
+    "Điều 19: Hội đồng báo cáo trong **05 ngày làm việc** kể từ chấm xong vòng 2 (kể cả phúc khảo); người đứng đầu phê duyệt trong **05 ngày làm việc**; công khai danh sách trúng tuyển chậm nhất **02 ngày làm việc** kể từ khi có quyết định phê duyệt.",
+    "Điều 20 khoản 1: hoàn thiện hồ sơ chậm nhất **15 ngày** kể từ ngày công khai danh sách (bản sao văn bằng, chứng chỉ **không gồm** chứng chỉ tin học, ngoại ngữ; giấy tờ ưu tiên).",
+    "Điều 20 khoản 3: không hoàn thiện hồ sơ, gian lận kê khai, dùng văn bằng sai quy định, hoặc không đến nhận việc đúng thỏa thuận thì **đương nhiên bị xóa tên**; gian lận kê khai/văn bằng sai thì không được tiếp nhận Phiếu đăng ký trong **01 kỳ** tuyển dụng tiếp theo.",
+    "Điều 21: trong **03 ngày làm việc** từ khi hoàn thiện hồ sơ gửi kết quả đến đơn vị sử dụng; chậm nhất **05 ngày làm việc** ký hợp đồng làm việc; hợp đồng làm việc **có giá trị như quyết định tuyển dụng**.",
+    "Điều 22: hợp đồng làm việc **xác định thời hạn** (theo pháp luật lao động) và **không xác định thời hạn**.",
+    "Điều 23 khoản 2: viên chức tuyển từ 01/7/2020 đến 01/7/2026 đã ký hợp đồng xác định thời hạn **từ 02 lần trở lên** thì sau hợp đồng lần 2 được ký hợp đồng không xác định thời hạn **nếu đáp ứng yêu cầu vị trí và đơn vị còn nhu cầu**.",
+    "Điều 23 khoản 4: chuyển đơn vị sự nghiệp khác được cấp có thẩm quyền đồng ý thì **không tuyển dụng mới, không giải quyết thôi việc**, ký hợp đồng làm việc mới.",
+    "Điều 24, 25: bố trí vào bậc nghề nghiệp phù hợp năng lực, trình độ, kinh nghiệm; thay đổi bậc nghề nghiệp là xếp vào bậc **cao hơn hoặc thấp hơn trong cùng vị trí việc làm**."
+   ],
+   "bay": [
+    "⚠ Lương **khởi điểm** của bậc, không phải bậc cao nhất; BHXH **bắt buộc**, không phải tự nguyện.",
+    "⚠ Các mốc thời gian: **05 ngày làm việc** (báo cáo, phê duyệt, ký hợp đồng) / **02 ngày làm việc** (công khai) / **03 ngày làm việc** (gửi kết quả) / **15 ngày** (hoàn thiện hồ sơ).",
+    "⚠ Hợp đồng làm việc **có giá trị như quyết định tuyển dụng**; ký hợp đồng không xác định thời hạn là '**được ký nếu đáp ứng**', không phải 'đương nhiên'.",
+    "⚠ Hồ sơ hoàn thiện **không gồm** chứng chỉ tin học, ngoại ngữ; gian lận chỉ bị chặn **01 kỳ** tiếp theo."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Theo khoản 1 Điều 10, người được tuyển vào vị trí ở một bậc nghề nghiệp thì được xếp mức lương nào?",
+     "o": [
+      "Mức lương của bậc thấp hơn liền kề",
+      "Mức lương cao nhất của bậc nghề nghiệp đó",
+      "Mức lương khởi điểm của bậc nghề nghiệp đó",
+      "Mức lương bậc 2 của bậc nghề nghiệp đó"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Khoản 1: xếp mức lương khởi điểm của bậc nghề nghiệp ở vị trí được tuyển.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 10 khoản 1"
+    },
+    {
+     "t": "s",
+     "q": "Phát biểu nào đúng về xếp lương theo khoản 2 Điều 10 đối với người có thời gian công tác trước đây?",
+     "o": [
+      "Thời gian công tác phù hợp yêu cầu chuyên môn, có đóng bảo hiểm xã hội bắt buộc thì người đứng đầu quyết định xếp bậc lương phù hợp",
+      "Cơ quan cấp trên bắt buộc xếp mức lương cao nhất của bậc",
+      "Mọi thời gian công tác trước đây đều được tính, kể cả không đóng bảo hiểm xã hội",
+      "Chỉ tính thời gian đóng bảo hiểm xã hội tự nguyện"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Khoản 2: thời gian công tác đúng quy định, phù hợp chuyên môn, có đóng BHXH bắt buộc. Bẫy: 'tự nguyện' thay 'bắt buộc'.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 10 khoản 2"
+    },
+    {
+     "t": "s",
+     "q": "Cơ quan nào hướng dẫn việc xếp lương đối với viên chức theo khoản 4 Điều 10?",
+     "o": [
+      "Bộ Giáo dục và Đào tạo",
+      "Bộ Tài chính",
+      "Chính phủ",
+      "Bộ Nội vụ"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Khoản 4 Điều 10: Bộ Nội vụ hướng dẫn việc xếp lương.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 10 khoản 4"
+    },
+    {
+     "t": "s",
+     "q": "Hội đồng tuyển dụng tổng hợp và báo cáo kết quả trong thời hạn nào kể từ khi chấm xong vòng 2 (kể cả phúc khảo)?",
+     "o": [
+      "03 ngày làm việc",
+      "05 ngày làm việc",
+      "10 ngày làm việc",
+      "05 ngày (không phải ngày làm việc)"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Điều 19: 05 ngày làm việc; người đứng đầu phê duyệt trong 05 ngày làm việc.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 19"
+    },
+    {
+     "t": "s",
+     "q": "Danh sách người trúng tuyển phải được thông báo công khai chậm nhất bao lâu kể từ khi có quyết định phê duyệt?",
+     "o": [
+      "05 ngày làm việc",
+      "15 ngày",
+      "02 ngày làm việc",
+      "03 ngày làm việc"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Điều 19: công khai chậm nhất 02 ngày làm việc kể từ khi có quyết định phê duyệt. 15 ngày là thời hạn hoàn thiện hồ sơ.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 19"
+    },
+    {
+     "t": "s",
+     "q": "Người trúng tuyển phải hoàn thiện hồ sơ chậm nhất trong thời hạn nào?",
+     "o": [
+      "15 ngày kể từ ngày công khai danh sách trúng tuyển",
+      "15 ngày làm việc kể từ ngày có quyết định phê duyệt",
+      "10 ngày kể từ ngày công khai danh sách",
+      "30 ngày kể từ ngày công khai danh sách"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Khoản 1 Điều 20: 15 ngày kể từ ngày công khai danh sách. Bẫy: mốc thời gian và 'ngày làm việc'.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 20 khoản 1"
+    },
+    {
+     "t": "s",
+     "q": "Trong vòng bao nhiêu ngày làm việc kể từ khi người trúng tuyển hoàn thiện hồ sơ, kết quả được gửi đến đơn vị sử dụng viên chức?",
+     "o": [
+      "02 ngày làm việc",
+      "15 ngày làm việc",
+      "05 ngày làm việc",
+      "03 ngày làm việc"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Điều 21 khoản 1: 03 ngày làm việc gửi kết quả; sau đó chậm nhất 05 ngày làm việc ký hợp đồng làm việc.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 21 khoản 1"
+    },
+    {
+     "t": "s",
+     "q": "Hợp đồng làm việc ký với người trúng tuyển có giá trị như thế nào?",
+     "o": [
+      "Chỉ là thỏa thuận thử việc",
+      "Có giá trị như quyết định tuyển dụng",
+      "Chỉ có giá trị khi được cơ quan cấp trên ra quyết định bổ sung",
+      "Có giá trị như quyết định bổ nhiệm vào ngạch"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Khoản 2 Điều 21: hợp đồng làm việc có giá trị như quyết định tuyển dụng.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 21 khoản 2"
+    },
+    {
+     "t": "s",
+     "q": "Người gian lận kê khai hoặc dùng văn bằng sai quy định thì bị xử lý thế nào về việc đăng ký dự tuyển?",
+     "o": [
+      "Bị cấm đăng ký dự tuyển vĩnh viễn",
+      "Chỉ bị nhắc nhở, vẫn được đăng ký kỳ sau",
+      "Bị xóa tên khỏi danh sách trúng tuyển và không được tiếp nhận Phiếu đăng ký trong 01 kỳ tuyển dụng tiếp theo",
+      "Không được tiếp nhận Phiếu đăng ký trong 02 kỳ tuyển dụng tiếp theo"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Khoản 3 Điều 20: đương nhiên bị xóa tên; gian lận kê khai/văn bằng sai thì không được tiếp nhận phiếu trong 01 kỳ tiếp theo.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 20 khoản 3"
+    },
+    {
+     "t": "s",
+     "q": "Viên chức tuyển từ 01/7/2020 đến 01/7/2026 đã ký hợp đồng xác định thời hạn từ 02 lần trở lên thì sau khi hết hợp đồng lần 2 được xử lý thế nào theo khoản 2 Điều 23?",
+     "o": [
+      "Được ký hợp đồng không xác định thời hạn nếu đáp ứng yêu cầu vị trí và đơn vị còn nhu cầu",
+      "Đương nhiên được ký hợp đồng không xác định thời hạn, không cần điều kiện nào khác",
+      "Phải thi tuyển lại",
+      "Hợp đồng chấm dứt, không được ký tiếp"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Có điều kiện: đáp ứng yêu cầu vị trí và đơn vị còn nhu cầu; không phải 'đương nhiên'.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 23 khoản 2"
+    },
+    {
+     "t": "s",
+     "q": "Theo Điều 25, thay đổi bậc nghề nghiệp của vị trí việc làm là gì?",
+     "o": [
+      "Chuyển sang vị trí việc làm khác của đơn vị khác",
+      "Chuyển sang đơn vị sự nghiệp khác mà không cần quyết định",
+      "Chỉ nâng lên bậc cao hơn, không có trường hợp xuống bậc thấp hơn",
+      "Xếp vào bậc nghề nghiệp khác (cao hơn hoặc thấp hơn) trong cùng vị trí việc làm theo quyết định của cấp có thẩm quyền"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Điều 25: bậc khác (cao hơn hoặc thấp hơn) trong cùng vị trí việc làm; xếp bậc nào hưởng lương bậc đó.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 25 khoản 1"
+    },
+    {
+     "t": "m",
+     "q": "Các trường hợp đương nhiên bị xóa tên khỏi danh sách trúng tuyển gồm (chọn tất cả đáp án đúng)",
+     "o": [
+      "Không đến nhận việc đúng thỏa thuận",
+      "Không hoàn thiện hồ sơ",
+      "Có điểm thấp nhất trong số những người trúng tuyển",
+      "Gian lận trong kê khai",
+      "Sử dụng văn bằng sai quy định"
+     ],
+     "a": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "e": "Khoản 3 Điều 20; điểm thấp nhất trong số trúng tuyển không phải căn cứ xóa tên.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 20 khoản 3"
+    },
+    {
+     "t": "m",
+     "q": "Hồ sơ hoàn thiện của người trúng tuyển theo khoản 1 Điều 20 gồm (chọn tất cả đáp án đúng)",
+     "o": [
+      "Chứng chỉ tin học",
+      "Bản sao văn bằng, chứng chỉ",
+      "Giấy tờ chứng minh đối tượng ưu tiên (nếu có)",
+      "Chứng chỉ ngoại ngữ"
+     ],
+     "a": [
+      1,
+      2
+     ],
+     "e": "Khoản 1: bản sao văn bằng, chứng chỉ không gồm chứng chỉ tin học, ngoại ngữ; cộng giấy tờ ưu tiên.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 20 khoản 1"
+    },
+    {
+     "t": "m",
+     "q": "Các loại hợp đồng làm việc theo Điều 22 gồm (chọn tất cả đáp án đúng)",
+     "o": [
+      "Hợp đồng tập sự",
+      "Hợp đồng làm việc xác định thời hạn",
+      "Hợp đồng làm việc không xác định thời hạn",
+      "Hợp đồng thử việc"
+     ],
+     "a": [
+      1,
+      2
+     ],
+     "e": "Điều 22 chỉ nêu hợp đồng xác định thời hạn (theo pháp luật lao động) và không xác định thời hạn.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 22"
+    },
+    {
+     "t": "m",
+     "q": "Viên chức chuyển sang đơn vị sự nghiệp khác được cấp có thẩm quyền đồng ý thì (chọn tất cả đáp án đúng)",
+     "o": [
+      "Không giải quyết thôi việc",
+      "Không phải tuyển dụng mới",
+      "Phải thi tuyển lại như người dự tuyển mới",
+      "Ký hợp đồng làm việc mới",
+      "Phải chấm dứt vĩnh viễn quan hệ viên chức"
+     ],
+     "a": [
+      0,
+      1,
+      3
+     ],
+     "e": "Khoản 4 Điều 23.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 23 khoản 4"
+    },
+    {
+     "t": "m",
+     "q": "Phát biểu đúng về thay đổi bậc nghề nghiệp theo Điều 25 (chọn tất cả đáp án đúng)",
+     "o": [
+      "Xếp vào bậc khác trong cùng vị trí việc làm",
+      "Chỉ do người viên chức tự đề nghị",
+      "Xếp bậc nào thì hưởng lương của bậc đó",
+      "Có thể xếp cao hơn hoặc thấp hơn",
+      "Phải chuyển sang vị trí việc làm khác"
+     ],
+     "a": [
+      0,
+      2,
+      3
+     ],
+     "e": "Điều 25 khoản 1: quyết định của cấp có thẩm quyền, trong cùng vị trí việc làm.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 25 khoản 1"
+    },
+    {
+     "t": "f",
+     "q": "Người được tuyển vào bậc nghề nghiệp nào thì xếp mức lương ____ của bậc đó.",
+     "a": [
+      [
+       "khởi điểm"
+      ]
+     ],
+     "e": "Khoản 1 Điều 10.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 10 khoản 1",
+     "o": [
+      [
+       "cao nhất"
+      ],
+      [
+       "trung bình"
+      ],
+      [
+       "khởi điểm"
+      ],
+      [
+       "tối thiểu"
+      ]
+     ],
+     "k": 2
+    },
+    {
+     "t": "f",
+     "q": "Thời gian công tác có đóng bảo hiểm xã hội ____ phù hợp yêu cầu chuyên môn được xem xét để xếp bậc lương.",
+     "a": [
+      [
+       "bắt buộc"
+      ]
+     ],
+     "e": "Khoản 2 Điều 10.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 10 khoản 2",
+     "o": [
+      [
+       "bắt buộc"
+      ],
+      [
+       "tự nguyện"
+      ],
+      [
+       "một lần"
+      ],
+      [
+       "tùy chọn"
+      ]
+     ],
+     "k": 0
+    },
+    {
+     "t": "f",
+     "q": "Hội đồng báo cáo trong ____ ngày làm việc, người đứng đầu phê duyệt trong ____ ngày làm việc.",
+     "a": [
+      [
+       "05",
+       "5",
+       "năm"
+      ],
+      [
+       "05",
+       "5",
+       "năm"
+      ]
+     ],
+     "e": "Điều 19: mỗi bước 05 ngày làm việc.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 19",
+     "o": [
+      [
+       "05",
+       "10"
+      ],
+      [
+       "10",
+       "05"
+      ],
+      [
+       "10",
+       "10"
+      ],
+      [
+       "05",
+       "05"
+      ]
+     ],
+     "k": 3
+    },
+    {
+     "t": "f",
+     "q": "Danh sách trúng tuyển được thông báo công khai chậm nhất ____ ngày làm việc kể từ khi có quyết định phê duyệt.",
+     "a": [
+      [
+       "02",
+       "2",
+       "hai"
+      ]
+     ],
+     "e": "Điều 19.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 19",
+     "o": [
+      [
+       "02"
+      ],
+      [
+       "05"
+      ],
+      [
+       "10"
+      ],
+      [
+       "03"
+      ]
+     ],
+     "k": 0
+    },
+    {
+     "t": "f",
+     "q": "Người trúng tuyển hoàn thiện hồ sơ chậm nhất ____ ngày kể từ ngày công khai danh sách trúng tuyển.",
+     "a": [
+      [
+       "15",
+       "mười lăm"
+      ]
+     ],
+     "e": "Khoản 1 Điều 20.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 20 khoản 1",
+     "o": [
+      [
+       "30"
+      ],
+      [
+       "07"
+      ],
+      [
+       "15"
+      ],
+      [
+       "10"
+      ]
+     ],
+     "k": 2
+    },
+    {
+     "t": "f",
+     "q": "Hợp đồng làm việc có giá trị như quyết định ____.",
+     "a": [
+      [
+       "tuyển dụng"
+      ]
+     ],
+     "e": "Khoản 2 Điều 21.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 21 khoản 2",
+     "o": [
+      [
+       "bổ nhiệm"
+      ],
+      [
+       "điều động"
+      ],
+      [
+       "phê duyệt"
+      ],
+      [
+       "tuyển dụng"
+      ]
+     ],
+     "k": 3
+    },
+    {
+     "t": "f",
+     "q": "Trong ____ ngày làm việc từ khi hoàn thiện hồ sơ, kết quả được gửi đến đơn vị sử dụng; chậm nhất ____ ngày làm việc ký hợp đồng làm việc.",
+     "a": [
+      [
+       "03",
+       "3",
+       "ba"
+      ],
+      [
+       "05",
+       "5",
+       "năm"
+      ]
+     ],
+     "e": "Điều 21 khoản 1.",
+     "r": "Nghị định 259/2026/NĐ-CP Điều 21 khoản 1",
+     "o": [
+      [
+       "05",
+       "03"
+      ],
+      [
+       "03",
+       "10"
+      ],
+      [
+       "05",
+       "10"
+      ],
+      [
+       "03",
+       "05"
+      ]
+     ],
+     "k": 3
+    }
+   ],
+   "ynho": [
+    "Tuyển vào bậc nào thì xếp lương **khởi điểm** của bậc đó.",
+    "Hội đồng báo cáo **05 ngày làm việc**; phê duyệt **05**; công khai chậm nhất **02**.",
+    "Hoàn thiện hồ sơ chậm nhất **15 ngày** kể từ ngày công khai.",
+    "Hợp đồng làm việc **có giá trị như quyết định tuyển dụng**.",
+    "Gian lận kê khai, văn bằng sai: không được nhận Phiếu đăng ký **01 kỳ** tiếp theo."
+   ],
+   "bang": [
+    {
+     "tieu_de": "Các mốc thời gian sau thi",
+     "cot": [
+      "Việc",
+      "Thời hạn"
+     ],
+     "dong": [
+      [
+       "Hội đồng báo cáo kết quả",
+       "05 ngày làm việc (Điều 19)"
+      ],
+      [
+       "Người đứng đầu phê duyệt",
+       "05 ngày làm việc"
+      ],
+      [
+       "Công khai danh sách trúng tuyển",
+       "Chậm nhất 02 ngày làm việc"
+      ],
+      [
+       "Hoàn thiện hồ sơ",
+       "Chậm nhất 15 ngày (Điều 20)"
+      ],
+      [
+       "Gửi kết quả đến đơn vị sử dụng",
+       "03 ngày làm việc (Điều 21)"
+      ],
+      [
+       "Ký hợp đồng làm việc",
+       "Chậm nhất 05 ngày làm việc"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Hợp đồng làm việc",
+     "cot": [
+      "Nội dung",
+      "Quy định"
+     ],
+     "dong": [
+      [
+       "Loại hợp đồng",
+       "Xác định thời hạn; không xác định thời hạn (Điều 22)"
+      ],
+      [
+       "Giá trị",
+       "Như quyết định tuyển dụng"
+      ],
+      [
+       "Chuyển đơn vị sự nghiệp khác",
+       "Không tuyển dụng mới, không giải quyết thôi việc (Điều 23 khoản 4)"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Cô A trúng tuyển vào bậc nghề nghiệp có lương khởi điểm; trường xếp cô vào bậc cao nhất.",
+     "ket_luan": "→ Sai: Điều 10 khoản 1, xếp lương khởi điểm của bậc được tuyển."
+    },
+    {
+     "tinh_huong": "Cô B có thời gian công tác phù hợp chuyên môn, có đóng BHXH bắt buộc, được tuyển dụng.",
+     "ket_luan": "→ Người đứng đầu quyết định xếp bậc lương phù hợp (Điều 10 khoản 2)."
+    },
+    {
+     "tinh_huong": "Thầy C trúng tuyển nhưng không nộp hồ sơ trong 15 ngày kể từ ngày công khai.",
+     "ket_luan": "→ Bị đương nhiên xóa tên (Điều 20 khoản 3)."
+    },
+    {
+     "tinh_huong": "Cô D bị phát hiện dùng văn bằng sai quy định khi trúng tuyển.",
+     "ket_luan": "→ Bị xóa tên và không được tiếp nhận Phiếu đăng ký trong 01 kỳ tuyển dụng tiếp theo."
+    },
+    {
+     "tinh_huong": "Thầy E là viên chức tuyển năm 2022, đã ký hợp đồng xác định thời hạn hai lần.",
+     "ket_luan": "→ Sau lần 2 được ký hợp đồng không xác định thời hạn nếu đáp ứng yêu cầu vị trí và đơn vị còn nhu cầu (Điều 23 khoản 2)."
+    }
+   ],
+   "nho": [
+    "Theo thứ tự: báo cáo 5, phê duyệt 5, công khai 2 (ngày làm việc); hồ sơ 15 ngày; gửi kết quả 3, ký hợp đồng 5 (ngày làm việc).",
+    "Hợp đồng làm việc = 'giấy tờ có sức nặng' của quyết định tuyển dụng.",
+    "Bậc nghề nghiệp: tuyển vào bậc nào, lương 'khởi' bậc đó."
+   ]
+  }
+ ]
+}

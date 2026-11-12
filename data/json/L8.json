@@ -1,0 +1,2320 @@
+{
+ "id": "L8",
+ "ten": "Nghị quyết 71-NQ/TW của Bộ Chính trị về đột phá phát triển giáo dục và đào tạo",
+ "so": "Nghị quyết số 71-NQ/TW",
+ "ngay": "22/08/2025",
+ "hieuluc": "22/08/2025",
+ "mota": "Nghị quyết của Bộ Chính trị ngày 22/8/2025 xác định 6 quan điểm, mục tiêu đến 2030, 2035, tầm nhìn 2045 và 8 nhóm nhiệm vụ, giải pháp đột phá phát triển giáo dục và đào tạo.",
+ "baihoc": [
+  {
+   "id": "L8-1",
+   "ten": "Quan điểm chỉ đạo",
+   "tomtat": [
+    "NQ 71-NQ/TW do **Bộ Chính trị** ban hành ngày **22/8/2025** (Tổng Bí thư Tô Lâm ký), về đột phá phát triển giáo dục và đào tạo.",
+    "Nghị quyết có **6 quan điểm** chỉ đạo và **8 nhóm** nhiệm vụ, giải pháp.",
+    "Giáo dục và đào tạo là **quốc sách hàng đầu**, quyết định tương lai dân tộc; Nhà nước định hướng chiến lược, kiến tạo phát triển, bảo đảm nguồn lực và công bằng; **đủ trường, đủ lớp, đủ giáo viên**.",
+    "Phát huy truyền thống hiếu học, xây dựng xã hội học tập, học tập suốt đời.",
+    "Phối hợp **gia đình - nhà trường - xã hội**; **người học là trung tâm, chủ thể**; **nhà trường là nền tảng**; **nhà giáo là động lực, quyết định chất lượng**.",
+    "Phương châm **\"thầy ra thầy, trò ra trò\"**; hài hòa toàn dân và tinh hoa, toàn diện và chuyên sâu, dân tộc và toàn cầu.",
+    "**Học đi đôi với hành**, lý thuyết gắn liền với thực tiễn, nhà trường gắn liền với xã hội.",
+    "**Mầm non, phổ thông** là nền tảng hình thành nhân cách; **GDNN** then chốt cho lao động kỹ năng cao; **đại học** là nòng cốt nhân lực trình độ cao, nhân tài.",
+    "Đột phá bắt đầu từ **đổi mới tư duy, nhận thức và thể chế**; Nhà nước giữ vai trò chủ đạo, **lấy đầu tư công dẫn dắt**.",
+    "Giáo dục **công lập là trụ cột**, **ngoài công lập là thành phần quan trọng**; nền giáo dục mở, liên thông."
+   ],
+   "bay": [
+    "⚠ \"nhà trường là nền tảng\" ≠ \"nhà giáo là nền tảng\"; nhà giáo là động lực, người học là trung tâm, chủ thể",
+    "⚠ giáo dục công lập là trụ cột ≠ ngoài công lập là trụ cột (ngoài công lập là thành phần quan trọng)",
+    "⚠ 6 quan điểm ≠ 8 nhóm nhiệm vụ, giải pháp",
+    "⚠ \"đầu tư công dẫn dắt\" ≠ \"đầu tư tư nhân dẫn dắt\""
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Nghị quyết số 71-NQ/TW về đột phá phát triển giáo dục và đào tạo do cơ quan nào ban hành?",
+     "o": [
+      "Chính phủ",
+      "Bộ Chính trị",
+      "Ban Bí thư",
+      "Quốc hội"
+     ],
+     "a": [
+      1
+     ],
+     "e": "NQ 71-NQ/TW là nghị quyết của Bộ Chính trị. Bẫy: nhầm với NQ 248/2025/QH15 của Quốc hội, là nghị quyết thể chế hóa NQ 71.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Nghị quyết 71-NQ/TW được ban hành vào ngày nào?",
+     "o": [
+      "02/9/2025",
+      "10/12/2025",
+      "22/8/2025",
+      "16/6/2025"
+     ],
+     "a": [
+      2
+     ],
+     "e": "NQ 71 ban hành ngày 22/8/2025. Ngày 10/12/2025 là ngày ban hành Luật 123/2025/QH15 và NQ 248/2025/QH15.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Nghị quyết 71-NQ/TW nêu bao nhiêu quan điểm chỉ đạo?",
+     "o": [
+      "8 quan điểm",
+      "7 quan điểm",
+      "5 quan điểm",
+      "6 quan điểm"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Có 6 quan điểm chỉ đạo. Số 8 là số nhóm nhiệm vụ, giải pháp, dễ gây nhầm.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Phương châm về quan hệ thầy trò trong Nghị quyết 71-NQ/TW là gì?",
+     "o": [
+      "\"Thầy ra thầy, trò ra trò\"",
+      "\"Tiên học lễ, hậu học văn\"",
+      "\"Dạy tốt, học tốt\"",
+      "\"Tôn sư trọng đạo\""
+     ],
+     "a": [
+      0
+     ],
+     "e": "Nghị quyết dùng phương châm \"thầy ra thầy, trò ra trò\"; các câu còn lại là khẩu hiệu/thành ngữ khác, không phải phương châm nêu trong NQ.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Theo Nghị quyết 71-NQ/TW, nhà giáo giữ vai trò nào?",
+     "o": [
+      "Là trung tâm, chủ thể của quá trình giáo dục",
+      "Là động lực, quyết định chất lượng giáo dục và đào tạo",
+      "Là nền tảng của giáo dục",
+      "Là then chốt đào tạo lao động kỹ năng cao"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Nhà giáo là động lực, quyết định chất lượng. Bẫy: \"nền tảng\" là nhà trường; \"trung tâm, chủ thể\" là người học.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Theo Nghị quyết 71-NQ/TW, \"người học\" được xác định là gì?",
+     "o": [
+      "Là động lực",
+      "Là nền tảng",
+      "Là trung tâm, chủ thể",
+      "Là nòng cốt"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Người học là trung tâm, chủ thể; nhà trường là nền tảng; nhà giáo là động lực. Đổi vị trí các từ này là bẫy thường gặp.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Theo Nghị quyết 71-NQ/TW, nhà trường là gì?",
+     "o": [
+      "Là trung tâm, chủ thể",
+      "Là động lực",
+      "Là trụ cột",
+      "Là nền tảng"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Nhà trường là nền tảng. \"Trụ cột\" được dùng cho giáo dục công lập.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Theo Nghị quyết 71-NQ/TW, giáo dục nào là nền tảng hình thành nhân cách?",
+     "o": [
+      "Giáo dục mầm non và giáo dục phổ thông",
+      "Giáo dục nghề nghiệp",
+      "Giáo dục đại học",
+      "Chỉ giáo dục tiểu học"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Mầm non, phổ thông là nền tảng hình thành nhân cách; GDNN là then chốt cho lao động kỹ năng cao; đại học là nòng cốt nhân lực trình độ cao, nhân tài.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Theo Nghị quyết 71-NQ/TW, sự đột phá của giáo dục và đào tạo bắt đầu từ đâu?",
+     "o": [
+      "Nâng cao thu nhập của nhà giáo",
+      "Đổi mới tư duy, nhận thức và thể chế",
+      "Tăng đầu tư cơ sở vật chất",
+      "Đổi mới chương trình, sách giáo khoa"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Quan điểm 5: đột phá bắt đầu từ đổi mới tư duy, nhận thức và thể chế.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Phát biểu nào đúng về giáo dục công lập và ngoài công lập theo Nghị quyết 71-NQ/TW?",
+     "o": [
+      "Giáo dục ngoài công lập chỉ là thành phần bổ trợ",
+      "Giáo dục ngoài công lập là trụ cột, giáo dục công lập là thành phần quan trọng",
+      "Giáo dục công lập là trụ cột, giáo dục ngoài công lập là thành phần quan trọng",
+      "Giáo dục công lập và ngoài công lập đều là trụ cột như nhau"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Công lập là trụ cột; ngoài công lập là thành phần quan trọng. Bẫy: đổi chủ thể hoặc hạ thấp vai trò.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "m",
+     "q": "Quan điểm 3 của Nghị quyết 71-NQ/TW nêu sự hài hòa giữa những cặp nào (chọn tất cả đáp án đúng)",
+     "o": [
+      "toàn diện và chuyên sâu",
+      "thành thị và nông thôn",
+      "công lập và ngoài công lập",
+      "dân tộc và toàn cầu",
+      "toàn dân và tinh hoa"
+     ],
+     "a": [
+      0,
+      3,
+      4
+     ],
+     "e": "NQ nêu hài hòa giữa toàn dân và tinh hoa, toàn diện và chuyên sâu, dân tộc và toàn cầu. \"Công lập - ngoài công lập\" thuộc quan điểm khác; \"thành thị - nông thôn\" không được nêu.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "m",
+     "q": "Theo Nghị quyết 71-NQ/TW, những nội dung nào thuộc nguyên lý, quan điểm nêu trong quan điểm 4 (chọn tất cả đáp án đúng)",
+     "o": [
+      "Nhà trường gắn liền với xã hội",
+      "Lấy điểm số làm thước đo duy nhất",
+      "Học đi đôi với hành",
+      "Lý thuyết gắn liền với thực tiễn",
+      "Nhà trường thay thế vai trò của gia đình"
+     ],
+     "a": [
+      0,
+      2,
+      3
+     ],
+     "e": "Quan điểm 4 nêu: học đi đôi với hành, lý thuyết gắn liền với thực tiễn, nhà trường gắn liền với xã hội. Hai phương án còn lại không có trong NQ.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "m",
+     "q": "Theo quan điểm 1, Nhà nước giữ vai trò nào đối với giáo dục và đào tạo (chọn tất cả đáp án đúng)",
+     "o": [
+      "Kiến tạo phát triển",
+      "Bảo đảm nguồn lực và công bằng",
+      "Định hướng chiến lược",
+      "Giao toàn bộ giáo dục cho khu vực tư nhân",
+      "Trực tiếp điều hành mọi cơ sở giáo dục"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Nhà nước định hướng chiến lược, kiến tạo phát triển, bảo đảm nguồn lực và công bằng. Hai phương án nhiễu trái tinh thần NQ (công lập là trụ cột).",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "m",
+     "q": "Theo quan điểm 5 của Nghị quyết 71-NQ/TW, những ý nào đúng (chọn tất cả đáp án đúng)",
+     "o": [
+      "Lấy đầu tư tư nhân dẫn dắt",
+      "Lấy đầu tư công dẫn dắt",
+      "Đột phá bắt đầu từ đổi mới tư duy, nhận thức và thể chế",
+      "Lấy học phí làm nguồn thu chính",
+      "Nhà nước giữ vai trò chủ đạo"
+     ],
+     "a": [
+      1,
+      2,
+      4
+     ],
+     "e": "NQ nêu Nhà nước giữ vai trò chủ đạo, lấy đầu tư công dẫn dắt. Bẫy: đổi \"đầu tư công\" thành \"đầu tư tư nhân\".",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "f",
+     "q": "Nghị quyết 71-NQ/TW của Bộ Chính trị ban hành ngày ____ về đột phá phát triển giáo dục và ____.",
+     "a": [
+      [
+       "22/8/2025",
+       "22/08/2025",
+       "22 tháng 8 năm 2025"
+      ],
+      [
+       "đào tạo"
+      ]
+     ],
+     "e": "NQ 71 ngày 22/8/2025, về đột phá phát triển giáo dục và đào tạo.",
+     "r": "NQ 71-NQ/TW",
+     "o": [
+      [
+       "22/8/2025",
+       "đào tạo"
+      ],
+      [
+       "22/8/2024",
+       "đào tạo"
+      ],
+      [
+       "22/8/2025",
+       "bồi dưỡng"
+      ],
+      [
+       "22/10/2025",
+       "nhân lực"
+      ]
+     ],
+     "k": 0
+    },
+    {
+     "t": "f",
+     "q": "Phương châm: \"Thầy ra ____, trò ra ____\".",
+     "a": [
+      [
+       "thầy"
+      ],
+      [
+       "trò"
+      ]
+     ],
+     "e": "Phương châm \"thầy ra thầy, trò ra trò\".",
+     "r": "NQ 71-NQ/TW",
+     "o": [
+      [
+       "trò",
+       "thầy"
+      ],
+      [
+       "thầy",
+       "trò"
+      ],
+      [
+       "cô",
+       "trò"
+      ],
+      [
+       "thầy",
+       "bạn"
+      ]
+     ],
+     "k": 1
+    },
+    {
+     "t": "f",
+     "q": "Giáo dục và đào tạo là ____ hàng đầu, quyết định tương lai của dân tộc.",
+     "a": [
+      [
+       "quốc sách"
+      ]
+     ],
+     "e": "Quan điểm 1: GD&ĐT là quốc sách hàng đầu.",
+     "r": "NQ 71-NQ/TW",
+     "o": [
+      [
+       "nhiệm vụ"
+      ],
+      [
+       "mục tiêu"
+      ],
+      [
+       "quốc sách"
+      ],
+      [
+       "ưu tiên"
+      ]
+     ],
+     "k": 2
+    },
+    {
+     "t": "f",
+     "q": "Người học là ____, chủ thể; nhà giáo là ____, quyết định chất lượng giáo dục.",
+     "a": [
+      [
+       "trung tâm"
+      ],
+      [
+       "động lực"
+      ]
+     ],
+     "e": "Người học là trung tâm, chủ thể; nhà giáo là động lực. Bẫy: đổi từ cho nhau.",
+     "r": "NQ 71-NQ/TW",
+     "o": [
+      [
+       "động lực",
+       "trung tâm"
+      ],
+      [
+       "trung tâm",
+       "nền tảng"
+      ],
+      [
+       "mục tiêu",
+       "động lực"
+      ],
+      [
+       "trung tâm",
+       "động lực"
+      ]
+     ],
+     "k": 3
+    },
+    {
+     "t": "f",
+     "q": "Giáo dục công lập là ____, giáo dục ngoài công lập là thành phần ____.",
+     "a": [
+      [
+       "trụ cột"
+      ],
+      [
+       "quan trọng"
+      ]
+     ],
+     "e": "Công lập là trụ cột; ngoài công lập là thành phần quan trọng.",
+     "r": "NQ 71-NQ/TW",
+     "o": [
+      [
+       "nền tảng",
+       "quan trọng"
+      ],
+      [
+       "trụ cột",
+       "quan trọng"
+      ],
+      [
+       "trụ cột",
+       "chủ yếu"
+      ],
+      [
+       "trụ cột",
+       "bổ trợ"
+      ]
+     ],
+     "k": 1
+    },
+    {
+     "t": "f",
+     "q": "Nghị quyết 71-NQ/TW có ____ quan điểm chỉ đạo và ____ nhóm nhiệm vụ, giải pháp.",
+     "a": [
+      [
+       "6",
+       "sáu"
+      ],
+      [
+       "8",
+       "tám"
+      ]
+     ],
+     "e": "6 quan điểm; 8 nhóm nhiệm vụ, giải pháp.",
+     "r": "NQ 71-NQ/TW",
+     "o": [
+      [
+       "5",
+       "8"
+      ],
+      [
+       "6",
+       "7"
+      ],
+      [
+       "6",
+       "8"
+      ],
+      [
+       "7",
+       "9"
+      ]
+     ],
+     "k": 2
+    },
+    {
+     "t": "f",
+     "q": "Đột phá bắt đầu từ đổi mới tư duy, ____ và ____.",
+     "a": [
+      [
+       "nhận thức"
+      ],
+      [
+       "thể chế"
+      ]
+     ],
+     "e": "Quan điểm 5: đổi mới tư duy, nhận thức và thể chế.",
+     "r": "NQ 71-NQ/TW",
+     "o": [
+      [
+       "hành động",
+       "thể chế"
+      ],
+      [
+       "nhận thức",
+       "chương trình"
+      ],
+      [
+       "phương pháp",
+       "nguồn lực"
+      ],
+      [
+       "nhận thức",
+       "thể chế"
+      ]
+     ],
+     "k": 3
+    },
+    {
+     "t": "f",
+     "q": "Nhà nước bảo đảm đủ trường, đủ lớp, đủ ____.",
+     "a": [
+      [
+       "giáo viên"
+      ]
+     ],
+     "e": "Quan điểm 1 nêu: đủ trường, đủ lớp, đủ giáo viên.",
+     "r": "NQ 71-NQ/TW",
+     "o": [
+      [
+       "giáo viên"
+      ],
+      [
+       "học sinh"
+      ],
+      [
+       "kinh phí"
+      ],
+      [
+       "sách giáo khoa"
+      ]
+     ],
+     "k": 0
+    }
+   ],
+   "ynho": [
+    "NQ **71-NQ/TW** do **Bộ Chính trị** ban hành ngày **22/8/2025**.",
+    "Có **6 quan điểm** chỉ đạo và **8 nhóm** nhiệm vụ, giải pháp.",
+    "Giáo dục và đào tạo là **quốc sách hàng đầu**; **đủ trường, đủ lớp, đủ giáo viên**.",
+    "**Người học** là trung tâm, chủ thể; **nhà trường** là nền tảng; **nhà giáo** là động lực.",
+    "Giáo dục **công lập là trụ cột**, ngoài công lập là thành phần quan trọng."
+   ],
+   "bang": [
+    {
+     "tieu_de": "Vai trò các chủ thể",
+     "cot": [
+      "Chủ thể",
+      "Vai trò"
+     ],
+     "dong": [
+      [
+       "Người học",
+       "Trung tâm, chủ thể"
+      ],
+      [
+       "Nhà trường",
+       "Nền tảng"
+      ],
+      [
+       "Nhà giáo",
+       "Động lực, quyết định chất lượng"
+      ],
+      [
+       "Gia đình - nhà trường - xã hội",
+       "Phối hợp chặt chẽ"
+      ],
+      [
+       "Giáo dục công lập",
+       "Trụ cột"
+      ],
+      [
+       "Giáo dục ngoài công lập",
+       "Thành phần quan trọng"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Vai trò từng cấp học",
+     "cot": [
+      "Cấp học",
+      "Vai trò"
+     ],
+     "dong": [
+      [
+       "Mầm non, phổ thông",
+       "Nền tảng hình thành nhân cách"
+      ],
+      [
+       "GDNN",
+       "Then chốt cho lao động kỹ năng cao"
+      ],
+      [
+       "Đại học",
+       "Nòng cốt nhân lực trình độ cao, nhân tài"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Hiệu trưởng nói với giáo viên: 'Giáo dục là quốc sách hàng đầu nên địa phương phải bảo đảm đủ trường, đủ lớp, đủ giáo viên.'",
+     "ket_luan": "→ Đúng với quan điểm của NQ 71: Nhà nước bảo đảm nguồn lực, đủ trường, đủ lớp, đủ giáo viên."
+    },
+    {
+     "tinh_huong": "Cô Hoa, giáo viên Tin học, thiết kế bài học để học sinh tự khám phá và thực hành trên máy, thay vì chỉ nghe giảng.",
+     "ket_luan": "→ Phù hợp quan điểm người học là trung tâm, chủ thể; học đi đôi với hành, lý thuyết gắn thực tiễn."
+    },
+    {
+     "tinh_huong": "Trường THCS mời phụ huynh và cựu học sinh cùng tham gia hoạt động hướng nghiệp.",
+     "ket_luan": "→ Phù hợp quan điểm phối hợp gia đình - nhà trường - xã hội."
+    },
+    {
+     "tinh_huong": "Một cán bộ phát biểu: 'Giáo dục ngoài công lập là trụ cột của hệ thống.'",
+     "ket_luan": "→ Sai. Công lập là trụ cột; ngoài công lập là thành phần quan trọng."
+    },
+    {
+     "tinh_huong": "Thầy Dũng nói: 'Nhà giáo là nền tảng, nhà trường là động lực.'",
+     "ket_luan": "→ Sai, bị đảo. Nhà trường là nền tảng; nhà giáo là động lực, quyết định chất lượng giáo dục."
+    }
+   ],
+   "nho": [
+    "**6 - 8**: **6** quan điểm chỉ đạo rồi mới đến **8** nhóm nhiệm vụ, giải pháp.",
+    "**N-T-G**: **N**gười học trung tâm - **T**rường nền tảng - **G**iáo viên động lực.",
+    "**Công** = **trụ cột**; **ngoài công** = **quan trọng** (không phải trụ cột)."
+   ]
+  },
+  {
+   "id": "L8-2",
+   "ten": "Mục tiêu đến 2030, 2035 và tầm nhìn 2045",
+   "tomtat": [
+    "Đến **2030**: ít nhất **80%** trường phổ thông đạt chuẩn quốc gia.",
+    "Đến 2030: hoàn thành **phổ cập mầm non cho trẻ 3 đến 5 tuổi** và giáo dục bắt buộc hết THCS.",
+    "Đến 2030: ít nhất **85%** người trong độ tuổi hoàn thành THPT và tương đương, không tỉnh nào dưới **60%**.",
+    "Đến 2030: bước đầu nâng năng lực công nghệ, AI và tiếng Anh ở phổ thông; HDI (giáo dục) trên **0,8**; bất bình đẳng giáo dục dưới 10%.",
+    "Đến 2030: **100%** cơ sở đại học và ít nhất **80%** cơ sở GDNN đạt chuẩn quốc gia; 50% người trong độ tuổi học sau THPT; lao động cao đẳng, đại học trở lên 24%.",
+    "Đến 2030: ít nhất **8** đại học thuộc nhóm **200 châu Á**, ít nhất **1** đại học nhóm 100 thế giới (một số lĩnh vực); tuyển ít nhất **2.000** giảng viên giỏi nước ngoài.",
+    "Đến **2035**: hoàn thành **phổ cập THPT** và tương đương; HDI (giáo dục) trên **0,85**; ít nhất **2** đại học nhóm 100 thế giới.",
+    "Tầm nhìn **2045**: hệ thống giáo dục quốc dân hiện đại, công bằng, chất lượng, thuộc nhóm **20** quốc gia hàng đầu thế giới; ít nhất **5** đại học nhóm 100 thế giới."
+   ],
+   "bay": [
+    "⚠ \"ít nhất\" ≠ \"tối đa\": ít nhất 80% trường chuẩn quốc gia; ít nhất 85% hoàn thành THPT (không tỉnh nào dưới 60%)",
+    "⚠ Mốc năm: 2030 phổ cập mầm non 3-5 tuổi, 2035 phổ cập THPT, 2045 nhóm 20 quốc gia",
+    "⚠ Đại học nhóm 100 thế giới: 2030 ít nhất 1; 2035 ít nhất 2; 2045 ít nhất 5; ít nhất 8 đại học là nhóm 200 châu Á",
+    "⚠ HDI: trên 0,8 (2030) ≠ trên 0,85 (2035)"
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Đến năm 2030, Nghị quyết 71-NQ/TW đặt mục tiêu bao nhiêu trường phổ thông đạt chuẩn quốc gia?",
+     "o": [
+      "Tối đa 80%",
+      "Ít nhất 70%",
+      "Ít nhất 80%",
+      "Ít nhất 90%"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Mục tiêu 2030: ít nhất 80% trường phổ thông đạt chuẩn quốc gia. Bẫy: \"ít nhất\" khác \"tối đa\".",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Đến năm 2030, phổ cập giáo dục mầm non theo Nghị quyết 71-NQ/TW dành cho trẻ ở độ tuổi nào?",
+     "o": [
+      "Từ 4 đến 5 tuổi",
+      "Chỉ 5 tuổi",
+      "Từ 3 đến 6 tuổi",
+      "Từ 3 đến 5 tuổi"
+     ],
+     "a": [
+      3
+     ],
+     "e": "NQ 71 nêu phổ cập mầm non cho trẻ 3 đến 5 tuổi. Bẫy: Luật Giáo dục sửa đổi (Điều 14.1) dùng \"03 tuổi đến 06 tuổi\"; không nhầm hai văn bản.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Đến năm 2030, ít nhất bao nhiêu phần trăm người trong độ tuổi hoàn thành THPT và tương đương?",
+     "o": [
+      "85%",
+      "80%",
+      "60%",
+      "90%"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Ít nhất 85%, không tỉnh nào dưới 60%. Bẫy: 80% là tỉ lệ trường phổ thông đạt chuẩn; 60% là mức sàn của từng tỉnh.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Theo mục tiêu 2030 về hoàn thành THPT và tương đương, không tỉnh nào có tỉ lệ dưới bao nhiêu?",
+     "o": [
+      "85%",
+      "60%",
+      "70%",
+      "50%"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Không tỉnh nào dưới 60%; 85% là tỉ lệ chung cả nước.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Đến năm 2035, mục tiêu nào về phổ cập được đặt ra?",
+     "o": [
+      "Hoàn thành giáo dục bắt buộc hết THCS",
+      "Hoàn thành phổ cập giáo dục tiểu học",
+      "Hoàn thành phổ cập giáo dục THPT và tương đương",
+      "Hoàn thành phổ cập giáo dục mầm non 3 đến 5 tuổi"
+     ],
+     "a": [
+      2
+     ],
+     "e": "2030: phổ cập mầm non 3-5 tuổi và giáo dục bắt buộc hết THCS; 2035: hoàn thành phổ cập THPT và tương đương.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Tầm nhìn đến năm 2045, hệ thống giáo dục quốc dân thuộc nhóm bao nhiêu quốc gia hàng đầu thế giới?",
+     "o": [
+      "Nhóm 50 quốc gia",
+      "Nhóm 100 quốc gia",
+      "Nhóm 10 quốc gia",
+      "Nhóm 20 quốc gia"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Tầm nhìn 2045: nhóm 20 quốc gia hàng đầu. Số 100 là xếp hạng của các cơ sở đại học.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Đến năm 2045, ít nhất bao nhiêu cơ sở đại học thuộc nhóm 100 thế giới?",
+     "o": [
+      "5 cơ sở",
+      "8 cơ sở",
+      "2 cơ sở",
+      "1 cơ sở"
+     ],
+     "a": [
+      0
+     ],
+     "e": "2030: ít nhất 1 đại học (một số lĩnh vực) nhóm 100; 2035: ít nhất 2; 2045: ít nhất 5. Số 8 là đại học nhóm 200 châu Á năm 2030.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Đến năm 2035, chỉ số giáo dục đóng góp vào HDI phải ở mức nào?",
+     "o": [
+      "Dưới 0,85",
+      "Trên 0,85",
+      "Trên 0,9",
+      "Trên 0,8"
+     ],
+     "a": [
+      1
+     ],
+     "e": "2030: trên 0,8; 2035: trên 0,85. Bẫy: đổi mốc năm.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Đến năm 2030, tỉ lệ nào sau đây được nêu cho các cơ sở giáo dục nghề nghiệp đạt chuẩn quốc gia?",
+     "o": [
+      "100%",
+      "Tối đa 80%",
+      "Ít nhất 80%",
+      "Ít nhất 50%"
+     ],
+     "a": [
+      2
+     ],
+     "e": "100% là cơ sở đại học đạt chuẩn; ít nhất 80% là cơ sở GDNN (và cũng là tỉ lệ trường phổ thông).",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Đến năm 2030, Nghị quyết 71-NQ/TW đặt mục tiêu tuyển ít nhất bao nhiêu giảng viên giỏi nước ngoài?",
+     "o": [
+      "200 giảng viên",
+      "1.000 giảng viên",
+      "5.000 giảng viên",
+      "2.000 giảng viên"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Mục tiêu 2030: tuyển ít nhất 2.000 giảng viên giỏi nước ngoài.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "m",
+     "q": "Các mục tiêu nào thuộc mốc đến năm 2030 trong Nghị quyết 71-NQ/TW (chọn tất cả đáp án đúng)",
+     "o": [
+      "Ít nhất 5 cơ sở đại học thuộc nhóm 100 thế giới",
+      "Phổ cập giáo dục mầm non cho trẻ 3 đến 5 tuổi",
+      "Hoàn thành phổ cập giáo dục THPT và tương đương",
+      "Ít nhất 80% trường phổ thông đạt chuẩn quốc gia",
+      "Hoàn thành giáo dục bắt buộc hết THCS"
+     ],
+     "a": [
+      1,
+      3,
+      4
+     ],
+     "e": "Phổ cập THPT là mốc 2035; ít nhất 5 đại học nhóm 100 là tầm nhìn 2045. Bẫy: đổi mốc năm.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "m",
+     "q": "Các mục tiêu nào thuộc mốc đến năm 2035 (chọn tất cả đáp án đúng)",
+     "o": [
+      "Ít nhất 2 cơ sở đại học thuộc nhóm 100 thế giới",
+      "Hệ thống giáo dục thuộc nhóm 20 quốc gia hàng đầu",
+      "Hoàn thành phổ cập THPT và tương đương",
+      "HDI (giáo dục) trên 0,85",
+      "Ít nhất 5 cơ sở đại học thuộc nhóm 100 thế giới"
+     ],
+     "a": [
+      0,
+      2,
+      3
+     ],
+     "e": "Nhóm 20 quốc gia và 5 đại học nhóm 100 là tầm nhìn 2045.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "m",
+     "q": "Các nội dung nào thuộc tầm nhìn đến năm 2045 (chọn tất cả đáp án đúng)",
+     "o": [
+      "Ít nhất 2 cơ sở đại học thuộc nhóm 100 thế giới",
+      "Hệ thống giáo dục quốc dân hiện đại, công bằng, chất lượng",
+      "Thuộc nhóm 20 quốc gia hàng đầu thế giới",
+      "Ít nhất 5 cơ sở đại học thuộc nhóm 100 thế giới",
+      "Thuộc nhóm 10 quốc gia hàng đầu thế giới"
+     ],
+     "a": [
+      1,
+      2,
+      3
+     ],
+     "e": "2045: nhóm 20 quốc gia và ít nhất 5 đại học nhóm 100; 2 đại học là mốc 2035.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "m",
+     "q": "Các mục tiêu nào được đặt ra cho mốc năm 2030 (chọn tất cả đáp án đúng)",
+     "o": [
+      "Chỉ số giáo dục đóng góp vào HDI trên 0,8",
+      "Bước đầu nâng năng lực công nghệ, AI và tiếng Anh ở phổ thông",
+      "Ít nhất 8 cơ sở đại học thuộc nhóm 100 thế giới",
+      "Ít nhất 8 cơ sở đại học thuộc nhóm 200 châu Á",
+      "Lao động có trình độ cao đẳng, đại học trở lên đạt 50%"
+     ],
+     "a": [
+      0,
+      1,
+      3
+     ],
+     "e": "8 đại học thuộc nhóm 200 châu Á (không phải nhóm 100 thế giới); lao động cao đẳng, đại học trở lên là 24%, còn 50% là tỉ lệ người trong độ tuổi học sau THPT.",
+     "r": "NQ 71-NQ/TW"
+    },
+    {
+     "t": "f",
+     "q": "Đến năm 2030, ít nhất ____% trường phổ thông đạt chuẩn quốc gia.",
+     "a": [
+      [
+       "80"
+      ]
+     ],
+     "e": "Ít nhất 80%.",
+     "r": "NQ 71-NQ/TW",
+     "o": [
+      [
+       "70"
+      ],
+      [
+       "90"
+      ],
+      [
+       "80"
+      ],
+      [
+       "100"
+      ]
+     ],
+     "k": 2
+    },
+    {
+     "t": "f",
+     "q": "Đến năm 2030, hoàn thành phổ cập giáo dục mầm non cho trẻ từ ____ đến ____ tuổi.",
+     "a": [
+      [
+       "3",
+       "ba"
+      ],
+      [
+       "5",
+       "năm"
+      ]
+     ],
+     "e": "Trẻ 3 đến 5 tuổi.",
+     "r": "NQ 71-NQ/TW",
+     "o": [
+      [
+       "3",
+       "6"
+      ],
+      [
+       "4",
+       "5"
+      ],
+      [
+       "2",
+       "5"
+      ],
+      [
+       "3",
+       "5"
+      ]
+     ],
+     "k": 3
+    },
+    {
+     "t": "f",
+     "q": "Đến năm 2035, hoàn thành phổ cập giáo dục ____ và tương đương.",
+     "a": [
+      [
+       "trung học phổ thông",
+       "thpt"
+      ]
+     ],
+     "e": "Mốc 2035: phổ cập THPT và tương đương.",
+     "r": "NQ 71-NQ/TW",
+     "o": [
+      [
+       "trung học phổ thông"
+      ],
+      [
+       "trung học cơ sở"
+      ],
+      [
+       "tiểu học"
+      ],
+      [
+       "đại học"
+      ]
+     ],
+     "k": 0
+    },
+    {
+     "t": "f",
+     "q": "Đến năm 2045, hệ thống giáo dục quốc dân thuộc nhóm ____ quốc gia hàng đầu thế giới.",
+     "a": [
+      [
+       "20"
+      ]
+     ],
+     "e": "Nhóm 20 quốc gia.",
+     "r": "NQ 71-NQ/TW",
+     "o": [
+      [
+       "10"
+      ],
+      [
+       "20"
+      ],
+      [
+       "30"
+      ],
+      [
+       "50"
+      ]
+     ],
+     "k": 1
+    },
+    {
+     "t": "f",
+     "q": "Đến 2035 ít nhất ____ cơ sở đại học thuộc nhóm 100 thế giới; đến 2045 ít nhất ____ cơ sở.",
+     "a": [
+      [
+       "2",
+       "hai"
+      ],
+      [
+       "5",
+       "năm"
+      ]
+     ],
+     "e": "2035: 2 cơ sở; 2045: 5 cơ sở.",
+     "r": "NQ 71-NQ/TW",
+     "o": [
+      [
+       "3",
+       "5"
+      ],
+      [
+       "2",
+       "10"
+      ],
+      [
+       "1",
+       "5"
+      ],
+      [
+       "2",
+       "5"
+      ]
+     ],
+     "k": 3
+    },
+    {
+     "t": "f",
+     "q": "Đến năm 2030, ít nhất 8 cơ sở đại học thuộc nhóm ____ châu Á.",
+     "a": [
+      [
+       "200"
+      ]
+     ],
+     "e": "Nhóm 200 châu Á (không phải 100 thế giới).",
+     "r": "NQ 71-NQ/TW",
+     "o": [
+      [
+       "200"
+      ],
+      [
+       "100"
+      ],
+      [
+       "300"
+      ],
+      [
+       "500"
+      ]
+     ],
+     "k": 0
+    },
+    {
+     "t": "f",
+     "q": "Đến năm 2030, tuyển ít nhất ____ giảng viên giỏi nước ngoài.",
+     "a": [
+      [
+       "2.000",
+       "2000"
+      ]
+     ],
+     "e": "Ít nhất 2.000 giảng viên.",
+     "r": "NQ 71-NQ/TW",
+     "o": [
+      [
+       "1.000"
+      ],
+      [
+       "2.000"
+      ],
+      [
+       "5.000"
+      ],
+      [
+       "500"
+      ]
+     ],
+     "k": 1
+    },
+    {
+     "t": "f",
+     "q": "Chỉ số giáo dục đóng góp vào HDI trên ____ vào năm 2030 và trên ____ vào năm 2035.",
+     "a": [
+      [
+       "0,8",
+       "0.8"
+      ],
+      [
+       "0,85",
+       "0.85"
+      ]
+     ],
+     "e": "2030: trên 0,8; 2035: trên 0,85.",
+     "r": "NQ 71-NQ/TW",
+     "o": [
+      [
+       "0,7",
+       "0,85"
+      ],
+      [
+       "0,8",
+       "0,9"
+      ],
+      [
+       "0,8",
+       "0,85"
+      ],
+      [
+       "0,85",
+       "0,8"
+      ]
+     ],
+     "k": 2
+    }
+   ],
+   "ynho": [
+    "2030: ít nhất **80%** trường phổ thông đạt chuẩn quốc gia; **100%** đại học.",
+    "2030: phổ cập mầm non **3 đến 5 tuổi**; ít nhất **85%** hoàn thành THPT, không tỉnh nào dưới **60%**.",
+    "2030: HDI (giáo dục) trên **0,8**; 2035: trên **0,85**.",
+    "2035: hoàn thành **phổ cập THPT**.",
+    "2045: nhóm **20** quốc gia hàng đầu; ít nhất **5** đại học nhóm 100 thế giới."
+   ],
+   "bang": [
+    {
+     "tieu_de": "Mốc 2030 - 2035 - 2045",
+     "cot": [
+      "Chỉ tiêu",
+      "2030",
+      "2035",
+      "2045"
+     ],
+     "dong": [
+      [
+       "Phổ cập",
+       "Mầm non 3-5 tuổi; bắt buộc hết THCS",
+       "THPT và tương đương",
+       "-"
+      ],
+      [
+       "HDI (giáo dục)",
+       "Trên 0,8",
+       "Trên 0,85",
+       "-"
+      ],
+      [
+       "Đại học nhóm 100 thế giới",
+       "Ít nhất 1",
+       "Ít nhất 2",
+       "Ít nhất 5"
+      ],
+      [
+       "Vị thế quốc gia",
+       "-",
+       "-",
+       "Nhóm 20 quốc gia hàng đầu"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Số liệu 2030 ở các cấp",
+     "cot": [
+      "Chỉ tiêu",
+      "Số liệu"
+     ],
+     "dong": [
+      [
+       "Trường phổ thông đạt chuẩn quốc gia",
+       "Ít nhất 80%"
+      ],
+      [
+       "Đại học đạt chuẩn quốc gia",
+       "100%"
+      ],
+      [
+       "Cơ sở GDNN đạt chuẩn quốc gia",
+       "Ít nhất 80%"
+      ],
+      [
+       "Hoàn thành THPT và tương đương",
+       "Ít nhất 85% (không tỉnh nào dưới 60%)"
+      ],
+      [
+       "Đại học nhóm 200 châu Á",
+       "Ít nhất 8"
+      ],
+      [
+       "Giảng viên giỏi nước ngoài tuyển",
+       "Ít nhất 2.000"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Một tỉnh có 70% trường phổ thông đạt chuẩn quốc gia vào năm 2030 và cho rằng đã đạt mục tiêu NQ 71.",
+     "ket_luan": "→ Chưa đạt. Mục tiêu 2030 là ít nhất 80% trường phổ thông đạt chuẩn quốc gia."
+    },
+    {
+     "tinh_huong": "Huyện X có 55% người trong độ tuổi hoàn thành THPT, tỉnh đạt tổng thể 85%. Có đạt yêu cầu về mức sàn không?",
+     "ket_luan": "→ Không. Mục tiêu: ít nhất 85% hoàn thành THPT và không tỉnh nào dưới 60%."
+    },
+    {
+     "tinh_huong": "Cô Thảo hỏi: bao giờ hoàn thành phổ cập giáo dục THPT?",
+     "ket_luan": "→ Đến 2035. Mốc 2030 là phổ cập mầm non 3 đến 5 tuổi và giáo dục bắt buộc hết THCS."
+    },
+    {
+     "tinh_huong": "Một bài báo ghi: 'Đến 2035, HDI giáo dục trên 0,8.'",
+     "ket_luan": "→ Sai. 2030 trên 0,8; 2035 trên 0,85."
+    },
+    {
+     "tinh_huong": "Thầy Khải dạy Tin học, ghi chú: 'Tầm nhìn 2045 thuộc nhóm 20 quốc gia hàng đầu, ít nhất 5 đại học nhóm 100 thế giới.'",
+     "ket_luan": "→ Đúng với tầm nhìn 2045 của NQ 71."
+    }
+   ],
+   "nho": [
+    "**30 - 35 - 45**: 2030 mầm non, 2035 THPT, 2045 nhóm 20.",
+    "Đại học nhóm 100 thế giới: **1 - 2 - 5** (2030 - 2035 - 2045).",
+    "HDI: **0,8 rồi 0,85**; **80 - 85 - 100**: trường phổ thông 80%, hoàn thành THPT 85%, đại học 100%."
+   ]
+  },
+  {
+   "id": "L8-3",
+   "ten": "Nhiệm vụ, giải pháp: thể chế, tài chính, quản trị, chuyển đổi số",
+   "tomtat": [
+    "Giải pháp 1: nâng cao nhận thức, đổi mới tư duy; tăng cường lãnh đạo của tổ chức đảng; **không tổ chức hội đồng trường** trong cơ sở GD công lập (trừ trường có thỏa thuận quốc tế); **bí thư cấp ủy kiêm người đứng đầu** cơ sở giáo dục.",
+    "Giải pháp 2: đổi mới thể chế, cơ chế đặc thù, vượt trội; phân cấp, phân quyền (chính quyền địa phương 2 cấp).",
+    "Chi NSNN cho GD&ĐT **tối thiểu 20%** tổng chi NSNN; chi đầu tư ít nhất **5%**; giáo dục đại học ít nhất **3%**.",
+    "Chương trình mục tiêu quốc gia mới về hiện đại hóa, nâng cao chất lượng GD&ĐT giai đoạn **2026-2035**.",
+    "**Không để học sinh, sinh viên nào bỏ học vì điều kiện tài chính**; thành lập **Quỹ học bổng quốc gia**.",
+    "**Không áp dụng thuế TNDN** với cơ sở công lập và tư thục không vì lợi nhuận.",
+    "Giải pháp 3: giáo dục toàn diện đức, trí, thể, mỹ; hệ giá trị con người VN thời đại mới; chấm dứt bạo lực học đường, ma túy học đường; dinh dưỡng học đường.",
+    "Giải pháp 4: chuyển đổi số, nền tảng giáo dục quốc gia ứng dụng **AI có kiểm soát**; nâng chuẩn năng lực số và AI cho người học và nhà giáo; sách giáo khoa, giáo trình thông minh.",
+    "Giải pháp 6: cải cách GDNN, bổ sung cấp **trung học nghề** tương đương THPT.",
+    "Giải pháp 7: hiện đại hóa đại học, **3-5 đại học tinh hoa**; sáp nhập, giải thể cơ sở không đạt chuẩn; giải pháp 8: hợp tác và hội nhập quốc tế."
+   ],
+   "bay": [
+    "⚠ 20% (chi NSNN cho GD&ĐT, tối thiểu) ≠ 5% (chi đầu tư, ít nhất) ≠ 3% (đại học, ít nhất)",
+    "⚠ không tổ chức hội đồng trường (trừ trường có thỏa thuận quốc tế) ≠ không có ngoại lệ",
+    "⚠ bí thư cấp ủy kiêm người đứng đầu cơ sở giáo dục",
+    "⚠ AI \"có kiểm soát\"; thuế TNDN không áp dụng cho công lập và tư thục không vì lợi nhuận"
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Nghị quyết 71-NQ/TW yêu cầu chi ngân sách nhà nước cho giáo dục và đào tạo tối thiểu bao nhiêu phần trăm tổng chi ngân sách nhà nước?",
+     "o": [
+      "10%",
+      "25%",
+      "15%",
+      "20%"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Tối thiểu 20% tổng chi NSNN. Bẫy: các con số 5% (chi đầu tư) và 3% (đại học) dễ lẫn.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Nghị quyết 71-NQ/TW nêu chi cho giáo dục đại học ít nhất bao nhiêu phần trăm?",
+     "o": [
+      "3%",
+      "10%",
+      "20%",
+      "5%"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Đại học ít nhất 3%; chi đầu tư ít nhất 5%; chi cho GD&ĐT tối thiểu 20%.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Về hội đồng trường trong cơ sở giáo dục công lập, Nghị quyết 71-NQ/TW quy định thế nào?",
+     "o": [
+      "Bắt buộc tổ chức hội đồng trường ở mọi cơ sở",
+      "Không tổ chức hội đồng trường, trừ trường có thỏa thuận quốc tế",
+      "Không tổ chức, không có ngoại lệ nào",
+      "Chỉ không tổ chức ở trường mầm non"
+     ],
+     "a": [
+      1
+     ],
+     "e": "NQ nêu không tổ chức hội đồng trường trong cơ sở GD công lập (trừ trường có thỏa thuận quốc tế). Bẫy: \"không có ngoại lệ\".",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Nghị quyết 71-NQ/TW chủ trương ai kiêm người đứng đầu cơ sở giáo dục?",
+     "o": [
+      "Chủ tịch công đoàn",
+      "Chủ tịch Ủy ban nhân dân",
+      "Bí thư cấp ủy",
+      "Chủ tịch hội đồng trường"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Thực hiện bí thư cấp ủy kiêm người đứng đầu cơ sở giáo dục.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Nội dung nào thuộc nhóm giải pháp về chuyển đổi số, AI trong Nghị quyết 71-NQ/TW?",
+     "o": [
+      "Bỏ hoàn toàn sách giáo khoa in",
+      "Chỉ nâng chuẩn năng lực AI cho học sinh",
+      "Xây dựng nền tảng giáo dục ứng dụng AI không giới hạn",
+      "Xây dựng nền tảng giáo dục quốc gia ứng dụng AI có kiểm soát"
+     ],
+     "a": [
+      3
+     ],
+     "e": "NQ nêu nền tảng giáo dục quốc gia ứng dụng AI \"có kiểm soát\"; nâng chuẩn cho cả người học và nhà giáo.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Về giáo dục nghề nghiệp, Nghị quyết 71-NQ/TW đề ra giải pháp nào?",
+     "o": [
+      "Bổ sung cấp trung học nghề tương đương THPT",
+      "Bỏ cấp trung cấp",
+      "Bổ sung cấp trung học nghề tương đương THCS",
+      "Sáp nhập toàn bộ vào đại học"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Cải cách GDNN: bổ sung cấp trung học nghề tương đương THPT.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Về giáo dục đại học, Nghị quyết 71-NQ/TW đề ra xây dựng bao nhiêu đại học tinh hoa?",
+     "o": [
+      "5 đến 8 đại học",
+      "3 đến 5 đại học",
+      "8 đại học",
+      "1 đến 3 đại học"
+     ],
+     "a": [
+      1
+     ],
+     "e": "3-5 đại học tinh hoa; số 8 là đại học nhóm 200 châu Á.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Nghị quyết 71-NQ/TW nêu chính sách thuế thu nhập doanh nghiệp như thế nào?",
+     "o": [
+      "Áp dụng thuế thấp nhất đối với cơ sở công lập",
+      "Không áp dụng đối với mọi cơ sở tư thục",
+      "Không áp dụng đối với cơ sở công lập và tư thục không vì lợi nhuận",
+      "Chỉ không áp dụng với cơ sở công lập"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Không áp dụng thuế TNDN với cơ sở công lập và tư thục không vì lợi nhuận. Bẫy: bỏ/thêm đối tượng.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Cụm nào đúng với tinh thần Nghị quyết 71-NQ/TW về hỗ trợ người học?",
+     "o": [
+      "Học sinh phải tự chi trả mọi chi phí sách giáo khoa",
+      "Chỉ hỗ trợ học sinh phổ thông công lập",
+      "Miễn toàn bộ học phí mọi cấp, mọi loại hình",
+      "Không để học sinh, sinh viên nào bỏ học vì điều kiện tài chính"
+     ],
+     "a": [
+      3
+     ],
+     "e": "NQ không ghi từ \"miễn học phí\" ở phần giải pháp mà nêu không để HS, sinh viên nào bỏ học vì điều kiện tài chính; thành lập Quỹ học bổng quốc gia.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Chương trình mục tiêu quốc gia mới về hiện đại hóa, nâng cao chất lượng giáo dục và đào tạo theo Nghị quyết 71-NQ/TW thuộc giai đoạn nào?",
+     "o": [
+      "2026-2035",
+      "2025-2030",
+      "2030-2045",
+      "2026-2030"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Giai đoạn 2026-2035.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các nội dung đúng về tài chính, chính sách theo Nghị quyết 71-NQ/TW (chọn tất cả đáp án đúng)",
+     "o": [
+      "Chi NSNN cho GD&ĐT tối thiểu 20% tổng chi NSNN",
+      "Thành lập quỹ học bổng của từng tỉnh thay cho quỹ quốc gia",
+      "Chi cho giáo dục đại học ít nhất 3%",
+      "Không áp dụng thuế TNDN với cơ sở công lập và tư thục không vì lợi nhuận",
+      "Chi đầu tư cho giáo dục tối đa 5%"
+     ],
+     "a": [
+      0,
+      2,
+      3
+     ],
+     "e": "NQ nêu chi đầu tư \"ít nhất\" 5%, không phải \"tối đa\"; và thành lập Quỹ học bổng quốc gia.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "m",
+     "q": "Nội dung nào thuộc nhóm giải pháp về giáo dục toàn diện (chọn tất cả đáp án đúng)",
+     "o": [
+      "Giáo dục toàn diện đức, trí, thể, mỹ",
+      "Xây dựng hệ giá trị con người Việt Nam thời đại mới",
+      "Bỏ giáo dục thể chất ở phổ thông",
+      "Chấm dứt bạo lực học đường, ma túy học đường",
+      "Thay hệ giá trị con người Việt Nam bằng chuẩn quốc tế"
+     ],
+     "a": [
+      0,
+      1,
+      3
+     ],
+     "e": "NQ nêu giáo dục toàn diện đức, trí, thể, mỹ; hệ giá trị con người VN thời đại mới; chấm dứt bạo lực, ma túy học đường; dinh dưỡng học đường.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "m",
+     "q": "Về quản trị cơ sở giáo dục công lập, những ý nào đúng (chọn tất cả đáp án đúng)",
+     "o": [
+      "Bí thư cấp ủy kiêm người đứng đầu cơ sở giáo dục",
+      "Có ngoại lệ đối với trường có thỏa thuận quốc tế",
+      "Không tổ chức hội đồng trường",
+      "Hội đồng trường là cơ quan quyết định bắt buộc ở mọi cơ sở công lập",
+      "Người đứng đầu cơ sở giáo dục không được kiêm bí thư cấp ủy"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Hai phương án nhiễu trái ngược nội dung NQ (và Luật 123/2025 từ 01/01/2026 cho hội đồng trường công lập phổ thông kết thúc hoạt động).",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "m",
+     "q": "Nội dung nào thuộc giải pháp chuyển đổi số, AI (chọn tất cả đáp án đúng)",
+     "o": [
+      "Nền tảng giáo dục quốc gia ứng dụng AI có kiểm soát",
+      "Sách giáo khoa, giáo trình thông minh",
+      "Chỉ nâng chuẩn năng lực số cho nhà giáo",
+      "Ứng dụng AI không cần kiểm soát",
+      "Nâng chuẩn năng lực số và AI cho người học và nhà giáo"
+     ],
+     "a": [
+      0,
+      1,
+      4
+     ],
+     "e": "Phải \"có kiểm soát\"; nâng chuẩn cho cả người học và nhà giáo.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "f",
+     "q": "Chi ngân sách nhà nước cho giáo dục và đào tạo tối thiểu ____% tổng chi ngân sách nhà nước.",
+     "a": [
+      [
+       "20"
+      ]
+     ],
+     "e": "Tối thiểu 20%.",
+     "r": "Phần III, NQ 71-NQ/TW",
+     "o": [
+      [
+       "20"
+      ],
+      [
+       "15"
+      ],
+      [
+       "25"
+      ],
+      [
+       "30"
+      ]
+     ],
+     "k": 0
+    },
+    {
+     "t": "f",
+     "q": "Không tổ chức ____ trong cơ sở giáo dục công lập, trừ trường có thỏa thuận ____.",
+     "a": [
+      [
+       "hội đồng trường"
+      ],
+      [
+       "quốc tế"
+      ]
+     ],
+     "e": "Hội đồng trường; ngoại lệ là trường có thỏa thuận quốc tế.",
+     "r": "Phần III, NQ 71-NQ/TW",
+     "o": [
+      [
+       "hội đồng quản trị",
+       "quốc tế"
+      ],
+      [
+       "hội đồng trường",
+       "quốc tế"
+      ],
+      [
+       "hội đồng trường",
+       "hợp tác"
+      ],
+      [
+       "đại hội phụ huynh",
+       "trong nước"
+      ]
+     ],
+     "k": 1
+    },
+    {
+     "t": "f",
+     "q": "Thực hiện bí thư ____ kiêm ____ cơ sở giáo dục.",
+     "a": [
+      [
+       "cấp ủy"
+      ],
+      [
+       "người đứng đầu"
+      ]
+     ],
+     "e": "Bí thư cấp ủy kiêm người đứng đầu cơ sở giáo dục.",
+     "r": "Phần III, NQ 71-NQ/TW",
+     "o": [
+      [
+       "chi bộ",
+       "người đứng đầu"
+      ],
+      [
+       "cấp ủy",
+       "chủ tịch hội đồng trường"
+      ],
+      [
+       "cấp ủy",
+       "người đứng đầu"
+      ],
+      [
+       "đảng ủy",
+       "phó hiệu trưởng"
+      ]
+     ],
+     "k": 2
+    },
+    {
+     "t": "f",
+     "q": "Bổ sung cấp ____ tương đương trung học phổ thông trong giáo dục nghề nghiệp.",
+     "a": [
+      [
+       "trung học nghề"
+      ]
+     ],
+     "e": "Cấp trung học nghề.",
+     "r": "Phần III, NQ 71-NQ/TW",
+     "o": [
+      [
+       "trung cấp"
+      ],
+      [
+       "cao đẳng"
+      ],
+      [
+       "sơ cấp"
+      ],
+      [
+       "trung học nghề"
+      ]
+     ],
+     "k": 3
+    },
+    {
+     "t": "f",
+     "q": "Xây dựng từ ____ đến ____ đại học tinh hoa.",
+     "a": [
+      [
+       "3",
+       "ba"
+      ],
+      [
+       "5",
+       "năm"
+      ]
+     ],
+     "e": "3-5 đại học tinh hoa.",
+     "r": "Phần III, NQ 71-NQ/TW",
+     "o": [
+      [
+       "2",
+       "5"
+      ],
+      [
+       "3",
+       "5"
+      ],
+      [
+       "3",
+       "7"
+      ],
+      [
+       "5",
+       "3"
+      ]
+     ],
+     "k": 1
+    },
+    {
+     "t": "f",
+     "q": "Không để học sinh, sinh viên nào ____ vì điều kiện ____.",
+     "a": [
+      [
+       "bỏ học"
+      ],
+      [
+       "tài chính"
+      ]
+     ],
+     "e": "Không để HS, sinh viên bỏ học vì điều kiện tài chính.",
+     "r": "Phần III, NQ 71-NQ/TW",
+     "o": [
+      [
+       "bỏ học",
+       "sức khỏe"
+      ],
+      [
+       "lưu ban",
+       "tài chính"
+      ],
+      [
+       "bỏ học",
+       "tài chính"
+      ],
+      [
+       "thất học",
+       "gia đình"
+      ]
+     ],
+     "k": 2
+    },
+    {
+     "t": "f",
+     "q": "Thành lập Quỹ ____ quốc gia.",
+     "a": [
+      [
+       "học bổng"
+      ]
+     ],
+     "e": "Quỹ học bổng quốc gia.",
+     "r": "Phần III, NQ 71-NQ/TW",
+     "o": [
+      [
+       "hỗ trợ"
+      ],
+      [
+       "khuyến học"
+      ],
+      [
+       "đầu tư"
+      ],
+      [
+       "học bổng"
+      ]
+     ],
+     "k": 3
+    },
+    {
+     "t": "f",
+     "q": "Chương trình mục tiêu quốc gia mới về giáo dục và đào tạo thuộc giai đoạn ____.",
+     "a": [
+      [
+       "2026-2035",
+       "2026 - 2035",
+       "2026–2035"
+      ]
+     ],
+     "e": "Giai đoạn 2026-2035.",
+     "r": "Phần III, NQ 71-NQ/TW",
+     "o": [
+      [
+       "2026-2035"
+      ],
+      [
+       "2026-2030"
+      ],
+      [
+       "2025-2035"
+      ],
+      [
+       "2021-2030"
+      ]
+     ],
+     "k": 0
+    }
+   ],
+   "ynho": [
+    "Chi NSNN GD&ĐT **tối thiểu 20%**; chi đầu tư ít nhất **5%**; đại học ít nhất **3%**.",
+    "**Không tổ chức hội đồng trường** ở cơ sở công lập (trừ trường có thỏa thuận quốc tế).",
+    "**Bí thư cấp ủy kiêm người đứng đầu** cơ sở giáo dục.",
+    "**Không để học sinh bỏ học vì điều kiện tài chính**; lập **Quỹ học bổng quốc gia**.",
+    "Nền tảng giáo dục quốc gia ứng dụng **AI có kiểm soát**; **3-5 đại học tinh hoa**."
+   ],
+   "bang": [
+    {
+     "tieu_de": "Tỷ lệ chi ngân sách",
+     "cot": [
+      "Khoản chi",
+      "Mức"
+     ],
+     "dong": [
+      [
+       "Chi NSNN cho GD&ĐT",
+       "Tối thiểu 20% tổng chi NSNN"
+      ],
+      [
+       "Chi đầu tư cho GD&ĐT",
+       "Ít nhất 5%"
+      ],
+      [
+       "Giáo dục đại học",
+       "Ít nhất 3%"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Các giải pháp tiêu biểu",
+     "cot": [
+      "Giải pháp",
+      "Nội dung chính"
+     ],
+     "dong": [
+      [
+       "1",
+       "Nhận thức, tư duy; không tổ chức hội đồng trường; bí thư kiêm người đứng đầu"
+      ],
+      [
+       "2",
+       "Đổi mới thể chế; phân cấp, phân quyền (chính quyền 2 cấp)"
+      ],
+      [
+       "3",
+       "Giáo dục toàn diện đức, trí, thể, mỹ; chấm dứt bạo lực học đường, ma túy học đường"
+      ],
+      [
+       "4",
+       "Chuyển đổi số, AI có kiểm soát; nâng chuẩn năng lực số và AI"
+      ],
+      [
+       "6",
+       "Cải cách GDNN, bổ sung trung học nghề tương đương THPT"
+      ],
+      [
+       "7",
+       "Hiện đại hóa đại học, 3-5 đại học tinh hoa"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Ở trường THCS công lập, hội đồng trường chuẩn bị bầu chủ tịch theo mô hình cũ. Hiệu trưởng hỏi có phù hợp NQ 71 không.",
+     "ket_luan": "→ Không phù hợp. NQ 71 chủ trương không tổ chức hội đồng trường trong cơ sở giáo dục công lập (trừ trường có thỏa thuận quốc tế)."
+    },
+    {
+     "tinh_huong": "Em Tuấn có hoàn cảnh khó khăn dự định nghỉ học vì không có tiền. Nhà trường tìm hỗ trợ.",
+     "ket_luan": "→ Phù hợp mục tiêu không để học sinh, sinh viên nào bỏ học vì điều kiện tài chính; có Quỹ học bổng quốc gia."
+    },
+    {
+     "tinh_huong": "Cô Vy, giáo viên Tin học, dùng công cụ AI trên nền tảng của trường nhưng có giáo viên giám sát nội dung.",
+     "ket_luan": "→ Phù hợp chủ trương ứng dụng AI có kiểm soát trong nền tảng giáo dục quốc gia."
+    },
+    {
+     "tinh_huong": "Nhà trường tổ chức tuyên truyền phòng chống bạo lực học đường, ma túy học đường và bữa ăn dinh dưỡng.",
+     "ket_luan": "→ Phù hợp Giải pháp 3: chấm dứt bạo lực học đường, ma túy học đường; dinh dưỡng học đường."
+    },
+    {
+     "tinh_huong": "Một cán bộ nói: 'Chi đầu tư cho giáo dục tối thiểu 20% tổng chi NSNN.'",
+     "ket_luan": "→ Sai. 20% là tổng chi NSNN cho GD&ĐT (tối thiểu); chi đầu tư ít nhất 5%."
+    }
+   ],
+   "nho": [
+    "**20 - 5 - 3**: tổng chi - chi đầu tư - đại học.",
+    "Thuế TNDN **không áp dụng**: **công lập** và **tư thục không vì lợi nhuận**.",
+    "Giải pháp 4 = **4.0** = chuyển đổi số + AI; giải pháp 5 = nhà giáo, giải pháp 6 = nghề, 7 = đại học."
+   ]
+  },
+  {
+   "id": "L8-4",
+   "ten": "Nhà giáo, giáo dục phổ thông, SGK, tiếng Anh và tổ chức thực hiện",
+   "tomtat": [
+    "Phụ cấp ưu đãi nghề mầm non và phổ thông tối thiểu **70%** cho giáo viên, tối thiểu **30%** cho nhân viên, **100%** cho giáo viên khu vực đặc biệt khó khăn, biên giới, hải đảo, vùng ĐBDTTS.",
+    "Giải pháp 5: đủ biên chế giáo viên; **nhà công vụ** cho giáo viên; STEM/STEAM; hoàn thành trường phổ thông **nội trú** vùng ĐBDTTS, khó khăn, biên giới **trước 2030**.",
+    "Tăng thời lượng khoa học, công nghệ, tin học, nghệ thuật; **nghiên cứu đưa** năng lực số, AI vào chương trình phổ thông.",
+    "**Một bộ SGK** thống nhất toàn quốc; **phấn đấu đến 2030** cung cấp miễn phí SGK cho tất cả học sinh.",
+    "Khắc phục dạy thêm, học thêm tràn lan.",
+    "Tiếng Anh **từng bước thành ngôn ngữ thứ hai** trong trường học; nâng chuẩn tiếng Anh cho giáo viên và học sinh.",
+    "Nâng chuẩn năng lực số và AI cho người học và nhà giáo.",
+    "Phần IV: **Đảng ủy Quốc hội** thể chế hóa thành Nghị quyết đặc thù (NQ 248/2025/QH15).",
+    "Phần IV: **Đảng ủy Chính phủ** xây dựng Chương trình hành động và Chương trình mục tiêu quốc gia, triển khai từ **2026**."
+   ],
+   "bay": [
+    "⚠ \"tối thiểu 70%\" (giáo viên) ≠ \"30%\" (nhân viên) ≠ \"100%\" (giáo viên khu vực đặc biệt khó khăn)",
+    "⚠ \"phấn đấu đến 2030\" miễn phí SGK; \"nghiên cứu đưa\" năng lực số, AI vào chương trình",
+    "⚠ tiếng Anh là ngôn ngữ thứ hai (từng bước), không phải thứ nhất",
+    "⚠ Đảng ủy Quốc hội (Nghị quyết đặc thù) ≠ Đảng ủy Chính phủ (Chương trình hành động, Chương trình mục tiêu quốc gia)"
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Nghị quyết 71-NQ/TW nâng phụ cấp ưu đãi nghề tối thiểu bao nhiêu phần trăm cho giáo viên mầm non và phổ thông?",
+     "o": [
+      "70%",
+      "100%",
+      "50%",
+      "30%"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Tối thiểu 70% giáo viên, 30% nhân viên; 100% đối với giáo viên ở khu vực đặc biệt khó khăn.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Phụ cấp ưu đãi nghề tối thiểu đối với nhân viên trường mầm non và phổ thông theo Nghị quyết 71-NQ/TW là bao nhiêu?",
+     "o": [
+      "100%",
+      "30%",
+      "50%",
+      "70%"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Nhân viên tối thiểu 30%; giáo viên tối thiểu 70%.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Phụ cấp ưu đãi nghề 100% theo Nghị quyết 71-NQ/TW áp dụng cho đối tượng nào?",
+     "o": [
+      "Giáo viên trường ngoài công lập",
+      "Mọi giáo viên mầm non",
+      "Giáo viên ở khu vực đặc biệt khó khăn, biên giới, hải đảo, vùng đồng bào dân tộc thiểu số",
+      "Mọi nhân viên trường học"
+     ],
+     "a": [
+      2
+     ],
+     "e": "100% dành cho giáo viên ở khu vực đặc biệt khó khăn, biên giới, hải đảo, vùng ĐBDTTS. Bẫy: mở rộng đối tượng.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Về sách giáo khoa, Nghị quyết 71-NQ/TW chủ trương gì?",
+     "o": [
+      "Chỉ dùng sách điện tử",
+      "Nhiều bộ sách giáo khoa do địa phương lựa chọn",
+      "Mỗi trường tự biên soạn sách giáo khoa",
+      "Một bộ sách giáo khoa thống nhất toàn quốc"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Một bộ SGK thống nhất toàn quốc.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Nghị quyết 71-NQ/TW đặt mục tiêu cung cấp miễn phí sách giáo khoa cho tất cả học sinh theo mức độ nào?",
+     "o": [
+      "Phấn đấu đến năm 2030",
+      "Chỉ cho học sinh vùng khó khăn",
+      "Hoàn thành ngay từ năm 2026",
+      "Phấn đấu đến năm 2035"
+     ],
+     "a": [
+      0
+     ],
+     "e": "NQ nêu \"phấn đấu đến 2030\" cung cấp miễn phí SGK cho tất cả học sinh.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Nghị quyết 71-NQ/TW chủ trương đưa tiếng Anh vào trường học như thế nào?",
+     "o": [
+      "Trở thành ngôn ngữ thứ nhất",
+      "Từng bước trở thành ngôn ngữ thứ hai trong trường học",
+      "Chỉ dạy ở bậc đại học",
+      "Bắt buộc dạy mọi môn bằng tiếng Anh từ năm 2026"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Tiếng Anh từng bước thành ngôn ngữ thứ hai trong trường học.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Đối với năng lực số, AI trong chương trình giáo dục phổ thông, Nghị quyết 71-NQ/TW nêu gì?",
+     "o": [
+      "Bắt buộc đưa ngay thành môn học độc lập",
+      "Chỉ đưa vào giáo dục đại học",
+      "Nghiên cứu đưa vào chương trình giáo dục phổ thông",
+      "Không đưa vào chương trình phổ thông"
+     ],
+     "a": [
+      2
+     ],
+     "e": "NQ dùng cụm \"nghiên cứu đưa\" năng lực số, AI vào chương trình phổ thông.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Trường phổ thông nội trú ở vùng đồng bào dân tộc thiểu số, khó khăn, biên giới phải hoàn thành vào thời điểm nào?",
+     "o": [
+      "Trước năm 2045",
+      "Trước năm 2035",
+      "Trước năm 2026",
+      "Trước năm 2030"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Hoàn thành trường phổ thông nội trú trước 2030.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Theo phần tổ chức thực hiện của Nghị quyết 71-NQ/TW, cơ quan nào thể chế hóa nghị quyết thành Nghị quyết đặc thù?",
+     "o": [
+      "Đảng ủy Quốc hội",
+      "Bộ Giáo dục và Đào tạo",
+      "Đảng ủy Chính phủ",
+      "Ban Bí thư"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Đảng ủy Quốc hội thể chế hóa (sau là NQ 248/2025/QH15); Đảng ủy Chính phủ xây dựng Chương trình hành động và Chương trình mục tiêu quốc gia.",
+     "r": "Phần IV, NQ 71-NQ/TW"
+    },
+    {
+     "t": "s",
+     "q": "Theo Nghị quyết 71-NQ/TW, Đảng ủy Chính phủ xây dựng nội dung nào và triển khai từ khi nào?",
+     "o": [
+      "Nghị quyết đặc thù, triển khai từ năm 2025",
+      "Chương trình hành động và Chương trình mục tiêu quốc gia, triển khai từ năm 2026",
+      "Chương trình hành động, triển khai từ năm 2030",
+      "Luật Giáo dục sửa đổi, triển khai từ năm 2026"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Đảng ủy Chính phủ xây dựng Chương trình hành động và Chương trình mục tiêu quốc gia, triển khai từ 2026.",
+     "r": "Phần IV, NQ 71-NQ/TW"
+    },
+    {
+     "t": "m",
+     "q": "Theo Nghị quyết 71-NQ/TW, những nội dung nào thuộc giải pháp về đội ngũ, cơ sở vật chất giáo dục mầm non và phổ thông (chọn tất cả đáp án đúng)",
+     "o": [
+      "Xây dựng nhà công vụ cho giáo viên",
+      "Bảo đảm đủ biên chế giáo viên",
+      "Cho phép dạy thêm, học thêm tự do",
+      "Giảm thời lượng môn tin học",
+      "Khắc phục tình trạng dạy thêm, học thêm tràn lan"
+     ],
+     "a": [
+      0,
+      1,
+      4
+     ],
+     "e": "NQ nêu khắc phục dạy thêm, học thêm tràn lan và tăng thời lượng khoa học, công nghệ, tin học, nghệ thuật.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các phát biểu đúng về phụ cấp ưu đãi nghề theo Nghị quyết 71-NQ/TW (chọn tất cả đáp án đúng)",
+     "o": [
+      "Tối thiểu 70% đối với giáo viên mầm non và phổ thông",
+      "100% đối với toàn bộ nhân viên",
+      "Tối thiểu 30% đối với nhân viên",
+      "Tối đa 70% đối với giáo viên",
+      "100% đối với giáo viên ở khu vực đặc biệt khó khăn, biên giới, hải đảo"
+     ],
+     "a": [
+      0,
+      2,
+      4
+     ],
+     "e": "Bẫy: \"tối thiểu\" khác \"tối đa\"; 100% chỉ dành cho giáo viên ở khu vực đặc biệt khó khăn.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các nội dung đúng về tổ chức thực hiện Nghị quyết 71-NQ/TW (chọn tất cả đáp án đúng)",
+     "o": [
+      "Đảng ủy Chính phủ xây dựng Chương trình hành động",
+      "Đảng ủy Quốc hội thể chế hóa thành Nghị quyết đặc thù",
+      "Đảng ủy Quốc hội xây dựng Chương trình mục tiêu quốc gia",
+      "Ban Bí thư trực tiếp ban hành Luật Giáo dục mới",
+      "Đảng ủy Chính phủ xây dựng Chương trình mục tiêu quốc gia"
+     ],
+     "a": [
+      0,
+      1,
+      4
+     ],
+     "e": "Đảng ủy Quốc hội: Nghị quyết đặc thù; Đảng ủy Chính phủ: Chương trình hành động và Chương trình mục tiêu quốc gia. Bẫy: đổi chủ thể.",
+     "r": "Phần IV, NQ 71-NQ/TW"
+    },
+    {
+     "t": "m",
+     "q": "Những nội dung nào thuộc yêu cầu nâng chuẩn, nâng năng lực trong Nghị quyết 71-NQ/TW (chọn tất cả đáp án đúng)",
+     "o": [
+      "Nâng chuẩn tiếng Anh cho giáo viên và học sinh",
+      "Nâng chuẩn năng lực số và AI cho người học và nhà giáo",
+      "Nghiên cứu đưa năng lực số, AI vào chương trình phổ thông",
+      "Chỉ nâng chuẩn năng lực số cho học sinh",
+      "Bắt buộc mọi giáo viên dạy bằng tiếng Anh"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "NQ nêu cả người học và nhà giáo; không nêu bắt buộc dạy mọi môn bằng tiếng Anh.",
+     "r": "Phần III, NQ 71-NQ/TW"
+    },
+    {
+     "t": "f",
+     "q": "Phụ cấp ưu đãi nghề tối thiểu ____% đối với giáo viên và ____% đối với nhân viên.",
+     "a": [
+      [
+       "70"
+      ],
+      [
+       "30"
+      ]
+     ],
+     "e": "70% giáo viên, 30% nhân viên.",
+     "r": "Phần III, NQ 71-NQ/TW",
+     "o": [
+      [
+       "50",
+       "30"
+      ],
+      [
+       "70",
+       "50"
+      ],
+      [
+       "70",
+       "30"
+      ],
+      [
+       "30",
+       "70"
+      ]
+     ],
+     "k": 2
+    },
+    {
+     "t": "f",
+     "q": "Phụ cấp ưu đãi nghề ____% đối với giáo viên ở khu vực đặc biệt khó khăn, biên giới, hải đảo, vùng đồng bào dân tộc thiểu số.",
+     "a": [
+      [
+       "100"
+      ]
+     ],
+     "e": "100% cho giáo viên khu vực đặc biệt khó khăn.",
+     "r": "Phần III, NQ 71-NQ/TW",
+     "o": [
+      [
+       "50"
+      ],
+      [
+       "70"
+      ],
+      [
+       "30"
+      ],
+      [
+       "100"
+      ]
+     ],
+     "k": 3
+    },
+    {
+     "t": "f",
+     "q": "Thực hiện một ____ sách giáo khoa thống nhất toàn quốc; phấn đấu đến năm ____ cung cấp miễn phí sách giáo khoa cho tất cả học sinh.",
+     "a": [
+      [
+       "bộ"
+      ],
+      [
+       "2030"
+      ]
+     ],
+     "e": "Một bộ SGK; phấn đấu đến 2030 miễn phí.",
+     "r": "Phần III, NQ 71-NQ/TW",
+     "o": [
+      [
+       "bộ",
+       "2030"
+      ],
+      [
+       "bộ",
+       "2035"
+      ],
+      [
+       "bộ",
+       "2028"
+      ],
+      [
+       "chương trình",
+       "2030"
+      ]
+     ],
+     "k": 0
+    },
+    {
+     "t": "f",
+     "q": "Tiếng Anh từng bước trở thành ngôn ngữ ____ trong trường học.",
+     "a": [
+      [
+       "thứ hai"
+      ]
+     ],
+     "e": "Ngôn ngữ thứ hai.",
+     "r": "Phần III, NQ 71-NQ/TW",
+     "o": [
+      [
+       "thứ nhất"
+      ],
+      [
+       "thứ hai"
+      ],
+      [
+       "bắt buộc"
+      ],
+      [
+       "chính thức"
+      ]
+     ],
+     "k": 1
+    },
+    {
+     "t": "f",
+     "q": "Hoàn thành trường phổ thông ____ ở vùng đồng bào dân tộc thiểu số, khó khăn, biên giới trước năm 2030.",
+     "a": [
+      [
+       "nội trú"
+      ]
+     ],
+     "e": "Trường phổ thông nội trú.",
+     "r": "Phần III, NQ 71-NQ/TW",
+     "o": [
+      [
+       "bán trú"
+      ],
+      [
+       "chuyên"
+      ],
+      [
+       "dân tộc"
+      ],
+      [
+       "nội trú"
+      ]
+     ],
+     "k": 3
+    },
+    {
+     "t": "f",
+     "q": "Đảng ủy ____ thể chế hóa nghị quyết thành Nghị quyết đặc thù.",
+     "a": [
+      [
+       "quốc hội"
+      ]
+     ],
+     "e": "Đảng ủy Quốc hội.",
+     "r": "Phần IV, NQ 71-NQ/TW",
+     "o": [
+      [
+       "quốc hội"
+      ],
+      [
+       "chính phủ"
+      ],
+      [
+       "bộ chính trị"
+      ],
+      [
+       "ban bí thư"
+      ]
+     ],
+     "k": 0
+    },
+    {
+     "t": "f",
+     "q": "Đảng ủy ____ xây dựng Chương trình hành động và Chương trình mục tiêu quốc gia, triển khai từ năm ____.",
+     "a": [
+      [
+       "chính phủ"
+      ],
+      [
+       "2026"
+      ]
+     ],
+     "e": "Đảng ủy Chính phủ; từ năm 2026.",
+     "r": "Phần IV, NQ 71-NQ/TW",
+     "o": [
+      [
+       "quốc hội",
+       "2026"
+      ],
+      [
+       "chính phủ",
+       "2026"
+      ],
+      [
+       "chính phủ",
+       "2030"
+      ],
+      [
+       "bộ giáo dục",
+       "2027"
+      ]
+     ],
+     "k": 1
+    },
+    {
+     "t": "f",
+     "q": "Nghị quyết yêu cầu đủ trường, đủ lớp, đủ ____ và bảo đảm nhà công vụ cho ____.",
+     "a": [
+      [
+       "giáo viên"
+      ],
+      [
+       "giáo viên"
+      ]
+     ],
+     "e": "Đủ giáo viên; nhà công vụ cho giáo viên.",
+     "r": "Phần III, NQ 71-NQ/TW",
+     "o": [
+      [
+       "học sinh",
+       "giáo viên"
+      ],
+      [
+       "giáo viên",
+       "học sinh"
+      ],
+      [
+       "giáo viên",
+       "giáo viên"
+      ],
+      [
+       "giáo viên",
+       "cán bộ quản lý"
+      ]
+     ],
+     "k": 2
+    }
+   ],
+   "ynho": [
+    "Phụ cấp ưu đãi nghề: giáo viên tối thiểu **70%**, nhân viên **30%**, khu vực đặc biệt khó khăn **100%**.",
+    "**Một bộ SGK** thống nhất; **phấn đấu đến 2030** miễn phí SGK.",
+    "**Nghiên cứu đưa** năng lực số, AI vào chương trình phổ thông.",
+    "Tiếng Anh **từng bước thành ngôn ngữ thứ hai** trong trường học.",
+    "**Đảng ủy Quốc hội** - Nghị quyết đặc thù; **Đảng ủy Chính phủ** - Chương trình hành động, triển khai từ **2026**."
+   ],
+   "bang": [
+    {
+     "tieu_de": "Từ khóa mức độ cam kết",
+     "cot": [
+      "Nội dung",
+      "Cách diễn đạt"
+     ],
+     "dong": [
+      [
+       "Miễn phí SGK",
+       "Phấn đấu đến 2030"
+      ],
+      [
+       "Năng lực số, AI vào chương trình phổ thông",
+       "Nghiên cứu đưa vào"
+      ],
+      [
+       "Tiếng Anh",
+       "Từng bước thành ngôn ngữ thứ hai"
+      ],
+      [
+       "Trường nội trú vùng khó khăn",
+       "Hoàn thành trước 2030"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Tổ chức thực hiện (Phần IV)",
+     "cot": [
+      "Chủ thể",
+      "Nhiệm vụ"
+     ],
+     "dong": [
+      [
+       "Đảng ủy Quốc hội",
+       "Thể chế hóa thành Nghị quyết đặc thù (NQ 248/2025/QH15)"
+      ],
+      [
+       "Đảng ủy Chính phủ",
+       "Chương trình hành động, Chương trình mục tiêu quốc gia, triển khai từ 2026"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Thầy Long, giáo viên THCS ở xã biên giới, hỏi mức phụ cấp ưu đãi nghề của mình theo NQ 71.",
+     "ket_luan": "→ 100% cho giáo viên ở khu vực đặc biệt khó khăn, biên giới, hải đảo, vùng đồng bào dân tộc thiểu số."
+    },
+    {
+     "tinh_huong": "Nhà trường báo phụ huynh: nhà nước phấn đấu đến 2030 cung cấp miễn phí SGK cho tất cả học sinh.",
+     "ket_luan": "→ Đúng; lưu ý đây là mục tiêu 'phấn đấu', chưa phải cam kết cứng."
+    },
+    {
+     "tinh_huong": "Cô Ngân, giáo viên Tin học, nói: 'Từ nay AI là môn bắt buộc trong chương trình phổ thông.'",
+     "ket_luan": "→ Sai. NQ 71 chỉ nêu 'nghiên cứu đưa' năng lực số, AI vào chương trình phổ thông."
+    },
+    {
+     "tinh_huong": "Trường THCS tổ chức câu lạc bộ tiếng Anh và nâng chuẩn tiếng Anh cho giáo viên.",
+     "ket_luan": "→ Phù hợp chủ trương từng bước đưa tiếng Anh thành ngôn ngữ thứ hai trong trường học."
+    },
+    {
+     "tinh_huong": "Một tỉnh miền núi xây trường nội trú cho học sinh vùng đồng bào dân tộc thiểu số, đặt mốc hoàn thành 2028.",
+     "ket_luan": "→ Phù hợp: hoàn thành trường phổ thông nội trú vùng ĐBDTTS, khó khăn, biên giới trước 2030."
+    }
+   ],
+   "nho": [
+    "**70 - 30 - 100**: giáo viên - nhân viên - vùng khó (cùng bộ số với NQ 248).",
+    "**Phấn đấu** (SGK 2030) và **nghiên cứu** (AI) là từ nhẹ, không phải bắt buộc.",
+    "**Quốc hội** thể chế hóa luật; **Chính phủ** làm chương trình hành động: Đảng ủy nào, việc nấy."
+   ]
+  }
+ ]
+}
