@@ -1,0 +1,623 @@
+{
+ "id": "T8-B02",
+ "ten": "Bài 2. Thông tin trong môi trường số",
+ "tomtat": [
+  "**Thông tin số** là thông tin được lưu trữ, xử lí và truyền trên thiết bị số (ảnh, văn bản, âm thanh, video...).",
+  "Đặc điểm 1: **dễ nhân bản và lan truyền** – gửi ảnh cho bạn thì ảnh gốc vẫn còn; người nhận có thể chia sẻ tiếp.",
+  "Đặc điểm 2: **khó xoá bỏ hoàn toàn** – xoá ở một thiết bị nhưng bản sao có thể còn ở máy chủ, thiết bị người khác.",
+  "Đặc điểm 3: **truy cập từ xa** – chỉ cần có thiết bị và Internet là xem được ở bất cứ đâu; đặc điểm 4: **dễ chỉnh sửa** nên dễ bị làm sai lệch.",
+  "Thông tin số trong xã hội: **đa dạng, thu thập nhanh**; **lưu trữ dung lượng lớn**; có **công cụ hỗ trợ** tìm kiếm, chuyển đổi, xử lí.",
+  "Thông tin số có **bản quyền** (cần tôn trọng khi sử dụng) và có **độ tin cậy khác nhau**.",
+  "Thông tin đáng tin cậy giúp con người **quyết định đúng**; thông tin sai lệch có thể gây hậu quả xấu.",
+  "**3 dạng thông tin không đáng tin cậy**: (1) không trung thực, lừa dối; (2) đồn thổi; (3) kết luận thiếu căn cứ.",
+  "**4 cách xác định thông tin đáng tin cậy**: (1) xác định **nguồn**; (2) phân biệt **ý kiến** với **sự kiện**; (3) kiểm tra **chứng cứ**; (4) đánh giá **tính thời sự**.",
+  "**Sự kiện** có thể kiểm chứng; **ý kiến** là nhận xét chủ quan nên kém tin cậy hơn sự kiện. Nguồn chính thống thường tin cậy hơn blog cá nhân.",
+  "Cần **chia sẻ có trách nhiệm**: kiểm chứng trước khi chia sẻ; với nội dung do **AI tạo sinh** cần đối chiếu nguồn tin cậy."
+ ],
+ "ynho": [
+  "Thông tin số: dễ nhân bản, khó xoá, truy cập từ xa, dễ sửa",
+  "Thông tin số có bản quyền và độ tin cậy khác nhau",
+  "3 dạng tin không đáng tin cậy",
+  "4 cách: nguồn, ý kiến–sự kiện, chứng cứ, thời sự",
+  "Kiểm chứng nội dung AI trước khi dùng"
+ ],
+ "bang": [
+  {
+   "tieu_de": "Đặc điểm của thông tin số và ví dụ",
+   "cot": [
+    "Đặc điểm",
+    "Ý nghĩa",
+    "Ví dụ"
+   ],
+   "dong": [
+    [
+     "Dễ nhân bản, lan truyền",
+     "Sao chép nhanh, chia sẻ rộng",
+     "Gửi ảnh cho bạn, ảnh gốc vẫn còn"
+    ],
+    [
+     "Khó xoá bỏ hoàn toàn",
+     "Bản sao có thể còn ở nhiều nơi",
+     "Xoá ảnh ở máy nhưng còn trên máy chủ"
+    ],
+    [
+     "Truy cập từ xa",
+     "Không phụ thuộc vị trí",
+     "Xem tài liệu trên đám mây"
+    ],
+    [
+     "Dễ chỉnh sửa",
+     "Dễ bị làm sai lệch",
+     "Ảnh bị cắt ghép"
+    ]
+   ]
+  },
+  {
+   "tieu_de": "Thông tin không đáng tin cậy và cách xác định thông tin đáng tin cậy",
+   "cot": [
+    "3 dạng tin không đáng tin cậy",
+    "Ví dụ",
+    "4 cách xác định tin đáng tin cậy"
+   ],
+   "dong": [
+    [
+     "Không trung thực, lừa dối",
+     "Tin trúng thưởng, yêu cầu gửi mã OTP",
+     "Xác định nguồn"
+    ],
+    [
+     "Đồn thổi",
+     "'Nghe nói...' không có căn cứ",
+     "Phân biệt ý kiến với sự kiện"
+    ],
+    [
+     "Kết luận thiếu căn cứ",
+     "Kết luận từ vài trường hợp lẻ",
+     "Kiểm tra chứng cứ"
+    ],
+    [
+     "–",
+     "–",
+     "Đánh giá tính thời sự"
+    ]
+   ]
+  }
+ ],
+ "vidu": [
+  {
+   "tinh_huong": "Khoa gửi ảnh cho An qua ứng dụng nhắn tin rồi xoá ảnh trong máy mình. Ảnh còn trên máy An và có thể còn trên máy chủ ứng dụng; An có thể chuyển tiếp cho người khác.",
+   "ket_luan": "→ Thông tin số dễ nhân bản, lan truyền, khó xoá bỏ hoàn toàn."
+  },
+  {
+   "tinh_huong": "Một tin nhắn báo 'Chúc mừng bạn trúng xe máy, bấm đường link và nhập mật khẩu để nhận thưởng'. Xếp dạng nào?",
+   "ket_luan": "→ Thông tin không trung thực, lừa dối; không bấm link, không cung cấp thông tin cá nhân."
+  },
+  {
+   "tinh_huong": "Hai câu: (a) 'Em đo được nhiệt độ phòng là 28 °C'; (b) 'Phòng học nóng quá'. Câu nào là sự kiện, câu nào là ý kiến?",
+   "ket_luan": "→ (a) sự kiện, kiểm chứng được bằng nhiệt kế; (b) ý kiến, cảm nhận chủ quan."
+  },
+  {
+   "tinh_huong": "Cần biết lịch thi cuối kì: một blog cá nhân đăng từ năm ngoái, trang web nhà trường đăng tuần này. Chọn nguồn nào?",
+   "ket_luan": "→ Chọn trang nhà trường: nguồn chính thống và có tính thời sự."
+  }
+ ],
+ "nho": [
+  "Thông tin số: NHÂN – XOÁ – TỪ XA – SỬA (nhân bản, khó xoá, truy cập từ xa, chỉnh sửa).",
+  "3 dạng tin xấu: LỪA – ĐỒN – THIẾU (lừa dối, đồn thổi, thiếu căn cứ).",
+  "4 cách kiểm tin: N-Y-C-T = Nguồn, Ý kiến/sự kiện, Chứng cứ, Thời sự."
+ ],
+ "bay": [
+  "Xoá ảnh trên máy KHÔNG có nghĩa là thông tin mất hoàn toàn.",
+  "Tin được chia sẻ nhiều không có nghĩa là tin đúng.",
+  "Ý kiến không phải là sự kiện; ý kiến kém tin cậy hơn sự kiện.",
+  "Ảnh, bài viết đăng công khai vẫn có bản quyền."
+ ],
+ "giaoan": [
+  "**Mục tiêu** – Kiến thức: nêu đặc điểm thông tin số (dễ nhân bản, lan truyền; khó xoá bỏ hoàn toàn; truy cập từ xa; dễ chỉnh sửa), các khía cạnh trong xã hội, 3 dạng tin không đáng tin cậy và 4 cách xác định tin đáng tin cậy; Năng lực: tự chủ và tự học, giao tiếp và hợp tác; năng lực tin học (NLc, NLd) – đánh giá được độ tin cậy của thông tin, chia sẻ có trách nhiệm; Phẩm chất: trung thực, trách nhiệm, tôn trọng bản quyền.",
+  "**Chuẩn bị** – GV: kế hoạch bài dạy, máy chiếu, SGK, phiếu học tập, thẻ Đúng/Sai, máy tính có chatbot AI; HS: SGK, vở ghi, bút.",
+  "**Hoạt động 1 – Mở đầu** – Mục tiêu: tạo hứng thú, nhận ra ảnh gửi đi vẫn còn bản gốc. Nội dung: tình huống Khoa gửi ảnh cho An (SGK tr.10). Sản phẩm: HS trả lời ảnh gốc vẫn còn, lưu ở nhiều nơi. Tổ chức: (1) chuyển giao – GV nêu tình huống, 3 câu hỏi; (2) thực hiện – HS nghĩ cá nhân, trao đổi cặp đôi; (3) báo cáo – 2 HS trả lời; (4) kết luận – GV dẫn vào bài.",
+  "**Hoạt động 2 – Hình thành kiến thức** – Mục tiêu: nêu đặc điểm thông tin số, khía cạnh trong xã hội, 3 dạng tin không đáng tin cậy, 4 cách xác định tin đáng tin cậy. Nội dung: đọc SGK, điền phiếu, kĩ thuật mảnh ghép. Sản phẩm: phiếu đã điền, bảng tóm tắt. Tổ chức: (1) giao nhiệm vụ cho nhóm; (2) HS đọc, thảo luận, chia sẻ; (3) đại diện báo cáo, nhóm khác nhận xét; (4) GV nhận xét, chốt theo hộp Ghi nhớ.",
+  "**Hoạt động 3 – Luyện tập** – Mục tiêu: củng cố đặc điểm thông tin số, đánh giá độ tin cậy. Nội dung: trò chơi giơ thẻ Đúng/Sai; Luyện tập 1, 2 (tr.13). Sản phẩm: đáp án Đúng/Sai có giải thích; bảng ứng dụng. Tổ chức: (1) phổ biến luật; (2) HS giơ thẻ, làm bảng; (3) báo cáo, giải thích; (4) GV nhận xét, tuyên dương.",
+  "**Hoạt động 4 – Vận dụng** – Mục tiêu: đánh giá nguồn tin, kiểm chứng câu trả lời chatbot AI bằng SGK. Nội dung: Vận dụng 1, 2, 3 và hoạt động AI. Sản phẩm: lập luận chọn nguồn tin cậy; chỉ ra nhận định AI sai. Tổ chức: (1) giao nhiệm vụ; (2) HS đối chiếu SGK; (3) báo cáo, thảo luận; (4) GV chốt, nhắc dùng AI trung thực.",
+  "**Kiểm tra đánh giá** – Quan sát, vấn đáp, đánh giá phiếu học tập và sản phẩm nhóm; câu hỏi trắc nghiệm ngắn/vé ra cửa; tiêu chí: nêu đúng đặc điểm, 4 cách kiểm tin, giải thích có căn cứ."
+ ],
+ "ai": [
+  "GV nhập câu lệnh vào chatbot (ví dụ 'Nêu đặc điểm của thông tin số và cách xác định độ tin cậy'), chiếu câu trả lời; HS đối chiếu SGK tìm nhận định sai.",
+  "HS hiểu AI tạo sinh có thể trả lời sai, thiếu nguồn; áp dụng 4 cách kiểm tin (nguồn, chứng cứ, thời sự) cho nội dung AI.",
+  "Đạo đức AI: ghi rõ khi dùng AI, không nhận là sản phẩm của mình, không đưa dữ liệu cá nhân vào chatbot, tôn trọng bản quyền."
+ ],
+ "cauhoi": [
+  {
+   "t": "s",
+   "q": "Khi Khoa gửi ảnh cho An qua Internet, ảnh trong máy của Khoa như thế nào?",
+   "o": [
+    "Vẫn còn nguyên (ảnh được nhân bản)",
+    "Bị mất vì đã chuyển đi",
+    "Tự động bị xoá sau 24 giờ",
+    "Bị giảm chất lượng ở máy gửi"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Thông tin số dễ nhân bản; gửi đi không làm mất bản gốc. Bẫy: nghĩ như gửi vật thật.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  },
+  {
+   "t": "s",
+   "q": "Đặc điểm nào sau đây KHÔNG phải của thông tin số?",
+   "o": [
+    "Dễ nhân bản và lan truyền",
+    "Khi xoá khỏi một thiết bị là mất hoàn toàn trên mọi nơi",
+    "Có thể truy cập từ xa",
+    "Dễ bị chỉnh sửa"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Thông tin số khó xoá bỏ hoàn toàn vì có thể đã được sao chép ở nhiều nơi. Bẫy: câu hỏi phủ định.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  },
+  {
+   "t": "s",
+   "q": "Việc có thể xem tài liệu lưu trên đám mây từ bất cứ nơi đâu có Internet thể hiện đặc điểm nào của thông tin số?",
+   "o": [
+    "Dễ nhân bản",
+    "Khó xoá bỏ hoàn toàn",
+    "Truy cập từ xa",
+    "Có bản quyền"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Đây là đặc điểm truy cập từ xa. Bẫy: nhầm với nhân bản.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  },
+  {
+   "t": "s",
+   "q": "Một bức ảnh bị ghép, cắt, thay đổi nội dung rồi đăng lại minh hoạ đặc điểm nào?",
+   "o": [
+    "Thông tin số khó nhân bản",
+    "Thông tin số có độ tin cậy tuyệt đối",
+    "Thông tin số không lan truyền được",
+    "Thông tin số dễ bị chỉnh sửa"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Thông tin số dễ chỉnh sửa nên có thể bị làm sai lệch.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  },
+  {
+   "t": "s",
+   "q": "Phát biểu nào đúng về thông tin số trong xã hội?",
+   "o": [
+    "Thông tin số có bản quyền, cần tôn trọng khi sử dụng",
+    "Ảnh trên Internet được tự do dùng cho mọi mục đích",
+    "Mọi thông tin trên Internet đều đáng tin cậy như nhau",
+    "Chỉ có một dạng thông tin số là văn bản"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Thông tin số có bản quyền. Bẫy: 'đã đăng công khai là dùng tự do'.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  },
+  {
+   "t": "s",
+   "q": "Tin nhắn 'Bạn trúng thưởng điện thoại, hãy gửi mã OTP để nhận quà' thuộc dạng thông tin nào?",
+   "o": [
+    "Thông tin có tính thời sự",
+    "Không trung thực, lừa dối",
+    "Sự kiện đã được kiểm chứng",
+    "Thông tin đáng tin cậy"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Đây là thông tin nhằm lừa đảo. Bẫy: bị hấp dẫn bởi từ 'trúng thưởng'.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  },
+  {
+   "t": "s",
+   "q": "Câu 'Nghe nói quán X dùng nguyên liệu bẩn' (không có căn cứ) thuộc dạng nào?",
+   "o": [
+    "Sự kiện",
+    "Thông tin đã kiểm chứng",
+    "Đồn thổi",
+    "Thông tin có nguồn chính thống"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Cụm 'nghe nói' là dấu hiệu tin đồn thổi.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  },
+  {
+   "t": "s",
+   "q": "Cách nào giúp xác định thông tin đáng tin cậy?",
+   "o": [
+    "Xem thông tin được chia sẻ nhiều lần",
+    "Chọn thông tin có tiêu đề giật gân",
+    "Tin vào người đăng đầu tiên",
+    "Xác định nguồn của thông tin"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Nguồn tin chính thống là cách đầu tiên. Bẫy: lượt chia sẻ nhiều không có nghĩa là đúng.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  },
+  {
+   "t": "s",
+   "q": "Câu nào dưới đây là SỰ KIỆN?",
+   "o": [
+    "Hà Nội là thủ đô của Việt Nam",
+    "Mùa thu Hà Nội đẹp nhất",
+    "Tôi nghĩ môn Tin học rất hay",
+    "Có lẽ ngày mai trời sẽ mưa"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Sự kiện có thể kiểm chứng; còn lại là ý kiến, cảm nhận, dự đoán.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  },
+  {
+   "t": "s",
+   "q": "Thông tin về giá vé tàu năm cũ, nay đã thay đổi, thiếu đặc điểm nào của thông tin đáng tin cậy?",
+   "o": [
+    "Tính bản quyền",
+    "Tính thời sự (cập nhật)",
+    "Tính truy cập từ xa",
+    "Tính nhân bản"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Cần kiểm tra thời điểm đăng/cập nhật thông tin.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  },
+  {
+   "t": "s",
+   "q": "Trong các nguồn sau, nguồn nào thường đáng tin cậy hơn khi tìm thông tin về quy chế thi?",
+   "o": [
+    "Blog cá nhân không rõ tác giả",
+    "Bình luận trên mạng xã hội",
+    "Trang thông tin chính thức của Bộ Giáo dục và Đào tạo",
+    "Tin nhắn chuyển tiếp trong nhóm chat"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Nguồn chính thống thường đáng tin cậy hơn blog cá nhân.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  },
+  {
+   "t": "s",
+   "q": "Khi dùng chatbot AI để tra cứu kiến thức, em nên làm gì?",
+   "o": [
+    "Sao chép nguyên văn vì AI luôn đúng",
+    "Chỉ cần hỏi lại AI một lần nữa",
+    "Không cần ghi chú việc dùng AI",
+    "Đối chiếu với nguồn tin cậy như SGK trước khi dùng"
+   ],
+   "a": [
+    3
+   ],
+   "e": "AI tạo sinh có thể sai; cần kiểm chứng. Bẫy: hỏi lại AI không phải kiểm chứng độc lập.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  },
+  {
+   "t": "m",
+   "q": "Những đặc điểm nào là của thông tin số?",
+   "o": [
+    "Dễ nhân bản, lan truyền",
+    "Có thể truy cập từ xa",
+    "Khó xoá bỏ hoàn toàn",
+    "Chỉ tồn tại ở một thiết bị duy nhất"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Thông tin số có thể nằm ở nhiều nơi, không chỉ một thiết bị.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  },
+  {
+   "t": "m",
+   "q": "Những cách nào giúp xác định thông tin đáng tin cậy?",
+   "o": [
+    "Xác định nguồn",
+    "Phân biệt ý kiến với sự kiện",
+    "Kiểm tra chứng cứ",
+    "Chọn tin được nhiều người chia sẻ nhất"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Có 4 cách: nguồn, ý kiến–sự kiện, chứng cứ, tính thời sự. Lượt chia sẻ không phải tiêu chí.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  },
+  {
+   "t": "m",
+   "q": "Những dạng nào là thông tin không đáng tin cậy?",
+   "o": [
+    "Thông tin không trung thực, lừa dối",
+    "Thông tin đồn thổi",
+    "Kết luận thiếu căn cứ",
+    "Thông tin có nguồn chính thống, kiểm chứng được"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Ba dạng không đáng tin cậy; phương án D là tin đáng tin cậy.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  },
+  {
+   "t": "m",
+   "q": "Những khía cạnh nào của thông tin số trong xã hội được nêu ở bài?",
+   "o": [
+    "Đa dạng, thu thập nhanh",
+    "Lưu trữ dung lượng lớn",
+    "Có công cụ tìm kiếm, chuyển đổi, xử lí",
+    "Luôn miễn phí và không có bản quyền"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Thông tin số có bản quyền; phương án D sai.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  },
+  {
+   "t": "f",
+   "q": "Thông tin số dễ ____ và ____ , nhưng khó ____ hoàn toàn.",
+   "a": [
+    [
+     "nhân bản"
+    ],
+    [
+     "lan truyền"
+    ],
+    [
+     "xoá bỏ"
+    ]
+   ],
+   "o": [
+    [
+     "chỉnh sửa",
+     "lan truyền",
+     "xoá bỏ"
+    ],
+    [
+     "nhân bản",
+     "lan truyền",
+     "xoá bỏ"
+    ],
+    [
+     "nhân bản",
+     "lan truyền",
+     "tạo ra"
+    ],
+    [
+     "xoá bỏ",
+     "nhân bản",
+     "lan truyền"
+    ]
+   ],
+   "k": 1,
+   "e": "Bẫy: đổi vị trí/từ gần nghĩa.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  },
+  {
+   "t": "f",
+   "q": "Có ____ cách xác định thông tin đáng tin cậy và ____ dạng thông tin không đáng tin cậy.",
+   "a": [
+    [
+     "4"
+    ],
+    [
+     "3"
+    ]
+   ],
+   "o": [
+    [
+     "4",
+     "3"
+    ],
+    [
+     "3",
+     "4"
+    ],
+    [
+     "4",
+     "4"
+    ],
+    [
+     "3",
+     "3"
+    ]
+   ],
+   "k": 0,
+   "e": "Bẫy: đổi số, đảo 4 và 3.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  },
+  {
+   "t": "f",
+   "q": "Cách xác định thông tin đáng tin cậy: xác định ____ , phân biệt ý kiến với ____ , kiểm tra ____ , đánh giá tính thời sự.",
+   "a": [
+    [
+     "nguồn"
+    ],
+    [
+     "sự kiện"
+    ],
+    [
+     "chứng cứ"
+    ]
+   ],
+   "o": [
+    [
+     "sự kiện",
+     "nguồn",
+     "chứng cứ"
+    ],
+    [
+     "nguồn",
+     "chứng cứ",
+     "sự kiện"
+    ],
+    [
+     "chứng cứ",
+     "nguồn",
+     "sự kiện"
+    ],
+    [
+     "nguồn",
+     "sự kiện",
+     "chứng cứ"
+    ]
+   ],
+   "k": 3,
+   "e": "Bẫy: đổi thứ tự các từ.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  },
+  {
+   "t": "f",
+   "q": "____ là phát biểu về điều có thật, kiểm chứng được; ____ là nhận xét, cảm nhận chủ quan của người nói.",
+   "a": [
+    [
+     "Sự kiện"
+    ],
+    [
+     "Ý kiến"
+    ]
+   ],
+   "o": [
+    [
+     "Ý kiến",
+     "Sự kiện"
+    ],
+    [
+     "Sự kiện",
+     "Sự kiện"
+    ],
+    [
+     "Sự kiện",
+     "Ý kiến"
+    ],
+    [
+     "Ý kiến",
+     "Ý kiến"
+    ]
+   ],
+   "k": 2,
+   "e": "Bẫy: đảo hai khái niệm.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  },
+  {
+   "t": "f",
+   "q": "Ảnh gửi qua mạng cho bạn thì ảnh gốc ____ ; xoá ảnh trên máy mình thì bản sao trên máy chủ ____ .",
+   "a": [
+    [
+     "vẫn còn"
+    ],
+    [
+     "có thể vẫn còn"
+    ]
+   ],
+   "o": [
+    [
+     "mất đi",
+     "bị xoá luôn"
+    ],
+    [
+     "vẫn còn",
+     "có thể vẫn còn"
+    ],
+    [
+     "vẫn còn",
+     "chắc chắn mất"
+    ],
+    [
+     "bị mờ",
+     "vẫn còn"
+    ]
+   ],
+   "k": 1,
+   "e": "Thông tin số khó xoá bỏ hoàn toàn.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  },
+  {
+   "t": "f",
+   "q": "Thông tin số có ____ , vì vậy khi dùng ảnh, bài viết của người khác cần ____ tác giả.",
+   "a": [
+    [
+     "bản quyền"
+    ],
+    [
+     "tôn trọng"
+    ]
+   ],
+   "o": [
+    [
+     "bản quyền",
+     "tôn trọng"
+    ],
+    [
+     "độ tin cậy",
+     "tôn trọng"
+    ],
+    [
+     "bản quyền",
+     "bỏ qua"
+    ],
+    [
+     "tính thời sự",
+     "sao chép"
+    ]
+   ],
+   "k": 0,
+   "e": "Bẫy: nghĩ thông tin công khai thì dùng tự do.",
+   "r": "SGK Tin học 8 KNTT – Bài 2"
+  }
+ ],
+ "tuluan": [
+  {
+   "q": "Câu 1 (2 điểm). Nêu các đặc điểm của thông tin số và cho ví dụ minh hoạ cho mỗi đặc điểm.",
+   "a": [
+    "Dễ nhân bản, lan truyền: gửi ảnh cho bạn, ảnh gốc vẫn còn, bạn chia sẻ tiếp.",
+    "Khó xoá bỏ hoàn toàn: xoá ảnh ở máy nhưng còn trên máy chủ hoặc thiết bị người khác.",
+    "Truy cập từ xa: xem tệp trên đám mây ở bất cứ đâu có Internet.",
+    "Dễ chỉnh sửa: ảnh, văn bản dễ bị cắt ghép, thay đổi nên có thể sai lệch.",
+    "Ngoài ra trong xã hội: đa dạng, lưu trữ lớn, có công cụ hỗ trợ, có bản quyền, độ tin cậy khác nhau."
+   ]
+  },
+  {
+   "q": "Câu 2 (3 điểm). Nêu mục tiêu bài 'Thông tin trong môi trường số' (Tin học 8) theo chương trình 2018 và thiết kế hoạt động mở đầu của bài.",
+   "a": [
+    "Kiến thức: nêu đặc điểm thông tin số; 3 dạng tin không đáng tin cậy; 4 cách xác định tin đáng tin cậy.",
+    "Năng lực: tự chủ, tự học, giao tiếp, hợp tác; năng lực tin học – đánh giá độ tin cậy, chia sẻ có trách nhiệm.",
+    "Phẩm chất: trung thực, trách nhiệm, tôn trọng bản quyền.",
+    "HĐ mở đầu – mục tiêu: tạo hứng thú, nhận ra ảnh gửi đi vẫn còn bản gốc; nội dung: tình huống Khoa gửi ảnh cho An (SGK tr.10).",
+    "Tổ chức 4 bước: chuyển giao câu hỏi; HS nghĩ và trao đổi cặp đôi; báo cáo; GV kết luận, dẫn vào bài. Sản phẩm: ảnh gốc vẫn còn, lưu ở nhiều nơi."
+   ]
+  },
+  {
+   "q": "Câu 3 (3 điểm). Một nhóm bạn nhận tin 'Uống nước chanh nóng chữa khỏi bệnh X, bạn hãy chuyển cho 10 người'. Hãy đánh giá độ tin cậy, nêu cách xử lí, và đề xuất cách tích hợp AI để HS kiểm chứng.",
+   "a": [
+    "Tin thiếu nguồn, kêu gọi chia sẻ, kết luận thiếu căn cứ: thuộc dạng không đáng tin cậy.",
+    "Áp dụng 4 cách: xác định nguồn (không rõ); phân biệt ý kiến/sự kiện; kiểm tra chứng cứ khoa học (không có); tính thời sự (không ghi ngày).",
+    "Xử lí: không chia sẻ, kiểm tra trên trang chính thống (y tế), báo cho người lớn.",
+    "Tích hợp AI: HS hỏi chatbot rồi đối chiếu nguồn chính thống/SGK, tìm chỗ AI sai hoặc thiếu nguồn.",
+    "Giáo dục: AI không thay thế kiểm chứng; ghi rõ khi dùng AI, không đưa thông tin cá nhân; chia sẻ có trách nhiệm."
+   ]
+  }
+ ]
+}

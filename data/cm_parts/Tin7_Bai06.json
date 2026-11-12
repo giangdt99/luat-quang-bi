@@ -1,0 +1,581 @@
+{
+ "id": "T7-B06",
+ "ten": "Bài 6. Làm quen với phần mềm bảng tính",
+ "tomtat": [
+  "**Phần mềm bảng tính** là phần mềm có giao diện dạng bảng, dùng để xử lí dữ liệu dạng bảng (ví dụ Excel, Calc, Google Sheets).",
+  "**Ba chức năng cơ bản:** **lưu trữ và trình bày thông tin dạng bảng**; **tính toán**; **xây dựng biểu đồ**.",
+  "**Giao diện** gồm: **thẻ và nhóm lệnh**, **hộp địa chỉ**, **vùng nhập dữ liệu**, **hàng ghi tên cột**, **cột ghi tên hàng**, **ô hiện thời**, **trang tính**.",
+  "**Hàng ghi tên cột** dùng **chữ cái** (A, B, C…); **cột ghi tên hàng** dùng **số** (1, 2, 3…).",
+  "**Ô tính** là giao của một cột và một hàng; ô đang được chọn gọi là **ô hiện thời**, địa chỉ hiện ở **hộp địa chỉ**.",
+  "**Địa chỉ ô** = **<tên cột><tên hàng>**, ví dụ **B3** (cột B, hàng 3).",
+  "**Địa chỉ vùng** = **<ô trên trái>:<ô dưới phải>**, ví dụ **A1:C4** gồm 3 cột × 4 hàng = **12 ô**.",
+  "**Chọn** ô, hàng, cột, vùng bằng cách **nháy** hoặc **kéo thả chuột**.",
+  "**Nhập dữ liệu:** chọn ô, gõ rồi nhấn **Enter**, hoặc gõ trong **vùng nhập dữ liệu**. **Sửa:** **nháy đúp** ô rồi sửa, hoặc chọn ô rồi sửa ở vùng nhập dữ liệu.",
+  "**Mặc định:** **văn bản căn trái**; **số, ngày tháng căn phải**.",
+  "**Định dạng:** nhóm **Font** (phông, cỡ, kiểu, màu chữ); nhóm **Alignment** (căn lề); **kéo đường biên cột** để đổi độ rộng.",
+  "Thực hành: tạo bảng khảo sát “Trường học xanh”, nhập, định dạng, đổi tên trang tính và **lưu tệp** (ví dụ THXanh.xlsx)."
+ ],
+ "ynho": [
+  "Chức năng: lưu trữ – tính toán – biểu đồ",
+  "Địa chỉ ô = cột trước, hàng sau (B3)",
+  "Vùng = ô trên trái : ô dưới phải",
+  "Văn bản căn trái; số, ngày tháng căn phải",
+  "Sửa dữ liệu: nháy đúp ô"
+ ],
+ "bang": [
+  {
+   "tieu_de": "Thành phần giao diện và vai trò",
+   "cot": [
+    "Thành phần",
+    "Vai trò"
+   ],
+   "dong": [
+    [
+     "Thẻ và nhóm lệnh",
+     "Chứa các lệnh theo nhóm chức năng"
+    ],
+    [
+     "Hộp địa chỉ",
+     "Hiển thị địa chỉ ô (vùng) đang chọn"
+    ],
+    [
+     "Vùng nhập dữ liệu",
+     "Hiển thị, nhập, sửa nội dung ô hiện thời"
+    ],
+    [
+     "Hàng ghi tên cột",
+     "Kí hiệu chữ cái A, B, C…"
+    ],
+    [
+     "Cột ghi tên hàng",
+     "Kí hiệu số 1, 2, 3…"
+    ],
+    [
+     "Trang tính",
+     "Vùng gồm các ô để nhập, xử lí dữ liệu"
+    ]
+   ]
+  },
+  {
+   "tieu_de": "Địa chỉ ô và địa chỉ vùng",
+   "cot": [
+    "Đối tượng",
+    "Quy tắc",
+    "Ví dụ",
+    "Số ô"
+   ],
+   "dong": [
+    [
+     "Ô",
+     "<cột><hàng>",
+     "B3",
+     "1"
+    ],
+    [
+     "Vùng",
+     "<ô trên trái>:<ô dưới phải>",
+     "A1:C4",
+     "3×4 = 12"
+    ],
+    [
+     "Vùng",
+     "tương tự",
+     "B2:D5",
+     "3×4 = 12"
+    ]
+   ]
+  }
+ ],
+ "vidu": [
+  {
+   "tinh_huong": "Bảng khảo sát cây xanh có dữ liệu ở cột A (Tên cây), cột B (Số lượng). Hỏi ô chứa số lượng của cây thứ 3 (hàng 4, hàng 1 là tiêu đề) nằm ở đâu?",
+   "ket_luan": "→ Cột B, hàng 4: ô B4."
+  },
+  {
+   "tinh_huong": "Vùng A5:B10 có bao nhiêu ô? Giải: cột A–B = 2 cột; hàng 5–10 = 6 hàng; 2×6 = 12.",
+   "ket_luan": "→ 12 ô (không phải 2+6 = 8)."
+  },
+  {
+   "tinh_huong": "Nhập điểm 8.5 vào ô, sau đó muốn sửa thành 9. Làm thế nào?",
+   "ket_luan": "→ Nháy đúp ô, sửa thành 9, Enter; hoặc chọn ô và sửa ở vùng nhập dữ liệu."
+  },
+  {
+   "tinh_huong": "Nhập tên “Xoài” và ngày 20/11/2024 vào hai ô. Căn lề mặc định ra sao?",
+   "ket_luan": "→ “Xoài” căn trái (văn bản); ngày 20/11/2024 căn phải (dạng số)."
+  }
+ ],
+ "nho": [
+  "Địa chỉ ô: “Cột trước – Hàng sau” (B3, không phải 3B)",
+  "Chữ nằm ngang trên đầu (cột), số nằm dọc bên trái (hàng)",
+  "Văn bản Trái, Số Phải: “chữ trái – số phải”",
+  "Số ô của vùng = số cột × số hàng"
+ ],
+ "bay": [
+  "Nhầm thứ tự địa chỉ ô: viết 3B thay vì B3.",
+  "Tính số ô của vùng bằng phép cộng thay vì nhân (A1:C4 là 12, không phải 7).",
+  "Cho rằng ngày tháng là văn bản nên căn trái; thực tế căn phải như số.",
+  "Nhầm nhóm Font với Alignment khi căn lề."
+ ],
+ "giaoan": [
+  "**Mục tiêu** – Kiến thức: nêu được chức năng cơ bản và các thành phần giao diện phần mềm bảng tính; viết đúng địa chỉ ô, địa chỉ vùng; nhập, sửa, định dạng dữ liệu. Năng lực: tin học (sử dụng giao diện, thao tác dữ liệu), tự chủ và tự học, giao tiếp hợp tác, giải quyết vấn đề; năng lực số 3.1.TC1.a, 3.1.TC1.b. Phẩm chất: chăm chỉ, cẩn thận, trung thực.",
+  "**Chuẩn bị** – GV: máy tính, máy chiếu, phần mềm bảng tính, phiếu học tập, tệp mẫu, tài khoản chatbot AI. HS: SGK Tin học 7, vở ghi, đọc trước bài.",
+  "**Hoạt động 1 – Mở đầu** (7 phút). Mục tiêu: tạo nhu cầu dùng phần mềm bảng tính. Nội dung: tình huống khảo sát 200 cây xanh “Trường học xanh”, cần lưu và tính tổng. Sản phẩm: HS nêu cần phần mềm có bảng và tự tính toán. Tổ chức: (1) GV nêu tình huống, đặt câu hỏi; (2) HS thảo luận cặp 2 phút; (3) mời 2 cặp báo cáo; (4) GV nhận xét, dẫn vào bài.",
+  "**Hoạt động 2 – Hình thành kiến thức** (43 phút). Mục tiêu: nêu chức năng, giao diện; viết địa chỉ ô, vùng; nhập, sửa, định dạng dữ liệu. Nội dung: 2.1 chức năng, giao diện; 2.2 địa chỉ ô, vùng; 2.3 nhập, sửa; 2.4 định dạng. Sản phẩm: phiếu học tập hoàn thành, ghi chép trọng tâm. Tổ chức: (1) GV chia nhóm, phát phiếu, mở phần mềm thật; (2) HS đọc SGK, đối chiếu, thực hành nhập dữ liệu; (3) nhóm báo cáo, nhóm khác phản biện; (4) GV chốt kiến thức.",
+  "**Hoạt động 3 – Luyện tập** (25 phút). Mục tiêu: củng cố giao diện, địa chỉ ô, vùng; thực hành trọn quy trình. Nội dung: giơ thẻ A–D; thực hành theo cặp tạo THXanh.xlsx (mở, nhập, định dạng, đổi tên trang tính, lưu); Luyện tập 1, 2. Sản phẩm: đáp án đúng, tệp đã lưu. Tổ chức: (1) giao nhiệm vụ; (2) HS làm, kiểm tra chéo; (3) báo cáo, đối chiếu mẫu; (4) GV nhận xét lỗi hay gặp.",
+  "**Hoạt động 4 – Vận dụng** (15 phút). Mục tiêu: vận dụng thực tế; kiểm chứng kết quả AI, khai báo dùng AI. Nội dung: Vận dụng 1 (căn lề ngày tháng); hỏi chatbot “Vùng A5:B10 có bao nhiêu ô?”, HS đối chiếu SGK; lập bảng danh sách loại cây. Sản phẩm: kết luận về độ tin cậy của AI, bảng có ghi chú “Có tham khảo AI, đã kiểm chứng”. Tổ chức: (1) GV giao việc; (2) HS thảo luận cặp; (3) báo cáo; (4) GV chốt.",
+  "**Kiểm tra đánh giá** – Quan sát thao tác và phiếu học tập; câu hỏi nhanh giơ thẻ; chấm tệp THXanh.xlsx theo tiêu chí (đúng dữ liệu, định dạng, lưu); phản hồi sản phẩm vận dụng; nhận xét tinh thần hợp tác."
+ ],
+ "ai": [
+  "GV cho chatbot trả lời “Vùng A5:B10 có bao nhiêu ô?”, HS đối chiếu quy tắc SGK (2 cột × 6 hàng = 12 ô) để phát hiện nếu AI sai (7.A1.MR1).",
+  "Thảo luận hậu quả khi tin AI không kiểm chứng: nhập sai dữ liệu, kết quả khảo sát sai (7.A1.2).",
+  "HS ghi chú “Có tham khảo AI, đã kiểm chứng” vào sản phẩm để khai báo trung thực (7.B3.1)."
+ ],
+ "cauhoi": [
+  {
+   "t": "s",
+   "q": "Chức năng nào sau đây KHÔNG phải là chức năng cơ bản của phần mềm bảng tính?",
+   "o": [
+    "Lưu trữ và trình bày thông tin dạng bảng",
+    "Tính toán",
+    "Xây dựng biểu đồ",
+    "Soạn thảo văn bản dài kèm hiệu ứng trình chiếu"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Ba chức năng cơ bản: lưu trữ – trình bày dạng bảng, tính toán, xây dựng biểu đồ. Bẫy: nhầm với phần mềm soạn thảo/trình chiếu.",
+   "r": "SGK Tin học 7 KNTT – Bài 6"
+  },
+  {
+   "t": "s",
+   "q": "Địa chỉ của ô nằm ở giao của cột D và hàng 7 là:",
+   "o": [
+    "7D",
+    "D7",
+    "D:7",
+    "7:D"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Địa chỉ ô = <tên cột><tên hàng>, cột (chữ) viết trước. Bẫy: viết ngược thứ tự 7D.",
+   "r": "SGK Tin học 7 KNTT – Bài 6"
+  },
+  {
+   "t": "s",
+   "q": "Địa chỉ vùng gồm các ô từ B2 đến E6 được viết là:",
+   "o": [
+    "B2-E6",
+    "2B:6E",
+    "B2:E6",
+    "B2;E6"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Địa chỉ vùng = <ô trên trái>:<ô dưới phải>, dùng dấu hai chấm.",
+   "r": "SGK Tin học 7 KNTT – Bài 6"
+  },
+  {
+   "t": "s",
+   "q": "Vùng A1:C4 gồm bao nhiêu ô tính?",
+   "o": [
+    "7",
+    "12",
+    "10",
+    "8"
+   ],
+   "a": [
+    1
+   ],
+   "e": "3 cột × 4 hàng = 12 ô. Bẫy: cộng 3 + 4 = 7 thay vì nhân.",
+   "r": "SGK Tin học 7 KNTT – Bài 6"
+  },
+  {
+   "t": "s",
+   "q": "Mặc định, dữ liệu nào sau đây được căn phải trong ô tính?",
+   "o": [
+    "Ngày tháng 15/10/2024",
+    "Họ tên Nguyễn Văn An",
+    "Tên lớp 7A",
+    "Chữ Xoài"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Mặc định số và ngày tháng căn phải, văn bản căn trái. Bẫy: ngày tháng được hiểu là dữ liệu dạng số.",
+   "r": "SGK Tin học 7 KNTT – Bài 6"
+  },
+  {
+   "t": "s",
+   "q": "Hàng ghi tên cột trong trang tính dùng kí hiệu nào?",
+   "o": [
+    "Các số 1, 2, 3…",
+    "Các tên tiếng Việt như Cột 1",
+    "Chữ số La Mã",
+    "Các chữ cái A, B, C…"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Cột đánh tên bằng chữ cái, hàng đánh số. Bẫy: nhầm hàng ghi tên cột (chữ) với cột ghi tên hàng (số).",
+   "r": "SGK Tin học 7 KNTT – Bài 6"
+  },
+  {
+   "t": "s",
+   "q": "Để sửa dữ liệu đã nhập trong một ô, cách làm nào đúng?",
+   "o": [
+    "Nháy đúp chuột vào ô rồi sửa",
+    "Nháy chuột vào tên cột rồi gõ lại",
+    "Nhấn phím Esc rồi sửa",
+    "Nhấn Ctrl+S"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Nháy đúp ô (hoặc chọn ô rồi sửa trong vùng nhập dữ liệu). Esc huỷ thao tác nhập, Ctrl+S lưu tệp.",
+   "r": "SGK Tin học 7 KNTT – Bài 6"
+  },
+  {
+   "t": "s",
+   "q": "Hộp địa chỉ trên giao diện phần mềm bảng tính hiển thị thông tin gì?",
+   "o": [
+    "Tên tệp đang mở",
+    "Tổng của các số trong bảng",
+    "Địa chỉ ô hiện thời đang được chọn",
+    "Số trang tính của tệp"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Hộp địa chỉ cho biết địa chỉ của ô (vùng) đang chọn.",
+   "r": "SGK Tin học 7 KNTT – Bài 6"
+  },
+  {
+   "t": "s",
+   "q": "Muốn căn giữa dữ liệu trong ô, ta dùng nhóm lệnh nào?",
+   "o": [
+    "Font",
+    "Alignment",
+    "Clipboard",
+    "Styles"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Căn lề thuộc nhóm Alignment; Font chỉ phông, cỡ, kiểu, màu chữ. Bẫy: nhầm Font với Alignment.",
+   "r": "SGK Tin học 7 KNTT – Bài 6"
+  },
+  {
+   "t": "s",
+   "q": "Muốn thay đổi độ rộng của một cột, ta thực hiện thế nào?",
+   "o": [
+    "Nháy đúp vào hộp địa chỉ",
+    "Kéo thả đường biên bên phải ô tên cột",
+    "Kéo thả đường biên của hàng",
+    "Nhấn Enter nhiều lần"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Điều chỉnh độ rộng cột bằng kéo đường biên cột; kéo biên hàng là đổi độ cao hàng.",
+   "r": "SGK Tin học 7 KNTT – Bài 6"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các chức năng cơ bản của phần mềm bảng tính:",
+   "o": [
+    "Lưu trữ và trình bày thông tin dạng bảng",
+    "Tính toán",
+    "Xây dựng biểu đồ",
+    "Biên tập video nhiều lớp"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Ba chức năng cơ bản như trên; biên tập video không phải.",
+   "r": "SGK Tin học 7 KNTT – Bài 6"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các địa chỉ ô viết đúng:",
+   "o": [
+    "B3",
+    "3B",
+    "AA10",
+    "C-5"
+   ],
+   "a": [
+    0,
+    2
+   ],
+   "e": "Đúng: <cột><hàng>, ví dụ B3, AA10. 3B ngược thứ tự, C-5 sai kí hiệu.",
+   "r": "SGK Tin học 7 KNTT – Bài 6"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các thành phần thuộc giao diện phần mềm bảng tính:",
+   "o": [
+    "Hộp địa chỉ",
+    "Vùng nhập dữ liệu",
+    "Thẻ và nhóm lệnh",
+    "Bảng chọn slide chuyển cảnh"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Giao diện gồm thẻ và nhóm lệnh, hộp địa chỉ, vùng nhập dữ liệu, trang tính…",
+   "r": "SGK Tin học 7 KNTT – Bài 6"
+  },
+  {
+   "t": "m",
+   "q": "Phát biểu đúng về vùng A1:C4:",
+   "o": [
+    "Gồm 7 ô",
+    "Gồm 12 ô",
+    "A1 là ô trên trái",
+    "C4 là ô dưới phải"
+   ],
+   "a": [
+    1,
+    2,
+    3
+   ],
+   "e": "3 cột × 4 hàng = 12 ô. 7 là bẫy cộng thay vì nhân.",
+   "r": "SGK Tin học 7 KNTT – Bài 6"
+  },
+  {
+   "t": "f",
+   "q": "Địa chỉ ô gồm tên ____ viết trước và tên ____ viết sau.",
+   "a": [
+    [
+     "cột"
+    ],
+    [
+     "hàng"
+    ]
+   ],
+   "o": [
+    [
+     "hàng",
+     "cột"
+    ],
+    [
+     "cột",
+     "hàng"
+    ],
+    [
+     "ô",
+     "vùng"
+    ],
+    [
+     "trang",
+     "hàng"
+    ]
+   ],
+   "k": 1,
+   "e": "Ví dụ B3: cột B trước, hàng 3 sau.",
+   "r": "SGK Tin học 7 KNTT – Bài 6"
+  },
+  {
+   "t": "f",
+   "q": "Mặc định, dữ liệu văn bản được căn ____, còn số và ngày tháng được căn ____.",
+   "a": [
+    [
+     "trái"
+    ],
+    [
+     "phải"
+    ]
+   ],
+   "o": [
+    [
+     "phải",
+     "trái"
+    ],
+    [
+     "giữa",
+     "phải"
+    ],
+    [
+     "trái",
+     "phải"
+    ],
+    [
+     "trái",
+     "giữa"
+    ]
+   ],
+   "k": 2,
+   "e": "Văn bản căn trái, số/ngày tháng căn phải.",
+   "r": "SGK Tin học 7 KNTT – Bài 6"
+  },
+  {
+   "t": "f",
+   "q": "Vùng ô được xác định bởi ô ____ và ô ____.",
+   "a": [
+    [
+     "trên trái"
+    ],
+    [
+     "dưới phải"
+    ]
+   ],
+   "o": [
+    [
+     "trên trái",
+     "dưới phải"
+    ],
+    [
+     "trên phải",
+     "dưới trái"
+    ],
+    [
+     "dưới phải",
+     "trên trái"
+    ],
+    [
+     "đầu tiên nhập",
+     "cuối cùng nhập"
+    ]
+   ],
+   "k": 0,
+   "e": "Địa chỉ vùng = <ô trên trái>:<ô dưới phải>. Bẫy: đổi thứ tự hai ô.",
+   "r": "SGK Tin học 7 KNTT – Bài 6"
+  },
+  {
+   "t": "f",
+   "q": "Hàng ghi tên cột dùng ____, còn cột ghi tên hàng dùng ____.",
+   "a": [
+    [
+     "chữ cái"
+    ],
+    [
+     "số"
+    ]
+   ],
+   "o": [
+    [
+     "số",
+     "chữ cái"
+    ],
+    [
+     "chữ cái",
+     "chữ cái"
+    ],
+    [
+     "số",
+     "số"
+    ],
+    [
+     "chữ cái",
+     "số"
+    ]
+   ],
+   "k": 3,
+   "e": "Cột: A, B, C…; hàng: 1, 2, 3…",
+   "r": "SGK Tin học 7 KNTT – Bài 6"
+  },
+  {
+   "t": "f",
+   "q": "Để sửa dữ liệu trong ô ta ____ vào ô rồi sửa; để đổi độ rộng cột ta kéo ____ cột.",
+   "a": [
+    [
+     "nháy đúp"
+    ],
+    [
+     "đường biên"
+    ]
+   ],
+   "o": [
+    [
+     "nháy chuột phải",
+     "tên hàng"
+    ],
+    [
+     "nháy đúp",
+     "đường biên"
+    ],
+    [
+     "nháy đúp",
+     "hộp địa chỉ"
+    ],
+    [
+     "kéo thả",
+     "thẻ lệnh"
+    ]
+   ],
+   "k": 1,
+   "e": "Nháy đúp ô để sửa; kéo đường biên cột để đổi độ rộng.",
+   "r": "SGK Tin học 7 KNTT – Bài 6"
+  },
+  {
+   "t": "f",
+   "q": "Vùng B2:D5 có ____ cột và ____ hàng.",
+   "a": [
+    [
+     "3"
+    ],
+    [
+     "4"
+    ]
+   ],
+   "o": [
+    [
+     "4",
+     "3"
+    ],
+    [
+     "3",
+     "3"
+    ],
+    [
+     "5",
+     "4"
+    ],
+    [
+     "3",
+     "4"
+    ]
+   ],
+   "k": 3,
+   "e": "Cột B–D: 3 cột; hàng 2–5: 4 hàng; tổng 12 ô.",
+   "r": "SGK Tin học 7 KNTT – Bài 6"
+  }
+ ],
+ "tuluan": [
+  {
+   "q": "Câu 1 (2 điểm). Trình bày quy tắc viết địa chỉ ô và địa chỉ vùng. Vùng B2:D5 có bao nhiêu ô? Liệt kê.",
+   "a": [
+    "Địa chỉ ô = <tên cột><tên hàng>, ví dụ B3.",
+    "Địa chỉ vùng = <ô trên trái>:<ô dưới phải>.",
+    "B2:D5: cột B, C, D (3 cột), hàng 2–5 (4 hàng), 3×4 = 12 ô.",
+    "Liệt kê: B2, C2, D2, B3, C3, D3, B4, C4, D4, B5, C5, D5."
+   ]
+  },
+  {
+   "q": "Câu 2 (3 điểm). Nêu mục tiêu bài “Làm quen với phần mềm bảng tính” (Tin học 7) theo chương trình 2018.",
+   "a": [
+    "Kiến thức: nêu chức năng cơ bản (lưu trữ, trình bày dạng bảng; tính toán; biểu đồ); nhận biết thành phần giao diện; nêu quy tắc địa chỉ ô và vùng.",
+    "Kĩ năng: nhập, sửa, định dạng dữ liệu; tạo và lưu bảng tính đơn giản.",
+    "Năng lực: tin học (NLa, NLc), tự chủ tự học, giao tiếp hợp tác, giải quyết vấn đề; năng lực số 3.1.TC1.a, b.",
+    "Phẩm chất: chăm chỉ, kiên trì, cẩn thận, trung thực.",
+    "Mục tiêu viết bằng động từ đo được, gắn sản phẩm (tệp THXanh.xlsx)."
+   ]
+  },
+  {
+   "q": "Câu 3 (3 điểm). Thiết kế hoạt động vận dụng tích hợp AI: HS hỏi chatbot một câu về bảng tính rồi kiểm chứng.",
+   "a": [
+    "Mục tiêu: kiểm chứng thông tin AI bằng nguồn tin cậy, khai báo dùng AI.",
+    "Nội dung: GV nhập “Vùng A5:B10 có bao nhiêu ô? Giải thích.”; HS đối chiếu SGK tr.30 (2×6 = 12 ô).",
+    "Tổ chức: giao nhiệm vụ; thảo luận cặp; báo cáo; GV chốt.",
+    "Sản phẩm: kết luận đúng/sai của AI, nguồn kiểm chứng; bảng có ghi chú “Có tham khảo AI, đã kiểm chứng”.",
+    "Đánh giá: tiêu chí đối chiếu nguồn, kết quả đúng, trung thực khi khai báo."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,605 @@
+{
+ "id": "T7-B15",
+ "ten": "Bài 15. Thuật toán tìm kiếm nhị phân",
+ "tomtat": [
+  "**Tìm kiếm nhị phân** là thuật toán tìm một giá trị trong danh sách bằng cách **chia đôi vùng tìm kiếm** sau mỗi lần so sánh.",
+  "**Điều kiện:** danh sách phải được **sắp xếp** theo thứ tự (tăng hoặc giảm dần); danh sách chưa sắp xếp thì phải sắp xếp trước.",
+  "Ý tưởng: so sánh giá trị cần tìm với **phần tử ở giữa** vùng tìm kiếm, từ đó **loại bỏ một nửa** danh sách không thể chứa giá trị đó.",
+  "Vị trí giữa = **(vị trí đầu + vị trí cuối) : 2**, lấy **phần nguyên**.",
+  "Các bước: **(1)** xác định vùng tìm kiếm; **(2)** tính vị trí giữa; **(3)** so sánh giá trị cần tìm với phần tử giữa; **(4)** thu hẹp vùng tìm kiếm; **(5)** lặp lại đến khi tìm thấy hoặc hết vùng.",
+  "Kết quả so sánh: **bằng** thì dừng, tìm thấy; **nhỏ hơn** thì lấy **nửa trước**; **lớn hơn** thì lấy **nửa sau** (danh sách tăng dần).",
+  "**Hết vùng tìm kiếm** (đầu > cuối) nghĩa là giá trị **không có** trong danh sách.",
+  "Mô phỏng tìm “Trúc” trong Hình 15.1: giữa = 5 (Mai) → 7 (Trang) → 8 (Trúc), nên nhị phân **3 bước**, tuần tự **8 bước**.",
+  "Với n phần tử, nhị phân cần tối đa khoảng **log2(n) + 1** lượt: 100 phần tử tối đa **7**, 1000 phần tử tối đa **10**.",
+  "**Sắp xếp giúp tìm kiếm nhanh hơn;** đó là mối liên quan giữa sắp xếp và tìm kiếm. Ví dụ đời sống: tra từ điển, danh bạ, thư mục.",
+  "Trò chơi tìm số với 10 thẻ đã sắp xếp: mỗi lượt loại một nửa, tối đa **4 lượt**."
+ ],
+ "ynho": [
+  "Nhị phân chỉ dùng cho danh sách đã sắp xếp.",
+  "Mỗi lượt so sánh phần tử giữa, loại một nửa.",
+  "Giữa = (đầu + cuối) : 2, lấy phần nguyên.",
+  "Hết vùng tìm kiếm tức là không có.",
+  "Sắp xếp giúp tìm kiếm nhanh hơn."
+ ],
+ "bang": [
+  {
+   "tieu_de": "So sánh tìm kiếm tuần tự và tìm kiếm nhị phân",
+   "cot": [
+    "Tiêu chí",
+    "Tuần tự",
+    "Nhị phân"
+   ],
+   "dong": [
+    [
+     "Điều kiện danh sách",
+     "Không cần sắp xếp",
+     "**Phải đã sắp xếp**"
+    ],
+    [
+     "Cách làm",
+     "Xét lần lượt từ phần tử đầu",
+     "So với phần tử **giữa**, loại bỏ **một nửa**"
+    ],
+    [
+     "Số bước tối đa với 1000 phần tử",
+     "1000",
+     "10"
+    ],
+    [
+     "Ví dụ đời sống",
+     "Dò từng tên trong danh sách lộn xộn",
+     "Tra từ điển, danh bạ"
+    ]
+   ]
+  },
+  {
+   "tieu_de": "Hành động sau khi so sánh với phần tử giữa",
+   "cot": [
+    "Kết quả so sánh",
+    "Hành động"
+   ],
+   "dong": [
+    [
+     "Giá trị cần tìm = phần tử giữa",
+     "**Dừng**, tìm thấy"
+    ],
+    [
+     "Giá trị cần tìm < phần tử giữa",
+     "Lấy **nửa trước** làm vùng tìm kiếm mới"
+    ],
+    [
+     "Giá trị cần tìm > phần tử giữa",
+     "Lấy **nửa sau** làm vùng tìm kiếm mới"
+    ],
+    [
+     "Vùng tìm kiếm hết",
+     "Kết luận **không có**"
+    ]
+   ]
+  }
+ ],
+ "vidu": [
+  {
+   "tinh_huong": "Tìm 56 trong danh sách 3, 7, 12, 18, 25, 31, 42, 56, 63, 70, 85 (11 phần tử). Lần 1: vùng 1–11, giữa 6 (31) < 56 → vùng 7–11. Lần 2: giữa 9 (63) > 56 → vùng 7–8. Lần 3: giữa 7 (42) < 56 → vùng 8–8. Lần 4: giữa 8 (56) = 56 → tìm thấy.",
+   "ket_luan": "→ Nhị phân 4 bước, tuần tự 8 bước."
+  },
+  {
+   "tinh_huong": "Tìm 10 trong danh sách B: 5, 9, 14, 20, 27, 33, 41, 48, 60. Lần 1: giữa 5 (27) > 10 → vùng 1–4. Lần 2: giữa 2 (9) < 10 → vùng 3–4. Lần 3: giữa 3 (14) > 10 → vùng 3–2 là rỗng.",
+   "ket_luan": "→ Không có; nhị phân 3 bước, tuần tự phải duyệt 9 phần tử."
+  },
+  {
+   "tinh_huong": "Tra từ “cat” trong từ điển Anh – Việt: mở khoảng giữa thấy chữ “m”, “cat” đứng trước nên mở nửa trước; mở tiếp giữa nửa trước thấy “f” và tiếp tục lật nửa trước nữa.",
+   "ket_luan": "→ Giống tìm kiếm nhị phân vì từ điển đã sắp xếp và mỗi lần loại bỏ một nửa."
+  },
+  {
+   "tinh_huong": "Danh sách 1000 học sinh đã xếp theo mã số. Tìm tuần tự tối đa 1000 lượt; nhị phân: 1000 → 500 → 250 → 125 → 62 → 31 → 15 → 7 → 3 → 1 nên tối đa 10 lượt.",
+   "ket_luan": "→ Danh sách càng dài, nhị phân càng có lợi."
+  }
+ ],
+ "nho": [
+  "“Sắp – Giữa – Loại nửa – Lặp”: sắp xếp, lấy giữa, loại nửa, lặp lại.",
+  "Nhớ hình ảnh tra từ điển: mở giữa, bé thì lật trước, lớn thì lật sau.",
+  "Số lượt tối đa ≈ số lần chia đôi n về 1: 10 → 4, 100 → 7, 1000 → 10."
+ ],
+ "bay": [
+  "Quên điều kiện đã sắp xếp: danh sách lộn xộn thì phải sắp xếp trước.",
+  "Tính vị trí giữa sai: lấy phần nguyên, đừng làm tròn lên, và tính trên vị trí chứ không tính trên giá trị.",
+  "Nhầm hướng: nhỏ hơn giữa thì lấy nửa trước, lớn hơn thì lấy nửa sau (danh sách tăng dần).",
+  "Không tìm thấy không có nghĩa phải duyệt hết; dừng khi vùng tìm kiếm rỗng."
+ ],
+ "giaoan": [
+  "**Mục tiêu** – Kiến thức: giải thích được thuật toán tìm kiếm nhị phân; giải thích mối liên quan giữa sắp xếp và tìm kiếm; mô phỏng với danh sách nhỏ và so sánh số bước với tìm kiếm tuần tự. Năng lực: tự chủ và tự học, giao tiếp và hợp tác, giải quyết vấn đề; năng lực tin học (giải thích, mô phỏng thuật toán). Phẩm chất: chăm chỉ, cẩn thận, trung thực.",
+  "**Chuẩn bị** – GV: máy chiếu, slide Hình 15.1 và 15.2, phiếu bảng lần lặp, 10 thẻ số, chatbot AI. HS: SGK, vở, ôn tìm kiếm tuần tự (Bài 14), 10 mảnh giấy làm thẻ số.",
+  "**Hoạt động 1 – Mở đầu** – Mục tiêu: tạo nhu cầu tìm cách nhanh hơn. Nội dung: tình huống bạn An tìm tên trong hàng trăm khách hàng. Sản phẩm: ý tưởng sắp xếp rồi tìm ở giữa. Tổ chức: GV giao nhiệm vụ → HS nghĩ, trao đổi cặp (Think–Pair–Share) → báo cáo → GV nhận xét, dẫn vào bài.",
+  "**Hoạt động 2 – Hình thành kiến thức** – Mục tiêu: mô phỏng tìm “Trúc”, nêu 5 bước thuật toán, hiểu vai trò sắp xếp. Nội dung: Hình 15.1, hộp thuật toán, trò chơi tìm số. Sản phẩm: bảng lần lặp, 5 bước, so sánh số bước. Tổ chức: GV giao phiếu → HS cặp đôi điền bảng → báo cáo → GV chốt thuật toán và điều kiện.",
+  "**Hoạt động 3 – Luyện tập** – Mục tiêu: mô phỏng với giá trị khác, so sánh với tuần tự. Nội dung: Luyện tập 1, 2 và tìm “Hoà”. Sản phẩm: bảng lần lặp của nhóm, ví dụ thực tế. Tổ chức: chia nhóm 4 (khăn trải bàn) → thảo luận → 2 nhóm trình bày → GV nhận xét, chấm điểm.",
+  "**Hoạt động 4 – Vận dụng** – Mục tiêu: liên hệ tra từ điển; kiểm chứng đầu ra của chatbot. Nội dung: câu hỏi vận dụng SGK và hỏi chatbot. Sản phẩm: giải thích cách tra từ điển, danh sách lỗi của chatbot. Tổ chức: giao nhiệm vụ → HS đối chiếu SGK và mô phỏng → báo cáo → GV chốt.",
+  "**Kiểm tra đánh giá** – Quan sát và phiếu đánh giá nhóm; chấm bảng lần lặp; hỏi đáp nhanh; sản phẩm Luyện tập. Củng cố, dặn dò: làm lại bảng tìm “Trúc”, “Hoà”, ôn Bài 15."
+ ],
+ "ai": [
+  "GV hỏi chatbot các bước tìm kiếm nhị phân và chọn câu trả lời có lỗi (như bỏ điều kiện sắp xếp) làm tình huống cho HS.",
+  "HS kiểm chứng đầu ra của AI bằng SGK và mô phỏng lại trên danh sách nhỏ trước khi tin (7.A1.MR1).",
+  "Giáo dục đạo đức AI: AI có thể sai gây kết luận sai (7.A1.2); trung thực khai báo phần có sự trợ giúp của AI."
+ ],
+ "cauhoi": [
+  {
+   "t": "s",
+   "q": "Điều kiện bắt buộc để áp dụng thuật toán tìm kiếm nhị phân là gì?",
+   "o": [
+    "Danh sách đã được sắp xếp",
+    "Danh sách có số phần tử chẵn",
+    "Danh sách chỉ chứa số nguyên",
+    "Danh sách có ít hơn 100 phần tử"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Bẫy: nhị phân dựa vào thứ tự nên chỉ dùng cho danh sách đã sắp xếp; kiểu dữ liệu và độ dài không phải điều kiện.",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  },
+  {
+   "t": "s",
+   "q": "Danh sách có 9 phần tử đánh số 1 đến 9. Lần đầu tiên, phần tử ở giữa có vị trí nào?",
+   "o": [
+    "4",
+    "6",
+    "5",
+    "9"
+   ],
+   "a": [
+    2
+   ],
+   "e": "(1 + 9) : 2 = 5. Bẫy: nhầm lấy 9 : 2 = 4 hoặc làm tròn lên.",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  },
+  {
+   "t": "s",
+   "q": "Vùng tìm kiếm đang là các vị trí từ 6 đến 9. Vị trí giữa là bao nhiêu (lấy phần nguyên)?",
+   "o": [
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "a": [
+    1
+   ],
+   "e": "(6 + 9) : 2 = 7,5 → lấy phần nguyên là 7. Bẫy: nhầm với 9 : 2 hay làm tròn lên 8.",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  },
+  {
+   "t": "s",
+   "q": "Danh sách đã sắp xếp tăng dần: 3, 7, 12, 18, 25, 31, 42, 56, 63, 70, 85. Tìm kiếm nhị phân số 42 cần bao nhiêu lần so sánh với phần tử giữa?",
+   "o": [
+    "2",
+    "4",
+    "7",
+    "3"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Giữa = vị trí 6 (31) → vùng 7–11, giữa = 9 (63) → vùng 7–8, giữa = 7 (42): 3 bước. Tìm tuần tự cần 7 bước.",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  },
+  {
+   "t": "s",
+   "q": "Cùng danh sách trên, tìm số 50 (không có trong danh sách) bằng nhị phân thì kết quả là gì?",
+   "o": [
+    "Sau 3 lần so sánh, kết luận có số 50",
+    "Phải so sánh đủ 11 phần tử mới kết luận",
+    "Sau 4 lần so sánh vùng tìm kiếm rỗng, kết luận không có",
+    "Không thực hiện được vì 50 không có trong danh sách"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Các giữa lần lượt là 31, 63, 42, 56; sau đó đầu > cuối nên dừng và kết luận không có. Bẫy: nghĩ phải duyệt hết danh sách.",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  },
+  {
+   "t": "s",
+   "q": "Với danh sách đã sắp xếp có 100 phần tử, tìm kiếm nhị phân cần tối đa khoảng bao nhiêu lượt so sánh?",
+   "o": [
+    "50",
+    "7",
+    "10",
+    "100"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Mỗi lượt loại một nửa: 100 → 50 → 25 → 12 → 6 → 3 → 1 → còn tối đa 7 lượt. Tuần tự có thể cần 100.",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  },
+  {
+   "t": "s",
+   "q": "Trong tìm kiếm nhị phân, khi nào kết luận danh sách không có giá trị cần tìm?",
+   "o": [
+    "Khi phần tử giữa lớn hơn giá trị cần tìm",
+    "Khi vùng tìm kiếm không còn phần tử nào",
+    "Khi so sánh xong lần đầu tiên",
+    "Khi phần tử đầu tiên khác giá trị cần tìm"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Chỉ khi vùng tìm kiếm hết (đầu lớn hơn cuối) mới kết luận không có.",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  },
+  {
+   "t": "s",
+   "q": "Giá trị cần tìm NHỎ HƠN phần tử ở giữa. Bước tiếp theo là gì?",
+   "o": [
+    "Tìm tiếp ở nửa đứng sau phần tử giữa",
+    "Dừng và kết luận không có",
+    "Tìm tiếp ở nửa đứng trước phần tử giữa",
+    "Tìm lại từ phần tử đầu tiên của cả danh sách"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Danh sách tăng dần: giá trị nhỏ hơn nằm ở nửa trước. Bẫy: đảo hướng trước/sau.",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  },
+  {
+   "t": "s",
+   "q": "Thứ tự đúng các bước chính của thuật toán tìm kiếm nhị phân là:",
+   "o": [
+    "Tính vị trí giữa → xác định vùng tìm kiếm → so sánh → lặp lại",
+    "So sánh → xác định vùng tìm kiếm → tính vị trí giữa → lặp lại",
+    "Thu hẹp vùng → so sánh → tính vị trí giữa → xác định vùng",
+    "Xác định vùng tìm kiếm → tính vị trí giữa → so sánh → thu hẹp vùng và lặp lại"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Bẫy đảo thứ tự: phải có vùng tìm kiếm trước rồi mới tính giữa.",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  },
+  {
+   "t": "s",
+   "q": "Danh sách 1000 phần tử đã sắp xếp, trường hợp xấu nhất, số lần so sánh của tìm kiếm tuần tự và nhị phân lần lượt xấp xỉ là:",
+   "o": [
+    "1000 và 10",
+    "10 và 1000",
+    "500 và 500",
+    "1000 và 100"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Tuần tự tối đa 1000; nhị phân tối đa 10 (2^10 = 1024 ≥ 1000).",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  },
+  {
+   "t": "s",
+   "q": "Mối liên quan giữa sắp xếp và tìm kiếm được thể hiện như thế nào?",
+   "o": [
+    "Sắp xếp làm danh sách dài hơn",
+    "Tìm kiếm xong thì mới cần sắp xếp",
+    "Sắp xếp dữ liệu trước giúp việc tìm kiếm nhanh hơn",
+    "Hai việc hoàn toàn độc lập, không liên quan"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Dữ liệu có thứ tự cho phép loại một nửa mỗi lượt.",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  },
+  {
+   "t": "s",
+   "q": "Cách tra một từ trong từ điển giấy (mở khoảng giữa, so chữ cái, rồi lật sang trước hay sau) giống thuật toán nào?",
+   "o": [
+    "Tìm kiếm tuần tự",
+    "Tìm kiếm nhị phân",
+    "Sắp xếp chọn",
+    "Sắp xếp nổi bọt"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Từ điển đã sắp xếp theo chữ cái và mỗi lần loại bỏ một phần lớn: giống nhị phân.",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các phát biểu ĐÚNG về tìm kiếm nhị phân.",
+   "o": [
+    "Mỗi lần so sánh loại bỏ khoảng một nửa vùng tìm kiếm",
+    "Áp dụng cho cả danh sách chưa sắp xếp",
+    "Thường cần ít bước hơn tìm kiếm tuần tự với danh sách dài",
+    "Phần tử giữa được so sánh với giá trị cần tìm"
+   ],
+   "a": [
+    0,
+    2,
+    3
+   ],
+   "e": "Bẫy: nhị phân KHÔNG dùng được cho danh sách chưa sắp xếp.",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  },
+  {
+   "t": "m",
+   "q": "Trường hợp nào phù hợp để dùng tìm kiếm nhị phân?",
+   "o": [
+    "Tra một tên trong danh bạ đã xếp theo chữ cái",
+    "Tìm một số trong dãy điểm đã xếp tăng dần",
+    "Tìm một tên trong danh sách xếp lộn xộn theo thứ tự nhập",
+    "Tra một từ trong từ điển"
+   ],
+   "a": [
+    0,
+    1,
+    3
+   ],
+   "e": "Chỉ chọn dữ liệu đã có thứ tự; danh sách lộn xộn phải sắp xếp trước.",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  },
+  {
+   "t": "m",
+   "q": "Trong lần tìm kiếm nhị phân số 56 trên danh sách 3, 7, 12, 18, 25, 31, 42, 56, 63, 70, 85, các phần tử giữa lần lượt được so sánh là:",
+   "o": [
+    "31",
+    "63",
+    "42",
+    "56"
+   ],
+   "a": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "e": "Giữa = 31 (vị trí 6), 63 (vị trí 9), 42 (vị trí 7), 56 (vị trí 8); tổng 4 bước. Bẫy: chọn thiếu vì tưởng dừng sớm.",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  },
+  {
+   "t": "m",
+   "q": "Khi dùng chatbot AI để hỏi về tìm kiếm nhị phân, em nên làm gì?",
+   "o": [
+    "Đối chiếu với SGK và mô phỏng lại trên ví dụ",
+    "Tin ngay vì AI luôn đúng",
+    "Kiểm tra điều kiện danh sách đã sắp xếp và số bước",
+    "Nói rõ phần thông tin có sự trợ giúp của AI"
+   ],
+   "a": [
+    0,
+    2,
+    3
+   ],
+   "e": "Kết quả AI có thể sai nên phải kiểm chứng và trung thực khi khai báo.",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  },
+  {
+   "t": "f",
+   "q": "Tìm kiếm nhị phân chỉ áp dụng cho danh sách ____ ; mỗi lần so sánh sẽ loại bỏ khoảng ____ vùng tìm kiếm.",
+   "a": [
+    [
+     "đã sắp xếp"
+    ],
+    [
+     "một nửa",
+     "1/2",
+     "nửa"
+    ]
+   ],
+   "o": [
+    [
+     "chưa sắp xếp",
+     "một nửa"
+    ],
+    [
+     "đã sắp xếp",
+     "một phần tư"
+    ],
+    [
+     "đã sắp xếp",
+     "một nửa"
+    ],
+    [
+     "ngẫu nhiên",
+     "một phần ba"
+    ]
+   ],
+   "k": 2,
+   "e": "Điều kiện là đã sắp xếp; mỗi lượt giảm một nửa.",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  },
+  {
+   "t": "f",
+   "q": "Vị trí giữa được tính bằng (vị trí đầu + vị trí cuối) ____ 2 và lấy ____ .",
+   "a": [
+    [
+     "chia"
+    ],
+    [
+     "phần nguyên"
+    ]
+   ],
+   "o": [
+    [
+     "chia",
+     "phần nguyên"
+    ],
+    [
+     "nhân",
+     "phần nguyên"
+    ],
+    [
+     "chia",
+     "số làm tròn lên"
+    ],
+    [
+     "trừ",
+     "phần thập phân"
+    ]
+   ],
+   "k": 0,
+   "e": "Công thức (đầu + cuối) : 2, lấy phần nguyên.",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  },
+  {
+   "t": "f",
+   "q": "Giá trị cần tìm ____ phần tử giữa thì tìm tiếp ở nửa ____ .",
+   "a": [
+    [
+     "lớn hơn"
+    ],
+    [
+     "sau"
+    ]
+   ],
+   "o": [
+    [
+     "lớn hơn",
+     "trước"
+    ],
+    [
+     "nhỏ hơn",
+     "sau"
+    ],
+    [
+     "bằng",
+     "trước"
+    ],
+    [
+     "lớn hơn",
+     "sau"
+    ]
+   ],
+   "k": 3,
+   "e": "Danh sách tăng dần: lớn hơn thì nằm ở nửa sau; bẫy đảo hướng.",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  },
+  {
+   "t": "f",
+   "q": "Với danh sách B: 5, 9, 14, 20, 27, 33, 41, 48, 60 thì tìm số 27 bằng nhị phân cần ____ bước, tìm số 60 cần ____ bước.",
+   "a": [
+    [
+     "1"
+    ],
+    [
+     "4"
+    ]
+   ],
+   "o": [
+    [
+     "2",
+     "4"
+    ],
+    [
+     "1",
+     "4"
+    ],
+    [
+     "1",
+     "3"
+    ],
+    [
+     "3",
+     "9"
+    ]
+   ],
+   "k": 1,
+   "e": "27 là phần tử giữa (vị trí 5): 1 bước. 60: giữa 27 → 41 → 48 → 60: 4 bước.",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  },
+  {
+   "t": "f",
+   "q": "Tìm số 10 (không có) trong danh sách B bằng nhị phân cần ____ bước rồi kết luận không có; tìm tuần tự phải so sánh ____ phần tử.",
+   "a": [
+    [
+     "3"
+    ],
+    [
+     "9"
+    ]
+   ],
+   "o": [
+    [
+     "9",
+     "3"
+    ],
+    [
+     "4",
+     "9"
+    ],
+    [
+     "3",
+     "9"
+    ],
+    [
+     "3",
+     "5"
+    ]
+   ],
+   "k": 2,
+   "e": "Giữa = 27, 9, 14 rồi vùng rỗng: 3 bước. Tuần tự phải duyệt hết 9 phần tử mới kết luận không có.",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  },
+  {
+   "t": "f",
+   "q": "Khi vùng tìm kiếm ____ (vị trí đầu lớn hơn vị trí cuối) thì kết luận ____ giá trị cần tìm trong danh sách.",
+   "a": [
+    [
+     "rỗng",
+     "hết",
+     "không còn phần tử"
+    ],
+    [
+     "không có"
+    ]
+   ],
+   "o": [
+    [
+     "rỗng",
+     "không có"
+    ],
+    [
+     "còn một phần tử",
+     "không có"
+    ],
+    [
+     "rỗng",
+     "có"
+    ],
+    [
+     "đầy đủ",
+     "có"
+    ]
+   ],
+   "k": 0,
+   "e": "Hết vùng tìm kiếm tức không có.",
+   "r": "SGK Tin học 7 KNTT – Bài 15"
+  }
+ ],
+ "tuluan": [
+  {
+   "q": "Câu 1 (3 điểm). Cho danh sách đã sắp xếp tăng dần: 4, 9, 15, 22, 30, 37, 45, 58, 66, 72. Trình bày các bước tìm kiếm nhị phân số 58 và số 20; nêu số bước mỗi trường hợp.",
+   "a": [
+    "Số 58: vùng 1–10, giữa = 5 (30) < 58 → vùng 6–10; giữa = 8 (58) = 58 → tìm thấy, 2 bước.",
+    "Số 20: giữa = 5 (30) > 20 → vùng 1–4; giữa = 2 (9) < 20 → vùng 3–4; giữa = 3 (15) < 20 → vùng 4–4; giữa = 4 (22) > 20 → vùng 4–3 rỗng; không có, 4 bước.",
+    "Nhận xét: tuần tự tìm 20 phải duyệt 10 phần tử; nhị phân chỉ 4 bước nhưng phải đã sắp xếp."
+   ]
+  },
+  {
+   "q": "Câu 2 (3 điểm). Nêu mục tiêu bài “Thuật toán tìm kiếm nhị phân” (Tin học 7, chương trình 2018) về kiến thức, năng lực và phẩm chất.",
+   "a": [
+    "Kiến thức: giải thích được thuật toán tìm kiếm nhị phân; giải thích được mối liên quan giữa sắp xếp và tìm kiếm; mô phỏng được thuật toán với danh sách nhỏ, so sánh số bước với tìm kiếm tuần tự.",
+    "Năng lực: tự chủ và tự học, giao tiếp và hợp tác, giải quyết vấn đề; năng lực tin học: giải thích, mô phỏng thuật toán, chọn thuật toán tìm kiếm phù hợp.",
+    "Phẩm chất: chăm chỉ, cẩn thận khi mô phỏng từng bước, trung thực khi báo cáo kết quả."
+   ]
+  },
+  {
+   "q": "Câu 3 (4 điểm). Thiết kế một hoạt động dạy học có tích hợp chatbot AI để học sinh hiểu điều kiện của tìm kiếm nhị phân; nêu cách đánh giá.",
+   "a": [
+    "Mục tiêu: HS nhận biết nhị phân cần danh sách đã sắp xếp và biết kiểm chứng đầu ra của AI.",
+    "Chuẩn bị: GV hỏi chatbot “Có dùng nhị phân cho danh sách chưa sắp xếp không? Nêu các bước tìm Trúc trong 9 tên” và chọn câu trả lời có lỗi cho HS xem.",
+    "Tổ chức: giao nhiệm vụ → cặp đôi đối chiếu SGK và mô phỏng trên Hình 15.1 → báo cáo chỗ sai → GV nhận xét, chốt.",
+    "Chốt: cần sắp xếp trước; không tin AI tuyệt đối, phải kiểm chứng và khai báo khi dùng AI.",
+    "Đánh giá: phiếu quan sát và bảng lần lặp; tiêu chí gồm đúng điều kiện, đúng số bước, nêu được cách kiểm chứng."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,598 @@
+{
+ "id": "T7-B14",
+ "ten": "Bài 14. Thuật toán tìm kiếm tuần tự",
+ "tomtat": [
+  "**Bài toán tìm kiếm**: cho một **danh sách** các đối tượng và một đối tượng cần tìm; yêu cầu tìm xem đối tượng đó có trong danh sách không và ở đâu.",
+  "**Đầu vào (Input)**: danh sách các đối tượng (ví dụ danh sách khách hàng) và đối tượng cần tìm (ví dụ họ tên). **Đầu ra (Output)**: kết quả tìm (ví dụ địa chỉ khách hàng) hoặc thông báo **không tìm thấy**.",
+  "**Tìm kiếm tuần tự** là xét **lần lượt từng phần tử** của danh sách **từ đầu đến cuối** để so sánh với đối tượng cần tìm.",
+  "Thuật toán có cấu trúc **lặp**: mỗi vòng lặp xét một phần tử rồi chuyển sang phần tử kế tiếp.",
+  "Vòng lặp **dừng** khi một trong **hai điều kiện** xảy ra: (1) **gặp đúng đối tượng cần tìm**; (2) **đã xét hết danh sách**.",
+  "Biểu diễn bằng **sơ đồ khối** (Hình 14.1): hình bầu dục là bắt đầu/kết thúc, hình chữ nhật là thao tác, **hình thoi** là điều kiện rẽ nhánh Đúng/Sai, mũi tên chỉ thứ tự thực hiện.",
+  "Biểu diễn bằng **ngôn ngữ tự nhiên** gồm **5 bước**: xem phần tử đầu; so sánh với đối tượng cần tìm; nếu đúng thì ghi kết quả và kết thúc; nếu chưa đúng mà hết danh sách thì thông báo **không tìm thấy**; nếu chưa hết thì xem phần tử tiếp theo và quay lại so sánh.",
+  "**Mô phỏng** thuật toán bằng bảng: mỗi dòng là một **lần xét** (phần tử đang xét, kết quả so sánh, hành động tiếp theo). Ví dụ Bảng 14.2: tìm \"Thanh Trúc\" thì lần 1–3 chưa đúng, **lần 4 đúng và dừng**.",
+  "Nếu đối tượng **không có** trong danh sách (ví dụ \"Lê Lan\" ở Bảng 14.1) thì phải xét **hết** danh sách rồi kết luận không tìm thấy.",
+  "Số lần xét từ **1** (ở đầu danh sách) đến **n** (ở cuối hoặc không có) với danh sách n phần tử; thuật toán **luôn dừng**.",
+  "Tìm kiếm tuần tự **không đòi hỏi** danh sách phải sắp xếp, dùng được cho mọi danh sách.",
+  "Chatbot AI có thể mô phỏng thuật toán **sai** (sai vị trí, xét tiếp dù đã thấy), nên cần **kiểm chứng** bằng SGK và tự mô phỏng."
+ ],
+ "ynho": [
+  "Đầu vào: danh sách + đối tượng cần tìm",
+  "Xét lần lượt từ đầu đến cuối",
+  "Hai điều kiện dừng: tìm thấy hoặc hết danh sách",
+  "Tìm thấy là dừng ngay, không xét tiếp",
+  "Luôn kiểm chứng kết quả của AI"
+ ],
+ "bang": [
+  {
+   "tieu_de": "Đầu vào, đầu ra và hai kết cục của tìm kiếm tuần tự",
+   "cot": [
+    "Thành phần",
+    "Nội dung",
+    "Ví dụ (tìm khách hàng)"
+   ],
+   "dong": [
+    [
+     "Đầu vào",
+     "Danh sách + đối tượng cần tìm",
+     "Danh sách khách hàng; họ tên cần tìm"
+    ],
+    [
+     "Đầu ra (tìm thấy)",
+     "Thông tin/vị trí đối tượng",
+     "Địa chỉ khách hàng"
+    ],
+    [
+     "Đầu ra (không có)",
+     "Thông báo không tìm thấy",
+     "\"Không tìm thấy\" (ví dụ Lê Lan)"
+    ],
+    [
+     "Số lần xét",
+     "Từ 1 đến n",
+     "Thanh Trúc: dừng ở lần 4"
+    ]
+   ]
+  },
+  {
+   "tieu_de": "Ý nghĩa các khối trong sơ đồ khối",
+   "cot": [
+    "Hình",
+    "Ý nghĩa",
+    "Ví dụ trong thuật toán"
+   ],
+   "dong": [
+    [
+     "Bầu dục",
+     "Bắt đầu / kết thúc",
+     "Bắt đầu; Kết thúc"
+    ],
+    [
+     "Chữ nhật",
+     "Thao tác",
+     "Xem tên đầu; xem tên tiếp theo; ghi địa chỉ"
+    ],
+    [
+     "Thoi",
+     "Điều kiện Đúng/Sai",
+     "Đúng tên cần tìm không? Hết danh sách chưa?"
+    ],
+    [
+     "Mũi tên",
+     "Thứ tự thực hiện",
+     "Nối các khối"
+    ]
+   ]
+  }
+ ],
+ "vidu": [
+  {
+   "tinh_huong": "Danh sách số: 7, 3, 9, 5, 1. Tìm số 5. Lần 1: 7 ≠ 5; lần 2: 3 ≠ 5; lần 3: 9 ≠ 5; lần 4: 5 = 5 → dừng, vị trí 4.",
+   "ket_luan": "→ Tìm thấy ở lần 4, không xét số 1 (dừng ngay khi thấy)."
+  },
+  {
+   "tinh_huong": "Cùng danh sách 7, 3, 9, 5, 1, tìm số 8: lần 1 đến lần 5 đều không bằng 8; sau lần 5 đã hết danh sách.",
+   "ket_luan": "→ Xét đủ 5 phần tử, kết luận \"không tìm thấy\" (điều kiện dừng 2)."
+  },
+  {
+   "tinh_huong": "Bảng 14.3 có 9 tên nước, Iceland ở vị trí thứ 6. Mô phỏng: 5 lần đầu chưa đúng, lần 6 đúng.",
+   "ket_luan": "→ Dừng ở lần 6, không xét 3 nước còn lại."
+  },
+  {
+   "tinh_huong": "Chatbot trả lời \"Iceland ở vị trí 5, phải xét tiếp 4 nước còn lại\". HS đối chiếu Bảng 14.3 và tự mô phỏng.",
+   "ket_luan": "→ Chatbot sai 2 chỗ: vị trí đúng là 6; tìm thấy thì dừng, không xét tiếp."
+  }
+ ],
+ "nho": [
+  "\"Thấy thì dừng, hết thì thôi\" = hai điều kiện dừng",
+  "Tuần tự = từng người một xếp hàng, không nhảy cóc",
+  "Hình thoi = hỏi (Đúng/Sai); chữ nhật = làm",
+  "Xấu nhất xét n, tốt nhất xét 1"
+ ],
+ "bay": [
+  "Quên điều kiện dừng thứ hai (hết danh sách) khi đối tượng không có",
+  "Đã tìm thấy vẫn xét tiếp các phần tử sau",
+  "Đảo lẫn đầu vào và đầu ra",
+  "Nghĩ rằng phải sắp xếp danh sách trước khi tìm tuần tự"
+ ],
+ "giaoan": [
+  "**Mục tiêu** – Kiến thức: giải thích được thuật toán tìm kiếm tuần tự (đầu vào, đầu ra, hai điều kiện dừng); biểu diễn được bằng sơ đồ khối và ngôn ngữ tự nhiên; mô phỏng được trên danh sách nhỏ. Năng lực: tự chủ, tự học; giao tiếp, hợp tác; giải quyết vấn đề; NLd (Tin học): mô tả, mô phỏng thuật toán; năng lực số: 3.4.TC1.a, 5.3.TC1.b; năng lực AI: 7.A1.2, 7.A1.MR1. Phẩm chất: chăm chỉ, cẩn thận; trung thực, khai báo khi dùng AI.",
+  "**Chuẩn bị** – GV: máy tính, máy chiếu, Hình 14.1, Bảng 14.1–14.3, 5 thẻ tên, phiếu học tập, câu trả lời mẫu của chatbot AI. HS: SGK Tin học 7, vở ghi, đọc trước bài, danh sách vài cuốn sách của em.",
+  "**Hoạt động 1 – Mở đầu** (5 phút) – Mục tiêu: tạo nhu cầu tìm thông tin trong danh sách. Nội dung: tình huống mẹ An tìm địa chỉ khách hàng trong sổ dài. Sản phẩm: HS nêu cách xem lần lượt từ đầu đến cuối. Tổ chức: (1) GV giao nhiệm vụ; (2) HS suy nghĩ, thảo luận cặp (Think–Pair–Share); (3) báo cáo; (4) GV nhận xét, dẫn vào bài.",
+  "**Hoạt động 2 – Hình thành kiến thức** (50 phút) – Mục tiêu: xác định đầu vào, đầu ra; đọc sơ đồ khối; nêu hai điều kiện dừng; mô tả 5 bước. Nội dung: Hình 14.1, Hoạt động 1 điền Bảng 14.2 (tìm Thanh Trúc), 5 bước bằng ngôn ngữ tự nhiên. Sản phẩm: Bảng 14.2 đúng (dừng ở lần 4), ghép đúng khối với bước. Tổ chức: (1) GV phát phiếu, chiếu hình; (2) HS thảo luận cặp, đóng vai 5 thẻ tên; (3) các nhóm báo cáo; (4) GV chốt theo hộp Ghi nhớ.",
+  "**Hoạt động 3 – Luyện tập** (20 phút) – Mục tiêu: củng cố mô phỏng, hiểu trường hợp không tìm thấy. Nội dung: tìm \"Lê Lan\" ở Bảng 14.1; kẻ Bảng 14.3 tìm Iceland. Sản phẩm: Lê Lan xét hết danh sách, không tìm thấy; Iceland dừng ở lần 6. Tổ chức: (1) GV giao bài; (2) HS làm cặp, kiểm tra chéo; (3) mời cặp trình bày; (4) GV chốt hai điều kiện dừng.",
+  "**Hoạt động 4 – Vận dụng** (15 phút) – Mục tiêu: áp dụng vào danh sách của em; kiểm chứng kết quả chatbot. Nội dung: lập danh sách 5 cuốn sách, tìm một cuốn; đối chiếu câu trả lời sai của chatbot với Bảng 14.3. Sản phẩm: bảng tìm sách đúng; nhận ra chatbot sai vị trí và điều kiện dừng. Tổ chức: (1) GV giao nhiệm vụ, chiếu câu trả lời chatbot; (2) HS mô phỏng, đối chiếu SGK; (3) báo cáo; (4) GV kết luận cần kiểm chứng kết quả AI.",
+  "**Kiểm tra đánh giá** – Hỏi đáp nhanh/giơ thẻ A, B, C, D; đánh giá phiếu học tập (Bảng 14.2, 14.3) theo tiêu chí: xác định đúng đầu vào, đầu ra; nêu đủ hai điều kiện dừng; mô phỏng đúng số lần xét. Củng cố, dặn học thuộc hai điều kiện dừng, đọc trước Bài 15."
+ ],
+ "ai": [
+  "GV dùng chatbot AI để gợi ý thêm danh sách ví dụ (tên nước, tên sách) và phiếu bài tập mô phỏng, nhưng phải tự kiểm tra đáp án trước khi dùng.",
+  "HS kiểm chứng đầu ra của AI: cho chatbot mô phỏng tìm Iceland, đối chiếu Bảng 14.3, phát hiện sai vị trí (5 thay vì 6) và sai điều kiện dừng (xét tiếp dù đã thấy) (7.A1.2, 7.A1.MR1).",
+  "Đạo đức AI: không tin tuyệt đối kết quả AI, nêu hậu quả khi tin sai (mô phỏng sai), khai báo khi dùng AI và đối chiếu SGK, thầy cô."
+ ],
+ "cauhoi": [
+  {
+   "t": "s",
+   "q": "Thuật toán tìm kiếm tuần tự xét các phần tử của danh sách theo cách nào?",
+   "o": [
+    "Lần lượt từ phần tử đầu tiên đến phần tử cuối cùng",
+    "Bắt đầu từ phần tử ở giữa danh sách",
+    "Từ phần tử cuối lên phần tử đầu rồi xét cả hai phía",
+    "Chọn ngẫu nhiên từng phần tử trong danh sách"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Tuần tự = lần lượt từng phần tử từ đầu. Không chọn giữa hay ngẫu nhiên.",
+   "r": "SGK Tin học 7 KNTT – Bài 14"
+  },
+  {
+   "t": "s",
+   "q": "Đầu vào của bài toán tìm kiếm trong danh sách là gì?",
+   "o": [
+    "Vị trí của đối tượng cần tìm",
+    "Danh sách các đối tượng và đối tượng cần tìm",
+    "Địa chỉ của khách hàng tìm được",
+    "Số lần so sánh đã thực hiện"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Vị trí/địa chỉ/kết quả là đầu ra, không phải đầu vào (bẫy đảo vào–ra).",
+   "r": "SGK Tin học 7 KNTT – Bài 14"
+  },
+  {
+   "t": "s",
+   "q": "Đầu ra của bài toán tìm khách hàng trong sổ theo họ tên là gì?",
+   "o": [
+    "Danh sách khách hàng và họ tên cần tìm",
+    "Số lượng khách hàng trong sổ",
+    "Thông tin (địa chỉ) của khách hàng cần tìm, hoặc thông báo không tìm thấy",
+    "Họ tên của tất cả khách hàng"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Đầu ra là kết quả tìm: có thì thông tin, không có thì thông báo không tìm thấy.",
+   "r": "SGK Tin học 7 KNTT – Bài 14"
+  },
+  {
+   "t": "s",
+   "q": "Trong thuật toán tìm kiếm tuần tự, vòng lặp dừng khi nào?",
+   "o": [
+    "Chỉ khi gặp đối tượng cần tìm",
+    "Chỉ khi xét hết danh sách",
+    "Khi xét xong đúng ba phần tử",
+    "Khi gặp đối tượng cần tìm hoặc đã xét hết danh sách"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Có HAI điều kiện dừng; bẫy: chỉ nêu một điều kiện sẽ không đúng khi đối tượng không có trong danh sách.",
+   "r": "SGK Tin học 7 KNTT – Bài 14"
+  },
+  {
+   "t": "s",
+   "q": "Danh sách là 7, 3, 9, 5, 1. Tìm số 5 bằng tìm kiếm tuần tự thì phải xét bao nhiêu phần tử trước khi dừng?",
+   "o": [
+    "3",
+    "4",
+    "5",
+    "2"
+   ],
+   "a": [
+    1
+   ],
+   "e": "5 ở vị trí thứ 4: xét 7, 3, 9, 5 rồi dừng, không xét số 1 (bẫy: xét hết 5 phần tử).",
+   "r": "SGK Tin học 7 KNTT – Bài 14"
+  },
+  {
+   "t": "s",
+   "q": "Danh sách là 7, 3, 9, 5, 1. Tìm số 8 thì thuật toán xét bao nhiêu phần tử và kết luận gì?",
+   "o": [
+    "Xét 4 phần tử, kết luận tìm thấy",
+    "Xét 1 phần tử, kết luận không tìm thấy",
+    "Xét cả 5 phần tử, kết luận không tìm thấy",
+    "Xét cả 5 phần tử, kết luận tìm thấy ở vị trí 5"
+   ],
+   "a": [
+    2
+   ],
+   "e": "8 không có trong danh sách nên phải xét hết 5 phần tử rồi dừng vì hết danh sách.",
+   "r": "SGK Tin học 7 KNTT – Bài 14"
+  },
+  {
+   "t": "s",
+   "q": "Trong sơ đồ khối Hình 14.1, khối hình thoi dùng để làm gì?",
+   "o": [
+    "Biểu diễn điều kiện rẽ nhánh Đúng/Sai (ví dụ: đúng tên cần tìm không?)",
+    "Biểu diễn bắt đầu hoặc kết thúc thuật toán",
+    "Biểu diễn thao tác ghi kết quả",
+    "Biểu diễn mũi tên chỉ thứ tự"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Hình thoi = điều kiện; hình bầu dục = bắt đầu/kết thúc; hình chữ nhật = thao tác.",
+   "r": "SGK Tin học 7 KNTT – Bài 14"
+  },
+  {
+   "t": "s",
+   "q": "Danh sách có n phần tử. Số lần xét nhiều nhất của tìm kiếm tuần tự là bao nhiêu?",
+   "o": [
+    "n/2 lần",
+    "1 lần",
+    "n + 1 lần",
+    "n lần"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Xấu nhất: đối tượng ở cuối hoặc không có, phải xét hết n phần tử. Nhiều nhất là n, không phải n+1.",
+   "r": "SGK Tin học 7 KNTT – Bài 14"
+  },
+  {
+   "t": "s",
+   "q": "Danh sách 9 tên nước, Iceland ở vị trí thứ 6 (Bảng 14.3). Khi tìm Iceland bằng tìm kiếm tuần tự, sau lần xét thứ 6 thuật toán làm gì?",
+   "o": [
+    "Xét tiếp 3 nước còn lại rồi mới dừng",
+    "Dừng và thông báo vị trí tìm thấy, không xét 3 nước còn lại",
+    "Quay lại xét từ nước đầu tiên",
+    "Thông báo không tìm thấy"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Tìm thấy là dừng ngay (điều kiện dừng 1). Bẫy: xét tiếp dù đã thấy.",
+   "r": "SGK Tin học 7 KNTT – Bài 14"
+  },
+  {
+   "t": "s",
+   "q": "Việc kiểm chứng kết quả do chatbot AI mô phỏng thuật toán (ví dụ nói Iceland ở vị trí 5) nên làm thế nào?",
+   "o": [
+    "Tin ngay vì AI luôn tính đúng",
+    "Chỉ tin nếu câu trả lời dài và trình bày đẹp",
+    "Đối chiếu với SGK và tự mô phỏng lại từng bước",
+    "Hỏi lại cùng chatbot đó và chấp nhận câu trả lời cuối"
+   ],
+   "a": [
+    2
+   ],
+   "e": "AI có thể sai; cần xác thực bằng nguồn đáng tin cậy và tự mô phỏng.",
+   "r": "SGK Tin học 7 KNTT – Bài 14"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các phát biểu ĐÚNG về thuật toán tìm kiếm tuần tự.",
+   "o": [
+    "Có đầu vào là danh sách và đối tượng cần tìm",
+    "Xét các phần tử lần lượt từ đầu danh sách",
+    "Luôn phải xét hết danh sách dù đã tìm thấy",
+    "Có thể kết thúc mà không tìm thấy"
+   ],
+   "a": [
+    0,
+    1,
+    3
+   ],
+   "e": "Tìm thấy là dừng, không phải xét hết; không có trong danh sách thì kết luận không tìm thấy.",
+   "r": "SGK Tin học 7 KNTT – Bài 14"
+  },
+  {
+   "t": "m",
+   "q": "Những trường hợp nào làm vòng lặp của thuật toán tìm kiếm tuần tự dừng?",
+   "o": [
+    "Gặp phần tử đúng bằng đối tượng cần tìm",
+    "Đã xét xong phần tử cuối của danh sách",
+    "Phần tử đang xét có giá trị nhỏ hơn đối tượng cần tìm",
+    "Người dùng nhập sai tên"
+   ],
+   "a": [
+    0,
+    1
+   ],
+   "e": "Chỉ hai điều kiện dừng: tìm thấy hoặc hết danh sách; so sánh lớn nhỏ không thuộc thuật toán này.",
+   "r": "SGK Tin học 7 KNTT – Bài 14"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các cách biểu diễn thuật toán tìm kiếm tuần tự có trong bài học.",
+   "o": [
+    "Sơ đồ khối",
+    "Ngôn ngữ tự nhiên (các bước)",
+    "Bảng mô phỏng từng lần xét",
+    "Biểu đồ cột"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Bài dùng sơ đồ khối, mô tả các bước bằng lời và bảng mô phỏng; không dùng biểu đồ cột.",
+   "r": "SGK Tin học 7 KNTT – Bài 14"
+  },
+  {
+   "t": "m",
+   "q": "Danh sách 7, 3, 9, 5, 1; tìm số 9. Chọn các phát biểu ĐÚNG.",
+   "o": [
+    "Số 9 ở vị trí thứ 3",
+    "Thuật toán dừng sau lần xét thứ 3",
+    "Thuật toán phải xét cả 5 phần tử",
+    "Số 5 và số 1 không được xét"
+   ],
+   "a": [
+    0,
+    1,
+    3
+   ],
+   "e": "9 ở vị trí 3, dừng ngay sau lần 3, hai phần tử sau không xét.",
+   "r": "SGK Tin học 7 KNTT – Bài 14"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các bước thuộc mô tả thuật toán tìm kiếm tuần tự bằng ngôn ngữ tự nhiên.",
+   "o": [
+    "Xem phần tử đầu tiên của danh sách",
+    "So sánh phần tử đang xét với đối tượng cần tìm",
+    "Sắp xếp danh sách tăng dần trước khi tìm",
+    "Nếu chưa hết danh sách, xét phần tử tiếp theo"
+   ],
+   "a": [
+    0,
+    1,
+    3
+   ],
+   "e": "Tìm kiếm tuần tự không yêu cầu sắp xếp trước.",
+   "r": "SGK Tin học 7 KNTT – Bài 14"
+  },
+  {
+   "t": "f",
+   "q": "Tìm kiếm tuần tự xét các phần tử ____ từ đầu đến cuối và dừng khi ____ hoặc hết danh sách.",
+   "a": [
+    [
+     "lần lượt"
+    ],
+    [
+     "tìm thấy"
+    ]
+   ],
+   "o": [
+    [
+     "ngẫu nhiên",
+     "tìm thấy"
+    ],
+    [
+     "lần lượt",
+     "xét xong phần tử giữa"
+    ],
+    [
+     "lần lượt",
+     "tìm thấy"
+    ],
+    [
+     "từ giữa ra",
+     "hết danh sách"
+    ]
+   ],
+   "k": 2,
+   "e": "Hai điều kiện dừng: tìm thấy hoặc hết danh sách.",
+   "r": "SGK Tin học 7 KNTT – Bài 14"
+  },
+  {
+   "t": "f",
+   "q": "Bài toán tìm kiếm có đầu vào là ____ và đầu ra là ____.",
+   "a": [
+    [
+     "danh sách và đối tượng cần tìm"
+    ],
+    [
+     "kết quả tìm kiếm"
+    ]
+   ],
+   "o": [
+    [
+     "danh sách và đối tượng cần tìm",
+     "kết quả tìm kiếm"
+    ],
+    [
+     "kết quả tìm kiếm",
+     "danh sách và đối tượng cần tìm"
+    ],
+    [
+     "đối tượng cần tìm",
+     "danh sách"
+    ],
+    [
+     "số lần so sánh",
+     "vị trí đầu tiên"
+    ]
+   ],
+   "k": 0,
+   "e": "Đừng đảo đầu vào và đầu ra.",
+   "r": "SGK Tin học 7 KNTT – Bài 14"
+  },
+  {
+   "t": "f",
+   "q": "Trong sơ đồ khối Hình 14.1, hình ____ biểu diễn điều kiện, hình ____ biểu diễn thao tác.",
+   "a": [
+    [
+     "thoi"
+    ],
+    [
+     "chữ nhật"
+    ]
+   ],
+   "o": [
+    [
+     "chữ nhật",
+     "thoi"
+    ],
+    [
+     "thoi",
+     "chữ nhật"
+    ],
+    [
+     "bầu dục",
+     "thoi"
+    ],
+    [
+     "thoi",
+     "bầu dục"
+    ]
+   ],
+   "k": 1,
+   "e": "Hình thoi: điều kiện; chữ nhật: thao tác; bầu dục: bắt đầu/kết thúc.",
+   "r": "SGK Tin học 7 KNTT – Bài 14"
+  },
+  {
+   "t": "f",
+   "q": "Danh sách 7, 3, 9, 5, 1: tìm số 5 xét ____ phần tử; tìm số 8 xét ____ phần tử.",
+   "a": [
+    [
+     "4"
+    ],
+    [
+     "5"
+    ]
+   ],
+   "o": [
+    [
+     "5",
+     "4"
+    ],
+    [
+     "3",
+     "5"
+    ],
+    [
+     "4",
+     "6"
+    ],
+    [
+     "4",
+     "5"
+    ]
+   ],
+   "k": 3,
+   "e": "5 ở vị trí 4; 8 không có nên xét hết 5 phần tử.",
+   "r": "SGK Tin học 7 KNTT – Bài 14"
+  },
+  {
+   "t": "f",
+   "q": "Khi đối tượng cần tìm ____ trong danh sách thì thuật toán xét ____ danh sách rồi thông báo không tìm thấy.",
+   "a": [
+    [
+     "không có"
+    ],
+    [
+     "hết"
+    ]
+   ],
+   "o": [
+    [
+     "không có",
+     "hết"
+    ],
+    [
+     "có",
+     "hết"
+    ],
+    [
+     "không có",
+     "một nửa"
+    ],
+    [
+     "có",
+     "một nửa"
+    ]
+   ],
+   "k": 0,
+   "e": "Không có thì phải xét hết danh sách.",
+   "r": "SGK Tin học 7 KNTT – Bài 14"
+  },
+  {
+   "t": "f",
+   "q": "Tìm kiếm tuần tự cần xét nhiều nhất ____ phần tử với danh sách n phần tử, trường hợp đối tượng ở ____ danh sách hoặc không có.",
+   "a": [
+    [
+     "n"
+    ],
+    [
+     "cuối"
+    ]
+   ],
+   "o": [
+    [
+     "n/2",
+     "cuối"
+    ],
+    [
+     "n",
+     "cuối"
+    ],
+    [
+     "1",
+     "đầu"
+    ],
+    [
+     "n",
+     "đầu"
+    ]
+   ],
+   "k": 1,
+   "e": "Xấu nhất là đối tượng ở cuối hoặc không có; nếu ở đầu chỉ cần 1 lần.",
+   "r": "SGK Tin học 7 KNTT – Bài 14"
+  }
+ ],
+ "tuluan": [
+  {
+   "q": "Câu 1 (2 điểm). Trình bày thuật toán tìm kiếm tuần tự: đầu vào, đầu ra, các bước (ngôn ngữ tự nhiên) và điều kiện dừng. Mô phỏng tìm số 9 và số 4 trong danh sách 7, 3, 9, 5, 1.",
+   "a": [
+    "Đầu vào: danh sách và đối tượng cần tìm. Đầu ra: vị trí/thông tin đối tượng hoặc thông báo không tìm thấy.",
+    "Các bước: (1) xem phần tử đầu; (2) so sánh với đối tượng cần tìm; (3) nếu đúng thì ghi kết quả, kết thúc; (4) nếu chưa đúng và hết danh sách thì thông báo không tìm thấy, kết thúc; (5) nếu chưa hết thì xem phần tử tiếp theo, quay lại bước 2.",
+    "Điều kiện dừng: gặp đúng đối tượng hoặc hết danh sách.",
+    "Tìm 9: lần 1 (7), lần 2 (3), lần 3 (9, đúng) → dừng, vị trí 3, xét 3 phần tử.",
+    "Tìm 4: xét lần lượt 7, 3, 9, 5, 1 đều khác 4; hết danh sách → không tìm thấy, xét 5 phần tử."
+   ]
+  },
+  {
+   "q": "Câu 2 (2 điểm). Nêu mục tiêu bài \"Thuật toán tìm kiếm tuần tự\" (Tin học 7) theo Chương trình giáo dục phổ thông 2018.",
+   "a": [
+    "Kiến thức: giải thích được thuật toán tìm kiếm tuần tự (đầu vào, đầu ra, hai điều kiện dừng); biểu diễn được bằng sơ đồ khối và ngôn ngữ tự nhiên; mô phỏng được thuật toán trên danh sách nhỏ.",
+    "Năng lực chung: tự chủ, tự học; giao tiếp, hợp tác; giải quyết vấn đề.",
+    "Năng lực tin học: NLd (mô tả, mô phỏng thuật toán giải bài toán), NLc, NLe; năng lực số 3.4.TC1.a, 5.3.TC1.b.",
+    "Phẩm chất: chăm chỉ, cẩn thận; trung thực khi dùng AI.",
+    "Có thể tích hợp năng lực AI: nêu hậu quả khi không xác thực kết quả AI (7.A1.2)."
+   ]
+  },
+  {
+   "q": "Câu 3 (2 điểm). Thiết kế hoạt động Vận dụng có tích hợp AI: HS dùng chatbot mô phỏng tìm Iceland (vị trí 6 trong 9 nước), chatbot trả lời vị trí 5 và xét tiếp 4 nước. Nêu cách tổ chức và đánh giá.",
+   "a": [
+    "Mục tiêu: HS vận dụng thuật toán, nhận ra AI có thể sai, biết kiểm chứng kết quả AI.",
+    "Giao nhiệm vụ: chiếu câu lệnh và câu trả lời chatbot; hỏi \"Em có tin không? Kiểm chứng ở đâu?\".",
+    "HS làm cặp: tự mô phỏng lại Bảng 14.3, đối chiếu SGK và hộp Ghi nhớ.",
+    "Kết luận: chatbot sai vị trí (đúng là 6) và sai điều kiện dừng (tìm thấy thì dừng, không xét tiếp 3 nước còn lại).",
+    "Thảo luận: hậu quả nếu tin (mô phỏng sai); cần kiểm chứng bằng SGK, thầy cô; khai báo khi dùng AI.",
+    "Đánh giá: tiêu chí phát hiện đúng hai lỗi, nêu nguồn kiểm chứng, thái độ trung thực."
+   ]
+  }
+ ]
+}

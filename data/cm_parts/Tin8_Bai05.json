@@ -1,0 +1,592 @@
+{
+ "id": "T8-B05",
+ "ten": "Bài 5. Sử dụng bảng tính giải quyết bài toán thực tế",
+ "tomtat": [
+  "Trong công thức, **địa chỉ ô** (như C4, F2) cho biết ô dữ liệu cần lấy; khi **sao chép công thức**, địa chỉ này có thể đổi hoặc giữ nguyên tuỳ loại địa chỉ.",
+  "**Địa chỉ tương đối** (vd C4, D4) **tự thay đổi theo vị trí ô nhận công thức**: nếu sao chép sang phải/trái thì đổi cột, sang dưới/trên thì đổi số hàng.",
+  "Ví dụ: E4 =C4*D4 kéo xuống E5 thành **=C5*D5**; từ C1 =A1*B1 sang E2 (cột +2, hàng +1) thành **=C2*D2**.",
+  "**Địa chỉ tuyệt đối** (vd **$F$2**) **không thay đổi** khi sao chép công thức; có kí hiệu **$** trước tên cột và trước số hàng.",
+  "Cách nhập địa chỉ tuyệt đối: **gõ trực tiếp $** hoặc nhập địa chỉ ô rồi nhấn phím **F4** (laptop có thể là Fn+F4).",
+  "**Nguyên tắc chọn:** ô có giá trị **cố định dùng chung** cho mọi dòng (tỉ lệ, hệ số) dùng **tuyệt đối**; ô **thay đổi theo dòng** (đơn giá, số lượng) dùng **tương đối**.",
+  "Lỗi thường gặp: dùng **=E4*F2** rồi kéo xuống thì F5 thành **=E5*F3**, ô tỉ lệ bị dịch chuyển nên kết quả sai; sửa thành **=E4*$F$2**.",
+  "Bài toán thực tế (Hình 5.1): **Doanh thu = Đơn giá × Số lượt mua** (E4 =C4*D4); **Doanh thu công ti = Doanh thu × tỉ lệ** (F4 =E4*$F$2, F2 = 70%); F4 = **1.399.965.000**.",
+  "**Các bước giải bài toán bằng bảng tính:** nhập dữ liệu → lập công thức ở dòng đầu → sao chép công thức cho các dòng còn lại → **kiểm tra kết quả** → lưu tệp.",
+  "**Sao chép dữ liệu từ văn bản, trình chiếu:** chọn bảng/dữ liệu trong Word hoặc PowerPoint → **Copy** (Ctrl+C) → chọn ô đầu (vd A1) trong trang tính → **Paste** (Ctrl+V); giúp tiết kiệm thời gian, tránh sai sót khi nhập lại.",
+  "Sau khi dán, cần **kiểm tra** số liệu có được canh phải (đúng là dữ liệu số) trước khi tính toán.",
+  "**Tích hợp AI:** chatbot có thể trả lời trôi chảy nhưng **sai công thức**; cần **kiểm chứng** bằng cách thử sao chép, tính lại, và **khai báo** khi dùng AI."
+ ],
+ "ynho": [
+  "Tương đối: tự đổi khi sao chép; tuyệt đối ($): giữ nguyên.",
+  "Ô tỉ lệ/hệ số cố định phải dùng địa chỉ tuyệt đối, vd $F$2.",
+  "Nhập $ bằng cách gõ hoặc nhấn phím F4.",
+  "Dán dữ liệu từ Word/PowerPoint: Copy rồi Paste vào ô A1.",
+  "Luôn kiểm tra kết quả; không tin chatbot ngay."
+ ],
+ "bang": [
+  {
+   "tieu_de": "So sánh địa chỉ tương đối và địa chỉ tuyệt đối",
+   "cot": [
+    "Tiêu chí",
+    "Địa chỉ tương đối",
+    "Địa chỉ tuyệt đối"
+   ],
+   "dong": [
+    [
+     "Cách viết",
+     "F2",
+     "$F$2"
+    ],
+    [
+     "Khi sao chép công thức",
+     "Tự đổi theo vị trí ô nhận công thức",
+     "Giữ nguyên"
+    ],
+    [
+     "Dùng cho",
+     "Ô thay đổi theo từng dòng/cột (đơn giá, số lượng)",
+     "Ô cố định dùng chung (tỉ lệ, đơn giá chuẩn)"
+    ],
+    [
+     "Cách nhập",
+     "Gõ bình thường",
+     "Gõ $ hoặc nhấn F4"
+    ],
+    [
+     "Ví dụ",
+     "E4 → E5: =C4*D4 thành =C5*D5",
+     "F4 → F5: =E4*$F$2 thành =E5*$F$2"
+    ]
+   ]
+  },
+  {
+   "tieu_de": "Quy trình giải bài toán bằng bảng tính (Doanh thu)",
+   "cot": [
+    "Bước",
+    "Việc làm",
+    "Công thức/Thao tác"
+   ],
+   "dong": [
+    [
+     "1",
+     "Nhập dữ liệu, xác định cột cần tính",
+     "Đơn giá, Số lượt mua, ô tỉ lệ F2"
+    ],
+    [
+     "2",
+     "Tính Doanh thu ở E4",
+     "=C4*D4"
+    ],
+    [
+     "3",
+     "Tính Doanh thu công ti ở F4",
+     "=E4*$F$2"
+    ],
+    [
+     "4",
+     "Sao chép công thức xuống các dòng",
+     "Kéo núm điền"
+    ],
+    [
+     "5",
+     "Kiểm tra kết quả, lưu tệp",
+     "Tính thử 1 dòng bằng tay"
+    ]
+   ]
+  }
+ ],
+ "vidu": [
+  {
+   "tinh_huong": "E4 =C4*D4 (Đơn giá × Số lượt mua). Kéo núm điền xuống E5, E6. Công thức ở E5, E6 là gì? Lời giải: C, D là địa chỉ tương đối, số hàng tăng theo ô nhận công thức.",
+   "ket_luan": "→ E5: =C5*D5; E6: =C6*D6 (tương đối tự đổi)."
+  },
+  {
+   "tinh_huong": "Bảng Hình 5.1: E4 = 1.999.950.000; F2 = 70%. Lập công thức F4 để kéo xuống F5:F9. Lời giải: ô F2 cố định nên $F$2; E4 đổi theo dòng. F4 = 1.999.950.000 × 0,7 = 1.399.965.000.",
+   "ket_luan": "→ F4: =E4*$F$2; kéo xuống F5 thành =E5*$F$2."
+  },
+  {
+   "tinh_huong": "Luyện tập 1: Công thức =A1*B1 ở C1 được sao chép sang E2. Lời giải: C→E là +2 cột, 1→2 là +1 hàng; A→C, B→D, 1→2.",
+   "ket_luan": "→ =C2*D2."
+  },
+  {
+   "tinh_huong": "Giảm giá: C5 = 50.000 đồng, tỉ lệ giảm 10% ở D2. Lập công thức đơn giá giảm ở D5 để kéo xuống các dòng. Lời giải: D5 =C5*(1-$D$2) = 50.000 × 0,9.",
+   "ket_luan": "→ =C5*(1-$D$2) = 45.000 đồng; tổng tiền dùng =SUM(F5:F10)."
+  }
+ ],
+ "nho": [
+  "**TĐ = Tự Đổi; TuyệtĐối = Tuyệt không đổi** (có $ như \"khoá\" ô).",
+  "**F4 = Fix (cố định)**: nhấn F4 để thêm $.",
+  "Kéo xuống thì **số hàng nhảy**, kéo sang phải thì **chữ cột nhảy**; chỉ phần không có $ mới nhảy.",
+  "Quy trình **N–L–S–K–L**: Nhập, Lập công thức, Sao chép, Kiểm tra, Lưu."
+ ],
+ "bay": [
+  "Quên $ ở ô tỉ lệ: kéo xuống thì F2 thành F3, F4... nên kết quả sai.",
+  "Gắn $ cho cả ô thay đổi theo dòng (vd $E$4): mọi dòng đều ra kết quả của dòng đầu.",
+  "Tính sai hướng dịch chuyển: từ C1 sang E2 phải đổi cả cột (+2) và hàng (+1).",
+  "Tin chatbot vì trả lời trôi chảy: đề hay cho đáp án có công thức sai (thiếu $) hoặc kết quả số sai."
+ ],
+ "giaoan": [
+  "**Mục tiêu** – Kiến thức: giải thích được sự khác nhau giữa địa chỉ tương đối và tuyệt đối, sự thay đổi địa chỉ tương đối khi sao chép công thức; sử dụng bảng tính giải bài toán thực tế; sao chép dữ liệu từ văn bản, trình chiếu sang trang tính. Năng lực: tự chủ và tự học, giao tiếp và hợp tác, giải quyết vấn đề (NLc, NLd, NLe); NLS 3.1.TC2.a, 5.2.TC2.a, 5.2.TC2.b, 5.3.TC2.a; NL AI 8.A1.2. Phẩm chất: chăm chỉ, cẩn thận, trách nhiệm với dữ liệu; trung thực khi dùng AI.",
+  "**Chuẩn bị** – GV: kế hoạch bài dạy, phòng máy có phần mềm bảng tính, máy chiếu, Hình 5.1–5.7, tệp Word/PowerPoint chứa Bảng 5.1, phiếu học tập, chatbot AI. HS: SGK, vở ghi, ôn công thức và kéo núm điền ở lớp 7.",
+  "**Hoạt động 1 – Mở đầu (5')** – Mục tiêu: tạo hứng thú, thấy cần sao chép công thức nhanh. Nội dung: xem Hình 5.1, cần thêm cột nào, có nên gõ từng dòng không. Sản phẩm: thêm cột Doanh thu = Đơn giá × Số lượt mua; nên sao chép công thức. Tổ chức: (1) GV chiếu bảng, nêu câu hỏi; (2) HS suy nghĩ, trao đổi cặp; (3) mời HS trả lời; (4) GV nhận xét, dẫn vào bài.",
+  "**Hoạt động 2 – Hình thành kiến thức (50')** – Mục tiêu: hiểu địa chỉ tương đối, tuyệt đối; giải bài toán Doanh thu; sao chép dữ liệu từ Word/PowerPoint. Nội dung: 2.1 tương đối; 2.2 tuyệt đối ($, F4); 2.3 thực hành E4 =C4*D4, F4 =E4*$F$2; 2.4 Copy–Paste Bảng 5.1. Sản phẩm: phiếu học tập 1, 2; tệp bảng tính đúng Hình 5.5; tệp Khaosat.xlsx. Tổ chức: (1) GV giao nhiệm vụ; (2) HS thực hiện trên máy, thử – sai – sửa, hợp tác cặp/nhóm; (3) nhóm báo cáo, nhận xét; (4) GV chốt hộp ghi nhớ.",
+  "**Hoạt động 3 – Luyện tập (20')** – Mục tiêu: củng cố chọn đúng địa chỉ; lập bảng giảm giá. Nội dung: LT1 (C1 → E2); LT2 (Hình 5.7: D5 =C5*(1-$D$2), F5 =E5*D5, F11 =SUM(F5:F10)). Sản phẩm: đáp án =C2*D2; tệp bảng tính hoàn chỉnh. Tổ chức: (1) giao bài; (2) HS làm, kiểm tra chéo cặp; (3) báo cáo, giơ thẻ Đúng/Sai; (4) GV sửa lỗi thường gặp.",
+  "**Hoạt động 4 – Vận dụng (15')** – Mục tiêu: vận dụng tình huống chợ ứng dụng (F2 = 75%, =E*$F$2); kiểm chứng câu trả lời chatbot, khai báo khi dùng AI. Nội dung: lập công thức; đối chiếu 4 nhận định của chatbot bằng cách thử trên bảng tính. Sản phẩm: công thức đúng; phiếu kiểm chứng chỉ ra câu sai. Tổ chức: (1) GV giao nhiệm vụ, chiếu trả lời chatbot; (2) HS thử, tính lại; (3) báo cáo, phản biện; (4) GV chốt: kiểm chứng, khai báo, tự chịu trách nhiệm.",
+  "**Kiểm tra đánh giá** – Quan sát thực hành và tệp sản phẩm theo tiêu chí (công thức đúng, dùng đúng $, kết quả đúng); hỏi đáp, phiếu học tập; giơ thẻ A–B–C–D; kiểm tra chéo cặp. Củng cố, dặn: hoàn thành Vận dụng, đọc trước Bài 6."
+ ],
+ "ai": [
+  "GV cho chatbot lập công thức Doanh thu công ti (F2 = 70%) với 4 nhận định có chỗ sai; HS thử sao chép công thức trên bảng tính để phát hiện câu sai (8.A1.2).",
+  "HS tự tính lại 1.999.950.000 × 70% và so sánh với đầu ra của AI; rút ra: AI trả lời trôi chảy vẫn có thể sai, cần kiểm chứng.",
+  "Đạo đức AI: HS khai báo khi dùng chatbot hỗ trợ bài làm (8.A3.3) và tự chịu trách nhiệm với kết quả cuối cùng."
+ ],
+ "cauhoi": [
+  {
+   "t": "s",
+   "q": "Địa chỉ tương đối của ô trong công thức có đặc điểm nào sau đây?",
+   "o": [
+    "Tự động thay đổi theo vị trí ô nhận công thức khi sao chép",
+    "Luôn giữ nguyên khi sao chép công thức",
+    "Luôn có kí hiệu $ đứng trước tên cột và số hàng",
+    "Chỉ dùng được cho các ô chứa dữ liệu kiểu văn bản"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Tương đối = đổi theo vị trí; giữ nguyên là địa chỉ tuyệt đối (có $).",
+   "r": "SGK Tin học 8 KNTT – Bài 5"
+  },
+  {
+   "t": "s",
+   "q": "Ô C1 chứa công thức =A1*B1. Sao chép công thức này sang ô E2 thì công thức ở E2 là:",
+   "o": [
+    "=A2*B2",
+    "=C1*D1",
+    "=C2*D2",
+    "=E2*F2"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Từ C1 sang E2: cột tăng 2, hàng tăng 1 nên A→C, B→D, 1→2. Bẫy: chỉ đổi hàng hoặc chỉ đổi cột.",
+   "r": "SGK Tin học 8 KNTT – Bài 5"
+  },
+  {
+   "t": "s",
+   "q": "Ô E4 chứa =C4*D4. Kéo núm điền xuống ô E6 thì E6 chứa:",
+   "o": [
+    "=C4*D4",
+    "=C6*D6",
+    "=C5*D5",
+    "=E6*F6"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Xuống 2 hàng nên số hàng tăng 2; cột giữ nguyên. Bẫy: dừng ở =C5*D5 (chỉ tăng 1).",
+   "r": "SGK Tin học 8 KNTT – Bài 5"
+  },
+  {
+   "t": "s",
+   "q": "Ô F4 chứa =E4*$F$2. Sao chép F4 xuống ô F7 thì F7 chứa:",
+   "o": [
+    "=E7*F5",
+    "=E4*$F$2",
+    "=$E$7*$F$2",
+    "=E7*$F$2"
+   ],
+   "a": [
+    3
+   ],
+   "e": "E tương đối đổi thành E7; $F$2 tuyệt đối giữ nguyên.",
+   "r": "SGK Tin học 8 KNTT – Bài 5"
+  },
+  {
+   "t": "s",
+   "q": "Trong bảng tính, nhấn phím F4 khi con trỏ đang ở địa chỉ ô trong công thức có tác dụng gì?",
+   "o": [
+    "Chuyển địa chỉ tương đối thành địa chỉ tuyệt đối (thêm kí hiệu $)",
+    "Sao chép công thức xuống các ô bên dưới",
+    "Xoá địa chỉ ô khỏi công thức",
+    "Lưu tệp bảng tính"
+   ],
+   "a": [
+    0
+   ],
+   "e": "F4 thêm $ cho địa chỉ ô (có thể dùng Fn+F4 trên laptop). Không phải phím sao chép.",
+   "r": "SGK Tin học 8 KNTT – Bài 5"
+  },
+  {
+   "t": "s",
+   "q": "Công thức ở F4 là =E4*F2 (F2 chứa tỉ lệ 70%). Kéo xuống F5 thì công thức F5 là gì và kết quả ra sao?",
+   "o": [
+    "=E5*F2, kết quả đúng",
+    "=E5*$F$2, kết quả đúng",
+    "=E5*F3, sai vì F3 không chứa tỉ lệ",
+    "=E4*F3, kết quả đúng"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Địa chỉ tương đối F2 bị dịch thành F3 nên sai; phải dùng $F$2.",
+   "r": "SGK Tin học 8 KNTT – Bài 5"
+  },
+  {
+   "t": "s",
+   "q": "Địa chỉ ô nào sau đây là địa chỉ tuyệt đối?",
+   "o": [
+    "F2",
+    "$F$2",
+    "F2$",
+    "(F2)"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Địa chỉ tuyệt đối viết $ trước cả tên cột và số hàng: $F$2.",
+   "r": "SGK Tin học 8 KNTT – Bài 5"
+  },
+  {
+   "t": "s",
+   "q": "Ô G3 chứa =$B$1+C3. Sao chép sang H5 thì công thức ở H5 là:",
+   "o": [
+    "=$B$1+C3",
+    "=$C$3+D5",
+    "=B3+D5",
+    "=$B$1+D5"
+   ],
+   "a": [
+    3
+   ],
+   "e": "$B$1 giữ nguyên; C3 → D5 (cột +1, hàng +2). Bẫy: coi cả hai là tuyệt đối hoặc tương đối.",
+   "r": "SGK Tin học 8 KNTT – Bài 5"
+  },
+  {
+   "t": "s",
+   "q": "Ô D5 cần tính giá sau giảm =C5*(1-tỉ lệ giảm) với tỉ lệ giảm ở D2, rồi kéo xuống D10. Công thức nên nhập ở D5 là:",
+   "o": [
+    "=C5*(1-D2)",
+    "=C5*(1-$D$2)",
+    "=$C$5*(1-$D$2)",
+    "=C5*(1-D$5)"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Tỉ lệ giảm cố định nên $D$2; đơn giá C5 đổi theo dòng nên tương đối.",
+   "r": "SGK Tin học 8 KNTT – Bài 5"
+  },
+  {
+   "t": "s",
+   "q": "Ô E4 = 1.999.950.000 (doanh thu), F2 = 70%, F4 = E4*$F$2. Giá trị F4 là:",
+   "o": [
+    "1.999.950.000",
+    "2.857.071.428",
+    "1.399.965.000",
+    "599.985.000"
+   ],
+   "a": [
+    2
+   ],
+   "e": "1.999.950.000 × 0,7 = 1.399.965.000. Bẫy: nhầm chia cho 0,7 hoặc lấy 30%.",
+   "r": "SGK Tin học 8 KNTT – Bài 5"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các phát biểu ĐÚNG về địa chỉ tương đối và địa chỉ tuyệt đối.",
+   "o": [
+    "Địa chỉ tương đối thay đổi khi sao chép công thức",
+    "Địa chỉ tuyệt đối không thay đổi khi sao chép công thức",
+    "Địa chỉ tuyệt đối viết bằng cách thêm $ trước tên cột và số hàng",
+    "Ô chứa tỉ lệ dùng chung cho mọi dòng nên viết dạng tương đối"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Ô dùng chung (tỉ lệ cố định) phải là tuyệt đối; phát biểu cuối là bẫy đảo khái niệm.",
+   "r": "SGK Tin học 8 KNTT – Bài 5"
+  },
+  {
+   "t": "m",
+   "q": "Việc sao chép dữ liệu từ bảng trong Word hoặc PowerPoint sang trang tính có lợi ích nào?",
+   "o": [
+    "Tiết kiệm thời gian",
+    "Tránh sai sót do nhập lại",
+    "Số liệu sao chép luôn tự được tính toán thành công thức",
+    "Dùng lại được dữ liệu đã có"
+   ],
+   "a": [
+    0,
+    1,
+    3
+   ],
+   "e": "Dữ liệu dán vào là giá trị/văn bản, không tự thành công thức.",
+   "r": "SGK Tin học 8 KNTT – Bài 5"
+  },
+  {
+   "t": "m",
+   "q": "Các cách nhập địa chỉ tuyệt đối $F$2 vào công thức là:",
+   "o": [
+    "Gõ trực tiếp kí hiệu $ trước F và trước 2",
+    "Nhập F2 rồi nhấn phím F4",
+    "Gõ F2 rồi nhấn Ctrl+C",
+    "Kéo núm điền ô chứa F2"
+   ],
+   "a": [
+    0,
+    1
+   ],
+   "e": "Ctrl+C là sao chép; kéo núm điền sao chép công thức, không tạo $.",
+   "r": "SGK Tin học 8 KNTT – Bài 5"
+  },
+  {
+   "t": "m",
+   "q": "Khi dùng chatbot AI để lập công thức bảng tính, việc nào nên làm?",
+   "o": [
+    "Thử sao chép công thức trên bảng tính để đối chiếu",
+    "Tự tính lại một vài kết quả bằng tay",
+    "Tin ngay vì câu trả lời trình bày trôi chảy",
+    "Khai báo nếu có sử dụng AI"
+   ],
+   "a": [
+    0,
+    1,
+    3
+   ],
+   "e": "AI có thể sai thông tin; phải kiểm chứng và trung thực (8.A1.2, 8.A3.3).",
+   "r": "SGK Tin học 8 KNTT – Bài 5"
+  },
+  {
+   "t": "f",
+   "q": "Khi sao chép công thức, địa chỉ ____ thay đổi theo vị trí ô nhận công thức, còn địa chỉ ____ thì không thay đổi.",
+   "a": [
+    [
+     "tương đối"
+    ],
+    [
+     "tuyệt đối"
+    ]
+   ],
+   "o": [
+    [
+     "tương đối",
+     "tuyệt đối"
+    ],
+    [
+     "tuyệt đối",
+     "tương đối"
+    ],
+    [
+     "tương đối",
+     "tương đối"
+    ],
+    [
+     "tuyệt đối",
+     "tuyệt đối"
+    ]
+   ],
+   "k": 0,
+   "e": "Bẫy đổi chỗ hai thuật ngữ.",
+   "r": "SGK Tin học 8 KNTT – Bài 5"
+  },
+  {
+   "t": "f",
+   "q": "Ô E4 có công thức =C4*D4 tính ____ ; công thức tính Doanh thu công ti ở F4 là =E4*____ .",
+   "a": [
+    [
+     "Doanh thu"
+    ],
+    [
+     "$F$2"
+    ]
+   ],
+   "o": [
+    [
+     "Doanh thu",
+     "F2"
+    ],
+    [
+     "Doanh thu",
+     "$F$2"
+    ],
+    [
+     "Đơn giá",
+     "$F$2"
+    ],
+    [
+     "Số lượt mua",
+     "F$4"
+    ]
+   ],
+   "k": 1,
+   "e": "E = Đơn giá × Số lượt mua; ô tỉ lệ F2 phải tuyệt đối.",
+   "r": "SGK Tin học 8 KNTT – Bài 5"
+  },
+  {
+   "t": "f",
+   "q": "Để sao chép dữ liệu từ Word sang trang tính: chọn bảng, nhấn ____ , chọn ô A1 trong bảng tính rồi nhấn ____ .",
+   "a": [
+    [
+     "Ctrl+C"
+    ],
+    [
+     "Ctrl+V"
+    ]
+   ],
+   "o": [
+    [
+     "Ctrl+V",
+     "Ctrl+C"
+    ],
+    [
+     "Ctrl+X",
+     "Ctrl+C"
+    ],
+    [
+     "Ctrl+C",
+     "Ctrl+V"
+    ],
+    [
+     "Ctrl+Z",
+     "Ctrl+V"
+    ]
+   ],
+   "k": 2,
+   "e": "Copy trước, Paste sau; đổi thứ tự là sai.",
+   "r": "SGK Tin học 8 KNTT – Bài 5"
+  },
+  {
+   "t": "f",
+   "q": "Công thức =A1*B1 ở C1 sao chép sang E2 thành ____ ; sao chép sang C3 thành ____ .",
+   "a": [
+    [
+     "=C2*D2"
+    ],
+    [
+     "=A3*B3"
+    ]
+   ],
+   "o": [
+    [
+     "=A2*B2",
+     "=C3*D3"
+    ],
+    [
+     "=C1*D1",
+     "=A1*B1"
+    ],
+    [
+     "=C2*D2",
+     "=C3*D3"
+    ],
+    [
+     "=C2*D2",
+     "=A3*B3"
+    ]
+   ],
+   "k": 3,
+   "e": "E2: cột +2, hàng +1; C3: chỉ hàng +2.",
+   "r": "SGK Tin học 8 KNTT – Bài 5"
+  },
+  {
+   "t": "f",
+   "q": "Nhấn phím ____ khi con trỏ ở địa chỉ ô để chuyển thành địa chỉ ____ .",
+   "a": [
+    [
+     "F4"
+    ],
+    [
+     "tuyệt đối"
+    ]
+   ],
+   "o": [
+    [
+     "F4",
+     "tuyệt đối"
+    ],
+    [
+     "F2",
+     "tuyệt đối"
+    ],
+    [
+     "F4",
+     "tương đối"
+    ],
+    [
+     "F5",
+     "tương đối"
+    ]
+   ],
+   "k": 0,
+   "e": "F2 là sửa ô; F4 thêm $.",
+   "r": "SGK Tin học 8 KNTT – Bài 5"
+  },
+  {
+   "t": "f",
+   "q": "Ô D2 chứa tỉ lệ giảm giá, giá sau giảm ở D5 là =C5*(1-____) ; tổng tiền cuối cột F5:F10 là =____(F5:F10).",
+   "a": [
+    [
+     "$D$2"
+    ],
+    [
+     "SUM"
+    ]
+   ],
+   "o": [
+    [
+     "D2",
+     "SUM"
+    ],
+    [
+     "$D$2",
+     "AVERAGE"
+    ],
+    [
+     "$D$2",
+     "SUM"
+    ],
+    [
+     "D5",
+     "COUNT"
+    ]
+   ],
+   "k": 2,
+   "e": "Tỉ lệ cố định → tuyệt đối; tổng → SUM.",
+   "r": "SGK Tin học 8 KNTT – Bài 5"
+  }
+ ],
+ "tuluan": [
+  {
+   "q": "Câu 1 (3 điểm). Trình bày sự khác nhau giữa địa chỉ tương đối và địa chỉ tuyệt đối trong bảng tính. Cho F2 = 70%, E4 = 1.999.950.000; viết công thức F4 để kéo xuống các dòng dưới và tính F4.",
+   "a": [
+    "Địa chỉ tương đối (vd E4) tự thay đổi theo vị trí ô nhận công thức khi sao chép; tuyệt đối (vd $F$2) có $ và không thay đổi.",
+    "Nhập tuyệt đối: gõ $ hoặc nhấn F4.",
+    "Ô tỉ lệ F2 cố định nên dùng tuyệt đối; E4 đổi theo dòng nên tương đối.",
+    "Công thức F4: =E4*$F$2; kéo xuống F5 thành =E5*$F$2.",
+    "F4 = 1.999.950.000 × 0,7 = 1.399.965.000.",
+    "Nếu viết =E4*F2 thì F5 thành =E5*F3, sai."
+   ]
+  },
+  {
+   "q": "Câu 2 (3 điểm). Nêu mục tiêu bài học \"Sử dụng bảng tính giải quyết bài toán thực tế\" (Tin học 8) theo chương trình 2018 và thiết kế hoạt động dạy học nội dung địa chỉ tuyệt đối.",
+   "a": [
+    "Kiến thức: giải thích sự khác nhau giữa địa chỉ tương đối và tuyệt đối; dùng bảng tính giải bài toán thực tế; sao chép dữ liệu từ văn bản, trình chiếu.",
+    "Năng lực: tự chủ, tự học, giao tiếp hợp tác, giải quyết vấn đề; NLc, NLd, NLe; NLS 5.2.TC2.b.",
+    "Phẩm chất: cẩn thận, chăm chỉ, trung thực.",
+    "Hoạt động (12'): mục tiêu – hiểu và dùng $F$2; nội dung – nhập =E4*F2, kéo xuống, quan sát lỗi, sửa bằng F4.",
+    "Tổ chức: (1) giao nhiệm vụ; (2) HS thực hành thử – sai – sửa; (3) báo cáo; (4) GV chốt: ô cố định dùng $.",
+    "Sản phẩm: tệp đúng Hình 5.5 và phiếu học tập."
+   ]
+  },
+  {
+   "q": "Câu 3 (4 điểm). Em dùng chatbot AI để tạo công thức bảng tính cho HS. Nêu cách tổ chức cho HS kiểm chứng đầu ra của AI và các điều cần giáo dục về đạo đức khi dùng AI, lấy ví dụ từ bài này.",
+   "a": [
+    "Cho chatbot lập công thức Doanh thu công ti (F2 = 70%) có nhận định sai, vd =E4*F2 hoặc kết quả 1.399.965.000 bị đổi.",
+    "HS kiểm chứng: sao chép công thức xuống F5 xem ô tỉ lệ có bị dịch không; tính tay 1.999.950.000 × 70%; đối chiếu SGK.",
+    "Rút ra: AI trả lời trôi chảy vẫn có thể sai (8.A1.2).",
+    "Đạo đức: khai báo khi dùng AI (8.A3.3), không sao chép máy móc, tự chịu trách nhiệm kết quả.",
+    "Đánh giá: phiếu kiểm chứng và trao đổi cặp, GV nhận xét."
+   ]
+  }
+ ]
+}

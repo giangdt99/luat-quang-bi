@@ -1,0 +1,538 @@
+{
+ "id": "T8-B16",
+ "ten": "Bài 16. Tin học với nghề nghiệp",
+ "tomtat": [
+  "Ứng dụng tin học vào công việc giúp **nâng cao hiệu quả công việc** trong rất nhiều nghề (kế toán, giáo viên, hoạ sĩ, bác sĩ...).",
+  "Có **5 lợi ích**: (1) **tăng tốc độ xử lí** công việc; (2) **liên lạc, trao đổi dễ dàng**; (3) **làm việc nhóm, mở rộng phạm vi** làm việc; (4) **nâng cao tay nghề**; (5) **hỗ trợ thông tin cho người lao động**.",
+  "Tin học hỗ trợ con người chứ không thay thế hoàn toàn; chọn ứng dụng **phù hợp** mới đem lại hiệu quả.",
+  "Nghề được chia thành **2 nhóm**: **nghề thuộc lĩnh vực tin học** và **nghề liên quan đến ứng dụng tin học**.",
+  "**Nghề thuộc lĩnh vực tin học**: tạo ra, quản lí, vận hành sản phẩm/hệ thống tin học, ví dụ lập trình viên, quản trị mạng, thiết kế website, quản trị cơ sở dữ liệu.",
+  "**Nghề liên quan đến ứng dụng tin học**: người làm nghề **sử dụng** máy tính, phần mềm để làm việc hiệu quả hơn, ví dụ bác sĩ, nhà báo, kiến trúc sư, bán hàng trực tuyến.",
+  "Cách phân biệt nhanh: nghề **tạo ra/vận hành** sản phẩm tin học là lĩnh vực tin học; nghề **dùng** sản phẩm tin học là liên quan ứng dụng.",
+  "**Bình đẳng giới** trong sử dụng máy tính và ứng dụng tin học: nữ và nam có **quyền và cơ hội như nhau** khi học tập, sử dụng máy tính và làm nghề tin học.",
+  "Thực tế **tỉ lệ nữ trong ngành tin học còn thấp**, do định kiến giới; vì vậy có nhiều hoạt động thúc đẩy nữ tham gia như **Ngày Quốc tế trẻ em gái với CNTT**, **DigiGirlZ**, tấm gương **Ada Lovelace**.",
+  "Mỗi HS cần **tôn trọng bình đẳng giới**: chia sẻ tài liệu, không chê bạn nữ học tin học, cùng tham gia câu lạc bộ tin học.",
+  "Tích hợp AI: kết quả của **chatbot có thể sai hoặc thiên vị giới**, nên phải **kiểm chứng** với SGK và nguồn tin cậy."
+ ],
+ "ynho": [
+  "Có 5 lợi ích ứng dụng tin học vào công việc.",
+  "Hai nhóm nghề: lĩnh vực tin học và liên quan ứng dụng.",
+  "Tạo/vận hành sản phẩm tin học = nghề lĩnh vực tin học.",
+  "Nữ và nam có quyền, cơ hội như nhau.",
+  "Kết quả AI cần kiểm chứng, có thể thiên vị."
+ ],
+ "bang": [
+  {
+   "tieu_de": "Phân loại nghề theo mức độ gắn với tin học",
+   "cot": [
+    "Tiêu chí",
+    "Nghề thuộc lĩnh vực tin học",
+    "Nghề liên quan ứng dụng tin học"
+   ],
+   "dong": [
+    [
+     "Vai trò tin học",
+     "Là nội dung chính của nghề",
+     "Là công cụ hỗ trợ công việc"
+    ],
+    [
+     "Người làm nghề",
+     "Tạo ra, quản lí, vận hành sản phẩm/hệ thống tin học",
+     "Sử dụng máy tính, phần mềm trong chuyên môn"
+    ],
+    [
+     "Ví dụ",
+     "Lập trình viên, quản trị mạng, thiết kế website",
+     "Bác sĩ, nhà báo, kiến trúc sư, bán hàng trực tuyến"
+    ]
+   ]
+  },
+  {
+   "tieu_de": "Năm lợi ích ứng dụng tin học và ví dụ",
+   "cot": [
+    "Lợi ích",
+    "Ví dụ minh hoạ"
+   ],
+   "dong": [
+    [
+     "Tăng tốc độ xử lí",
+     "Kế toán dùng bảng tính tính lương nhanh"
+    ],
+    [
+     "Liên lạc, trao đổi dễ dàng",
+     "Giáo viên gửi bài qua thư điện tử"
+    ],
+    [
+     "Làm việc nhóm, mở rộng phạm vi",
+     "Nhóm thiết kế làm chung tài liệu trực tuyến"
+    ],
+    [
+     "Nâng cao tay nghề",
+     "Hoạ sĩ dùng phần mềm đồ hoạ luyện kĩ năng"
+    ],
+    [
+     "Hỗ trợ thông tin cho người lao động",
+     "Bác sĩ tra cứu hồ sơ bệnh án điện tử"
+    ]
+   ]
+  }
+ ],
+ "vidu": [
+  {
+   "tinh_huong": "Cô kế toán dùng phần mềm bảng tính để tính lương 200 nhân viên thay vì tính tay từng người.",
+   "ket_luan": "→ Lợi ích: tăng tốc độ xử lí; nghề kế toán thuộc nhóm liên quan ứng dụng tin học."
+  },
+  {
+   "tinh_huong": "Anh Nam làm quản trị mạng cho công ty: cài đặt, bảo trì hệ thống mạng. Chị Lan làm kiến trúc sư, dùng phần mềm vẽ thiết kế nhà.",
+   "ket_luan": "→ Anh Nam: nghề thuộc lĩnh vực tin học; chị Lan: nghề liên quan ứng dụng tin học."
+  },
+  {
+   "tinh_huong": "Lớp có bạn nam nói \"con gái không học được lập trình\". Em phản hồi thế nào?",
+   "ket_luan": "→ Đó là định kiến; nữ và nam có quyền, cơ hội như nhau; nên động viên, chia sẻ tài liệu cho bạn nữ."
+  },
+  {
+   "tinh_huong": "Hỏi chatbot \"mô tả một lập trình viên giỏi\", câu trả lời toàn dùng \"anh ấy\".",
+   "ket_luan": "→ Có dấu hiệu thiên vị giới; cần kiểm chứng và yêu cầu dùng cách diễn đạt trung lập."
+  }
+ ],
+ "nho": [
+  "Nhớ 5 lợi ích bằng cụm: NHANH – LIÊN LẠC – NHÓM – TAY NGHỀ – THÔNG TIN.",
+  "Tạo/vận hành = lĩnh vực tin học; dùng = liên quan ứng dụng.",
+  "Bình đẳng giới = Quyền + Cơ hội như nhau.",
+  "AI = Hỗ trợ, phải Kiểm chứng."
+ ],
+ "bay": [
+  "Streamer, vlogger, bán hàng trực tuyến dùng máy tính nhiều nhưng là nghề liên quan ứng dụng tin học, không thuộc lĩnh vực tin học.",
+  "Tin học hỗ trợ nâng cao hiệu quả, không có nghĩa thay thế hoàn toàn con người hay hết sai sót.",
+  "Tỉ lệ nữ thấp là thực trạng do định kiến, không có nghĩa nữ kém năng lực tin học.",
+  "Chatbot trả lời trôi chảy chưa chắc đúng; có thể thiên vị giới."
+ ],
+ "giaoan": [
+  "**Mục tiêu** – Kiến thức: nêu được 5 lợi ích ứng dụng tin học vào công việc; phân biệt hai nhóm nghề; trình bày được bình đẳng giới trong sử dụng máy tính và ứng dụng tin học. Năng lực: tự chủ, tự học; giao tiếp, hợp tác; giải quyết vấn đề; NLa, NLd, NLe (liên hệ tin học với nghề nghiệp); năng lực số 5.4.TC2.c; năng lực AI 8.B1.1. Phẩm chất: chăm chỉ, tôn trọng bình đẳng giới, trung thực khi dùng AI.",
+  "**Chuẩn bị** – GV: máy chiếu, Hình 16.1, 16.2, phiếu học tập, giấy A3, máy tính có chatbot AI. HS: SGK Tin học 8, vở ghi.",
+  "**Hoạt động 1 – Mở đầu** (7 phút). Mục tiêu: tạo hứng thú. Nội dung: tình huống mở đầu SGK (kế toán, giáo viên, hoạ sĩ). Sản phẩm: HS kể ít nhất 2 nghề dùng tin học. Tổ chức: (1) GV giao nhiệm vụ, chiếu tình huống; (2) HS nghĩ cá nhân rồi chia sẻ cặp đôi (Think–Pair–Share); (3) báo cáo 2–3 HS; (4) GV nhận xét, dẫn vào bài.",
+  "**Hoạt động 2 – Hình thành kiến thức** (50 phút). Mục tiêu: nêu 5 lợi ích, phân loại nghề, trình bày bình đẳng giới. Nội dung: 2.1 đọc SGK tìm lợi ích; 2.2 quan sát Hình 16.1 phân loại nghề; 2.3 đọc mục 2, Hình 16.2. Sản phẩm: phiếu học tập 1, 2, 3. Tổ chức: (1) GV chia nhóm 4, giao phiếu; (2) HS khăn trải bàn, mảnh ghép, điền phiếu; (3) các nhóm báo cáo, nhận xét chéo; (4) GV chốt kiến thức, hộp Ghi nhớ.",
+  "**Hoạt động 3 – Luyện tập** (18 phút). Mục tiêu: củng cố. Nội dung: Câu hỏi 1, 2 (SGK tr.93), Luyện tập 1. Sản phẩm: ghép đúng nghề – ứng dụng; bảng nghề – ứng dụng – lợi ích. Tổ chức: (1) GV giao bài; (2) HS làm cá nhân, cặp, nhóm; (3) trả lời nhanh, lớp nhận xét; (4) GV chốt 5 lợi ích và 2 nhóm nghề.",
+  "**Hoạt động 4 – Vận dụng** (15 phút). Mục tiêu: liên hệ thực tế, nhận diện rủi ro AI. Nội dung: Vận dụng 2; GV hỏi chatbot, HS đối chiếu SGK tr.92. Sản phẩm: ít nhất 1 việc làm thúc đẩy bình đẳng giới; chỉ ra chỗ AI sai/thiên vị. Tổ chức: (1) GV giao nhiệm vụ, thao tác chatbot; (2) HS đối chiếu, thảo luận cặp; (3) chia sẻ kết quả; (4) GV kết luận AI chỉ là công cụ, phải kiểm chứng.",
+  "**Kiểm tra đánh giá** – Quan sát phiếu học tập, hỏi đáp nhanh, câu hỏi trắc nghiệm cuối bài (5 lợi ích, phân loại nghề, bình đẳng giới) và nhận xét phần thảo luận AI; dặn dò làm Vận dụng 1 (thuyết trình ứng dụng tin học trong một nghề)."
+ ],
+ "ai": [
+  "GV dùng chatbot để tạo nhanh danh sách nghề và ví dụ ứng dụng tin học làm tư liệu, rồi tự đối chiếu với SGK trước khi dạy.",
+  "HS hỏi chatbot \"Nêu 5 lợi ích ứng dụng tin học\", đối chiếu SGK tr.92 để chỉ ra phần thiếu/thừa/sai (kiểm chứng đầu ra).",
+  "Thảo luận đạo đức AI: câu trả lời \"mô tả lập trình viên giỏi\" mặc định là nam là thiên vị giới; yêu cầu AI diễn đạt trung lập và không dùng kết quả thiên vị."
+ ],
+ "cauhoi": [
+  {
+   "t": "s",
+   "q": "Theo SGK Tin học 8, việc ứng dụng tin học vào công việc KHÔNG nhằm mục đích nào sau đây?",
+   "o": [
+    "Tăng tốc độ xử lí công việc",
+    "Liên lạc, trao đổi dễ dàng hơn",
+    "Thay thế hoàn toàn con người trong mọi nghề",
+    "Hỗ trợ thông tin cho người lao động"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Tin học hỗ trợ, nâng cao hiệu quả chứ không thay thế hoàn toàn con người (bẫy: nói quá).",
+   "r": "SGK Tin học 8 KNTT – Bài 16"
+  },
+  {
+   "t": "s",
+   "q": "Nghề nào sau đây thuộc nhóm nghề thuộc lĩnh vực tin học?",
+   "o": [
+    "Bác sĩ",
+    "Quản trị mạng",
+    "Kiến trúc sư",
+    "Nhà báo"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Quản trị mạng là nghề của lĩnh vực tin học; các nghề còn lại chỉ liên quan đến ứng dụng tin học.",
+   "r": "SGK Tin học 8 KNTT – Bài 16"
+  },
+  {
+   "t": "s",
+   "q": "Nghề nào sau đây thuộc nhóm nghề liên quan đến ứng dụng tin học?",
+   "o": [
+    "Lập trình viên",
+    "Thiết kế website",
+    "Kiến trúc sư",
+    "Quản trị cơ sở dữ liệu"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Kiến trúc sư dùng phần mềm thiết kế, thuộc nhóm liên quan ứng dụng tin học; ba nghề kia thuộc lĩnh vực tin học.",
+   "r": "SGK Tin học 8 KNTT – Bài 16"
+  },
+  {
+   "t": "s",
+   "q": "Người bán hàng trực tuyến dùng phần mềm quản lí đơn hàng. Nghề này thuộc nhóm nào?",
+   "o": [
+    "Nghề thuộc lĩnh vực tin học",
+    "Nghề liên quan đến ứng dụng tin học",
+    "Nghề không cần tin học",
+    "Nghề chỉ dành cho nam"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Bẫy: có dùng máy tính nhiều nhưng không tạo ra sản phẩm tin học nên là nghề liên quan ứng dụng tin học.",
+   "r": "SGK Tin học 8 KNTT – Bài 16"
+  },
+  {
+   "t": "s",
+   "q": "Phát biểu nào đúng về bình đẳng giới trong sử dụng máy tính và ứng dụng tin học?",
+   "o": [
+    "Chỉ nam giới mới phù hợp với nghề tin học",
+    "Nữ và nam có quyền và cơ hội như nhau trong học tập và làm việc với tin học",
+    "Nữ giới chỉ nên làm công việc văn phòng",
+    "Nam giới được ưu tiên dùng phòng máy"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Bình đẳng giới: quyền và cơ hội như nhau; các phương án khác là định kiến.",
+   "r": "SGK Tin học 8 KNTT – Bài 16"
+  },
+  {
+   "t": "s",
+   "q": "Ada Lovelace, nhắc đến trong bài, là ai?",
+   "o": [
+    "Người sáng lập DigiGirlZ",
+    "Một nhà toán học nữ, được coi là lập trình viên đầu tiên",
+    "Một nhà quản trị mạng hiện đại",
+    "Người phát minh ra Internet"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Ada Lovelace là nhà toán học nữ nổi tiếng trong lịch sử lập trình; không nhầm với tổ chức/chương trình.",
+   "r": "SGK Tin học 8 KNTT – Bài 16"
+  },
+  {
+   "t": "s",
+   "q": "Mục đích của các hoạt động như Ngày Quốc tế trẻ em gái với CNTT là gì?",
+   "o": [
+    "Hạn chế nam giới học tin học",
+    "Khuyến khích, tạo cơ hội để nữ giới tham gia lĩnh vực tin học",
+    "Chỉ để giải trí",
+    "Tuyển nhân sự cho một công ty"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Các hoạt động này thúc đẩy bình đẳng giới, khuyến khích nữ tham gia ngành tin học.",
+   "r": "SGK Tin học 8 KNTT – Bài 16"
+  },
+  {
+   "t": "s",
+   "q": "Khi dùng chatbot AI để tìm thông tin về nghề nghiệp, em nên làm gì?",
+   "o": [
+    "Tin hoàn toàn vì AI không bao giờ sai",
+    "Đối chiếu, kiểm chứng với SGK hoặc nguồn tin cậy",
+    "Chép nguyên văn nộp bài",
+    "Chỉ hỏi một lần rồi dừng"
+   ],
+   "a": [
+    1
+   ],
+   "e": "AI có thể sai hoặc thiên vị, cần kiểm chứng (năng lực AI 8.B1.1).",
+   "r": "SGK Tin học 8 KNTT – Bài 16"
+  },
+  {
+   "t": "s",
+   "q": "Chatbot mô tả \"một lập trình viên giỏi\" luôn dùng \"anh ấy\". Điều này cho thấy gì?",
+   "o": [
+    "AI luôn đúng",
+    "AI có thể phản ánh thiên vị giới",
+    "Nghề lập trình chỉ có nam",
+    "Chatbot bị hỏng phần cứng"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Đây là dấu hiệu thiên vị giới trong dữ liệu/câu trả lời của AI, không phải sự thật về nghề.",
+   "r": "SGK Tin học 8 KNTT – Bài 16"
+  },
+  {
+   "t": "m",
+   "q": "Những lợi ích nào dưới đây là lợi ích của việc ứng dụng tin học vào công việc theo SGK?",
+   "o": [
+    "Tăng tốc độ xử lí công việc",
+    "Liên lạc, trao đổi dễ dàng",
+    "Nâng cao tay nghề",
+    "Loại bỏ mọi sai sót tuyệt đối"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Không có lợi ích \"loại bỏ mọi sai sót tuyệt đối\" (bẫy: nói quá).",
+   "r": "SGK Tin học 8 KNTT – Bài 16"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các nghề thuộc lĩnh vực tin học.",
+   "o": [
+    "Lập trình viên",
+    "Quản trị mạng",
+    "Thiết kế website",
+    "Bác sĩ"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Bác sĩ chỉ ứng dụng tin học trong công việc, không thuộc lĩnh vực tin học.",
+   "r": "SGK Tin học 8 KNTT – Bài 16"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các nghề liên quan đến ứng dụng tin học (không thuộc lĩnh vực tin học).",
+   "o": [
+    "Nhà báo",
+    "Kiến trúc sư",
+    "Bán hàng trực tuyến",
+    "Quản trị cơ sở dữ liệu"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Quản trị cơ sở dữ liệu là nghề của lĩnh vực tin học.",
+   "r": "SGK Tin học 8 KNTT – Bài 16"
+  },
+  {
+   "t": "m",
+   "q": "Những việc làm nào góp phần thúc đẩy bình đẳng giới trong tin học?",
+   "o": [
+    "Chia sẻ tài liệu tin học cho bạn nữ",
+    "Không chê bạn nữ học kém tin học",
+    "Rủ bạn nữ cùng tham gia câu lạc bộ tin học",
+    "Cho rằng nữ không hợp nghề lập trình"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Phương án cuối là định kiến giới, đi ngược bình đẳng giới.",
+   "r": "SGK Tin học 8 KNTT – Bài 16"
+  },
+  {
+   "t": "f",
+   "q": "Ứng dụng tin học giúp ____ độ xử lí công việc và giúp ____ thông tin, liên lạc dễ dàng hơn.",
+   "a": [
+    [
+     "tăng tốc"
+    ],
+    [
+     "trao đổi"
+    ]
+   ],
+   "o": [
+    [
+     "tăng tốc",
+     "trao đổi"
+    ],
+    [
+     "giảm tốc",
+     "trao đổi"
+    ],
+    [
+     "tăng tốc",
+     "xoá bỏ"
+    ],
+    [
+     "giữ nguyên",
+     "hạn chế"
+    ]
+   ],
+   "k": 0,
+   "e": "Lợi ích: tăng tốc độ xử lí; liên lạc, trao đổi dễ dàng.",
+   "r": "SGK Tin học 8 KNTT – Bài 16"
+  },
+  {
+   "t": "f",
+   "q": "Nghề ____ thuộc lĩnh vực tin học, còn nghề ____ chỉ liên quan đến ứng dụng tin học.",
+   "a": [
+    [
+     "quản trị mạng"
+    ],
+    [
+     "kiến trúc sư"
+    ]
+   ],
+   "o": [
+    [
+     "kiến trúc sư",
+     "quản trị mạng"
+    ],
+    [
+     "lập trình viên",
+     "quản trị mạng"
+    ],
+    [
+     "quản trị mạng",
+     "kiến trúc sư"
+    ],
+    [
+     "nhà báo",
+     "bác sĩ"
+    ]
+   ],
+   "k": 2,
+   "e": "Quản trị mạng thuộc lĩnh vực tin học; kiến trúc sư chỉ ứng dụng tin học.",
+   "r": "SGK Tin học 8 KNTT – Bài 16"
+  },
+  {
+   "t": "f",
+   "q": "Bình đẳng giới là nam và nữ có ____ và ____ như nhau trong sử dụng máy tính và ứng dụng tin học.",
+   "a": [
+    [
+     "quyền"
+    ],
+    [
+     "cơ hội"
+    ]
+   ],
+   "o": [
+    [
+     "nghĩa vụ",
+     "thu nhập"
+    ],
+    [
+     "quyền",
+     "cơ hội"
+    ],
+    [
+     "sở thích",
+     "thời gian"
+    ],
+    [
+     "quyền",
+     "điểm số"
+    ]
+   ],
+   "k": 1,
+   "e": "Bình đẳng giới: quyền và cơ hội như nhau.",
+   "r": "SGK Tin học 8 KNTT – Bài 16"
+  },
+  {
+   "t": "f",
+   "q": "Nghề lập trình viên thuộc nhóm nghề ____ ; nghề nhà báo thuộc nhóm nghề ____ .",
+   "a": [
+    [
+     "thuộc lĩnh vực tin học"
+    ],
+    [
+     "liên quan ứng dụng tin học"
+    ]
+   ],
+   "o": [
+    [
+     "liên quan ứng dụng tin học",
+     "thuộc lĩnh vực tin học"
+    ],
+    [
+     "thuộc lĩnh vực tin học",
+     "thuộc lĩnh vực tin học"
+    ],
+    [
+     "liên quan ứng dụng tin học",
+     "liên quan ứng dụng tin học"
+    ],
+    [
+     "thuộc lĩnh vực tin học",
+     "liên quan ứng dụng tin học"
+    ]
+   ],
+   "k": 3,
+   "e": "Lập trình viên: lĩnh vực tin học; nhà báo: liên quan ứng dụng tin học.",
+   "r": "SGK Tin học 8 KNTT – Bài 16"
+  },
+  {
+   "t": "f",
+   "q": "Câu trả lời của chatbot có thể ____ hoặc thiên vị, nên cần ____ với nguồn tin cậy.",
+   "a": [
+    [
+     "sai"
+    ],
+    [
+     "kiểm chứng"
+    ]
+   ],
+   "o": [
+    [
+     "đúng",
+     "sao chép"
+    ],
+    [
+     "sai",
+     "sao chép"
+    ],
+    [
+     "đúng",
+     "kiểm chứng"
+    ],
+    [
+     "sai",
+     "kiểm chứng"
+    ]
+   ],
+   "k": 3,
+   "e": "AI có thể sai/thiên vị; cần kiểm chứng.",
+   "r": "SGK Tin học 8 KNTT – Bài 16"
+  },
+  {
+   "t": "s",
+   "q": "Em muốn tìm cơ hội nghề nghiệp và cập nhật công nghệ số. Cách làm phù hợp nhất là gì?",
+   "o": [
+    "Chỉ hỏi bạn bè",
+    "Tìm trên trang thông tin, hướng nghiệp tin cậy và kiểm chứng",
+    "Tin mọi quảng cáo",
+    "Không cần tìm hiểu"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Cần tìm từ nguồn tin cậy và kiểm chứng (NLS 5.4.TC2.c).",
+   "r": "SGK Tin học 8 KNTT – Bài 16"
+  }
+ ],
+ "tuluan": [
+  {
+   "q": "Câu 1 (3 điểm). Nêu 5 lợi ích của việc ứng dụng tin học vào công việc và phân biệt hai nhóm nghề liên quan đến tin học, cho ví dụ.",
+   "a": [
+    "5 lợi ích: tăng tốc độ xử lí; liên lạc, trao đổi dễ dàng; làm việc nhóm, mở rộng phạm vi; nâng cao tay nghề; hỗ trợ thông tin cho người lao động.",
+    "Nghề thuộc lĩnh vực tin học: tạo ra, quản lí, vận hành sản phẩm tin học; ví dụ lập trình viên, quản trị mạng, thiết kế website.",
+    "Nghề liên quan ứng dụng tin học: dùng máy tính, phần mềm để làm việc hiệu quả; ví dụ bác sĩ, nhà báo, kiến trúc sư, bán hàng trực tuyến.",
+    "Tiêu chí phân biệt: tạo/vận hành sản phẩm tin học hay chỉ sử dụng."
+   ]
+  },
+  {
+   "q": "Câu 2 (4 điểm). Nêu mục tiêu bài \"Tin học với nghề nghiệp\" (Tin học 8) theo chương trình 2018 và thiết kế hoạt động Hình thành kiến thức về phân loại nghề.",
+   "a": [
+    "Mục tiêu: nêu được ví dụ nghề ứng dụng tin học làm tăng hiệu quả; nêu được tên một số nghề thuộc lĩnh vực tin học và liên quan ứng dụng; nhận thức được bình đẳng giới trong sử dụng máy tính và ứng dụng tin học.",
+    "Năng lực: tự chủ, tự học; giao tiếp, hợp tác; NLe; phẩm chất: tôn trọng bình đẳng giới.",
+    "Hoạt động: mục tiêu phân biệt 2 nhóm nghề; nội dung quan sát Hình 16.1, phân loại các nghề; sản phẩm phiếu học tập có hai cột.",
+    "Tổ chức 4 bước: giao nhiệm vụ (nhóm 4, phiếu) – thực hiện (thảo luận, điền phiếu) – báo cáo, nhận xét chéo – GV kết luận tiêu chí tạo/vận hành và dùng."
+   ]
+  },
+  {
+   "q": "Câu 3 (3 điểm). Khi cho HS dùng chatbot tìm hiểu nghề nghiệp, GV cần lưu ý gì? Nêu cách tổ chức để HS phát hiện thiên vị giới.",
+   "a": [
+    "Lưu ý: AI có thể sai, thiếu hoặc thiên vị; AI chỉ hỗ trợ, con người kiểm tra và quyết định.",
+    "Cho HS đặt câu lệnh (ví dụ mô tả một lập trình viên giỏi) và quan sát đại từ, hình ảnh mặc định.",
+    "Đối chiếu với SGK và nguồn tin cậy; thảo luận cặp, ghi chỗ sai/thiên vị.",
+    "Yêu cầu AI sửa theo cách trung lập; giáo dục HS tôn trọng bình đẳng giới, trung thực khi dùng AI."
+   ]
+  }
+ ]
+}

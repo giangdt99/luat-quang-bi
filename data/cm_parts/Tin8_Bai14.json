@@ -1,0 +1,614 @@
+{
+ "id": "T8-B14",
+ "ten": "Bài 14. Cấu trúc điều khiển",
+ "tomtat": [
+  "**Cấu trúc điều khiển** là cách sắp xếp thứ tự thực hiện các lệnh trong thuật toán/chương trình; có 3 cấu trúc cơ bản: **tuần tự, rẽ nhánh, lặp**.",
+  "**Cấu trúc tuần tự**: các lệnh được thực hiện **lần lượt từ trên xuống dưới**, mỗi lệnh một lần (vd: chọn số bí mật rồi hỏi người chơi).",
+  "**Cấu trúc rẽ nhánh**: chọn việc làm tuỳ theo **điều kiện đúng hay sai**; có hai dạng là **rẽ nhánh khuyết** (nếu … thì …) và **rẽ nhánh đầy đủ** (nếu … thì … nếu không thì …).",
+  "**Cấu trúc lặp**: thực hiện lặp đi lặp lại một hay nhiều lệnh; có 3 dạng: lặp **số lần định trước**, lặp **vô hạn lần**, lặp **đến khi điều kiện đúng** (có điều kiện kết thúc).",
+  "Khối lệnh Scratch tương ứng: **lặp n lần**, **lặp lại liên tục** (mãi mãi), **lặp lại cho đến khi …**, **nếu … thì …**, **nếu … thì … nếu không thì …** (nhóm khối Điều khiển).",
+  "**Thuật toán Đoán số**: máy chọn **số bí mật** ngẫu nhiên 1–100, hỏi người chơi, **so sánh** rồi báo cao/thấp/đúng, **lặp** đến khi đoán đúng.",
+  "Chương trình Đoán số dùng **cả 3 cấu trúc**: tuần tự (chọn số, hỏi), rẽ nhánh (so sánh để báo kết quả), lặp (hỏi lại đến khi trả lời = số bí mật).",
+  "**Thực hành** gồm 5 bước chính: tạo biến **số bí mật**, lắp khung chương trình, lắp biểu thức so sánh, lắp khối **nếu … thì … nếu không thì …**, hoàn thành rồi **chạy thử**.",
+  "**Kiểm thử** bằng bảng giá trị (vd số bí mật 37: nhập 20 → Quá thấp, 50 → Quá cao, 37 → thắng và dừng), nên thử cả **giá trị biên** như 1 và 100.",
+  "Vẽ **đa giác đều n cạnh** bằng lặp n lần (tiến, xoay) với **góc xoay = 360° : n** (vuông 90°, ngũ giác 72°, lục giác 60°).",
+  "Vận dụng: giải **ax + b = 0** (rẽ nhánh theo a, b) và tìm **ƯCLN** (lặp đến khi hai số bằng nhau).",
+  "Tích hợp AI: chương trình do chatbot viết **có thể sai**, phải **chạy thử, đối chiếu** và **ghi rõ đã dùng AI** (8.A1.2, 8.A3.3)."
+ ],
+ "ynho": [
+  "3 cấu trúc: tuần tự – rẽ nhánh – lặp",
+  "Rẽ nhánh khuyết: chỉ có nhánh đúng",
+  "Lặp: n lần, vô hạn, đến khi điều kiện đúng",
+  "Đa giác n cạnh: lặp n lần, xoay 360° : n",
+  "Chương trình AI viết: phải chạy thử kiểm chứng"
+ ],
+ "bang": [
+  {
+   "tieu_de": "Ba cấu trúc điều khiển và khối lệnh Scratch",
+   "cot": [
+    "Cấu trúc",
+    "Đặc điểm",
+    "Khối lệnh Scratch",
+    "Ví dụ trong Đoán số"
+   ],
+   "dong": [
+    [
+     "Tuần tự",
+     "Lần lượt từ trên xuống, mỗi lệnh một lần",
+     "Các khối xếp nối tiếp",
+     "Chọn số bí mật → hỏi số dự đoán"
+    ],
+    [
+     "Rẽ nhánh",
+     "Chọn việc theo điều kiện đúng/sai",
+     "nếu … thì …; nếu … thì … nếu không thì …",
+     "So sánh trả lời với số bí mật"
+    ],
+    [
+     "Lặp",
+     "Làm lại nhiều lần",
+     "lặp n lần; lặp lại liên tục; lặp lại cho đến khi",
+     "Hỏi lại đến khi trả lời = số bí mật"
+    ]
+   ]
+  },
+  {
+   "tieu_de": "Phân biệt các dạng rẽ nhánh và lặp",
+   "cot": [
+    "Dạng",
+    "Nhận biết",
+    "Khi nào dùng"
+   ],
+   "dong": [
+    [
+     "Rẽ nhánh khuyết",
+     "Chỉ nhánh \"thì\"",
+     "Chỉ cần làm khi điều kiện đúng"
+    ],
+    [
+     "Rẽ nhánh đầy đủ",
+     "Có \"thì\" và \"nếu không thì\"",
+     "Hai trường hợp đều có việc riêng"
+    ],
+    [
+     "Lặp số lần định trước",
+     "Biết trước n",
+     "Vẽ đa giác, lặp n lần"
+    ],
+    [
+     "Lặp vô hạn",
+     "Không có điều kiện dừng",
+     "Việc chạy mãi (vd kiểm tra liên tục)"
+    ],
+    [
+     "Lặp có điều kiện kết thúc",
+     "Dừng khi điều kiện đúng",
+     "Đoán số, ƯCLN"
+    ]
+   ]
+  }
+ ],
+ "vidu": [
+  {
+   "tinh_huong": "Số bí mật là 37. Người chơi nhập 20, rồi 50, rồi 37. Máy trả lời thế nào?",
+   "ket_luan": "→ 20: Quá thấp; 50: Quá cao; 37: thắng, vòng lặp dừng (rẽ nhánh + lặp)."
+  },
+  {
+   "tinh_huong": "Vẽ ngũ giác đều cạnh 60 bước bằng Scratch.",
+   "ket_luan": "→ Lặp 5 lần: tiến 60, xoay 72° (vì 360 : 5 = 72)."
+  },
+  {
+   "tinh_huong": "Giải ax + b = 0 với a = 2, b = −6; và với a = 0, b = 5.",
+   "ket_luan": "→ a ≠ 0: x = −b/a = 3; a = 0, b ≠ 0: vô nghiệm (rẽ nhánh theo a, b)."
+  },
+  {
+   "tinh_huong": "Tìm ƯCLN(48, 18): lặp đến khi a = b, nếu a > b thì a := a − b, ngược lại b := b − a.",
+   "ket_luan": "→ (48,18)→(30,18)→(12,18)→(12,6)→(6,6): ƯCLN = 6 sau 4 lần trừ."
+  }
+ ],
+ "nho": [
+  "TUẦN TỰ = xếp hàng lần lượt; RẼ NHÁNH = ngã ba đường; LẶP = vòng quay.",
+  "Khuyết = thiếu \"nếu không\".",
+  "Lặp có 3 dạng: Định trước – Vô hạn – Đến khi (Đ-V-Đ).",
+  "Đa giác n cạnh: góc xoay = 360° : n."
+ ],
+ "bay": [
+  "Nhầm rẽ nhánh khuyết với đầy đủ (khuyết chỉ có nhánh đúng).",
+  "Nhầm lặp vô hạn với lặp có điều kiện kết thúc: \"cho đến khi\" là điều kiện DỪNG.",
+  "Cả chương trình Đoán số có lặp, nhưng việc so sánh báo cao/thấp là rẽ nhánh.",
+  "Chương trình AI chạy được chưa chắc đúng: có thể ngược thông báo hay thiếu khối hỏi."
+ ],
+ "giaoan": [
+  "**Mục tiêu** – Kiến thức: nêu được cấu trúc tuần tự, rẽ nhánh (khuyết, đầy đủ), lặp (3 dạng) và khối lệnh Scratch tương ứng; mô tả được thuật toán Đoán số; Năng lực: tin học (NLc – xây dựng thuật toán, chương trình có cấu trúc điều khiển; NLa – dùng Scratch), tự chủ và tự học, giao tiếp và hợp tác, năng lực số 3.4.TC2.a, 5.1.TC2.a; Phẩm chất: kiên trì, tư duy logic, trách nhiệm khi kiểm tra kết quả.",
+  "**Chuẩn bị** – GV: kế hoạch bài dạy, máy tính cài Scratch, máy chiếu, hình 14.1–14.10, phiếu học tập, chương trình Đoán số do chatbot soạn (có lỗi); HS: SGK Tin học 8, vở, ôn cấu trúc điều khiển lớp 6 và cách tạo biến (Bài 13).",
+  "**Hoạt động 1 – Mở đầu** (8 phút) – Mục tiêu: tạo hứng thú, HS nêu các bước của trò chơi Đoán số. Nội dung: đọc Hoạt động 1, viết các bước máy thực hiện. Sản phẩm: chọn số, hỏi, so sánh, báo kết quả, lặp lại. Tổ chức: (1) GV chuyển giao nhiệm vụ; (2) HS thực hiện cặp (Think–Pair–Share); (3) báo cáo 2 cặp; (4) GV nhận xét, dẫn vào bài.",
+  "**Hoạt động 2 – Hình thành kiến thức** (45 phút) – Mục tiêu: nêu 3 cấu trúc điều khiển và xây dựng chương trình Đoán số. Nội dung: đọc SGK, đối chiếu hình 14.1–14.4 điền phiếu (kĩ thuật mảnh ghép), rồi Thực hành 5 bước. Sản phẩm: bảng 3 cấu trúc – khối lệnh; chương trình chạy đúng bảng kiểm thử. Tổ chức: (1) giao nhiệm vụ nhóm 4; (2) HS làm việc, GV hỗ trợ; (3) nhóm báo cáo, trình diễn nhập 20, 50, 37; (4) GV chốt, nêu lỗi hay gặp.",
+  "**Hoạt động 3 – Luyện tập** (10 phút) – Mục tiêu: nhận biết cấu trúc lặp, xác định kết quả đoạn lệnh lặp. Nội dung: câu hỏi tr.82 và ghép đoạn lệnh với hình vẽ Bảng 14.1. Sản phẩm: đáp án đúng (góc xoay = 360° : n). Tổ chức: giao nhiệm vụ, HS làm cá nhân rồi cặp, giơ thẻ trả lời, GV nhận xét.",
+  "**Hoạt động 4 – Vận dụng** (17 phút) – Mục tiêu: vận dụng giải ax + b = 0, ƯCLN và kiểm chứng chương trình do AI viết. Nội dung: Vận dụng 1, 2 (SGK); chạy thử chương trình AI, tìm lỗi. Sản phẩm: ghép khối đúng; chỉ ra 2 lỗi và ≥ 3 việc cần làm khi dùng AI. Tổ chức: giao nhiệm vụ, cặp đôi kiểm thử, báo cáo, GV kết luận.",
+  "**Kiểm tra đánh giá** – Quan sát và phiếu học tập; bảng kiểm thử chương trình Đoán số; câu hỏi giơ thẻ; dặn dò hoàn thiện chương trình, xem Bài 15 Gỡ lỗi."
+ ],
+ "ai": [
+  "GV nhờ chatbot viết chương trình Scratch Đoán số 1–100 (có lỗi), HS chạy thử với 37, nhập 20, 50, tìm lỗi thông báo ngược và thiếu khối hỏi (8.A1.2).",
+  "HS đối chiếu kết quả AI với sơ đồ khối trong SGK, không tin hoàn toàn đầu ra của AI.",
+  "Đạo đức AI (8.A3.3): ghi rõ đã dùng AI ở phần nào, tự kiểm tra và giải thích được chương trình trước khi nộp."
+ ],
+ "cauhoi": [
+  {
+   "t": "s",
+   "q": "Cấu trúc điều khiển nào thực hiện các lệnh lần lượt từ trên xuống dưới, mỗi lệnh một lần?",
+   "o": [
+    "Cấu trúc tuần tự",
+    "Cấu trúc lặp",
+    "Cấu trúc rẽ nhánh",
+    "Cấu trúc đệ quy"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Tuần tự = lần lượt. Bẫy: nhầm với lặp (làm lại nhiều lần).",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  },
+  {
+   "t": "s",
+   "q": "Trong trò chơi Đoán số, việc máy so sánh số người chơi nhập với số bí mật để báo \"Quá cao\"/\"Quá thấp\" thuộc cấu trúc nào?",
+   "o": [
+    "Tuần tự",
+    "Rẽ nhánh",
+    "Lặp vô hạn",
+    "Lặp với số lần định trước"
+   ],
+   "a": [
+    1
+   ],
+   "e": "So sánh theo điều kiện, mỗi trường hợp một việc: rẽ nhánh. Bẫy: nhầm với lặp vì cả chương trình có lặp.",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  },
+  {
+   "t": "s",
+   "q": "Cấu trúc rẽ nhánh dạng \"Nếu điều kiện thì làm việc A\" (không có phần \"nếu không\") gọi là:",
+   "o": [
+    "Rẽ nhánh đầy đủ",
+    "Lặp có điều kiện",
+    "Rẽ nhánh khuyết",
+    "Tuần tự"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Chỉ có nhánh đúng là rẽ nhánh khuyết. Bẫy: nhầm khuyết với đầy đủ.",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  },
+  {
+   "t": "s",
+   "q": "Cấu trúc \"Nếu … thì … nếu không thì …\" là dạng rẽ nhánh:",
+   "o": [
+    "khuyết",
+    "vô hạn",
+    "đầy đủ",
+    "tuần tự"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Có cả hai nhánh (đúng và sai) nên là đầy đủ.",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  },
+  {
+   "t": "s",
+   "q": "Khối lệnh \"lặp lại liên tục\" (mãi mãi) trong Scratch thuộc dạng lặp nào?",
+   "o": [
+    "Lặp với số lần biết trước",
+    "Lặp đến khi điều kiện đúng",
+    "Lặp vô hạn lần",
+    "Rẽ nhánh đầy đủ"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Không có điều kiện dừng nên lặp vô hạn. Bẫy: nhầm với lặp có điều kiện kết thúc.",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  },
+  {
+   "t": "s",
+   "q": "Để vẽ hình vuông bằng lặp, đoạn lệnh \"lặp 4 lần: tiến 50, xoay 90°\" dùng cấu trúc lặp dạng nào?",
+   "o": [
+    "Lặp số lần định trước",
+    "Lặp vô hạn",
+    "Lặp đến khi điều kiện đúng",
+    "Rẽ nhánh khuyết"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Biết trước số lần là 4. Quy luật: góc xoay = 360° : số cạnh.",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  },
+  {
+   "t": "s",
+   "q": "Muốn vẽ hình lục giác đều bằng lặp n lần (tiến, xoay), cần lặp bao nhiêu lần và xoay bao nhiêu độ mỗi lần?",
+   "o": [
+    "Lặp 6 lần, xoay 120°",
+    "Lặp 5 lần, xoay 72°",
+    "Lặp 60 lần, xoay 6°",
+    "Lặp 6 lần, xoay 60°"
+   ],
+   "a": [
+    3
+   ],
+   "e": "360° : 6 = 60°. Bẫy: đổi số (phương án 5 lần/72° là ngũ giác).",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  },
+  {
+   "t": "s",
+   "q": "Một bạn thấy chương trình Đoán số chạy mãi không dừng dù đoán đúng. Nguyên nhân hợp lí nhất là:",
+   "o": [
+    "Biến số bí mật đặt tên dài",
+    "Dùng khối rẽ nhánh đầy đủ",
+    "Thiếu khối hỏi trong vòng lặp hoặc điều kiện dừng sai",
+    "Máy tính hết bộ nhớ"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Lặp không dừng do điều kiện kết thúc sai hoặc không cập nhật câu trả lời.",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  },
+  {
+   "t": "s",
+   "q": "Trong chương trình Đoán số, khối \"lặp lại cho đến khi (trả lời = số bí mật)\" nghĩa là:",
+   "o": [
+    "Lặp khi trả lời bằng số bí mật",
+    "Lặp đúng 1 lần",
+    "Lặp mãi mãi",
+    "Lặp đến khi trả lời bằng số bí mật thì dừng"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Điều kiện là điều kiện KẾT THÚC. Bẫy: đảo thành \"lặp khi điều kiện đúng\".",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  },
+  {
+   "t": "s",
+   "q": "Để giải phương trình ax + b = 0, cần dùng cấu trúc điều khiển chính nào?",
+   "o": [
+    "Chỉ tuần tự",
+    "Chỉ lặp vô hạn",
+    "Không cần cấu trúc nào",
+    "Rẽ nhánh (xét a = 0 hay a ≠ 0)"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Phải xét trường hợp a = 0 / a ≠ 0, nên cần rẽ nhánh.",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  },
+  {
+   "t": "m",
+   "q": "Những dạng cấu trúc lặp nào sau đây SGK Tin học 8 nêu?",
+   "o": [
+    "Lặp với điều kiện kết thúc",
+    "Lặp vô hạn lần",
+    "Lặp với số lần định trước",
+    "Lặp song song"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Ba dạng lặp: số lần định trước, vô hạn, có điều kiện kết thúc. \"Lặp song song\" là đáp án nhiễu.",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các phát biểu ĐÚNG về cấu trúc điều khiển:",
+   "o": [
+    "Cấu trúc rẽ nhánh dựa trên điều kiện đúng hoặc sai",
+    "Cấu trúc tuần tự luôn thực hiện mỗi lệnh nhiều lần",
+    "Rẽ nhánh khuyết bắt buộc phải có nhánh \"nếu không\"",
+    "Chương trình Đoán số dùng cả tuần tự, rẽ nhánh và lặp"
+   ],
+   "a": [
+    0,
+    3
+   ],
+   "e": "Tuần tự chạy mỗi lệnh một lần; khuyết thì không có nhánh \"nếu không\".",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  },
+  {
+   "t": "m",
+   "q": "Trong Scratch, những khối lệnh nào thuộc nhóm cấu trúc điều khiển?",
+   "o": [
+    "Khối tiến n bước",
+    "Khối lặp n lần",
+    "Khối nếu … thì … nếu không thì …",
+    "Khối lặp lại cho đến khi"
+   ],
+   "a": [
+    1,
+    2,
+    3
+   ],
+   "e": "Khối \"tiến n bước\" thuộc nhóm chuyển động, không phải cấu trúc điều khiển.",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  },
+  {
+   "t": "m",
+   "q": "Để kiểm chứng chương trình Đoán số do chatbot AI viết, HS nên làm:",
+   "o": [
+    "Chạy thử với nhiều giá trị, kể cả biên (1, 100)",
+    "Ghi rõ đã dùng AI ở phần nào",
+    "Tin hoàn toàn và nộp ngay",
+    "Đối chiếu với thuật toán/sơ đồ khối trong SGK"
+   ],
+   "a": [
+    0,
+    1,
+    3
+   ],
+   "e": "AI có thể sai nên phải kiểm thử, đối chiếu và nêu rõ đã dùng AI; không được tin hoàn toàn.",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  },
+  {
+   "t": "f",
+   "q": "Cấu trúc ____ thực hiện các lệnh lần lượt, còn cấu trúc ____ thực hiện lại một công việc nhiều lần.",
+   "a": [
+    [
+     "tuần tự"
+    ],
+    [
+     "lặp"
+    ]
+   ],
+   "o": [
+    [
+     "lặp",
+     "tuần tự"
+    ],
+    [
+     "tuần tự",
+     "lặp"
+    ],
+    [
+     "rẽ nhánh",
+     "lặp"
+    ],
+    [
+     "tuần tự",
+     "rẽ nhánh"
+    ]
+   ],
+   "k": 1,
+   "e": "Đảo hai thuật ngữ là bẫy thường gặp.",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  },
+  {
+   "t": "f",
+   "q": "Rẽ nhánh ____ chỉ có một nhánh khi điều kiện đúng; rẽ nhánh ____ có cả hai nhánh.",
+   "a": [
+    [
+     "khuyết"
+    ],
+    [
+     "đầy đủ"
+    ]
+   ],
+   "o": [
+    [
+     "khuyết",
+     "đầy đủ"
+    ],
+    [
+     "đầy đủ",
+     "khuyết"
+    ],
+    [
+     "khuyết",
+     "vô hạn"
+    ],
+    [
+     "vô hạn",
+     "đầy đủ"
+    ]
+   ],
+   "k": 0,
+   "e": "Khuyết = thiếu nhánh \"nếu không\".",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  },
+  {
+   "t": "f",
+   "q": "Khối \"lặp lại liên tục\" là lặp ____; khối \"lặp lại cho đến khi\" là lặp có ____.",
+   "a": [
+    [
+     "vô hạn"
+    ],
+    [
+     "điều kiện kết thúc"
+    ]
+   ],
+   "o": [
+    [
+     "vô hạn",
+     "điều kiện kết thúc"
+    ],
+    [
+     "số lần định trước",
+     "điều kiện kết thúc"
+    ],
+    [
+     "vô hạn",
+     "số lần định trước"
+    ],
+    [
+     "điều kiện kết thúc",
+     "vô hạn"
+    ]
+   ],
+   "k": 0,
+   "e": "Hai dạng lặp dễ lẫn nhau.",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  },
+  {
+   "t": "f",
+   "q": "Muốn vẽ đa giác đều n cạnh bằng lặp n lần thì mỗi lần xoay ____ độ; với ngũ giác đều (n = 5) là ____ độ.",
+   "a": [
+    [
+     "360 : n",
+     "360/n"
+    ],
+    [
+     "72"
+    ]
+   ],
+   "o": [
+    [
+     "360 : n",
+     "72"
+    ],
+    [
+     "180 : n",
+     "36"
+    ],
+    [
+     "360 : n",
+     "60"
+    ],
+    [
+     "n",
+     "5"
+    ]
+   ],
+   "k": 0,
+   "e": "360 : 5 = 72. Bẫy: dùng 180.",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  },
+  {
+   "t": "f",
+   "q": "Với a = 48, b = 18, thuật toán ƯCLN bằng phép trừ lặp đến khi a = b cho kết quả ____ sau ____ lần trừ.",
+   "a": [
+    [
+     "6"
+    ],
+    [
+     "4"
+    ]
+   ],
+   "o": [
+    [
+     "6",
+     "3"
+    ],
+    [
+     "9",
+     "4"
+    ],
+    [
+     "6",
+     "4"
+    ],
+    [
+     "3",
+     "5"
+    ]
+   ],
+   "k": 2,
+   "e": "48,18→30,18→12,18→12,6→6,6: ƯCLN = 6, 4 lần trừ.",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  },
+  {
+   "t": "f",
+   "q": "Phương trình ax + b = 0: nếu a ≠ 0 thì x = ____; nếu a = 0 và b ≠ 0 thì phương trình ____.",
+   "a": [
+    [
+     "-b/a",
+     "−b/a"
+    ],
+    [
+     "vô nghiệm"
+    ]
+   ],
+   "o": [
+    [
+     "-b/a",
+     "vô nghiệm"
+    ],
+    [
+     "b/a",
+     "vô nghiệm"
+    ],
+    [
+     "-b/a",
+     "vô số nghiệm"
+    ],
+    [
+     "-a/b",
+     "vô nghiệm"
+    ]
+   ],
+   "k": 0,
+   "e": "Bẫy đổi dấu và đảo nghiệm vô nghiệm/vô số nghiệm.",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  },
+  {
+   "t": "s",
+   "q": "Chương trình AI viết cho trò chơi Đoán số báo \"Quá thấp\" khi số nhập lớn hơn số bí mật. Lỗi này thuộc loại nào?",
+   "o": [
+    "Lỗi logic (điều kiện/thông báo bị ngược)",
+    "Lỗi gõ sai chính tả",
+    "Lỗi thiếu biến",
+    "Không phải lỗi"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Chương trình vẫn chạy nhưng cho kết quả sai: lỗi logic, chỉ phát hiện bằng kiểm thử.",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  },
+  {
+   "t": "s",
+   "q": "Trong Đoán số 1–100 với cách đoán chia đôi khoảng hợp lí, số lần đoán nhiều nhất để chắc chắn tìm ra là:",
+   "o": [
+    "5",
+    "6",
+    "7",
+    "100"
+   ],
+   "a": [
+    2
+   ],
+   "e": "2^6 = 64 < 100 ≤ 2^7 = 128 nên tối đa 7 lần.",
+   "r": "SGK Tin học 8 KNTT – Bài 14"
+  }
+ ],
+ "tuluan": [
+  {
+   "q": "Câu 1 (3 điểm). Trình bày ba cấu trúc điều khiển và nêu dạng, khối lệnh Scratch tương ứng. Viết thuật toán tìm ƯCLN của hai số nguyên dương a, b và chạy với a = 48, b = 18.",
+   "a": [
+    "Tuần tự: lệnh lần lượt từ trên xuống.",
+    "Rẽ nhánh: khuyết (nếu … thì …), đầy đủ (nếu … thì … nếu không thì …).",
+    "Lặp: số lần định trước, vô hạn, đến khi điều kiện đúng; khối lặp n lần, lặp lại liên tục, lặp lại cho đến khi.",
+    "Thuật toán: lặp đến khi a = b: nếu a > b thì a := a − b, ngược lại b := b − a; kết quả là a.",
+    "Chạy: (48,18)→(30,18)→(12,18)→(12,6)→(6,6): ƯCLN = 6."
+   ]
+  },
+  {
+   "q": "Câu 2 (3 điểm). Nêu mục tiêu bài học \"Cấu trúc điều khiển\" (Tin học 8) theo chương trình 2018 và thiết kế hoạt động Hình thành kiến thức cho nội dung rẽ nhánh và lặp.",
+   "a": [
+    "Kiến thức: nêu được 3 cấu trúc và khối lệnh; mô tả thuật toán Đoán số; xây dựng, kiểm thử chương trình Đoán số.",
+    "Năng lực: tin học (xây dựng thuật toán, chương trình; dùng Scratch), tự chủ tự học, giao tiếp hợp tác.",
+    "Phẩm chất: kiên trì, tư duy logic, trách nhiệm.",
+    "Hoạt động: mục tiêu; nội dung (nhóm mảnh ghép đọc SGK, điền phiếu rồi thực hành 5 bước); sản phẩm (bảng 3 cấu trúc, chương trình chạy đúng); tổ chức 4 bước (giao nhiệm vụ, thực hiện, báo cáo, kết luận)."
+   ]
+  },
+  {
+   "q": "Câu 3 (4 điểm). Chatbot viết chương trình Đoán số nhưng chạy thử cho thông báo ngược và lặp mãi. Hãy phân tích nguyên nhân, nêu cách sửa và hướng dẫn HS dùng AI có trách nhiệm.",
+   "a": [
+    "Lỗi 1 là lỗi logic: điều kiện/thông báo bị ngược (trả lời > số bí mật phải báo Quá cao); sửa lại điều kiện hoặc đổi nhánh.",
+    "Lỗi 2: thiếu khối hỏi trong vòng lặp nên không cập nhật câu trả lời, lặp không dừng; đưa khối hỏi vào trong vòng lặp.",
+    "Kiểm thử bằng bảng giá trị (37; nhập 20, 50, 37; biên 1, 100) và đối chiếu sơ đồ SGK.",
+    "Dùng AI có trách nhiệm: không tin hoàn toàn, tự chạy thử, ghi rõ đã dùng AI ở phần nào, tự giải thích được chương trình."
+   ]
+  }
+ ]
+}

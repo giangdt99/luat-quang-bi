@@ -1,0 +1,600 @@
+{
+ "id": "T8-B08a",
+ "ten": "Bài 8a. Làm việc với danh sách dạng liệt kê và hình ảnh trong văn bản",
+ "tomtat": [
+  "**Danh sách dạng liệt kê** giúp trình bày các mục rõ ràng, dễ đọc, dễ thêm bớt; SGK nêu **hai kiểu**: dấu đầu dòng và có thứ tự.",
+  "**Danh sách dấu đầu dòng (Bullets)** dùng cho các mục **ngang hàng**, ký hiệu như •, –, ✓.",
+  "**Danh sách có thứ tự (Numbering)** dùng cho các mục cần **theo trình tự**, đánh 1, 2, 3 hoặc a, b, c.",
+  "Tạo danh sách: chọn các mục → **Home → Bullets** hoặc **Home → Numbering**; nhấn **Enter** để tạo mục mới.",
+  "Số thứ tự **tự động cập nhật** khi thêm hoặc xoá mục, nên không cần gõ số bằng tay.",
+  "Có thể tạo **danh sách nhiều cấp** (kết hợp), dùng phím **Tab** để lùi xuống cấp con; ví dụ nhóm việc đánh số, việc con dùng dấu đầu dòng.",
+  "**Hình ảnh, hình đồ hoạ** làm văn bản **sinh động, thẩm mĩ, dễ hiểu**.",
+  "Chèn ảnh: **Insert → Pictures**; kéo **núm góc** để co dãn không méo; nhấn **Delete** để xoá.",
+  "Đổi cách ảnh nằm cùng chữ bằng **Wrap Text**; ảnh nền dùng **Behind Text**, ảnh nhỏ có thể dùng **Square**.",
+  "Vẽ hình đồ hoạ: **Insert → Shapes** (ví dụ mũi tên Block Arrows); đổi màu bằng **Shape Fill**.",
+  "Tờ rơi gồm **3 lớp**: ảnh nền, chữ, hình đồ hoạ; ảnh nền ở lớp dưới cùng để không che chữ.",
+  "Dùng ảnh phải **ghi nguồn**, tôn trọng bản quyền; nội dung/ảnh do AI tạo phải **kiểm chứng và khai báo**."
+ ],
+ "ynho": [
+  "Hai kiểu danh sách: dấu đầu dòng và có thứ tự",
+  "Bullets = ngang hàng; Numbering = theo trình tự",
+  "Enter tạo mục mới; Tab xuống cấp",
+  "Ảnh nền: Wrap Text → Behind Text",
+  "Dùng ảnh/AI phải ghi nguồn, kiểm chứng"
+ ],
+ "bang": [
+  {
+   "tieu_de": "So sánh hai kiểu danh sách",
+   "cot": [
+    "Tiêu chí",
+    "Dấu đầu dòng (Bullets)",
+    "Có thứ tự (Numbering)"
+   ],
+   "dong": [
+    [
+     "Lệnh",
+     "Home → Bullets",
+     "Home → Numbering"
+    ],
+    [
+     "Ký hiệu",
+     "•, –, ✓",
+     "1, 2, 3 / a, b, c"
+    ],
+    [
+     "Dùng khi",
+     "Mục ngang hàng",
+     "Các bước theo trình tự"
+    ],
+    [
+     "Ví dụ",
+     "Đồ dùng học tập",
+     "Các bước nấu ăn"
+    ]
+   ]
+  },
+  {
+   "tieu_de": "Ảnh và hình đồ hoạ",
+   "cot": [
+    "Nội dung",
+    "Lệnh / thao tác"
+   ],
+   "dong": [
+    [
+     "Chèn ảnh",
+     "Insert → Pictures"
+    ],
+    [
+     "Co dãn ảnh",
+     "Kéo núm góc"
+    ],
+    [
+     "Xoá ảnh",
+     "Chọn ảnh, nhấn Delete"
+    ],
+    [
+     "Ảnh nền dưới chữ",
+     "Wrap Text → Behind Text"
+    ],
+    [
+     "Vẽ hình đồ hoạ",
+     "Insert → Shapes"
+    ],
+    [
+     "Đổi màu hình",
+     "Shape Fill"
+    ]
+   ]
+  }
+ ],
+ "vidu": [
+  {
+   "tinh_huong": "Phiếu khảo sát 500 mục: gõ số tay từng mục rất mất công; nếu chèn thêm 1 mục ở giữa thì phải sửa lại số các mục sau.",
+   "ket_luan": "→ Dùng Numbering: Word tự đánh số và tự cập nhật."
+  },
+  {
+   "tinh_huong": "Dự án CLB Tin học: 'Chuẩn bị' (1.), 'Thực hiện' (2.); dưới mỗi nhóm có các việc con.",
+   "ket_luan": "→ Nhóm việc dùng Numbering, việc con dùng Bullets và nhấn Tab để thụt cấp."
+  },
+  {
+   "tinh_huong": "Làm tờ rơi tuyển thành viên: chèn ảnh nền, gõ chữ nhưng chữ bị ảnh che mất.",
+   "ket_luan": "→ Chọn ảnh, Wrap Text → Behind Text; kéo núm góc để chỉnh cỡ không méo."
+  },
+  {
+   "tinh_huong": "Cần thêm mũi tên chỉ vào dòng 'Đăng ký ngay' màu cam trên tờ rơi.",
+   "ket_luan": "→ Insert → Shapes → Block Arrows để vẽ, Shape Fill để chọn màu cam."
+  }
+ ],
+ "nho": [
+  "Bullets = Bi (chấm) cho mục Bằng nhau; Numbering = Nối Nấc theo bước.",
+  "Enter = Ra mục mới; Tab = Thụt xuống cấp.",
+  "Ảnh nền: 'Behind' = đằng sau chữ; 'In Front' = chắn trước chữ.",
+  "Pictures = ảnh có sẵn; Shapes = hình tự vẽ."
+ ],
+ "bay": [
+  "Nhầm Bullets với Numbering: các bước tuần tự phải đánh số, mục ngang hàng dùng dấu đầu dòng.",
+  "Gõ số bằng tay thay vì dùng Numbering nên không tự cập nhật khi thêm mục.",
+  "Chọn In Front of Text cho ảnh nền làm ảnh che chữ; đúng là Behind Text.",
+  "Kéo núm cạnh làm ảnh méo; phải kéo núm góc. Tin ngay câu trả lời AI không kiểm chứng."
+ ],
+ "giaoan": [
+  "**Mục tiêu** – Kiến thức: nêu được hai kiểu danh sách dạng liệt kê và tác dụng; tác dụng của hình ảnh, hình đồ hoạ; thực hiện được tạo danh sách, chèn, xoá, co dãn, đổi lớp ảnh, vẽ và đổi màu hình đồ hoạ; Năng lực: tự chủ và tự học, giao tiếp hợp tác; năng lực Tin học (NLa, NLc, NLd), NLS 3.1.TC2.a, 3.2.TC2.a, NLAI 8.A3.3, 8.B2.1; Phẩm chất: chăm chỉ, sáng tạo, thẩm mĩ, trung thực, tôn trọng nguồn ảnh.",
+  "**Chuẩn bị** – GV: máy chiếu, phòng máy có Word và chatbot AI, hình SGK 8a.1–8a.11, phiếu học tập, ảnh nền mẫu; HS: SGK, vở ghi, ôn thao tác soạn thảo lớp 6, 7, ảnh nền chủ đề Tin học có nguồn rõ.",
+  "**Hoạt động 1 – Mở đầu** (5 phút): Mục tiêu: tạo hứng thú, nêu nhu cầu đánh số tự động. Nội dung: xem Hình 8a.1, hỏi An có phải gõ từng số, danh sách 500 mục thì sao. Sản phẩm: Word tự đánh số, tự cập nhật. Tổ chức: (1) GV chiếu hình, nêu câu hỏi; (2) HS nghĩ 1 phút, chia sẻ cặp đôi (Think–Pair–Share); (3) mời 2 HS trả lời; (4) GV kết luận, vào bài.",
+  "**Hoạt động 2 – Hình thành kiến thức** (55 phút): Mục tiêu: hai kiểu danh sách, hình ảnh, hình đồ hoạ; làm Nhiệm vụ 1, 2. Nội dung: so sánh Hình 8a.2, 8a.3; đọc SGK; Nhiệm vụ 1 (Phiếu khảo sát), Nhiệm vụ 2 (tờ rơi). Sản phẩm: phiếu học tập, PhieuKhaoSat.docx, TuyenThanhVien.docx. Tổ chức 4 bước: giao nhiệm vụ cặp đôi; HS thảo luận, thực hành theo mẫu; báo cáo, giơ thẻ A–D; GV chốt (Numbering, Bullets, Behind Text, Shape Fill).",
+  "**Hoạt động 3 – Luyện tập** (15 phút): Mục tiêu: tạo danh sách kết hợp, đánh giá sản phẩm. Nội dung: tạo CLBTinhoc.docx giống Hình 8a.3; đổi máy đánh giá chéo tờ rơi bằng bảng kiểm. Sản phẩm: tệp hoàn chỉnh, bảng kiểm. Tổ chức: GV giao việc; HS thực hành (Tab để lùi cấp); báo cáo 1 điểm tốt, 1 điểm cần sửa; GV nhận xét lỗi thường gặp.",
+  "**Hoạt động 4 – Vận dụng** (15 phút): Mục tiêu: vận dụng vào thực tế, kiểm chứng AI, dùng ảnh có trách nhiệm. Nội dung: Vận dụng 1 (tạo mẫu dấu/số mới); GV hỏi chatbot về hai kiểu danh sách, HS đối chiếu SGK; giao Vận dụng 2. Sản phẩm: mẫu danh sách mới, nhận xét câu trả lời AI, ghi chú nguồn ảnh. Tổ chức: giao nhiệm vụ; cặp đôi đối chiếu; báo cáo; GV chốt Ghi nhớ.",
+  "**Kiểm tra đánh giá** – Quan sát thực hành, bảng kiểm sản phẩm (đủ 3 lớp, bố cục, lưu đúng tên), đánh giá đồng đẳng, câu hỏi trắc nghiệm giơ thẻ A–D; dặn dò: làm Vận dụng 2, đọc trước Bài 9a."
+ ],
+ "ai": [
+  "GV nhập chatbot 'Nêu hai kiểu danh sách trong Word và cách tạo', chiếu kết quả; HS đối chiếu SGK tr.37, 39 để chỉ ra ý đúng, ý thiếu (Enter, Tab, tự cập nhật số).",
+  "HS rút ra: AI có thể thiếu hoặc sai nên phải kiểm chứng bằng SGK/thực hành thử trước khi dùng (trách nhiệm giải trình, 8.A3.3).",
+  "Đạo đức khi dùng ảnh: ghi nguồn ảnh; ảnh do AI tạo phải ghi chú 'tạo bằng AI'; không dùng ảnh của bạn khi chưa xin phép (8.B2.1)."
+ ],
+ "cauhoi": [
+  {
+   "t": "s",
+   "q": "Danh sách dạng liệt kê KHÔNG có kiểu nào sau đây?",
+   "o": [
+    "Danh sách dấu đầu dòng",
+    "Danh sách có thứ tự",
+    "Danh sách kết hợp nhiều cấp",
+    "Danh sách tự sắp xếp theo vần"
+   ],
+   "a": [
+    3
+   ],
+   "e": "SGK chỉ nêu hai kiểu (dấu đầu dòng, có thứ tự), có thể kết hợp nhiều cấp; không có kiểu 'tự sắp xếp theo vần'.",
+   "r": "SGK Tin học 8 KNTT – Bài 8a"
+  },
+  {
+   "t": "s",
+   "q": "Khi nào nên dùng danh sách có thứ tự (Numbering)?",
+   "o": [
+    "Liệt kê các món đồ ngang hàng, không cần thứ tự",
+    "Liệt kê các bước thực hiện cần theo trình tự",
+    "Chèn hình ảnh vào văn bản",
+    "Đổi màu hình đồ hoạ"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Bẫy: danh sách ngang hàng dùng dấu đầu dòng; các bước tuần tự dùng đánh số.",
+   "r": "SGK Tin học 8 KNTT – Bài 8a"
+  },
+  {
+   "t": "s",
+   "q": "Đang gõ mục cuối của danh sách, nhấn Enter thì:",
+   "o": [
+    "Văn bản bị xoá",
+    "Tạo mục mới có số/dấu tự động tiếp theo",
+    "Chèn hình ảnh",
+    "Đóng danh sách và lưu tệp"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Enter tạo mục mới, số thứ tự tự cập nhật.",
+   "r": "SGK Tin học 8 KNTT – Bài 8a"
+  },
+  {
+   "t": "s",
+   "q": "Chèn thêm một mục vào giữa danh sách đã đánh số tự động, các số phía sau sẽ:",
+   "o": [
+    "Giữ nguyên, phải sửa tay",
+    "Tự động cập nhật lại",
+    "Bị xoá hết",
+    "Chuyển thành dấu đầu dòng"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Ưu điểm của đánh số tự động: tự cập nhật khi thêm/xoá mục; gõ số tay thì không.",
+   "r": "SGK Tin học 8 KNTT – Bài 8a"
+  },
+  {
+   "t": "s",
+   "q": "Lệnh chèn ảnh có sẵn trong tệp vào văn bản Word là:",
+   "o": [
+    "Insert → Pictures",
+    "Home → Bullets",
+    "Layout → Margins",
+    "Review → Spelling"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Insert → Pictures; Home → Bullets là danh sách.",
+   "r": "SGK Tin học 8 KNTT – Bài 8a"
+  },
+  {
+   "t": "s",
+   "q": "Muốn đặt ảnh nằm dưới chữ làm ảnh nền tờ rơi, chọn kiểu bao quanh:",
+   "o": [
+    "In Front of Text",
+    "Behind Text",
+    "Top and Bottom",
+    "Tight"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Bẫy: In Front of Text đặt ảnh che lên chữ; ảnh nền phải là Behind Text.",
+   "r": "SGK Tin học 8 KNTT – Bài 8a"
+  },
+  {
+   "t": "s",
+   "q": "Để phóng to ảnh mà không bị méo hình, ta kéo:",
+   "o": [
+    "Cạnh giữa của ảnh",
+    "Núm ở góc ảnh",
+    "Thanh cuộn",
+    "Thước kẻ"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Kéo núm góc giữ tỉ lệ; kéo núm cạnh làm méo.",
+   "r": "SGK Tin học 8 KNTT – Bài 8a"
+  },
+  {
+   "t": "s",
+   "q": "Hình đồ hoạ (mũi tên, hình chữ nhật...) được vẽ bằng lệnh:",
+   "o": [
+    "Insert → Pictures",
+    "Insert → Shapes",
+    "Home → Numbering",
+    "Insert → Table"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Pictures là ảnh có sẵn; Shapes là hình đồ hoạ tự vẽ.",
+   "r": "SGK Tin học 8 KNTT – Bài 8a"
+  },
+  {
+   "t": "s",
+   "q": "Đổi màu nền của hình đồ hoạ đã vẽ dùng lệnh:",
+   "o": [
+    "Shape Fill",
+    "Font Color",
+    "Wrap Text",
+    "Bullets"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Shape Fill tô màu hình; Font Color đổi màu chữ.",
+   "r": "SGK Tin học 8 KNTT – Bài 8a"
+  },
+  {
+   "t": "s",
+   "q": "Tác dụng chính của hình ảnh trong văn bản là:",
+   "o": [
+    "Làm tăng dung lượng tệp",
+    "Làm văn bản sinh động, dễ hiểu, thẩm mĩ",
+    "Thay thế hoàn toàn chữ",
+    "Tự kiểm tra chính tả"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Hình ảnh hỗ trợ nội dung, không thay thế chữ.",
+   "r": "SGK Tin học 8 KNTT – Bài 8a"
+  },
+  {
+   "t": "s",
+   "q": "Chatbot AI trả lời cách tạo danh sách trong Word. Việc làm ĐÚNG nhất của HS là:",
+   "o": [
+    "Chép nguyên văn, không cần kiểm tra",
+    "Đối chiếu với SGK/thực hành thử rồi mới dùng",
+    "Tin vì AI luôn đúng",
+    "Xoá câu trả lời"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Trách nhiệm giải trình khi dùng AI: kiểm chứng đầu ra.",
+   "r": "SGK Tin học 8 KNTT – Bài 8a"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các phát biểu ĐÚNG về danh sách dạng liệt kê:",
+   "o": [
+    "Có kiểu dấu đầu dòng và kiểu có thứ tự",
+    "Giúp văn bản rõ ràng, dễ đọc",
+    "Phải gõ số tay từng mục",
+    "Có thể kết hợp nhiều cấp"
+   ],
+   "a": [
+    0,
+    1,
+    3
+   ],
+   "e": "Bẫy: Word tự đánh số, không cần gõ tay.",
+   "r": "SGK Tin học 8 KNTT – Bài 8a"
+  },
+  {
+   "t": "m",
+   "q": "Các thao tác nào thực hiện được với ảnh đã chèn trong Word?",
+   "o": [
+    "Co dãn kích thước",
+    "Xoá ảnh bằng phím Delete",
+    "Đổi kiểu bao quanh (Wrap Text)",
+    "Biến ảnh thành danh sách"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Ảnh không thể biến thành danh sách.",
+   "r": "SGK Tin học 8 KNTT – Bài 8a"
+  },
+  {
+   "t": "m",
+   "q": "Tờ rơi tuyển thành viên theo bài gồm các lớp nào?",
+   "o": [
+    "Ảnh nền",
+    "Chữ nội dung",
+    "Hình đồ hoạ (mũi tên...)",
+    "Bảng tính"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Ba lớp: ảnh nền, chữ, hình đồ hoạ; bảng tính không thuộc nội dung này.",
+   "r": "SGK Tin học 8 KNTT – Bài 8a"
+  },
+  {
+   "t": "m",
+   "q": "Khi dùng ảnh trong sản phẩm học tập, việc nào thể hiện tôn trọng bản quyền?",
+   "o": [
+    "Ghi nguồn ảnh",
+    "Ghi chú ảnh tạo bằng AI",
+    "Xin phép khi dùng ảnh của bạn",
+    "Tải ảnh bất kì và nhận là của mình"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Không nhận ảnh người khác là của mình.",
+   "r": "SGK Tin học 8 KNTT – Bài 8a"
+  },
+  {
+   "t": "f",
+   "q": "Để đánh số tự động ta chọn mục rồi dùng lệnh Home → ____; để tạo dấu đầu dòng dùng ____.",
+   "a": [
+    [
+     "Numbering"
+    ],
+    [
+     "Bullets"
+    ]
+   ],
+   "o": [
+    [
+     "Numbering",
+     "Bullets"
+    ],
+    [
+     "Bullets",
+     "Numbering"
+    ],
+    [
+     "Shapes",
+     "Pictures"
+    ],
+    [
+     "Pictures",
+     "Shapes"
+    ]
+   ],
+   "k": 0,
+   "e": "Bẫy: đổi thứ tự hai lệnh.",
+   "r": "SGK Tin học 8 KNTT – Bài 8a"
+  },
+  {
+   "t": "f",
+   "q": "Chèn ảnh dùng Insert → ____; vẽ hình đồ hoạ dùng Insert → ____.",
+   "a": [
+    [
+     "Pictures"
+    ],
+    [
+     "Shapes"
+    ]
+   ],
+   "o": [
+    [
+     "Shapes",
+     "Pictures"
+    ],
+    [
+     "Pictures",
+     "Shapes"
+    ],
+    [
+     "Table",
+     "Shapes"
+    ],
+    [
+     "Pictures",
+     "Symbol"
+    ]
+   ],
+   "k": 1,
+   "e": "Pictures: ảnh; Shapes: hình đồ hoạ.",
+   "r": "SGK Tin học 8 KNTT – Bài 8a"
+  },
+  {
+   "t": "f",
+   "q": "Ảnh nền không che chữ cần chọn Wrap Text → ____; muốn mục con lùi sâu hơn một cấp nhấn phím ____.",
+   "a": [
+    [
+     "Behind Text"
+    ],
+    [
+     "Tab"
+    ]
+   ],
+   "o": [
+    [
+     "In Front of Text",
+     "Enter"
+    ],
+    [
+     "Behind Text",
+     "Enter"
+    ],
+    [
+     "Behind Text",
+     "Tab"
+    ],
+    [
+     "In Front of Text",
+     "Tab"
+    ]
+   ],
+   "k": 2,
+   "e": "Behind Text và Tab; Enter chỉ tạo mục mới.",
+   "r": "SGK Tin học 8 KNTT – Bài 8a"
+  },
+  {
+   "t": "f",
+   "q": "Nhấn ____ để tạo mục mới trong danh sách; đổi màu hình đồ hoạ dùng ____.",
+   "a": [
+    [
+     "Enter"
+    ],
+    [
+     "Shape Fill"
+    ]
+   ],
+   "o": [
+    [
+     "Tab",
+     "Shape Fill"
+    ],
+    [
+     "Enter",
+     "Font Color"
+    ],
+    [
+     "Delete",
+     "Shape Fill"
+    ],
+    [
+     "Enter",
+     "Shape Fill"
+    ]
+   ],
+   "k": 3,
+   "e": "Enter tạo mục; Shape Fill đổi màu hình.",
+   "r": "SGK Tin học 8 KNTT – Bài 8a"
+  },
+  {
+   "t": "f",
+   "q": "Xoá ảnh đã chọn bằng phím ____; kéo núm ở ____ ảnh để co dãn không méo.",
+   "a": [
+    [
+     "Delete"
+    ],
+    [
+     "góc",
+     "các góc"
+    ]
+   ],
+   "o": [
+    [
+     "Enter",
+     "góc"
+    ],
+    [
+     "Delete",
+     "cạnh"
+    ],
+    [
+     "Delete",
+     "góc"
+    ],
+    [
+     "Tab",
+     "cạnh"
+    ]
+   ],
+   "k": 2,
+   "e": "Delete xoá; núm góc giữ tỉ lệ.",
+   "r": "SGK Tin học 8 KNTT – Bài 8a"
+  },
+  {
+   "t": "f",
+   "q": "Danh sách ____ dùng cho các bước theo trình tự; danh sách ____ dùng cho các mục ngang hàng.",
+   "a": [
+    [
+     "có thứ tự"
+    ],
+    [
+     "dấu đầu dòng"
+    ]
+   ],
+   "o": [
+    [
+     "dấu đầu dòng",
+     "có thứ tự"
+    ],
+    [
+     "có thứ tự",
+     "dấu đầu dòng"
+    ],
+    [
+     "nhiều cấp",
+     "có thứ tự"
+    ],
+    [
+     "dấu đầu dòng",
+     "hình ảnh"
+    ]
+   ],
+   "k": 1,
+   "e": "Bẫy đảo hai kiểu danh sách.",
+   "r": "SGK Tin học 8 KNTT – Bài 8a"
+  }
+ ],
+ "tuluan": [
+  {
+   "q": "Câu 1 (3 điểm). Trình bày hai kiểu danh sách dạng liệt kê trong Word, cách tạo và khi nào dùng mỗi kiểu. Nêu một ví dụ.",
+   "a": [
+    "Hai kiểu: dấu đầu dòng (Bullets) và có thứ tự (Numbering); có thể kết hợp nhiều cấp.",
+    "Cách tạo: chọn các mục → Home → Bullets hoặc Numbering; Enter tạo mục mới; Tab lùi xuống cấp con.",
+    "Dấu đầu dòng cho mục ngang hàng; có thứ tự cho các bước theo trình tự.",
+    "Ưu điểm: số tự cập nhật khi thêm/xoá mục.",
+    "Ví dụ: danh sách đồ dùng học tập dùng Bullets; các bước nấu ăn dùng Numbering."
+   ]
+  },
+  {
+   "q": "Câu 2 (4 điểm). Nêu mục tiêu bài 'Làm việc với danh sách dạng liệt kê và hình ảnh trong văn bản' (Tin học 8) theo chương trình 2018.",
+   "a": [
+    "Kiến thức: nêu hai kiểu danh sách và tác dụng; tác dụng của hình ảnh, hình đồ hoạ; thực hiện chèn, xoá, co dãn, đổi lớp ảnh, vẽ, đổi màu hình đồ hoạ.",
+    "Kĩ năng: tạo được Phiếu khảo sát, tờ rơi tuyển thành viên có danh sách và hình ảnh.",
+    "Năng lực chung: tự chủ và tự học, giao tiếp và hợp tác.",
+    "Năng lực tin học: NLa, NLc, NLd (dùng phần mềm soạn thảo, tạo văn bản phù hợp mục đích); có thể nêu NLS 3.1.TC2.a, 3.2.TC2.a.",
+    "Phẩm chất: chăm chỉ, sáng tạo, thẩm mĩ, trung thực, tôn trọng nguồn ảnh."
+   ]
+  },
+  {
+   "q": "Câu 3 (3 điểm). Thiết kế một hoạt động tích hợp AI trong bài này để HS kiểm chứng đầu ra của chatbot và dùng ảnh có trách nhiệm.",
+   "a": [
+    "Mục tiêu: HS đối chiếu câu trả lời AI với SGK và nêu cách dùng ảnh có bản quyền.",
+    "Chuẩn bị: GV hỏi chatbot 'Nêu hai kiểu danh sách trong Word và cách tạo, ngắn gọn'.",
+    "Thực hiện: chiếu kết quả; cặp đôi đối chiếu SGK, đánh dấu ý đúng, ý thiếu (Enter, Tab, tự cập nhật số).",
+    "Báo cáo, thảo luận: có nên dùng ngay không; ảnh AI hoặc ảnh tải mạng cần làm gì.",
+    "Kết luận: phải kiểm chứng; ghi nguồn ảnh, ghi chú 'tạo bằng AI'; HS thêm dòng ghi chú vào tờ rơi."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,5879 @@
+{
+ "id": "CM8",
+ "ten": "Chuyên môn Tin học 8",
+ "so": "Chương trình môn Tin học 2018 – SGK Kết nối tri thức với cuộc sống",
+ "hieuluc": "",
+ "mota": "10 bài trong giới hạn thi: kiến thức, ví dụ, mẹo nhớ, khung giáo án, tích hợp AI, câu trắc nghiệm và tự luận.",
+ "baihoc": [
+  {
+   "id": "T8-B02",
+   "ten": "Bài 2. Thông tin trong môi trường số",
+   "tomtat": [
+    "**Thông tin số** là thông tin được lưu trữ, xử lí và truyền trên thiết bị số (ảnh, văn bản, âm thanh, video...).",
+    "Đặc điểm 1: **dễ nhân bản và lan truyền** – gửi ảnh cho bạn thì ảnh gốc vẫn còn; người nhận có thể chia sẻ tiếp.",
+    "Đặc điểm 2: **khó xoá bỏ hoàn toàn** – xoá ở một thiết bị nhưng bản sao có thể còn ở máy chủ, thiết bị người khác.",
+    "Đặc điểm 3: **truy cập từ xa** – chỉ cần có thiết bị và Internet là xem được ở bất cứ đâu; đặc điểm 4: **dễ chỉnh sửa** nên dễ bị làm sai lệch.",
+    "Thông tin số trong xã hội: **đa dạng, thu thập nhanh**; **lưu trữ dung lượng lớn**; có **công cụ hỗ trợ** tìm kiếm, chuyển đổi, xử lí.",
+    "Thông tin số có **bản quyền** (cần tôn trọng khi sử dụng) và có **độ tin cậy khác nhau**.",
+    "Thông tin đáng tin cậy giúp con người **quyết định đúng**; thông tin sai lệch có thể gây hậu quả xấu.",
+    "**3 dạng thông tin không đáng tin cậy**: (1) không trung thực, lừa dối; (2) đồn thổi; (3) kết luận thiếu căn cứ.",
+    "**4 cách xác định thông tin đáng tin cậy**: (1) xác định **nguồn**; (2) phân biệt **ý kiến** với **sự kiện**; (3) kiểm tra **chứng cứ**; (4) đánh giá **tính thời sự**.",
+    "**Sự kiện** có thể kiểm chứng; **ý kiến** là nhận xét chủ quan nên kém tin cậy hơn sự kiện. Nguồn chính thống thường tin cậy hơn blog cá nhân.",
+    "Cần **chia sẻ có trách nhiệm**: kiểm chứng trước khi chia sẻ; với nội dung do **AI tạo sinh** cần đối chiếu nguồn tin cậy."
+   ],
+   "ynho": [
+    "Thông tin số: dễ nhân bản, khó xoá, truy cập từ xa, dễ sửa",
+    "Thông tin số có bản quyền và độ tin cậy khác nhau",
+    "3 dạng tin không đáng tin cậy",
+    "4 cách: nguồn, ý kiến–sự kiện, chứng cứ, thời sự",
+    "Kiểm chứng nội dung AI trước khi dùng"
+   ],
+   "bang": [
+    {
+     "tieu_de": "Đặc điểm của thông tin số và ví dụ",
+     "cot": [
+      "Đặc điểm",
+      "Ý nghĩa",
+      "Ví dụ"
+     ],
+     "dong": [
+      [
+       "Dễ nhân bản, lan truyền",
+       "Sao chép nhanh, chia sẻ rộng",
+       "Gửi ảnh cho bạn, ảnh gốc vẫn còn"
+      ],
+      [
+       "Khó xoá bỏ hoàn toàn",
+       "Bản sao có thể còn ở nhiều nơi",
+       "Xoá ảnh ở máy nhưng còn trên máy chủ"
+      ],
+      [
+       "Truy cập từ xa",
+       "Không phụ thuộc vị trí",
+       "Xem tài liệu trên đám mây"
+      ],
+      [
+       "Dễ chỉnh sửa",
+       "Dễ bị làm sai lệch",
+       "Ảnh bị cắt ghép"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Thông tin không đáng tin cậy và cách xác định thông tin đáng tin cậy",
+     "cot": [
+      "3 dạng tin không đáng tin cậy",
+      "Ví dụ",
+      "4 cách xác định tin đáng tin cậy"
+     ],
+     "dong": [
+      [
+       "Không trung thực, lừa dối",
+       "Tin trúng thưởng, yêu cầu gửi mã OTP",
+       "Xác định nguồn"
+      ],
+      [
+       "Đồn thổi",
+       "'Nghe nói...' không có căn cứ",
+       "Phân biệt ý kiến với sự kiện"
+      ],
+      [
+       "Kết luận thiếu căn cứ",
+       "Kết luận từ vài trường hợp lẻ",
+       "Kiểm tra chứng cứ"
+      ],
+      [
+       "–",
+       "–",
+       "Đánh giá tính thời sự"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Khoa gửi ảnh cho An qua ứng dụng nhắn tin rồi xoá ảnh trong máy mình. Ảnh còn trên máy An và có thể còn trên máy chủ ứng dụng; An có thể chuyển tiếp cho người khác.",
+     "ket_luan": "→ Thông tin số dễ nhân bản, lan truyền, khó xoá bỏ hoàn toàn."
+    },
+    {
+     "tinh_huong": "Một tin nhắn báo 'Chúc mừng bạn trúng xe máy, bấm đường link và nhập mật khẩu để nhận thưởng'. Xếp dạng nào?",
+     "ket_luan": "→ Thông tin không trung thực, lừa dối; không bấm link, không cung cấp thông tin cá nhân."
+    },
+    {
+     "tinh_huong": "Hai câu: (a) 'Em đo được nhiệt độ phòng là 28 °C'; (b) 'Phòng học nóng quá'. Câu nào là sự kiện, câu nào là ý kiến?",
+     "ket_luan": "→ (a) sự kiện, kiểm chứng được bằng nhiệt kế; (b) ý kiến, cảm nhận chủ quan."
+    },
+    {
+     "tinh_huong": "Cần biết lịch thi cuối kì: một blog cá nhân đăng từ năm ngoái, trang web nhà trường đăng tuần này. Chọn nguồn nào?",
+     "ket_luan": "→ Chọn trang nhà trường: nguồn chính thống và có tính thời sự."
+    }
+   ],
+   "nho": [
+    "Thông tin số: NHÂN – XOÁ – TỪ XA – SỬA (nhân bản, khó xoá, truy cập từ xa, chỉnh sửa).",
+    "3 dạng tin xấu: LỪA – ĐỒN – THIẾU (lừa dối, đồn thổi, thiếu căn cứ).",
+    "4 cách kiểm tin: N-Y-C-T = Nguồn, Ý kiến/sự kiện, Chứng cứ, Thời sự."
+   ],
+   "bay": [
+    "Xoá ảnh trên máy KHÔNG có nghĩa là thông tin mất hoàn toàn.",
+    "Tin được chia sẻ nhiều không có nghĩa là tin đúng.",
+    "Ý kiến không phải là sự kiện; ý kiến kém tin cậy hơn sự kiện.",
+    "Ảnh, bài viết đăng công khai vẫn có bản quyền."
+   ],
+   "giaoan": [
+    "**Mục tiêu** – Kiến thức: nêu đặc điểm thông tin số (dễ nhân bản, lan truyền; khó xoá bỏ hoàn toàn; truy cập từ xa; dễ chỉnh sửa), các khía cạnh trong xã hội, 3 dạng tin không đáng tin cậy và 4 cách xác định tin đáng tin cậy; Năng lực: tự chủ và tự học, giao tiếp và hợp tác; năng lực tin học (NLc, NLd) – đánh giá được độ tin cậy của thông tin, chia sẻ có trách nhiệm; Phẩm chất: trung thực, trách nhiệm, tôn trọng bản quyền.",
+    "**Chuẩn bị** – GV: kế hoạch bài dạy, máy chiếu, SGK, phiếu học tập, thẻ Đúng/Sai, máy tính có chatbot AI; HS: SGK, vở ghi, bút.",
+    "**Hoạt động 1 – Mở đầu** – Mục tiêu: tạo hứng thú, nhận ra ảnh gửi đi vẫn còn bản gốc. Nội dung: tình huống Khoa gửi ảnh cho An (SGK tr.10). Sản phẩm: HS trả lời ảnh gốc vẫn còn, lưu ở nhiều nơi. Tổ chức: (1) chuyển giao – GV nêu tình huống, 3 câu hỏi; (2) thực hiện – HS nghĩ cá nhân, trao đổi cặp đôi; (3) báo cáo – 2 HS trả lời; (4) kết luận – GV dẫn vào bài.",
+    "**Hoạt động 2 – Hình thành kiến thức** – Mục tiêu: nêu đặc điểm thông tin số, khía cạnh trong xã hội, 3 dạng tin không đáng tin cậy, 4 cách xác định tin đáng tin cậy. Nội dung: đọc SGK, điền phiếu, kĩ thuật mảnh ghép. Sản phẩm: phiếu đã điền, bảng tóm tắt. Tổ chức: (1) giao nhiệm vụ cho nhóm; (2) HS đọc, thảo luận, chia sẻ; (3) đại diện báo cáo, nhóm khác nhận xét; (4) GV nhận xét, chốt theo hộp Ghi nhớ.",
+    "**Hoạt động 3 – Luyện tập** – Mục tiêu: củng cố đặc điểm thông tin số, đánh giá độ tin cậy. Nội dung: trò chơi giơ thẻ Đúng/Sai; Luyện tập 1, 2 (tr.13). Sản phẩm: đáp án Đúng/Sai có giải thích; bảng ứng dụng. Tổ chức: (1) phổ biến luật; (2) HS giơ thẻ, làm bảng; (3) báo cáo, giải thích; (4) GV nhận xét, tuyên dương.",
+    "**Hoạt động 4 – Vận dụng** – Mục tiêu: đánh giá nguồn tin, kiểm chứng câu trả lời chatbot AI bằng SGK. Nội dung: Vận dụng 1, 2, 3 và hoạt động AI. Sản phẩm: lập luận chọn nguồn tin cậy; chỉ ra nhận định AI sai. Tổ chức: (1) giao nhiệm vụ; (2) HS đối chiếu SGK; (3) báo cáo, thảo luận; (4) GV chốt, nhắc dùng AI trung thực.",
+    "**Kiểm tra đánh giá** – Quan sát, vấn đáp, đánh giá phiếu học tập và sản phẩm nhóm; câu hỏi trắc nghiệm ngắn/vé ra cửa; tiêu chí: nêu đúng đặc điểm, 4 cách kiểm tin, giải thích có căn cứ."
+   ],
+   "ai": [
+    "GV nhập câu lệnh vào chatbot (ví dụ 'Nêu đặc điểm của thông tin số và cách xác định độ tin cậy'), chiếu câu trả lời; HS đối chiếu SGK tìm nhận định sai.",
+    "HS hiểu AI tạo sinh có thể trả lời sai, thiếu nguồn; áp dụng 4 cách kiểm tin (nguồn, chứng cứ, thời sự) cho nội dung AI.",
+    "Đạo đức AI: ghi rõ khi dùng AI, không nhận là sản phẩm của mình, không đưa dữ liệu cá nhân vào chatbot, tôn trọng bản quyền."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Khi Khoa gửi ảnh cho An qua Internet, ảnh trong máy của Khoa như thế nào?",
+     "o": [
+      "Vẫn còn nguyên (ảnh được nhân bản)",
+      "Bị mất vì đã chuyển đi",
+      "Tự động bị xoá sau 24 giờ",
+      "Bị giảm chất lượng ở máy gửi"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Thông tin số dễ nhân bản; gửi đi không làm mất bản gốc. Bẫy: nghĩ như gửi vật thật.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    },
+    {
+     "t": "s",
+     "q": "Đặc điểm nào sau đây KHÔNG phải của thông tin số?",
+     "o": [
+      "Dễ nhân bản và lan truyền",
+      "Khi xoá khỏi một thiết bị là mất hoàn toàn trên mọi nơi",
+      "Có thể truy cập từ xa",
+      "Dễ bị chỉnh sửa"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Thông tin số khó xoá bỏ hoàn toàn vì có thể đã được sao chép ở nhiều nơi. Bẫy: câu hỏi phủ định.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    },
+    {
+     "t": "s",
+     "q": "Việc có thể xem tài liệu lưu trên đám mây từ bất cứ nơi đâu có Internet thể hiện đặc điểm nào của thông tin số?",
+     "o": [
+      "Dễ nhân bản",
+      "Khó xoá bỏ hoàn toàn",
+      "Truy cập từ xa",
+      "Có bản quyền"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Đây là đặc điểm truy cập từ xa. Bẫy: nhầm với nhân bản.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    },
+    {
+     "t": "s",
+     "q": "Một bức ảnh bị ghép, cắt, thay đổi nội dung rồi đăng lại minh hoạ đặc điểm nào?",
+     "o": [
+      "Thông tin số khó nhân bản",
+      "Thông tin số có độ tin cậy tuyệt đối",
+      "Thông tin số không lan truyền được",
+      "Thông tin số dễ bị chỉnh sửa"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Thông tin số dễ chỉnh sửa nên có thể bị làm sai lệch.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    },
+    {
+     "t": "s",
+     "q": "Phát biểu nào đúng về thông tin số trong xã hội?",
+     "o": [
+      "Thông tin số có bản quyền, cần tôn trọng khi sử dụng",
+      "Ảnh trên Internet được tự do dùng cho mọi mục đích",
+      "Mọi thông tin trên Internet đều đáng tin cậy như nhau",
+      "Chỉ có một dạng thông tin số là văn bản"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Thông tin số có bản quyền. Bẫy: 'đã đăng công khai là dùng tự do'.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    },
+    {
+     "t": "s",
+     "q": "Tin nhắn 'Bạn trúng thưởng điện thoại, hãy gửi mã OTP để nhận quà' thuộc dạng thông tin nào?",
+     "o": [
+      "Thông tin có tính thời sự",
+      "Không trung thực, lừa dối",
+      "Sự kiện đã được kiểm chứng",
+      "Thông tin đáng tin cậy"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Đây là thông tin nhằm lừa đảo. Bẫy: bị hấp dẫn bởi từ 'trúng thưởng'.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    },
+    {
+     "t": "s",
+     "q": "Câu 'Nghe nói quán X dùng nguyên liệu bẩn' (không có căn cứ) thuộc dạng nào?",
+     "o": [
+      "Sự kiện",
+      "Thông tin đã kiểm chứng",
+      "Đồn thổi",
+      "Thông tin có nguồn chính thống"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Cụm 'nghe nói' là dấu hiệu tin đồn thổi.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    },
+    {
+     "t": "s",
+     "q": "Cách nào giúp xác định thông tin đáng tin cậy?",
+     "o": [
+      "Xem thông tin được chia sẻ nhiều lần",
+      "Chọn thông tin có tiêu đề giật gân",
+      "Tin vào người đăng đầu tiên",
+      "Xác định nguồn của thông tin"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Nguồn tin chính thống là cách đầu tiên. Bẫy: lượt chia sẻ nhiều không có nghĩa là đúng.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    },
+    {
+     "t": "s",
+     "q": "Câu nào dưới đây là SỰ KIỆN?",
+     "o": [
+      "Hà Nội là thủ đô của Việt Nam",
+      "Mùa thu Hà Nội đẹp nhất",
+      "Tôi nghĩ môn Tin học rất hay",
+      "Có lẽ ngày mai trời sẽ mưa"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Sự kiện có thể kiểm chứng; còn lại là ý kiến, cảm nhận, dự đoán.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    },
+    {
+     "t": "s",
+     "q": "Thông tin về giá vé tàu năm cũ, nay đã thay đổi, thiếu đặc điểm nào của thông tin đáng tin cậy?",
+     "o": [
+      "Tính bản quyền",
+      "Tính thời sự (cập nhật)",
+      "Tính truy cập từ xa",
+      "Tính nhân bản"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Cần kiểm tra thời điểm đăng/cập nhật thông tin.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    },
+    {
+     "t": "s",
+     "q": "Trong các nguồn sau, nguồn nào thường đáng tin cậy hơn khi tìm thông tin về quy chế thi?",
+     "o": [
+      "Blog cá nhân không rõ tác giả",
+      "Bình luận trên mạng xã hội",
+      "Trang thông tin chính thức của Bộ Giáo dục và Đào tạo",
+      "Tin nhắn chuyển tiếp trong nhóm chat"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Nguồn chính thống thường đáng tin cậy hơn blog cá nhân.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    },
+    {
+     "t": "s",
+     "q": "Khi dùng chatbot AI để tra cứu kiến thức, em nên làm gì?",
+     "o": [
+      "Sao chép nguyên văn vì AI luôn đúng",
+      "Chỉ cần hỏi lại AI một lần nữa",
+      "Không cần ghi chú việc dùng AI",
+      "Đối chiếu với nguồn tin cậy như SGK trước khi dùng"
+     ],
+     "a": [
+      3
+     ],
+     "e": "AI tạo sinh có thể sai; cần kiểm chứng. Bẫy: hỏi lại AI không phải kiểm chứng độc lập.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    },
+    {
+     "t": "m",
+     "q": "Những đặc điểm nào là của thông tin số?",
+     "o": [
+      "Dễ nhân bản, lan truyền",
+      "Có thể truy cập từ xa",
+      "Khó xoá bỏ hoàn toàn",
+      "Chỉ tồn tại ở một thiết bị duy nhất"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Thông tin số có thể nằm ở nhiều nơi, không chỉ một thiết bị.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    },
+    {
+     "t": "m",
+     "q": "Những cách nào giúp xác định thông tin đáng tin cậy?",
+     "o": [
+      "Xác định nguồn",
+      "Phân biệt ý kiến với sự kiện",
+      "Kiểm tra chứng cứ",
+      "Chọn tin được nhiều người chia sẻ nhất"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Có 4 cách: nguồn, ý kiến–sự kiện, chứng cứ, tính thời sự. Lượt chia sẻ không phải tiêu chí.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    },
+    {
+     "t": "m",
+     "q": "Những dạng nào là thông tin không đáng tin cậy?",
+     "o": [
+      "Thông tin không trung thực, lừa dối",
+      "Thông tin đồn thổi",
+      "Kết luận thiếu căn cứ",
+      "Thông tin có nguồn chính thống, kiểm chứng được"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Ba dạng không đáng tin cậy; phương án D là tin đáng tin cậy.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    },
+    {
+     "t": "m",
+     "q": "Những khía cạnh nào của thông tin số trong xã hội được nêu ở bài?",
+     "o": [
+      "Đa dạng, thu thập nhanh",
+      "Lưu trữ dung lượng lớn",
+      "Có công cụ tìm kiếm, chuyển đổi, xử lí",
+      "Luôn miễn phí và không có bản quyền"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Thông tin số có bản quyền; phương án D sai.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    },
+    {
+     "t": "f",
+     "q": "Thông tin số dễ ____ và ____ , nhưng khó ____ hoàn toàn.",
+     "a": [
+      [
+       "nhân bản"
+      ],
+      [
+       "lan truyền"
+      ],
+      [
+       "xoá bỏ"
+      ]
+     ],
+     "o": [
+      [
+       "chỉnh sửa",
+       "lan truyền",
+       "xoá bỏ"
+      ],
+      [
+       "nhân bản",
+       "lan truyền",
+       "xoá bỏ"
+      ],
+      [
+       "nhân bản",
+       "lan truyền",
+       "tạo ra"
+      ],
+      [
+       "xoá bỏ",
+       "nhân bản",
+       "lan truyền"
+      ]
+     ],
+     "k": 1,
+     "e": "Bẫy: đổi vị trí/từ gần nghĩa.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    },
+    {
+     "t": "f",
+     "q": "Có ____ cách xác định thông tin đáng tin cậy và ____ dạng thông tin không đáng tin cậy.",
+     "a": [
+      [
+       "4"
+      ],
+      [
+       "3"
+      ]
+     ],
+     "o": [
+      [
+       "4",
+       "3"
+      ],
+      [
+       "3",
+       "4"
+      ],
+      [
+       "4",
+       "4"
+      ],
+      [
+       "3",
+       "3"
+      ]
+     ],
+     "k": 0,
+     "e": "Bẫy: đổi số, đảo 4 và 3.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    },
+    {
+     "t": "f",
+     "q": "Cách xác định thông tin đáng tin cậy: xác định ____ , phân biệt ý kiến với ____ , kiểm tra ____ , đánh giá tính thời sự.",
+     "a": [
+      [
+       "nguồn"
+      ],
+      [
+       "sự kiện"
+      ],
+      [
+       "chứng cứ"
+      ]
+     ],
+     "o": [
+      [
+       "sự kiện",
+       "nguồn",
+       "chứng cứ"
+      ],
+      [
+       "nguồn",
+       "chứng cứ",
+       "sự kiện"
+      ],
+      [
+       "chứng cứ",
+       "nguồn",
+       "sự kiện"
+      ],
+      [
+       "nguồn",
+       "sự kiện",
+       "chứng cứ"
+      ]
+     ],
+     "k": 3,
+     "e": "Bẫy: đổi thứ tự các từ.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    },
+    {
+     "t": "f",
+     "q": "____ là phát biểu về điều có thật, kiểm chứng được; ____ là nhận xét, cảm nhận chủ quan của người nói.",
+     "a": [
+      [
+       "Sự kiện"
+      ],
+      [
+       "Ý kiến"
+      ]
+     ],
+     "o": [
+      [
+       "Ý kiến",
+       "Sự kiện"
+      ],
+      [
+       "Sự kiện",
+       "Sự kiện"
+      ],
+      [
+       "Sự kiện",
+       "Ý kiến"
+      ],
+      [
+       "Ý kiến",
+       "Ý kiến"
+      ]
+     ],
+     "k": 2,
+     "e": "Bẫy: đảo hai khái niệm.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    },
+    {
+     "t": "f",
+     "q": "Ảnh gửi qua mạng cho bạn thì ảnh gốc ____ ; xoá ảnh trên máy mình thì bản sao trên máy chủ ____ .",
+     "a": [
+      [
+       "vẫn còn"
+      ],
+      [
+       "có thể vẫn còn"
+      ]
+     ],
+     "o": [
+      [
+       "mất đi",
+       "bị xoá luôn"
+      ],
+      [
+       "vẫn còn",
+       "có thể vẫn còn"
+      ],
+      [
+       "vẫn còn",
+       "chắc chắn mất"
+      ],
+      [
+       "bị mờ",
+       "vẫn còn"
+      ]
+     ],
+     "k": 1,
+     "e": "Thông tin số khó xoá bỏ hoàn toàn.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    },
+    {
+     "t": "f",
+     "q": "Thông tin số có ____ , vì vậy khi dùng ảnh, bài viết của người khác cần ____ tác giả.",
+     "a": [
+      [
+       "bản quyền"
+      ],
+      [
+       "tôn trọng"
+      ]
+     ],
+     "o": [
+      [
+       "bản quyền",
+       "tôn trọng"
+      ],
+      [
+       "độ tin cậy",
+       "tôn trọng"
+      ],
+      [
+       "bản quyền",
+       "bỏ qua"
+      ],
+      [
+       "tính thời sự",
+       "sao chép"
+      ]
+     ],
+     "k": 0,
+     "e": "Bẫy: nghĩ thông tin công khai thì dùng tự do.",
+     "r": "SGK Tin học 8 KNTT – Bài 2"
+    }
+   ],
+   "tuluan": [
+    {
+     "q": "Câu 1 (2 điểm). Nêu các đặc điểm của thông tin số và cho ví dụ minh hoạ cho mỗi đặc điểm.",
+     "a": [
+      "Dễ nhân bản, lan truyền: gửi ảnh cho bạn, ảnh gốc vẫn còn, bạn chia sẻ tiếp.",
+      "Khó xoá bỏ hoàn toàn: xoá ảnh ở máy nhưng còn trên máy chủ hoặc thiết bị người khác.",
+      "Truy cập từ xa: xem tệp trên đám mây ở bất cứ đâu có Internet.",
+      "Dễ chỉnh sửa: ảnh, văn bản dễ bị cắt ghép, thay đổi nên có thể sai lệch.",
+      "Ngoài ra trong xã hội: đa dạng, lưu trữ lớn, có công cụ hỗ trợ, có bản quyền, độ tin cậy khác nhau."
+     ]
+    },
+    {
+     "q": "Câu 2 (3 điểm). Nêu mục tiêu bài 'Thông tin trong môi trường số' (Tin học 8) theo chương trình 2018 và thiết kế hoạt động mở đầu của bài.",
+     "a": [
+      "Kiến thức: nêu đặc điểm thông tin số; 3 dạng tin không đáng tin cậy; 4 cách xác định tin đáng tin cậy.",
+      "Năng lực: tự chủ, tự học, giao tiếp, hợp tác; năng lực tin học – đánh giá độ tin cậy, chia sẻ có trách nhiệm.",
+      "Phẩm chất: trung thực, trách nhiệm, tôn trọng bản quyền.",
+      "HĐ mở đầu – mục tiêu: tạo hứng thú, nhận ra ảnh gửi đi vẫn còn bản gốc; nội dung: tình huống Khoa gửi ảnh cho An (SGK tr.10).",
+      "Tổ chức 4 bước: chuyển giao câu hỏi; HS nghĩ và trao đổi cặp đôi; báo cáo; GV kết luận, dẫn vào bài. Sản phẩm: ảnh gốc vẫn còn, lưu ở nhiều nơi."
+     ]
+    },
+    {
+     "q": "Câu 3 (3 điểm). Một nhóm bạn nhận tin 'Uống nước chanh nóng chữa khỏi bệnh X, bạn hãy chuyển cho 10 người'. Hãy đánh giá độ tin cậy, nêu cách xử lí, và đề xuất cách tích hợp AI để HS kiểm chứng.",
+     "a": [
+      "Tin thiếu nguồn, kêu gọi chia sẻ, kết luận thiếu căn cứ: thuộc dạng không đáng tin cậy.",
+      "Áp dụng 4 cách: xác định nguồn (không rõ); phân biệt ý kiến/sự kiện; kiểm tra chứng cứ khoa học (không có); tính thời sự (không ghi ngày).",
+      "Xử lí: không chia sẻ, kiểm tra trên trang chính thống (y tế), báo cho người lớn.",
+      "Tích hợp AI: HS hỏi chatbot rồi đối chiếu nguồn chính thống/SGK, tìm chỗ AI sai hoặc thiếu nguồn.",
+      "Giáo dục: AI không thay thế kiểm chứng; ghi rõ khi dùng AI, không đưa thông tin cá nhân; chia sẻ có trách nhiệm."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T8-B04",
+   "ten": "Bài 4. Đạo đức và văn hoá trong sử dụng công nghệ kĩ thuật số",
+   "tomtat": [
+    "Khi dùng công nghệ số, em có thể mắc các **biểu hiện vi phạm** thuộc 3 nhóm: **vi phạm pháp luật, bản quyền**; **vi phạm đạo đức, quyền riêng tư**; **thiếu văn hoá**.",
+    "**Pháp luật, bản quyền**: tải, phát tán nhạc, phim **lậu**; dùng phần mềm **bẻ khoá** (crack).",
+    "**Đạo đức, quyền riêng tư**: **ghi âm trái phép**; đăng thông tin, hình ảnh của người khác khi chưa được phép.",
+    "**Thiếu văn hoá**: quay phim, chụp ảnh ở nơi cấm (ví dụ **trong rạp chiếu phim**).",
+    "**3 điều lưu ý**: (1) **tìm hiểu quy định** liên quan; (2) **chỉ sử dụng sản phẩm khi được phép**; (3) **hầu hết thông tin trên Internet có bản quyền**.",
+    "Sản phẩm số em tạo ra cần đáp ứng **4 yêu cầu**: **trung thực**; **tự tạo nội dung**; **có đạo đức, văn hoá**; **không vi phạm pháp luật**.",
+    "Khi dùng sản phẩm của người khác (ảnh, bài viết...) phải **xin phép** và **ghi tên tác giả/nguồn**; sửa ảnh người khác rồi đăng như của mình là **thiếu trung thực**.",
+    "Tình huống mở đầu An – Khoa: cách đúng là **xin phép Khoa và ghi tên tác giả**.",
+    "Khi dùng **AI**, cần **kiểm chứng** câu trả lời bằng nguồn tin cậy (như SGK) và **khai báo** có dùng AI.",
+    "AI có thể sai, thiếu cơ sở; **người dùng chịu trách nhiệm** về nội dung mình sử dụng (**trách nhiệm giải trình**, NL 8.A3.3)."
+   ],
+   "ynho": [
+    "3 nhóm vi phạm: pháp luật, đạo đức, thiếu văn hoá",
+    "3 lưu ý: tìm hiểu quy định – xin phép – thông tin mạng có bản quyền",
+    "4 yêu cầu: trung thực, tự tạo, đạo đức văn hoá, đúng pháp luật",
+    "Dùng của người khác: xin phép, ghi nguồn",
+    "Dùng AI: kiểm chứng và khai báo; người dùng chịu trách nhiệm"
+   ],
+   "bang": [
+    {
+     "tieu_de": "Phân loại biểu hiện vi phạm",
+     "cot": [
+      "Nhóm",
+      "Ví dụ",
+      "Dấu hiệu"
+     ],
+     "dong": [
+      [
+       "Pháp luật, bản quyền",
+       "Tải nhạc, phim lậu; dùng phần mềm bẻ khoá",
+       "Dùng sản phẩm không được phép"
+      ],
+      [
+       "Đạo đức, quyền riêng tư",
+       "Ghi âm trái phép; đăng thông tin người khác",
+       "Xâm phạm đời tư người khác"
+      ],
+      [
+       "Thiếu văn hoá",
+       "Quay phim trong rạp; chụp ảnh nơi cấm",
+       "Ứng xử thiếu lịch sự nơi công cộng"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Dùng sản phẩm số của người khác",
+     "cot": [
+      "Cách làm",
+      "Đánh giá"
+     ],
+     "dong": [
+      [
+       "Xin phép + ghi tên tác giả",
+       "Đúng, trung thực"
+      ],
+      [
+       "Sửa rồi đăng như của mình",
+       "Sai, thiếu trung thực"
+      ],
+      [
+       "Dùng khi chưa được phép",
+       "Có thể vi phạm pháp luật"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "An chụp lại ảnh của Khoa, chỉnh màu rồi đăng lên trang lớp mà không nói gì. Khoa phản đối.",
+     "ket_luan": "→ An thiếu trung thực, thiếu tôn trọng; cần xin phép và ghi tên Khoa."
+    },
+    {
+     "tinh_huong": "Em muốn xem phim mới, thấy trang web chiếu phim miễn phí không rõ nguồn.",
+     "ket_luan": "→ Có thể là phim lậu (vi phạm bản quyền); nên xem nguồn hợp pháp."
+    },
+    {
+     "tinh_huong": "Bạn quay lén video ở rạp chiếu phim để đăng mạng.",
+     "ket_luan": "→ Thiếu văn hoá và có thể vi phạm pháp luật; không nên làm."
+    },
+    {
+     "tinh_huong": "HS hỏi chatbot về một khái niệm, chép nguyên văn vào bài mà không kiểm tra.",
+     "ket_luan": "→ Chưa có trách nhiệm giải trình: cần đối chiếu SGK, khai báo có dùng AI."
+    }
+   ],
+   "nho": [
+    "Nhóm vi phạm: PL – ĐĐ – VH (Pháp luật, Đạo đức, Văn hoá).",
+    "3 lưu ý: Hiểu – Hỏi phép – Hãy nhớ có bản quyền.",
+    "4 yêu cầu: Thật – Tự – Tử tế – Tuân luật.",
+    "Dùng của người: Xin – Ghi."
+   ],
+   "bay": [
+    "Lẫn 'thiếu văn hoá' với 'vi phạm pháp luật': quay phim trong rạp thuộc nhóm thiếu văn hoá.",
+    "Nghĩ thông tin trên mạng miễn phí là dùng tự do: thực tế hầu hết có bản quyền.",
+    "Sửa ảnh người khác vẫn phải xin phép và ghi nguồn.",
+    "Cho rằng AI chịu trách nhiệm: người dùng mới chịu trách nhiệm."
+   ],
+   "giaoan": [
+    "**Mục tiêu** – Kiến thức: nêu được biểu hiện vi phạm đạo đức, pháp luật, thiếu văn hoá; 3 điều lưu ý; 4 yêu cầu sản phẩm số; Năng lực: tự chủ, tự học; giao tiếp, hợp tác; NLb nhận diện tình huống không phù hợp, NLd tạo sản phẩm số trung thực, ghi nguồn; NLS 2.5.TC2.a, 3.3.TC2.a, 4.2.TC2.b; NL AI 8.A3.3; Phẩm chất: trách nhiệm, trung thực, tôn trọng pháp luật, bản quyền.",
+    "**Chuẩn bị** – GV: kế hoạch bài dạy, máy chiếu, hình 4.1–4.3, phiếu học tập; HS: SGK, vở, đọc trước bài.",
+    "**Hoạt động 1 – Mở đầu** (5 phút): Mục tiêu: nhận ra phải xin phép, ghi tên tác giả. Nội dung: tình huống An – Khoa. Sản phẩm: chọn cách xin phép, ghi tên. Tổ chức: (1) GV chiếu tình huống; (2) HS suy nghĩ, chia sẻ cặp đôi; (3) 2 HS báo cáo; (4) GV kết luận, dẫn vào bài.",
+    "**Hoạt động 2 – Hình thành kiến thức** (20 phút): Mục tiêu: nêu biểu hiện vi phạm, 3 lưu ý, 4 yêu cầu. Nội dung: 2.1 biểu hiện vi phạm; 2.2 trung thực khi tạo sản phẩm số. Sản phẩm: bảng 3 nhóm vi phạm, 3 lưu ý, 4 yêu cầu. Tổ chức: (1) GV giao nhiệm vụ nhóm (khăn trải bàn); (2) HS đọc SGK, thảo luận điền phiếu; (3) nhóm báo cáo, lớp bổ sung; (4) GV nhận xét, chốt.",
+    "**Hoạt động 3 – Luyện tập** (10 phút): Mục tiêu: phân biệt hành động vi phạm hay không. Nội dung: 6 hành động a–f (SGK), giơ thẻ; GV hỏi chatbot về web phim không bản quyền để HS đối chiếu SGK. Sản phẩm: xác định đúng a, c, e, f vi phạm; b, d không; nhận xét độ tin cậy của AI. Tổ chức: (1) GV nêu luật chơi; (2) HS giơ thẻ, giải thích; (3) thảo luận; (4) GV chốt, nhấn mạnh kiểm chứng, khai báo AI.",
+    "**Hoạt động 4 – Vận dụng** (10 phút): Mục tiêu: thiết kế sản phẩm số có đạo đức, văn hoá. Nội dung: phác thảo khẩu hiệu/áp phích nhắc bạn dùng công nghệ số đúng chuẩn mực, ghi dòng khai báo AI. Sản phẩm: khẩu hiệu đúng chuẩn mực. Tổ chức: (1) GV giao việc; (2) HS phác thảo, tự kiểm tra theo 4 yêu cầu; (3) trình bày 1 phút; (4) GV nhận xét, dặn hoàn thiện ở nhà.",
+    "**Kiểm tra đánh giá** – Quan sát tham gia nhóm; phiếu học tập; hỏi đáp, giơ thẻ; sản phẩm khẩu hiệu/áp phích theo tiêu chí 4 yêu cầu; câu hỏi trắc nghiệm ngắn."
+   ],
+   "ai": [
+    "GV dùng chatbot hỏi về web phim không bản quyền để HS đối chiếu SGK, thảo luận độ tin cậy (NL 8.A3.3).",
+    "HS kiểm chứng câu trả lời của AI bằng SGK/nguồn tin cậy, không chép nguyên văn.",
+    "Đạo đức AI: ghi dòng khai báo 'có/không dùng AI, ở phần nào'; người dùng chịu trách nhiệm."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Hành động nào sau đây là biểu hiện vi phạm pháp luật, bản quyền khi dùng công nghệ số?",
+     "o": [
+      "Tải phim, nhạc lậu về máy và chia sẻ cho bạn bè",
+      "Xin phép bạn rồi đăng ảnh của bạn lên mạng",
+      "Ghi rõ nguồn khi trích dẫn thông tin",
+      "Dùng phần mềm có giấy phép hợp lệ"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Tải, phát tán nhạc, phim lậu là vi phạm bản quyền (pháp luật).",
+     "r": "SGK Tin học 8 KNTT – Bài 4"
+    },
+    {
+     "t": "s",
+     "q": "Quay phim, chụp ảnh ở nơi có biển cấm (ví dụ trong rạp chiếu phim) chủ yếu là biểu hiện của hành vi nào?",
+     "o": [
+      "Hoàn toàn đúng chuẩn mực",
+      "Thiếu văn hoá (và có thể vi phạm quy định)",
+      "Chỉ là lỗi kĩ thuật của thiết bị",
+      "Việc làm bắt buộc khi dùng công nghệ số"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Bẫy: HS hay lẫn thiếu văn hoá với vi phạm pháp luật; SGK xếp quay phim trong rạp vào nhóm thiếu văn hoá.",
+     "r": "SGK Tin học 8 KNTT – Bài 4"
+    },
+    {
+     "t": "s",
+     "q": "Theo SGK, hầu hết thông tin trên Internet như thế nào?",
+     "o": [
+      "Không có bản quyền, ai cũng được dùng tự do",
+      "Chỉ có ảnh mới có bản quyền",
+      "Có bản quyền, muốn dùng phải được phép",
+      "Chỉ có thông tin trả phí mới có bản quyền"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Đây là điều lưu ý thứ 3. Bẫy: nghĩ thông tin miễn phí trên mạng là tự do sử dụng.",
+     "r": "SGK Tin học 8 KNTT – Bài 4"
+    },
+    {
+     "t": "s",
+     "q": "Ghi âm cuộc trò chuyện của người khác mà không được họ đồng ý là hành vi vi phạm điều gì?",
+     "o": [
+      "Quy tắc đặt tên tệp",
+      "Giới hạn dung lượng bộ nhớ",
+      "Quy định về phần cứng",
+      "Đạo đức và quyền riêng tư của người khác"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Ghi âm trái phép xâm phạm quyền riêng tư, vi phạm đạo đức.",
+     "r": "SGK Tin học 8 KNTT – Bài 4"
+    },
+    {
+     "t": "s",
+     "q": "Việc dùng phần mềm bẻ khoá (crack) để dùng miễn phí phần mềm có bản quyền là gì?",
+     "o": [
+      "Hành động tiết kiệm được khuyến khích",
+      "Vi phạm bản quyền, vi phạm pháp luật",
+      "Hành vi chỉ thiếu văn hoá, không liên quan pháp luật",
+      "Cách sử dụng phần mềm hợp lệ"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Bẻ khoá là vi phạm bản quyền. Bẫy: chỉ coi là 'thiếu văn hoá'.",
+     "r": "SGK Tin học 8 KNTT – Bài 4"
+    },
+    {
+     "t": "s",
+     "q": "Điều lưu ý nào sau đây KHÔNG nằm trong 3 điều lưu ý để tránh vi phạm khi dùng công nghệ số?",
+     "o": [
+      "Tìm hiểu các quy định liên quan",
+      "Chỉ sử dụng sản phẩm khi được phép",
+      "Cứ dùng trước, bị nhắc nhở thì xin phép sau",
+      "Nhớ hầu hết thông tin trên Internet có bản quyền"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Phải xin phép TRƯỚC khi sử dụng, không phải sau.",
+     "r": "SGK Tin học 8 KNTT – Bài 4"
+    },
+    {
+     "t": "s",
+     "q": "Khi dùng ảnh do bạn chụp để làm bài trình chiếu, em nên làm gì để đúng chuẩn mực?",
+     "o": [
+      "Xoá tên bạn, ghi tên mình",
+      "Chỉ cần sửa nhẹ ảnh là thành của mình",
+      "Không cần làm gì vì ảnh trên máy em",
+      "Xin phép bạn và ghi tên tác giả"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Sửa ảnh người khác vẫn phải xin phép và ghi nguồn (tình huống An – Khoa).",
+     "r": "SGK Tin học 8 KNTT – Bài 4"
+    },
+    {
+     "t": "s",
+     "q": "Yêu cầu nào KHÔNG thuộc 4 yêu cầu đối với sản phẩm số trung thực, có đạo đức, văn hoá?",
+     "o": [
+      "Sản phẩm phải càng giống sản phẩm người khác càng tốt",
+      "Trung thực",
+      "Tự tạo nội dung",
+      "Không vi phạm pháp luật"
+     ],
+     "a": [
+      0
+     ],
+     "e": "4 yêu cầu: trung thực; tự tạo; có đạo đức, văn hoá; không vi phạm pháp luật.",
+     "r": "SGK Tin học 8 KNTT – Bài 4"
+    },
+    {
+     "t": "s",
+     "q": "Khi dùng chatbot AI để tìm hiểu thông tin, người dùng cần làm gì?",
+     "o": [
+      "Tin hoàn toàn vì AI luôn đúng",
+      "Kiểm chứng bằng nguồn tin cậy và khai báo có dùng AI",
+      "Xoá dấu vết dùng AI để không bị nghi ngờ",
+      "Chuyển trách nhiệm cho AI nếu sai"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Năng lực 8.A3.3: trách nhiệm giải trình – kiểm tra độ chính xác và khai báo.",
+     "r": "SGK Tin học 8 KNTT – Bài 4"
+    },
+    {
+     "t": "s",
+     "q": "Nếu nội dung do AI tạo ra có sai sót và em đã nộp bài, ai chịu trách nhiệm?",
+     "o": [
+      "Người sử dụng (em)",
+      "Chatbot AI",
+      "Nhà sản xuất máy tính",
+      "Không ai phải chịu trách nhiệm"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Bẫy: AI không chịu trách nhiệm; người dùng chịu trách nhiệm.",
+     "r": "SGK Tin học 8 KNTT – Bài 4"
+    },
+    {
+     "t": "m",
+     "q": "Những hành động nào sau đây là biểu hiện vi phạm khi dùng công nghệ số?",
+     "o": [
+      "Xin phép tác giả trước khi dùng ảnh",
+      "Tải phim lậu về xem",
+      "Trích dẫn đoạn văn và ghi rõ nguồn",
+      "Đăng thông tin cá nhân của bạn khi chưa được phép"
+     ],
+     "a": [
+      1,
+      3
+     ],
+     "e": "Tải phim lậu vi phạm bản quyền; đăng thông tin người khác vi phạm quyền riêng tư. Xin phép, ghi nguồn là đúng.",
+     "r": "SGK Tin học 8 KNTT – Bài 4"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các yêu cầu đúng đối với sản phẩm số mà em tạo ra:",
+     "o": [
+      "Trung thực",
+      "Có thể sao chép nguyên bản của người khác nếu ghi tên mình",
+      "Không vi phạm pháp luật",
+      "Có đạo đức, văn hoá"
+     ],
+     "a": [
+      0,
+      2,
+      3
+     ],
+     "e": "Sao chép của người khác rồi ghi tên mình là thiếu trung thực.",
+     "r": "SGK Tin học 8 KNTT – Bài 4"
+    },
+    {
+     "t": "m",
+     "q": "Những việc nào cho thấy HS thể hiện trách nhiệm giải trình khi dùng AI?",
+     "o": [
+      "Ghi rõ có dùng AI ở phần nào của bài",
+      "Sao chép nguyên văn câu trả lời của AI và nói là tự làm",
+      "Đối chiếu câu trả lời của AI với SGK",
+      "Không kiểm tra vì AI rất thông minh"
+     ],
+     "a": [
+      0,
+      2
+     ],
+     "e": "Kiểm chứng và khai báo là hai việc cần làm.",
+     "r": "SGK Tin học 8 KNTT – Bài 4"
+    },
+    {
+     "t": "m",
+     "q": "Hành động nào sau đây xâm phạm quyền riêng tư của người khác?",
+     "o": [
+      "Chia sẻ lại tin cá nhân của người khác",
+      "Đăng ảnh, thông tin cá nhân của bạn lên mạng khi chưa xin phép",
+      "Tự đặt mật khẩu cho tài khoản của mình",
+      "Ghi âm cuộc nói chuyện khi chưa được đồng ý"
+     ],
+     "a": [
+      0,
+      1,
+      3
+     ],
+     "e": "Đặt mật khẩu cho tài khoản mình là bảo vệ bản thân.",
+     "r": "SGK Tin học 8 KNTT – Bài 4"
+    },
+    {
+     "t": "f",
+     "q": "3 điều lưu ý: tìm hiểu ____; chỉ sử dụng sản phẩm khi được ____; hầu hết thông tin trên Internet có ____.",
+     "a": [
+      [
+       "quy định"
+      ],
+      [
+       "phép"
+      ],
+      [
+       "bản quyền"
+      ]
+     ],
+     "o": [
+      [
+       "quy định",
+       "phép",
+       "bản quyền"
+      ],
+      [
+       "quy định",
+       "phép",
+       "miễn phí"
+      ],
+      [
+       "mật khẩu",
+       "phép",
+       "bản quyền"
+      ],
+      [
+       "quy định",
+       "tải về",
+       "bản quyền"
+      ]
+     ],
+     "k": 0,
+     "e": "Bẫy: thông tin trên mạng 'có bản quyền' chứ không phải 'miễn phí'.",
+     "r": "SGK Tin học 8 KNTT – Bài 4"
+    },
+    {
+     "t": "f",
+     "q": "Tải phim, nhạc lậu là vi phạm ____; quay phim trong rạp chiếu là hành vi thiếu ____.",
+     "a": [
+      [
+       "pháp luật"
+      ],
+      [
+       "văn hoá"
+      ]
+     ],
+     "o": [
+      [
+       "văn hoá",
+       "pháp luật"
+      ],
+      [
+       "đạo đức",
+       "kĩ thuật"
+      ],
+      [
+       "pháp luật",
+       "văn hoá"
+      ],
+      [
+       "kĩ thuật",
+       "văn hoá"
+      ]
+     ],
+     "k": 2,
+     "e": "Đổi thứ tự hai khái niệm là bẫy.",
+     "r": "SGK Tin học 8 KNTT – Bài 4"
+    },
+    {
+     "t": "f",
+     "q": "Sản phẩm số cần ____, tự tạo nội dung, có đạo đức văn hoá và không vi phạm ____.",
+     "a": [
+      [
+       "trung thực"
+      ],
+      [
+       "pháp luật"
+      ]
+     ],
+     "o": [
+      [
+       "sáng tạo",
+       "dung lượng"
+      ],
+      [
+       "trung thực",
+       "pháp luật"
+      ],
+      [
+       "nhanh chóng",
+       "pháp luật"
+      ],
+      [
+       "trung thực",
+       "kĩ thuật"
+      ]
+     ],
+     "k": 1,
+     "e": "4 yêu cầu: trung thực; tự tạo; đạo đức, văn hoá; không vi phạm pháp luật.",
+     "r": "SGK Tin học 8 KNTT – Bài 4"
+    },
+    {
+     "t": "f",
+     "q": "Khi dùng sản phẩm của người khác em phải xin ____ và ghi tên ____.",
+     "a": [
+      [
+       "phép"
+      ],
+      [
+       "tác giả"
+      ]
+     ],
+     "o": [
+      [
+       "tiền",
+       "tác giả"
+      ],
+      [
+       "phép",
+       "người đăng lại"
+      ],
+      [
+       "lỗi",
+       "bạn"
+      ],
+      [
+       "phép",
+       "tác giả"
+      ]
+     ],
+     "k": 3,
+     "e": "Xin phép, ghi nguồn/tác giả.",
+     "r": "SGK Tin học 8 KNTT – Bài 4"
+    },
+    {
+     "t": "f",
+     "q": "Với câu trả lời của AI, cần ____ bằng nguồn tin cậy và ____ khi sử dụng AI.",
+     "a": [
+      [
+       "kiểm chứng"
+      ],
+      [
+       "khai báo"
+      ]
+     ],
+     "o": [
+      [
+       "sao chép",
+       "khai báo"
+      ],
+      [
+       "kiểm chứng",
+       "che giấu"
+      ],
+      [
+       "kiểm chứng",
+       "khai báo"
+      ],
+      [
+       "xoá",
+       "chia sẻ"
+      ]
+     ],
+     "k": 2,
+     "e": "Hai việc: kiểm chứng và khai báo.",
+     "r": "SGK Tin học 8 KNTT – Bài 4"
+    },
+    {
+     "t": "f",
+     "q": "Ghi âm trái phép vi phạm ____ riêng tư; người dùng AI chịu ____ về sản phẩm của mình.",
+     "a": [
+      [
+       "quyền"
+      ],
+      [
+       "trách nhiệm"
+      ]
+     ],
+     "o": [
+      [
+       "quyền",
+       "trách nhiệm"
+      ],
+      [
+       "dung lượng",
+       "trách nhiệm"
+      ],
+      [
+       "quyền",
+       "quyền lợi"
+      ],
+      [
+       "tốc độ",
+       "bản quyền"
+      ]
+     ],
+     "k": 0,
+     "e": "AI không chịu trách nhiệm, người dùng chịu trách nhiệm.",
+     "r": "SGK Tin học 8 KNTT – Bài 4"
+    }
+   ],
+   "tuluan": [
+    {
+     "q": "Câu 1 (2 điểm). Nêu các biểu hiện vi phạm khi sử dụng công nghệ số và 3 điều lưu ý để tránh vi phạm.",
+     "a": [
+      "Pháp luật, bản quyền: tải nhạc, phim lậu; dùng phần mềm bẻ khoá.",
+      "Đạo đức, quyền riêng tư: ghi âm trái phép; đăng thông tin người khác khi chưa được phép.",
+      "Thiếu văn hoá: quay phim, chụp ảnh nơi cấm, trong rạp.",
+      "3 lưu ý: tìm hiểu quy định; chỉ dùng sản phẩm khi được phép; hầu hết thông tin trên Internet có bản quyền."
+     ]
+    },
+    {
+     "q": "Câu 2 (3 điểm). Nêu mục tiêu bài học 'Đạo đức và văn hoá trong sử dụng công nghệ kĩ thuật số' (Tin học 8) theo chương trình 2018.",
+     "a": [
+      "Kiến thức: nêu biểu hiện vi phạm đạo đức, pháp luật, thiếu văn hoá; 3 điều lưu ý; 4 yêu cầu sản phẩm số.",
+      "Năng lực chung: tự chủ, tự học; giao tiếp, hợp tác; giải quyết vấn đề.",
+      "Năng lực Tin học: nhận diện tình huống không phù hợp, ứng xử đúng; tạo sản phẩm số trung thực, ghi nguồn.",
+      "Năng lực số, AI: tôn trọng bản quyền, quyền riêng tư; kiểm chứng và khai báo khi dùng AI (8.A3.3).",
+      "Phẩm chất: trách nhiệm, trung thực, tôn trọng pháp luật, bản quyền."
+     ]
+    },
+    {
+     "q": "Câu 3 (3 điểm). Thiết kế hoạt động Vận dụng giúp HS lớp 8 tạo sản phẩm số trung thực và tích hợp năng lực AI.",
+     "a": [
+      "Mục tiêu: HS tạo khẩu hiệu/áp phích đúng chuẩn mực, trung thực.",
+      "Nội dung: phác thảo sản phẩm; nếu nhờ AI gợi ý thì kiểm chứng và ghi dòng khai báo AI.",
+      "Tổ chức: giao nhiệm vụ; HS phác thảo, tự kiểm tra theo 4 yêu cầu; trình bày 1 phút; GV nhận xét.",
+      "Sản phẩm, đánh giá: khẩu hiệu như 'Xin phép, ghi nguồn – dùng mạng văn minh', có khai báo AI; đánh giá theo tiêu chí 4 yêu cầu."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T8-B05",
+   "ten": "Bài 5. Sử dụng bảng tính giải quyết bài toán thực tế",
+   "tomtat": [
+    "Trong công thức, **địa chỉ ô** (như C4, F2) cho biết ô dữ liệu cần lấy; khi **sao chép công thức**, địa chỉ này có thể đổi hoặc giữ nguyên tuỳ loại địa chỉ.",
+    "**Địa chỉ tương đối** (vd C4, D4) **tự thay đổi theo vị trí ô nhận công thức**: nếu sao chép sang phải/trái thì đổi cột, sang dưới/trên thì đổi số hàng.",
+    "Ví dụ: E4 =C4*D4 kéo xuống E5 thành **=C5*D5**; từ C1 =A1*B1 sang E2 (cột +2, hàng +1) thành **=C2*D2**.",
+    "**Địa chỉ tuyệt đối** (vd **$F$2**) **không thay đổi** khi sao chép công thức; có kí hiệu **$** trước tên cột và trước số hàng.",
+    "Cách nhập địa chỉ tuyệt đối: **gõ trực tiếp $** hoặc nhập địa chỉ ô rồi nhấn phím **F4** (laptop có thể là Fn+F4).",
+    "**Nguyên tắc chọn:** ô có giá trị **cố định dùng chung** cho mọi dòng (tỉ lệ, hệ số) dùng **tuyệt đối**; ô **thay đổi theo dòng** (đơn giá, số lượng) dùng **tương đối**.",
+    "Lỗi thường gặp: dùng **=E4*F2** rồi kéo xuống thì F5 thành **=E5*F3**, ô tỉ lệ bị dịch chuyển nên kết quả sai; sửa thành **=E4*$F$2**.",
+    "Bài toán thực tế (Hình 5.1): **Doanh thu = Đơn giá × Số lượt mua** (E4 =C4*D4); **Doanh thu công ti = Doanh thu × tỉ lệ** (F4 =E4*$F$2, F2 = 70%); F4 = **1.399.965.000**.",
+    "**Các bước giải bài toán bằng bảng tính:** nhập dữ liệu → lập công thức ở dòng đầu → sao chép công thức cho các dòng còn lại → **kiểm tra kết quả** → lưu tệp.",
+    "**Sao chép dữ liệu từ văn bản, trình chiếu:** chọn bảng/dữ liệu trong Word hoặc PowerPoint → **Copy** (Ctrl+C) → chọn ô đầu (vd A1) trong trang tính → **Paste** (Ctrl+V); giúp tiết kiệm thời gian, tránh sai sót khi nhập lại.",
+    "Sau khi dán, cần **kiểm tra** số liệu có được canh phải (đúng là dữ liệu số) trước khi tính toán.",
+    "**Tích hợp AI:** chatbot có thể trả lời trôi chảy nhưng **sai công thức**; cần **kiểm chứng** bằng cách thử sao chép, tính lại, và **khai báo** khi dùng AI."
+   ],
+   "ynho": [
+    "Tương đối: tự đổi khi sao chép; tuyệt đối ($): giữ nguyên.",
+    "Ô tỉ lệ/hệ số cố định phải dùng địa chỉ tuyệt đối, vd $F$2.",
+    "Nhập $ bằng cách gõ hoặc nhấn phím F4.",
+    "Dán dữ liệu từ Word/PowerPoint: Copy rồi Paste vào ô A1.",
+    "Luôn kiểm tra kết quả; không tin chatbot ngay."
+   ],
+   "bang": [
+    {
+     "tieu_de": "So sánh địa chỉ tương đối và địa chỉ tuyệt đối",
+     "cot": [
+      "Tiêu chí",
+      "Địa chỉ tương đối",
+      "Địa chỉ tuyệt đối"
+     ],
+     "dong": [
+      [
+       "Cách viết",
+       "F2",
+       "$F$2"
+      ],
+      [
+       "Khi sao chép công thức",
+       "Tự đổi theo vị trí ô nhận công thức",
+       "Giữ nguyên"
+      ],
+      [
+       "Dùng cho",
+       "Ô thay đổi theo từng dòng/cột (đơn giá, số lượng)",
+       "Ô cố định dùng chung (tỉ lệ, đơn giá chuẩn)"
+      ],
+      [
+       "Cách nhập",
+       "Gõ bình thường",
+       "Gõ $ hoặc nhấn F4"
+      ],
+      [
+       "Ví dụ",
+       "E4 → E5: =C4*D4 thành =C5*D5",
+       "F4 → F5: =E4*$F$2 thành =E5*$F$2"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Quy trình giải bài toán bằng bảng tính (Doanh thu)",
+     "cot": [
+      "Bước",
+      "Việc làm",
+      "Công thức/Thao tác"
+     ],
+     "dong": [
+      [
+       "1",
+       "Nhập dữ liệu, xác định cột cần tính",
+       "Đơn giá, Số lượt mua, ô tỉ lệ F2"
+      ],
+      [
+       "2",
+       "Tính Doanh thu ở E4",
+       "=C4*D4"
+      ],
+      [
+       "3",
+       "Tính Doanh thu công ti ở F4",
+       "=E4*$F$2"
+      ],
+      [
+       "4",
+       "Sao chép công thức xuống các dòng",
+       "Kéo núm điền"
+      ],
+      [
+       "5",
+       "Kiểm tra kết quả, lưu tệp",
+       "Tính thử 1 dòng bằng tay"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "E4 =C4*D4 (Đơn giá × Số lượt mua). Kéo núm điền xuống E5, E6. Công thức ở E5, E6 là gì? Lời giải: C, D là địa chỉ tương đối, số hàng tăng theo ô nhận công thức.",
+     "ket_luan": "→ E5: =C5*D5; E6: =C6*D6 (tương đối tự đổi)."
+    },
+    {
+     "tinh_huong": "Bảng Hình 5.1: E4 = 1.999.950.000; F2 = 70%. Lập công thức F4 để kéo xuống F5:F9. Lời giải: ô F2 cố định nên $F$2; E4 đổi theo dòng. F4 = 1.999.950.000 × 0,7 = 1.399.965.000.",
+     "ket_luan": "→ F4: =E4*$F$2; kéo xuống F5 thành =E5*$F$2."
+    },
+    {
+     "tinh_huong": "Luyện tập 1: Công thức =A1*B1 ở C1 được sao chép sang E2. Lời giải: C→E là +2 cột, 1→2 là +1 hàng; A→C, B→D, 1→2.",
+     "ket_luan": "→ =C2*D2."
+    },
+    {
+     "tinh_huong": "Giảm giá: C5 = 50.000 đồng, tỉ lệ giảm 10% ở D2. Lập công thức đơn giá giảm ở D5 để kéo xuống các dòng. Lời giải: D5 =C5*(1-$D$2) = 50.000 × 0,9.",
+     "ket_luan": "→ =C5*(1-$D$2) = 45.000 đồng; tổng tiền dùng =SUM(F5:F10)."
+    }
+   ],
+   "nho": [
+    "**TĐ = Tự Đổi; TuyệtĐối = Tuyệt không đổi** (có $ như \"khoá\" ô).",
+    "**F4 = Fix (cố định)**: nhấn F4 để thêm $.",
+    "Kéo xuống thì **số hàng nhảy**, kéo sang phải thì **chữ cột nhảy**; chỉ phần không có $ mới nhảy.",
+    "Quy trình **N–L–S–K–L**: Nhập, Lập công thức, Sao chép, Kiểm tra, Lưu."
+   ],
+   "bay": [
+    "Quên $ ở ô tỉ lệ: kéo xuống thì F2 thành F3, F4... nên kết quả sai.",
+    "Gắn $ cho cả ô thay đổi theo dòng (vd $E$4): mọi dòng đều ra kết quả của dòng đầu.",
+    "Tính sai hướng dịch chuyển: từ C1 sang E2 phải đổi cả cột (+2) và hàng (+1).",
+    "Tin chatbot vì trả lời trôi chảy: đề hay cho đáp án có công thức sai (thiếu $) hoặc kết quả số sai."
+   ],
+   "giaoan": [
+    "**Mục tiêu** – Kiến thức: giải thích được sự khác nhau giữa địa chỉ tương đối và tuyệt đối, sự thay đổi địa chỉ tương đối khi sao chép công thức; sử dụng bảng tính giải bài toán thực tế; sao chép dữ liệu từ văn bản, trình chiếu sang trang tính. Năng lực: tự chủ và tự học, giao tiếp và hợp tác, giải quyết vấn đề (NLc, NLd, NLe); NLS 3.1.TC2.a, 5.2.TC2.a, 5.2.TC2.b, 5.3.TC2.a; NL AI 8.A1.2. Phẩm chất: chăm chỉ, cẩn thận, trách nhiệm với dữ liệu; trung thực khi dùng AI.",
+    "**Chuẩn bị** – GV: kế hoạch bài dạy, phòng máy có phần mềm bảng tính, máy chiếu, Hình 5.1–5.7, tệp Word/PowerPoint chứa Bảng 5.1, phiếu học tập, chatbot AI. HS: SGK, vở ghi, ôn công thức và kéo núm điền ở lớp 7.",
+    "**Hoạt động 1 – Mở đầu (5')** – Mục tiêu: tạo hứng thú, thấy cần sao chép công thức nhanh. Nội dung: xem Hình 5.1, cần thêm cột nào, có nên gõ từng dòng không. Sản phẩm: thêm cột Doanh thu = Đơn giá × Số lượt mua; nên sao chép công thức. Tổ chức: (1) GV chiếu bảng, nêu câu hỏi; (2) HS suy nghĩ, trao đổi cặp; (3) mời HS trả lời; (4) GV nhận xét, dẫn vào bài.",
+    "**Hoạt động 2 – Hình thành kiến thức (50')** – Mục tiêu: hiểu địa chỉ tương đối, tuyệt đối; giải bài toán Doanh thu; sao chép dữ liệu từ Word/PowerPoint. Nội dung: 2.1 tương đối; 2.2 tuyệt đối ($, F4); 2.3 thực hành E4 =C4*D4, F4 =E4*$F$2; 2.4 Copy–Paste Bảng 5.1. Sản phẩm: phiếu học tập 1, 2; tệp bảng tính đúng Hình 5.5; tệp Khaosat.xlsx. Tổ chức: (1) GV giao nhiệm vụ; (2) HS thực hiện trên máy, thử – sai – sửa, hợp tác cặp/nhóm; (3) nhóm báo cáo, nhận xét; (4) GV chốt hộp ghi nhớ.",
+    "**Hoạt động 3 – Luyện tập (20')** – Mục tiêu: củng cố chọn đúng địa chỉ; lập bảng giảm giá. Nội dung: LT1 (C1 → E2); LT2 (Hình 5.7: D5 =C5*(1-$D$2), F5 =E5*D5, F11 =SUM(F5:F10)). Sản phẩm: đáp án =C2*D2; tệp bảng tính hoàn chỉnh. Tổ chức: (1) giao bài; (2) HS làm, kiểm tra chéo cặp; (3) báo cáo, giơ thẻ Đúng/Sai; (4) GV sửa lỗi thường gặp.",
+    "**Hoạt động 4 – Vận dụng (15')** – Mục tiêu: vận dụng tình huống chợ ứng dụng (F2 = 75%, =E*$F$2); kiểm chứng câu trả lời chatbot, khai báo khi dùng AI. Nội dung: lập công thức; đối chiếu 4 nhận định của chatbot bằng cách thử trên bảng tính. Sản phẩm: công thức đúng; phiếu kiểm chứng chỉ ra câu sai. Tổ chức: (1) GV giao nhiệm vụ, chiếu trả lời chatbot; (2) HS thử, tính lại; (3) báo cáo, phản biện; (4) GV chốt: kiểm chứng, khai báo, tự chịu trách nhiệm.",
+    "**Kiểm tra đánh giá** – Quan sát thực hành và tệp sản phẩm theo tiêu chí (công thức đúng, dùng đúng $, kết quả đúng); hỏi đáp, phiếu học tập; giơ thẻ A–B–C–D; kiểm tra chéo cặp. Củng cố, dặn: hoàn thành Vận dụng, đọc trước Bài 6."
+   ],
+   "ai": [
+    "GV cho chatbot lập công thức Doanh thu công ti (F2 = 70%) với 4 nhận định có chỗ sai; HS thử sao chép công thức trên bảng tính để phát hiện câu sai (8.A1.2).",
+    "HS tự tính lại 1.999.950.000 × 70% và so sánh với đầu ra của AI; rút ra: AI trả lời trôi chảy vẫn có thể sai, cần kiểm chứng.",
+    "Đạo đức AI: HS khai báo khi dùng chatbot hỗ trợ bài làm (8.A3.3) và tự chịu trách nhiệm với kết quả cuối cùng."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Địa chỉ tương đối của ô trong công thức có đặc điểm nào sau đây?",
+     "o": [
+      "Tự động thay đổi theo vị trí ô nhận công thức khi sao chép",
+      "Luôn giữ nguyên khi sao chép công thức",
+      "Luôn có kí hiệu $ đứng trước tên cột và số hàng",
+      "Chỉ dùng được cho các ô chứa dữ liệu kiểu văn bản"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Tương đối = đổi theo vị trí; giữ nguyên là địa chỉ tuyệt đối (có $).",
+     "r": "SGK Tin học 8 KNTT – Bài 5"
+    },
+    {
+     "t": "s",
+     "q": "Ô C1 chứa công thức =A1*B1. Sao chép công thức này sang ô E2 thì công thức ở E2 là:",
+     "o": [
+      "=A2*B2",
+      "=C1*D1",
+      "=C2*D2",
+      "=E2*F2"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Từ C1 sang E2: cột tăng 2, hàng tăng 1 nên A→C, B→D, 1→2. Bẫy: chỉ đổi hàng hoặc chỉ đổi cột.",
+     "r": "SGK Tin học 8 KNTT – Bài 5"
+    },
+    {
+     "t": "s",
+     "q": "Ô E4 chứa =C4*D4. Kéo núm điền xuống ô E6 thì E6 chứa:",
+     "o": [
+      "=C4*D4",
+      "=C6*D6",
+      "=C5*D5",
+      "=E6*F6"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Xuống 2 hàng nên số hàng tăng 2; cột giữ nguyên. Bẫy: dừng ở =C5*D5 (chỉ tăng 1).",
+     "r": "SGK Tin học 8 KNTT – Bài 5"
+    },
+    {
+     "t": "s",
+     "q": "Ô F4 chứa =E4*$F$2. Sao chép F4 xuống ô F7 thì F7 chứa:",
+     "o": [
+      "=E7*F5",
+      "=E4*$F$2",
+      "=$E$7*$F$2",
+      "=E7*$F$2"
+     ],
+     "a": [
+      3
+     ],
+     "e": "E tương đối đổi thành E7; $F$2 tuyệt đối giữ nguyên.",
+     "r": "SGK Tin học 8 KNTT – Bài 5"
+    },
+    {
+     "t": "s",
+     "q": "Trong bảng tính, nhấn phím F4 khi con trỏ đang ở địa chỉ ô trong công thức có tác dụng gì?",
+     "o": [
+      "Chuyển địa chỉ tương đối thành địa chỉ tuyệt đối (thêm kí hiệu $)",
+      "Sao chép công thức xuống các ô bên dưới",
+      "Xoá địa chỉ ô khỏi công thức",
+      "Lưu tệp bảng tính"
+     ],
+     "a": [
+      0
+     ],
+     "e": "F4 thêm $ cho địa chỉ ô (có thể dùng Fn+F4 trên laptop). Không phải phím sao chép.",
+     "r": "SGK Tin học 8 KNTT – Bài 5"
+    },
+    {
+     "t": "s",
+     "q": "Công thức ở F4 là =E4*F2 (F2 chứa tỉ lệ 70%). Kéo xuống F5 thì công thức F5 là gì và kết quả ra sao?",
+     "o": [
+      "=E5*F2, kết quả đúng",
+      "=E5*$F$2, kết quả đúng",
+      "=E5*F3, sai vì F3 không chứa tỉ lệ",
+      "=E4*F3, kết quả đúng"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Địa chỉ tương đối F2 bị dịch thành F3 nên sai; phải dùng $F$2.",
+     "r": "SGK Tin học 8 KNTT – Bài 5"
+    },
+    {
+     "t": "s",
+     "q": "Địa chỉ ô nào sau đây là địa chỉ tuyệt đối?",
+     "o": [
+      "F2",
+      "$F$2",
+      "F2$",
+      "(F2)"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Địa chỉ tuyệt đối viết $ trước cả tên cột và số hàng: $F$2.",
+     "r": "SGK Tin học 8 KNTT – Bài 5"
+    },
+    {
+     "t": "s",
+     "q": "Ô G3 chứa =$B$1+C3. Sao chép sang H5 thì công thức ở H5 là:",
+     "o": [
+      "=$B$1+C3",
+      "=$C$3+D5",
+      "=B3+D5",
+      "=$B$1+D5"
+     ],
+     "a": [
+      3
+     ],
+     "e": "$B$1 giữ nguyên; C3 → D5 (cột +1, hàng +2). Bẫy: coi cả hai là tuyệt đối hoặc tương đối.",
+     "r": "SGK Tin học 8 KNTT – Bài 5"
+    },
+    {
+     "t": "s",
+     "q": "Ô D5 cần tính giá sau giảm =C5*(1-tỉ lệ giảm) với tỉ lệ giảm ở D2, rồi kéo xuống D10. Công thức nên nhập ở D5 là:",
+     "o": [
+      "=C5*(1-D2)",
+      "=C5*(1-$D$2)",
+      "=$C$5*(1-$D$2)",
+      "=C5*(1-D$5)"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Tỉ lệ giảm cố định nên $D$2; đơn giá C5 đổi theo dòng nên tương đối.",
+     "r": "SGK Tin học 8 KNTT – Bài 5"
+    },
+    {
+     "t": "s",
+     "q": "Ô E4 = 1.999.950.000 (doanh thu), F2 = 70%, F4 = E4*$F$2. Giá trị F4 là:",
+     "o": [
+      "1.999.950.000",
+      "2.857.071.428",
+      "1.399.965.000",
+      "599.985.000"
+     ],
+     "a": [
+      2
+     ],
+     "e": "1.999.950.000 × 0,7 = 1.399.965.000. Bẫy: nhầm chia cho 0,7 hoặc lấy 30%.",
+     "r": "SGK Tin học 8 KNTT – Bài 5"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các phát biểu ĐÚNG về địa chỉ tương đối và địa chỉ tuyệt đối.",
+     "o": [
+      "Địa chỉ tương đối thay đổi khi sao chép công thức",
+      "Địa chỉ tuyệt đối không thay đổi khi sao chép công thức",
+      "Địa chỉ tuyệt đối viết bằng cách thêm $ trước tên cột và số hàng",
+      "Ô chứa tỉ lệ dùng chung cho mọi dòng nên viết dạng tương đối"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Ô dùng chung (tỉ lệ cố định) phải là tuyệt đối; phát biểu cuối là bẫy đảo khái niệm.",
+     "r": "SGK Tin học 8 KNTT – Bài 5"
+    },
+    {
+     "t": "m",
+     "q": "Việc sao chép dữ liệu từ bảng trong Word hoặc PowerPoint sang trang tính có lợi ích nào?",
+     "o": [
+      "Tiết kiệm thời gian",
+      "Tránh sai sót do nhập lại",
+      "Số liệu sao chép luôn tự được tính toán thành công thức",
+      "Dùng lại được dữ liệu đã có"
+     ],
+     "a": [
+      0,
+      1,
+      3
+     ],
+     "e": "Dữ liệu dán vào là giá trị/văn bản, không tự thành công thức.",
+     "r": "SGK Tin học 8 KNTT – Bài 5"
+    },
+    {
+     "t": "m",
+     "q": "Các cách nhập địa chỉ tuyệt đối $F$2 vào công thức là:",
+     "o": [
+      "Gõ trực tiếp kí hiệu $ trước F và trước 2",
+      "Nhập F2 rồi nhấn phím F4",
+      "Gõ F2 rồi nhấn Ctrl+C",
+      "Kéo núm điền ô chứa F2"
+     ],
+     "a": [
+      0,
+      1
+     ],
+     "e": "Ctrl+C là sao chép; kéo núm điền sao chép công thức, không tạo $.",
+     "r": "SGK Tin học 8 KNTT – Bài 5"
+    },
+    {
+     "t": "m",
+     "q": "Khi dùng chatbot AI để lập công thức bảng tính, việc nào nên làm?",
+     "o": [
+      "Thử sao chép công thức trên bảng tính để đối chiếu",
+      "Tự tính lại một vài kết quả bằng tay",
+      "Tin ngay vì câu trả lời trình bày trôi chảy",
+      "Khai báo nếu có sử dụng AI"
+     ],
+     "a": [
+      0,
+      1,
+      3
+     ],
+     "e": "AI có thể sai thông tin; phải kiểm chứng và trung thực (8.A1.2, 8.A3.3).",
+     "r": "SGK Tin học 8 KNTT – Bài 5"
+    },
+    {
+     "t": "f",
+     "q": "Khi sao chép công thức, địa chỉ ____ thay đổi theo vị trí ô nhận công thức, còn địa chỉ ____ thì không thay đổi.",
+     "a": [
+      [
+       "tương đối"
+      ],
+      [
+       "tuyệt đối"
+      ]
+     ],
+     "o": [
+      [
+       "tương đối",
+       "tuyệt đối"
+      ],
+      [
+       "tuyệt đối",
+       "tương đối"
+      ],
+      [
+       "tương đối",
+       "tương đối"
+      ],
+      [
+       "tuyệt đối",
+       "tuyệt đối"
+      ]
+     ],
+     "k": 0,
+     "e": "Bẫy đổi chỗ hai thuật ngữ.",
+     "r": "SGK Tin học 8 KNTT – Bài 5"
+    },
+    {
+     "t": "f",
+     "q": "Ô E4 có công thức =C4*D4 tính ____ ; công thức tính Doanh thu công ti ở F4 là =E4*____ .",
+     "a": [
+      [
+       "Doanh thu"
+      ],
+      [
+       "$F$2"
+      ]
+     ],
+     "o": [
+      [
+       "Doanh thu",
+       "F2"
+      ],
+      [
+       "Doanh thu",
+       "$F$2"
+      ],
+      [
+       "Đơn giá",
+       "$F$2"
+      ],
+      [
+       "Số lượt mua",
+       "F$4"
+      ]
+     ],
+     "k": 1,
+     "e": "E = Đơn giá × Số lượt mua; ô tỉ lệ F2 phải tuyệt đối.",
+     "r": "SGK Tin học 8 KNTT – Bài 5"
+    },
+    {
+     "t": "f",
+     "q": "Để sao chép dữ liệu từ Word sang trang tính: chọn bảng, nhấn ____ , chọn ô A1 trong bảng tính rồi nhấn ____ .",
+     "a": [
+      [
+       "Ctrl+C"
+      ],
+      [
+       "Ctrl+V"
+      ]
+     ],
+     "o": [
+      [
+       "Ctrl+V",
+       "Ctrl+C"
+      ],
+      [
+       "Ctrl+X",
+       "Ctrl+C"
+      ],
+      [
+       "Ctrl+C",
+       "Ctrl+V"
+      ],
+      [
+       "Ctrl+Z",
+       "Ctrl+V"
+      ]
+     ],
+     "k": 2,
+     "e": "Copy trước, Paste sau; đổi thứ tự là sai.",
+     "r": "SGK Tin học 8 KNTT – Bài 5"
+    },
+    {
+     "t": "f",
+     "q": "Công thức =A1*B1 ở C1 sao chép sang E2 thành ____ ; sao chép sang C3 thành ____ .",
+     "a": [
+      [
+       "=C2*D2"
+      ],
+      [
+       "=A3*B3"
+      ]
+     ],
+     "o": [
+      [
+       "=A2*B2",
+       "=C3*D3"
+      ],
+      [
+       "=C1*D1",
+       "=A1*B1"
+      ],
+      [
+       "=C2*D2",
+       "=C3*D3"
+      ],
+      [
+       "=C2*D2",
+       "=A3*B3"
+      ]
+     ],
+     "k": 3,
+     "e": "E2: cột +2, hàng +1; C3: chỉ hàng +2.",
+     "r": "SGK Tin học 8 KNTT – Bài 5"
+    },
+    {
+     "t": "f",
+     "q": "Nhấn phím ____ khi con trỏ ở địa chỉ ô để chuyển thành địa chỉ ____ .",
+     "a": [
+      [
+       "F4"
+      ],
+      [
+       "tuyệt đối"
+      ]
+     ],
+     "o": [
+      [
+       "F4",
+       "tuyệt đối"
+      ],
+      [
+       "F2",
+       "tuyệt đối"
+      ],
+      [
+       "F4",
+       "tương đối"
+      ],
+      [
+       "F5",
+       "tương đối"
+      ]
+     ],
+     "k": 0,
+     "e": "F2 là sửa ô; F4 thêm $.",
+     "r": "SGK Tin học 8 KNTT – Bài 5"
+    },
+    {
+     "t": "f",
+     "q": "Ô D2 chứa tỉ lệ giảm giá, giá sau giảm ở D5 là =C5*(1-____) ; tổng tiền cuối cột F5:F10 là =____(F5:F10).",
+     "a": [
+      [
+       "$D$2"
+      ],
+      [
+       "SUM"
+      ]
+     ],
+     "o": [
+      [
+       "D2",
+       "SUM"
+      ],
+      [
+       "$D$2",
+       "AVERAGE"
+      ],
+      [
+       "$D$2",
+       "SUM"
+      ],
+      [
+       "D5",
+       "COUNT"
+      ]
+     ],
+     "k": 2,
+     "e": "Tỉ lệ cố định → tuyệt đối; tổng → SUM.",
+     "r": "SGK Tin học 8 KNTT – Bài 5"
+    }
+   ],
+   "tuluan": [
+    {
+     "q": "Câu 1 (3 điểm). Trình bày sự khác nhau giữa địa chỉ tương đối và địa chỉ tuyệt đối trong bảng tính. Cho F2 = 70%, E4 = 1.999.950.000; viết công thức F4 để kéo xuống các dòng dưới và tính F4.",
+     "a": [
+      "Địa chỉ tương đối (vd E4) tự thay đổi theo vị trí ô nhận công thức khi sao chép; tuyệt đối (vd $F$2) có $ và không thay đổi.",
+      "Nhập tuyệt đối: gõ $ hoặc nhấn F4.",
+      "Ô tỉ lệ F2 cố định nên dùng tuyệt đối; E4 đổi theo dòng nên tương đối.",
+      "Công thức F4: =E4*$F$2; kéo xuống F5 thành =E5*$F$2.",
+      "F4 = 1.999.950.000 × 0,7 = 1.399.965.000.",
+      "Nếu viết =E4*F2 thì F5 thành =E5*F3, sai."
+     ]
+    },
+    {
+     "q": "Câu 2 (3 điểm). Nêu mục tiêu bài học \"Sử dụng bảng tính giải quyết bài toán thực tế\" (Tin học 8) theo chương trình 2018 và thiết kế hoạt động dạy học nội dung địa chỉ tuyệt đối.",
+     "a": [
+      "Kiến thức: giải thích sự khác nhau giữa địa chỉ tương đối và tuyệt đối; dùng bảng tính giải bài toán thực tế; sao chép dữ liệu từ văn bản, trình chiếu.",
+      "Năng lực: tự chủ, tự học, giao tiếp hợp tác, giải quyết vấn đề; NLc, NLd, NLe; NLS 5.2.TC2.b.",
+      "Phẩm chất: cẩn thận, chăm chỉ, trung thực.",
+      "Hoạt động (12'): mục tiêu – hiểu và dùng $F$2; nội dung – nhập =E4*F2, kéo xuống, quan sát lỗi, sửa bằng F4.",
+      "Tổ chức: (1) giao nhiệm vụ; (2) HS thực hành thử – sai – sửa; (3) báo cáo; (4) GV chốt: ô cố định dùng $.",
+      "Sản phẩm: tệp đúng Hình 5.5 và phiếu học tập."
+     ]
+    },
+    {
+     "q": "Câu 3 (4 điểm). Em dùng chatbot AI để tạo công thức bảng tính cho HS. Nêu cách tổ chức cho HS kiểm chứng đầu ra của AI và các điều cần giáo dục về đạo đức khi dùng AI, lấy ví dụ từ bài này.",
+     "a": [
+      "Cho chatbot lập công thức Doanh thu công ti (F2 = 70%) có nhận định sai, vd =E4*F2 hoặc kết quả 1.399.965.000 bị đổi.",
+      "HS kiểm chứng: sao chép công thức xuống F5 xem ô tỉ lệ có bị dịch không; tính tay 1.999.950.000 × 70%; đối chiếu SGK.",
+      "Rút ra: AI trả lời trôi chảy vẫn có thể sai (8.A1.2).",
+      "Đạo đức: khai báo khi dùng AI (8.A3.3), không sao chép máy móc, tự chịu trách nhiệm kết quả.",
+      "Đánh giá: phiếu kiểm chứng và trao đổi cặp, GV nhận xét."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T8-B08a",
+   "ten": "Bài 8a. Làm việc với danh sách dạng liệt kê và hình ảnh trong văn bản",
+   "tomtat": [
+    "**Danh sách dạng liệt kê** giúp trình bày các mục rõ ràng, dễ đọc, dễ thêm bớt; SGK nêu **hai kiểu**: dấu đầu dòng và có thứ tự.",
+    "**Danh sách dấu đầu dòng (Bullets)** dùng cho các mục **ngang hàng**, ký hiệu như •, –, ✓.",
+    "**Danh sách có thứ tự (Numbering)** dùng cho các mục cần **theo trình tự**, đánh 1, 2, 3 hoặc a, b, c.",
+    "Tạo danh sách: chọn các mục → **Home → Bullets** hoặc **Home → Numbering**; nhấn **Enter** để tạo mục mới.",
+    "Số thứ tự **tự động cập nhật** khi thêm hoặc xoá mục, nên không cần gõ số bằng tay.",
+    "Có thể tạo **danh sách nhiều cấp** (kết hợp), dùng phím **Tab** để lùi xuống cấp con; ví dụ nhóm việc đánh số, việc con dùng dấu đầu dòng.",
+    "**Hình ảnh, hình đồ hoạ** làm văn bản **sinh động, thẩm mĩ, dễ hiểu**.",
+    "Chèn ảnh: **Insert → Pictures**; kéo **núm góc** để co dãn không méo; nhấn **Delete** để xoá.",
+    "Đổi cách ảnh nằm cùng chữ bằng **Wrap Text**; ảnh nền dùng **Behind Text**, ảnh nhỏ có thể dùng **Square**.",
+    "Vẽ hình đồ hoạ: **Insert → Shapes** (ví dụ mũi tên Block Arrows); đổi màu bằng **Shape Fill**.",
+    "Tờ rơi gồm **3 lớp**: ảnh nền, chữ, hình đồ hoạ; ảnh nền ở lớp dưới cùng để không che chữ.",
+    "Dùng ảnh phải **ghi nguồn**, tôn trọng bản quyền; nội dung/ảnh do AI tạo phải **kiểm chứng và khai báo**."
+   ],
+   "ynho": [
+    "Hai kiểu danh sách: dấu đầu dòng và có thứ tự",
+    "Bullets = ngang hàng; Numbering = theo trình tự",
+    "Enter tạo mục mới; Tab xuống cấp",
+    "Ảnh nền: Wrap Text → Behind Text",
+    "Dùng ảnh/AI phải ghi nguồn, kiểm chứng"
+   ],
+   "bang": [
+    {
+     "tieu_de": "So sánh hai kiểu danh sách",
+     "cot": [
+      "Tiêu chí",
+      "Dấu đầu dòng (Bullets)",
+      "Có thứ tự (Numbering)"
+     ],
+     "dong": [
+      [
+       "Lệnh",
+       "Home → Bullets",
+       "Home → Numbering"
+      ],
+      [
+       "Ký hiệu",
+       "•, –, ✓",
+       "1, 2, 3 / a, b, c"
+      ],
+      [
+       "Dùng khi",
+       "Mục ngang hàng",
+       "Các bước theo trình tự"
+      ],
+      [
+       "Ví dụ",
+       "Đồ dùng học tập",
+       "Các bước nấu ăn"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Ảnh và hình đồ hoạ",
+     "cot": [
+      "Nội dung",
+      "Lệnh / thao tác"
+     ],
+     "dong": [
+      [
+       "Chèn ảnh",
+       "Insert → Pictures"
+      ],
+      [
+       "Co dãn ảnh",
+       "Kéo núm góc"
+      ],
+      [
+       "Xoá ảnh",
+       "Chọn ảnh, nhấn Delete"
+      ],
+      [
+       "Ảnh nền dưới chữ",
+       "Wrap Text → Behind Text"
+      ],
+      [
+       "Vẽ hình đồ hoạ",
+       "Insert → Shapes"
+      ],
+      [
+       "Đổi màu hình",
+       "Shape Fill"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Phiếu khảo sát 500 mục: gõ số tay từng mục rất mất công; nếu chèn thêm 1 mục ở giữa thì phải sửa lại số các mục sau.",
+     "ket_luan": "→ Dùng Numbering: Word tự đánh số và tự cập nhật."
+    },
+    {
+     "tinh_huong": "Dự án CLB Tin học: 'Chuẩn bị' (1.), 'Thực hiện' (2.); dưới mỗi nhóm có các việc con.",
+     "ket_luan": "→ Nhóm việc dùng Numbering, việc con dùng Bullets và nhấn Tab để thụt cấp."
+    },
+    {
+     "tinh_huong": "Làm tờ rơi tuyển thành viên: chèn ảnh nền, gõ chữ nhưng chữ bị ảnh che mất.",
+     "ket_luan": "→ Chọn ảnh, Wrap Text → Behind Text; kéo núm góc để chỉnh cỡ không méo."
+    },
+    {
+     "tinh_huong": "Cần thêm mũi tên chỉ vào dòng 'Đăng ký ngay' màu cam trên tờ rơi.",
+     "ket_luan": "→ Insert → Shapes → Block Arrows để vẽ, Shape Fill để chọn màu cam."
+    }
+   ],
+   "nho": [
+    "Bullets = Bi (chấm) cho mục Bằng nhau; Numbering = Nối Nấc theo bước.",
+    "Enter = Ra mục mới; Tab = Thụt xuống cấp.",
+    "Ảnh nền: 'Behind' = đằng sau chữ; 'In Front' = chắn trước chữ.",
+    "Pictures = ảnh có sẵn; Shapes = hình tự vẽ."
+   ],
+   "bay": [
+    "Nhầm Bullets với Numbering: các bước tuần tự phải đánh số, mục ngang hàng dùng dấu đầu dòng.",
+    "Gõ số bằng tay thay vì dùng Numbering nên không tự cập nhật khi thêm mục.",
+    "Chọn In Front of Text cho ảnh nền làm ảnh che chữ; đúng là Behind Text.",
+    "Kéo núm cạnh làm ảnh méo; phải kéo núm góc. Tin ngay câu trả lời AI không kiểm chứng."
+   ],
+   "giaoan": [
+    "**Mục tiêu** – Kiến thức: nêu được hai kiểu danh sách dạng liệt kê và tác dụng; tác dụng của hình ảnh, hình đồ hoạ; thực hiện được tạo danh sách, chèn, xoá, co dãn, đổi lớp ảnh, vẽ và đổi màu hình đồ hoạ; Năng lực: tự chủ và tự học, giao tiếp hợp tác; năng lực Tin học (NLa, NLc, NLd), NLS 3.1.TC2.a, 3.2.TC2.a, NLAI 8.A3.3, 8.B2.1; Phẩm chất: chăm chỉ, sáng tạo, thẩm mĩ, trung thực, tôn trọng nguồn ảnh.",
+    "**Chuẩn bị** – GV: máy chiếu, phòng máy có Word và chatbot AI, hình SGK 8a.1–8a.11, phiếu học tập, ảnh nền mẫu; HS: SGK, vở ghi, ôn thao tác soạn thảo lớp 6, 7, ảnh nền chủ đề Tin học có nguồn rõ.",
+    "**Hoạt động 1 – Mở đầu** (5 phút): Mục tiêu: tạo hứng thú, nêu nhu cầu đánh số tự động. Nội dung: xem Hình 8a.1, hỏi An có phải gõ từng số, danh sách 500 mục thì sao. Sản phẩm: Word tự đánh số, tự cập nhật. Tổ chức: (1) GV chiếu hình, nêu câu hỏi; (2) HS nghĩ 1 phút, chia sẻ cặp đôi (Think–Pair–Share); (3) mời 2 HS trả lời; (4) GV kết luận, vào bài.",
+    "**Hoạt động 2 – Hình thành kiến thức** (55 phút): Mục tiêu: hai kiểu danh sách, hình ảnh, hình đồ hoạ; làm Nhiệm vụ 1, 2. Nội dung: so sánh Hình 8a.2, 8a.3; đọc SGK; Nhiệm vụ 1 (Phiếu khảo sát), Nhiệm vụ 2 (tờ rơi). Sản phẩm: phiếu học tập, PhieuKhaoSat.docx, TuyenThanhVien.docx. Tổ chức 4 bước: giao nhiệm vụ cặp đôi; HS thảo luận, thực hành theo mẫu; báo cáo, giơ thẻ A–D; GV chốt (Numbering, Bullets, Behind Text, Shape Fill).",
+    "**Hoạt động 3 – Luyện tập** (15 phút): Mục tiêu: tạo danh sách kết hợp, đánh giá sản phẩm. Nội dung: tạo CLBTinhoc.docx giống Hình 8a.3; đổi máy đánh giá chéo tờ rơi bằng bảng kiểm. Sản phẩm: tệp hoàn chỉnh, bảng kiểm. Tổ chức: GV giao việc; HS thực hành (Tab để lùi cấp); báo cáo 1 điểm tốt, 1 điểm cần sửa; GV nhận xét lỗi thường gặp.",
+    "**Hoạt động 4 – Vận dụng** (15 phút): Mục tiêu: vận dụng vào thực tế, kiểm chứng AI, dùng ảnh có trách nhiệm. Nội dung: Vận dụng 1 (tạo mẫu dấu/số mới); GV hỏi chatbot về hai kiểu danh sách, HS đối chiếu SGK; giao Vận dụng 2. Sản phẩm: mẫu danh sách mới, nhận xét câu trả lời AI, ghi chú nguồn ảnh. Tổ chức: giao nhiệm vụ; cặp đôi đối chiếu; báo cáo; GV chốt Ghi nhớ.",
+    "**Kiểm tra đánh giá** – Quan sát thực hành, bảng kiểm sản phẩm (đủ 3 lớp, bố cục, lưu đúng tên), đánh giá đồng đẳng, câu hỏi trắc nghiệm giơ thẻ A–D; dặn dò: làm Vận dụng 2, đọc trước Bài 9a."
+   ],
+   "ai": [
+    "GV nhập chatbot 'Nêu hai kiểu danh sách trong Word và cách tạo', chiếu kết quả; HS đối chiếu SGK tr.37, 39 để chỉ ra ý đúng, ý thiếu (Enter, Tab, tự cập nhật số).",
+    "HS rút ra: AI có thể thiếu hoặc sai nên phải kiểm chứng bằng SGK/thực hành thử trước khi dùng (trách nhiệm giải trình, 8.A3.3).",
+    "Đạo đức khi dùng ảnh: ghi nguồn ảnh; ảnh do AI tạo phải ghi chú 'tạo bằng AI'; không dùng ảnh của bạn khi chưa xin phép (8.B2.1)."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Danh sách dạng liệt kê KHÔNG có kiểu nào sau đây?",
+     "o": [
+      "Danh sách dấu đầu dòng",
+      "Danh sách có thứ tự",
+      "Danh sách kết hợp nhiều cấp",
+      "Danh sách tự sắp xếp theo vần"
+     ],
+     "a": [
+      3
+     ],
+     "e": "SGK chỉ nêu hai kiểu (dấu đầu dòng, có thứ tự), có thể kết hợp nhiều cấp; không có kiểu 'tự sắp xếp theo vần'.",
+     "r": "SGK Tin học 8 KNTT – Bài 8a"
+    },
+    {
+     "t": "s",
+     "q": "Khi nào nên dùng danh sách có thứ tự (Numbering)?",
+     "o": [
+      "Liệt kê các món đồ ngang hàng, không cần thứ tự",
+      "Liệt kê các bước thực hiện cần theo trình tự",
+      "Chèn hình ảnh vào văn bản",
+      "Đổi màu hình đồ hoạ"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Bẫy: danh sách ngang hàng dùng dấu đầu dòng; các bước tuần tự dùng đánh số.",
+     "r": "SGK Tin học 8 KNTT – Bài 8a"
+    },
+    {
+     "t": "s",
+     "q": "Đang gõ mục cuối của danh sách, nhấn Enter thì:",
+     "o": [
+      "Văn bản bị xoá",
+      "Tạo mục mới có số/dấu tự động tiếp theo",
+      "Chèn hình ảnh",
+      "Đóng danh sách và lưu tệp"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Enter tạo mục mới, số thứ tự tự cập nhật.",
+     "r": "SGK Tin học 8 KNTT – Bài 8a"
+    },
+    {
+     "t": "s",
+     "q": "Chèn thêm một mục vào giữa danh sách đã đánh số tự động, các số phía sau sẽ:",
+     "o": [
+      "Giữ nguyên, phải sửa tay",
+      "Tự động cập nhật lại",
+      "Bị xoá hết",
+      "Chuyển thành dấu đầu dòng"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Ưu điểm của đánh số tự động: tự cập nhật khi thêm/xoá mục; gõ số tay thì không.",
+     "r": "SGK Tin học 8 KNTT – Bài 8a"
+    },
+    {
+     "t": "s",
+     "q": "Lệnh chèn ảnh có sẵn trong tệp vào văn bản Word là:",
+     "o": [
+      "Insert → Pictures",
+      "Home → Bullets",
+      "Layout → Margins",
+      "Review → Spelling"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Insert → Pictures; Home → Bullets là danh sách.",
+     "r": "SGK Tin học 8 KNTT – Bài 8a"
+    },
+    {
+     "t": "s",
+     "q": "Muốn đặt ảnh nằm dưới chữ làm ảnh nền tờ rơi, chọn kiểu bao quanh:",
+     "o": [
+      "In Front of Text",
+      "Behind Text",
+      "Top and Bottom",
+      "Tight"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Bẫy: In Front of Text đặt ảnh che lên chữ; ảnh nền phải là Behind Text.",
+     "r": "SGK Tin học 8 KNTT – Bài 8a"
+    },
+    {
+     "t": "s",
+     "q": "Để phóng to ảnh mà không bị méo hình, ta kéo:",
+     "o": [
+      "Cạnh giữa của ảnh",
+      "Núm ở góc ảnh",
+      "Thanh cuộn",
+      "Thước kẻ"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Kéo núm góc giữ tỉ lệ; kéo núm cạnh làm méo.",
+     "r": "SGK Tin học 8 KNTT – Bài 8a"
+    },
+    {
+     "t": "s",
+     "q": "Hình đồ hoạ (mũi tên, hình chữ nhật...) được vẽ bằng lệnh:",
+     "o": [
+      "Insert → Pictures",
+      "Insert → Shapes",
+      "Home → Numbering",
+      "Insert → Table"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Pictures là ảnh có sẵn; Shapes là hình đồ hoạ tự vẽ.",
+     "r": "SGK Tin học 8 KNTT – Bài 8a"
+    },
+    {
+     "t": "s",
+     "q": "Đổi màu nền của hình đồ hoạ đã vẽ dùng lệnh:",
+     "o": [
+      "Shape Fill",
+      "Font Color",
+      "Wrap Text",
+      "Bullets"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Shape Fill tô màu hình; Font Color đổi màu chữ.",
+     "r": "SGK Tin học 8 KNTT – Bài 8a"
+    },
+    {
+     "t": "s",
+     "q": "Tác dụng chính của hình ảnh trong văn bản là:",
+     "o": [
+      "Làm tăng dung lượng tệp",
+      "Làm văn bản sinh động, dễ hiểu, thẩm mĩ",
+      "Thay thế hoàn toàn chữ",
+      "Tự kiểm tra chính tả"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Hình ảnh hỗ trợ nội dung, không thay thế chữ.",
+     "r": "SGK Tin học 8 KNTT – Bài 8a"
+    },
+    {
+     "t": "s",
+     "q": "Chatbot AI trả lời cách tạo danh sách trong Word. Việc làm ĐÚNG nhất của HS là:",
+     "o": [
+      "Chép nguyên văn, không cần kiểm tra",
+      "Đối chiếu với SGK/thực hành thử rồi mới dùng",
+      "Tin vì AI luôn đúng",
+      "Xoá câu trả lời"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Trách nhiệm giải trình khi dùng AI: kiểm chứng đầu ra.",
+     "r": "SGK Tin học 8 KNTT – Bài 8a"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các phát biểu ĐÚNG về danh sách dạng liệt kê:",
+     "o": [
+      "Có kiểu dấu đầu dòng và kiểu có thứ tự",
+      "Giúp văn bản rõ ràng, dễ đọc",
+      "Phải gõ số tay từng mục",
+      "Có thể kết hợp nhiều cấp"
+     ],
+     "a": [
+      0,
+      1,
+      3
+     ],
+     "e": "Bẫy: Word tự đánh số, không cần gõ tay.",
+     "r": "SGK Tin học 8 KNTT – Bài 8a"
+    },
+    {
+     "t": "m",
+     "q": "Các thao tác nào thực hiện được với ảnh đã chèn trong Word?",
+     "o": [
+      "Co dãn kích thước",
+      "Xoá ảnh bằng phím Delete",
+      "Đổi kiểu bao quanh (Wrap Text)",
+      "Biến ảnh thành danh sách"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Ảnh không thể biến thành danh sách.",
+     "r": "SGK Tin học 8 KNTT – Bài 8a"
+    },
+    {
+     "t": "m",
+     "q": "Tờ rơi tuyển thành viên theo bài gồm các lớp nào?",
+     "o": [
+      "Ảnh nền",
+      "Chữ nội dung",
+      "Hình đồ hoạ (mũi tên...)",
+      "Bảng tính"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Ba lớp: ảnh nền, chữ, hình đồ hoạ; bảng tính không thuộc nội dung này.",
+     "r": "SGK Tin học 8 KNTT – Bài 8a"
+    },
+    {
+     "t": "m",
+     "q": "Khi dùng ảnh trong sản phẩm học tập, việc nào thể hiện tôn trọng bản quyền?",
+     "o": [
+      "Ghi nguồn ảnh",
+      "Ghi chú ảnh tạo bằng AI",
+      "Xin phép khi dùng ảnh của bạn",
+      "Tải ảnh bất kì và nhận là của mình"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Không nhận ảnh người khác là của mình.",
+     "r": "SGK Tin học 8 KNTT – Bài 8a"
+    },
+    {
+     "t": "f",
+     "q": "Để đánh số tự động ta chọn mục rồi dùng lệnh Home → ____; để tạo dấu đầu dòng dùng ____.",
+     "a": [
+      [
+       "Numbering"
+      ],
+      [
+       "Bullets"
+      ]
+     ],
+     "o": [
+      [
+       "Numbering",
+       "Bullets"
+      ],
+      [
+       "Bullets",
+       "Numbering"
+      ],
+      [
+       "Shapes",
+       "Pictures"
+      ],
+      [
+       "Pictures",
+       "Shapes"
+      ]
+     ],
+     "k": 0,
+     "e": "Bẫy: đổi thứ tự hai lệnh.",
+     "r": "SGK Tin học 8 KNTT – Bài 8a"
+    },
+    {
+     "t": "f",
+     "q": "Chèn ảnh dùng Insert → ____; vẽ hình đồ hoạ dùng Insert → ____.",
+     "a": [
+      [
+       "Pictures"
+      ],
+      [
+       "Shapes"
+      ]
+     ],
+     "o": [
+      [
+       "Shapes",
+       "Pictures"
+      ],
+      [
+       "Pictures",
+       "Shapes"
+      ],
+      [
+       "Table",
+       "Shapes"
+      ],
+      [
+       "Pictures",
+       "Symbol"
+      ]
+     ],
+     "k": 1,
+     "e": "Pictures: ảnh; Shapes: hình đồ hoạ.",
+     "r": "SGK Tin học 8 KNTT – Bài 8a"
+    },
+    {
+     "t": "f",
+     "q": "Ảnh nền không che chữ cần chọn Wrap Text → ____; muốn mục con lùi sâu hơn một cấp nhấn phím ____.",
+     "a": [
+      [
+       "Behind Text"
+      ],
+      [
+       "Tab"
+      ]
+     ],
+     "o": [
+      [
+       "In Front of Text",
+       "Enter"
+      ],
+      [
+       "Behind Text",
+       "Enter"
+      ],
+      [
+       "Behind Text",
+       "Tab"
+      ],
+      [
+       "In Front of Text",
+       "Tab"
+      ]
+     ],
+     "k": 2,
+     "e": "Behind Text và Tab; Enter chỉ tạo mục mới.",
+     "r": "SGK Tin học 8 KNTT – Bài 8a"
+    },
+    {
+     "t": "f",
+     "q": "Nhấn ____ để tạo mục mới trong danh sách; đổi màu hình đồ hoạ dùng ____.",
+     "a": [
+      [
+       "Enter"
+      ],
+      [
+       "Shape Fill"
+      ]
+     ],
+     "o": [
+      [
+       "Tab",
+       "Shape Fill"
+      ],
+      [
+       "Enter",
+       "Font Color"
+      ],
+      [
+       "Delete",
+       "Shape Fill"
+      ],
+      [
+       "Enter",
+       "Shape Fill"
+      ]
+     ],
+     "k": 3,
+     "e": "Enter tạo mục; Shape Fill đổi màu hình.",
+     "r": "SGK Tin học 8 KNTT – Bài 8a"
+    },
+    {
+     "t": "f",
+     "q": "Xoá ảnh đã chọn bằng phím ____; kéo núm ở ____ ảnh để co dãn không méo.",
+     "a": [
+      [
+       "Delete"
+      ],
+      [
+       "góc",
+       "các góc"
+      ]
+     ],
+     "o": [
+      [
+       "Enter",
+       "góc"
+      ],
+      [
+       "Delete",
+       "cạnh"
+      ],
+      [
+       "Delete",
+       "góc"
+      ],
+      [
+       "Tab",
+       "cạnh"
+      ]
+     ],
+     "k": 2,
+     "e": "Delete xoá; núm góc giữ tỉ lệ.",
+     "r": "SGK Tin học 8 KNTT – Bài 8a"
+    },
+    {
+     "t": "f",
+     "q": "Danh sách ____ dùng cho các bước theo trình tự; danh sách ____ dùng cho các mục ngang hàng.",
+     "a": [
+      [
+       "có thứ tự"
+      ],
+      [
+       "dấu đầu dòng"
+      ]
+     ],
+     "o": [
+      [
+       "dấu đầu dòng",
+       "có thứ tự"
+      ],
+      [
+       "có thứ tự",
+       "dấu đầu dòng"
+      ],
+      [
+       "nhiều cấp",
+       "có thứ tự"
+      ],
+      [
+       "dấu đầu dòng",
+       "hình ảnh"
+      ]
+     ],
+     "k": 1,
+     "e": "Bẫy đảo hai kiểu danh sách.",
+     "r": "SGK Tin học 8 KNTT – Bài 8a"
+    }
+   ],
+   "tuluan": [
+    {
+     "q": "Câu 1 (3 điểm). Trình bày hai kiểu danh sách dạng liệt kê trong Word, cách tạo và khi nào dùng mỗi kiểu. Nêu một ví dụ.",
+     "a": [
+      "Hai kiểu: dấu đầu dòng (Bullets) và có thứ tự (Numbering); có thể kết hợp nhiều cấp.",
+      "Cách tạo: chọn các mục → Home → Bullets hoặc Numbering; Enter tạo mục mới; Tab lùi xuống cấp con.",
+      "Dấu đầu dòng cho mục ngang hàng; có thứ tự cho các bước theo trình tự.",
+      "Ưu điểm: số tự cập nhật khi thêm/xoá mục.",
+      "Ví dụ: danh sách đồ dùng học tập dùng Bullets; các bước nấu ăn dùng Numbering."
+     ]
+    },
+    {
+     "q": "Câu 2 (4 điểm). Nêu mục tiêu bài 'Làm việc với danh sách dạng liệt kê và hình ảnh trong văn bản' (Tin học 8) theo chương trình 2018.",
+     "a": [
+      "Kiến thức: nêu hai kiểu danh sách và tác dụng; tác dụng của hình ảnh, hình đồ hoạ; thực hiện chèn, xoá, co dãn, đổi lớp ảnh, vẽ, đổi màu hình đồ hoạ.",
+      "Kĩ năng: tạo được Phiếu khảo sát, tờ rơi tuyển thành viên có danh sách và hình ảnh.",
+      "Năng lực chung: tự chủ và tự học, giao tiếp và hợp tác.",
+      "Năng lực tin học: NLa, NLc, NLd (dùng phần mềm soạn thảo, tạo văn bản phù hợp mục đích); có thể nêu NLS 3.1.TC2.a, 3.2.TC2.a.",
+      "Phẩm chất: chăm chỉ, sáng tạo, thẩm mĩ, trung thực, tôn trọng nguồn ảnh."
+     ]
+    },
+    {
+     "q": "Câu 3 (3 điểm). Thiết kế một hoạt động tích hợp AI trong bài này để HS kiểm chứng đầu ra của chatbot và dùng ảnh có trách nhiệm.",
+     "a": [
+      "Mục tiêu: HS đối chiếu câu trả lời AI với SGK và nêu cách dùng ảnh có bản quyền.",
+      "Chuẩn bị: GV hỏi chatbot 'Nêu hai kiểu danh sách trong Word và cách tạo, ngắn gọn'.",
+      "Thực hiện: chiếu kết quả; cặp đôi đối chiếu SGK, đánh dấu ý đúng, ý thiếu (Enter, Tab, tự cập nhật số).",
+      "Báo cáo, thảo luận: có nên dùng ngay không; ảnh AI hoặc ảnh tải mạng cần làm gì.",
+      "Kết luận: phải kiểm chứng; ghi nguồn ảnh, ghi chú 'tạo bằng AI'; HS thêm dòng ghi chú vào tờ rơi."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T8-B08b",
+   "ten": "Bài 8b. Phần mềm chỉnh sửa ảnh",
+   "tomtat": [
+    "**Chỉnh sửa ảnh** là thay đổi nội dung, màu sắc, kích thước ảnh bằng **phần mềm chỉnh sửa ảnh** (ví dụ GIMP).",
+    "Ba chức năng chính: **tạo mới ảnh**; **chỉnh sửa ảnh**; **chuyển đổi định dạng và độ phân giải**.",
+    "**Đối tượng** là thành phần riêng trong ảnh (người, cây, chữ...), có thể chỉnh sửa độc lập.",
+    "Ảnh có thể gồm nhiều **lớp** xếp chồng; lớp dưới cùng thường là **lớp ảnh nền**; **lớp trên che lớp dưới**.",
+    "Thao tác chỉnh sửa chỉ tác động lên **lớp/đối tượng đang chọn**, nên phải chọn đúng lớp trước khi làm.",
+    "Ảnh là **lưới các điểm ảnh (pixel)**, mỗi điểm có toạ độ và màu; kích thước ghi theo thứ tự **rộng × cao**.",
+    "Thông tin ảnh gồm tên tệp, kích thước, độ phân giải, định dạng; trong GIMP xem bằng **Image/Image Properties**.",
+    "Định dạng thường gặp: **jpg** (ảnh chụp, dung lượng nhẹ) và **png** (hỗ trợ **nền trong suốt**).",
+    "Mở ảnh: **File/Open**; phóng to/thu nhỏ: **Ctrl + lăn chuột** hoặc công cụ Zoom; di chuyển: công cụ **Move**.",
+    "Chọn vùng: **Rectangle Select** (chữ nhật), **Ellipse Select** (elip), **Free Select** (tự do).",
+    "Lưu ảnh: **Save** tạo tệp **.xcf** (giữ lớp, sửa tiếp); **Export As** xuất **.png/.jpg** để chia sẻ.",
+    "Có trách nhiệm: xin phép người trong ảnh, ghi nguồn, không chỉnh ảnh làm sai sự thật, khai báo khi dùng ảnh do AI tạo."
+   ],
+   "ynho": [
+    "3 chức năng: tạo mới, chỉnh sửa, chuyển đổi định dạng/độ phân giải.",
+    "Lớp trên che lớp dưới; chỉ lớp đang chọn bị tác động.",
+    "Kích thước ảnh ghi rộng × cao (pixel).",
+    "Save ra .xcf; Export As ra png/jpg.",
+    "png có nền trong suốt; jpg cho ảnh chụp, nhẹ."
+   ],
+   "bang": [
+    {
+     "tieu_de": "Save và Export As trong GIMP",
+     "cot": [
+      "Lệnh",
+      "Kết quả",
+      "Mục đích"
+     ],
+     "dong": [
+      [
+       "File/Save",
+       "Tệp .xcf (giữ lớp)",
+       "Lưu để chỉnh sửa tiếp"
+      ],
+      [
+       "File/Export As",
+       "Tệp .png, .jpg",
+       "Chia sẻ, đăng, in ảnh"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "So sánh định dạng jpg và png",
+     "cot": [
+      "Tiêu chí",
+      "jpg",
+      "png"
+     ],
+     "dong": [
+      [
+       "Dùng cho",
+       "Ảnh chụp",
+       "Ảnh đồ hoạ, ảnh cần nền trong suốt"
+      ],
+      [
+       "Nền trong suốt",
+       "Không hỗ trợ",
+       "Hỗ trợ"
+      ],
+      [
+       "Dung lượng",
+       "Thường nhẹ",
+       "Thường nặng hơn jpg"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Ảnh phong cảnh trường bị ngón tay che một góc. Em xử lí thế nào?",
+     "ket_luan": "→ Mở ảnh bằng phần mềm chỉnh sửa ảnh, dùng công cụ cắt/chọn vùng bỏ phần lỗi rồi Export As."
+    },
+    {
+     "tinh_huong": "Ảnh có 3 lớp: nền (phong cảnh), lớp người, lớp chữ. Muốn dời chữ sang phải nhưng quên chọn lớp, đang chọn lớp người.",
+     "ket_luan": "→ Người bị dời, chữ đứng yên: thao tác chỉ tác động lớp đang chọn."
+    },
+    {
+     "tinh_huong": "Ảnh 1280 × 960 pixel: rộng, cao bao nhiêu? Có bao nhiêu điểm ảnh?",
+     "ket_luan": "→ Rộng 1280, cao 960; số điểm ảnh = 1280 × 960 = 1 228 800."
+    },
+    {
+     "tinh_huong": "Em đã chỉnh ảnh và muốn gửi cho bạn, nhưng cũng muốn tuần sau sửa tiếp các lớp.",
+     "ket_luan": "→ Save thành .xcf để sửa tiếp, Export As thành .png/.jpg để gửi bạn."
+    }
+   ],
+   "nho": [
+    "Lớp như giấy bóng kính: tờ trên che tờ dưới.",
+    "Save = giữ để Sửa tiếp (.xcf); Export = Xuất đi chia sẻ.",
+    "Rộng trước, cao sau: R × C.",
+    "png = trong suốt (P – Pha lê); jpg = Jảnh chụp."
+   ],
+   "bay": [
+    "Nhầm lớp dưới che lớp trên (đúng: lớp trên che lớp dưới).",
+    "Cho rằng chỉnh sửa tác động mọi lớp; thực tế chỉ lớp đang chọn.",
+    "Nhầm thứ tự kích thước 1280 × 960 thành cao × rộng; hoặc cộng thay vì nhân khi tính số điểm ảnh.",
+    "Nhầm Save với Export As: Save ra .xcf, muốn png/jpg phải Export As."
+   ],
+   "giaoan": [
+    "**Mục tiêu** – Kiến thức: nêu 3 chức năng phần mềm chỉnh sửa ảnh; hiểu đối tượng, lớp; biết ảnh là lưới pixel, phân biệt jpg/png; thực hiện được mở, đọc thông tin, phóng to, chọn, Save/Export As trong GIMP; Năng lực: tự chủ, tự học; giao tiếp, hợp tác; giải quyết vấn đề (NLa, NLb, NLc); Phẩm chất: chăm chỉ, trung thực, có trách nhiệm khi chỉnh sửa và chia sẻ ảnh.",
+    "**Chuẩn bị** – GV: kế hoạch bài dạy, máy chiếu, giấy bóng kính, phiếu học tập, phòng máy cài GIMP, ảnh mẫu; HS: SGK, vở, đọc trước bài.",
+    "**Hoạt động 1 – Mở đầu** (5 phút): Mục tiêu: tạo nhu cầu dùng phần mềm chỉnh sửa ảnh. Nội dung: tình huống ảnh bị ngón tay che. Sản phẩm: cắt bỏ phần lỗi, còn chỉnh sáng tối, đổi kích thước. Tổ chức: GV giao nhiệm vụ; HS suy nghĩ, trao đổi cặp; báo cáo; GV nhận xét, dẫn vào bài.",
+    "**Hoạt động 2 – Hình thành kiến thức** (55 phút): Mục tiêu: chức năng, đối tượng, lớp, pixel, jpg/png, thao tác GIMP. Nội dung: mô hình giấy bóng kính, đọc thông tin ảnh, GV làm mẫu – HS làm theo. Sản phẩm: ghi nhớ từng mục, tệp .xcf và .png. Tổ chức 4 bước: giao nhiệm vụ; HS thảo luận, thực hành; báo cáo, nhận xét; GV chốt kiến thức.",
+    "**Hoạt động 3 – Luyện tập** (15 phút): Mục tiêu: củng cố lớp, đối tượng, pixel, rèn thao tác. Nội dung: câu hỏi 4 lớp ảnh, phiếu Đúng/Sai, Luyện tập 2. Sản phẩm: đáp án đúng, tệp .png. Tổ chức: giao nhiệm vụ; HS giơ thẻ, thực hành; giải thích; GV chốt quy trình.",
+    "**Hoạt động 4 – Vận dụng** (15 phút): Mục tiêu: xử lí ảnh lỗi có trách nhiệm; kiểm chứng AI. Nội dung: tình huống người lạ lọt khung; đối chiếu câu trả lời chatbot với SGK. Sản phẩm: cách xử lí, phát hiện ý AI sai/thiếu. Tổ chức: GV nêu tình huống; HS thảo luận cặp; báo cáo; GV kết luận.",
+    "**Kiểm tra đánh giá** – Quan sát thao tác trên máy, bảng kiểm tệp lưu, phiếu Đúng/Sai, câu hỏi vấn đáp; đánh giá thái độ tôn trọng bản quyền và trung thực."
+   ],
+   "ai": [
+    "GV nhập vào chatbot các câu hỏi về lớp ảnh, kích thước 1280 × 960, jpg/png; HS đối chiếu SGK để chấm đúng/sai từng ý.",
+    "HS phát hiện chỗ AI sai hoặc thiếu, rút ra: AI chỉ để tham khảo, luôn kiểm chứng.",
+    "Đạo đức AI: không chia sẻ ảnh AI tạo như ảnh thật, ghi nguồn, khai báo khi dùng AI, không đưa ảnh người khác lên công cụ AI khi chưa được phép."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Chức năng nào KHÔNG thuộc nhóm chức năng chính của phần mềm chỉnh sửa ảnh?",
+     "o": [
+      "Soạn thảo và định dạng văn bản dài",
+      "Tạo mới ảnh",
+      "Chỉnh sửa ảnh",
+      "Chuyển đổi định dạng và độ phân giải"
+     ],
+     "a": [
+      0
+     ],
+     "e": "3 chức năng chính: tạo mới, chỉnh sửa, chuyển đổi định dạng/độ phân giải. Soạn thảo văn bản là việc của phần mềm soạn thảo.",
+     "r": "SGK Tin học 8 KNTT – Bài 8b"
+    },
+    {
+     "t": "s",
+     "q": "Trong ảnh nhiều lớp, quan hệ che khuất giữa các lớp là:",
+     "o": [
+      "Lớp dưới che lớp trên",
+      "Lớp trên che lớp dưới",
+      "Các lớp không che nhau",
+      "Lớp nào tạo sau thì luôn nằm dưới"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Bẫy đảo ngược: lớp nằm trên che phần lớp nằm dưới (như các tờ giấy bóng kính xếp chồng).",
+     "r": "SGK Tin học 8 KNTT – Bài 8b"
+    },
+    {
+     "t": "s",
+     "q": "Ảnh có kích thước 1280 × 960 pixel. Cách hiểu đúng là:",
+     "o": [
+      "Cao 1280, rộng 960",
+      "Có 1280 + 960 điểm ảnh",
+      "Rộng 1280, cao 960",
+      "Có 960 lớp ảnh"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Kích thước ghi theo thứ tự rộng × cao. Bẫy: nhầm thứ tự; tổng số điểm ảnh là tích 1280 × 960 chứ không phải tổng.",
+     "r": "SGK Tin học 8 KNTT – Bài 8b"
+    },
+    {
+     "t": "s",
+     "q": "Khi chỉnh sửa ảnh nhiều lớp trong GIMP, thao tác (tô màu, di chuyển...) tác động lên:",
+     "o": [
+      "Mọi lớp cùng lúc",
+      "Chỉ lớp ảnh nền",
+      "Lớp trên cùng",
+      "Lớp đang được chọn"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Chỉ tác động lên lớp/đối tượng đang chọn; quên chọn lớp là lỗi thường gặp.",
+     "r": "SGK Tin học 8 KNTT – Bài 8b"
+    },
+    {
+     "t": "s",
+     "q": "Mục đích nào phù hợp nhất để lưu ảnh dưới dạng tệp .xcf của GIMP?",
+     "o": [
+      "Lưu để tiếp tục chỉnh sửa, giữ nguyên các lớp",
+      "Gửi ảnh qua mạng xã hội",
+      "Giảm tối đa dung lượng ảnh",
+      "Chỉ để in ảnh"
+     ],
+     "a": [
+      0
+     ],
+     "e": ".xcf là định dạng riêng của GIMP, giữ lớp để sửa tiếp (lệnh Save). Chia sẻ thì dùng Export As ra png/jpg.",
+     "r": "SGK Tin học 8 KNTT – Bài 8b"
+    },
+    {
+     "t": "s",
+     "q": "Muốn có tệp ảnh .png hoặc .jpg để chia sẻ, trong GIMP em dùng lệnh nào?",
+     "o": [
+      "File/Save",
+      "File/Export As",
+      "File/Open",
+      "Image/Image Properties"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Export As xuất ra png/jpg; Save lưu .xcf. Bẫy: nhầm Save với Export As.",
+     "r": "SGK Tin học 8 KNTT – Bài 8b"
+    },
+    {
+     "t": "s",
+     "q": "Định dạng ảnh nào hỗ trợ nền trong suốt?",
+     "o": [
+      "jpg",
+      "Cả hai đều không",
+      "png",
+      "Chỉ .docx"
+     ],
+     "a": [
+      2
+     ],
+     "e": "png hỗ trợ nền trong suốt; jpg thường dùng cho ảnh chụp, dung lượng nhẹ.",
+     "r": "SGK Tin học 8 KNTT – Bài 8b"
+    },
+    {
+     "t": "s",
+     "q": "Để xem tên tệp, kích thước, độ phân giải, định dạng của ảnh đang mở trong GIMP, em chọn:",
+     "o": [
+      "File/Export As",
+      "Edit/Undo",
+      "Layer/New Layer",
+      "Image/Image Properties"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Image Properties hiển thị thông tin ảnh. Các lệnh còn lại phục vụ việc khác.",
+     "r": "SGK Tin học 8 KNTT – Bài 8b"
+    },
+    {
+     "t": "s",
+     "q": "Đối tượng trong ảnh là:",
+     "o": [
+      "Thành phần riêng trong ảnh như người, cây, chữ",
+      "Toàn bộ tệp ảnh",
+      "Một điểm ảnh duy nhất",
+      "Tên của phần mềm"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Đối tượng là thành phần riêng, có thể nằm ở lớp riêng và chỉnh sửa độc lập.",
+     "r": "SGK Tin học 8 KNTT – Bài 8b"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các phát biểu ĐÚNG về lớp ảnh:",
+     "o": [
+      "Ảnh có thể gồm nhiều lớp xếp chồng",
+      "Lớp dưới cùng thường là lớp ảnh nền",
+      "Lớp trên che phần lớp dưới",
+      "Chỉnh sửa một lớp luôn làm thay đổi mọi lớp"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Ý cuối sai: thao tác chỉ tác động lớp đang chọn.",
+     "r": "SGK Tin học 8 KNTT – Bài 8b"
+    },
+    {
+     "t": "m",
+     "q": "Những việc nào là chức năng của phần mềm chỉnh sửa ảnh?",
+     "o": [
+      "Cắt bỏ phần ảnh bị lỗi",
+      "Đổi kích thước ảnh",
+      "Chuyển ảnh từ png sang jpg",
+      "Tính toán bảng lương bằng công thức"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Tính toán bảng lương thuộc phần mềm bảng tính.",
+     "r": "SGK Tin học 8 KNTT – Bài 8b"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các công cụ chọn vùng trong GIMP được giới thiệu ở bài:",
+     "o": [
+      "Rectangle Select",
+      "Ellipse Select",
+      "Free Select",
+      "Zoom bằng Ctrl + Export"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Ba công cụ chọn vùng: chữ nhật, elip, tự do. 'Zoom bằng Ctrl + Export' là phương án bịa.",
+     "r": "SGK Tin học 8 KNTT – Bài 8b"
+    },
+    {
+     "t": "m",
+     "q": "Khi chia sẻ ảnh có người khác, em NÊN:",
+     "o": [
+      "Xin phép người trong ảnh",
+      "Ghi nguồn khi dùng ảnh của người khác",
+      "Chỉnh sửa làm sai lệch sự thật để gây cười",
+      "Khai báo khi ảnh được tạo bằng AI"
+     ],
+     "a": [
+      0,
+      1,
+      3
+     ],
+     "e": "Không được chỉnh ảnh làm sai sự thật; cần tôn trọng bản quyền, quyền riêng tư và trung thực về nguồn AI.",
+     "r": "SGK Tin học 8 KNTT – Bài 8b"
+    },
+    {
+     "t": "f",
+     "q": "Phần mềm chỉnh sửa ảnh có 3 chức năng chính: tạo mới ảnh, ____ ảnh, chuyển đổi định dạng và ____.",
+     "a": [
+      [
+       "chỉnh sửa"
+      ],
+      [
+       "độ phân giải"
+      ]
+     ],
+     "o": [
+      [
+       "xóa",
+       "độ phân giải"
+      ],
+      [
+       "chỉnh sửa",
+       "độ phân giải"
+      ],
+      [
+       "chỉnh sửa",
+       "dung lượng ổ đĩa"
+      ],
+      [
+       "in",
+       "màu chữ"
+      ]
+     ],
+     "k": 1,
+     "e": "Chức năng thứ ba là chuyển đổi định dạng và độ phân giải.",
+     "r": "SGK Tin học 8 KNTT – Bài 8b"
+    },
+    {
+     "t": "f",
+     "q": "Trong ảnh nhiều lớp, lớp ____ che lớp ____.",
+     "a": [
+      [
+       "trên"
+      ],
+      [
+       "dưới"
+      ]
+     ],
+     "o": [
+      [
+       "dưới",
+       "trên"
+      ],
+      [
+       "trên",
+       "trên"
+      ],
+      [
+       "trên",
+       "dưới"
+      ],
+      [
+       "dưới",
+       "dưới"
+      ]
+     ],
+     "k": 2,
+     "e": "Lớp trên che lớp dưới.",
+     "r": "SGK Tin học 8 KNTT – Bài 8b"
+    },
+    {
+     "t": "f",
+     "q": "Ảnh là lưới các ____ ảnh; kích thước ghi theo thứ tự ____ × cao.",
+     "a": [
+      [
+       "điểm",
+       "pixel"
+      ],
+      [
+       "rộng"
+      ]
+     ],
+     "o": [
+      [
+       "điểm",
+       "cao"
+      ],
+      [
+       "màu",
+       "rộng"
+      ],
+      [
+       "lớp",
+       "dài"
+      ],
+      [
+       "điểm",
+       "rộng"
+      ]
+     ],
+     "k": 3,
+     "e": "Kích thước ghi rộng × cao. Bẫy đổi thứ tự.",
+     "r": "SGK Tin học 8 KNTT – Bài 8b"
+    },
+    {
+     "t": "f",
+     "q": "Trong GIMP, lệnh ____ lưu tệp .xcf để sửa tiếp, còn lệnh ____ xuất ra png, jpg.",
+     "a": [
+      [
+       "Save"
+      ],
+      [
+       "Export As"
+      ]
+     ],
+     "o": [
+      [
+       "Save",
+       "Export As"
+      ],
+      [
+       "Export As",
+       "Save"
+      ],
+      [
+       "Open",
+       "Save"
+      ],
+      [
+       "Save",
+       "Open"
+      ]
+     ],
+     "k": 0,
+     "e": "Save → .xcf; Export As → png/jpg.",
+     "r": "SGK Tin học 8 KNTT – Bài 8b"
+    },
+    {
+     "t": "f",
+     "q": "Định dạng ____ hỗ trợ nền trong suốt, còn định dạng ____ thường dùng cho ảnh chụp, dung lượng nhẹ.",
+     "a": [
+      [
+       "png"
+      ],
+      [
+       "jpg"
+      ]
+     ],
+     "o": [
+      [
+       "jpg",
+       "png"
+      ],
+      [
+       "png",
+       "jpg"
+      ],
+      [
+       "png",
+       "png"
+      ],
+      [
+       "xcf",
+       "docx"
+      ]
+     ],
+     "k": 1,
+     "e": "png: nền trong suốt; jpg: ảnh chụp, nhẹ.",
+     "r": "SGK Tin học 8 KNTT – Bài 8b"
+    },
+    {
+     "t": "f",
+     "q": "Muốn xem thông tin ảnh, chọn Image/____; muốn phóng to ảnh, nhấn giữ Ctrl và ____ chuột.",
+     "a": [
+      [
+       "Image Properties"
+      ],
+      [
+       "lăn"
+      ]
+     ],
+     "o": [
+      [
+       "Export As",
+       "lăn"
+      ],
+      [
+       "Image Properties",
+       "nháy đúp"
+      ],
+      [
+       "Image Properties",
+       "lăn"
+      ],
+      [
+       "New Layer",
+       "kéo thả"
+      ]
+     ],
+     "k": 2,
+     "e": "Image Properties và Ctrl + lăn chuột.",
+     "r": "SGK Tin học 8 KNTT – Bài 8b"
+    },
+    {
+     "t": "s",
+     "q": "Ảnh 1280 × 960 pixel có tổng số điểm ảnh là:",
+     "o": [
+      "2240",
+      "12 288 000",
+      "122 880",
+      "1 228 800"
+     ],
+     "a": [
+      3
+     ],
+     "e": "1280 × 960 = 1 228 800 (số điểm ảnh là tích, không phải tổng 2240).",
+     "r": "SGK Tin học 8 KNTT – Bài 8b"
+    },
+    {
+     "t": "s",
+     "q": "Khi dùng chatbot AI hỏi về kiến thức bài học, cách làm đúng nhất là:",
+     "o": [
+      "Đối chiếu SGK và nguồn tin cậy",
+      "Tin hoàn toàn vì AI luôn đúng",
+      "Chỉ tin khi câu trả lời dài",
+      "Không bao giờ dùng AI"
+     ],
+     "a": [
+      0
+     ],
+     "e": "AI có thể sai hoặc thiếu nên phải kiểm chứng; không tin tuyệt đối cũng không cấm hoàn toàn.",
+     "r": "SGK Tin học 8 KNTT – Bài 8b"
+    }
+   ],
+   "tuluan": [
+    {
+     "q": "Câu 1 (3 điểm). Trình bày khái niệm đối tượng, lớp trong ảnh và cho biết vì sao khi chỉnh sửa cần chọn đúng lớp. Cho ví dụ.",
+     "a": [
+      "Đối tượng: thành phần riêng trong ảnh (người, cây, chữ...).",
+      "Ảnh gồm nhiều lớp xếp chồng; lớp dưới cùng là lớp ảnh nền; lớp trên che lớp dưới.",
+      "Thao tác chỉ tác động lên lớp/đối tượng đang chọn nên chọn sai lớp sẽ sửa nhầm.",
+      "Ví dụ: ảnh 3 lớp nền, người, chữ; muốn dời chữ phải chọn lớp chữ."
+     ]
+    },
+    {
+     "q": "Câu 2 (4 điểm). Nêu mục tiêu bài học 'Phần mềm chỉnh sửa ảnh' (Tin học 8) theo chương trình 2018.",
+     "a": [
+      "Kiến thức: nêu 3 chức năng phần mềm chỉnh sửa ảnh; đối tượng, lớp; pixel, rộng × cao; jpg/png.",
+      "Kĩ năng: dùng GIMP mở ảnh, đọc thông tin, phóng to/thu nhỏ, di chuyển, chọn vùng, Save và Export As.",
+      "Năng lực chung: tự chủ, tự học; giao tiếp, hợp tác; giải quyết vấn đề và sáng tạo.",
+      "Năng lực tin học: NLa, NLb (tôn trọng bản quyền), NLc; có thể tích hợp năng lực AI 8.B1.1, 8.B2.1.",
+      "Phẩm chất: chăm chỉ, trung thực, có trách nhiệm khi chỉnh sửa, chia sẻ ảnh."
+     ]
+    },
+    {
+     "q": "Câu 3 (3 điểm). Một HS dùng AI tạo ảnh 'thầy giáo' rồi đăng lên mạng như ảnh thật và hỏi chatbot kiến thức bài. Đánh giá và đề xuất cách tổ chức hoạt động giáo dục HS.",
+     "a": [
+      "Sai: ảnh AI tạo không được trình bày như ảnh thật; cần khai báo khi dùng AI và ghi nguồn.",
+      "Không dùng hình ảnh người khác khi chưa xin phép; tôn trọng bản quyền, quyền riêng tư.",
+      "Câu trả lời của chatbot có thể sai/thiếu, phải đối chiếu SGK và nguồn tin cậy.",
+      "Tổ chức: cho HS đối chiếu câu trả lời AI với SGK, thảo luận cặp, rút ra quy tắc dùng AI có trách nhiệm."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T8-B12",
+   "ten": "Bài 12. Từ thuật toán đến chương trình",
+   "tomtat": [
+    "Muốn máy tính làm việc, phải **mô tả chính xác từng bước**: máy tính chỉ thực hiện các **lệnh** rõ ràng, đúng thứ tự.",
+    "Thuật toán có thể mô tả bằng **ngôn ngữ tự nhiên** hoặc **sơ đồ khối**; máy tính không hiểu trực tiếp các cách mô tả này.",
+    "**Chương trình** là **dãy các lệnh** điều khiển máy tính thực hiện một **thuật toán** (Ghi nhớ SGK).",
+    "Mỗi **bước** của thuật toán (sơ đồ khối) được chuyển thành **một lệnh (hoặc vài lệnh)** trong chương trình.",
+    "Thuật toán vẽ **tam giác đều**: **lặp lại 3 lần** [di chuyển một đoạn; quay một góc **120°**].",
+    "Góc quay (góc ngoài) = **360° : số cạnh**; tam giác đều quay 120°, hình vuông 90°, ngũ giác đều 72°, lục giác đều 60°.",
+    "Tương ứng trong Scratch: lặp 3 lần → **lặp lại 3**; di chuyển → **di chuyển ... bước**; quay → **xoay trái/phải ... độ** (nhóm Chuyển động).",
+    "Để thấy nét vẽ dùng nhóm lệnh **Bút vẽ** (**đặt bút**, **nhấc bút**); có thể thêm **Đợi 1 giây** trong vòng lặp để quan sát từng bước.",
+    "Thực hành: **Nhiệm vụ 1** tạo chương trình (khi bấm cờ xanh, lặp lại, di chuyển, xoay); **Nhiệm vụ 2** thêm Bút vẽ, chạy thử và **lưu tệp** (VeHinh.sb3).",
+    "Muốn vẽ hình khác chỉ cần đổi **số lần lặp** (= số cạnh) và **góc quay**, có thể đổi độ dài cạnh để thay kích thước.",
+    "Có thể lặp **theo điều kiện** (ví dụ xe chạy cho đến khi cách hòn đá < 120 bước, mỗi lần di chuyển 5 bước).",
+    "Kết quả chatbot AI viết chương trình có thể **sai** (ví dụ sai góc quay) nên phải **chạy thử, kiểm chứng**, khai báo dùng AI."
+   ],
+   "ynho": [
+    "Chương trình = dãy lệnh thực hiện một thuật toán",
+    "Mỗi bước thuật toán ứng một lệnh",
+    "Góc quay = 360° : số cạnh",
+    "Tam giác đều: lặp 3, quay 120°",
+    "Kết quả AI phải chạy thử, kiểm chứng"
+   ],
+   "bang": [
+    {
+     "tieu_de": "Hình đều – số lần lặp – góc quay",
+     "cot": [
+      "Hình",
+      "Số cạnh = số lần lặp",
+      "Góc quay (360° : số cạnh)"
+     ],
+     "dong": [
+      [
+       "Tam giác đều",
+       "3",
+       "120°"
+      ],
+      [
+       "Hình vuông",
+       "4",
+       "90°"
+      ],
+      [
+       "Ngũ giác đều",
+       "5",
+       "72°"
+      ],
+      [
+       "Lục giác đều",
+       "6",
+       "60°"
+      ],
+      [
+       "Bát giác đều",
+       "8",
+       "45°"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Sơ đồ khối và lệnh Scratch",
+     "cot": [
+      "Bước trong thuật toán",
+      "Lệnh Scratch",
+      "Nhóm lệnh"
+     ],
+     "dong": [
+      [
+       "Lặp lại 3 lần",
+       "lặp lại 3",
+       "Điều khiển"
+      ],
+      [
+       "Di chuyển một đoạn",
+       "di chuyển ... bước",
+       "Chuyển động"
+      ],
+      [
+       "Quay một góc",
+       "xoay trái/phải ... độ",
+       "Chuyển động"
+      ],
+      [
+       "Vẽ nét",
+       "đặt bút / nhấc bút",
+       "Bút vẽ"
+      ],
+      [
+       "Bắt đầu chạy",
+       "khi bấm cờ xanh",
+       "Sự kiện"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Bài toán: vẽ tam giác đều bằng Scratch. Thuật toán: lặp 3 lần [di chuyển một đoạn; quay trái 120°]. Chương trình: khi bấm cờ xanh → đặt bút → lặp lại 3 [di chuyển 60 bước; xoay trái 120 độ] → nhấc bút. Tổng góc quay 3 × 120° = 360°.",
+     "ket_luan": "→ Mỗi bước thuật toán ứng một lệnh; quay đủ 360° thì hình khép kín."
+    },
+    {
+     "tinh_huong": "Vẽ hình vuông (Luyện tập 1): sơ đồ khối gồm Bắt đầu → lặp 4 lần [di chuyển; quay 90°] → Kết thúc. 4 × 90° = 360°.",
+     "ket_luan": "→ Hình vuông: lặp 4, quay 90°."
+    },
+    {
+     "tinh_huong": "Đổi hình: ngũ giác đều quay 360 : 5 = 72°, lục giác đều quay 360 : 6 = 60°, bát giác đều quay 360 : 8 = 45°; số lần lặp bằng số cạnh.",
+     "ket_luan": "→ Đổi hình chỉ cần đổi hai số: số lần lặp và góc quay."
+    },
+    {
+     "tinh_huong": "Xe – hòn đá (Luyện tập 3): lặp lại cho đến khi cách hòn đá < 120 bước: di chuyển 5 bước. Điều kiện kiểm tra ở ô ① 'Cách hòn đá < 120 bước?', ô ② 'Di chuyển 5 bước'.",
+     "ket_luan": "→ Có thể lặp theo điều kiện, không chỉ theo số lần cố định."
+    }
+   ],
+   "nho": [
+    "'Cạnh bao nhiêu – lặp bấy nhiêu; 360 chia cạnh ra góc quay'.",
+    "Thuật toán = ý tưởng; chương trình = ý tưởng viết bằng lệnh.",
+    "Tam giác: 3 – 120; vuông: 4 – 90; lục giác: 6 – 60 (nhân lại luôn ra 360)."
+   ],
+   "bay": [
+    "Nhầm góc quay với góc trong: tam giác đều quay 120°, không phải 60°.",
+    "Nhầm sơ đồ khối/ngôn ngữ tự nhiên với chương trình: chỉ chương trình mới điều khiển máy.",
+    "Quên nhóm Bút vẽ (đặt bút) nên nhân vật chạy mà không có nét.",
+    "Tin AI vô điều kiện: đoạn lệnh AI đưa ra vẫn phải chạy thử và kiểm chứng."
+   ],
+   "giaoan": [
+    "**Mục tiêu** – Kiến thức: mô tả được thuật toán vẽ tam giác đều bằng ngôn ngữ tự nhiên và sơ đồ khối; nêu được chương trình là dãy lệnh điều khiển máy tính thực hiện thuật toán; chuyển được sơ đồ khối thành lệnh Scratch; Năng lực: tự chủ, tự học; giao tiếp, hợp tác; năng lực tin học NLc (mô tả thuật toán, chuyển thành chương trình), NLd (dùng Scratch); Phẩm chất: kiên trì, cẩn thận, trung thực khi dùng AI.",
+    "**Chuẩn bị** – GV: kế hoạch bài dạy, máy tính, máy chiếu, Scratch, phiếu học tập; HS: SGK Tin học 8, vở ghi, ôn lại thuật toán, sơ đồ khối, lệnh lặp.",
+    "**Hoạt động 1 – Mở đầu** (8 phút). Mục tiêu: tạo hứng thú, HS nhận ra cần mô tả từng bước chính xác. Nội dung: tình huống bọ rùa đi theo tam giác đều (Hình 12.1). Sản phẩm: máy tính chỉ làm theo lệnh rõ ràng, đúng thứ tự. Tổ chức: (1) GV giao nhiệm vụ; (2) HS nghĩ cá nhân, trao đổi cặp (Think – Pair – Share); (3) mời 2 cặp báo cáo; (4) GV nhận xét, dẫn vào bài.",
+    "**Hoạt động 2 – Hình thành kiến thức** (40 phút). Mục tiêu: mô tả thuật toán, nêu khái niệm chương trình, tạo/chạy/lưu chương trình Scratch. Nội dung: Hoạt động 1 (Hình 12.2), Hình 12.3, Ghi nhớ, Thực hành Nhiệm vụ 1–2. Sản phẩm: thuật toán lặp 3 lần [di chuyển; quay 120°], chương trình Scratch, tệp VeHinh.sb3. Tổ chức: (1) GV giao nhóm 4 HS (khăn trải bàn); (2) HS xác định góc quay, viết thuật toán, ghép sơ đồ khối với lệnh, thực hành; (3) nhóm trình bày, trình chiếu; (4) GV nhận xét, chốt Ghi nhớ.",
+    "**Hoạt động 3 – Luyện tập** (22 phút). Mục tiêu: vận dụng chuyển thuật toán thành chương trình. Nội dung: Luyện tập 1 (hình vuông), 2 (nhân vật mới, bấm chuột), 3 (xe – hòn đá). Sản phẩm: lặp 4 lần [di chuyển; quay 90°]; chương trình xe dừng khi cách hòn đá < 120 bước. Tổ chức: (1) GV giao theo cặp; (2) HS vẽ sơ đồ, lập trình; (3) 3 cặp báo cáo, nhận xét chéo; (4) GV sửa lỗi thường gặp.",
+    "**Hoạt động 4 – Vận dụng** (20 phút). Mục tiêu: khái quát đổi hình thì đổi số nào; kiểm chứng kết quả chatbot. Nội dung: câu Vận dụng SGK; GV hỏi chatbot vẽ hình vuông, đáp án sai góc 60°. Sản phẩm: bảng hình – số cạnh – góc; sửa góc thành 90°; nêu việc cần làm khi dùng AI. Tổ chức: (1) giao nhiệm vụ; (2) HS chạy thử, đối chiếu, thảo luận; (3) báo cáo; (4) GV chốt: AI chỉ hỗ trợ.",
+    "**Kiểm tra đánh giá** – Quan sát thực hành, chương trình Scratch của nhóm (đúng số lần lặp, góc quay, có Bút vẽ); phiếu học tập, câu hỏi nhanh, bài tập trắc nghiệm; nhận xét chéo; dặn hoàn thiện VeHinh.sb3 và đọc Bài 13."
+   ],
+   "ai": [
+    "GV dùng chatbot sinh sẵn một chương trình vẽ hình vuông có lỗi (góc 60°) làm tình huống để HS chạy thử, phát hiện và sửa lỗi (8.A1.2).",
+    "HS đối chiếu đầu ra của chatbot với công thức góc quay = 360 : số cạnh trong SGK, chạy thử trên Scratch trước khi tin dùng.",
+    "Đạo đức AI: ghi rõ phần có sự hỗ trợ của AI, tự kiểm tra và chịu trách nhiệm về sản phẩm (8.A3.3)."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Theo SGK Tin học 8 (Bài 12), chương trình máy tính là gì?",
+     "o": [
+      "Dãy các lệnh điều khiển máy tính thực hiện một thuật toán",
+      "Dãy các bước mô tả thuật toán bằng ngôn ngữ tự nhiên",
+      "Hình vẽ các khối thể hiện thuật toán",
+      "Phần mềm Scratch cài trên máy tính"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Bẫy: ngôn ngữ tự nhiên và sơ đồ khối chỉ MÔ TẢ thuật toán; chương trình là dãy LỆNH để máy thực hiện.",
+     "r": "SGK Tin học 8 KNTT – Bài 12"
+    },
+    {
+     "t": "s",
+     "q": "Để bọ rùa vẽ tam giác đều, mỗi lần quay cần xoay một góc bao nhiêu độ?",
+     "o": [
+      "60°",
+      "90°",
+      "120°",
+      "180°"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Bẫy: 60° là góc trong của tam giác đều; góc quay (góc ngoài) = 360° : 3 = 120°.",
+     "r": "SGK Tin học 8 KNTT – Bài 12"
+    },
+    {
+     "t": "s",
+     "q": "Thuật toán vẽ tam giác đều (cạnh bất kì) được mô tả đúng là:",
+     "o": [
+      "Lặp lại 3 lần: di chuyển một đoạn; quay một góc 60°",
+      "Lặp lại 3 lần: di chuyển một đoạn; quay một góc 120°",
+      "Lặp lại 6 lần: di chuyển một đoạn; quay một góc 120°",
+      "Lặp lại 3 lần: quay 120° rồi dừng, không di chuyển"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Đổi số lần lặp hoặc góc quay là sai; tam giác có 3 cạnh nên lặp 3 lần.",
+     "r": "SGK Tin học 8 KNTT – Bài 12"
+    },
+    {
+     "t": "s",
+     "q": "Trong chương trình Scratch vẽ tam giác đều, khối lệnh nào thể hiện bước \"Lặp lại 3 lần\" của sơ đồ khối?",
+     "o": [
+      "luôn luôn",
+      "đợi 3 giây",
+      "lặp lại cho đến khi",
+      "lặp lại 3"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Bẫy: 'luôn luôn' lặp vô hạn; 'đợi' chỉ tạm dừng.",
+     "r": "SGK Tin học 8 KNTT – Bài 12"
+    },
+    {
+     "t": "s",
+     "q": "Hình đều có 5 cạnh (ngũ giác đều) thì cần lặp mấy lần và quay một góc bao nhiêu độ?",
+     "o": [
+      "Lặp 5 lần, quay 108°",
+      "Lặp 5 lần, quay 72°",
+      "Lặp 5 lần, quay 60°",
+      "Lặp 72 lần, quay 5°"
+     ],
+     "a": [
+      1
+     ],
+     "e": "360 : 5 = 72. Góc trong ngũ giác đều là 108° – không phải góc quay.",
+     "r": "SGK Tin học 8 KNTT – Bài 12"
+    },
+    {
+     "t": "s",
+     "q": "Trong Scratch, nhóm lệnh nào chứa các lệnh \"đặt bút\" và \"nhấc bút\" để nhân vật để lại nét vẽ?",
+     "o": [
+      "Bút vẽ",
+      "Chuyển động",
+      "Hiển thị",
+      "Điều khiển"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Lệnh Chuyển động chỉ làm nhân vật di chuyển, không để lại nét; phải thêm Bút vẽ (đặt bút).",
+     "r": "SGK Tin học 8 KNTT – Bài 12"
+    },
+    {
+     "t": "s",
+     "q": "Bạn An thêm khối \"Đợi 1 giây\" vào trong vòng lặp vẽ tam giác. Mục đích của việc này là:",
+     "o": [
+      "Làm hình tam giác to hơn",
+      "Thay đổi góc quay thành 60°",
+      "Quan sát được từng bước vẽ của nhân vật",
+      "Giúp chương trình chạy nhanh hơn"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Đợi chỉ làm chậm, không thay đổi hình vẽ; còn làm chương trình chạy chậm hơn.",
+     "r": "SGK Tin học 8 KNTT – Bài 12"
+    },
+    {
+     "t": "s",
+     "q": "Phát biểu nào về quan hệ giữa thuật toán và chương trình là đúng?",
+     "o": [
+      "Chương trình và thuật toán luôn là một, không khác nhau",
+      "Mỗi bước của thuật toán được chuyển thành một (hay vài) lệnh trong chương trình",
+      "Thuật toán chỉ có thể viết bằng sơ đồ khối, chương trình viết bằng ngôn ngữ tự nhiên",
+      "Máy tính có thể thực hiện trực tiếp thuật toán viết bằng ngôn ngữ tự nhiên"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Máy chỉ hiểu lệnh trong chương trình (ngôn ngữ lập trình); thuật toán là ý tưởng, chương trình là cài đặt.",
+     "r": "SGK Tin học 8 KNTT – Bài 12"
+    },
+    {
+     "t": "s",
+     "q": "Để vẽ hình vuông bằng Scratch, ta đặt lệnh nào trong vòng lặp?",
+     "o": [
+      "Lặp 4 lần: di chuyển; xoay 45°",
+      "Lặp 90 lần: di chuyển; xoay 4°",
+      "Lặp 2 lần: di chuyển; xoay 90°",
+      "Lặp 4 lần: di chuyển; xoay 90°"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Hình vuông 4 cạnh, góc quay 360 : 4 = 90°.",
+     "r": "SGK Tin học 8 KNTT – Bài 12"
+    },
+    {
+     "t": "s",
+     "q": "Chatbot trả lời: \"Vẽ hình vuông: lặp 4 lần [di chuyển 80 bước; xoay trái 60 độ], chạy đúng 100%\". Cách xử lí đúng của HS là:",
+     "o": [
+      "Chạy thử, nhận ra góc phải là 90°, sửa lại và ghi rõ đã dùng AI",
+      "Tin tưởng hoàn toàn vì AI không bao giờ sai",
+      "Nộp luôn mà không cần chạy thử",
+      "Xoá hết và không bao giờ dùng AI"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Kết quả của AI phải được kiểm chứng; chịu trách nhiệm với sản phẩm (8.A1.2, 8.A3.3).",
+     "r": "SGK Tin học 8 KNTT – Bài 12"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các phát biểu ĐÚNG về vẽ tam giác đều bằng Scratch:",
+     "o": [
+      "Lặp lại 3 lần",
+      "Góc quay mỗi lần là 60°",
+      "Góc quay mỗi lần là 120°",
+      "Chỉ cần di chuyển, không cần quay"
+     ],
+     "a": [
+      0,
+      2
+     ],
+     "e": "Bẫy: 60° là góc trong, không phải góc quay.",
+     "r": "SGK Tin học 8 KNTT – Bài 12"
+    },
+    {
+     "t": "m",
+     "q": "Những đặc điểm nào đúng với chương trình theo SGK Tin học 8?",
+     "o": [
+      "Là dãy các lệnh",
+      "Điều khiển máy tính thực hiện một thuật toán",
+      "Chỉ gồm các hình vẽ sơ đồ khối",
+      "Mỗi bước thuật toán ứng với lệnh trong chương trình"
+     ],
+     "a": [
+      0,
+      1,
+      3
+     ],
+     "e": "Sơ đồ khối chỉ là cách mô tả thuật toán.",
+     "r": "SGK Tin học 8 KNTT – Bài 12"
+    },
+    {
+     "t": "m",
+     "q": "Những cặp (hình đều – số lần lặp, góc quay) nào dưới đây ĐÚNG?",
+     "o": [
+      "Ngũ giác đều – lặp 5, quay 108°",
+      "Hình vuông – lặp 4, quay 90°",
+      "Lục giác đều – lặp 6, quay 60°",
+      "Tam giác đều – lặp 3, quay 60°"
+     ],
+     "a": [
+      1,
+      2
+     ],
+     "e": "Góc quay = 360 : số cạnh: 5 cạnh → 72°; 3 cạnh → 120°.",
+     "r": "SGK Tin học 8 KNTT – Bài 12"
+    },
+    {
+     "t": "m",
+     "q": "Khi dùng chatbot AI hỗ trợ viết chương trình, HS cần làm gì?",
+     "o": [
+      "Chạy thử, kiểm chứng kết quả",
+      "Ghi rõ phần nào có sự hỗ trợ của AI",
+      "Sao chép nguyên văn và coi là bài tự làm",
+      "Tự chịu trách nhiệm về sản phẩm"
+     ],
+     "a": [
+      0,
+      1,
+      3
+     ],
+     "e": "Trung thực và có trách nhiệm khi dùng AI.",
+     "r": "SGK Tin học 8 KNTT – Bài 12"
+    },
+    {
+     "t": "f",
+     "q": "Chương trình là dãy các ____ điều khiển máy tính thực hiện một ____.",
+     "a": [
+      [
+       "lệnh"
+      ],
+      [
+       "thuật toán"
+      ]
+     ],
+     "o": [
+      [
+       "thuật toán",
+       "lệnh"
+      ],
+      [
+       "dữ liệu",
+       "sơ đồ khối"
+      ],
+      [
+       "biến",
+       "chương trình"
+      ],
+      [
+       "lệnh",
+       "thuật toán"
+      ]
+     ],
+     "k": 3,
+     "e": "Đổi chỗ 'lệnh' và 'thuật toán' là bẫy.",
+     "r": "SGK Tin học 8 KNTT – Bài 12"
+    },
+    {
+     "t": "f",
+     "q": "Để vẽ tam giác đều, thuật toán lặp ____ lần: di chuyển, rồi quay một góc ____ độ.",
+     "a": [
+      [
+       "3"
+      ],
+      [
+       "120"
+      ]
+     ],
+     "o": [
+      [
+       "3",
+       "60"
+      ],
+      [
+       "3",
+       "120"
+      ],
+      [
+       "6",
+       "120"
+      ],
+      [
+       "4",
+       "90"
+      ]
+     ],
+     "k": 1,
+     "e": "Quay 120° (góc ngoài), không phải 60°.",
+     "r": "SGK Tin học 8 KNTT – Bài 12"
+    },
+    {
+     "t": "f",
+     "q": "Để vẽ hình đều n cạnh: số lần lặp bằng ____, góc quay bằng 360° chia cho ____.",
+     "a": [
+      [
+       "số cạnh"
+      ],
+      [
+       "số cạnh"
+      ]
+     ],
+     "o": [
+      [
+       "số cạnh",
+       "số cạnh"
+      ],
+      [
+       "số cạnh",
+       "độ dài cạnh"
+      ],
+      [
+       "độ dài cạnh",
+       "số cạnh"
+      ],
+      [
+       "góc trong",
+       "số cạnh"
+      ]
+     ],
+     "k": 0,
+     "e": "Độ dài cạnh chỉ ảnh hưởng kích thước, không ảnh hưởng góc quay.",
+     "r": "SGK Tin học 8 KNTT – Bài 12"
+    },
+    {
+     "t": "f",
+     "q": "Để nhân vật để lại nét vẽ trong Scratch, dùng lệnh ____ thuộc nhóm lệnh ____.",
+     "a": [
+      [
+       "đặt bút"
+      ],
+      [
+       "Bút vẽ"
+      ]
+     ],
+     "o": [
+      [
+       "đặt bút",
+       "Chuyển động"
+      ],
+      [
+       "di chuyển",
+       "Bút vẽ"
+      ],
+      [
+       "đặt bút",
+       "Bút vẽ"
+      ],
+      [
+       "nhấc bút",
+       "Hiển thị"
+      ]
+     ],
+     "k": 2,
+     "e": "Phân biệt đặt bút (bắt đầu vẽ) và nhấc bút (ngừng vẽ).",
+     "r": "SGK Tin học 8 KNTT – Bài 12"
+    },
+    {
+     "t": "f",
+     "q": "Hình lục giác đều: lặp ____ lần, mỗi lần quay ____ độ.",
+     "a": [
+      [
+       "6"
+      ],
+      [
+       "60"
+      ]
+     ],
+     "o": [
+      [
+       "6",
+       "60"
+      ],
+      [
+       "6",
+       "120"
+      ],
+      [
+       "5",
+       "72"
+      ],
+      [
+       "60",
+       "6"
+      ]
+     ],
+     "k": 0,
+     "e": "360 : 6 = 60.",
+     "r": "SGK Tin học 8 KNTT – Bài 12"
+    },
+    {
+     "t": "f",
+     "q": "Trước khi lập trình, thuật toán có thể mô tả bằng ____ hoặc bằng ____.",
+     "a": [
+      [
+       "ngôn ngữ tự nhiên"
+      ],
+      [
+       "sơ đồ khối"
+      ]
+     ],
+     "o": [
+      [
+       "sơ đồ khối",
+       "chương trình Scratch"
+      ],
+      [
+       "ngôn ngữ tự nhiên",
+       "dữ liệu đầu vào"
+      ],
+      [
+       "ngôn ngữ tự nhiên",
+       "sơ đồ khối"
+      ],
+      [
+       "lệnh Scratch",
+       "ngôn ngữ tự nhiên"
+      ]
+     ],
+     "k": 2,
+     "e": "Chương trình Scratch là bước sau (cài đặt), không phải cách mô tả thuật toán.",
+     "r": "SGK Tin học 8 KNTT – Bài 12"
+    },
+    {
+     "t": "s",
+     "q": "Trong tình huống xe – hòn đá (Luyện tập 3), xe chạy cho đến khi cách hòn đá dưới 120 bước. Vòng lặp này thể hiện:",
+     "o": [
+      "Lặp với số lần biết trước",
+      "Rẽ nhánh dạng thiếu",
+      "Lặp cho đến khi điều kiện đúng (số lần lặp chưa biết trước)",
+      "Chỉ thực hiện một lần"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Điều kiện dừng quyết định vòng lặp; không biết trước số lần.",
+     "r": "SGK Tin học 8 KNTT – Bài 12"
+    }
+   ],
+   "tuluan": [
+    {
+     "q": "Câu 1 (2 điểm). Mô tả thuật toán vẽ tam giác đều bằng ngôn ngữ tự nhiên và nêu cách chuyển thành chương trình Scratch. Giải thích vì sao góc quay là 120°.",
+     "a": [
+      "Thuật toán: lặp lại 3 lần: di chuyển một đoạn; quay một góc 120°.",
+      "Chuyển: khi bấm cờ xanh → (đặt bút) → lặp lại 3 [di chuyển ... bước; xoay trái/phải 120 độ] → (nhấc bút).",
+      "Mỗi bước thuật toán ứng một lệnh; chương trình là dãy lệnh điều khiển máy tính thực hiện thuật toán.",
+      "Tổng các góc quay khi đi hết một vòng là 360° nên mỗi lần quay 360° : 3 = 120° (không phải góc trong 60°)."
+     ]
+    },
+    {
+     "q": "Câu 2 (3 điểm). Nêu mục tiêu bài \"Từ thuật toán đến chương trình\" (Tin học 8) theo chương trình 2018 và thiết kế hoạt động Luyện tập vẽ hình vuông.",
+     "a": [
+      "Kiến thức: mô tả thuật toán bằng ngôn ngữ tự nhiên, sơ đồ khối; chương trình là dãy lệnh thực hiện thuật toán; chuyển sơ đồ khối thành lệnh Scratch.",
+      "Năng lực: tự chủ, tự học, giao tiếp, hợp tác; NLc, NLd (dùng Scratch). Phẩm chất: kiên trì, cẩn thận, trung thực.",
+      "Hoạt động Luyện tập: mục tiêu – chuyển thuật toán thành chương trình cho hình vuông; nội dung – vẽ sơ đồ khối, lập trình Scratch; sản phẩm – lặp 4 lần [di chuyển; quay 90°].",
+      "Tổ chức 4 bước: giao nhiệm vụ theo cặp; HS thực hiện; báo cáo, nhận xét chéo; GV chốt, sửa lỗi."
+     ]
+    },
+    {
+     "q": "Câu 3 (2 điểm). Chatbot đề xuất chương trình vẽ hình vuông: lặp 4 lần [di chuyển 80 bước; xoay trái 60 độ] và khẳng định không cần kiểm tra. Hãy đánh giá và hướng dẫn HS cách dùng AI.",
+     "a": [
+      "Chương trình sai góc: hình vuông phải quay 360 : 4 = 90°; quay 60° không khép kín thành hình vuông.",
+      "Khẳng định 'không cần kiểm tra' là sai: AI có thể cho kết quả sai, phải chạy thử và đối chiếu SGK (8.A1.2).",
+      "Cách làm: chạy thử, sửa góc thành 90°, ghi rõ phần có hỗ trợ của AI, tự chịu trách nhiệm (8.A3.3).",
+      "Giáo dục tính trung thực: AI chỉ là công cụ hỗ trợ, không thay thế việc học."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T8-B13",
+   "ten": "Bài 13. Biểu diễn dữ liệu",
+   "tomtat": [
+    "**Kiểu dữ liệu** được xác định bởi **tập các giá trị** và **các phép toán** thực hiện được trên các giá trị đó.",
+    "Scratch có **3 kiểu dữ liệu**: **số**, **xâu kí tự**, **lôgic**.",
+    "**Kiểu số** gồm số nguyên và số thực; phép toán: **cộng, trừ, nhân, chia, chia lấy dư, làm tròn**; kết quả là số.",
+    "**Phép so sánh** (>, <, =) trên số cho kết quả kiểu **lôgic** (true/false), không phải kiểu số.",
+    "**Kiểu xâu kí tự** là dãy các kí tự; phép toán **kết hợp** hai xâu cho kết quả là **xâu**.",
+    "**Kiểu lôgic** chỉ có hai giá trị **true (đúng)** và **false (sai)**; phép toán **và, hoặc, không phải**.",
+    "**Kiểu kết quả của biểu thức** do **phép toán cuối cùng** quyết định: kết hợp ra xâu, so sánh ra lôgic, chia lấy dư ra số.",
+    "**Hằng** là đại lượng có **giá trị không đổi** trong chương trình (ví dụ 360, 3,14).",
+    "**Biến** là đại lượng có **tên**, dùng lưu trữ giá trị và **giá trị có thể thay đổi** khi chạy (ví dụ n, r).",
+    "**Biểu thức** là sự kết hợp của **hằng, biến và các phép toán**, cho giá trị thuộc một kiểu (ví dụ 360 / n).",
+    "Dùng **biến** giúp chương trình xử lí nhiều giá trị mà **không phải sửa mã lệnh**; thực hành DuongDi.sb3: nhập n, vẽ đa giác đều n cạnh."
+   ],
+   "ynho": [
+    "Kiểu dữ liệu = tập giá trị + phép toán",
+    "Scratch: số, xâu kí tự, lôgic",
+    "Kết hợp cho xâu; so sánh cho lôgic",
+    "Hằng không đổi; biến thay đổi",
+    "Biểu thức = hằng + biến + phép toán"
+   ],
+   "bang": [
+    {
+     "tieu_de": "Ba kiểu dữ liệu trong Scratch",
+     "cot": [
+      "Kiểu",
+      "Giá trị",
+      "Phép toán",
+      "Kết quả"
+     ],
+     "dong": [
+      [
+       "Số",
+       "Số nguyên, số thực",
+       "+, –, ×, :, chia lấy dư, làm tròn",
+       "Số"
+      ],
+      [
+       "Số (so sánh)",
+       "Hai số",
+       "> , < , =",
+       "Lôgic"
+      ],
+      [
+       "Xâu kí tự",
+       "Dãy kí tự",
+       "Kết hợp",
+       "Xâu"
+      ],
+      [
+       "Lôgic",
+       "true, false",
+       "và, hoặc, không phải",
+       "Lôgic"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "So sánh hằng – biến – biểu thức",
+     "cot": [
+      "Khái niệm",
+      "Đặc điểm",
+      "Ví dụ (đa giác đều)"
+     ],
+     "dong": [
+      [
+       "Hằng",
+       "Giá trị không đổi",
+       "360"
+      ],
+      [
+       "Biến",
+       "Có tên, giá trị thay đổi",
+       "n"
+      ],
+      [
+       "Biểu thức",
+       "Hằng + biến + phép toán",
+       "360 / n"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Nhập vào bảng tính: C1 = 3 + 5; C2 = 3 & 5; C3 = 3 < 5. Kết quả mỗi ô?",
+     "ket_luan": "→ C1 = 8 (số); C2 = 35 (xâu); C3 = TRUE (lôgic): phép toán quyết định kiểu."
+    },
+    {
+     "tinh_huong": "Chương trình vẽ đa giác đều n cạnh: mỗi bước tiến rồi quay 360 / n độ. Với n = 6 và n = 3 góc quay bao nhiêu?",
+     "ket_luan": "→ n = 6: 360/6 = 60; n = 3: 360/3 = 120. n là biến, 360 là hằng, 360 / n là biểu thức."
+    },
+    {
+     "tinh_huong": "Cho r = 5, π = 3,14. Tính chu vi, diện tích; hiển thị \"Chu vi đường tròn là\" kết hợp chu vi.",
+     "ket_luan": "→ Chu vi = 31,4; diện tích = 78,5 (số); câu hiển thị \"Chu vi đường tròn là31,4\" (xâu, thiếu khoảng trắng)."
+    },
+    {
+     "tinh_huong": "Biểu thức (n chia lấy dư 2) = 0 với n = 10 và n = 7 cho kết quả gì?",
+     "ket_luan": "→ n = 10: dư 0 nên true; n = 7: dư 1 nên false. Kiểu lôgic, dùng kiểm tra số chẵn."
+    }
+   ],
+   "nho": [
+    "**3 kiểu: S – X – L** (Số, Xâu, Lôgic).",
+    "**Kết hợp → Xâu; So sánh → Lôgic**.",
+    "**Hằng = Hằng số, không đổi; Biến = Biến đổi**.",
+    "Biểu thức = **H + B + P** (hằng, biến, phép toán)."
+   ],
+   "bay": [
+    "Kết hợp 3 và 5 ra \"35\" (xâu), không phải 8.",
+    "Phép so sánh trên số cho kết quả lôgic, không phải số.",
+    "Nhầm hằng và biến: chu vi, diện tích thay đổi theo r nên là biến.",
+    "Phép kết hợp không tự thêm khoảng trắng: \"là31,4\"."
+   ],
+   "giaoan": [
+    "**Mục tiêu** – Kiến thức: nêu khái niệm kiểu dữ liệu, 3 kiểu số, xâu, lôgic, phép toán và kiểu kết quả; phân biệt hằng, biến, biểu thức; Năng lực: tự chủ tự học, giao tiếp hợp tác, NLc lựa chọn cách biểu diễn dữ liệu, NLa thao tác Scratch, NLS 3.4.TC2.a, NLAI 8.A1.2; Phẩm chất: cẩn thận, chính xác, trung thực khi dùng AI.",
+    "**Chuẩn bị** – GV: kế hoạch bài dạy, máy tính cài Scratch, máy chiếu, bảng tính Hình 13.2, phiếu học tập, thẻ A–B–C, chatbot AI; HS: SGK, vở, tệp VeHinh.sb3, ôn kiểu dữ liệu bảng tính.",
+    "**Hoạt động 1 – Mở đầu** (5 phút) – Mục tiêu: gợi nhớ kiểu dữ liệu ở bảng tính; Nội dung: câu hỏi mở đầu tr.76; Sản phẩm: kiểu số, văn bản, ngày tháng; Tổ chức: GV chiếu câu hỏi, HS Think–Pair–Share, báo cáo, GV nhận xét và dẫn vào bài.",
+    "**Hoạt động 2 – Hình thành kiến thức** (55 phút) – Mục tiêu: nêu kiểu dữ liệu, hằng, biến, biểu thức, tạo biến, xây dựng biểu thức; Nội dung: Hình 13.2, Bảng 13.1, 13.2, mục 2, thực hành DuongDi.sb3; Sản phẩm: bảng ba kiểu, bảng hằng – biến – biểu thức, chương trình chạy đúng; Tổ chức: giao nhiệm vụ (mảnh ghép, làm mẫu), HS thực hiện, báo cáo n = 3, 6, GV kết luận.",
+    "**Hoạt động 3 – Luyện tập** (20 phút) – Mục tiêu: xác định kiểu và giá trị biểu thức; Nội dung: giơ thẻ A–B–C, Luyện tập 1, 2 tr.79; Sản phẩm: LT1 true, 31,4, xâu; LT2 chu vi 31,4, diện tích 78,5; Tổ chức: giao bài, HS làm cá nhân hoặc cặp, giải thích, GV nhận xét.",
+    "**Hoạt động 4 – Vận dụng** (10 phút) – Mục tiêu: vận dụng biến, biểu thức; kiểm chứng AI; Nội dung: hỏi chatbot về hằng và phép kết hợp 3 và 5, đối chiếu SGK; giao Vận dụng tr.79; Sản phẩm: chỗ sai của chatbot được sửa, cách dùng AI an toàn; Tổ chức: GV nêu câu lệnh, HS cặp đôi kiểm chứng, báo cáo, GV chốt.",
+    "**Kiểm tra đánh giá** – Quan sát thực hành, kiểm tra chương trình chạy đúng n = 3, 6; thẻ A–B–C; phiếu bài tập; đánh giá đồng đẳng; củng cố, dặn học Ghi nhớ và đọc trước Bài 14."
+   ],
+   "ai": [
+    "GV dùng chatbot hỏi \"Hằng là gì? Kết hợp 3 và 5 cho kết quả gì?\" để HS tìm lỗi sai, đối chiếu Bảng 13.2 SGK hoặc chạy thử trong Scratch.",
+    "HS kiểm chứng đầu ra AI bằng SGK, chạy thử; không chép nguyên câu trả lời, ghi rõ khi có dùng AI (8.A1.2).",
+    "Đạo đức AI: AI có thể sai nhưng nghe thuyết phục; người dùng tự chịu trách nhiệm về kết quả."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Kiểu dữ liệu được xác định bởi những yếu tố nào?",
+     "o": [
+      "Tập các giá trị và các phép toán có thể thực hiện trên các giá trị đó",
+      "Chỉ tập các giá trị",
+      "Chỉ tên biến và màu khối lệnh",
+      "Dung lượng bộ nhớ và tốc độ máy tính"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Kiểu dữ liệu = tập giá trị + phép toán. Bẫy: chỉ nêu giá trị mà thiếu phép toán.",
+     "r": "SGK Tin học 8 KNTT – Bài 13"
+    },
+    {
+     "t": "s",
+     "q": "Trong Scratch, các kiểu dữ liệu cơ bản gồm:",
+     "o": [
+      "Số, hình ảnh, âm thanh",
+      "Số, xâu kí tự, ngày tháng",
+      "Số, xâu kí tự, lôgic",
+      "Văn bản, bảng, lôgic"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Scratch có 3 kiểu: số, xâu kí tự, lôgic. Ngày tháng là kiểu của bảng tính, không phải của Scratch.",
+     "r": "SGK Tin học 8 KNTT – Bài 13"
+    },
+    {
+     "t": "s",
+     "q": "Phép kết hợp 3 và 5 trong Scratch cho kết quả là gì?",
+     "o": [
+      "Số 8",
+      "Xâu kí tự \"35\"",
+      "Số 15",
+      "Giá trị lôgic true"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Phép kết hợp luôn cho xâu, nên được \"35\" chứ không phải 3 + 5 = 8.",
+     "r": "SGK Tin học 8 KNTT – Bài 13"
+    },
+    {
+     "t": "s",
+     "q": "Kết quả của phép so sánh 5 > 3 thuộc kiểu dữ liệu nào?",
+     "o": [
+      "Số",
+      "Xâu kí tự",
+      "Không xác định được",
+      "Lôgic"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Phép so sánh cho kết quả lôgic (true/false), dù hai toán hạng là số.",
+     "r": "SGK Tin học 8 KNTT – Bài 13"
+    },
+    {
+     "t": "s",
+     "q": "Phép toán nào sau đây cho kết quả là giá trị lôgic?",
+     "o": [
+      "n chia lấy dư 2",
+      "(n chia lấy dư 2) = 0",
+      "kết hợp n và 2",
+      "làm tròn n"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Chia lấy dư cho số, kết hợp cho xâu, làm tròn cho số; chỉ phép so sánh (= 0) cho lôgic. Bẫy: thiếu vế so sánh.",
+     "r": "SGK Tin học 8 KNTT – Bài 13"
+    },
+    {
+     "t": "s",
+     "q": "Giá trị của biểu thức 17 chia lấy dư 5 là:",
+     "o": [
+      "3",
+      "3,4",
+      "2",
+      "12"
+     ],
+     "a": [
+      2
+     ],
+     "e": "17 = 3×5 + 2 nên số dư là 2. Bẫy: nhầm với thương 3.",
+     "r": "SGK Tin học 8 KNTT – Bài 13"
+    },
+    {
+     "t": "s",
+     "q": "Hằng khác biến ở điểm nào?",
+     "o": [
+      "Hằng có giá trị không đổi trong chương trình, biến có thể thay đổi giá trị",
+      "Hằng có tên, biến không có tên",
+      "Hằng chỉ chứa xâu, biến chỉ chứa số",
+      "Hằng thay đổi khi chương trình chạy, biến thì không"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Bẫy: đảo ngược định nghĩa hằng và biến.",
+     "r": "SGK Tin học 8 KNTT – Bài 13"
+    },
+    {
+     "t": "s",
+     "q": "Biểu thức nào sau đây là biểu thức của chương trình vẽ đa giác đều n cạnh (quay góc ngoài)?",
+     "o": [
+      "n",
+      "360",
+      "\"360\"",
+      "360 / n"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Biểu thức gồm hằng 360, biến n và phép chia. Chỉ n hoặc 360 là biến hoặc hằng đơn lẻ.",
+     "r": "SGK Tin học 8 KNTT – Bài 13"
+    },
+    {
+     "t": "s",
+     "q": "Với r = 5 và số π lấy 3,14, giá trị của biểu thức 3,14 × r × r là:",
+     "o": [
+      "31,4",
+      "78,5",
+      "15,7",
+      "25"
+     ],
+     "a": [
+      1
+     ],
+     "e": "3,14 × 25 = 78,5. 31,4 là chu vi 2 × 3,14 × 5. Bẫy: nhầm công thức chu vi và diện tích.",
+     "r": "SGK Tin học 8 KNTT – Bài 13"
+    },
+    {
+     "t": "s",
+     "q": "Khi cần chương trình xử lí được nhiều giá trị n khác nhau mà không sửa mã lệnh, ta nên dùng:",
+     "o": [
+      "Hằng",
+      "Xâu kí tự cố định",
+      "Biến",
+      "Phép kết hợp"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Biến cho phép đổi giá trị khi chạy; hằng thì cố định.",
+     "r": "SGK Tin học 8 KNTT – Bài 13"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các phát biểu ĐÚNG về kiểu dữ liệu trong Scratch:",
+     "o": [
+      "Kiểu số gồm số nguyên và số thực",
+      "Phép kết hợp cho kết quả là số",
+      "Kiểu lôgic chỉ có hai giá trị true và false",
+      "Phép so sánh cho kết quả lôgic"
+     ],
+     "a": [
+      0,
+      2,
+      3
+     ],
+     "e": "Phép kết hợp cho xâu kí tự, không phải số.",
+     "r": "SGK Tin học 8 KNTT – Bài 13"
+    },
+    {
+     "t": "m",
+     "q": "Những phép toán nào có kết quả thuộc kiểu số?",
+     "o": [
+      "Chia lấy dư",
+      "Làm tròn",
+      "Kết hợp hai xâu",
+      "Phép nhân"
+     ],
+     "a": [
+      0,
+      1,
+      3
+     ],
+     "e": "Kết hợp cho kết quả xâu.",
+     "r": "SGK Tin học 8 KNTT – Bài 13"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các phép toán thuộc kiểu lôgic:",
+     "o": [
+      "và",
+      "hoặc",
+      "không phải",
+      "chia lấy dư"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Chia lấy dư thuộc kiểu số.",
+     "r": "SGK Tin học 8 KNTT – Bài 13"
+    },
+    {
+     "t": "m",
+     "q": "Trong chương trình tính chu vi, diện tích hình tròn, đâu là thành phần ĐÚNG?",
+     "o": [
+      "r là biến",
+      "3,14 là hằng",
+      "2 × 3,14 × r là biểu thức",
+      "Chu vi là hằng vì không nhập từ bàn phím"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Chu vi thay đổi theo r nên lưu trong biến, không phải hằng.",
+     "r": "SGK Tin học 8 KNTT – Bài 13"
+    },
+    {
+     "t": "f",
+     "q": "Kiểu dữ liệu được xác định bởi tập ____ và các ____ thực hiện trên chúng.",
+     "a": [
+      [
+       "giá trị"
+      ],
+      [
+       "phép toán"
+      ]
+     ],
+     "o": [
+      [
+       "giá trị",
+       "phép toán"
+      ],
+      [
+       "biến",
+       "hằng"
+      ],
+      [
+       "phép toán",
+       "giá trị"
+      ],
+      [
+       "kí tự",
+       "biểu thức"
+      ]
+     ],
+     "k": 0,
+     "e": "Kiểu dữ liệu = tập giá trị + phép toán.",
+     "r": "SGK Tin học 8 KNTT – Bài 13"
+    },
+    {
+     "t": "f",
+     "q": "Kết hợp hai số 3 và 5 trong Scratch cho kết quả thuộc kiểu ____; phép so sánh cho kết quả kiểu ____.",
+     "a": [
+      [
+       "xâu kí tự",
+       "xâu"
+      ],
+      [
+       "lôgic"
+      ]
+     ],
+     "o": [
+      [
+       "số",
+       "xâu kí tự"
+      ],
+      [
+       "lôgic",
+       "số"
+      ],
+      [
+       "xâu kí tự",
+       "số"
+      ],
+      [
+       "xâu kí tự",
+       "lôgic"
+      ]
+     ],
+     "k": 3,
+     "e": "Kết hợp cho xâu, so sánh cho lôgic. Bẫy: đảo thứ tự hai kiểu.",
+     "r": "SGK Tin học 8 KNTT – Bài 13"
+    },
+    {
+     "t": "f",
+     "q": "Giá trị không thay đổi khi chương trình chạy gọi là ____, còn giá trị có thể thay đổi và có tên gọi là ____.",
+     "a": [
+      [
+       "hằng"
+      ],
+      [
+       "biến"
+      ]
+     ],
+     "o": [
+      [
+       "biến",
+       "hằng"
+      ],
+      [
+       "biểu thức",
+       "biến"
+      ],
+      [
+       "hằng",
+       "biểu thức"
+      ],
+      [
+       "hằng",
+       "biến"
+      ]
+     ],
+     "k": 3,
+     "e": "Hằng không đổi, biến thay đổi.",
+     "r": "SGK Tin học 8 KNTT – Bài 13"
+    },
+    {
+     "t": "f",
+     "q": "Biểu thức là sự kết hợp của ____, ____ và các phép toán.",
+     "a": [
+      [
+       "hằng"
+      ],
+      [
+       "biến"
+      ]
+     ],
+     "o": [
+      [
+       "xâu",
+       "kiểu"
+      ],
+      [
+       "hằng",
+       "biến"
+      ],
+      [
+       "lệnh",
+       "khối"
+      ],
+      [
+       "tên",
+       "nhãn"
+      ]
+     ],
+     "k": 1,
+     "e": "Biểu thức gồm hằng, biến, phép toán và cho giá trị thuộc một kiểu.",
+     "r": "SGK Tin học 8 KNTT – Bài 13"
+    },
+    {
+     "t": "f",
+     "q": "Kiểu lôgic chỉ có hai giá trị là ____ và ____.",
+     "a": [
+      [
+       "true",
+       "đúng"
+      ],
+      [
+       "false",
+       "sai"
+      ]
+     ],
+     "o": [
+      [
+       "0",
+       "1"
+      ],
+      [
+       "true",
+       "false"
+      ],
+      [
+       "số",
+       "xâu"
+      ],
+      [
+       "có",
+       "không biết"
+      ]
+     ],
+     "k": 1,
+     "e": "Lôgic: true/false.",
+     "r": "SGK Tin học 8 KNTT – Bài 13"
+    },
+    {
+     "t": "f",
+     "q": "Giá trị của 10 chia lấy dư 2 bằng ____ nên biểu thức (10 chia lấy dư 2) = 0 có giá trị ____.",
+     "a": [
+      [
+       "0"
+      ],
+      [
+       "true",
+       "đúng"
+      ]
+     ],
+     "o": [
+      [
+       "5",
+       "true"
+      ],
+      [
+       "0",
+       "false"
+      ],
+      [
+       "2",
+       "false"
+      ],
+      [
+       "0",
+       "true"
+      ]
+     ],
+     "k": 3,
+     "e": "10 = 5×2 + 0, dư 0, nên so sánh = 0 đúng (true).",
+     "r": "SGK Tin học 8 KNTT – Bài 13"
+    }
+   ],
+   "tuluan": [
+    {
+     "q": "Câu 1 (3 điểm). Trình bày khái niệm kiểu dữ liệu, các kiểu dữ liệu và phép toán tương ứng trong Scratch. Cho biết kiểu và giá trị của: kết hợp \"Xin\" và \"chào\"; 17 chia lấy dư 5; 5 > 3.",
+     "a": [
+      "Kiểu dữ liệu: xác định bởi tập giá trị và các phép toán thực hiện được trên các giá trị đó.",
+      "Số: số nguyên, số thực; phép +, –, ×, :, chia lấy dư, làm tròn; phép so sánh (>, <, =) cho kết quả lôgic.",
+      "Xâu kí tự: dãy kí tự; phép kết hợp cho kết quả xâu.",
+      "Lôgic: true/false; phép và, hoặc, không phải.",
+      "Kết hợp \"Xin\" và \"chào\" = \"Xinchào\" (xâu, không có khoảng trắng); 17 chia lấy dư 5 = 2 (số); 5 > 3 = true (lôgic)."
+     ]
+    },
+    {
+     "q": "Câu 2 (3 điểm). Nêu mục tiêu bài \"Biểu diễn dữ liệu\" (Tin học 8, KNTT) theo chương trình 2018 và thiết kế hoạt động tạo biến, xây dựng biểu thức cho chương trình vẽ đa giác đều n cạnh.",
+     "a": [
+      "Kiến thức: nêu khái niệm kiểu dữ liệu, 3 kiểu số, xâu, lôgic; phân biệt hằng, biến, biểu thức.",
+      "Năng lực: tự chủ, tự học, giao tiếp hợp tác; NLc lựa chọn cách biểu diễn dữ liệu; NLa thao tác Scratch; tạo biến, đặt giá trị, xây dựng biểu thức.",
+      "Phẩm chất: cẩn thận, chính xác, trung thực.",
+      "Hoạt động: mục tiêu – tạo chương trình DuongDi.sb3 chạy đúng với n = 3 và n = 6; nội dung – tạo biến n, số bước, góc quay; sản phẩm – chương trình chạy đúng.",
+      "Tổ chức 4 bước: giao nhiệm vụ và làm mẫu bước 1–2; HS thực hành theo cặp, GV hỗ trợ (kéo biến vào biểu thức 360 / n); báo cáo, trình diễn; GV nhận xét, chốt: biến cho phép xử lí nhiều giá trị n."
+     ]
+    },
+    {
+     "q": "Câu 3 (4 điểm). Với r = 5 và π lấy 3,14, xác định giá trị, kiểu của biểu thức chu vi, diện tích hình tròn và kết quả hiển thị câu \"Chu vi đường tròn là\" kết hợp với chu vi. Nêu cách tích hợp AI kiểm chứng đầu ra chatbot khi dạy nội dung này.",
+     "a": [
+      "Chu vi 2 × 3,14 × 5 = 31,4 (số); diện tích 3,14 × 5 × 5 = 78,5 (số).",
+      "Kết hợp \"Chu vi đường tròn là\" và 31,4 cho xâu \"Chu vi đường tròn là31,4\" (kiểu xâu); muốn có khoảng trắng phải thêm \" \" vào phép kết hợp.",
+      "Biến: r, chu vi, diện tích; hằng: 3,14 và 2.",
+      "Tích hợp AI: GV hỏi chatbot \"Hằng là gì? Kết hợp 3 và 5 cho kết quả gì?\"; HS đối chiếu Bảng 13.2, mục 2 SGK hoặc chạy thử khối kết hợp để phát hiện nếu chatbot trả lời 8 thay vì \"35\".",
+      "Rút ra: AI có thể sai nhưng nghe thuyết phục; cần kiểm chứng bằng SGK hoặc chạy thử, ghi rõ khi dùng AI và tự chịu trách nhiệm (8.A1.2)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T8-B14",
+   "ten": "Bài 14. Cấu trúc điều khiển",
+   "tomtat": [
+    "**Cấu trúc điều khiển** là cách sắp xếp thứ tự thực hiện các lệnh trong thuật toán/chương trình; có 3 cấu trúc cơ bản: **tuần tự, rẽ nhánh, lặp**.",
+    "**Cấu trúc tuần tự**: các lệnh được thực hiện **lần lượt từ trên xuống dưới**, mỗi lệnh một lần (vd: chọn số bí mật rồi hỏi người chơi).",
+    "**Cấu trúc rẽ nhánh**: chọn việc làm tuỳ theo **điều kiện đúng hay sai**; có hai dạng là **rẽ nhánh khuyết** (nếu … thì …) và **rẽ nhánh đầy đủ** (nếu … thì … nếu không thì …).",
+    "**Cấu trúc lặp**: thực hiện lặp đi lặp lại một hay nhiều lệnh; có 3 dạng: lặp **số lần định trước**, lặp **vô hạn lần**, lặp **đến khi điều kiện đúng** (có điều kiện kết thúc).",
+    "Khối lệnh Scratch tương ứng: **lặp n lần**, **lặp lại liên tục** (mãi mãi), **lặp lại cho đến khi …**, **nếu … thì …**, **nếu … thì … nếu không thì …** (nhóm khối Điều khiển).",
+    "**Thuật toán Đoán số**: máy chọn **số bí mật** ngẫu nhiên 1–100, hỏi người chơi, **so sánh** rồi báo cao/thấp/đúng, **lặp** đến khi đoán đúng.",
+    "Chương trình Đoán số dùng **cả 3 cấu trúc**: tuần tự (chọn số, hỏi), rẽ nhánh (so sánh để báo kết quả), lặp (hỏi lại đến khi trả lời = số bí mật).",
+    "**Thực hành** gồm 5 bước chính: tạo biến **số bí mật**, lắp khung chương trình, lắp biểu thức so sánh, lắp khối **nếu … thì … nếu không thì …**, hoàn thành rồi **chạy thử**.",
+    "**Kiểm thử** bằng bảng giá trị (vd số bí mật 37: nhập 20 → Quá thấp, 50 → Quá cao, 37 → thắng và dừng), nên thử cả **giá trị biên** như 1 và 100.",
+    "Vẽ **đa giác đều n cạnh** bằng lặp n lần (tiến, xoay) với **góc xoay = 360° : n** (vuông 90°, ngũ giác 72°, lục giác 60°).",
+    "Vận dụng: giải **ax + b = 0** (rẽ nhánh theo a, b) và tìm **ƯCLN** (lặp đến khi hai số bằng nhau).",
+    "Tích hợp AI: chương trình do chatbot viết **có thể sai**, phải **chạy thử, đối chiếu** và **ghi rõ đã dùng AI** (8.A1.2, 8.A3.3)."
+   ],
+   "ynho": [
+    "3 cấu trúc: tuần tự – rẽ nhánh – lặp",
+    "Rẽ nhánh khuyết: chỉ có nhánh đúng",
+    "Lặp: n lần, vô hạn, đến khi điều kiện đúng",
+    "Đa giác n cạnh: lặp n lần, xoay 360° : n",
+    "Chương trình AI viết: phải chạy thử kiểm chứng"
+   ],
+   "bang": [
+    {
+     "tieu_de": "Ba cấu trúc điều khiển và khối lệnh Scratch",
+     "cot": [
+      "Cấu trúc",
+      "Đặc điểm",
+      "Khối lệnh Scratch",
+      "Ví dụ trong Đoán số"
+     ],
+     "dong": [
+      [
+       "Tuần tự",
+       "Lần lượt từ trên xuống, mỗi lệnh một lần",
+       "Các khối xếp nối tiếp",
+       "Chọn số bí mật → hỏi số dự đoán"
+      ],
+      [
+       "Rẽ nhánh",
+       "Chọn việc theo điều kiện đúng/sai",
+       "nếu … thì …; nếu … thì … nếu không thì …",
+       "So sánh trả lời với số bí mật"
+      ],
+      [
+       "Lặp",
+       "Làm lại nhiều lần",
+       "lặp n lần; lặp lại liên tục; lặp lại cho đến khi",
+       "Hỏi lại đến khi trả lời = số bí mật"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Phân biệt các dạng rẽ nhánh và lặp",
+     "cot": [
+      "Dạng",
+      "Nhận biết",
+      "Khi nào dùng"
+     ],
+     "dong": [
+      [
+       "Rẽ nhánh khuyết",
+       "Chỉ nhánh \"thì\"",
+       "Chỉ cần làm khi điều kiện đúng"
+      ],
+      [
+       "Rẽ nhánh đầy đủ",
+       "Có \"thì\" và \"nếu không thì\"",
+       "Hai trường hợp đều có việc riêng"
+      ],
+      [
+       "Lặp số lần định trước",
+       "Biết trước n",
+       "Vẽ đa giác, lặp n lần"
+      ],
+      [
+       "Lặp vô hạn",
+       "Không có điều kiện dừng",
+       "Việc chạy mãi (vd kiểm tra liên tục)"
+      ],
+      [
+       "Lặp có điều kiện kết thúc",
+       "Dừng khi điều kiện đúng",
+       "Đoán số, ƯCLN"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Số bí mật là 37. Người chơi nhập 20, rồi 50, rồi 37. Máy trả lời thế nào?",
+     "ket_luan": "→ 20: Quá thấp; 50: Quá cao; 37: thắng, vòng lặp dừng (rẽ nhánh + lặp)."
+    },
+    {
+     "tinh_huong": "Vẽ ngũ giác đều cạnh 60 bước bằng Scratch.",
+     "ket_luan": "→ Lặp 5 lần: tiến 60, xoay 72° (vì 360 : 5 = 72)."
+    },
+    {
+     "tinh_huong": "Giải ax + b = 0 với a = 2, b = −6; và với a = 0, b = 5.",
+     "ket_luan": "→ a ≠ 0: x = −b/a = 3; a = 0, b ≠ 0: vô nghiệm (rẽ nhánh theo a, b)."
+    },
+    {
+     "tinh_huong": "Tìm ƯCLN(48, 18): lặp đến khi a = b, nếu a > b thì a := a − b, ngược lại b := b − a.",
+     "ket_luan": "→ (48,18)→(30,18)→(12,18)→(12,6)→(6,6): ƯCLN = 6 sau 4 lần trừ."
+    }
+   ],
+   "nho": [
+    "TUẦN TỰ = xếp hàng lần lượt; RẼ NHÁNH = ngã ba đường; LẶP = vòng quay.",
+    "Khuyết = thiếu \"nếu không\".",
+    "Lặp có 3 dạng: Định trước – Vô hạn – Đến khi (Đ-V-Đ).",
+    "Đa giác n cạnh: góc xoay = 360° : n."
+   ],
+   "bay": [
+    "Nhầm rẽ nhánh khuyết với đầy đủ (khuyết chỉ có nhánh đúng).",
+    "Nhầm lặp vô hạn với lặp có điều kiện kết thúc: \"cho đến khi\" là điều kiện DỪNG.",
+    "Cả chương trình Đoán số có lặp, nhưng việc so sánh báo cao/thấp là rẽ nhánh.",
+    "Chương trình AI chạy được chưa chắc đúng: có thể ngược thông báo hay thiếu khối hỏi."
+   ],
+   "giaoan": [
+    "**Mục tiêu** – Kiến thức: nêu được cấu trúc tuần tự, rẽ nhánh (khuyết, đầy đủ), lặp (3 dạng) và khối lệnh Scratch tương ứng; mô tả được thuật toán Đoán số; Năng lực: tin học (NLc – xây dựng thuật toán, chương trình có cấu trúc điều khiển; NLa – dùng Scratch), tự chủ và tự học, giao tiếp và hợp tác, năng lực số 3.4.TC2.a, 5.1.TC2.a; Phẩm chất: kiên trì, tư duy logic, trách nhiệm khi kiểm tra kết quả.",
+    "**Chuẩn bị** – GV: kế hoạch bài dạy, máy tính cài Scratch, máy chiếu, hình 14.1–14.10, phiếu học tập, chương trình Đoán số do chatbot soạn (có lỗi); HS: SGK Tin học 8, vở, ôn cấu trúc điều khiển lớp 6 và cách tạo biến (Bài 13).",
+    "**Hoạt động 1 – Mở đầu** (8 phút) – Mục tiêu: tạo hứng thú, HS nêu các bước của trò chơi Đoán số. Nội dung: đọc Hoạt động 1, viết các bước máy thực hiện. Sản phẩm: chọn số, hỏi, so sánh, báo kết quả, lặp lại. Tổ chức: (1) GV chuyển giao nhiệm vụ; (2) HS thực hiện cặp (Think–Pair–Share); (3) báo cáo 2 cặp; (4) GV nhận xét, dẫn vào bài.",
+    "**Hoạt động 2 – Hình thành kiến thức** (45 phút) – Mục tiêu: nêu 3 cấu trúc điều khiển và xây dựng chương trình Đoán số. Nội dung: đọc SGK, đối chiếu hình 14.1–14.4 điền phiếu (kĩ thuật mảnh ghép), rồi Thực hành 5 bước. Sản phẩm: bảng 3 cấu trúc – khối lệnh; chương trình chạy đúng bảng kiểm thử. Tổ chức: (1) giao nhiệm vụ nhóm 4; (2) HS làm việc, GV hỗ trợ; (3) nhóm báo cáo, trình diễn nhập 20, 50, 37; (4) GV chốt, nêu lỗi hay gặp.",
+    "**Hoạt động 3 – Luyện tập** (10 phút) – Mục tiêu: nhận biết cấu trúc lặp, xác định kết quả đoạn lệnh lặp. Nội dung: câu hỏi tr.82 và ghép đoạn lệnh với hình vẽ Bảng 14.1. Sản phẩm: đáp án đúng (góc xoay = 360° : n). Tổ chức: giao nhiệm vụ, HS làm cá nhân rồi cặp, giơ thẻ trả lời, GV nhận xét.",
+    "**Hoạt động 4 – Vận dụng** (17 phút) – Mục tiêu: vận dụng giải ax + b = 0, ƯCLN và kiểm chứng chương trình do AI viết. Nội dung: Vận dụng 1, 2 (SGK); chạy thử chương trình AI, tìm lỗi. Sản phẩm: ghép khối đúng; chỉ ra 2 lỗi và ≥ 3 việc cần làm khi dùng AI. Tổ chức: giao nhiệm vụ, cặp đôi kiểm thử, báo cáo, GV kết luận.",
+    "**Kiểm tra đánh giá** – Quan sát và phiếu học tập; bảng kiểm thử chương trình Đoán số; câu hỏi giơ thẻ; dặn dò hoàn thiện chương trình, xem Bài 15 Gỡ lỗi."
+   ],
+   "ai": [
+    "GV nhờ chatbot viết chương trình Scratch Đoán số 1–100 (có lỗi), HS chạy thử với 37, nhập 20, 50, tìm lỗi thông báo ngược và thiếu khối hỏi (8.A1.2).",
+    "HS đối chiếu kết quả AI với sơ đồ khối trong SGK, không tin hoàn toàn đầu ra của AI.",
+    "Đạo đức AI (8.A3.3): ghi rõ đã dùng AI ở phần nào, tự kiểm tra và giải thích được chương trình trước khi nộp."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Cấu trúc điều khiển nào thực hiện các lệnh lần lượt từ trên xuống dưới, mỗi lệnh một lần?",
+     "o": [
+      "Cấu trúc tuần tự",
+      "Cấu trúc lặp",
+      "Cấu trúc rẽ nhánh",
+      "Cấu trúc đệ quy"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Tuần tự = lần lượt. Bẫy: nhầm với lặp (làm lại nhiều lần).",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    },
+    {
+     "t": "s",
+     "q": "Trong trò chơi Đoán số, việc máy so sánh số người chơi nhập với số bí mật để báo \"Quá cao\"/\"Quá thấp\" thuộc cấu trúc nào?",
+     "o": [
+      "Tuần tự",
+      "Rẽ nhánh",
+      "Lặp vô hạn",
+      "Lặp với số lần định trước"
+     ],
+     "a": [
+      1
+     ],
+     "e": "So sánh theo điều kiện, mỗi trường hợp một việc: rẽ nhánh. Bẫy: nhầm với lặp vì cả chương trình có lặp.",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    },
+    {
+     "t": "s",
+     "q": "Cấu trúc rẽ nhánh dạng \"Nếu điều kiện thì làm việc A\" (không có phần \"nếu không\") gọi là:",
+     "o": [
+      "Rẽ nhánh đầy đủ",
+      "Lặp có điều kiện",
+      "Rẽ nhánh khuyết",
+      "Tuần tự"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Chỉ có nhánh đúng là rẽ nhánh khuyết. Bẫy: nhầm khuyết với đầy đủ.",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    },
+    {
+     "t": "s",
+     "q": "Cấu trúc \"Nếu … thì … nếu không thì …\" là dạng rẽ nhánh:",
+     "o": [
+      "khuyết",
+      "vô hạn",
+      "đầy đủ",
+      "tuần tự"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Có cả hai nhánh (đúng và sai) nên là đầy đủ.",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    },
+    {
+     "t": "s",
+     "q": "Khối lệnh \"lặp lại liên tục\" (mãi mãi) trong Scratch thuộc dạng lặp nào?",
+     "o": [
+      "Lặp với số lần biết trước",
+      "Lặp đến khi điều kiện đúng",
+      "Lặp vô hạn lần",
+      "Rẽ nhánh đầy đủ"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Không có điều kiện dừng nên lặp vô hạn. Bẫy: nhầm với lặp có điều kiện kết thúc.",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    },
+    {
+     "t": "s",
+     "q": "Để vẽ hình vuông bằng lặp, đoạn lệnh \"lặp 4 lần: tiến 50, xoay 90°\" dùng cấu trúc lặp dạng nào?",
+     "o": [
+      "Lặp số lần định trước",
+      "Lặp vô hạn",
+      "Lặp đến khi điều kiện đúng",
+      "Rẽ nhánh khuyết"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Biết trước số lần là 4. Quy luật: góc xoay = 360° : số cạnh.",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    },
+    {
+     "t": "s",
+     "q": "Muốn vẽ hình lục giác đều bằng lặp n lần (tiến, xoay), cần lặp bao nhiêu lần và xoay bao nhiêu độ mỗi lần?",
+     "o": [
+      "Lặp 6 lần, xoay 120°",
+      "Lặp 5 lần, xoay 72°",
+      "Lặp 60 lần, xoay 6°",
+      "Lặp 6 lần, xoay 60°"
+     ],
+     "a": [
+      3
+     ],
+     "e": "360° : 6 = 60°. Bẫy: đổi số (phương án 5 lần/72° là ngũ giác).",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    },
+    {
+     "t": "s",
+     "q": "Một bạn thấy chương trình Đoán số chạy mãi không dừng dù đoán đúng. Nguyên nhân hợp lí nhất là:",
+     "o": [
+      "Biến số bí mật đặt tên dài",
+      "Dùng khối rẽ nhánh đầy đủ",
+      "Thiếu khối hỏi trong vòng lặp hoặc điều kiện dừng sai",
+      "Máy tính hết bộ nhớ"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Lặp không dừng do điều kiện kết thúc sai hoặc không cập nhật câu trả lời.",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    },
+    {
+     "t": "s",
+     "q": "Trong chương trình Đoán số, khối \"lặp lại cho đến khi (trả lời = số bí mật)\" nghĩa là:",
+     "o": [
+      "Lặp khi trả lời bằng số bí mật",
+      "Lặp đúng 1 lần",
+      "Lặp mãi mãi",
+      "Lặp đến khi trả lời bằng số bí mật thì dừng"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Điều kiện là điều kiện KẾT THÚC. Bẫy: đảo thành \"lặp khi điều kiện đúng\".",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    },
+    {
+     "t": "s",
+     "q": "Để giải phương trình ax + b = 0, cần dùng cấu trúc điều khiển chính nào?",
+     "o": [
+      "Chỉ tuần tự",
+      "Chỉ lặp vô hạn",
+      "Không cần cấu trúc nào",
+      "Rẽ nhánh (xét a = 0 hay a ≠ 0)"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Phải xét trường hợp a = 0 / a ≠ 0, nên cần rẽ nhánh.",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    },
+    {
+     "t": "m",
+     "q": "Những dạng cấu trúc lặp nào sau đây SGK Tin học 8 nêu?",
+     "o": [
+      "Lặp với điều kiện kết thúc",
+      "Lặp vô hạn lần",
+      "Lặp với số lần định trước",
+      "Lặp song song"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Ba dạng lặp: số lần định trước, vô hạn, có điều kiện kết thúc. \"Lặp song song\" là đáp án nhiễu.",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các phát biểu ĐÚNG về cấu trúc điều khiển:",
+     "o": [
+      "Cấu trúc rẽ nhánh dựa trên điều kiện đúng hoặc sai",
+      "Cấu trúc tuần tự luôn thực hiện mỗi lệnh nhiều lần",
+      "Rẽ nhánh khuyết bắt buộc phải có nhánh \"nếu không\"",
+      "Chương trình Đoán số dùng cả tuần tự, rẽ nhánh và lặp"
+     ],
+     "a": [
+      0,
+      3
+     ],
+     "e": "Tuần tự chạy mỗi lệnh một lần; khuyết thì không có nhánh \"nếu không\".",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    },
+    {
+     "t": "m",
+     "q": "Trong Scratch, những khối lệnh nào thuộc nhóm cấu trúc điều khiển?",
+     "o": [
+      "Khối tiến n bước",
+      "Khối lặp n lần",
+      "Khối nếu … thì … nếu không thì …",
+      "Khối lặp lại cho đến khi"
+     ],
+     "a": [
+      1,
+      2,
+      3
+     ],
+     "e": "Khối \"tiến n bước\" thuộc nhóm chuyển động, không phải cấu trúc điều khiển.",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    },
+    {
+     "t": "m",
+     "q": "Để kiểm chứng chương trình Đoán số do chatbot AI viết, HS nên làm:",
+     "o": [
+      "Chạy thử với nhiều giá trị, kể cả biên (1, 100)",
+      "Ghi rõ đã dùng AI ở phần nào",
+      "Tin hoàn toàn và nộp ngay",
+      "Đối chiếu với thuật toán/sơ đồ khối trong SGK"
+     ],
+     "a": [
+      0,
+      1,
+      3
+     ],
+     "e": "AI có thể sai nên phải kiểm thử, đối chiếu và nêu rõ đã dùng AI; không được tin hoàn toàn.",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    },
+    {
+     "t": "f",
+     "q": "Cấu trúc ____ thực hiện các lệnh lần lượt, còn cấu trúc ____ thực hiện lại một công việc nhiều lần.",
+     "a": [
+      [
+       "tuần tự"
+      ],
+      [
+       "lặp"
+      ]
+     ],
+     "o": [
+      [
+       "lặp",
+       "tuần tự"
+      ],
+      [
+       "tuần tự",
+       "lặp"
+      ],
+      [
+       "rẽ nhánh",
+       "lặp"
+      ],
+      [
+       "tuần tự",
+       "rẽ nhánh"
+      ]
+     ],
+     "k": 1,
+     "e": "Đảo hai thuật ngữ là bẫy thường gặp.",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    },
+    {
+     "t": "f",
+     "q": "Rẽ nhánh ____ chỉ có một nhánh khi điều kiện đúng; rẽ nhánh ____ có cả hai nhánh.",
+     "a": [
+      [
+       "khuyết"
+      ],
+      [
+       "đầy đủ"
+      ]
+     ],
+     "o": [
+      [
+       "khuyết",
+       "đầy đủ"
+      ],
+      [
+       "đầy đủ",
+       "khuyết"
+      ],
+      [
+       "khuyết",
+       "vô hạn"
+      ],
+      [
+       "vô hạn",
+       "đầy đủ"
+      ]
+     ],
+     "k": 0,
+     "e": "Khuyết = thiếu nhánh \"nếu không\".",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    },
+    {
+     "t": "f",
+     "q": "Khối \"lặp lại liên tục\" là lặp ____; khối \"lặp lại cho đến khi\" là lặp có ____.",
+     "a": [
+      [
+       "vô hạn"
+      ],
+      [
+       "điều kiện kết thúc"
+      ]
+     ],
+     "o": [
+      [
+       "vô hạn",
+       "điều kiện kết thúc"
+      ],
+      [
+       "số lần định trước",
+       "điều kiện kết thúc"
+      ],
+      [
+       "vô hạn",
+       "số lần định trước"
+      ],
+      [
+       "điều kiện kết thúc",
+       "vô hạn"
+      ]
+     ],
+     "k": 0,
+     "e": "Hai dạng lặp dễ lẫn nhau.",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    },
+    {
+     "t": "f",
+     "q": "Muốn vẽ đa giác đều n cạnh bằng lặp n lần thì mỗi lần xoay ____ độ; với ngũ giác đều (n = 5) là ____ độ.",
+     "a": [
+      [
+       "360 : n",
+       "360/n"
+      ],
+      [
+       "72"
+      ]
+     ],
+     "o": [
+      [
+       "360 : n",
+       "72"
+      ],
+      [
+       "180 : n",
+       "36"
+      ],
+      [
+       "360 : n",
+       "60"
+      ],
+      [
+       "n",
+       "5"
+      ]
+     ],
+     "k": 0,
+     "e": "360 : 5 = 72. Bẫy: dùng 180.",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    },
+    {
+     "t": "f",
+     "q": "Với a = 48, b = 18, thuật toán ƯCLN bằng phép trừ lặp đến khi a = b cho kết quả ____ sau ____ lần trừ.",
+     "a": [
+      [
+       "6"
+      ],
+      [
+       "4"
+      ]
+     ],
+     "o": [
+      [
+       "6",
+       "3"
+      ],
+      [
+       "9",
+       "4"
+      ],
+      [
+       "6",
+       "4"
+      ],
+      [
+       "3",
+       "5"
+      ]
+     ],
+     "k": 2,
+     "e": "48,18→30,18→12,18→12,6→6,6: ƯCLN = 6, 4 lần trừ.",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    },
+    {
+     "t": "f",
+     "q": "Phương trình ax + b = 0: nếu a ≠ 0 thì x = ____; nếu a = 0 và b ≠ 0 thì phương trình ____.",
+     "a": [
+      [
+       "-b/a",
+       "−b/a"
+      ],
+      [
+       "vô nghiệm"
+      ]
+     ],
+     "o": [
+      [
+       "-b/a",
+       "vô nghiệm"
+      ],
+      [
+       "b/a",
+       "vô nghiệm"
+      ],
+      [
+       "-b/a",
+       "vô số nghiệm"
+      ],
+      [
+       "-a/b",
+       "vô nghiệm"
+      ]
+     ],
+     "k": 0,
+     "e": "Bẫy đổi dấu và đảo nghiệm vô nghiệm/vô số nghiệm.",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    },
+    {
+     "t": "s",
+     "q": "Chương trình AI viết cho trò chơi Đoán số báo \"Quá thấp\" khi số nhập lớn hơn số bí mật. Lỗi này thuộc loại nào?",
+     "o": [
+      "Lỗi logic (điều kiện/thông báo bị ngược)",
+      "Lỗi gõ sai chính tả",
+      "Lỗi thiếu biến",
+      "Không phải lỗi"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Chương trình vẫn chạy nhưng cho kết quả sai: lỗi logic, chỉ phát hiện bằng kiểm thử.",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    },
+    {
+     "t": "s",
+     "q": "Trong Đoán số 1–100 với cách đoán chia đôi khoảng hợp lí, số lần đoán nhiều nhất để chắc chắn tìm ra là:",
+     "o": [
+      "5",
+      "6",
+      "7",
+      "100"
+     ],
+     "a": [
+      2
+     ],
+     "e": "2^6 = 64 < 100 ≤ 2^7 = 128 nên tối đa 7 lần.",
+     "r": "SGK Tin học 8 KNTT – Bài 14"
+    }
+   ],
+   "tuluan": [
+    {
+     "q": "Câu 1 (3 điểm). Trình bày ba cấu trúc điều khiển và nêu dạng, khối lệnh Scratch tương ứng. Viết thuật toán tìm ƯCLN của hai số nguyên dương a, b và chạy với a = 48, b = 18.",
+     "a": [
+      "Tuần tự: lệnh lần lượt từ trên xuống.",
+      "Rẽ nhánh: khuyết (nếu … thì …), đầy đủ (nếu … thì … nếu không thì …).",
+      "Lặp: số lần định trước, vô hạn, đến khi điều kiện đúng; khối lặp n lần, lặp lại liên tục, lặp lại cho đến khi.",
+      "Thuật toán: lặp đến khi a = b: nếu a > b thì a := a − b, ngược lại b := b − a; kết quả là a.",
+      "Chạy: (48,18)→(30,18)→(12,18)→(12,6)→(6,6): ƯCLN = 6."
+     ]
+    },
+    {
+     "q": "Câu 2 (3 điểm). Nêu mục tiêu bài học \"Cấu trúc điều khiển\" (Tin học 8) theo chương trình 2018 và thiết kế hoạt động Hình thành kiến thức cho nội dung rẽ nhánh và lặp.",
+     "a": [
+      "Kiến thức: nêu được 3 cấu trúc và khối lệnh; mô tả thuật toán Đoán số; xây dựng, kiểm thử chương trình Đoán số.",
+      "Năng lực: tin học (xây dựng thuật toán, chương trình; dùng Scratch), tự chủ tự học, giao tiếp hợp tác.",
+      "Phẩm chất: kiên trì, tư duy logic, trách nhiệm.",
+      "Hoạt động: mục tiêu; nội dung (nhóm mảnh ghép đọc SGK, điền phiếu rồi thực hành 5 bước); sản phẩm (bảng 3 cấu trúc, chương trình chạy đúng); tổ chức 4 bước (giao nhiệm vụ, thực hiện, báo cáo, kết luận)."
+     ]
+    },
+    {
+     "q": "Câu 3 (4 điểm). Chatbot viết chương trình Đoán số nhưng chạy thử cho thông báo ngược và lặp mãi. Hãy phân tích nguyên nhân, nêu cách sửa và hướng dẫn HS dùng AI có trách nhiệm.",
+     "a": [
+      "Lỗi 1 là lỗi logic: điều kiện/thông báo bị ngược (trả lời > số bí mật phải báo Quá cao); sửa lại điều kiện hoặc đổi nhánh.",
+      "Lỗi 2: thiếu khối hỏi trong vòng lặp nên không cập nhật câu trả lời, lặp không dừng; đưa khối hỏi vào trong vòng lặp.",
+      "Kiểm thử bằng bảng giá trị (37; nhập 20, 50, 37; biên 1, 100) và đối chiếu sơ đồ SGK.",
+      "Dùng AI có trách nhiệm: không tin hoàn toàn, tự chạy thử, ghi rõ đã dùng AI ở phần nào, tự giải thích được chương trình."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T8-B15",
+   "ten": "Bài 15. Gỡ lỗi",
+   "tomtat": [
+    "**Kiểm thử** là **chạy thử** chương trình để phát hiện tình huống bất thường, tức là **lỗi**.",
+    "**Gỡ lỗi** là quá trình tìm nguyên nhân gây lỗi và sửa lỗi, sau đó kiểm tra lại.",
+    "Có hai loại lỗi: **lỗi cú pháp** và **lỗi lôgic**.",
+    "**Lỗi cú pháp**: vi phạm quy tắc viết lệnh (ví dụ khối lệnh thiếu ô giá trị), chương trình **không chạy được** hoặc báo lỗi.",
+    "**Lỗi lôgic**: chương trình đúng quy tắc, vẫn chạy nhưng **kết quả sai kịch bản**; loại lỗi này **khó phát hiện** hơn.",
+    "Hai cách phát hiện lỗi lôgic: (1) **phân tích lôgic** các khối lệnh liên quan; (2) **chạy từng bước**, theo dõi **giá trị biến** (hiện biến, dùng lệnh 'đợi … giây').",
+    "Ví dụ Đoán số (Hình 15.1): đoán đúng sau 4 lần nhưng máy báo 3, vì **lần đoán đầu không được tính**; sửa bằng cách thêm lệnh tăng biến hoặc đặt giá trị ban đầu bằng 1.",
+    "Ví dụ chẵn/lẻ (Hình 15.3): nhập n = 4 nhưng báo 'lẻ' do **hai khối nói đặt ngược**; sửa bằng cách đổi chỗ hai khối.",
+    "Thực hành Đoán số (Hình 15.4): sửa các lệnh (6), (11), (14) để đoán tối đa 7 lần và hiển thị đúng.",
+    "**Quy trình gỡ lỗi**: chạy thử → so với kịch bản → tìm lệnh gây lỗi → sửa → **chạy thử lại**.",
+    "Một lỗi có thể có **nhiều cách sửa**; bộ ca kiểm thử tốt gồm **ca thường, ca biên, ca lỗi**."
+   ],
+   "ynho": [
+    "Kiểm thử = chạy thử để phát hiện lỗi",
+    "Lỗi cú pháp: không chạy; lỗi lôgic: chạy nhưng sai",
+    "Phát hiện lỗi lôgic: phân tích lôgic hoặc chạy từng bước",
+    "Sửa xong phải chạy thử lại",
+    "AI chỉ gợi ý: phải kiểm chứng và khai báo"
+   ],
+   "bang": [
+    {
+     "tieu_de": "So sánh lỗi cú pháp và lỗi lôgic",
+     "cot": [
+      "Tiêu chí",
+      "Lỗi cú pháp",
+      "Lỗi lôgic"
+     ],
+     "dong": [
+      [
+       "Bản chất",
+       "Sai quy tắc viết lệnh",
+       "Đúng quy tắc nhưng sai kịch bản"
+      ],
+      [
+       "Chương trình",
+       "Không chạy / báo lỗi",
+       "Vẫn chạy"
+      ],
+      [
+       "Phát hiện",
+       "Dễ",
+       "Khó, cần kiểm thử"
+      ],
+      [
+       "Ví dụ",
+       "Khối 'nói' thiếu ô giá trị",
+       "Chu vi dùng phép nhân; lặp 50 thay vì 5"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Ví dụ bảng ca kiểm thử chương trình Đoán số (tối đa 7 lần)",
+     "cot": [
+      "Loại ca",
+      "Tình huống",
+      "Kết quả mong đợi"
+     ],
+     "dong": [
+      [
+       "Thường",
+       "Đoán đúng ngay lần 1",
+       "Báo thắng, số lần = 1"
+      ],
+      [
+       "Biên",
+       "Đoán đúng ở lần thứ 7",
+       "Báo thắng"
+      ],
+      [
+       "Biên",
+       "Sai cả 7 lần",
+       "Báo thua, dừng"
+      ],
+      [
+       "Lỗi",
+       "Nhập số ngoài khoảng cho phép",
+       "Thông báo hoặc xử lí hợp lí"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Đoán số: người chơi đoán đúng ở lần thứ 4 nhưng máy báo 'Số lần đoán: 3'. Chương trình có lỗi không?",
+     "ket_luan": "→ Có, lỗi lôgic (lần đầu không được đếm). Sửa: thêm lệnh tăng biến hoặc đặt giá trị ban đầu = 1."
+    },
+    {
+     "tinh_huong": "Chương trình chẵn/lẻ: nhập n = 4 máy nói 'n là số lẻ'; nhập n = 7 máy nói 'n là số chẵn'.",
+     "ket_luan": "→ Hai khối nói đặt ngược; đổi chỗ rồi chạy thử lại với n = 4, 7."
+    },
+    {
+     "tinh_huong": "Phân loại: (a) khối 'nói' thiếu ô giá trị; (b) tính chu vi hình chữ nhật bằng phép nhân; (c) lặp 50 lần thay vì 5.",
+     "ket_luan": "→ (a) lỗi cú pháp; (b), (c) lỗi lôgic."
+    },
+    {
+     "tinh_huong": "Máy cần tìm số trong khoảng 1–120, mỗi lần luôn đoán số ở giữa khoảng còn lại. Cần tối đa bao nhiêu lần?",
+     "ket_luan": "→ 7 lần, vì 2^6 = 64 < 120 ≤ 128 = 2^7."
+    }
+   ],
+   "nho": [
+    "'Cú pháp thì dừng, lôgic thì chạy sai'",
+    "Quy trình 5 bước: Chạy – So – Tìm – Sửa – Chạy lại",
+    "Ca kiểm thử nhớ 'Thường – Biên – Lỗi'"
+   ],
+   "bay": [
+    "Lỗi lôgic KHÔNG làm chương trình ngừng chạy; chạy được vẫn có thể sai.",
+    "Quên chạy thử lại sau khi sửa, hoặc chỉ thử một ca.",
+    "Nhầm thứ tự hai loại lỗi (cú pháp – lôgic) trong câu điền khuyết.",
+    "Một lỗi có thể có nhiều cách sửa, không phải chỉ một đáp án."
+   ],
+   "giaoan": [
+    "**Mục tiêu** – Kiến thức: nêu được kiểm thử là chạy thử để phát hiện lỗi; phân biệt lỗi cú pháp và lôgic; nêu hai cách phát hiện lỗi lôgic; sửa được chương trình chẵn/lẻ, Đoán số; Năng lực: tự chủ và tự học, giao tiếp hợp tác, NLc (chạy thử, tìm và sửa lỗi), NLS 5.1.TC2; Phẩm chất: kiên trì, trung thực, cẩn thận.",
+    "**Chuẩn bị** – GV: kế hoạch bài dạy, máy tính cài Scratch, máy chiếu, chương trình Hình 15.1, 15.3, 15.4, phiếu học tập, chatbot AI; HS: SGK, vở, máy tính (mỗi cặp một máy).",
+    "**Hoạt động 1 – Mở đầu** (5 phút) – Mục tiêu: tạo nhu cầu tìm hiểu; Nội dung: GV chạy thử Đoán số, đoán đúng sau 4 lần nhưng máy báo 3; Sản phẩm: chương trình chạy nhưng không đúng kịch bản; Tổ chức: GV giao nhiệm vụ, HS nghĩ cá nhân – chia sẻ cặp đôi, báo cáo, GV chốt dẫn vào bài.",
+    "**Hoạt động 2 – Hình thành kiến thức** (50 phút) – Mục tiêu: nêu kiểm thử, hai loại lỗi, hai cách phát hiện lỗi lôgic, gỡ lỗi chẵn/lẻ và Đoán số; Nội dung: đọc SGK, Hoạt động 3, chẵn/lẻ, thực hành Hình 15.4; Sản phẩm: phiếu học tập, chương trình đã sửa; Tổ chức: giao nhiệm vụ – thực hiện (cặp đôi, đổi vai thao tác/quan sát) – báo cáo – kết luận (quy trình gỡ lỗi).",
+    "**Hoạt động 3 – Luyện tập** (15 phút) – Mục tiêu: sửa theo cách khác, phân loại lỗi, lập ca kiểm thử; Nội dung: Luyện tập tr.90; Sản phẩm: cách sửa đặt giá trị ban đầu = 1, bảng 4 ca kiểm thử; Tổ chức: giao – thực hiện (Think–Pair–Share, thẻ A/B) – báo cáo – nhận xét.",
+    "**Hoạt động 4 – Vận dụng** (20 phút) – Mục tiêu: kiểm chứng gợi ý của chatbot, khai báo dùng AI, nêu ý tưởng chia đôi khoảng tìm kiếm; Nội dung: hỏi chatbot cách sửa Hình 15.4, đối chiếu bằng ca kiểm thử, Vận dụng tr.90; Sản phẩm: nhận định sai được chỉ ra, câu khai báo; Tổ chức: giao – thực hiện – báo cáo – chốt.",
+    "**Kiểm tra đánh giá** – Quan sát thao tác chạy thử và gỡ lỗi; phiếu học tập, bảng ca kiểm thử; câu hỏi nhanh (thẻ A/B); đánh giá sản phẩm bằng tiêu chí: xác định đúng loại lỗi, sửa đúng, có chạy thử lại."
+   ],
+   "ai": [
+    "GV dùng chatbot để gợi ý cách sửa Hình 15.4, rồi chiếu các nhận định cho HS đánh giá đúng/sai.",
+    "HS kiểm chứng đầu ra của AI bằng ca kiểm thử (ví dụ sai 7 lần) trước khi tin dùng; chatbot có thể trả lời tự tin nhưng sai.",
+    "Đạo đức AI: khai báo việc dùng AI, tự chịu trách nhiệm kết quả (8.A1.2, 8.A3.3)."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Kiểm thử chương trình là gì?",
+     "o": [
+      "Chạy thử chương trình để phát hiện lỗi hoặc tình huống bất thường",
+      "Viết lại toàn bộ chương trình bằng ngôn ngữ khác",
+      "Xoá các lệnh không dùng đến",
+      "Dịch chương trình sang mã máy"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Kiểm thử = chạy thử để phát hiện lỗi. Bẫy: nhầm với dịch chương trình.",
+     "r": "SGK Tin học 8 KNTT – Bài 15"
+    },
+    {
+     "t": "s",
+     "q": "Chương trình chạy bình thường nhưng cho kết quả sai so với kịch bản. Đây là lỗi gì?",
+     "o": [
+      "Lỗi cú pháp",
+      "Lỗi lôgic",
+      "Lỗi phần cứng",
+      "Lỗi đường truyền"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Đúng quy tắc nhưng sai kịch bản là lỗi lôgic. Bẫy: nhầm 'có lỗi' với 'không chạy được'.",
+     "r": "SGK Tin học 8 KNTT – Bài 15"
+    },
+    {
+     "t": "s",
+     "q": "Đặc điểm nào đúng với lỗi cú pháp?",
+     "o": [
+      "Chương trình vẫn chạy nhưng kết quả sai",
+      "Chỉ phát hiện được khi đã nộp bài",
+      "Vi phạm quy tắc viết lệnh nên chương trình không chạy được",
+      "Luôn do người dùng nhập sai dữ liệu"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Lỗi cú pháp: sai quy tắc, chương trình không chạy; phương án A là của lỗi lôgic.",
+     "r": "SGK Tin học 8 KNTT – Bài 15"
+    },
+    {
+     "t": "s",
+     "q": "Lỗi nào thường KHÓ phát hiện hơn?",
+     "o": [
+      "Lỗi cú pháp",
+      "Hai loại như nhau",
+      "Lỗi gõ sai chính tả tên lệnh",
+      "Lỗi lôgic"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Lỗi lôgic khó phát hiện vì chương trình vẫn chạy bình thường.",
+     "r": "SGK Tin học 8 KNTT – Bài 15"
+    },
+    {
+     "t": "s",
+     "q": "Trong chương trình Đoán số, bạn đoán đúng sau 4 lần nhưng máy báo 'Số lần đoán: 3'. Nguyên nhân hợp lí nhất là",
+     "o": [
+      "Máy bị hỏng",
+      "Số bí mật sai",
+      "Lần đoán đầu tiên không được tính vào biến đếm",
+      "Dùng sai màu nền sân khấu"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Thiếu 1 vì lần đoán đầu không được tính; đây là lỗi lôgic.",
+     "r": "SGK Tin học 8 KNTT – Bài 15"
+    },
+    {
+     "t": "s",
+     "q": "Cách sửa lỗi 'báo thiếu 1 lần đoán' trong Hình 15.1 là",
+     "o": [
+      "Xoá lệnh tạo số bí mật",
+      "Đổi số bí mật thành 0",
+      "Thêm lệnh lặp mãi mãi",
+      "Thêm lệnh 'thay đổi số lần đoán một lượng 1' cho lần đoán đầu"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Cần cộng thêm cho lần đầu. Cách khác: đặt giá trị ban đầu của biến bằng 1 (một lỗi có nhiều cách sửa).",
+     "r": "SGK Tin học 8 KNTT – Bài 15"
+    },
+    {
+     "t": "s",
+     "q": "Chương trình chẵn/lẻ nhập n = 4 nhưng báo 'số lẻ'. Cách sửa phù hợp là",
+     "o": [
+      "Đổi chỗ hai khối lệnh nói (chẵn/lẻ) cho đúng điều kiện",
+      "Đổi n thành 5",
+      "Xoá khối nhập n",
+      "Thêm khối đợi 10 giây"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Hai khối nói đặt ngược; sửa rồi phải chạy thử lại.",
+     "r": "SGK Tin học 8 KNTT – Bài 15"
+    },
+    {
+     "t": "s",
+     "q": "Bước cuối cùng, không được bỏ qua trong quy trình gỡ lỗi là",
+     "o": [
+      "Xoá chương trình cũ",
+      "Chạy thử lại để kiểm tra đã hết lỗi",
+      "In chương trình ra giấy",
+      "Đổi tên biến"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Sửa xong phải chạy thử lại; bẫy: tưởng sửa xong là xong.",
+     "r": "SGK Tin học 8 KNTT – Bài 15"
+    },
+    {
+     "t": "s",
+     "q": "Lệnh 'đợi … giây' và hiển thị giá trị biến giúp gì khi gỡ lỗi?",
+     "o": [
+      "Làm chương trình chạy nhanh hơn",
+      "Tự động sửa lỗi",
+      "Tránh lỗi cú pháp",
+      "Quan sát từng bước và theo dõi giá trị biến để tìm chỗ sai"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Đây là công cụ hỗ trợ cách 2: chạy từng bước, theo dõi biến.",
+     "r": "SGK Tin học 8 KNTT – Bài 15"
+    },
+    {
+     "t": "s",
+     "q": "Một ca kiểm thử tốt cho Đoán số 'tối đa 7 lần' nên có",
+     "o": [
+      "Chỉ ca đoán đúng lần 1",
+      "Chỉ ca nhập 0",
+      "Ca thường, ca biên (đúng ở lần 7, sai cả 7 lần) và ca lỗi (nhập ngoài khoảng)",
+      "Chỉ một ca bất kì"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Kiểm thử tốt gồm ca thường, biên, lỗi. Bẫy: chỉ thử một ca.",
+     "r": "SGK Tin học 8 KNTT – Bài 15"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các phát biểu ĐÚNG về lỗi chương trình",
+     "o": [
+      "Lỗi lôgic: chương trình chạy nhưng sai kịch bản",
+      "Lỗi cú pháp: chương trình không chạy được",
+      "Lỗi lôgic luôn làm chương trình dừng ngay",
+      "Chương trình chạy được thì chắc chắn không có lỗi"
+     ],
+     "a": [
+      0,
+      1
+     ],
+     "e": "C và D sai: lỗi lôgic không làm dừng; chạy được vẫn có thể sai.",
+     "r": "SGK Tin học 8 KNTT – Bài 15"
+    },
+    {
+     "t": "m",
+     "q": "Các cách phát hiện lỗi lôgic nêu trong bài là",
+     "o": [
+      "Phân tích lôgic các khối lệnh liên quan",
+      "Chạy từng bước và theo dõi giá trị biến",
+      "Khởi động lại máy tính",
+      "Đổi tên chương trình"
+     ],
+     "a": [
+      0,
+      1
+     ],
+     "e": "Bài nêu đúng hai cách; C, D không liên quan.",
+     "r": "SGK Tin học 8 KNTT – Bài 15"
+    },
+    {
+     "t": "m",
+     "q": "Tình huống nào dưới đây là lỗi lôgic?",
+     "o": [
+      "Tính chu vi hình chữ nhật nhưng dùng phép nhân thay vì phép cộng",
+      "Vòng lặp 'lặp 50 lần' trong khi cần lặp 5 lần",
+      "Khối lệnh 'nói' thiếu ô giá trị",
+      "Viết sai tên khối lệnh nên chương trình không chạy"
+     ],
+     "a": [
+      0,
+      1
+     ],
+     "e": "A, B chạy được nhưng sai kết quả = lôgic; C, D là lỗi cú pháp.",
+     "r": "SGK Tin học 8 KNTT – Bài 15"
+    },
+    {
+     "t": "m",
+     "q": "Khi dùng chatbot AI để tìm cách sửa lỗi chương trình, việc nào NÊN làm?",
+     "o": [
+      "Tự chạy các ca kiểm thử để kiểm chứng",
+      "Khai báo đã dùng AI hỗ trợ",
+      "Chép nguyên văn, không cần thử",
+      "Tin tuyệt đối vì AI trả lời tự tin"
+     ],
+     "a": [
+      0,
+      1
+     ],
+     "e": "AI có thể sai; phải kiểm chứng và khai báo; người dùng chịu trách nhiệm.",
+     "r": "SGK Tin học 8 KNTT – Bài 15"
+    },
+    {
+     "t": "f",
+     "q": "Kiểm thử là ____ chương trình để phát hiện ____.",
+     "a": [
+      [
+       "chạy thử"
+      ],
+      [
+       "lỗi"
+      ]
+     ],
+     "o": [
+      [
+       "viết lại",
+       "từ khoá"
+      ],
+      [
+       "in ra",
+       "biến"
+      ],
+      [
+       "chạy thử",
+       "lỗi"
+      ],
+      [
+       "dịch",
+       "máy tính"
+      ]
+     ],
+     "k": 2,
+     "e": "Kiểm thử = chạy thử để phát hiện lỗi.",
+     "r": "SGK Tin học 8 KNTT – Bài 15"
+    },
+    {
+     "t": "f",
+     "q": "Lỗi ____ làm chương trình không chạy được; lỗi ____ khiến chương trình chạy nhưng sai kịch bản.",
+     "a": [
+      [
+       "cú pháp"
+      ],
+      [
+       "lôgic"
+      ]
+     ],
+     "o": [
+      [
+       "cú pháp",
+       "lôgic"
+      ],
+      [
+       "lôgic",
+       "cú pháp"
+      ],
+      [
+       "cú pháp",
+       "phần cứng"
+      ],
+      [
+       "dữ liệu",
+       "lôgic"
+      ]
+     ],
+     "k": 0,
+     "e": "Bẫy đổi thứ tự hai loại lỗi.",
+     "r": "SGK Tin học 8 KNTT – Bài 15"
+    },
+    {
+     "t": "f",
+     "q": "Hai cách phát hiện lỗi lôgic: phân tích ____ các khối lệnh liên quan và chạy ____, theo dõi giá trị biến.",
+     "a": [
+      [
+       "lôgic"
+      ],
+      [
+       "từng bước"
+      ]
+     ],
+     "o": [
+      [
+       "màu sắc",
+       "nhanh"
+      ],
+      [
+       "lôgic",
+       "một lần"
+      ],
+      [
+       "tên",
+       "hết cả chương trình"
+      ],
+      [
+       "lôgic",
+       "từng bước"
+      ]
+     ],
+     "k": 3,
+     "e": "Hai cách: phân tích lôgic; chạy từng bước theo dõi biến.",
+     "r": "SGK Tin học 8 KNTT – Bài 15"
+    },
+    {
+     "t": "f",
+     "q": "Quy trình gỡ lỗi: chạy thử, so với ____, tìm lệnh gây lỗi, ____, rồi chạy thử lại.",
+     "a": [
+      [
+       "kịch bản"
+      ],
+      [
+       "sửa"
+      ]
+     ],
+     "o": [
+      [
+       "màn hình",
+       "xoá"
+      ],
+      [
+       "kịch bản",
+       "sửa"
+      ],
+      [
+       "sửa",
+       "kịch bản"
+      ],
+      [
+       "kịch bản",
+       "bỏ qua"
+      ]
+     ],
+     "k": 1,
+     "e": "Bẫy đổi thứ tự bước.",
+     "r": "SGK Tin học 8 KNTT – Bài 15"
+    },
+    {
+     "t": "f",
+     "q": "Trong thực hành Đoán số, tìm số trong khoảng 1–120 bằng cách luôn đoán số ở ____ khoảng còn lại thì cần tối đa ____ lần.",
+     "a": [
+      [
+       "giữa"
+      ],
+      [
+       "7"
+      ]
+     ],
+     "o": [
+      [
+       "đầu",
+       "120"
+      ],
+      [
+       "giữa",
+       "6"
+      ],
+      [
+       "giữa",
+       "7"
+      ],
+      [
+       "cuối",
+       "7"
+      ]
+     ],
+     "k": 2,
+     "e": "2^7 = 128 > 120 nên 7 lần đủ; 2^6 = 64 < 120 nên 6 lần chưa đủ.",
+     "r": "SGK Tin học 8 KNTT – Bài 15"
+    },
+    {
+     "t": "f",
+     "q": "Ngoài ca thường, bảng kiểm thử nên có ca ____ (giá trị đầu/cuối) và ca ____ (dữ liệu không hợp lệ).",
+     "a": [
+      [
+       "biên"
+      ],
+      [
+       "lỗi"
+      ]
+     ],
+     "o": [
+      [
+       "lỗi",
+       "biên"
+      ],
+      [
+       "biên",
+       "lỗi"
+      ],
+      [
+       "biên",
+       "đẹp"
+      ],
+      [
+       "thường",
+       "thường"
+      ]
+     ],
+     "k": 1,
+     "e": "Ca biên và ca lỗi.",
+     "r": "SGK Tin học 8 KNTT – Bài 15"
+    }
+   ],
+   "tuluan": [
+    {
+     "q": "Câu 1 (3 điểm). Phân biệt lỗi cú pháp và lỗi lôgic; nêu hai cách phát hiện lỗi lôgic và cho ví dụ với chương trình Đoán số.",
+     "a": [
+      "Lỗi cú pháp: vi phạm quy tắc viết lệnh, chương trình không chạy được. Lỗi lôgic: đúng quy tắc, chạy được nhưng sai kịch bản, khó phát hiện.",
+      "Cách 1: phân tích lôgic các khối lệnh liên quan. Cách 2: chạy từng bước, theo dõi giá trị biến (hiện biến, lệnh 'đợi … giây').",
+      "Ví dụ: Đoán số đúng sau 4 lần nhưng báo 3 là lỗi lôgic (lần đầu không được đếm); khối 'nói' thiếu ô giá trị là lỗi cú pháp.",
+      "Sửa: thêm lệnh tăng biến hoặc đặt giá trị ban đầu = 1, rồi chạy thử lại."
+     ]
+    },
+    {
+     "q": "Câu 2 (3 điểm). Nêu mục tiêu bài 'Gỡ lỗi' (Tin học 8) theo chương trình 2018 và thiết kế hoạt động Luyện tập lập ca kiểm thử.",
+     "a": [
+      "Kiến thức: nêu kiểm thử, phân biệt hai loại lỗi, hai cách phát hiện lỗi lôgic, sửa được chương trình Đoán số, chẵn/lẻ.",
+      "Năng lực: tự chủ và tự học, giao tiếp và hợp tác, NLc (chạy thử, tìm lỗi, sửa lỗi), NLS 5.1.TC2; Phẩm chất: kiên trì, trung thực, cẩn thận.",
+      "Hoạt động Luyện tập: mục tiêu – lập bảng ca kiểm thử; nội dung – Luyện tập tr.90; sản phẩm – bảng 4 ca (thường, biên, thua, ngoài khoảng); tổ chức 4 bước giao – thực hiện – báo cáo – kết luận."
+     ]
+    },
+    {
+     "q": "Câu 3 (4 điểm). Chatbot khuyên 'chỉ cần sửa lệnh (6) thành > 8 là chương trình Đoán số đúng tối đa 7 lần'. Em hướng dẫn HS đánh giá lời khuyên này và tích hợp năng lực AI thế nào? Máy tìm số trong 1–120 cần tối đa bao nhiêu lần?",
+     "a": [
+      "Cho HS chạy ca kiểm thử: sai liên tục, thấy với '> 8' vẫn cho đoán tới lần 9 nên lời khuyên sai.",
+      "Rút ra: AI có thể trả lời tự tin nhưng sai; phải kiểm chứng bằng ca kiểm thử, đối chiếu SGK.",
+      "HS viết câu khai báo dùng AI; nhấn mạnh người dùng chịu trách nhiệm (8.A1.2, 8.A3.3).",
+      "Tìm số 1–120: luôn đoán giữa khoảng còn lại, 2^6 = 64 < 120 ≤ 128 = 2^7 nên tối đa 7 lần."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T8-B16",
+   "ten": "Bài 16. Tin học với nghề nghiệp",
+   "tomtat": [
+    "Ứng dụng tin học vào công việc giúp **nâng cao hiệu quả công việc** trong rất nhiều nghề (kế toán, giáo viên, hoạ sĩ, bác sĩ...).",
+    "Có **5 lợi ích**: (1) **tăng tốc độ xử lí** công việc; (2) **liên lạc, trao đổi dễ dàng**; (3) **làm việc nhóm, mở rộng phạm vi** làm việc; (4) **nâng cao tay nghề**; (5) **hỗ trợ thông tin cho người lao động**.",
+    "Tin học hỗ trợ con người chứ không thay thế hoàn toàn; chọn ứng dụng **phù hợp** mới đem lại hiệu quả.",
+    "Nghề được chia thành **2 nhóm**: **nghề thuộc lĩnh vực tin học** và **nghề liên quan đến ứng dụng tin học**.",
+    "**Nghề thuộc lĩnh vực tin học**: tạo ra, quản lí, vận hành sản phẩm/hệ thống tin học, ví dụ lập trình viên, quản trị mạng, thiết kế website, quản trị cơ sở dữ liệu.",
+    "**Nghề liên quan đến ứng dụng tin học**: người làm nghề **sử dụng** máy tính, phần mềm để làm việc hiệu quả hơn, ví dụ bác sĩ, nhà báo, kiến trúc sư, bán hàng trực tuyến.",
+    "Cách phân biệt nhanh: nghề **tạo ra/vận hành** sản phẩm tin học là lĩnh vực tin học; nghề **dùng** sản phẩm tin học là liên quan ứng dụng.",
+    "**Bình đẳng giới** trong sử dụng máy tính và ứng dụng tin học: nữ và nam có **quyền và cơ hội như nhau** khi học tập, sử dụng máy tính và làm nghề tin học.",
+    "Thực tế **tỉ lệ nữ trong ngành tin học còn thấp**, do định kiến giới; vì vậy có nhiều hoạt động thúc đẩy nữ tham gia như **Ngày Quốc tế trẻ em gái với CNTT**, **DigiGirlZ**, tấm gương **Ada Lovelace**.",
+    "Mỗi HS cần **tôn trọng bình đẳng giới**: chia sẻ tài liệu, không chê bạn nữ học tin học, cùng tham gia câu lạc bộ tin học.",
+    "Tích hợp AI: kết quả của **chatbot có thể sai hoặc thiên vị giới**, nên phải **kiểm chứng** với SGK và nguồn tin cậy."
+   ],
+   "ynho": [
+    "Có 5 lợi ích ứng dụng tin học vào công việc.",
+    "Hai nhóm nghề: lĩnh vực tin học và liên quan ứng dụng.",
+    "Tạo/vận hành sản phẩm tin học = nghề lĩnh vực tin học.",
+    "Nữ và nam có quyền, cơ hội như nhau.",
+    "Kết quả AI cần kiểm chứng, có thể thiên vị."
+   ],
+   "bang": [
+    {
+     "tieu_de": "Phân loại nghề theo mức độ gắn với tin học",
+     "cot": [
+      "Tiêu chí",
+      "Nghề thuộc lĩnh vực tin học",
+      "Nghề liên quan ứng dụng tin học"
+     ],
+     "dong": [
+      [
+       "Vai trò tin học",
+       "Là nội dung chính của nghề",
+       "Là công cụ hỗ trợ công việc"
+      ],
+      [
+       "Người làm nghề",
+       "Tạo ra, quản lí, vận hành sản phẩm/hệ thống tin học",
+       "Sử dụng máy tính, phần mềm trong chuyên môn"
+      ],
+      [
+       "Ví dụ",
+       "Lập trình viên, quản trị mạng, thiết kế website",
+       "Bác sĩ, nhà báo, kiến trúc sư, bán hàng trực tuyến"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Năm lợi ích ứng dụng tin học và ví dụ",
+     "cot": [
+      "Lợi ích",
+      "Ví dụ minh hoạ"
+     ],
+     "dong": [
+      [
+       "Tăng tốc độ xử lí",
+       "Kế toán dùng bảng tính tính lương nhanh"
+      ],
+      [
+       "Liên lạc, trao đổi dễ dàng",
+       "Giáo viên gửi bài qua thư điện tử"
+      ],
+      [
+       "Làm việc nhóm, mở rộng phạm vi",
+       "Nhóm thiết kế làm chung tài liệu trực tuyến"
+      ],
+      [
+       "Nâng cao tay nghề",
+       "Hoạ sĩ dùng phần mềm đồ hoạ luyện kĩ năng"
+      ],
+      [
+       "Hỗ trợ thông tin cho người lao động",
+       "Bác sĩ tra cứu hồ sơ bệnh án điện tử"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Cô kế toán dùng phần mềm bảng tính để tính lương 200 nhân viên thay vì tính tay từng người.",
+     "ket_luan": "→ Lợi ích: tăng tốc độ xử lí; nghề kế toán thuộc nhóm liên quan ứng dụng tin học."
+    },
+    {
+     "tinh_huong": "Anh Nam làm quản trị mạng cho công ty: cài đặt, bảo trì hệ thống mạng. Chị Lan làm kiến trúc sư, dùng phần mềm vẽ thiết kế nhà.",
+     "ket_luan": "→ Anh Nam: nghề thuộc lĩnh vực tin học; chị Lan: nghề liên quan ứng dụng tin học."
+    },
+    {
+     "tinh_huong": "Lớp có bạn nam nói \"con gái không học được lập trình\". Em phản hồi thế nào?",
+     "ket_luan": "→ Đó là định kiến; nữ và nam có quyền, cơ hội như nhau; nên động viên, chia sẻ tài liệu cho bạn nữ."
+    },
+    {
+     "tinh_huong": "Hỏi chatbot \"mô tả một lập trình viên giỏi\", câu trả lời toàn dùng \"anh ấy\".",
+     "ket_luan": "→ Có dấu hiệu thiên vị giới; cần kiểm chứng và yêu cầu dùng cách diễn đạt trung lập."
+    }
+   ],
+   "nho": [
+    "Nhớ 5 lợi ích bằng cụm: NHANH – LIÊN LẠC – NHÓM – TAY NGHỀ – THÔNG TIN.",
+    "Tạo/vận hành = lĩnh vực tin học; dùng = liên quan ứng dụng.",
+    "Bình đẳng giới = Quyền + Cơ hội như nhau.",
+    "AI = Hỗ trợ, phải Kiểm chứng."
+   ],
+   "bay": [
+    "Streamer, vlogger, bán hàng trực tuyến dùng máy tính nhiều nhưng là nghề liên quan ứng dụng tin học, không thuộc lĩnh vực tin học.",
+    "Tin học hỗ trợ nâng cao hiệu quả, không có nghĩa thay thế hoàn toàn con người hay hết sai sót.",
+    "Tỉ lệ nữ thấp là thực trạng do định kiến, không có nghĩa nữ kém năng lực tin học.",
+    "Chatbot trả lời trôi chảy chưa chắc đúng; có thể thiên vị giới."
+   ],
+   "giaoan": [
+    "**Mục tiêu** – Kiến thức: nêu được 5 lợi ích ứng dụng tin học vào công việc; phân biệt hai nhóm nghề; trình bày được bình đẳng giới trong sử dụng máy tính và ứng dụng tin học. Năng lực: tự chủ, tự học; giao tiếp, hợp tác; giải quyết vấn đề; NLa, NLd, NLe (liên hệ tin học với nghề nghiệp); năng lực số 5.4.TC2.c; năng lực AI 8.B1.1. Phẩm chất: chăm chỉ, tôn trọng bình đẳng giới, trung thực khi dùng AI.",
+    "**Chuẩn bị** – GV: máy chiếu, Hình 16.1, 16.2, phiếu học tập, giấy A3, máy tính có chatbot AI. HS: SGK Tin học 8, vở ghi.",
+    "**Hoạt động 1 – Mở đầu** (7 phút). Mục tiêu: tạo hứng thú. Nội dung: tình huống mở đầu SGK (kế toán, giáo viên, hoạ sĩ). Sản phẩm: HS kể ít nhất 2 nghề dùng tin học. Tổ chức: (1) GV giao nhiệm vụ, chiếu tình huống; (2) HS nghĩ cá nhân rồi chia sẻ cặp đôi (Think–Pair–Share); (3) báo cáo 2–3 HS; (4) GV nhận xét, dẫn vào bài.",
+    "**Hoạt động 2 – Hình thành kiến thức** (50 phút). Mục tiêu: nêu 5 lợi ích, phân loại nghề, trình bày bình đẳng giới. Nội dung: 2.1 đọc SGK tìm lợi ích; 2.2 quan sát Hình 16.1 phân loại nghề; 2.3 đọc mục 2, Hình 16.2. Sản phẩm: phiếu học tập 1, 2, 3. Tổ chức: (1) GV chia nhóm 4, giao phiếu; (2) HS khăn trải bàn, mảnh ghép, điền phiếu; (3) các nhóm báo cáo, nhận xét chéo; (4) GV chốt kiến thức, hộp Ghi nhớ.",
+    "**Hoạt động 3 – Luyện tập** (18 phút). Mục tiêu: củng cố. Nội dung: Câu hỏi 1, 2 (SGK tr.93), Luyện tập 1. Sản phẩm: ghép đúng nghề – ứng dụng; bảng nghề – ứng dụng – lợi ích. Tổ chức: (1) GV giao bài; (2) HS làm cá nhân, cặp, nhóm; (3) trả lời nhanh, lớp nhận xét; (4) GV chốt 5 lợi ích và 2 nhóm nghề.",
+    "**Hoạt động 4 – Vận dụng** (15 phút). Mục tiêu: liên hệ thực tế, nhận diện rủi ro AI. Nội dung: Vận dụng 2; GV hỏi chatbot, HS đối chiếu SGK tr.92. Sản phẩm: ít nhất 1 việc làm thúc đẩy bình đẳng giới; chỉ ra chỗ AI sai/thiên vị. Tổ chức: (1) GV giao nhiệm vụ, thao tác chatbot; (2) HS đối chiếu, thảo luận cặp; (3) chia sẻ kết quả; (4) GV kết luận AI chỉ là công cụ, phải kiểm chứng.",
+    "**Kiểm tra đánh giá** – Quan sát phiếu học tập, hỏi đáp nhanh, câu hỏi trắc nghiệm cuối bài (5 lợi ích, phân loại nghề, bình đẳng giới) và nhận xét phần thảo luận AI; dặn dò làm Vận dụng 1 (thuyết trình ứng dụng tin học trong một nghề)."
+   ],
+   "ai": [
+    "GV dùng chatbot để tạo nhanh danh sách nghề và ví dụ ứng dụng tin học làm tư liệu, rồi tự đối chiếu với SGK trước khi dạy.",
+    "HS hỏi chatbot \"Nêu 5 lợi ích ứng dụng tin học\", đối chiếu SGK tr.92 để chỉ ra phần thiếu/thừa/sai (kiểm chứng đầu ra).",
+    "Thảo luận đạo đức AI: câu trả lời \"mô tả lập trình viên giỏi\" mặc định là nam là thiên vị giới; yêu cầu AI diễn đạt trung lập và không dùng kết quả thiên vị."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Theo SGK Tin học 8, việc ứng dụng tin học vào công việc KHÔNG nhằm mục đích nào sau đây?",
+     "o": [
+      "Tăng tốc độ xử lí công việc",
+      "Liên lạc, trao đổi dễ dàng hơn",
+      "Thay thế hoàn toàn con người trong mọi nghề",
+      "Hỗ trợ thông tin cho người lao động"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Tin học hỗ trợ, nâng cao hiệu quả chứ không thay thế hoàn toàn con người (bẫy: nói quá).",
+     "r": "SGK Tin học 8 KNTT – Bài 16"
+    },
+    {
+     "t": "s",
+     "q": "Nghề nào sau đây thuộc nhóm nghề thuộc lĩnh vực tin học?",
+     "o": [
+      "Bác sĩ",
+      "Quản trị mạng",
+      "Kiến trúc sư",
+      "Nhà báo"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Quản trị mạng là nghề của lĩnh vực tin học; các nghề còn lại chỉ liên quan đến ứng dụng tin học.",
+     "r": "SGK Tin học 8 KNTT – Bài 16"
+    },
+    {
+     "t": "s",
+     "q": "Nghề nào sau đây thuộc nhóm nghề liên quan đến ứng dụng tin học?",
+     "o": [
+      "Lập trình viên",
+      "Thiết kế website",
+      "Kiến trúc sư",
+      "Quản trị cơ sở dữ liệu"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Kiến trúc sư dùng phần mềm thiết kế, thuộc nhóm liên quan ứng dụng tin học; ba nghề kia thuộc lĩnh vực tin học.",
+     "r": "SGK Tin học 8 KNTT – Bài 16"
+    },
+    {
+     "t": "s",
+     "q": "Người bán hàng trực tuyến dùng phần mềm quản lí đơn hàng. Nghề này thuộc nhóm nào?",
+     "o": [
+      "Nghề thuộc lĩnh vực tin học",
+      "Nghề liên quan đến ứng dụng tin học",
+      "Nghề không cần tin học",
+      "Nghề chỉ dành cho nam"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Bẫy: có dùng máy tính nhiều nhưng không tạo ra sản phẩm tin học nên là nghề liên quan ứng dụng tin học.",
+     "r": "SGK Tin học 8 KNTT – Bài 16"
+    },
+    {
+     "t": "s",
+     "q": "Phát biểu nào đúng về bình đẳng giới trong sử dụng máy tính và ứng dụng tin học?",
+     "o": [
+      "Chỉ nam giới mới phù hợp với nghề tin học",
+      "Nữ và nam có quyền và cơ hội như nhau trong học tập và làm việc với tin học",
+      "Nữ giới chỉ nên làm công việc văn phòng",
+      "Nam giới được ưu tiên dùng phòng máy"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Bình đẳng giới: quyền và cơ hội như nhau; các phương án khác là định kiến.",
+     "r": "SGK Tin học 8 KNTT – Bài 16"
+    },
+    {
+     "t": "s",
+     "q": "Ada Lovelace, nhắc đến trong bài, là ai?",
+     "o": [
+      "Người sáng lập DigiGirlZ",
+      "Một nhà toán học nữ, được coi là lập trình viên đầu tiên",
+      "Một nhà quản trị mạng hiện đại",
+      "Người phát minh ra Internet"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Ada Lovelace là nhà toán học nữ nổi tiếng trong lịch sử lập trình; không nhầm với tổ chức/chương trình.",
+     "r": "SGK Tin học 8 KNTT – Bài 16"
+    },
+    {
+     "t": "s",
+     "q": "Mục đích của các hoạt động như Ngày Quốc tế trẻ em gái với CNTT là gì?",
+     "o": [
+      "Hạn chế nam giới học tin học",
+      "Khuyến khích, tạo cơ hội để nữ giới tham gia lĩnh vực tin học",
+      "Chỉ để giải trí",
+      "Tuyển nhân sự cho một công ty"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Các hoạt động này thúc đẩy bình đẳng giới, khuyến khích nữ tham gia ngành tin học.",
+     "r": "SGK Tin học 8 KNTT – Bài 16"
+    },
+    {
+     "t": "s",
+     "q": "Khi dùng chatbot AI để tìm thông tin về nghề nghiệp, em nên làm gì?",
+     "o": [
+      "Tin hoàn toàn vì AI không bao giờ sai",
+      "Đối chiếu, kiểm chứng với SGK hoặc nguồn tin cậy",
+      "Chép nguyên văn nộp bài",
+      "Chỉ hỏi một lần rồi dừng"
+     ],
+     "a": [
+      1
+     ],
+     "e": "AI có thể sai hoặc thiên vị, cần kiểm chứng (năng lực AI 8.B1.1).",
+     "r": "SGK Tin học 8 KNTT – Bài 16"
+    },
+    {
+     "t": "s",
+     "q": "Chatbot mô tả \"một lập trình viên giỏi\" luôn dùng \"anh ấy\". Điều này cho thấy gì?",
+     "o": [
+      "AI luôn đúng",
+      "AI có thể phản ánh thiên vị giới",
+      "Nghề lập trình chỉ có nam",
+      "Chatbot bị hỏng phần cứng"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Đây là dấu hiệu thiên vị giới trong dữ liệu/câu trả lời của AI, không phải sự thật về nghề.",
+     "r": "SGK Tin học 8 KNTT – Bài 16"
+    },
+    {
+     "t": "m",
+     "q": "Những lợi ích nào dưới đây là lợi ích của việc ứng dụng tin học vào công việc theo SGK?",
+     "o": [
+      "Tăng tốc độ xử lí công việc",
+      "Liên lạc, trao đổi dễ dàng",
+      "Nâng cao tay nghề",
+      "Loại bỏ mọi sai sót tuyệt đối"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Không có lợi ích \"loại bỏ mọi sai sót tuyệt đối\" (bẫy: nói quá).",
+     "r": "SGK Tin học 8 KNTT – Bài 16"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các nghề thuộc lĩnh vực tin học.",
+     "o": [
+      "Lập trình viên",
+      "Quản trị mạng",
+      "Thiết kế website",
+      "Bác sĩ"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Bác sĩ chỉ ứng dụng tin học trong công việc, không thuộc lĩnh vực tin học.",
+     "r": "SGK Tin học 8 KNTT – Bài 16"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các nghề liên quan đến ứng dụng tin học (không thuộc lĩnh vực tin học).",
+     "o": [
+      "Nhà báo",
+      "Kiến trúc sư",
+      "Bán hàng trực tuyến",
+      "Quản trị cơ sở dữ liệu"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Quản trị cơ sở dữ liệu là nghề của lĩnh vực tin học.",
+     "r": "SGK Tin học 8 KNTT – Bài 16"
+    },
+    {
+     "t": "m",
+     "q": "Những việc làm nào góp phần thúc đẩy bình đẳng giới trong tin học?",
+     "o": [
+      "Chia sẻ tài liệu tin học cho bạn nữ",
+      "Không chê bạn nữ học kém tin học",
+      "Rủ bạn nữ cùng tham gia câu lạc bộ tin học",
+      "Cho rằng nữ không hợp nghề lập trình"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Phương án cuối là định kiến giới, đi ngược bình đẳng giới.",
+     "r": "SGK Tin học 8 KNTT – Bài 16"
+    },
+    {
+     "t": "f",
+     "q": "Ứng dụng tin học giúp ____ độ xử lí công việc và giúp ____ thông tin, liên lạc dễ dàng hơn.",
+     "a": [
+      [
+       "tăng tốc"
+      ],
+      [
+       "trao đổi"
+      ]
+     ],
+     "o": [
+      [
+       "tăng tốc",
+       "trao đổi"
+      ],
+      [
+       "giảm tốc",
+       "trao đổi"
+      ],
+      [
+       "tăng tốc",
+       "xoá bỏ"
+      ],
+      [
+       "giữ nguyên",
+       "hạn chế"
+      ]
+     ],
+     "k": 0,
+     "e": "Lợi ích: tăng tốc độ xử lí; liên lạc, trao đổi dễ dàng.",
+     "r": "SGK Tin học 8 KNTT – Bài 16"
+    },
+    {
+     "t": "f",
+     "q": "Nghề ____ thuộc lĩnh vực tin học, còn nghề ____ chỉ liên quan đến ứng dụng tin học.",
+     "a": [
+      [
+       "quản trị mạng"
+      ],
+      [
+       "kiến trúc sư"
+      ]
+     ],
+     "o": [
+      [
+       "kiến trúc sư",
+       "quản trị mạng"
+      ],
+      [
+       "lập trình viên",
+       "quản trị mạng"
+      ],
+      [
+       "quản trị mạng",
+       "kiến trúc sư"
+      ],
+      [
+       "nhà báo",
+       "bác sĩ"
+      ]
+     ],
+     "k": 2,
+     "e": "Quản trị mạng thuộc lĩnh vực tin học; kiến trúc sư chỉ ứng dụng tin học.",
+     "r": "SGK Tin học 8 KNTT – Bài 16"
+    },
+    {
+     "t": "f",
+     "q": "Bình đẳng giới là nam và nữ có ____ và ____ như nhau trong sử dụng máy tính và ứng dụng tin học.",
+     "a": [
+      [
+       "quyền"
+      ],
+      [
+       "cơ hội"
+      ]
+     ],
+     "o": [
+      [
+       "nghĩa vụ",
+       "thu nhập"
+      ],
+      [
+       "quyền",
+       "cơ hội"
+      ],
+      [
+       "sở thích",
+       "thời gian"
+      ],
+      [
+       "quyền",
+       "điểm số"
+      ]
+     ],
+     "k": 1,
+     "e": "Bình đẳng giới: quyền và cơ hội như nhau.",
+     "r": "SGK Tin học 8 KNTT – Bài 16"
+    },
+    {
+     "t": "f",
+     "q": "Nghề lập trình viên thuộc nhóm nghề ____ ; nghề nhà báo thuộc nhóm nghề ____ .",
+     "a": [
+      [
+       "thuộc lĩnh vực tin học"
+      ],
+      [
+       "liên quan ứng dụng tin học"
+      ]
+     ],
+     "o": [
+      [
+       "liên quan ứng dụng tin học",
+       "thuộc lĩnh vực tin học"
+      ],
+      [
+       "thuộc lĩnh vực tin học",
+       "thuộc lĩnh vực tin học"
+      ],
+      [
+       "liên quan ứng dụng tin học",
+       "liên quan ứng dụng tin học"
+      ],
+      [
+       "thuộc lĩnh vực tin học",
+       "liên quan ứng dụng tin học"
+      ]
+     ],
+     "k": 3,
+     "e": "Lập trình viên: lĩnh vực tin học; nhà báo: liên quan ứng dụng tin học.",
+     "r": "SGK Tin học 8 KNTT – Bài 16"
+    },
+    {
+     "t": "f",
+     "q": "Câu trả lời của chatbot có thể ____ hoặc thiên vị, nên cần ____ với nguồn tin cậy.",
+     "a": [
+      [
+       "sai"
+      ],
+      [
+       "kiểm chứng"
+      ]
+     ],
+     "o": [
+      [
+       "đúng",
+       "sao chép"
+      ],
+      [
+       "sai",
+       "sao chép"
+      ],
+      [
+       "đúng",
+       "kiểm chứng"
+      ],
+      [
+       "sai",
+       "kiểm chứng"
+      ]
+     ],
+     "k": 3,
+     "e": "AI có thể sai/thiên vị; cần kiểm chứng.",
+     "r": "SGK Tin học 8 KNTT – Bài 16"
+    },
+    {
+     "t": "s",
+     "q": "Em muốn tìm cơ hội nghề nghiệp và cập nhật công nghệ số. Cách làm phù hợp nhất là gì?",
+     "o": [
+      "Chỉ hỏi bạn bè",
+      "Tìm trên trang thông tin, hướng nghiệp tin cậy và kiểm chứng",
+      "Tin mọi quảng cáo",
+      "Không cần tìm hiểu"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Cần tìm từ nguồn tin cậy và kiểm chứng (NLS 5.4.TC2.c).",
+     "r": "SGK Tin học 8 KNTT – Bài 16"
+    }
+   ],
+   "tuluan": [
+    {
+     "q": "Câu 1 (3 điểm). Nêu 5 lợi ích của việc ứng dụng tin học vào công việc và phân biệt hai nhóm nghề liên quan đến tin học, cho ví dụ.",
+     "a": [
+      "5 lợi ích: tăng tốc độ xử lí; liên lạc, trao đổi dễ dàng; làm việc nhóm, mở rộng phạm vi; nâng cao tay nghề; hỗ trợ thông tin cho người lao động.",
+      "Nghề thuộc lĩnh vực tin học: tạo ra, quản lí, vận hành sản phẩm tin học; ví dụ lập trình viên, quản trị mạng, thiết kế website.",
+      "Nghề liên quan ứng dụng tin học: dùng máy tính, phần mềm để làm việc hiệu quả; ví dụ bác sĩ, nhà báo, kiến trúc sư, bán hàng trực tuyến.",
+      "Tiêu chí phân biệt: tạo/vận hành sản phẩm tin học hay chỉ sử dụng."
+     ]
+    },
+    {
+     "q": "Câu 2 (4 điểm). Nêu mục tiêu bài \"Tin học với nghề nghiệp\" (Tin học 8) theo chương trình 2018 và thiết kế hoạt động Hình thành kiến thức về phân loại nghề.",
+     "a": [
+      "Mục tiêu: nêu được ví dụ nghề ứng dụng tin học làm tăng hiệu quả; nêu được tên một số nghề thuộc lĩnh vực tin học và liên quan ứng dụng; nhận thức được bình đẳng giới trong sử dụng máy tính và ứng dụng tin học.",
+      "Năng lực: tự chủ, tự học; giao tiếp, hợp tác; NLe; phẩm chất: tôn trọng bình đẳng giới.",
+      "Hoạt động: mục tiêu phân biệt 2 nhóm nghề; nội dung quan sát Hình 16.1, phân loại các nghề; sản phẩm phiếu học tập có hai cột.",
+      "Tổ chức 4 bước: giao nhiệm vụ (nhóm 4, phiếu) – thực hiện (thảo luận, điền phiếu) – báo cáo, nhận xét chéo – GV kết luận tiêu chí tạo/vận hành và dùng."
+     ]
+    },
+    {
+     "q": "Câu 3 (3 điểm). Khi cho HS dùng chatbot tìm hiểu nghề nghiệp, GV cần lưu ý gì? Nêu cách tổ chức để HS phát hiện thiên vị giới.",
+     "a": [
+      "Lưu ý: AI có thể sai, thiếu hoặc thiên vị; AI chỉ hỗ trợ, con người kiểm tra và quyết định.",
+      "Cho HS đặt câu lệnh (ví dụ mô tả một lập trình viên giỏi) và quan sát đại từ, hình ảnh mặc định.",
+      "Đối chiếu với SGK và nguồn tin cậy; thảo luận cặp, ghi chỗ sai/thiên vị.",
+      "Yêu cầu AI sửa theo cách trung lập; giáo dục HS tôn trọng bình đẳng giới, trung thực khi dùng AI."
+     ]
+    }
+   ]
+  }
+ ]
+}

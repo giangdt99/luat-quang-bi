@@ -1,0 +1,584 @@
+{
+ "id": "T8-B13",
+ "ten": "Bài 13. Biểu diễn dữ liệu",
+ "tomtat": [
+  "**Kiểu dữ liệu** được xác định bởi **tập các giá trị** và **các phép toán** thực hiện được trên các giá trị đó.",
+  "Scratch có **3 kiểu dữ liệu**: **số**, **xâu kí tự**, **lôgic**.",
+  "**Kiểu số** gồm số nguyên và số thực; phép toán: **cộng, trừ, nhân, chia, chia lấy dư, làm tròn**; kết quả là số.",
+  "**Phép so sánh** (>, <, =) trên số cho kết quả kiểu **lôgic** (true/false), không phải kiểu số.",
+  "**Kiểu xâu kí tự** là dãy các kí tự; phép toán **kết hợp** hai xâu cho kết quả là **xâu**.",
+  "**Kiểu lôgic** chỉ có hai giá trị **true (đúng)** và **false (sai)**; phép toán **và, hoặc, không phải**.",
+  "**Kiểu kết quả của biểu thức** do **phép toán cuối cùng** quyết định: kết hợp ra xâu, so sánh ra lôgic, chia lấy dư ra số.",
+  "**Hằng** là đại lượng có **giá trị không đổi** trong chương trình (ví dụ 360, 3,14).",
+  "**Biến** là đại lượng có **tên**, dùng lưu trữ giá trị và **giá trị có thể thay đổi** khi chạy (ví dụ n, r).",
+  "**Biểu thức** là sự kết hợp của **hằng, biến và các phép toán**, cho giá trị thuộc một kiểu (ví dụ 360 / n).",
+  "Dùng **biến** giúp chương trình xử lí nhiều giá trị mà **không phải sửa mã lệnh**; thực hành DuongDi.sb3: nhập n, vẽ đa giác đều n cạnh."
+ ],
+ "ynho": [
+  "Kiểu dữ liệu = tập giá trị + phép toán",
+  "Scratch: số, xâu kí tự, lôgic",
+  "Kết hợp cho xâu; so sánh cho lôgic",
+  "Hằng không đổi; biến thay đổi",
+  "Biểu thức = hằng + biến + phép toán"
+ ],
+ "bang": [
+  {
+   "tieu_de": "Ba kiểu dữ liệu trong Scratch",
+   "cot": [
+    "Kiểu",
+    "Giá trị",
+    "Phép toán",
+    "Kết quả"
+   ],
+   "dong": [
+    [
+     "Số",
+     "Số nguyên, số thực",
+     "+, –, ×, :, chia lấy dư, làm tròn",
+     "Số"
+    ],
+    [
+     "Số (so sánh)",
+     "Hai số",
+     "> , < , =",
+     "Lôgic"
+    ],
+    [
+     "Xâu kí tự",
+     "Dãy kí tự",
+     "Kết hợp",
+     "Xâu"
+    ],
+    [
+     "Lôgic",
+     "true, false",
+     "và, hoặc, không phải",
+     "Lôgic"
+    ]
+   ]
+  },
+  {
+   "tieu_de": "So sánh hằng – biến – biểu thức",
+   "cot": [
+    "Khái niệm",
+    "Đặc điểm",
+    "Ví dụ (đa giác đều)"
+   ],
+   "dong": [
+    [
+     "Hằng",
+     "Giá trị không đổi",
+     "360"
+    ],
+    [
+     "Biến",
+     "Có tên, giá trị thay đổi",
+     "n"
+    ],
+    [
+     "Biểu thức",
+     "Hằng + biến + phép toán",
+     "360 / n"
+    ]
+   ]
+  }
+ ],
+ "vidu": [
+  {
+   "tinh_huong": "Nhập vào bảng tính: C1 = 3 + 5; C2 = 3 & 5; C3 = 3 < 5. Kết quả mỗi ô?",
+   "ket_luan": "→ C1 = 8 (số); C2 = 35 (xâu); C3 = TRUE (lôgic): phép toán quyết định kiểu."
+  },
+  {
+   "tinh_huong": "Chương trình vẽ đa giác đều n cạnh: mỗi bước tiến rồi quay 360 / n độ. Với n = 6 và n = 3 góc quay bao nhiêu?",
+   "ket_luan": "→ n = 6: 360/6 = 60; n = 3: 360/3 = 120. n là biến, 360 là hằng, 360 / n là biểu thức."
+  },
+  {
+   "tinh_huong": "Cho r = 5, π = 3,14. Tính chu vi, diện tích; hiển thị \"Chu vi đường tròn là\" kết hợp chu vi.",
+   "ket_luan": "→ Chu vi = 31,4; diện tích = 78,5 (số); câu hiển thị \"Chu vi đường tròn là31,4\" (xâu, thiếu khoảng trắng)."
+  },
+  {
+   "tinh_huong": "Biểu thức (n chia lấy dư 2) = 0 với n = 10 và n = 7 cho kết quả gì?",
+   "ket_luan": "→ n = 10: dư 0 nên true; n = 7: dư 1 nên false. Kiểu lôgic, dùng kiểm tra số chẵn."
+  }
+ ],
+ "nho": [
+  "**3 kiểu: S – X – L** (Số, Xâu, Lôgic).",
+  "**Kết hợp → Xâu; So sánh → Lôgic**.",
+  "**Hằng = Hằng số, không đổi; Biến = Biến đổi**.",
+  "Biểu thức = **H + B + P** (hằng, biến, phép toán)."
+ ],
+ "bay": [
+  "Kết hợp 3 và 5 ra \"35\" (xâu), không phải 8.",
+  "Phép so sánh trên số cho kết quả lôgic, không phải số.",
+  "Nhầm hằng và biến: chu vi, diện tích thay đổi theo r nên là biến.",
+  "Phép kết hợp không tự thêm khoảng trắng: \"là31,4\"."
+ ],
+ "giaoan": [
+  "**Mục tiêu** – Kiến thức: nêu khái niệm kiểu dữ liệu, 3 kiểu số, xâu, lôgic, phép toán và kiểu kết quả; phân biệt hằng, biến, biểu thức; Năng lực: tự chủ tự học, giao tiếp hợp tác, NLc lựa chọn cách biểu diễn dữ liệu, NLa thao tác Scratch, NLS 3.4.TC2.a, NLAI 8.A1.2; Phẩm chất: cẩn thận, chính xác, trung thực khi dùng AI.",
+  "**Chuẩn bị** – GV: kế hoạch bài dạy, máy tính cài Scratch, máy chiếu, bảng tính Hình 13.2, phiếu học tập, thẻ A–B–C, chatbot AI; HS: SGK, vở, tệp VeHinh.sb3, ôn kiểu dữ liệu bảng tính.",
+  "**Hoạt động 1 – Mở đầu** (5 phút) – Mục tiêu: gợi nhớ kiểu dữ liệu ở bảng tính; Nội dung: câu hỏi mở đầu tr.76; Sản phẩm: kiểu số, văn bản, ngày tháng; Tổ chức: GV chiếu câu hỏi, HS Think–Pair–Share, báo cáo, GV nhận xét và dẫn vào bài.",
+  "**Hoạt động 2 – Hình thành kiến thức** (55 phút) – Mục tiêu: nêu kiểu dữ liệu, hằng, biến, biểu thức, tạo biến, xây dựng biểu thức; Nội dung: Hình 13.2, Bảng 13.1, 13.2, mục 2, thực hành DuongDi.sb3; Sản phẩm: bảng ba kiểu, bảng hằng – biến – biểu thức, chương trình chạy đúng; Tổ chức: giao nhiệm vụ (mảnh ghép, làm mẫu), HS thực hiện, báo cáo n = 3, 6, GV kết luận.",
+  "**Hoạt động 3 – Luyện tập** (20 phút) – Mục tiêu: xác định kiểu và giá trị biểu thức; Nội dung: giơ thẻ A–B–C, Luyện tập 1, 2 tr.79; Sản phẩm: LT1 true, 31,4, xâu; LT2 chu vi 31,4, diện tích 78,5; Tổ chức: giao bài, HS làm cá nhân hoặc cặp, giải thích, GV nhận xét.",
+  "**Hoạt động 4 – Vận dụng** (10 phút) – Mục tiêu: vận dụng biến, biểu thức; kiểm chứng AI; Nội dung: hỏi chatbot về hằng và phép kết hợp 3 và 5, đối chiếu SGK; giao Vận dụng tr.79; Sản phẩm: chỗ sai của chatbot được sửa, cách dùng AI an toàn; Tổ chức: GV nêu câu lệnh, HS cặp đôi kiểm chứng, báo cáo, GV chốt.",
+  "**Kiểm tra đánh giá** – Quan sát thực hành, kiểm tra chương trình chạy đúng n = 3, 6; thẻ A–B–C; phiếu bài tập; đánh giá đồng đẳng; củng cố, dặn học Ghi nhớ và đọc trước Bài 14."
+ ],
+ "ai": [
+  "GV dùng chatbot hỏi \"Hằng là gì? Kết hợp 3 và 5 cho kết quả gì?\" để HS tìm lỗi sai, đối chiếu Bảng 13.2 SGK hoặc chạy thử trong Scratch.",
+  "HS kiểm chứng đầu ra AI bằng SGK, chạy thử; không chép nguyên câu trả lời, ghi rõ khi có dùng AI (8.A1.2).",
+  "Đạo đức AI: AI có thể sai nhưng nghe thuyết phục; người dùng tự chịu trách nhiệm về kết quả."
+ ],
+ "cauhoi": [
+  {
+   "t": "s",
+   "q": "Kiểu dữ liệu được xác định bởi những yếu tố nào?",
+   "o": [
+    "Tập các giá trị và các phép toán có thể thực hiện trên các giá trị đó",
+    "Chỉ tập các giá trị",
+    "Chỉ tên biến và màu khối lệnh",
+    "Dung lượng bộ nhớ và tốc độ máy tính"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Kiểu dữ liệu = tập giá trị + phép toán. Bẫy: chỉ nêu giá trị mà thiếu phép toán.",
+   "r": "SGK Tin học 8 KNTT – Bài 13"
+  },
+  {
+   "t": "s",
+   "q": "Trong Scratch, các kiểu dữ liệu cơ bản gồm:",
+   "o": [
+    "Số, hình ảnh, âm thanh",
+    "Số, xâu kí tự, ngày tháng",
+    "Số, xâu kí tự, lôgic",
+    "Văn bản, bảng, lôgic"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Scratch có 3 kiểu: số, xâu kí tự, lôgic. Ngày tháng là kiểu của bảng tính, không phải của Scratch.",
+   "r": "SGK Tin học 8 KNTT – Bài 13"
+  },
+  {
+   "t": "s",
+   "q": "Phép kết hợp 3 và 5 trong Scratch cho kết quả là gì?",
+   "o": [
+    "Số 8",
+    "Xâu kí tự \"35\"",
+    "Số 15",
+    "Giá trị lôgic true"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Phép kết hợp luôn cho xâu, nên được \"35\" chứ không phải 3 + 5 = 8.",
+   "r": "SGK Tin học 8 KNTT – Bài 13"
+  },
+  {
+   "t": "s",
+   "q": "Kết quả của phép so sánh 5 > 3 thuộc kiểu dữ liệu nào?",
+   "o": [
+    "Số",
+    "Xâu kí tự",
+    "Không xác định được",
+    "Lôgic"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Phép so sánh cho kết quả lôgic (true/false), dù hai toán hạng là số.",
+   "r": "SGK Tin học 8 KNTT – Bài 13"
+  },
+  {
+   "t": "s",
+   "q": "Phép toán nào sau đây cho kết quả là giá trị lôgic?",
+   "o": [
+    "n chia lấy dư 2",
+    "(n chia lấy dư 2) = 0",
+    "kết hợp n và 2",
+    "làm tròn n"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Chia lấy dư cho số, kết hợp cho xâu, làm tròn cho số; chỉ phép so sánh (= 0) cho lôgic. Bẫy: thiếu vế so sánh.",
+   "r": "SGK Tin học 8 KNTT – Bài 13"
+  },
+  {
+   "t": "s",
+   "q": "Giá trị của biểu thức 17 chia lấy dư 5 là:",
+   "o": [
+    "3",
+    "3,4",
+    "2",
+    "12"
+   ],
+   "a": [
+    2
+   ],
+   "e": "17 = 3×5 + 2 nên số dư là 2. Bẫy: nhầm với thương 3.",
+   "r": "SGK Tin học 8 KNTT – Bài 13"
+  },
+  {
+   "t": "s",
+   "q": "Hằng khác biến ở điểm nào?",
+   "o": [
+    "Hằng có giá trị không đổi trong chương trình, biến có thể thay đổi giá trị",
+    "Hằng có tên, biến không có tên",
+    "Hằng chỉ chứa xâu, biến chỉ chứa số",
+    "Hằng thay đổi khi chương trình chạy, biến thì không"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Bẫy: đảo ngược định nghĩa hằng và biến.",
+   "r": "SGK Tin học 8 KNTT – Bài 13"
+  },
+  {
+   "t": "s",
+   "q": "Biểu thức nào sau đây là biểu thức của chương trình vẽ đa giác đều n cạnh (quay góc ngoài)?",
+   "o": [
+    "n",
+    "360",
+    "\"360\"",
+    "360 / n"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Biểu thức gồm hằng 360, biến n và phép chia. Chỉ n hoặc 360 là biến hoặc hằng đơn lẻ.",
+   "r": "SGK Tin học 8 KNTT – Bài 13"
+  },
+  {
+   "t": "s",
+   "q": "Với r = 5 và số π lấy 3,14, giá trị của biểu thức 3,14 × r × r là:",
+   "o": [
+    "31,4",
+    "78,5",
+    "15,7",
+    "25"
+   ],
+   "a": [
+    1
+   ],
+   "e": "3,14 × 25 = 78,5. 31,4 là chu vi 2 × 3,14 × 5. Bẫy: nhầm công thức chu vi và diện tích.",
+   "r": "SGK Tin học 8 KNTT – Bài 13"
+  },
+  {
+   "t": "s",
+   "q": "Khi cần chương trình xử lí được nhiều giá trị n khác nhau mà không sửa mã lệnh, ta nên dùng:",
+   "o": [
+    "Hằng",
+    "Xâu kí tự cố định",
+    "Biến",
+    "Phép kết hợp"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Biến cho phép đổi giá trị khi chạy; hằng thì cố định.",
+   "r": "SGK Tin học 8 KNTT – Bài 13"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các phát biểu ĐÚNG về kiểu dữ liệu trong Scratch:",
+   "o": [
+    "Kiểu số gồm số nguyên và số thực",
+    "Phép kết hợp cho kết quả là số",
+    "Kiểu lôgic chỉ có hai giá trị true và false",
+    "Phép so sánh cho kết quả lôgic"
+   ],
+   "a": [
+    0,
+    2,
+    3
+   ],
+   "e": "Phép kết hợp cho xâu kí tự, không phải số.",
+   "r": "SGK Tin học 8 KNTT – Bài 13"
+  },
+  {
+   "t": "m",
+   "q": "Những phép toán nào có kết quả thuộc kiểu số?",
+   "o": [
+    "Chia lấy dư",
+    "Làm tròn",
+    "Kết hợp hai xâu",
+    "Phép nhân"
+   ],
+   "a": [
+    0,
+    1,
+    3
+   ],
+   "e": "Kết hợp cho kết quả xâu.",
+   "r": "SGK Tin học 8 KNTT – Bài 13"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các phép toán thuộc kiểu lôgic:",
+   "o": [
+    "và",
+    "hoặc",
+    "không phải",
+    "chia lấy dư"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Chia lấy dư thuộc kiểu số.",
+   "r": "SGK Tin học 8 KNTT – Bài 13"
+  },
+  {
+   "t": "m",
+   "q": "Trong chương trình tính chu vi, diện tích hình tròn, đâu là thành phần ĐÚNG?",
+   "o": [
+    "r là biến",
+    "3,14 là hằng",
+    "2 × 3,14 × r là biểu thức",
+    "Chu vi là hằng vì không nhập từ bàn phím"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Chu vi thay đổi theo r nên lưu trong biến, không phải hằng.",
+   "r": "SGK Tin học 8 KNTT – Bài 13"
+  },
+  {
+   "t": "f",
+   "q": "Kiểu dữ liệu được xác định bởi tập ____ và các ____ thực hiện trên chúng.",
+   "a": [
+    [
+     "giá trị"
+    ],
+    [
+     "phép toán"
+    ]
+   ],
+   "o": [
+    [
+     "giá trị",
+     "phép toán"
+    ],
+    [
+     "biến",
+     "hằng"
+    ],
+    [
+     "phép toán",
+     "giá trị"
+    ],
+    [
+     "kí tự",
+     "biểu thức"
+    ]
+   ],
+   "k": 0,
+   "e": "Kiểu dữ liệu = tập giá trị + phép toán.",
+   "r": "SGK Tin học 8 KNTT – Bài 13"
+  },
+  {
+   "t": "f",
+   "q": "Kết hợp hai số 3 và 5 trong Scratch cho kết quả thuộc kiểu ____; phép so sánh cho kết quả kiểu ____.",
+   "a": [
+    [
+     "xâu kí tự",
+     "xâu"
+    ],
+    [
+     "lôgic"
+    ]
+   ],
+   "o": [
+    [
+     "số",
+     "xâu kí tự"
+    ],
+    [
+     "lôgic",
+     "số"
+    ],
+    [
+     "xâu kí tự",
+     "số"
+    ],
+    [
+     "xâu kí tự",
+     "lôgic"
+    ]
+   ],
+   "k": 3,
+   "e": "Kết hợp cho xâu, so sánh cho lôgic. Bẫy: đảo thứ tự hai kiểu.",
+   "r": "SGK Tin học 8 KNTT – Bài 13"
+  },
+  {
+   "t": "f",
+   "q": "Giá trị không thay đổi khi chương trình chạy gọi là ____, còn giá trị có thể thay đổi và có tên gọi là ____.",
+   "a": [
+    [
+     "hằng"
+    ],
+    [
+     "biến"
+    ]
+   ],
+   "o": [
+    [
+     "biến",
+     "hằng"
+    ],
+    [
+     "biểu thức",
+     "biến"
+    ],
+    [
+     "hằng",
+     "biểu thức"
+    ],
+    [
+     "hằng",
+     "biến"
+    ]
+   ],
+   "k": 3,
+   "e": "Hằng không đổi, biến thay đổi.",
+   "r": "SGK Tin học 8 KNTT – Bài 13"
+  },
+  {
+   "t": "f",
+   "q": "Biểu thức là sự kết hợp của ____, ____ và các phép toán.",
+   "a": [
+    [
+     "hằng"
+    ],
+    [
+     "biến"
+    ]
+   ],
+   "o": [
+    [
+     "xâu",
+     "kiểu"
+    ],
+    [
+     "hằng",
+     "biến"
+    ],
+    [
+     "lệnh",
+     "khối"
+    ],
+    [
+     "tên",
+     "nhãn"
+    ]
+   ],
+   "k": 1,
+   "e": "Biểu thức gồm hằng, biến, phép toán và cho giá trị thuộc một kiểu.",
+   "r": "SGK Tin học 8 KNTT – Bài 13"
+  },
+  {
+   "t": "f",
+   "q": "Kiểu lôgic chỉ có hai giá trị là ____ và ____.",
+   "a": [
+    [
+     "true",
+     "đúng"
+    ],
+    [
+     "false",
+     "sai"
+    ]
+   ],
+   "o": [
+    [
+     "0",
+     "1"
+    ],
+    [
+     "true",
+     "false"
+    ],
+    [
+     "số",
+     "xâu"
+    ],
+    [
+     "có",
+     "không biết"
+    ]
+   ],
+   "k": 1,
+   "e": "Lôgic: true/false.",
+   "r": "SGK Tin học 8 KNTT – Bài 13"
+  },
+  {
+   "t": "f",
+   "q": "Giá trị của 10 chia lấy dư 2 bằng ____ nên biểu thức (10 chia lấy dư 2) = 0 có giá trị ____.",
+   "a": [
+    [
+     "0"
+    ],
+    [
+     "true",
+     "đúng"
+    ]
+   ],
+   "o": [
+    [
+     "5",
+     "true"
+    ],
+    [
+     "0",
+     "false"
+    ],
+    [
+     "2",
+     "false"
+    ],
+    [
+     "0",
+     "true"
+    ]
+   ],
+   "k": 3,
+   "e": "10 = 5×2 + 0, dư 0, nên so sánh = 0 đúng (true).",
+   "r": "SGK Tin học 8 KNTT – Bài 13"
+  }
+ ],
+ "tuluan": [
+  {
+   "q": "Câu 1 (3 điểm). Trình bày khái niệm kiểu dữ liệu, các kiểu dữ liệu và phép toán tương ứng trong Scratch. Cho biết kiểu và giá trị của: kết hợp \"Xin\" và \"chào\"; 17 chia lấy dư 5; 5 > 3.",
+   "a": [
+    "Kiểu dữ liệu: xác định bởi tập giá trị và các phép toán thực hiện được trên các giá trị đó.",
+    "Số: số nguyên, số thực; phép +, –, ×, :, chia lấy dư, làm tròn; phép so sánh (>, <, =) cho kết quả lôgic.",
+    "Xâu kí tự: dãy kí tự; phép kết hợp cho kết quả xâu.",
+    "Lôgic: true/false; phép và, hoặc, không phải.",
+    "Kết hợp \"Xin\" và \"chào\" = \"Xinchào\" (xâu, không có khoảng trắng); 17 chia lấy dư 5 = 2 (số); 5 > 3 = true (lôgic)."
+   ]
+  },
+  {
+   "q": "Câu 2 (3 điểm). Nêu mục tiêu bài \"Biểu diễn dữ liệu\" (Tin học 8, KNTT) theo chương trình 2018 và thiết kế hoạt động tạo biến, xây dựng biểu thức cho chương trình vẽ đa giác đều n cạnh.",
+   "a": [
+    "Kiến thức: nêu khái niệm kiểu dữ liệu, 3 kiểu số, xâu, lôgic; phân biệt hằng, biến, biểu thức.",
+    "Năng lực: tự chủ, tự học, giao tiếp hợp tác; NLc lựa chọn cách biểu diễn dữ liệu; NLa thao tác Scratch; tạo biến, đặt giá trị, xây dựng biểu thức.",
+    "Phẩm chất: cẩn thận, chính xác, trung thực.",
+    "Hoạt động: mục tiêu – tạo chương trình DuongDi.sb3 chạy đúng với n = 3 và n = 6; nội dung – tạo biến n, số bước, góc quay; sản phẩm – chương trình chạy đúng.",
+    "Tổ chức 4 bước: giao nhiệm vụ và làm mẫu bước 1–2; HS thực hành theo cặp, GV hỗ trợ (kéo biến vào biểu thức 360 / n); báo cáo, trình diễn; GV nhận xét, chốt: biến cho phép xử lí nhiều giá trị n."
+   ]
+  },
+  {
+   "q": "Câu 3 (4 điểm). Với r = 5 và π lấy 3,14, xác định giá trị, kiểu của biểu thức chu vi, diện tích hình tròn và kết quả hiển thị câu \"Chu vi đường tròn là\" kết hợp với chu vi. Nêu cách tích hợp AI kiểm chứng đầu ra chatbot khi dạy nội dung này.",
+   "a": [
+    "Chu vi 2 × 3,14 × 5 = 31,4 (số); diện tích 3,14 × 5 × 5 = 78,5 (số).",
+    "Kết hợp \"Chu vi đường tròn là\" và 31,4 cho xâu \"Chu vi đường tròn là31,4\" (kiểu xâu); muốn có khoảng trắng phải thêm \" \" vào phép kết hợp.",
+    "Biến: r, chu vi, diện tích; hằng: 3,14 và 2.",
+    "Tích hợp AI: GV hỏi chatbot \"Hằng là gì? Kết hợp 3 và 5 cho kết quả gì?\"; HS đối chiếu Bảng 13.2, mục 2 SGK hoặc chạy thử khối kết hợp để phát hiện nếu chatbot trả lời 8 thay vì \"35\".",
+    "Rút ra: AI có thể sai nhưng nghe thuyết phục; cần kiểm chứng bằng SGK hoặc chạy thử, ghi rõ khi dùng AI và tự chịu trách nhiệm (8.A1.2)."
+   ]
+  }
+ ]
+}

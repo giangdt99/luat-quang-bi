@@ -1,0 +1,571 @@
+{
+ "id": "T8-B15",
+ "ten": "Bài 15. Gỡ lỗi",
+ "tomtat": [
+  "**Kiểm thử** là **chạy thử** chương trình để phát hiện tình huống bất thường, tức là **lỗi**.",
+  "**Gỡ lỗi** là quá trình tìm nguyên nhân gây lỗi và sửa lỗi, sau đó kiểm tra lại.",
+  "Có hai loại lỗi: **lỗi cú pháp** và **lỗi lôgic**.",
+  "**Lỗi cú pháp**: vi phạm quy tắc viết lệnh (ví dụ khối lệnh thiếu ô giá trị), chương trình **không chạy được** hoặc báo lỗi.",
+  "**Lỗi lôgic**: chương trình đúng quy tắc, vẫn chạy nhưng **kết quả sai kịch bản**; loại lỗi này **khó phát hiện** hơn.",
+  "Hai cách phát hiện lỗi lôgic: (1) **phân tích lôgic** các khối lệnh liên quan; (2) **chạy từng bước**, theo dõi **giá trị biến** (hiện biến, dùng lệnh 'đợi … giây').",
+  "Ví dụ Đoán số (Hình 15.1): đoán đúng sau 4 lần nhưng máy báo 3, vì **lần đoán đầu không được tính**; sửa bằng cách thêm lệnh tăng biến hoặc đặt giá trị ban đầu bằng 1.",
+  "Ví dụ chẵn/lẻ (Hình 15.3): nhập n = 4 nhưng báo 'lẻ' do **hai khối nói đặt ngược**; sửa bằng cách đổi chỗ hai khối.",
+  "Thực hành Đoán số (Hình 15.4): sửa các lệnh (6), (11), (14) để đoán tối đa 7 lần và hiển thị đúng.",
+  "**Quy trình gỡ lỗi**: chạy thử → so với kịch bản → tìm lệnh gây lỗi → sửa → **chạy thử lại**.",
+  "Một lỗi có thể có **nhiều cách sửa**; bộ ca kiểm thử tốt gồm **ca thường, ca biên, ca lỗi**."
+ ],
+ "ynho": [
+  "Kiểm thử = chạy thử để phát hiện lỗi",
+  "Lỗi cú pháp: không chạy; lỗi lôgic: chạy nhưng sai",
+  "Phát hiện lỗi lôgic: phân tích lôgic hoặc chạy từng bước",
+  "Sửa xong phải chạy thử lại",
+  "AI chỉ gợi ý: phải kiểm chứng và khai báo"
+ ],
+ "bang": [
+  {
+   "tieu_de": "So sánh lỗi cú pháp và lỗi lôgic",
+   "cot": [
+    "Tiêu chí",
+    "Lỗi cú pháp",
+    "Lỗi lôgic"
+   ],
+   "dong": [
+    [
+     "Bản chất",
+     "Sai quy tắc viết lệnh",
+     "Đúng quy tắc nhưng sai kịch bản"
+    ],
+    [
+     "Chương trình",
+     "Không chạy / báo lỗi",
+     "Vẫn chạy"
+    ],
+    [
+     "Phát hiện",
+     "Dễ",
+     "Khó, cần kiểm thử"
+    ],
+    [
+     "Ví dụ",
+     "Khối 'nói' thiếu ô giá trị",
+     "Chu vi dùng phép nhân; lặp 50 thay vì 5"
+    ]
+   ]
+  },
+  {
+   "tieu_de": "Ví dụ bảng ca kiểm thử chương trình Đoán số (tối đa 7 lần)",
+   "cot": [
+    "Loại ca",
+    "Tình huống",
+    "Kết quả mong đợi"
+   ],
+   "dong": [
+    [
+     "Thường",
+     "Đoán đúng ngay lần 1",
+     "Báo thắng, số lần = 1"
+    ],
+    [
+     "Biên",
+     "Đoán đúng ở lần thứ 7",
+     "Báo thắng"
+    ],
+    [
+     "Biên",
+     "Sai cả 7 lần",
+     "Báo thua, dừng"
+    ],
+    [
+     "Lỗi",
+     "Nhập số ngoài khoảng cho phép",
+     "Thông báo hoặc xử lí hợp lí"
+    ]
+   ]
+  }
+ ],
+ "vidu": [
+  {
+   "tinh_huong": "Đoán số: người chơi đoán đúng ở lần thứ 4 nhưng máy báo 'Số lần đoán: 3'. Chương trình có lỗi không?",
+   "ket_luan": "→ Có, lỗi lôgic (lần đầu không được đếm). Sửa: thêm lệnh tăng biến hoặc đặt giá trị ban đầu = 1."
+  },
+  {
+   "tinh_huong": "Chương trình chẵn/lẻ: nhập n = 4 máy nói 'n là số lẻ'; nhập n = 7 máy nói 'n là số chẵn'.",
+   "ket_luan": "→ Hai khối nói đặt ngược; đổi chỗ rồi chạy thử lại với n = 4, 7."
+  },
+  {
+   "tinh_huong": "Phân loại: (a) khối 'nói' thiếu ô giá trị; (b) tính chu vi hình chữ nhật bằng phép nhân; (c) lặp 50 lần thay vì 5.",
+   "ket_luan": "→ (a) lỗi cú pháp; (b), (c) lỗi lôgic."
+  },
+  {
+   "tinh_huong": "Máy cần tìm số trong khoảng 1–120, mỗi lần luôn đoán số ở giữa khoảng còn lại. Cần tối đa bao nhiêu lần?",
+   "ket_luan": "→ 7 lần, vì 2^6 = 64 < 120 ≤ 128 = 2^7."
+  }
+ ],
+ "nho": [
+  "'Cú pháp thì dừng, lôgic thì chạy sai'",
+  "Quy trình 5 bước: Chạy – So – Tìm – Sửa – Chạy lại",
+  "Ca kiểm thử nhớ 'Thường – Biên – Lỗi'"
+ ],
+ "bay": [
+  "Lỗi lôgic KHÔNG làm chương trình ngừng chạy; chạy được vẫn có thể sai.",
+  "Quên chạy thử lại sau khi sửa, hoặc chỉ thử một ca.",
+  "Nhầm thứ tự hai loại lỗi (cú pháp – lôgic) trong câu điền khuyết.",
+  "Một lỗi có thể có nhiều cách sửa, không phải chỉ một đáp án."
+ ],
+ "giaoan": [
+  "**Mục tiêu** – Kiến thức: nêu được kiểm thử là chạy thử để phát hiện lỗi; phân biệt lỗi cú pháp và lôgic; nêu hai cách phát hiện lỗi lôgic; sửa được chương trình chẵn/lẻ, Đoán số; Năng lực: tự chủ và tự học, giao tiếp hợp tác, NLc (chạy thử, tìm và sửa lỗi), NLS 5.1.TC2; Phẩm chất: kiên trì, trung thực, cẩn thận.",
+  "**Chuẩn bị** – GV: kế hoạch bài dạy, máy tính cài Scratch, máy chiếu, chương trình Hình 15.1, 15.3, 15.4, phiếu học tập, chatbot AI; HS: SGK, vở, máy tính (mỗi cặp một máy).",
+  "**Hoạt động 1 – Mở đầu** (5 phút) – Mục tiêu: tạo nhu cầu tìm hiểu; Nội dung: GV chạy thử Đoán số, đoán đúng sau 4 lần nhưng máy báo 3; Sản phẩm: chương trình chạy nhưng không đúng kịch bản; Tổ chức: GV giao nhiệm vụ, HS nghĩ cá nhân – chia sẻ cặp đôi, báo cáo, GV chốt dẫn vào bài.",
+  "**Hoạt động 2 – Hình thành kiến thức** (50 phút) – Mục tiêu: nêu kiểm thử, hai loại lỗi, hai cách phát hiện lỗi lôgic, gỡ lỗi chẵn/lẻ và Đoán số; Nội dung: đọc SGK, Hoạt động 3, chẵn/lẻ, thực hành Hình 15.4; Sản phẩm: phiếu học tập, chương trình đã sửa; Tổ chức: giao nhiệm vụ – thực hiện (cặp đôi, đổi vai thao tác/quan sát) – báo cáo – kết luận (quy trình gỡ lỗi).",
+  "**Hoạt động 3 – Luyện tập** (15 phút) – Mục tiêu: sửa theo cách khác, phân loại lỗi, lập ca kiểm thử; Nội dung: Luyện tập tr.90; Sản phẩm: cách sửa đặt giá trị ban đầu = 1, bảng 4 ca kiểm thử; Tổ chức: giao – thực hiện (Think–Pair–Share, thẻ A/B) – báo cáo – nhận xét.",
+  "**Hoạt động 4 – Vận dụng** (20 phút) – Mục tiêu: kiểm chứng gợi ý của chatbot, khai báo dùng AI, nêu ý tưởng chia đôi khoảng tìm kiếm; Nội dung: hỏi chatbot cách sửa Hình 15.4, đối chiếu bằng ca kiểm thử, Vận dụng tr.90; Sản phẩm: nhận định sai được chỉ ra, câu khai báo; Tổ chức: giao – thực hiện – báo cáo – chốt.",
+  "**Kiểm tra đánh giá** – Quan sát thao tác chạy thử và gỡ lỗi; phiếu học tập, bảng ca kiểm thử; câu hỏi nhanh (thẻ A/B); đánh giá sản phẩm bằng tiêu chí: xác định đúng loại lỗi, sửa đúng, có chạy thử lại."
+ ],
+ "ai": [
+  "GV dùng chatbot để gợi ý cách sửa Hình 15.4, rồi chiếu các nhận định cho HS đánh giá đúng/sai.",
+  "HS kiểm chứng đầu ra của AI bằng ca kiểm thử (ví dụ sai 7 lần) trước khi tin dùng; chatbot có thể trả lời tự tin nhưng sai.",
+  "Đạo đức AI: khai báo việc dùng AI, tự chịu trách nhiệm kết quả (8.A1.2, 8.A3.3)."
+ ],
+ "cauhoi": [
+  {
+   "t": "s",
+   "q": "Kiểm thử chương trình là gì?",
+   "o": [
+    "Chạy thử chương trình để phát hiện lỗi hoặc tình huống bất thường",
+    "Viết lại toàn bộ chương trình bằng ngôn ngữ khác",
+    "Xoá các lệnh không dùng đến",
+    "Dịch chương trình sang mã máy"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Kiểm thử = chạy thử để phát hiện lỗi. Bẫy: nhầm với dịch chương trình.",
+   "r": "SGK Tin học 8 KNTT – Bài 15"
+  },
+  {
+   "t": "s",
+   "q": "Chương trình chạy bình thường nhưng cho kết quả sai so với kịch bản. Đây là lỗi gì?",
+   "o": [
+    "Lỗi cú pháp",
+    "Lỗi lôgic",
+    "Lỗi phần cứng",
+    "Lỗi đường truyền"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Đúng quy tắc nhưng sai kịch bản là lỗi lôgic. Bẫy: nhầm 'có lỗi' với 'không chạy được'.",
+   "r": "SGK Tin học 8 KNTT – Bài 15"
+  },
+  {
+   "t": "s",
+   "q": "Đặc điểm nào đúng với lỗi cú pháp?",
+   "o": [
+    "Chương trình vẫn chạy nhưng kết quả sai",
+    "Chỉ phát hiện được khi đã nộp bài",
+    "Vi phạm quy tắc viết lệnh nên chương trình không chạy được",
+    "Luôn do người dùng nhập sai dữ liệu"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Lỗi cú pháp: sai quy tắc, chương trình không chạy; phương án A là của lỗi lôgic.",
+   "r": "SGK Tin học 8 KNTT – Bài 15"
+  },
+  {
+   "t": "s",
+   "q": "Lỗi nào thường KHÓ phát hiện hơn?",
+   "o": [
+    "Lỗi cú pháp",
+    "Hai loại như nhau",
+    "Lỗi gõ sai chính tả tên lệnh",
+    "Lỗi lôgic"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Lỗi lôgic khó phát hiện vì chương trình vẫn chạy bình thường.",
+   "r": "SGK Tin học 8 KNTT – Bài 15"
+  },
+  {
+   "t": "s",
+   "q": "Trong chương trình Đoán số, bạn đoán đúng sau 4 lần nhưng máy báo 'Số lần đoán: 3'. Nguyên nhân hợp lí nhất là",
+   "o": [
+    "Máy bị hỏng",
+    "Số bí mật sai",
+    "Lần đoán đầu tiên không được tính vào biến đếm",
+    "Dùng sai màu nền sân khấu"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Thiếu 1 vì lần đoán đầu không được tính; đây là lỗi lôgic.",
+   "r": "SGK Tin học 8 KNTT – Bài 15"
+  },
+  {
+   "t": "s",
+   "q": "Cách sửa lỗi 'báo thiếu 1 lần đoán' trong Hình 15.1 là",
+   "o": [
+    "Xoá lệnh tạo số bí mật",
+    "Đổi số bí mật thành 0",
+    "Thêm lệnh lặp mãi mãi",
+    "Thêm lệnh 'thay đổi số lần đoán một lượng 1' cho lần đoán đầu"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Cần cộng thêm cho lần đầu. Cách khác: đặt giá trị ban đầu của biến bằng 1 (một lỗi có nhiều cách sửa).",
+   "r": "SGK Tin học 8 KNTT – Bài 15"
+  },
+  {
+   "t": "s",
+   "q": "Chương trình chẵn/lẻ nhập n = 4 nhưng báo 'số lẻ'. Cách sửa phù hợp là",
+   "o": [
+    "Đổi chỗ hai khối lệnh nói (chẵn/lẻ) cho đúng điều kiện",
+    "Đổi n thành 5",
+    "Xoá khối nhập n",
+    "Thêm khối đợi 10 giây"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Hai khối nói đặt ngược; sửa rồi phải chạy thử lại.",
+   "r": "SGK Tin học 8 KNTT – Bài 15"
+  },
+  {
+   "t": "s",
+   "q": "Bước cuối cùng, không được bỏ qua trong quy trình gỡ lỗi là",
+   "o": [
+    "Xoá chương trình cũ",
+    "Chạy thử lại để kiểm tra đã hết lỗi",
+    "In chương trình ra giấy",
+    "Đổi tên biến"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Sửa xong phải chạy thử lại; bẫy: tưởng sửa xong là xong.",
+   "r": "SGK Tin học 8 KNTT – Bài 15"
+  },
+  {
+   "t": "s",
+   "q": "Lệnh 'đợi … giây' và hiển thị giá trị biến giúp gì khi gỡ lỗi?",
+   "o": [
+    "Làm chương trình chạy nhanh hơn",
+    "Tự động sửa lỗi",
+    "Tránh lỗi cú pháp",
+    "Quan sát từng bước và theo dõi giá trị biến để tìm chỗ sai"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Đây là công cụ hỗ trợ cách 2: chạy từng bước, theo dõi biến.",
+   "r": "SGK Tin học 8 KNTT – Bài 15"
+  },
+  {
+   "t": "s",
+   "q": "Một ca kiểm thử tốt cho Đoán số 'tối đa 7 lần' nên có",
+   "o": [
+    "Chỉ ca đoán đúng lần 1",
+    "Chỉ ca nhập 0",
+    "Ca thường, ca biên (đúng ở lần 7, sai cả 7 lần) và ca lỗi (nhập ngoài khoảng)",
+    "Chỉ một ca bất kì"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Kiểm thử tốt gồm ca thường, biên, lỗi. Bẫy: chỉ thử một ca.",
+   "r": "SGK Tin học 8 KNTT – Bài 15"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các phát biểu ĐÚNG về lỗi chương trình",
+   "o": [
+    "Lỗi lôgic: chương trình chạy nhưng sai kịch bản",
+    "Lỗi cú pháp: chương trình không chạy được",
+    "Lỗi lôgic luôn làm chương trình dừng ngay",
+    "Chương trình chạy được thì chắc chắn không có lỗi"
+   ],
+   "a": [
+    0,
+    1
+   ],
+   "e": "C và D sai: lỗi lôgic không làm dừng; chạy được vẫn có thể sai.",
+   "r": "SGK Tin học 8 KNTT – Bài 15"
+  },
+  {
+   "t": "m",
+   "q": "Các cách phát hiện lỗi lôgic nêu trong bài là",
+   "o": [
+    "Phân tích lôgic các khối lệnh liên quan",
+    "Chạy từng bước và theo dõi giá trị biến",
+    "Khởi động lại máy tính",
+    "Đổi tên chương trình"
+   ],
+   "a": [
+    0,
+    1
+   ],
+   "e": "Bài nêu đúng hai cách; C, D không liên quan.",
+   "r": "SGK Tin học 8 KNTT – Bài 15"
+  },
+  {
+   "t": "m",
+   "q": "Tình huống nào dưới đây là lỗi lôgic?",
+   "o": [
+    "Tính chu vi hình chữ nhật nhưng dùng phép nhân thay vì phép cộng",
+    "Vòng lặp 'lặp 50 lần' trong khi cần lặp 5 lần",
+    "Khối lệnh 'nói' thiếu ô giá trị",
+    "Viết sai tên khối lệnh nên chương trình không chạy"
+   ],
+   "a": [
+    0,
+    1
+   ],
+   "e": "A, B chạy được nhưng sai kết quả = lôgic; C, D là lỗi cú pháp.",
+   "r": "SGK Tin học 8 KNTT – Bài 15"
+  },
+  {
+   "t": "m",
+   "q": "Khi dùng chatbot AI để tìm cách sửa lỗi chương trình, việc nào NÊN làm?",
+   "o": [
+    "Tự chạy các ca kiểm thử để kiểm chứng",
+    "Khai báo đã dùng AI hỗ trợ",
+    "Chép nguyên văn, không cần thử",
+    "Tin tuyệt đối vì AI trả lời tự tin"
+   ],
+   "a": [
+    0,
+    1
+   ],
+   "e": "AI có thể sai; phải kiểm chứng và khai báo; người dùng chịu trách nhiệm.",
+   "r": "SGK Tin học 8 KNTT – Bài 15"
+  },
+  {
+   "t": "f",
+   "q": "Kiểm thử là ____ chương trình để phát hiện ____.",
+   "a": [
+    [
+     "chạy thử"
+    ],
+    [
+     "lỗi"
+    ]
+   ],
+   "o": [
+    [
+     "viết lại",
+     "từ khoá"
+    ],
+    [
+     "in ra",
+     "biến"
+    ],
+    [
+     "chạy thử",
+     "lỗi"
+    ],
+    [
+     "dịch",
+     "máy tính"
+    ]
+   ],
+   "k": 2,
+   "e": "Kiểm thử = chạy thử để phát hiện lỗi.",
+   "r": "SGK Tin học 8 KNTT – Bài 15"
+  },
+  {
+   "t": "f",
+   "q": "Lỗi ____ làm chương trình không chạy được; lỗi ____ khiến chương trình chạy nhưng sai kịch bản.",
+   "a": [
+    [
+     "cú pháp"
+    ],
+    [
+     "lôgic"
+    ]
+   ],
+   "o": [
+    [
+     "cú pháp",
+     "lôgic"
+    ],
+    [
+     "lôgic",
+     "cú pháp"
+    ],
+    [
+     "cú pháp",
+     "phần cứng"
+    ],
+    [
+     "dữ liệu",
+     "lôgic"
+    ]
+   ],
+   "k": 0,
+   "e": "Bẫy đổi thứ tự hai loại lỗi.",
+   "r": "SGK Tin học 8 KNTT – Bài 15"
+  },
+  {
+   "t": "f",
+   "q": "Hai cách phát hiện lỗi lôgic: phân tích ____ các khối lệnh liên quan và chạy ____, theo dõi giá trị biến.",
+   "a": [
+    [
+     "lôgic"
+    ],
+    [
+     "từng bước"
+    ]
+   ],
+   "o": [
+    [
+     "màu sắc",
+     "nhanh"
+    ],
+    [
+     "lôgic",
+     "một lần"
+    ],
+    [
+     "tên",
+     "hết cả chương trình"
+    ],
+    [
+     "lôgic",
+     "từng bước"
+    ]
+   ],
+   "k": 3,
+   "e": "Hai cách: phân tích lôgic; chạy từng bước theo dõi biến.",
+   "r": "SGK Tin học 8 KNTT – Bài 15"
+  },
+  {
+   "t": "f",
+   "q": "Quy trình gỡ lỗi: chạy thử, so với ____, tìm lệnh gây lỗi, ____, rồi chạy thử lại.",
+   "a": [
+    [
+     "kịch bản"
+    ],
+    [
+     "sửa"
+    ]
+   ],
+   "o": [
+    [
+     "màn hình",
+     "xoá"
+    ],
+    [
+     "kịch bản",
+     "sửa"
+    ],
+    [
+     "sửa",
+     "kịch bản"
+    ],
+    [
+     "kịch bản",
+     "bỏ qua"
+    ]
+   ],
+   "k": 1,
+   "e": "Bẫy đổi thứ tự bước.",
+   "r": "SGK Tin học 8 KNTT – Bài 15"
+  },
+  {
+   "t": "f",
+   "q": "Trong thực hành Đoán số, tìm số trong khoảng 1–120 bằng cách luôn đoán số ở ____ khoảng còn lại thì cần tối đa ____ lần.",
+   "a": [
+    [
+     "giữa"
+    ],
+    [
+     "7"
+    ]
+   ],
+   "o": [
+    [
+     "đầu",
+     "120"
+    ],
+    [
+     "giữa",
+     "6"
+    ],
+    [
+     "giữa",
+     "7"
+    ],
+    [
+     "cuối",
+     "7"
+    ]
+   ],
+   "k": 2,
+   "e": "2^7 = 128 > 120 nên 7 lần đủ; 2^6 = 64 < 120 nên 6 lần chưa đủ.",
+   "r": "SGK Tin học 8 KNTT – Bài 15"
+  },
+  {
+   "t": "f",
+   "q": "Ngoài ca thường, bảng kiểm thử nên có ca ____ (giá trị đầu/cuối) và ca ____ (dữ liệu không hợp lệ).",
+   "a": [
+    [
+     "biên"
+    ],
+    [
+     "lỗi"
+    ]
+   ],
+   "o": [
+    [
+     "lỗi",
+     "biên"
+    ],
+    [
+     "biên",
+     "lỗi"
+    ],
+    [
+     "biên",
+     "đẹp"
+    ],
+    [
+     "thường",
+     "thường"
+    ]
+   ],
+   "k": 1,
+   "e": "Ca biên và ca lỗi.",
+   "r": "SGK Tin học 8 KNTT – Bài 15"
+  }
+ ],
+ "tuluan": [
+  {
+   "q": "Câu 1 (3 điểm). Phân biệt lỗi cú pháp và lỗi lôgic; nêu hai cách phát hiện lỗi lôgic và cho ví dụ với chương trình Đoán số.",
+   "a": [
+    "Lỗi cú pháp: vi phạm quy tắc viết lệnh, chương trình không chạy được. Lỗi lôgic: đúng quy tắc, chạy được nhưng sai kịch bản, khó phát hiện.",
+    "Cách 1: phân tích lôgic các khối lệnh liên quan. Cách 2: chạy từng bước, theo dõi giá trị biến (hiện biến, lệnh 'đợi … giây').",
+    "Ví dụ: Đoán số đúng sau 4 lần nhưng báo 3 là lỗi lôgic (lần đầu không được đếm); khối 'nói' thiếu ô giá trị là lỗi cú pháp.",
+    "Sửa: thêm lệnh tăng biến hoặc đặt giá trị ban đầu = 1, rồi chạy thử lại."
+   ]
+  },
+  {
+   "q": "Câu 2 (3 điểm). Nêu mục tiêu bài 'Gỡ lỗi' (Tin học 8) theo chương trình 2018 và thiết kế hoạt động Luyện tập lập ca kiểm thử.",
+   "a": [
+    "Kiến thức: nêu kiểm thử, phân biệt hai loại lỗi, hai cách phát hiện lỗi lôgic, sửa được chương trình Đoán số, chẵn/lẻ.",
+    "Năng lực: tự chủ và tự học, giao tiếp và hợp tác, NLc (chạy thử, tìm lỗi, sửa lỗi), NLS 5.1.TC2; Phẩm chất: kiên trì, trung thực, cẩn thận.",
+    "Hoạt động Luyện tập: mục tiêu – lập bảng ca kiểm thử; nội dung – Luyện tập tr.90; sản phẩm – bảng 4 ca (thường, biên, thua, ngoài khoảng); tổ chức 4 bước giao – thực hiện – báo cáo – kết luận."
+   ]
+  },
+  {
+   "q": "Câu 3 (4 điểm). Chatbot khuyên 'chỉ cần sửa lệnh (6) thành > 8 là chương trình Đoán số đúng tối đa 7 lần'. Em hướng dẫn HS đánh giá lời khuyên này và tích hợp năng lực AI thế nào? Máy tìm số trong 1–120 cần tối đa bao nhiêu lần?",
+   "a": [
+    "Cho HS chạy ca kiểm thử: sai liên tục, thấy với '> 8' vẫn cho đoán tới lần 9 nên lời khuyên sai.",
+    "Rút ra: AI có thể trả lời tự tin nhưng sai; phải kiểm chứng bằng ca kiểm thử, đối chiếu SGK.",
+    "HS viết câu khai báo dùng AI; nhấn mạnh người dùng chịu trách nhiệm (8.A1.2, 8.A3.3).",
+    "Tìm số 1–120: luôn đoán giữa khoảng còn lại, 2^6 = 64 < 120 ≤ 128 = 2^7 nên tối đa 7 lần."
+   ]
+  }
+ ]
+}

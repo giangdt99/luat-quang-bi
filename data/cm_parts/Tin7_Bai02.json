@@ -1,0 +1,578 @@
+{
+ "id": "T7-B02",
+ "ten": "Bài 2. Phần mềm máy tính",
+ "tomtat": [
+  "**Phần cứng** là các thiết bị vật lí; **phần mềm** là các chương trình điều khiển máy tính hoạt động. Phần mềm chia hai loại chính: **phần mềm hệ thống** và **phần mềm ứng dụng**.",
+  "**Hệ điều hành** là **phần mềm hệ thống** điều khiển, quản lí máy tính và tạo môi trường chạy phần mềm ứng dụng.",
+  "**Không có hệ điều hành**, máy tính **không hoạt động** được; hệ điều hành được cài **đầu tiên**.",
+  "Hệ điều hành có **3 chức năng**: (1) **quản lí, điều khiển thiết bị và dữ liệu**; (2) **tạo giao diện người dùng – máy tính**; (3) **tạo môi trường chạy phần mềm ứng dụng**.",
+  "Hệ điều hành cho **máy tính**: **Windows, Mac OS, Linux**; cho **điện thoại**: **iOS, Android**.",
+  "**Phần mềm ứng dụng** là chương trình thực hiện một **công việc cụ thể** của người dùng, như soạn thảo (Word), vẽ (Paint), lập trình (Scratch).",
+  "Phần mềm ứng dụng **chạy trên hệ điều hành** và **tương tác với phần cứng qua hệ điều hành**.",
+  "**Phần mở rộng** là phần sau **dấu chấm cuối cùng** của tên tệp, cho biết **loại tệp** và phần mềm có thể mở/xử lí tệp, ví dụ **.docx – Word**, **.png – ảnh**, **.sb3 – Scratch**.",
+  "**Phân biệt**: hệ điều hành tương tác **trực tiếp** với phần cứng; phần mềm ứng dụng phục vụ **nhu cầu cụ thể** và cần hệ điều hành.",
+  "Mỗi phần mềm ứng dụng thường có **bản cài riêng cho từng hệ điều hành**; cần dùng **phần mềm hợp pháp**, tôn trọng bản quyền.",
+  "Khi dùng **chatbot AI** hỏi về phần mềm, phải **kiểm chứng** bằng SGK/thầy cô vì AI có thể trả lời sai."
+ ],
+ "ynho": [
+  "Hệ điều hành là phần mềm hệ thống",
+  "3 chức năng: quản lí, giao diện, môi trường chạy ứng dụng",
+  "Windows, Mac OS, Linux; iOS, Android",
+  "Phần mềm ứng dụng chạy trên hệ điều hành",
+  "Phần mở rộng: sau dấu chấm cuối, cho biết loại tệp"
+ ],
+ "bang": [
+  {
+   "tieu_de": "Hệ điều hành và phần mềm ứng dụng (Bảng 2.1)",
+   "cot": [
+    "Tiêu chí",
+    "Hệ điều hành",
+    "Phần mềm ứng dụng"
+   ],
+   "dong": [
+    [
+     "Loại",
+     "Phần mềm hệ thống",
+     "Phần mềm ứng dụng"
+    ],
+    [
+     "Mục đích",
+     "Điều khiển, quản lí máy tính; tạo môi trường chạy ứng dụng",
+     "Thực hiện công việc cụ thể của người dùng"
+    ],
+    [
+     "Tương tác phần cứng",
+     "Trực tiếp",
+     "Thông qua hệ điều hành"
+    ],
+    [
+     "Thứ tự cài",
+     "Cài đầu tiên",
+     "Cài sau"
+    ],
+    [
+     "Ví dụ",
+     "Windows, Mac OS, Linux, iOS, Android",
+     "Word, Paint, Scratch"
+    ]
+   ]
+  },
+  {
+   "tieu_de": "Phần mở rộng tên tệp thường gặp",
+   "cot": [
+    "Phần mở rộng",
+    "Loại tệp",
+    "Phần mềm"
+   ],
+   "dong": [
+    [
+     ".docx",
+     "Văn bản",
+     "Word"
+    ],
+    [
+     ".png",
+     "Hình ảnh",
+     "Paint, phần mềm xem ảnh"
+    ],
+    [
+     ".sb3",
+     "Chương trình",
+     "Scratch"
+    ]
+   ]
+  }
+ ],
+ "vidu": [
+  {
+   "tinh_huong": "Nhấn phím A trên bàn phím, chữ A hiện trong Word. Ai điều phối: bàn phím gửi tín hiệu, hệ điều hành nhận và chuyển cho Word, Word hiển thị.",
+   "ket_luan": "→ Hệ điều hành quản lí, điều khiển thiết bị và dữ liệu (chức năng 1)."
+  },
+  {
+   "tinh_huong": "Phân loại: Windows, Word, Android, Paint, Linux, Scratch.",
+   "ket_luan": "→ Hệ điều hành: Windows, Android, Linux; phần mềm ứng dụng: Word, Paint, Scratch."
+  },
+  {
+   "tinh_huong": "Tệp BaiTap.docx, AnhLop.png, TroChoi.sb3 – nhìn phần sau dấu chấm cuối.",
+   "ket_luan": "→ Lần lượt là tệp Word, ảnh, Scratch."
+  },
+  {
+   "tinh_huong": "Bản Scratch cài cho Windows có chạy được trên máy dùng Mac OS không? Chọn bản đúng với hệ điều hành.",
+   "ket_luan": "→ Không; mỗi hệ điều hành cần bản phần mềm ứng dụng riêng, vì ứng dụng chạy trên hệ điều hành."
+  }
+ ],
+ "nho": [
+  "Hệ điều hành = 'quản lí trưởng': Quản lí – Giao diện – Môi trường chạy (QGM).",
+  "Máy tính: Win–Mac–Linux; Điện thoại: iOS–Android.",
+  "Phần mở rộng: nhìn đuôi sau dấu chấm CUỐI."
+ ],
+ "bay": [
+  "Word, Paint, Windows Explorer không phải hệ điều hành.",
+  "iOS, Android chạy trên điện thoại vẫn là hệ điều hành chứ không phải phần mềm ứng dụng.",
+  "Tên tệp có nhiều dấu chấm: lấy phần sau dấu chấm cuối cùng.",
+  "Phần mềm ứng dụng không điều khiển trực tiếp phần cứng, mà qua hệ điều hành."
+ ],
+ "giaoan": [
+  "**Mục tiêu** – Kiến thức: nêu khái niệm, 3 chức năng hệ điều hành, kể tên hệ điều hành; nêu khái niệm, ví dụ phần mềm ứng dụng; giải thích phần mở rộng; phân biệt hai loại phần mềm. Năng lực: tự chủ và tự học, giao tiếp và hợp tác, giải quyết vấn đề; NLa, NLb; kiểm chứng thông tin AI. Phẩm chất: chăm chỉ, trung thực, trách nhiệm khi dùng phần mềm và AI.",
+  "**Chuẩn bị** – GV: kế hoạch bài dạy, máy tính, máy chiếu, internet, chatbot AI, phiếu học tập. HS: SGK Tin học 7, vở ghi, bút.",
+  "**Hoạt động 1 – Mở đầu** – Mục tiêu: tạo nhu cầu tìm hiểu hệ điều hành. Nội dung: Hoạt động 1 SGK tr.10, chọn 3 việc điều hành của nhóm bạn An. Sản phẩm: chọn b, d, f. Tổ chức: (1) GV chiếu tình huống, giao nhiệm vụ; (2) HS suy nghĩ cá nhân, chia sẻ cặp (Think – Pair – Share); (3) mời 2 cặp báo cáo; (4) GV nhận xét, dẫn vào bài.",
+  "**Hoạt động 2 – Hình thành kiến thức** – Mục tiêu: nêu khái niệm, chức năng hệ điều hành, phần mềm ứng dụng, phần mở rộng, phân biệt. Nội dung: 2.1 Hệ điều hành; 2.2 Phần mềm ứng dụng và phần mở rộng; 2.3 Phân biệt (Bảng 2.1). Sản phẩm: phiếu học tập, sơ đồ 3 chức năng, bảng so sánh. Tổ chức: (1) GV giao đọc SGK, chia nhóm 4, phát phiếu; (2) nhóm thảo luận, khăn trải bàn, vẽ sơ đồ; (3) nhóm báo cáo; (4) GV chốt theo hộp Ghi nhớ.",
+  "**Hoạt động 3 – Luyện tập** – Mục tiêu: củng cố chức năng, phân loại phần mềm, nhận biết loại tệp. Nội dung: câu hỏi SGK tr.11, 12, Luyện tập 1, giơ thẻ Đúng – Sai, ghép tệp – phần mềm. Sản phẩm: đáp án đúng, bảng con. Tổ chức: (1) GV giao nhiệm vụ, luật chơi; (2) HS làm cá nhân, giơ thẻ; (3) báo cáo, giải thích; (4) GV nhận xét, chốt.",
+  "**Hoạt động 4 – Vận dụng** – Mục tiêu: vận dụng, kiểm chứng đầu ra của AI. Nội dung: hỏi chatbot 'Windows Explorer có phải hệ điều hành không?', HS đối chiếu SGK; làm Vận dụng tr.12 (chọn bản Scratch theo hệ điều hành). Sản phẩm: nhận xét về độ tin cậy, giải thích. Tổ chức: (1) GV thao tác chatbot, giao nhiệm vụ; (2) HS đối chiếu SGK, thảo luận cặp; (3) 3 HS báo cáo; (4) GV kết luận: luôn kiểm chứng AI.",
+  "**Kiểm tra đánh giá** – Quan sát, hỏi đáp; đánh giá phiếu học tập, sản phẩm sơ đồ, bảng; trò chơi giơ thẻ; phiếu tiêu chí cho hoạt động AI; GV nhận xét, tự đánh giá của HS; dặn học ghi nhớ, đọc trước Bài 3."
+ ],
+ "ai": [
+  "GV dùng chatbot AI để gợi ý tình huống, câu hỏi Đúng – Sai, bài tập ghép tệp – phần mềm; GV rà soát, chỉnh sửa trước khi dùng.",
+  "HS hỏi chatbot 'Windows Explorer có phải hệ điều hành không?', đối chiếu hộp Ghi nhớ SGK tr.11 để kiểm chứng; nêu hậu quả khi không kiểm chứng: học sai, nhầm loại phần mềm (7.A1.MR1, 7.A1.2).",
+  "Đạo đức AI: trung thực, khai báo khi dùng AI hỗ trợ học tập; không sao chép nguyên văn; dùng phần mềm hợp pháp."
+ ],
+ "cauhoi": [
+  {
+   "t": "s",
+   "q": "Hệ điều hành là loại phần mềm nào?",
+   "o": [
+    "Phần mềm ứng dụng",
+    "Phần mềm hệ thống",
+    "Phần mềm soạn thảo",
+    "Phần mềm trò chơi"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Hệ điều hành là phần mềm hệ thống. Bẫy: nhầm với phần mềm ứng dụng.",
+   "r": "SGK Tin học 7 KNTT – Bài 2"
+  },
+  {
+   "t": "s",
+   "q": "Chức năng nào sau đây KHÔNG phải chức năng của hệ điều hành?",
+   "o": [
+    "Quản lí, điều khiển thiết bị và dữ liệu",
+    "Tạo giao diện giữa người dùng và máy tính",
+    "Soạn thảo và định dạng văn bản",
+    "Tạo môi trường để phần mềm ứng dụng chạy"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Soạn thảo văn bản là việc của phần mềm ứng dụng (Word), không phải của hệ điều hành.",
+   "r": "SGK Tin học 7 KNTT – Bài 2"
+  },
+  {
+   "t": "s",
+   "q": "Hệ điều hành nào sau đây thường dùng trên điện thoại thông minh?",
+   "o": [
+    "Windows",
+    "Linux",
+    "Android",
+    "Paint"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Android và iOS dùng cho điện thoại; Paint là phần mềm ứng dụng.",
+   "r": "SGK Tin học 7 KNTT – Bài 2"
+  },
+  {
+   "t": "s",
+   "q": "Phần mềm nào sau đây là phần mềm ứng dụng?",
+   "o": [
+    "Windows",
+    "Linux",
+    "Android",
+    "Scratch"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Scratch là phần mềm ứng dụng (lập trình trực quan); còn lại là hệ điều hành.",
+   "r": "SGK Tin học 7 KNTT – Bài 2"
+  },
+  {
+   "t": "s",
+   "q": "Tệp có tên BaoCao.docx thường được mở bằng phần mềm nào?",
+   "o": [
+    "Microsoft Word",
+    "Paint",
+    "Scratch",
+    "Windows"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Phần mở rộng .docx cho biết tệp văn bản Word. Bẫy: Windows là hệ điều hành, không dùng để 'mở' tệp theo nghĩa này.",
+   "r": "SGK Tin học 7 KNTT – Bài 2"
+  },
+  {
+   "t": "s",
+   "q": "Trong tên tệp AnhLop.7A.png, phần mở rộng là gì?",
+   "o": [
+    "AnhLop",
+    "7A",
+    "AnhLop.7A",
+    "png"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Phần mở rộng là phần sau dấu chấm CUỐI CÙNG: png. Bẫy: có nhiều dấu chấm.",
+   "r": "SGK Tin học 7 KNTT – Bài 2"
+  },
+  {
+   "t": "s",
+   "q": "Khi nhấn một phím trên bàn phím, chữ hiện lên màn hình. Thành phần nào chịu trách nhiệm điều phối việc này trước hết?",
+   "o": [
+    "Hệ điều hành",
+    "Phần mềm trò chơi",
+    "Chuột",
+    "Màn hình"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Hệ điều hành quản lí, điều khiển thiết bị và dữ liệu.",
+   "r": "SGK Tin học 7 KNTT – Bài 2"
+  },
+  {
+   "t": "s",
+   "q": "Phát biểu nào đúng về mối quan hệ giữa hệ điều hành và phần mềm ứng dụng?",
+   "o": [
+    "Phần mềm ứng dụng chạy trên nền hệ điều hành",
+    "Hệ điều hành chạy trên nền phần mềm ứng dụng",
+    "Hai loại hoạt động hoàn toàn độc lập",
+    "Phần mềm ứng dụng điều khiển trực tiếp phần cứng"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Phần mềm ứng dụng cần hệ điều hành tạo môi trường để chạy. Bẫy: đảo ngược quan hệ.",
+   "r": "SGK Tin học 7 KNTT – Bài 2"
+  },
+  {
+   "t": "s",
+   "q": "Một bạn nhờ chatbot AI và nhận câu trả lời 'Windows Explorer là hệ điều hành'. Em nên làm gì?",
+   "o": [
+    "Chép ngay vào vở vì AI luôn đúng",
+    "Đối chiếu SGK hoặc hỏi thầy cô để kiểm chứng",
+    "Bỏ qua mọi thông tin AI đưa ra",
+    "Hỏi lại AI đến khi nó đồng ý"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Luôn kiểm chứng đầu ra của AI bằng nguồn tin cậy; Windows Explorer là công cụ quản lí tệp.",
+   "r": "SGK Tin học 7 KNTT – Bài 2"
+  },
+  {
+   "t": "s",
+   "q": "Điều gì xảy ra nếu máy tính không có hệ điều hành?",
+   "o": [
+    "Máy tính chạy nhanh hơn",
+    "Máy tính vẫn dùng bình thường",
+    "Máy tính không hoạt động được",
+    "Chỉ không chơi được trò chơi"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Theo SGK, không có hệ điều hành máy tính không hoạt động.",
+   "r": "SGK Tin học 7 KNTT – Bài 2"
+  },
+  {
+   "t": "m",
+   "q": "Những phần mềm nào sau đây là hệ điều hành?",
+   "o": [
+    "Windows",
+    "Word",
+    "Linux",
+    "Mac OS"
+   ],
+   "a": [
+    0,
+    2,
+    3
+   ],
+   "e": "Word là phần mềm ứng dụng.",
+   "r": "SGK Tin học 7 KNTT – Bài 2"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các chức năng của hệ điều hành.",
+   "o": [
+    "Quản lí thiết bị và dữ liệu",
+    "Tạo giao diện người dùng",
+    "Chỉnh sửa ảnh chuyên nghiệp",
+    "Tạo môi trường chạy phần mềm ứng dụng"
+   ],
+   "a": [
+    0,
+    1,
+    3
+   ],
+   "e": "Chỉnh sửa ảnh là việc của phần mềm ứng dụng.",
+   "r": "SGK Tin học 7 KNTT – Bài 2"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các phần mềm ứng dụng.",
+   "o": [
+    "Paint",
+    "Scratch",
+    "iOS",
+    "Android"
+   ],
+   "a": [
+    0,
+    1
+   ],
+   "e": "iOS, Android là hệ điều hành trên điện thoại. Bẫy: nhầm vì chạy trên điện thoại.",
+   "r": "SGK Tin học 7 KNTT – Bài 2"
+  },
+  {
+   "t": "m",
+   "q": "Phát biểu nào sau đây đúng?",
+   "o": [
+    "Phần mở rộng cho biết loại tệp",
+    "Mỗi hệ điều hành cần bản phần mềm ứng dụng phù hợp",
+    "Phần mềm ứng dụng cài trước hệ điều hành",
+    "Hệ điều hành là phần mềm hệ thống"
+   ],
+   "a": [
+    0,
+    1,
+    3
+   ],
+   "e": "Hệ điều hành được cài đầu tiên, rồi mới cài phần mềm ứng dụng.",
+   "r": "SGK Tin học 7 KNTT – Bài 2"
+  },
+  {
+   "t": "f",
+   "q": "Hệ điều hành là phần mềm ____ , còn Word, Paint là phần mềm ____ .",
+   "a": [
+    [
+     "hệ thống"
+    ],
+    [
+     "ứng dụng"
+    ]
+   ],
+   "o": [
+    [
+     "ứng dụng",
+     "hệ thống"
+    ],
+    [
+     "trò chơi",
+     "soạn thảo"
+    ],
+    [
+     "hệ thống",
+     "ứng dụng"
+    ],
+    [
+     "ứng dụng",
+     "ứng dụng"
+    ]
+   ],
+   "k": 2,
+   "e": "Bẫy: đảo thứ tự hai loại phần mềm.",
+   "r": "SGK Tin học 7 KNTT – Bài 2"
+  },
+  {
+   "t": "f",
+   "q": "Phần mở rộng là phần sau dấu chấm ____ của tên tệp, cho biết ____ .",
+   "a": [
+    [
+     "cuối cùng"
+    ],
+    [
+     "loại tệp"
+    ]
+   ],
+   "o": [
+    [
+     "cuối cùng",
+     "loại tệp"
+    ],
+    [
+     "đầu tiên",
+     "loại tệp"
+    ],
+    [
+     "cuối cùng",
+     "dung lượng tệp"
+    ],
+    [
+     "đầu tiên",
+     "ngày tạo"
+    ]
+   ],
+   "k": 0,
+   "e": "Bẫy: dấu chấm đầu hay cuối; loại tệp chứ không phải dung lượng.",
+   "r": "SGK Tin học 7 KNTT – Bài 2"
+  },
+  {
+   "t": "f",
+   "q": "Windows, Mac OS, Linux dùng cho ____ ; iOS, Android dùng cho ____ .",
+   "a": [
+    [
+     "máy tính"
+    ],
+    [
+     "điện thoại"
+    ]
+   ],
+   "o": [
+    [
+     "điện thoại",
+     "máy tính"
+    ],
+    [
+     "máy tính",
+     "điện thoại"
+    ],
+    [
+     "máy in",
+     "máy tính"
+    ],
+    [
+     "máy tính",
+     "máy in"
+    ]
+   ],
+   "k": 1,
+   "e": "Bẫy: đảo nhóm thiết bị.",
+   "r": "SGK Tin học 7 KNTT – Bài 2"
+  },
+  {
+   "t": "f",
+   "q": "Phần mềm ứng dụng chạy trên ____ và tương tác với phần cứng thông qua ____ .",
+   "a": [
+    [
+     "hệ điều hành"
+    ],
+    [
+     "hệ điều hành"
+    ]
+   ],
+   "o": [
+    [
+     "phần cứng",
+     "phần cứng"
+    ],
+    [
+     "hệ điều hành",
+     "phần cứng"
+    ],
+    [
+     "phần mềm ứng dụng",
+     "phần mềm ứng dụng"
+    ],
+    [
+     "hệ điều hành",
+     "hệ điều hành"
+    ]
+   ],
+   "k": 3,
+   "e": "Phần mềm ứng dụng không điều khiển trực tiếp phần cứng mà qua hệ điều hành.",
+   "r": "SGK Tin học 7 KNTT – Bài 2"
+  },
+  {
+   "t": "f",
+   "q": "Tệp có phần mở rộng .sb3 là tệp của phần mềm ____ , còn .png là tệp ____ .",
+   "a": [
+    [
+     "Scratch"
+    ],
+    [
+     "hình ảnh"
+    ]
+   ],
+   "o": [
+    [
+     "Word",
+     "hình ảnh"
+    ],
+    [
+     "Scratch",
+     "văn bản"
+    ],
+    [
+     "Scratch",
+     "hình ảnh"
+    ],
+    [
+     "Paint",
+     "âm thanh"
+    ]
+   ],
+   "k": 2,
+   "e": "Bẫy: đổi 1 chữ ở cả hai chỗ.",
+   "r": "SGK Tin học 7 KNTT – Bài 2"
+  },
+  {
+   "t": "f",
+   "q": "Chức năng của hệ điều hành gồm: quản lí thiết bị và ____ ; tạo ____ người dùng; tạo môi trường chạy phần mềm ứng dụng.",
+   "a": [
+    [
+     "dữ liệu"
+    ],
+    [
+     "giao diện"
+    ]
+   ],
+   "o": [
+    [
+     "phần mềm",
+     "đồ hoạ"
+    ],
+    [
+     "dữ liệu",
+     "giao diện"
+    ],
+    [
+     "dữ liệu",
+     "đồ hoạ"
+    ],
+    [
+     "phần mềm",
+     "giao diện"
+    ]
+   ],
+   "k": 1,
+   "e": "Bẫy: đổi một từ trong hai chỗ trống.",
+   "r": "SGK Tin học 7 KNTT – Bài 2"
+  }
+ ],
+ "tuluan": [
+  {
+   "q": "Câu 1 (2 điểm). Trình bày khái niệm hệ điều hành, các chức năng chính và phân biệt hệ điều hành với phần mềm ứng dụng; cho ví dụ.",
+   "a": [
+    "Hệ điều hành là phần mềm hệ thống, điều khiển, quản lí máy tính và tạo môi trường chạy phần mềm ứng dụng; không có hệ điều hành máy tính không hoạt động.",
+    "3 chức năng: (1) quản lí, điều khiển thiết bị và dữ liệu; (2) tạo giao diện giữa người dùng và máy tính; (3) tạo môi trường chạy phần mềm ứng dụng.",
+    "Ví dụ: Windows, Mac OS, Linux (máy tính); iOS, Android (điện thoại).",
+    "Phần mềm ứng dụng: chương trình thực hiện công việc cụ thể (Word, Paint, Scratch), chạy trên hệ điều hành và tương tác với phần cứng qua hệ điều hành.",
+    "Phân biệt: hệ điều hành cài đầu tiên, tương tác trực tiếp với phần cứng, nền tảng cho ứng dụng; phần mềm ứng dụng cài sau, phục vụ nhu cầu cụ thể của người dùng."
+   ]
+  },
+  {
+   "q": "Câu 2 (2 điểm). Nêu mục tiêu bài 'Phần mềm máy tính' (Tin học 7) theo Chương trình GDPT 2018.",
+   "a": [
+    "Kiến thức: nêu được khái niệm, chức năng của hệ điều hành; kể tên một số hệ điều hành; nêu khái niệm, ví dụ phần mềm ứng dụng; giải thích phần mở rộng cho biết loại tệp; phân biệt hệ điều hành với phần mềm ứng dụng.",
+    "Năng lực chung: tự chủ và tự học khi đọc SGK; giao tiếp và hợp tác khi thảo luận nhóm; giải quyết vấn đề khi phân loại phần mềm.",
+    "Năng lực tin học: NLa – hiểu vai trò hệ điều hành, phân biệt các loại phần mềm; NLb – sử dụng phần mềm hợp pháp, phù hợp hệ điều hành.",
+    "Phẩm chất: chăm chỉ, trung thực; có trách nhiệm khi dùng phần mềm và AI.",
+    "Có thể nêu thêm năng lực số/AI: kiểm chứng thông tin AI cung cấp bằng nguồn đáng tin cậy."
+   ]
+  },
+  {
+   "q": "Câu 3 (2 điểm). Thiết kế hoạt động Vận dụng có tích hợp AI cho bài này; nêu sản phẩm và cách đánh giá.",
+   "a": [
+    "Mục tiêu: HS vận dụng kiến thức phân biệt hệ điều hành – phần mềm ứng dụng; kiểm chứng đầu ra của AI, nêu hậu quả khi không kiểm chứng.",
+    "Nội dung: GV hỏi chatbot 'Windows Explorer có phải hệ điều hành không? Kể 3 hệ điều hành thông dụng', chiếu kết quả; HS đối chiếu hộp Ghi nhớ SGK, thảo luận độ tin cậy; làm câu Vận dụng: vì sao chọn bản Scratch đúng hệ điều hành.",
+    "Tổ chức 4 bước: giao nhiệm vụ; HS suy nghĩ, thảo luận cặp (Think – Pair – Share); báo cáo 3 HS; GV nhận xét, kết luận.",
+    "Sản phẩm: nhận xét chỉ ra chỗ AI đúng/sai, nguồn kiểm chứng; giải thích mỗi hệ điều hành cần bản cài riêng.",
+    "Đánh giá: quan sát, hỏi đáp, phiếu/thang tiêu chí (đối chiếu nguồn, giải thích đúng); nhấn mạnh trách nhiệm khai báo khi dùng AI."
+   ]
+  }
+ ]
+}

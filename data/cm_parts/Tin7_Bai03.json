@@ -1,0 +1,627 @@
+{
+ "id": "T7-B03",
+ "ten": "Bài 3. Quản lí dữ liệu trong máy tính",
+ "tomtat": [
+  "**Tệp chương trình cũng là dữ liệu**: chương trình được lưu trong máy như tệp dữ liệu, thường có đuôi **.exe, .com, .bat, .msi**.",
+  "**Đặt tên tệp, thư mục**: nên **ngắn gọn, dễ nhớ, gợi ra nội dung** (vd: DuLich_NhaTrang) để dễ tìm kiếm.",
+  "**Cây thư mục** tổ chức dữ liệu **phân cấp**: thư mục chứa tệp và thư mục con, giúp lưu trữ khoa học, dễ tìm.",
+  "**Sao lưu dữ liệu** là tạo **bản sao** lưu ở nơi/thiết bị khác để khôi phục khi bản gốc bị mất, hỏng.",
+  "**Sao lưu cục bộ**: dùng **USB, ổ cứng ngoài**; **sao lưu từ xa**: dùng dịch vụ **đám mây** qua Internet (Bảng 3.1 về thiết bị lưu trữ).",
+  "**Mật khẩu mạnh**: từ **8 kí tự** trở lên, gồm **chữ hoa, chữ thường, chữ số, kí hiệu**; không dùng tên, ngày sinh; giữ bí mật.",
+  "**Phần mềm chống virus** phát hiện, diệt phần mềm độc hại; cần **luôn bật** và **thường xuyên cập nhật**.",
+  "**Tạo thư mục** trong File Explorer: chuột phải vùng trống → **New → Folder** → gõ tên → Enter.",
+  "**Đổi tên** dùng **Rename**; **di chuyển** dùng **Cut + Paste**; **sao chép** dùng **Copy + Paste** (còn bản gốc); **xoá** dùng **Delete**.",
+  "**Kiểm chứng kết quả AI**: lời khuyên của chatbot (vd về mật khẩu) cần đối chiếu nguồn tin cậy như SGK, thầy cô."
+ ],
+ "ynho": [
+  "Chương trình cũng là dữ liệu, lưu như tệp",
+  "Sao lưu: bản sao ở thiết bị khác",
+  "Mật khẩu mạnh: ≥ 8 kí tự, hoa-thường-số-kí hiệu",
+  "Cut + Paste = di chuyển; Copy + Paste = sao chép",
+  "Chống virus: luôn bật, thường xuyên cập nhật"
+ ],
+ "bang": [
+  {
+   "tieu_de": "Các thao tác với tệp, thư mục trong File Explorer",
+   "cot": [
+    "Thao tác",
+    "Lệnh",
+    "Bản gốc sau thao tác"
+   ],
+   "dong": [
+    [
+     "Đổi tên",
+     "Rename",
+     "Giữ nguyên nội dung, đổi tên"
+    ],
+    [
+     "Di chuyển",
+     "Cut + Paste",
+     "Mất ở vị trí cũ"
+    ],
+    [
+     "Sao chép",
+     "Copy + Paste",
+     "Vẫn còn"
+    ],
+    [
+     "Xoá",
+     "Delete",
+     "Bị xoá (vào thùng rác)"
+    ]
+   ]
+  },
+  {
+   "tieu_de": "Sao lưu cục bộ và sao lưu từ xa",
+   "cot": [
+    "Tiêu chí",
+    "Cục bộ",
+    "Từ xa"
+   ],
+   "dong": [
+    [
+     "Thiết bị/dịch vụ",
+     "USB, ổ cứng ngoài",
+     "Dịch vụ đám mây"
+    ],
+    [
+     "Cần Internet",
+     "Không",
+     "Có"
+    ],
+    [
+     "Tình huống phù hợp",
+     "Dữ liệu nhiều, mang đi được",
+     "Muốn an toàn khi máy hỏng, truy cập mọi nơi"
+    ]
+   ]
+  }
+ ],
+ "vidu": [
+  {
+   "tinh_huong": "Lan đặt tên tệp ảnh là 'a1.jpg' và 'ảnh chụp chuyến đi chơi cùng gia đình ở biển Nha Trang mùa hè 2024 rất vui.jpg'. Nên sửa thế nào?",
+   "ket_luan": "→ Cả hai đều chưa tốt (một quá mơ hồ, một quá dài); nên đặt như 'NhaTrang_GiaDinh.jpg'."
+  },
+  {
+   "tinh_huong": "Hà có thư mục DuLich chứa GiaDinh và DiemDen; DiemDen chứa BanNgay, HoangHon. Cây này có bao nhiêu thư mục (kể cả DuLich)? Đếm: DuLich, GiaDinh, DiemDen, BanNgay, HoangHon.",
+   "ket_luan": "→ 5 thư mục, nhiều cấp: DuLich là gốc, DiemDen chứa 2 thư mục con."
+  },
+  {
+   "tinh_huong": "Bạn có thư mục DuLich dung lượng lớn (nhiều ảnh) và muốn vừa mang đi vừa phòng khi máy hỏng. Chọn cách sao lưu nào?",
+   "ket_luan": "→ Ổ cứng ngoài (nhiều dữ liệu, mang đi) và/hoặc đám mây (an toàn khi máy hỏng)."
+  },
+  {
+   "tinh_huong": "Phân loại mật khẩu: 'minh2012', 'Mn#8kQ2z', 'MATKHAU'. Mật khẩu nào mạnh?",
+   "ket_luan": "→ Chỉ 'Mn#8kQ2z' (8 kí tự, đủ hoa, thường, số, kí hiệu); hai cái còn lại thiếu loại kí tự, dễ đoán."
+  }
+ ],
+ "nho": [
+  "Mật khẩu mạnh: 8 – HTSK (Hoa, Thường, Số, Kí hiệu)",
+  "Cut = cắt đi (di chuyển); Copy = chép (còn gốc)",
+  "Sao lưu: không bỏ trứng vào một giỏ",
+  "Chống virus: bật và cập nhật, như tiêm phòng nhắc lại"
+ ],
+ "bay": [
+  "Di chuyển (Cut) khác sao chép (Copy): Cut không còn bản gốc.",
+  "Chép sang thư mục khác trên cùng ổ cứng chưa phải sao lưu an toàn.",
+  "Mật khẩu dài nhưng chứa tên, ngày sinh vẫn yếu; chỉ có hoa, thường chưa đủ mạnh.",
+  "Chương trình cũng là dữ liệu; không tự ý xoá tệp .exe."
+ ],
+ "giaoan": [
+  "**Mục tiêu** – Kiến thức: biết tệp chương trình là dữ liệu; đặt tên tệp, thư mục; nêu biện pháp bảo vệ dữ liệu (sao lưu, mật khẩu mạnh, chống virus); tạo cây thư mục và đổi tên, sao chép, di chuyển, xoá bằng File Explorer. Năng lực: tự chủ, tự học; giao tiếp, hợp tác; giải quyết vấn đề; năng lực tin học (NLa, NLb, NLc). Phẩm chất: ngăn nắp, cẩn thận, có ý thức bảo vệ dữ liệu, trung thực khi dùng AI.",
+  "**Chuẩn bị** – GV: kế hoạch bài dạy, phòng máy, máy chiếu, Hình 3.1–3.6, Bảng 3.1, phiếu học tập, chatbot AI. HS: SGK Tin học 7, vở, bút; đọc trước bài.",
+  "**Hoạt động 1 – Mở đầu** (5 phút) – Mục tiêu: tạo nhu cầu sắp xếp, đặt tên dữ liệu dễ tìm. Nội dung: vẽ cây thư mục lưu ảnh du lịch. Sản phẩm: sơ đồ có phân cấp. Tổ chức 4 bước: giao nhiệm vụ; HS vẽ và chia sẻ cặp đôi; báo cáo, nhận xét; GV kết luận, dẫn vào bài.",
+  "**Hoạt động 2 – Hình thành kiến thức** – Mục tiêu: đặt tên, bảo vệ dữ liệu, tạo cây thư mục, các thao tác với tệp/thư mục. Nội dung: 2.1 tên tệp; 2.2 sao lưu; 2.3 mật khẩu, chống virus; 2.4 tạo cây thư mục; 2.5 Rename, Cut, Copy, Delete. Sản phẩm: phiếu học tập, cây thư mục đúng Hình 3.3. Tổ chức 4 bước: GV giao nhiệm vụ và làm mẫu; HS đọc SGK, thực hành theo cặp, đổi vai; báo cáo, nhận xét chéo; GV chốt kiến thức.",
+  "**Hoạt động 3 – Luyện tập** – Mục tiêu: củng cố toàn bài. Nội dung: trả lời câu hỏi SGK tr.14, 16, 17 bằng thẻ A–B–C–D; chọn thiết bị sao lưu cho 3 tình huống. Sản phẩm: đáp án đúng và giải thích. Tổ chức 4 bước: giao câu hỏi; HS giơ thẻ; giải thích; GV nhận xét.",
+  "**Hoạt động 4 – Vận dụng** – Mục tiêu: vận dụng quản lí dữ liệu cá nhân, kiểm chứng kết quả AI. Nội dung: chọn thiết bị sao lưu thư mục DuLich; hỏi chatbot về mật khẩu và đối chiếu SGK. Sản phẩm: lựa chọn kèm lí do, nhận xét lời khuyên AI. Tổ chức 4 bước: giao nhiệm vụ; HS làm; báo cáo; GV chốt.",
+  "**Kiểm tra đánh giá** – Đánh giá thường xuyên qua quan sát thực hành, phiếu học tập, thẻ A–B–C–D; đánh giá sản phẩm: cây thư mục và bản sao lưu; dùng tiêu chí (đúng quy tắc đặt tên, đúng thao tác, mật khẩu mạnh)."
+ ],
+ "ai": [
+  "GV hỏi chatbot 'cách đặt mật khẩu mạnh', chiếu kết quả cho HS đối chiếu với SGK tr.15 để phát hiện lời khuyên sai.",
+  "HS nêu hậu quả khi tin AI không kiểm chứng (đặt mật khẩu bằng ngày sinh, mất tài khoản) và kiểm chứng bằng nguồn tin cậy (7.A1.2, 7.A1.MR1).",
+  "Đạo đức AI: không nhập mật khẩu thật, thông tin cá nhân vào chatbot."
+ ],
+ "cauhoi": [
+  {
+   "t": "s",
+   "q": "Tệp chương trình (ví dụ có đuôi .exe) được lưu trong máy tính như thế nào?",
+   "o": [
+    "Như một tệp dữ liệu, được lưu trên thiết bị lưu trữ",
+    "Không phải dữ liệu nên không lưu trong ổ đĩa",
+    "Chỉ lưu trong bộ nhớ RAM",
+    "Chỉ lưu trong thư mục Windows và không được sao chép"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Bẫy: nhiều HS nghĩ chương trình không phải dữ liệu. Thực tế chương trình cũng là dữ liệu, lưu thành tệp.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "s",
+   "q": "Đuôi tệp nào sau đây thường là của tệp chương trình?",
+   "o": [
+    ".jpg",
+    ".exe",
+    ".docx",
+    ".mp3"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Tệp chương trình thường có đuôi .exe, .com, .bat, .msi; .jpg là ảnh, .docx là văn bản, .mp3 là âm thanh.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "s",
+   "q": "Cách đặt tên tệp, thư mục nào sau đây là tốt nhất theo SGK?",
+   "o": [
+    "Tên thật dài để mô tả mọi chi tiết",
+    "Tên ngẫu nhiên để người khác không đoán được",
+    "Tên ngắn gọn, dễ nhớ, gợi ra nội dung bên trong",
+    "Tên giống nhau cho mọi tệp rồi đánh số bằng trí nhớ"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Bẫy: 'dài để mô tả đủ' nghe có lí nhưng SGK yêu cầu ngắn gọn, dễ nhớ, gợi nội dung.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "s",
+   "q": "Sao lưu dữ liệu là gì?",
+   "o": [
+    "Di chuyển dữ liệu sang thư mục khác trên cùng ổ đĩa rồi xoá bản gốc",
+    "Nén dữ liệu để tiết kiệm dung lượng",
+    "Đặt mật khẩu cho dữ liệu",
+    "Tạo bản sao của dữ liệu và lưu ở nơi khác để khi bản gốc mất vẫn khôi phục được"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Bẫy: di chuyển (Cut) không tạo bản sao nên không phải sao lưu.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "s",
+   "q": "Bạn An sao lưu dữ liệu bằng cách chép sang một thư mục khác trên cùng ổ cứng với bản gốc. Nhận xét nào đúng nhất?",
+   "o": [
+    "An toàn tuyệt đối vì đã có hai bản",
+    "Chưa an toàn, vì ổ cứng hỏng thì mất cả bản gốc lẫn bản sao",
+    "Không phải là sao chép",
+    "Chỉ an toàn khi dữ liệu dưới 1 GB"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Bẫy: có 2 bản nhưng cùng một thiết bị; nên lưu ở thiết bị khác (USB, ổ cứng ngoài, đám mây).",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "s",
+   "q": "Đâu là sao lưu từ xa?",
+   "o": [
+    "Lưu dữ liệu lên dịch vụ lưu trữ đám mây qua Internet",
+    "Chép dữ liệu vào USB",
+    "Chép dữ liệu sang ổ cứng ngoài",
+    "Chép dữ liệu sang một ổ đĩa khác trong cùng máy"
+   ],
+   "a": [
+    0
+   ],
+   "e": "USB, ổ cứng ngoài là sao lưu cục bộ; đám mây là sao lưu từ xa.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "s",
+   "q": "Mật khẩu nào sau đây mạnh nhất theo tiêu chí SGK?",
+   "o": [
+    "tranminh2010",
+    "TRANMINH",
+    "Tr@n7Xk#92",
+    "12345678"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Mạnh: từ 8 kí tự, có chữ hoa, chữ thường, số, kí hiệu, không chứa tên/ngày sinh. Bẫy: 'tranminh2010' dài nhưng dùng tên và năm sinh.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "s",
+   "q": "Phát biểu nào về phần mềm chống virus là ĐÚNG?",
+   "o": [
+    "Cài một lần là đủ, không cần cập nhật",
+    "Chỉ cần bật khi tải tệp từ Internet",
+    "Có thể diệt được mọi loại virus nên không cần sao lưu",
+    "Cần luôn bật và thường xuyên cập nhật để nhận diện mối đe doạ mới"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Bẫy: chống virus không thay thế sao lưu; phải cập nhật thường xuyên.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "s",
+   "q": "Muốn di chuyển một tệp từ thư mục này sang thư mục khác bằng File Explorer, ta dùng cặp lệnh nào?",
+   "o": [
+    "Copy rồi Paste",
+    "Cut rồi Paste",
+    "Rename rồi Paste",
+    "Delete rồi Paste"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Bẫy: Copy + Paste là sao chép (còn bản gốc); Cut + Paste là di chuyển.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "s",
+   "q": "Trong File Explorer, lệnh nào dùng để đổi tên một thư mục?",
+   "o": [
+    "Replace",
+    "Reset",
+    "Rename",
+    "Remove"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Rename = đổi tên; Remove/Delete là xoá. Bẫy từ có chữ R gần giống nhau.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "s",
+   "q": "Cây thư mục là gì?",
+   "o": [
+    "Cách tổ chức thư mục theo cấp bậc: thư mục có thể chứa tệp và các thư mục con",
+    "Danh sách tệp xếp theo bảng chữ cái trong một thư mục duy nhất",
+    "Một phần mềm vẽ sơ đồ",
+    "Một loại tệp chứa nhiều tệp nén"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Cây thư mục có phân cấp, giúp dễ tìm và quản lí dữ liệu.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "s",
+   "q": "Thao tác nào sau đây tạo ra một thư mục mới trong File Explorer?",
+   "o": [
+    "Chuột phải, chọn Rename, chọn Folder",
+    "Chọn Copy rồi chọn New",
+    "Chuột phải vào tệp, chọn Delete rồi chọn New",
+    "Chuột phải vào vùng trống, chọn New, chọn Folder rồi gõ tên"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Quy trình: New → Folder → gõ tên → Enter.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "m",
+   "q": "Những biện pháp nào giúp bảo vệ dữ liệu trong máy tính?",
+   "o": [
+    "Sao lưu dữ liệu thường xuyên",
+    "Dùng mật khẩu mạnh",
+    "Cài và cập nhật phần mềm chống virus",
+    "Chia sẻ mật khẩu cho bạn thân để dự phòng"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Mật khẩu phải giữ bí mật, không chia sẻ cho người khác.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các đặc điểm của mật khẩu mạnh:",
+   "o": [
+    "Gồm chữ hoa, chữ thường, chữ số và kí hiệu",
+    "Chứa ngày sinh để dễ nhớ",
+    "Dùng chung một mật khẩu cho mọi tài khoản",
+    "Có từ 8 kí tự trở lên"
+   ],
+   "a": [
+    0,
+    3
+   ],
+   "e": "Mật khẩu mạnh không dùng thông tin cá nhân, nên mỗi tài khoản một mật khẩu.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "m",
+   "q": "Phát biểu nào sau đây là đúng?",
+   "o": [
+    "Tệp chương trình cũng là dữ liệu",
+    "Rename làm tạo thêm một bản sao của tệp",
+    "Copy + Paste tạo thêm một bản sao",
+    "Cut + Paste làm tệp rời khỏi vị trí cũ"
+   ],
+   "a": [
+    0,
+    2,
+    3
+   ],
+   "e": "Rename chỉ đổi tên, không tạo bản sao.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "m",
+   "q": "Thiết bị/dịch vụ nào dùng để sao lưu dữ liệu?",
+   "o": [
+    "Bàn phím",
+    "USB",
+    "Ổ cứng ngoài",
+    "Dịch vụ đám mây"
+   ],
+   "a": [
+    1,
+    2,
+    3
+   ],
+   "e": "Bàn phím là thiết bị vào, không lưu trữ.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "m",
+   "q": "Khi quản lí dữ liệu bằng cây thư mục, việc làm nào là hợp lí?",
+   "o": [
+    "Đặt tên thư mục gợi nội dung",
+    "Nhóm các tệp cùng chủ đề vào cùng một thư mục",
+    "Xoá tệp chương trình .exe chỉ khi biết chắc không cần dùng nữa",
+    "Để tất cả tệp ở màn hình nền"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Để tất cả ở một nơi làm khó tìm kiếm; không tự ý xoá tệp chương trình.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "f",
+   "q": "Tệp chương trình có đuôi .exe, .com, .bat, .msi cũng là ____ và được lưu trong máy như ____.",
+   "a": [
+    [
+     "dữ liệu"
+    ],
+    [
+     "tệp dữ liệu",
+     "tệp"
+    ]
+   ],
+   "o": [
+    [
+     "phần cứng",
+     "thư mục"
+    ],
+    [
+     "dữ liệu",
+     "tệp dữ liệu"
+    ],
+    [
+     "thông tin",
+     "bộ nhớ RAM"
+    ],
+    [
+     "thiết bị",
+     "tệp văn bản"
+    ]
+   ],
+   "k": 1,
+   "e": "Chương trình là dữ liệu, lưu như các tệp dữ liệu khác.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "f",
+   "q": "Sao lưu ____ dùng USB, ổ cứng ngoài; sao lưu ____ lưu lên đám mây.",
+   "a": [
+    [
+     "cục bộ"
+    ],
+    [
+     "từ xa"
+    ]
+   ],
+   "o": [
+    [
+     "cục bộ",
+     "từ xa"
+    ],
+    [
+     "từ xa",
+     "cục bộ"
+    ],
+    [
+     "tự động",
+     "thủ công"
+    ],
+    [
+     "đầy đủ",
+     "tạm thời"
+    ]
+   ],
+   "k": 0,
+   "e": "Bẫy: đổi chỗ hai khái niệm cục bộ / từ xa.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "f",
+   "q": "Mật khẩu mạnh có ít nhất ____ kí tự, gồm chữ hoa, chữ thường, ____ và kí hiệu.",
+   "a": [
+    [
+     "8"
+    ],
+    [
+     "số",
+     "chữ số"
+    ]
+   ],
+   "o": [
+    [
+     "6",
+     "số"
+    ],
+    [
+     "8",
+     "khoảng trắng"
+    ],
+    [
+     "4",
+     "tên riêng"
+    ],
+    [
+     "8",
+     "số"
+    ]
+   ],
+   "k": 3,
+   "e": "Mật khẩu mạnh từ 8 kí tự trở lên, gồm hoa, thường, số, kí hiệu.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "f",
+   "q": "Để di chuyển tệp dùng lệnh ____ rồi ____; để sao chép dùng Copy rồi Paste.",
+   "a": [
+    [
+     "Cut"
+    ],
+    [
+     "Paste"
+    ]
+   ],
+   "o": [
+    [
+     "Copy",
+     "Paste"
+    ],
+    [
+     "Rename",
+     "Enter"
+    ],
+    [
+     "Cut",
+     "Paste"
+    ],
+    [
+     "Delete",
+     "Paste"
+    ]
+   ],
+   "k": 2,
+   "e": "Cut + Paste = di chuyển; Copy + Paste = sao chép.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "f",
+   "q": "Phần mềm ____ giúp phát hiện và diệt phần mềm độc hại; cần luôn ____ để nhận diện mối đe doạ mới.",
+   "a": [
+    [
+     "chống virus"
+    ],
+    [
+     "cập nhật"
+    ]
+   ],
+   "o": [
+    [
+     "soạn thảo",
+     "cập nhật"
+    ],
+    [
+     "chống virus",
+     "cập nhật"
+    ],
+    [
+     "chống virus",
+     "gỡ bỏ"
+    ],
+    [
+     "trình chiếu",
+     "tắt đi"
+    ]
+   ],
+   "k": 1,
+   "e": "Chống virus phải luôn bật và cập nhật.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  },
+  {
+   "t": "f",
+   "q": "Tên tệp, thư mục nên ____ và ____ nội dung của nó.",
+   "a": [
+    [
+     "ngắn gọn",
+     "ngắn",
+     "dễ nhớ"
+    ],
+    [
+     "gợi ra",
+     "cho biết",
+     "gợi nhớ"
+    ]
+   ],
+   "o": [
+    [
+     "thật dài",
+     "che giấu"
+    ],
+    [
+     "ngẫu nhiên",
+     "gợi ra"
+    ],
+    [
+     "ngắn gọn",
+     "gợi ra"
+    ],
+    [
+     "ngắn gọn",
+     "che giấu"
+    ]
+   ],
+   "k": 2,
+   "e": "Tên nên ngắn gọn, dễ nhớ, gợi nội dung.",
+   "r": "SGK Tin học 7 KNTT – Bài 3"
+  }
+ ],
+ "tuluan": [
+  {
+   "q": "Câu 1 (2,0 điểm). Trình bày các biện pháp bảo vệ dữ liệu trong máy tính ở Bài 3 (Tin học 7 KNTT) và cho biết đặc điểm của mật khẩu mạnh.",
+   "a": [
+    "Sao lưu dữ liệu: tạo bản sao ở thiết bị/nơi khác; có sao lưu cục bộ (USB, ổ cứng ngoài) và sao lưu từ xa (đám mây); nên sao lưu thường xuyên, không lưu bản sao cùng thiết bị với bản gốc.",
+    "Dùng mật khẩu mạnh để ngăn người lạ truy cập dữ liệu; giữ bí mật, không chia sẻ.",
+    "Mật khẩu mạnh: từ 8 kí tự trở lên, có chữ hoa, chữ thường, chữ số, kí hiệu; không dùng tên, ngày sinh hay thông tin cá nhân dễ đoán.",
+    "Dùng phần mềm chống virus: luôn bật và thường xuyên cập nhật để phát hiện, diệt phần mềm độc hại.",
+    "Ví dụ: Tr@n7Xk#92 là mật khẩu mạnh, tranminh2010 là yếu."
+   ]
+  },
+  {
+   "q": "Câu 2 (3,0 điểm). Nêu mục tiêu bài học 'Quản lí dữ liệu trong máy tính' (Tin học 7) theo Chương trình GDPT 2018 và thiết kế hoạt động mở đầu của bài.",
+   "a": [
+    "Kiến thức: biết tệp chương trình cũng là dữ liệu; nêu cách đặt tên tệp, thư mục; nêu biện pháp bảo vệ dữ liệu (sao lưu, mật khẩu mạnh, chống virus); tạo cây thư mục, đổi tên, sao chép, di chuyển, xoá bằng File Explorer.",
+    "Năng lực: tự chủ, tự học; giao tiếp, hợp tác; giải quyết vấn đề; năng lực tin học: sử dụng File Explorer (NLa), bảo vệ dữ liệu (NLb), tổ chức dữ liệu để dễ tìm (NLc).",
+    "Phẩm chất: ngăn nắp, cẩn thận; có ý thức sao lưu, bảo vệ dữ liệu; trung thực khi dùng AI.",
+    "Hoạt động mở đầu (5 phút): Mục tiêu: tạo nhu cầu sắp xếp, đặt tên dữ liệu dễ tìm.",
+    "Nội dung: HS vẽ sơ đồ cây thư mục lưu ảnh chuyến du lịch (Hoạt động 1, SGK tr.13). Sản phẩm: sơ đồ có phân cấp, tên dễ hiểu.",
+    "Tổ chức: (1) GV giao nhiệm vụ; (2) HS vẽ cá nhân rồi chia sẻ cặp đôi (Think–Pair–Share); (3) mời 2 HS báo cáo, cả lớp nhận xét; (4) GV chốt, dẫn vào bài."
+   ]
+  },
+  {
+   "q": "Câu 3 (2,0 điểm). Hãy đề xuất cách tích hợp năng lực AI vào bài học và giải quyết tình huống: bạn Lan hỏi chatbot 'đặt mật khẩu thế nào cho dễ nhớ' và chatbot trả lời nên dùng ngày sinh của mình.",
+   "a": [
+    "Tổ chức: GV hỏi chatbot về mật khẩu, HS đối chiếu với SGK tr.15 để kiểm chứng.",
+    "Nhận xét: lời khuyên dùng ngày sinh là sai vì ngày sinh dễ bị đoán, mật khẩu yếu.",
+    "Hậu quả nếu tin mà không kiểm chứng: bị lộ, mất tài khoản và dữ liệu.",
+    "Cách xử lí: đối chiếu SGK, hỏi thầy cô, dùng nguồn tin cậy; mật khẩu mạnh từ 8 kí tự có hoa, thường, số, kí hiệu.",
+    "Giáo dục: AI có thể sai nên phải xác thực kết quả (7.A1.2, 7.A1.MR1); không đưa mật khẩu thật cho chatbot."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,550 @@
+{
+ "id": "T7-B08",
+ "ten": "Bài 8. Công cụ hỗ trợ tính toán",
+ "tomtat": [
+  "**Hàm** trong bảng tính là **công thức được định nghĩa sẵn**, có **tên hàm**, giúp tính toán nhanh và chính xác hơn so với cộng, trừ từng ô.",
+  "**Cú pháp**: **=<tên hàm>(<các tham số>)**; luôn bắt đầu bằng dấu **=**, tham số nằm trong ngoặc tròn.",
+  "**Tham số** có thể là **số**, **địa chỉ ô** hoặc **vùng ô** (ví dụ D4:J4); các tham số cách nhau bằng dấu **phẩy (,)** hoặc **chấm phẩy (;)** tuỳ cài đặt máy.",
+  "**SUM** tính **tổng** các giá trị trong tham số, ví dụ =SUM(A1:A5).",
+  "**AVERAGE** tính **trung bình cộng**, ví dụ =AVERAGE(B2:B9).",
+  "**MAX** tìm **giá trị lớn nhất**; **MIN** tìm **giá trị nhỏ nhất** trong các tham số.",
+  "**COUNT** **đếm số ô chứa dữ liệu số** trong vùng; ô chứa chữ hoặc ô trống không được đếm.",
+  "Cách nhập: gõ trực tiếp vào ô hoặc thanh công thức; vùng ô có thể chọn bằng chuột thay vì gõ địa chỉ; nhấn **Enter** để nhận kết quả.",
+  "**Sao chép hàm** giống sao chép công thức: dùng **kéo ô điền (fill)** hoặc Copy/Paste, địa chỉ ô tự điều chỉnh theo vị trí mới.",
+  "**Thực hành Trường học xanh**: **K4 =SUM(D4:J4)** (tổng), **L4 =AVERAGE(D4:J4)** (trung bình), tổng theo lớp **D9 =SUM(D4:D8)**; sau đó kéo ô điền xuống.",
+  "Kết quả hàm **tự cập nhật** khi dữ liệu trong các ô tham chiếu thay đổi."
+ ],
+ "ynho": [
+  "Hàm = công thức định nghĩa sẵn, có tên",
+  "Cú pháp: =<tên hàm>(<tham số>)",
+  "5 hàm: SUM, AVERAGE, MAX, MIN, COUNT",
+  "COUNT chỉ đếm ô chứa số",
+  "Vùng ô liên tiếp dùng dấu hai chấm (:)"
+ ],
+ "bang": [
+  {
+   "tieu_de": "Bảng 5 hàm tính toán đơn giản (A1:A5 = 5, 8, 10, 7, 5)",
+   "cot": [
+    "Hàm",
+    "Chức năng",
+    "Ví dụ",
+    "Kết quả"
+   ],
+   "dong": [
+    [
+     "SUM",
+     "Tính tổng",
+     "=SUM(A1:A5)",
+     "35"
+    ],
+    [
+     "AVERAGE",
+     "Trung bình cộng",
+     "=AVERAGE(A1:A5)",
+     "7"
+    ],
+    [
+     "MAX",
+     "Giá trị lớn nhất",
+     "=MAX(A1:A5)",
+     "10"
+    ],
+    [
+     "MIN",
+     "Giá trị nhỏ nhất",
+     "=MIN(A1:A5)",
+     "5"
+    ],
+    [
+     "COUNT",
+     "Đếm ô chứa số",
+     "=COUNT(A1:A5)",
+     "5"
+    ]
+   ]
+  },
+  {
+   "tieu_de": "Phân biệt công thức thường và hàm",
+   "cot": [
+    "Tiêu chí",
+    "Công thức thường",
+    "Hàm"
+   ],
+   "dong": [
+    [
+     "Dạng",
+     "=A1+A2+A3+A4+A5",
+     "=SUM(A1:A5)"
+    ],
+    [
+     "Độ dài",
+     "Dài, dễ nhầm khi nhiều ô",
+     "Ngắn gọn, dùng vùng ô"
+    ],
+    [
+     "Dấu bắt đầu",
+     "=",
+     "="
+    ]
+   ]
+  }
+ ],
+ "vidu": [
+  {
+   "tinh_huong": "Bảng điểm: D4:J4 = 8, 7, 9, 6, 10, 8, 7. Tính tổng và trung bình ở K4, L4. Lời giải: K4 =SUM(D4:J4) = 55; L4 =AVERAGE(D4:J4) = 55/7 ≈ 7,86.",
+   "ket_luan": "→ Tổng dùng SUM, trung bình dùng AVERAGE, cùng vùng D4:J4."
+  },
+  {
+   "tinh_huong": "B1:B6 = 12, \"Hà\", 8, (trống), 20, 10. =COUNT(B1:B6) = ? =SUM(B1:B6) = ? Lời giải: COUNT = 4 (12, 8, 20, 10); SUM = 50; MAX = 20; MIN = 8.",
+   "ket_luan": "→ COUNT bỏ qua ô chữ và ô trống; SUM cũng bỏ qua ô chữ."
+  },
+  {
+   "tinh_huong": "Bảng chi tiêu gia đình tháng 1 gồm 4 khoản (ô C2:C5). Muốn biết tổng chi và khoản chi lớn nhất. Lời giải: =SUM(C2:C5) và =MAX(C2:C5).",
+   "ket_luan": "→ Chọn hàm theo yêu cầu: tổng → SUM; lớn nhất → MAX."
+  },
+  {
+   "tinh_huong": "Cột B4:B8 là 5 tên hoa (chữ). Chatbot nói =COUNT(B4:B8) cho kết quả 5. Kiểm chứng: COUNT chỉ đếm ô số nên kết quả là 0.",
+   "ket_luan": "→ AI có thể sai; luôn kiểm chứng bằng SGK hoặc thử trên máy."
+  }
+ ],
+ "nho": [
+  "5 hàm: SUM – AVERAGE – MAX – MIN – COUNT (Tổng, Trung bình, Max lớn, Min nhỏ, Count đếm SỐ).",
+  "Quy tắc 3 chữ: Dấu = – Tên hàm – (Tham số).",
+  "COUNT = đếm SỐ, không đếm CHỮ; hai chấm (:) = từ ... đến."
+ ],
+ "bay": [
+  "Quên dấu = đầu tiên: máy hiểu là văn bản, không tính.",
+  "COUNT không đếm ô chữ/ô trống: COUNT(5 tên) = 0.",
+  "Nhầm dấu : (vùng liên tiếp) với dấu ; hoặc , (liệt kê từng ô): SUM(D4;J4) chỉ cộng 2 ô.",
+  "Nhầm MAX/MIN, SUM/AVERAGE khi đọc nhanh yêu cầu."
+ ],
+ "giaoan": [
+  "**Mục tiêu** – Kiến thức: nêu hàm là công thức định nghĩa sẵn, cú pháp =<tên hàm>(<tham số>); giải thích chức năng SUM, AVERAGE, MAX, MIN, COUNT; sao chép hàm. Năng lực: tự chủ và tự học, giao tiếp và hợp tác; năng lực tin học NLa, NLc; năng lực số 3.1.TC1.a; năng lực AI 7.A1.2, 7.A1.MR1. Phẩm chất: chăm chỉ, cẩn thận khi chọn vùng dữ liệu; khoa học, trung thực khi xử lí số liệu.",
+  "**Chuẩn bị** – GV: kế hoạch bài dạy, máy tính, máy chiếu, tệp bảng điểm mẫu, phiếu học tập, thẻ Đúng/Sai; HS: SGK Tin học 7, vở ghi, ôn cách nhập công thức (Bài 7).",
+  "**Hoạt động 1 – Mở đầu (4 phút)** – Mục tiêu: gợi nhớ công thức, tạo nhu cầu học hàm. Nội dung: tính tổng 30 ô bằng cách cộng từng ô có tiện không? Sản phẩm: HS nêu cách này dài, dễ sai, cần cách nhanh hơn. Tổ chức: (1) GV chiếu bảng 30 số, giao nhiệm vụ; (2) HS suy nghĩ cá nhân, chia sẻ cặp đôi (Think–Pair–Share); (3) mời 2 cặp báo cáo; (4) GV nhận xét, dẫn vào bài.",
+  "**Hoạt động 2 – Hình thành kiến thức (21 phút)** – Mục tiêu: biết khái niệm, cú pháp hàm, chức năng 5 hàm, sao chép hàm. Nội dung: 2.1 hàm và cách nhập; 2.2 năm hàm; 2.3 thực hành K4, L4. Sản phẩm: vở ghi khái niệm, cú pháp, bảng 5 hàm, kết quả thực hành. Tổ chức: (1) GV giao nhiệm vụ, phát phiếu học tập (kĩ thuật mảnh ghép); (2) HS đọc SGK, nhập thử hàm trên máy theo nhóm/cặp; (3) đại diện nhóm báo cáo, lớp nhận xét; (4) GV chốt, nhấn mạnh dấu = và vùng dữ liệu đúng.",
+  "**Hoạt động 3 – Luyện tập (10 phút)** – Mục tiêu: củng cố chọn và nhập hàm đúng. Nội dung: bảng điểm mẫu, nhập hàm cho 5 yêu cầu (tổng, trung bình, cao nhất, thấp nhất, đếm). Sản phẩm: kết quả tính đúng trên máy. Tổ chức: (1) GV phát bảng điểm, giao 5 yêu cầu; (2) HS làm theo cặp, đối chiếu; (3) GV chiếu đáp án, HS giơ thẻ Đúng/Sai; (4) GV nhận xét, nhắc lỗi hay gặp.",
+  "**Hoạt động 4 – Vận dụng (10 phút)** – Mục tiêu: vận dụng hàm vào thực tế, kiểm chứng đầu ra AI. Nội dung: chọn hàm cho bảng chi tiêu gia đình; kiểm chứng câu trả lời chatbot về COUNT. Sản phẩm: chọn đúng SUM, AVERAGE; phát hiện COUNT(B4:B8) = 0. Tổ chức: (1) GV nêu tình huống, chiếu câu trả lời chatbot; (2) HS thử trên máy, đối chiếu SGK; (3) 2–3 HS báo cáo; (4) GV kết luận phải kiểm chứng kết quả AI.",
+  "**Kiểm tra đánh giá** – Hỏi đáp, quan sát thực hành, thẻ Đúng/Sai, sản phẩm bảng tính trên máy; tiêu chí: chọn đúng hàm, nhập đúng cú pháp, vùng ô đúng, kết quả chính xác. Dặn dò: hoàn thành Vận dụng, đọc Bài 9."
+ ],
+ "ai": [
+  "GV dùng chatbot để sinh bảng dữ liệu mẫu và gợi ý bài tập về 5 hàm, nhưng phải tự kiểm tra số liệu và đáp án trước khi đưa vào bài dạy.",
+  "HS hỏi chatbot về COUNT(B4:B8) với 5 tên hoa, rồi kiểm chứng bằng SGK và thử trên bảng tính: kết quả là 0, nhận ra AI có thể sai.",
+  "Đạo đức AI: nêu hậu quả khi dùng kết quả AI chưa xác thực (báo cáo, thống kê sai), trung thực nêu nguồn khi dùng AI hỗ trợ (7.A1.2, 7.A1.MR1)."
+ ],
+ "cauhoi": [
+  {
+   "t": "s",
+   "q": "Hàm trong bảng tính là gì?",
+   "o": [
+    "Một công thức được định nghĩa sẵn, có tên riêng",
+    "Một ô dữ liệu chứa văn bản",
+    "Một biểu đồ minh hoạ dữ liệu",
+    "Một địa chỉ ô trong trang tính"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Hàm là công thức tính toán được định nghĩa sẵn, có tên hàm.",
+   "r": "SGK Tin học 7 KNTT – Bài 8"
+  },
+  {
+   "t": "s",
+   "q": "Cú pháp tổng quát để nhập hàm vào ô tính là gì?",
+   "o": [
+    "<tên hàm>=(<tham số>)",
+    "(<tên hàm>)=<tham số>",
+    "=<tên hàm>(<các tham số>)",
+    "<tên hàm>(<tham số>)="
+   ],
+   "a": [
+    2
+   ],
+   "e": "Bẫy đổi thứ tự: dấu = phải gõ đầu tiên, sau đó tên hàm rồi tham số trong ngoặc.",
+   "r": "SGK Tin học 7 KNTT – Bài 8"
+  },
+  {
+   "t": "s",
+   "q": "Hàm nào dùng để tính trung bình cộng của các giá trị?",
+   "o": [
+    "SUM",
+    "AVERAGE",
+    "COUNT",
+    "MAX"
+   ],
+   "a": [
+    1
+   ],
+   "e": "AVERAGE là trung bình cộng; SUM là tổng (dễ nhầm).",
+   "r": "SGK Tin học 7 KNTT – Bài 8"
+  },
+  {
+   "t": "s",
+   "q": "Ô A1:A5 chứa 5, 8, 10, 7, 5. Kết quả của =MAX(A1:A5) là bao nhiêu?",
+   "o": [
+    "35",
+    "5",
+    "7",
+    "10"
+   ],
+   "a": [
+    3
+   ],
+   "e": "MAX là giá trị lớn nhất = 10; 35 là kết quả của SUM, 5 là của MIN.",
+   "r": "SGK Tin học 7 KNTT – Bài 8"
+  },
+  {
+   "t": "s",
+   "q": "Ô A1:A5 chứa 5, 8, 10, 7, 5. Kết quả của =AVERAGE(A1:A5) là bao nhiêu?",
+   "o": [
+    "7",
+    "8",
+    "35",
+    "5"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Tổng 35 chia 5 số = 7 (35 là kết quả SUM - bẫy).",
+   "r": "SGK Tin học 7 KNTT – Bài 8"
+  },
+  {
+   "t": "s",
+   "q": "Các ô B1:B6 chứa 12, chữ \"Hà\", 8, ô trống, 20, 10. Kết quả =COUNT(B1:B6) là bao nhiêu?",
+   "o": [
+    "6",
+    "5",
+    "3",
+    "4"
+   ],
+   "a": [
+    3
+   ],
+   "e": "COUNT chỉ đếm ô chứa số: 12, 8, 20, 10 = 4; bỏ qua ô chữ và ô trống.",
+   "r": "SGK Tin học 7 KNTT – Bài 8"
+  },
+  {
+   "t": "s",
+   "q": "Để tìm điểm thấp nhất của lớp trong vùng D4:D8, em nhập công thức nào?",
+   "o": [
+    "=MAX(D4:D8)",
+    "=MIN(D4:D8)",
+    "=SUM(D4:D8)",
+    "=COUNT(D4:D8)"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Thấp nhất → MIN; MAX là cao nhất (từ gần nghĩa đối lập).",
+   "r": "SGK Tin học 7 KNTT – Bài 8"
+  },
+  {
+   "t": "s",
+   "q": "Trong bài Thực hành \"Trường học xanh\", để tính tổng của hàng 4 từ cột D đến J tại ô K4, em nhập:",
+   "o": [
+    "=SUM(D4;J4)",
+    "=SUM(D4:J4)",
+    "=SUM(D4-J4)",
+    "=TOTAL(D4:J4)"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Vùng ô liên tiếp dùng dấu hai chấm D4:J4. SUM(D4;J4) chỉ cộng 2 ô D4 và J4.",
+   "r": "SGK Tin học 7 KNTT – Bài 8"
+  },
+  {
+   "t": "s",
+   "q": "Sau khi nhập hàm ở K4, muốn có kết quả cho các hàng còn lại em nên làm gì?",
+   "o": [
+    "Nhập lại từng hàm thủ công, không có cách nào khác",
+    "Sao chép ô K4 xuống các ô bên dưới (kéo ô điền)",
+    "Xoá cột rồi tạo lại bảng",
+    "Chỉ cần đổi màu ô"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Hàm có thể sao chép như công thức; địa chỉ ô tự điều chỉnh theo hàng.",
+   "r": "SGK Tin học 7 KNTT – Bài 8"
+  },
+  {
+   "t": "s",
+   "q": "Kết quả =SUM(A1:A3, 10) với A1=1, A2=2, A3=3 là bao nhiêu?",
+   "o": [
+    "6",
+    "16",
+    "10",
+    "60"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Tham số có thể là vùng ô và số: 1+2+3+10 = 16.",
+   "r": "SGK Tin học 7 KNTT – Bài 8"
+  },
+  {
+   "t": "m",
+   "q": "Những hàm nào sau đây có trong bài 8 (hàm tính toán đơn giản)?",
+   "o": [
+    "SUM",
+    "AVERAGE",
+    "COUNT",
+    "SORT"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "SORT không thuộc 5 hàm của bài (SUM, AVERAGE, MAX, MIN, COUNT).",
+   "r": "SGK Tin học 7 KNTT – Bài 8"
+  },
+  {
+   "t": "m",
+   "q": "Phát biểu nào đúng về tham số của hàm?",
+   "o": [
+    "Có thể là số",
+    "Có thể là địa chỉ ô",
+    "Có thể là vùng ô",
+    "Bắt buộc phải là chữ"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Tham số là số, địa chỉ ô hoặc vùng ô, không bắt buộc là chữ.",
+   "r": "SGK Tin học 7 KNTT – Bài 8"
+  },
+  {
+   "t": "m",
+   "q": "Với vùng A1:A4 = 4, 6, 10, chữ \"abc\", hàm nào cho kết quả đúng?",
+   "o": [
+    "=SUM(A1:A4) cho 20",
+    "=COUNT(A1:A4) cho 3",
+    "=MAX(A1:A4) cho 10",
+    "=COUNT(A1:A4) cho 4"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "COUNT chỉ đếm ô số nên = 3, không phải 4 (bẫy đếm cả ô chữ).",
+   "r": "SGK Tin học 7 KNTT – Bài 8"
+  },
+  {
+   "t": "m",
+   "q": "Khi dùng chatbot AI để hỏi về hàm bảng tính, em nên làm gì?",
+   "o": [
+    "Kiểm chứng kết quả bằng SGK hoặc thử trên bảng tính",
+    "Tin ngay vì AI luôn đúng",
+    "Đối chiếu với nguồn tin cậy",
+    "Không cần kiểm tra nếu câu trả lời dài"
+   ],
+   "a": [
+    0,
+    2
+   ],
+   "e": "AI có thể sai; phải xác thực kết quả trước khi dùng.",
+   "r": "SGK Tin học 7 KNTT – Bài 8"
+  },
+  {
+   "t": "f",
+   "q": "Hàm ____ dùng để tính tổng; hàm ____ dùng để đếm số ô chứa số.",
+   "a": [
+    [
+     "SUM"
+    ],
+    [
+     "COUNT"
+    ]
+   ],
+   "o": [
+    [
+     "SUM",
+     "COUNT"
+    ],
+    [
+     "COUNT",
+     "SUM"
+    ],
+    [
+     "AVERAGE",
+     "COUNT"
+    ],
+    [
+     "SUM",
+     "MAX"
+    ]
+   ],
+   "k": 0,
+   "e": "Đổi chỗ SUM/COUNT là bẫy đổi chức năng.",
+   "r": "SGK Tin học 7 KNTT – Bài 8"
+  },
+  {
+   "t": "f",
+   "q": "Hàm ____ cho giá trị lớn nhất, còn hàm ____ cho giá trị nhỏ nhất.",
+   "a": [
+    [
+     "MAX"
+    ],
+    [
+     "MIN"
+    ]
+   ],
+   "o": [
+    [
+     "MIN",
+     "MAX"
+    ],
+    [
+     "MAX",
+     "SUM"
+    ],
+    [
+     "AVERAGE",
+     "MIN"
+    ],
+    [
+     "MAX",
+     "MIN"
+    ]
+   ],
+   "k": 3,
+   "e": "MAX = lớn nhất, MIN = nhỏ nhất.",
+   "r": "SGK Tin học 7 KNTT – Bài 8"
+  },
+  {
+   "t": "f",
+   "q": "Khi nhập hàm, ký tự đầu tiên phải là dấu ____, các tham số cách nhau bởi dấu ____ hoặc dấu chấm phẩy.",
+   "a": [
+    [
+     "=",
+     "bằng"
+    ],
+    [
+     "phẩy",
+     ","
+    ]
+   ],
+   "o": [
+    [
+     "=",
+     "phẩy"
+    ],
+    [
+     "+",
+     "phẩy"
+    ],
+    [
+     "=",
+     "hai chấm"
+    ],
+    [
+     "#",
+     "phẩy"
+    ]
+   ],
+   "k": 0,
+   "e": "Hàm bắt đầu bằng dấu =; tham số cách nhau dấu phẩy hoặc chấm phẩy.",
+   "r": "SGK Tin học 7 KNTT – Bài 8"
+  },
+  {
+   "t": "f",
+   "q": "Vùng ô liên tiếp từ D4 đến J4 viết là ____; công thức tính trung bình là =____(D4:J4).",
+   "a": [
+    [
+     "D4:J4"
+    ],
+    [
+     "AVERAGE"
+    ]
+   ],
+   "o": [
+    [
+     "D4;J4",
+     "AVERAGE"
+    ],
+    [
+     "D4:J4",
+     "SUM"
+    ],
+    [
+     "D4:J4",
+     "AVERAGE"
+    ],
+    [
+     "D4-J4",
+     "MAX"
+    ]
+   ],
+   "k": 2,
+   "e": "Dấu : biểu diễn vùng ô liên tiếp; AVERAGE là trung bình.",
+   "r": "SGK Tin học 7 KNTT – Bài 8"
+  },
+  {
+   "t": "f",
+   "q": "Hàm là công thức được ____ sẵn; muốn sao chép hàm xuống các ô dưới ta dùng thao tác kéo ô ____.",
+   "a": [
+    [
+     "định nghĩa"
+    ],
+    [
+     "điền",
+     "fill"
+    ]
+   ],
+   "o": [
+    [
+     "nhập tay",
+     "điền"
+    ],
+    [
+     "định nghĩa",
+     "điền"
+    ],
+    [
+     "định nghĩa",
+     "xoá"
+    ],
+    [
+     "tính",
+     "màu"
+    ]
+   ],
+   "k": 1,
+   "e": "Hàm được định nghĩa sẵn; sao chép bằng kéo ô điền (fill).",
+   "r": "SGK Tin học 7 KNTT – Bài 8"
+  }
+ ],
+ "tuluan": [
+  {
+   "q": "Câu 1 (3 điểm). Nêu khái niệm hàm và cú pháp nhập hàm trong bảng tính. Trình bày chức năng của 5 hàm SUM, AVERAGE, MAX, MIN, COUNT và cho ví dụ với vùng A1:A5 = 5, 8, 10, 7, 5.",
+   "a": [
+    "Hàm là công thức được định nghĩa sẵn, có tên hàm; cú pháp =<tên hàm>(<các tham số>); tham số là số, địa chỉ ô hoặc vùng ô.",
+    "SUM tổng = 35; AVERAGE trung bình = 7; MAX lớn nhất = 10; MIN nhỏ nhất = 5; COUNT đếm ô chứa số = 5.",
+    "Lưu ý COUNT chỉ đếm ô số, bỏ qua ô chữ và ô trống."
+   ]
+  },
+  {
+   "q": "Câu 2 (3 điểm). Nêu mục tiêu bài học \"Công cụ hỗ trợ tính toán\" (Tin học 7, KNTT) theo chương trình 2018.",
+   "a": [
+    "Kiến thức: nêu được hàm là công thức có sẵn, cú pháp; giải thích chức năng SUM, AVERAGE, MAX, MIN, COUNT; sử dụng hàm để tính toán dữ liệu.",
+    "Năng lực: tự chủ và tự học, giao tiếp và hợp tác; năng lực tin học (nhập, dùng hàm xử lí dữ liệu thực tế); năng lực số 3.1.TC1.a; năng lực AI 7.A1.2, 7.A1.MR1.",
+    "Phẩm chất: chăm chỉ, cẩn thận khi chọn vùng dữ liệu; trung thực, khách quan khi xử lí số liệu và dùng AI."
+   ]
+  },
+  {
+   "q": "Câu 3 (4 điểm). Thiết kế một hoạt động vận dụng tích hợp năng lực AI cho bài này, nêu cách kiểm chứng và hậu quả nếu không kiểm chứng.",
+   "a": [
+    "Mục tiêu: HS chọn hàm thích hợp và kiểm chứng đầu ra AI.",
+    "Nội dung: GV hỏi chatbot \"COUNT(B4:B8) với 5 tên hoa cho kết quả mấy?\", chatbot trả lời sai là 5.",
+    "Tổ chức: HS thử trên bảng tính, đối chiếu SGK; kết quả đúng là 0 vì COUNT chỉ đếm ô số.",
+    "Sản phẩm: HS giải thích đúng và nêu hậu quả khi không kiểm chứng: báo cáo, thống kê sai.",
+    "Kết luận: AI chỉ hỗ trợ; phải xác thực và trung thực khi dùng."
+   ]
+  }
+ ]
+}

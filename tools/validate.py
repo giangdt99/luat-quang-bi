@@ -1,7 +1,7 @@
 import json,sys,glob,re,os
 def norm(s): return re.sub(r'\s+',' ',s.strip().lower())
 base=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','data','json')
-files=sys.argv[1:] or sorted(glob.glob(base+'/L*.json'))
+files=sys.argv[1:] or sorted(glob.glob(base+'/[LC]*.json'))
 bad=0
 for f in files:
     d=json.load(open(f,encoding='utf8')); n=0; types={'s':0,'m':0,'f':0}

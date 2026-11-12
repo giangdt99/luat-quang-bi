@@ -1,0 +1,5974 @@
+{
+ "id": "CM7",
+ "ten": "Chuyên môn Tin học 7",
+ "so": "Chương trình môn Tin học 2018 – SGK Kết nối tri thức với cuộc sống",
+ "hieuluc": "",
+ "mota": "10 bài trong giới hạn thi: kiến thức, ví dụ, mẹo nhớ, khung giáo án, tích hợp AI, câu trắc nghiệm và tự luận.",
+ "baihoc": [
+  {
+   "id": "T7-B02",
+   "ten": "Bài 2. Phần mềm máy tính",
+   "tomtat": [
+    "**Phần cứng** là các thiết bị vật lí; **phần mềm** là các chương trình điều khiển máy tính hoạt động. Phần mềm chia hai loại chính: **phần mềm hệ thống** và **phần mềm ứng dụng**.",
+    "**Hệ điều hành** là **phần mềm hệ thống** điều khiển, quản lí máy tính và tạo môi trường chạy phần mềm ứng dụng.",
+    "**Không có hệ điều hành**, máy tính **không hoạt động** được; hệ điều hành được cài **đầu tiên**.",
+    "Hệ điều hành có **3 chức năng**: (1) **quản lí, điều khiển thiết bị và dữ liệu**; (2) **tạo giao diện người dùng – máy tính**; (3) **tạo môi trường chạy phần mềm ứng dụng**.",
+    "Hệ điều hành cho **máy tính**: **Windows, Mac OS, Linux**; cho **điện thoại**: **iOS, Android**.",
+    "**Phần mềm ứng dụng** là chương trình thực hiện một **công việc cụ thể** của người dùng, như soạn thảo (Word), vẽ (Paint), lập trình (Scratch).",
+    "Phần mềm ứng dụng **chạy trên hệ điều hành** và **tương tác với phần cứng qua hệ điều hành**.",
+    "**Phần mở rộng** là phần sau **dấu chấm cuối cùng** của tên tệp, cho biết **loại tệp** và phần mềm có thể mở/xử lí tệp, ví dụ **.docx – Word**, **.png – ảnh**, **.sb3 – Scratch**.",
+    "**Phân biệt**: hệ điều hành tương tác **trực tiếp** với phần cứng; phần mềm ứng dụng phục vụ **nhu cầu cụ thể** và cần hệ điều hành.",
+    "Mỗi phần mềm ứng dụng thường có **bản cài riêng cho từng hệ điều hành**; cần dùng **phần mềm hợp pháp**, tôn trọng bản quyền.",
+    "Khi dùng **chatbot AI** hỏi về phần mềm, phải **kiểm chứng** bằng SGK/thầy cô vì AI có thể trả lời sai."
+   ],
+   "ynho": [
+    "Hệ điều hành là phần mềm hệ thống",
+    "3 chức năng: quản lí, giao diện, môi trường chạy ứng dụng",
+    "Windows, Mac OS, Linux; iOS, Android",
+    "Phần mềm ứng dụng chạy trên hệ điều hành",
+    "Phần mở rộng: sau dấu chấm cuối, cho biết loại tệp"
+   ],
+   "bang": [
+    {
+     "tieu_de": "Hệ điều hành và phần mềm ứng dụng (Bảng 2.1)",
+     "cot": [
+      "Tiêu chí",
+      "Hệ điều hành",
+      "Phần mềm ứng dụng"
+     ],
+     "dong": [
+      [
+       "Loại",
+       "Phần mềm hệ thống",
+       "Phần mềm ứng dụng"
+      ],
+      [
+       "Mục đích",
+       "Điều khiển, quản lí máy tính; tạo môi trường chạy ứng dụng",
+       "Thực hiện công việc cụ thể của người dùng"
+      ],
+      [
+       "Tương tác phần cứng",
+       "Trực tiếp",
+       "Thông qua hệ điều hành"
+      ],
+      [
+       "Thứ tự cài",
+       "Cài đầu tiên",
+       "Cài sau"
+      ],
+      [
+       "Ví dụ",
+       "Windows, Mac OS, Linux, iOS, Android",
+       "Word, Paint, Scratch"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Phần mở rộng tên tệp thường gặp",
+     "cot": [
+      "Phần mở rộng",
+      "Loại tệp",
+      "Phần mềm"
+     ],
+     "dong": [
+      [
+       ".docx",
+       "Văn bản",
+       "Word"
+      ],
+      [
+       ".png",
+       "Hình ảnh",
+       "Paint, phần mềm xem ảnh"
+      ],
+      [
+       ".sb3",
+       "Chương trình",
+       "Scratch"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Nhấn phím A trên bàn phím, chữ A hiện trong Word. Ai điều phối: bàn phím gửi tín hiệu, hệ điều hành nhận và chuyển cho Word, Word hiển thị.",
+     "ket_luan": "→ Hệ điều hành quản lí, điều khiển thiết bị và dữ liệu (chức năng 1)."
+    },
+    {
+     "tinh_huong": "Phân loại: Windows, Word, Android, Paint, Linux, Scratch.",
+     "ket_luan": "→ Hệ điều hành: Windows, Android, Linux; phần mềm ứng dụng: Word, Paint, Scratch."
+    },
+    {
+     "tinh_huong": "Tệp BaiTap.docx, AnhLop.png, TroChoi.sb3 – nhìn phần sau dấu chấm cuối.",
+     "ket_luan": "→ Lần lượt là tệp Word, ảnh, Scratch."
+    },
+    {
+     "tinh_huong": "Bản Scratch cài cho Windows có chạy được trên máy dùng Mac OS không? Chọn bản đúng với hệ điều hành.",
+     "ket_luan": "→ Không; mỗi hệ điều hành cần bản phần mềm ứng dụng riêng, vì ứng dụng chạy trên hệ điều hành."
+    }
+   ],
+   "nho": [
+    "Hệ điều hành = 'quản lí trưởng': Quản lí – Giao diện – Môi trường chạy (QGM).",
+    "Máy tính: Win–Mac–Linux; Điện thoại: iOS–Android.",
+    "Phần mở rộng: nhìn đuôi sau dấu chấm CUỐI."
+   ],
+   "bay": [
+    "Word, Paint, Windows Explorer không phải hệ điều hành.",
+    "iOS, Android chạy trên điện thoại vẫn là hệ điều hành chứ không phải phần mềm ứng dụng.",
+    "Tên tệp có nhiều dấu chấm: lấy phần sau dấu chấm cuối cùng.",
+    "Phần mềm ứng dụng không điều khiển trực tiếp phần cứng, mà qua hệ điều hành."
+   ],
+   "giaoan": [
+    "**Mục tiêu** – Kiến thức: nêu khái niệm, 3 chức năng hệ điều hành, kể tên hệ điều hành; nêu khái niệm, ví dụ phần mềm ứng dụng; giải thích phần mở rộng; phân biệt hai loại phần mềm. Năng lực: tự chủ và tự học, giao tiếp và hợp tác, giải quyết vấn đề; NLa, NLb; kiểm chứng thông tin AI. Phẩm chất: chăm chỉ, trung thực, trách nhiệm khi dùng phần mềm và AI.",
+    "**Chuẩn bị** – GV: kế hoạch bài dạy, máy tính, máy chiếu, internet, chatbot AI, phiếu học tập. HS: SGK Tin học 7, vở ghi, bút.",
+    "**Hoạt động 1 – Mở đầu** – Mục tiêu: tạo nhu cầu tìm hiểu hệ điều hành. Nội dung: Hoạt động 1 SGK tr.10, chọn 3 việc điều hành của nhóm bạn An. Sản phẩm: chọn b, d, f. Tổ chức: (1) GV chiếu tình huống, giao nhiệm vụ; (2) HS suy nghĩ cá nhân, chia sẻ cặp (Think – Pair – Share); (3) mời 2 cặp báo cáo; (4) GV nhận xét, dẫn vào bài.",
+    "**Hoạt động 2 – Hình thành kiến thức** – Mục tiêu: nêu khái niệm, chức năng hệ điều hành, phần mềm ứng dụng, phần mở rộng, phân biệt. Nội dung: 2.1 Hệ điều hành; 2.2 Phần mềm ứng dụng và phần mở rộng; 2.3 Phân biệt (Bảng 2.1). Sản phẩm: phiếu học tập, sơ đồ 3 chức năng, bảng so sánh. Tổ chức: (1) GV giao đọc SGK, chia nhóm 4, phát phiếu; (2) nhóm thảo luận, khăn trải bàn, vẽ sơ đồ; (3) nhóm báo cáo; (4) GV chốt theo hộp Ghi nhớ.",
+    "**Hoạt động 3 – Luyện tập** – Mục tiêu: củng cố chức năng, phân loại phần mềm, nhận biết loại tệp. Nội dung: câu hỏi SGK tr.11, 12, Luyện tập 1, giơ thẻ Đúng – Sai, ghép tệp – phần mềm. Sản phẩm: đáp án đúng, bảng con. Tổ chức: (1) GV giao nhiệm vụ, luật chơi; (2) HS làm cá nhân, giơ thẻ; (3) báo cáo, giải thích; (4) GV nhận xét, chốt.",
+    "**Hoạt động 4 – Vận dụng** – Mục tiêu: vận dụng, kiểm chứng đầu ra của AI. Nội dung: hỏi chatbot 'Windows Explorer có phải hệ điều hành không?', HS đối chiếu SGK; làm Vận dụng tr.12 (chọn bản Scratch theo hệ điều hành). Sản phẩm: nhận xét về độ tin cậy, giải thích. Tổ chức: (1) GV thao tác chatbot, giao nhiệm vụ; (2) HS đối chiếu SGK, thảo luận cặp; (3) 3 HS báo cáo; (4) GV kết luận: luôn kiểm chứng AI.",
+    "**Kiểm tra đánh giá** – Quan sát, hỏi đáp; đánh giá phiếu học tập, sản phẩm sơ đồ, bảng; trò chơi giơ thẻ; phiếu tiêu chí cho hoạt động AI; GV nhận xét, tự đánh giá của HS; dặn học ghi nhớ, đọc trước Bài 3."
+   ],
+   "ai": [
+    "GV dùng chatbot AI để gợi ý tình huống, câu hỏi Đúng – Sai, bài tập ghép tệp – phần mềm; GV rà soát, chỉnh sửa trước khi dùng.",
+    "HS hỏi chatbot 'Windows Explorer có phải hệ điều hành không?', đối chiếu hộp Ghi nhớ SGK tr.11 để kiểm chứng; nêu hậu quả khi không kiểm chứng: học sai, nhầm loại phần mềm (7.A1.MR1, 7.A1.2).",
+    "Đạo đức AI: trung thực, khai báo khi dùng AI hỗ trợ học tập; không sao chép nguyên văn; dùng phần mềm hợp pháp."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Hệ điều hành là loại phần mềm nào?",
+     "o": [
+      "Phần mềm ứng dụng",
+      "Phần mềm hệ thống",
+      "Phần mềm soạn thảo",
+      "Phần mềm trò chơi"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Hệ điều hành là phần mềm hệ thống. Bẫy: nhầm với phần mềm ứng dụng.",
+     "r": "SGK Tin học 7 KNTT – Bài 2"
+    },
+    {
+     "t": "s",
+     "q": "Chức năng nào sau đây KHÔNG phải chức năng của hệ điều hành?",
+     "o": [
+      "Quản lí, điều khiển thiết bị và dữ liệu",
+      "Tạo giao diện giữa người dùng và máy tính",
+      "Soạn thảo và định dạng văn bản",
+      "Tạo môi trường để phần mềm ứng dụng chạy"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Soạn thảo văn bản là việc của phần mềm ứng dụng (Word), không phải của hệ điều hành.",
+     "r": "SGK Tin học 7 KNTT – Bài 2"
+    },
+    {
+     "t": "s",
+     "q": "Hệ điều hành nào sau đây thường dùng trên điện thoại thông minh?",
+     "o": [
+      "Windows",
+      "Linux",
+      "Android",
+      "Paint"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Android và iOS dùng cho điện thoại; Paint là phần mềm ứng dụng.",
+     "r": "SGK Tin học 7 KNTT – Bài 2"
+    },
+    {
+     "t": "s",
+     "q": "Phần mềm nào sau đây là phần mềm ứng dụng?",
+     "o": [
+      "Windows",
+      "Linux",
+      "Android",
+      "Scratch"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Scratch là phần mềm ứng dụng (lập trình trực quan); còn lại là hệ điều hành.",
+     "r": "SGK Tin học 7 KNTT – Bài 2"
+    },
+    {
+     "t": "s",
+     "q": "Tệp có tên BaoCao.docx thường được mở bằng phần mềm nào?",
+     "o": [
+      "Microsoft Word",
+      "Paint",
+      "Scratch",
+      "Windows"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Phần mở rộng .docx cho biết tệp văn bản Word. Bẫy: Windows là hệ điều hành, không dùng để 'mở' tệp theo nghĩa này.",
+     "r": "SGK Tin học 7 KNTT – Bài 2"
+    },
+    {
+     "t": "s",
+     "q": "Trong tên tệp AnhLop.7A.png, phần mở rộng là gì?",
+     "o": [
+      "AnhLop",
+      "7A",
+      "AnhLop.7A",
+      "png"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Phần mở rộng là phần sau dấu chấm CUỐI CÙNG: png. Bẫy: có nhiều dấu chấm.",
+     "r": "SGK Tin học 7 KNTT – Bài 2"
+    },
+    {
+     "t": "s",
+     "q": "Khi nhấn một phím trên bàn phím, chữ hiện lên màn hình. Thành phần nào chịu trách nhiệm điều phối việc này trước hết?",
+     "o": [
+      "Hệ điều hành",
+      "Phần mềm trò chơi",
+      "Chuột",
+      "Màn hình"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Hệ điều hành quản lí, điều khiển thiết bị và dữ liệu.",
+     "r": "SGK Tin học 7 KNTT – Bài 2"
+    },
+    {
+     "t": "s",
+     "q": "Phát biểu nào đúng về mối quan hệ giữa hệ điều hành và phần mềm ứng dụng?",
+     "o": [
+      "Phần mềm ứng dụng chạy trên nền hệ điều hành",
+      "Hệ điều hành chạy trên nền phần mềm ứng dụng",
+      "Hai loại hoạt động hoàn toàn độc lập",
+      "Phần mềm ứng dụng điều khiển trực tiếp phần cứng"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Phần mềm ứng dụng cần hệ điều hành tạo môi trường để chạy. Bẫy: đảo ngược quan hệ.",
+     "r": "SGK Tin học 7 KNTT – Bài 2"
+    },
+    {
+     "t": "s",
+     "q": "Một bạn nhờ chatbot AI và nhận câu trả lời 'Windows Explorer là hệ điều hành'. Em nên làm gì?",
+     "o": [
+      "Chép ngay vào vở vì AI luôn đúng",
+      "Đối chiếu SGK hoặc hỏi thầy cô để kiểm chứng",
+      "Bỏ qua mọi thông tin AI đưa ra",
+      "Hỏi lại AI đến khi nó đồng ý"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Luôn kiểm chứng đầu ra của AI bằng nguồn tin cậy; Windows Explorer là công cụ quản lí tệp.",
+     "r": "SGK Tin học 7 KNTT – Bài 2"
+    },
+    {
+     "t": "s",
+     "q": "Điều gì xảy ra nếu máy tính không có hệ điều hành?",
+     "o": [
+      "Máy tính chạy nhanh hơn",
+      "Máy tính vẫn dùng bình thường",
+      "Máy tính không hoạt động được",
+      "Chỉ không chơi được trò chơi"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Theo SGK, không có hệ điều hành máy tính không hoạt động.",
+     "r": "SGK Tin học 7 KNTT – Bài 2"
+    },
+    {
+     "t": "m",
+     "q": "Những phần mềm nào sau đây là hệ điều hành?",
+     "o": [
+      "Windows",
+      "Word",
+      "Linux",
+      "Mac OS"
+     ],
+     "a": [
+      0,
+      2,
+      3
+     ],
+     "e": "Word là phần mềm ứng dụng.",
+     "r": "SGK Tin học 7 KNTT – Bài 2"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các chức năng của hệ điều hành.",
+     "o": [
+      "Quản lí thiết bị và dữ liệu",
+      "Tạo giao diện người dùng",
+      "Chỉnh sửa ảnh chuyên nghiệp",
+      "Tạo môi trường chạy phần mềm ứng dụng"
+     ],
+     "a": [
+      0,
+      1,
+      3
+     ],
+     "e": "Chỉnh sửa ảnh là việc của phần mềm ứng dụng.",
+     "r": "SGK Tin học 7 KNTT – Bài 2"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các phần mềm ứng dụng.",
+     "o": [
+      "Paint",
+      "Scratch",
+      "iOS",
+      "Android"
+     ],
+     "a": [
+      0,
+      1
+     ],
+     "e": "iOS, Android là hệ điều hành trên điện thoại. Bẫy: nhầm vì chạy trên điện thoại.",
+     "r": "SGK Tin học 7 KNTT – Bài 2"
+    },
+    {
+     "t": "m",
+     "q": "Phát biểu nào sau đây đúng?",
+     "o": [
+      "Phần mở rộng cho biết loại tệp",
+      "Mỗi hệ điều hành cần bản phần mềm ứng dụng phù hợp",
+      "Phần mềm ứng dụng cài trước hệ điều hành",
+      "Hệ điều hành là phần mềm hệ thống"
+     ],
+     "a": [
+      0,
+      1,
+      3
+     ],
+     "e": "Hệ điều hành được cài đầu tiên, rồi mới cài phần mềm ứng dụng.",
+     "r": "SGK Tin học 7 KNTT – Bài 2"
+    },
+    {
+     "t": "f",
+     "q": "Hệ điều hành là phần mềm ____ , còn Word, Paint là phần mềm ____ .",
+     "a": [
+      [
+       "hệ thống"
+      ],
+      [
+       "ứng dụng"
+      ]
+     ],
+     "o": [
+      [
+       "ứng dụng",
+       "hệ thống"
+      ],
+      [
+       "trò chơi",
+       "soạn thảo"
+      ],
+      [
+       "hệ thống",
+       "ứng dụng"
+      ],
+      [
+       "ứng dụng",
+       "ứng dụng"
+      ]
+     ],
+     "k": 2,
+     "e": "Bẫy: đảo thứ tự hai loại phần mềm.",
+     "r": "SGK Tin học 7 KNTT – Bài 2"
+    },
+    {
+     "t": "f",
+     "q": "Phần mở rộng là phần sau dấu chấm ____ của tên tệp, cho biết ____ .",
+     "a": [
+      [
+       "cuối cùng"
+      ],
+      [
+       "loại tệp"
+      ]
+     ],
+     "o": [
+      [
+       "cuối cùng",
+       "loại tệp"
+      ],
+      [
+       "đầu tiên",
+       "loại tệp"
+      ],
+      [
+       "cuối cùng",
+       "dung lượng tệp"
+      ],
+      [
+       "đầu tiên",
+       "ngày tạo"
+      ]
+     ],
+     "k": 0,
+     "e": "Bẫy: dấu chấm đầu hay cuối; loại tệp chứ không phải dung lượng.",
+     "r": "SGK Tin học 7 KNTT – Bài 2"
+    },
+    {
+     "t": "f",
+     "q": "Windows, Mac OS, Linux dùng cho ____ ; iOS, Android dùng cho ____ .",
+     "a": [
+      [
+       "máy tính"
+      ],
+      [
+       "điện thoại"
+      ]
+     ],
+     "o": [
+      [
+       "điện thoại",
+       "máy tính"
+      ],
+      [
+       "máy tính",
+       "điện thoại"
+      ],
+      [
+       "máy in",
+       "máy tính"
+      ],
+      [
+       "máy tính",
+       "máy in"
+      ]
+     ],
+     "k": 1,
+     "e": "Bẫy: đảo nhóm thiết bị.",
+     "r": "SGK Tin học 7 KNTT – Bài 2"
+    },
+    {
+     "t": "f",
+     "q": "Phần mềm ứng dụng chạy trên ____ và tương tác với phần cứng thông qua ____ .",
+     "a": [
+      [
+       "hệ điều hành"
+      ],
+      [
+       "hệ điều hành"
+      ]
+     ],
+     "o": [
+      [
+       "phần cứng",
+       "phần cứng"
+      ],
+      [
+       "hệ điều hành",
+       "phần cứng"
+      ],
+      [
+       "phần mềm ứng dụng",
+       "phần mềm ứng dụng"
+      ],
+      [
+       "hệ điều hành",
+       "hệ điều hành"
+      ]
+     ],
+     "k": 3,
+     "e": "Phần mềm ứng dụng không điều khiển trực tiếp phần cứng mà qua hệ điều hành.",
+     "r": "SGK Tin học 7 KNTT – Bài 2"
+    },
+    {
+     "t": "f",
+     "q": "Tệp có phần mở rộng .sb3 là tệp của phần mềm ____ , còn .png là tệp ____ .",
+     "a": [
+      [
+       "Scratch"
+      ],
+      [
+       "hình ảnh"
+      ]
+     ],
+     "o": [
+      [
+       "Word",
+       "hình ảnh"
+      ],
+      [
+       "Scratch",
+       "văn bản"
+      ],
+      [
+       "Scratch",
+       "hình ảnh"
+      ],
+      [
+       "Paint",
+       "âm thanh"
+      ]
+     ],
+     "k": 2,
+     "e": "Bẫy: đổi 1 chữ ở cả hai chỗ.",
+     "r": "SGK Tin học 7 KNTT – Bài 2"
+    },
+    {
+     "t": "f",
+     "q": "Chức năng của hệ điều hành gồm: quản lí thiết bị và ____ ; tạo ____ người dùng; tạo môi trường chạy phần mềm ứng dụng.",
+     "a": [
+      [
+       "dữ liệu"
+      ],
+      [
+       "giao diện"
+      ]
+     ],
+     "o": [
+      [
+       "phần mềm",
+       "đồ hoạ"
+      ],
+      [
+       "dữ liệu",
+       "giao diện"
+      ],
+      [
+       "dữ liệu",
+       "đồ hoạ"
+      ],
+      [
+       "phần mềm",
+       "giao diện"
+      ]
+     ],
+     "k": 1,
+     "e": "Bẫy: đổi một từ trong hai chỗ trống.",
+     "r": "SGK Tin học 7 KNTT – Bài 2"
+    }
+   ],
+   "tuluan": [
+    {
+     "q": "Câu 1 (2 điểm). Trình bày khái niệm hệ điều hành, các chức năng chính và phân biệt hệ điều hành với phần mềm ứng dụng; cho ví dụ.",
+     "a": [
+      "Hệ điều hành là phần mềm hệ thống, điều khiển, quản lí máy tính và tạo môi trường chạy phần mềm ứng dụng; không có hệ điều hành máy tính không hoạt động.",
+      "3 chức năng: (1) quản lí, điều khiển thiết bị và dữ liệu; (2) tạo giao diện giữa người dùng và máy tính; (3) tạo môi trường chạy phần mềm ứng dụng.",
+      "Ví dụ: Windows, Mac OS, Linux (máy tính); iOS, Android (điện thoại).",
+      "Phần mềm ứng dụng: chương trình thực hiện công việc cụ thể (Word, Paint, Scratch), chạy trên hệ điều hành và tương tác với phần cứng qua hệ điều hành.",
+      "Phân biệt: hệ điều hành cài đầu tiên, tương tác trực tiếp với phần cứng, nền tảng cho ứng dụng; phần mềm ứng dụng cài sau, phục vụ nhu cầu cụ thể của người dùng."
+     ]
+    },
+    {
+     "q": "Câu 2 (2 điểm). Nêu mục tiêu bài 'Phần mềm máy tính' (Tin học 7) theo Chương trình GDPT 2018.",
+     "a": [
+      "Kiến thức: nêu được khái niệm, chức năng của hệ điều hành; kể tên một số hệ điều hành; nêu khái niệm, ví dụ phần mềm ứng dụng; giải thích phần mở rộng cho biết loại tệp; phân biệt hệ điều hành với phần mềm ứng dụng.",
+      "Năng lực chung: tự chủ và tự học khi đọc SGK; giao tiếp và hợp tác khi thảo luận nhóm; giải quyết vấn đề khi phân loại phần mềm.",
+      "Năng lực tin học: NLa – hiểu vai trò hệ điều hành, phân biệt các loại phần mềm; NLb – sử dụng phần mềm hợp pháp, phù hợp hệ điều hành.",
+      "Phẩm chất: chăm chỉ, trung thực; có trách nhiệm khi dùng phần mềm và AI.",
+      "Có thể nêu thêm năng lực số/AI: kiểm chứng thông tin AI cung cấp bằng nguồn đáng tin cậy."
+     ]
+    },
+    {
+     "q": "Câu 3 (2 điểm). Thiết kế hoạt động Vận dụng có tích hợp AI cho bài này; nêu sản phẩm và cách đánh giá.",
+     "a": [
+      "Mục tiêu: HS vận dụng kiến thức phân biệt hệ điều hành – phần mềm ứng dụng; kiểm chứng đầu ra của AI, nêu hậu quả khi không kiểm chứng.",
+      "Nội dung: GV hỏi chatbot 'Windows Explorer có phải hệ điều hành không? Kể 3 hệ điều hành thông dụng', chiếu kết quả; HS đối chiếu hộp Ghi nhớ SGK, thảo luận độ tin cậy; làm câu Vận dụng: vì sao chọn bản Scratch đúng hệ điều hành.",
+      "Tổ chức 4 bước: giao nhiệm vụ; HS suy nghĩ, thảo luận cặp (Think – Pair – Share); báo cáo 3 HS; GV nhận xét, kết luận.",
+      "Sản phẩm: nhận xét chỉ ra chỗ AI đúng/sai, nguồn kiểm chứng; giải thích mỗi hệ điều hành cần bản cài riêng.",
+      "Đánh giá: quan sát, hỏi đáp, phiếu/thang tiêu chí (đối chiếu nguồn, giải thích đúng); nhấn mạnh trách nhiệm khai báo khi dùng AI."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T7-B03",
+   "ten": "Bài 3. Quản lí dữ liệu trong máy tính",
+   "tomtat": [
+    "**Tệp chương trình cũng là dữ liệu**: chương trình được lưu trong máy như tệp dữ liệu, thường có đuôi **.exe, .com, .bat, .msi**.",
+    "**Đặt tên tệp, thư mục**: nên **ngắn gọn, dễ nhớ, gợi ra nội dung** (vd: DuLich_NhaTrang) để dễ tìm kiếm.",
+    "**Cây thư mục** tổ chức dữ liệu **phân cấp**: thư mục chứa tệp và thư mục con, giúp lưu trữ khoa học, dễ tìm.",
+    "**Sao lưu dữ liệu** là tạo **bản sao** lưu ở nơi/thiết bị khác để khôi phục khi bản gốc bị mất, hỏng.",
+    "**Sao lưu cục bộ**: dùng **USB, ổ cứng ngoài**; **sao lưu từ xa**: dùng dịch vụ **đám mây** qua Internet (Bảng 3.1 về thiết bị lưu trữ).",
+    "**Mật khẩu mạnh**: từ **8 kí tự** trở lên, gồm **chữ hoa, chữ thường, chữ số, kí hiệu**; không dùng tên, ngày sinh; giữ bí mật.",
+    "**Phần mềm chống virus** phát hiện, diệt phần mềm độc hại; cần **luôn bật** và **thường xuyên cập nhật**.",
+    "**Tạo thư mục** trong File Explorer: chuột phải vùng trống → **New → Folder** → gõ tên → Enter.",
+    "**Đổi tên** dùng **Rename**; **di chuyển** dùng **Cut + Paste**; **sao chép** dùng **Copy + Paste** (còn bản gốc); **xoá** dùng **Delete**.",
+    "**Kiểm chứng kết quả AI**: lời khuyên của chatbot (vd về mật khẩu) cần đối chiếu nguồn tin cậy như SGK, thầy cô."
+   ],
+   "ynho": [
+    "Chương trình cũng là dữ liệu, lưu như tệp",
+    "Sao lưu: bản sao ở thiết bị khác",
+    "Mật khẩu mạnh: ≥ 8 kí tự, hoa-thường-số-kí hiệu",
+    "Cut + Paste = di chuyển; Copy + Paste = sao chép",
+    "Chống virus: luôn bật, thường xuyên cập nhật"
+   ],
+   "bang": [
+    {
+     "tieu_de": "Các thao tác với tệp, thư mục trong File Explorer",
+     "cot": [
+      "Thao tác",
+      "Lệnh",
+      "Bản gốc sau thao tác"
+     ],
+     "dong": [
+      [
+       "Đổi tên",
+       "Rename",
+       "Giữ nguyên nội dung, đổi tên"
+      ],
+      [
+       "Di chuyển",
+       "Cut + Paste",
+       "Mất ở vị trí cũ"
+      ],
+      [
+       "Sao chép",
+       "Copy + Paste",
+       "Vẫn còn"
+      ],
+      [
+       "Xoá",
+       "Delete",
+       "Bị xoá (vào thùng rác)"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Sao lưu cục bộ và sao lưu từ xa",
+     "cot": [
+      "Tiêu chí",
+      "Cục bộ",
+      "Từ xa"
+     ],
+     "dong": [
+      [
+       "Thiết bị/dịch vụ",
+       "USB, ổ cứng ngoài",
+       "Dịch vụ đám mây"
+      ],
+      [
+       "Cần Internet",
+       "Không",
+       "Có"
+      ],
+      [
+       "Tình huống phù hợp",
+       "Dữ liệu nhiều, mang đi được",
+       "Muốn an toàn khi máy hỏng, truy cập mọi nơi"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Lan đặt tên tệp ảnh là 'a1.jpg' và 'ảnh chụp chuyến đi chơi cùng gia đình ở biển Nha Trang mùa hè 2024 rất vui.jpg'. Nên sửa thế nào?",
+     "ket_luan": "→ Cả hai đều chưa tốt (một quá mơ hồ, một quá dài); nên đặt như 'NhaTrang_GiaDinh.jpg'."
+    },
+    {
+     "tinh_huong": "Hà có thư mục DuLich chứa GiaDinh và DiemDen; DiemDen chứa BanNgay, HoangHon. Cây này có bao nhiêu thư mục (kể cả DuLich)? Đếm: DuLich, GiaDinh, DiemDen, BanNgay, HoangHon.",
+     "ket_luan": "→ 5 thư mục, nhiều cấp: DuLich là gốc, DiemDen chứa 2 thư mục con."
+    },
+    {
+     "tinh_huong": "Bạn có thư mục DuLich dung lượng lớn (nhiều ảnh) và muốn vừa mang đi vừa phòng khi máy hỏng. Chọn cách sao lưu nào?",
+     "ket_luan": "→ Ổ cứng ngoài (nhiều dữ liệu, mang đi) và/hoặc đám mây (an toàn khi máy hỏng)."
+    },
+    {
+     "tinh_huong": "Phân loại mật khẩu: 'minh2012', 'Mn#8kQ2z', 'MATKHAU'. Mật khẩu nào mạnh?",
+     "ket_luan": "→ Chỉ 'Mn#8kQ2z' (8 kí tự, đủ hoa, thường, số, kí hiệu); hai cái còn lại thiếu loại kí tự, dễ đoán."
+    }
+   ],
+   "nho": [
+    "Mật khẩu mạnh: 8 – HTSK (Hoa, Thường, Số, Kí hiệu)",
+    "Cut = cắt đi (di chuyển); Copy = chép (còn gốc)",
+    "Sao lưu: không bỏ trứng vào một giỏ",
+    "Chống virus: bật và cập nhật, như tiêm phòng nhắc lại"
+   ],
+   "bay": [
+    "Di chuyển (Cut) khác sao chép (Copy): Cut không còn bản gốc.",
+    "Chép sang thư mục khác trên cùng ổ cứng chưa phải sao lưu an toàn.",
+    "Mật khẩu dài nhưng chứa tên, ngày sinh vẫn yếu; chỉ có hoa, thường chưa đủ mạnh.",
+    "Chương trình cũng là dữ liệu; không tự ý xoá tệp .exe."
+   ],
+   "giaoan": [
+    "**Mục tiêu** – Kiến thức: biết tệp chương trình là dữ liệu; đặt tên tệp, thư mục; nêu biện pháp bảo vệ dữ liệu (sao lưu, mật khẩu mạnh, chống virus); tạo cây thư mục và đổi tên, sao chép, di chuyển, xoá bằng File Explorer. Năng lực: tự chủ, tự học; giao tiếp, hợp tác; giải quyết vấn đề; năng lực tin học (NLa, NLb, NLc). Phẩm chất: ngăn nắp, cẩn thận, có ý thức bảo vệ dữ liệu, trung thực khi dùng AI.",
+    "**Chuẩn bị** – GV: kế hoạch bài dạy, phòng máy, máy chiếu, Hình 3.1–3.6, Bảng 3.1, phiếu học tập, chatbot AI. HS: SGK Tin học 7, vở, bút; đọc trước bài.",
+    "**Hoạt động 1 – Mở đầu** (5 phút) – Mục tiêu: tạo nhu cầu sắp xếp, đặt tên dữ liệu dễ tìm. Nội dung: vẽ cây thư mục lưu ảnh du lịch. Sản phẩm: sơ đồ có phân cấp. Tổ chức 4 bước: giao nhiệm vụ; HS vẽ và chia sẻ cặp đôi; báo cáo, nhận xét; GV kết luận, dẫn vào bài.",
+    "**Hoạt động 2 – Hình thành kiến thức** – Mục tiêu: đặt tên, bảo vệ dữ liệu, tạo cây thư mục, các thao tác với tệp/thư mục. Nội dung: 2.1 tên tệp; 2.2 sao lưu; 2.3 mật khẩu, chống virus; 2.4 tạo cây thư mục; 2.5 Rename, Cut, Copy, Delete. Sản phẩm: phiếu học tập, cây thư mục đúng Hình 3.3. Tổ chức 4 bước: GV giao nhiệm vụ và làm mẫu; HS đọc SGK, thực hành theo cặp, đổi vai; báo cáo, nhận xét chéo; GV chốt kiến thức.",
+    "**Hoạt động 3 – Luyện tập** – Mục tiêu: củng cố toàn bài. Nội dung: trả lời câu hỏi SGK tr.14, 16, 17 bằng thẻ A–B–C–D; chọn thiết bị sao lưu cho 3 tình huống. Sản phẩm: đáp án đúng và giải thích. Tổ chức 4 bước: giao câu hỏi; HS giơ thẻ; giải thích; GV nhận xét.",
+    "**Hoạt động 4 – Vận dụng** – Mục tiêu: vận dụng quản lí dữ liệu cá nhân, kiểm chứng kết quả AI. Nội dung: chọn thiết bị sao lưu thư mục DuLich; hỏi chatbot về mật khẩu và đối chiếu SGK. Sản phẩm: lựa chọn kèm lí do, nhận xét lời khuyên AI. Tổ chức 4 bước: giao nhiệm vụ; HS làm; báo cáo; GV chốt.",
+    "**Kiểm tra đánh giá** – Đánh giá thường xuyên qua quan sát thực hành, phiếu học tập, thẻ A–B–C–D; đánh giá sản phẩm: cây thư mục và bản sao lưu; dùng tiêu chí (đúng quy tắc đặt tên, đúng thao tác, mật khẩu mạnh)."
+   ],
+   "ai": [
+    "GV hỏi chatbot 'cách đặt mật khẩu mạnh', chiếu kết quả cho HS đối chiếu với SGK tr.15 để phát hiện lời khuyên sai.",
+    "HS nêu hậu quả khi tin AI không kiểm chứng (đặt mật khẩu bằng ngày sinh, mất tài khoản) và kiểm chứng bằng nguồn tin cậy (7.A1.2, 7.A1.MR1).",
+    "Đạo đức AI: không nhập mật khẩu thật, thông tin cá nhân vào chatbot."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Tệp chương trình (ví dụ có đuôi .exe) được lưu trong máy tính như thế nào?",
+     "o": [
+      "Như một tệp dữ liệu, được lưu trên thiết bị lưu trữ",
+      "Không phải dữ liệu nên không lưu trong ổ đĩa",
+      "Chỉ lưu trong bộ nhớ RAM",
+      "Chỉ lưu trong thư mục Windows và không được sao chép"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Bẫy: nhiều HS nghĩ chương trình không phải dữ liệu. Thực tế chương trình cũng là dữ liệu, lưu thành tệp.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "s",
+     "q": "Đuôi tệp nào sau đây thường là của tệp chương trình?",
+     "o": [
+      ".jpg",
+      ".exe",
+      ".docx",
+      ".mp3"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Tệp chương trình thường có đuôi .exe, .com, .bat, .msi; .jpg là ảnh, .docx là văn bản, .mp3 là âm thanh.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "s",
+     "q": "Cách đặt tên tệp, thư mục nào sau đây là tốt nhất theo SGK?",
+     "o": [
+      "Tên thật dài để mô tả mọi chi tiết",
+      "Tên ngẫu nhiên để người khác không đoán được",
+      "Tên ngắn gọn, dễ nhớ, gợi ra nội dung bên trong",
+      "Tên giống nhau cho mọi tệp rồi đánh số bằng trí nhớ"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Bẫy: 'dài để mô tả đủ' nghe có lí nhưng SGK yêu cầu ngắn gọn, dễ nhớ, gợi nội dung.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "s",
+     "q": "Sao lưu dữ liệu là gì?",
+     "o": [
+      "Di chuyển dữ liệu sang thư mục khác trên cùng ổ đĩa rồi xoá bản gốc",
+      "Nén dữ liệu để tiết kiệm dung lượng",
+      "Đặt mật khẩu cho dữ liệu",
+      "Tạo bản sao của dữ liệu và lưu ở nơi khác để khi bản gốc mất vẫn khôi phục được"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Bẫy: di chuyển (Cut) không tạo bản sao nên không phải sao lưu.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "s",
+     "q": "Bạn An sao lưu dữ liệu bằng cách chép sang một thư mục khác trên cùng ổ cứng với bản gốc. Nhận xét nào đúng nhất?",
+     "o": [
+      "An toàn tuyệt đối vì đã có hai bản",
+      "Chưa an toàn, vì ổ cứng hỏng thì mất cả bản gốc lẫn bản sao",
+      "Không phải là sao chép",
+      "Chỉ an toàn khi dữ liệu dưới 1 GB"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Bẫy: có 2 bản nhưng cùng một thiết bị; nên lưu ở thiết bị khác (USB, ổ cứng ngoài, đám mây).",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "s",
+     "q": "Đâu là sao lưu từ xa?",
+     "o": [
+      "Lưu dữ liệu lên dịch vụ lưu trữ đám mây qua Internet",
+      "Chép dữ liệu vào USB",
+      "Chép dữ liệu sang ổ cứng ngoài",
+      "Chép dữ liệu sang một ổ đĩa khác trong cùng máy"
+     ],
+     "a": [
+      0
+     ],
+     "e": "USB, ổ cứng ngoài là sao lưu cục bộ; đám mây là sao lưu từ xa.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "s",
+     "q": "Mật khẩu nào sau đây mạnh nhất theo tiêu chí SGK?",
+     "o": [
+      "tranminh2010",
+      "TRANMINH",
+      "Tr@n7Xk#92",
+      "12345678"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Mạnh: từ 8 kí tự, có chữ hoa, chữ thường, số, kí hiệu, không chứa tên/ngày sinh. Bẫy: 'tranminh2010' dài nhưng dùng tên và năm sinh.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "s",
+     "q": "Phát biểu nào về phần mềm chống virus là ĐÚNG?",
+     "o": [
+      "Cài một lần là đủ, không cần cập nhật",
+      "Chỉ cần bật khi tải tệp từ Internet",
+      "Có thể diệt được mọi loại virus nên không cần sao lưu",
+      "Cần luôn bật và thường xuyên cập nhật để nhận diện mối đe doạ mới"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Bẫy: chống virus không thay thế sao lưu; phải cập nhật thường xuyên.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "s",
+     "q": "Muốn di chuyển một tệp từ thư mục này sang thư mục khác bằng File Explorer, ta dùng cặp lệnh nào?",
+     "o": [
+      "Copy rồi Paste",
+      "Cut rồi Paste",
+      "Rename rồi Paste",
+      "Delete rồi Paste"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Bẫy: Copy + Paste là sao chép (còn bản gốc); Cut + Paste là di chuyển.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "s",
+     "q": "Trong File Explorer, lệnh nào dùng để đổi tên một thư mục?",
+     "o": [
+      "Replace",
+      "Reset",
+      "Rename",
+      "Remove"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Rename = đổi tên; Remove/Delete là xoá. Bẫy từ có chữ R gần giống nhau.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "s",
+     "q": "Cây thư mục là gì?",
+     "o": [
+      "Cách tổ chức thư mục theo cấp bậc: thư mục có thể chứa tệp và các thư mục con",
+      "Danh sách tệp xếp theo bảng chữ cái trong một thư mục duy nhất",
+      "Một phần mềm vẽ sơ đồ",
+      "Một loại tệp chứa nhiều tệp nén"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Cây thư mục có phân cấp, giúp dễ tìm và quản lí dữ liệu.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "s",
+     "q": "Thao tác nào sau đây tạo ra một thư mục mới trong File Explorer?",
+     "o": [
+      "Chuột phải, chọn Rename, chọn Folder",
+      "Chọn Copy rồi chọn New",
+      "Chuột phải vào tệp, chọn Delete rồi chọn New",
+      "Chuột phải vào vùng trống, chọn New, chọn Folder rồi gõ tên"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Quy trình: New → Folder → gõ tên → Enter.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "m",
+     "q": "Những biện pháp nào giúp bảo vệ dữ liệu trong máy tính?",
+     "o": [
+      "Sao lưu dữ liệu thường xuyên",
+      "Dùng mật khẩu mạnh",
+      "Cài và cập nhật phần mềm chống virus",
+      "Chia sẻ mật khẩu cho bạn thân để dự phòng"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Mật khẩu phải giữ bí mật, không chia sẻ cho người khác.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các đặc điểm của mật khẩu mạnh:",
+     "o": [
+      "Gồm chữ hoa, chữ thường, chữ số và kí hiệu",
+      "Chứa ngày sinh để dễ nhớ",
+      "Dùng chung một mật khẩu cho mọi tài khoản",
+      "Có từ 8 kí tự trở lên"
+     ],
+     "a": [
+      0,
+      3
+     ],
+     "e": "Mật khẩu mạnh không dùng thông tin cá nhân, nên mỗi tài khoản một mật khẩu.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "m",
+     "q": "Phát biểu nào sau đây là đúng?",
+     "o": [
+      "Tệp chương trình cũng là dữ liệu",
+      "Rename làm tạo thêm một bản sao của tệp",
+      "Copy + Paste tạo thêm một bản sao",
+      "Cut + Paste làm tệp rời khỏi vị trí cũ"
+     ],
+     "a": [
+      0,
+      2,
+      3
+     ],
+     "e": "Rename chỉ đổi tên, không tạo bản sao.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "m",
+     "q": "Thiết bị/dịch vụ nào dùng để sao lưu dữ liệu?",
+     "o": [
+      "Bàn phím",
+      "USB",
+      "Ổ cứng ngoài",
+      "Dịch vụ đám mây"
+     ],
+     "a": [
+      1,
+      2,
+      3
+     ],
+     "e": "Bàn phím là thiết bị vào, không lưu trữ.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "m",
+     "q": "Khi quản lí dữ liệu bằng cây thư mục, việc làm nào là hợp lí?",
+     "o": [
+      "Đặt tên thư mục gợi nội dung",
+      "Nhóm các tệp cùng chủ đề vào cùng một thư mục",
+      "Xoá tệp chương trình .exe chỉ khi biết chắc không cần dùng nữa",
+      "Để tất cả tệp ở màn hình nền"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Để tất cả ở một nơi làm khó tìm kiếm; không tự ý xoá tệp chương trình.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "f",
+     "q": "Tệp chương trình có đuôi .exe, .com, .bat, .msi cũng là ____ và được lưu trong máy như ____.",
+     "a": [
+      [
+       "dữ liệu"
+      ],
+      [
+       "tệp dữ liệu",
+       "tệp"
+      ]
+     ],
+     "o": [
+      [
+       "phần cứng",
+       "thư mục"
+      ],
+      [
+       "dữ liệu",
+       "tệp dữ liệu"
+      ],
+      [
+       "thông tin",
+       "bộ nhớ RAM"
+      ],
+      [
+       "thiết bị",
+       "tệp văn bản"
+      ]
+     ],
+     "k": 1,
+     "e": "Chương trình là dữ liệu, lưu như các tệp dữ liệu khác.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "f",
+     "q": "Sao lưu ____ dùng USB, ổ cứng ngoài; sao lưu ____ lưu lên đám mây.",
+     "a": [
+      [
+       "cục bộ"
+      ],
+      [
+       "từ xa"
+      ]
+     ],
+     "o": [
+      [
+       "cục bộ",
+       "từ xa"
+      ],
+      [
+       "từ xa",
+       "cục bộ"
+      ],
+      [
+       "tự động",
+       "thủ công"
+      ],
+      [
+       "đầy đủ",
+       "tạm thời"
+      ]
+     ],
+     "k": 0,
+     "e": "Bẫy: đổi chỗ hai khái niệm cục bộ / từ xa.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "f",
+     "q": "Mật khẩu mạnh có ít nhất ____ kí tự, gồm chữ hoa, chữ thường, ____ và kí hiệu.",
+     "a": [
+      [
+       "8"
+      ],
+      [
+       "số",
+       "chữ số"
+      ]
+     ],
+     "o": [
+      [
+       "6",
+       "số"
+      ],
+      [
+       "8",
+       "khoảng trắng"
+      ],
+      [
+       "4",
+       "tên riêng"
+      ],
+      [
+       "8",
+       "số"
+      ]
+     ],
+     "k": 3,
+     "e": "Mật khẩu mạnh từ 8 kí tự trở lên, gồm hoa, thường, số, kí hiệu.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "f",
+     "q": "Để di chuyển tệp dùng lệnh ____ rồi ____; để sao chép dùng Copy rồi Paste.",
+     "a": [
+      [
+       "Cut"
+      ],
+      [
+       "Paste"
+      ]
+     ],
+     "o": [
+      [
+       "Copy",
+       "Paste"
+      ],
+      [
+       "Rename",
+       "Enter"
+      ],
+      [
+       "Cut",
+       "Paste"
+      ],
+      [
+       "Delete",
+       "Paste"
+      ]
+     ],
+     "k": 2,
+     "e": "Cut + Paste = di chuyển; Copy + Paste = sao chép.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "f",
+     "q": "Phần mềm ____ giúp phát hiện và diệt phần mềm độc hại; cần luôn ____ để nhận diện mối đe doạ mới.",
+     "a": [
+      [
+       "chống virus"
+      ],
+      [
+       "cập nhật"
+      ]
+     ],
+     "o": [
+      [
+       "soạn thảo",
+       "cập nhật"
+      ],
+      [
+       "chống virus",
+       "cập nhật"
+      ],
+      [
+       "chống virus",
+       "gỡ bỏ"
+      ],
+      [
+       "trình chiếu",
+       "tắt đi"
+      ]
+     ],
+     "k": 1,
+     "e": "Chống virus phải luôn bật và cập nhật.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    },
+    {
+     "t": "f",
+     "q": "Tên tệp, thư mục nên ____ và ____ nội dung của nó.",
+     "a": [
+      [
+       "ngắn gọn",
+       "ngắn",
+       "dễ nhớ"
+      ],
+      [
+       "gợi ra",
+       "cho biết",
+       "gợi nhớ"
+      ]
+     ],
+     "o": [
+      [
+       "thật dài",
+       "che giấu"
+      ],
+      [
+       "ngẫu nhiên",
+       "gợi ra"
+      ],
+      [
+       "ngắn gọn",
+       "gợi ra"
+      ],
+      [
+       "ngắn gọn",
+       "che giấu"
+      ]
+     ],
+     "k": 2,
+     "e": "Tên nên ngắn gọn, dễ nhớ, gợi nội dung.",
+     "r": "SGK Tin học 7 KNTT – Bài 3"
+    }
+   ],
+   "tuluan": [
+    {
+     "q": "Câu 1 (2,0 điểm). Trình bày các biện pháp bảo vệ dữ liệu trong máy tính ở Bài 3 (Tin học 7 KNTT) và cho biết đặc điểm của mật khẩu mạnh.",
+     "a": [
+      "Sao lưu dữ liệu: tạo bản sao ở thiết bị/nơi khác; có sao lưu cục bộ (USB, ổ cứng ngoài) và sao lưu từ xa (đám mây); nên sao lưu thường xuyên, không lưu bản sao cùng thiết bị với bản gốc.",
+      "Dùng mật khẩu mạnh để ngăn người lạ truy cập dữ liệu; giữ bí mật, không chia sẻ.",
+      "Mật khẩu mạnh: từ 8 kí tự trở lên, có chữ hoa, chữ thường, chữ số, kí hiệu; không dùng tên, ngày sinh hay thông tin cá nhân dễ đoán.",
+      "Dùng phần mềm chống virus: luôn bật và thường xuyên cập nhật để phát hiện, diệt phần mềm độc hại.",
+      "Ví dụ: Tr@n7Xk#92 là mật khẩu mạnh, tranminh2010 là yếu."
+     ]
+    },
+    {
+     "q": "Câu 2 (3,0 điểm). Nêu mục tiêu bài học 'Quản lí dữ liệu trong máy tính' (Tin học 7) theo Chương trình GDPT 2018 và thiết kế hoạt động mở đầu của bài.",
+     "a": [
+      "Kiến thức: biết tệp chương trình cũng là dữ liệu; nêu cách đặt tên tệp, thư mục; nêu biện pháp bảo vệ dữ liệu (sao lưu, mật khẩu mạnh, chống virus); tạo cây thư mục, đổi tên, sao chép, di chuyển, xoá bằng File Explorer.",
+      "Năng lực: tự chủ, tự học; giao tiếp, hợp tác; giải quyết vấn đề; năng lực tin học: sử dụng File Explorer (NLa), bảo vệ dữ liệu (NLb), tổ chức dữ liệu để dễ tìm (NLc).",
+      "Phẩm chất: ngăn nắp, cẩn thận; có ý thức sao lưu, bảo vệ dữ liệu; trung thực khi dùng AI.",
+      "Hoạt động mở đầu (5 phút): Mục tiêu: tạo nhu cầu sắp xếp, đặt tên dữ liệu dễ tìm.",
+      "Nội dung: HS vẽ sơ đồ cây thư mục lưu ảnh chuyến du lịch (Hoạt động 1, SGK tr.13). Sản phẩm: sơ đồ có phân cấp, tên dễ hiểu.",
+      "Tổ chức: (1) GV giao nhiệm vụ; (2) HS vẽ cá nhân rồi chia sẻ cặp đôi (Think–Pair–Share); (3) mời 2 HS báo cáo, cả lớp nhận xét; (4) GV chốt, dẫn vào bài."
+     ]
+    },
+    {
+     "q": "Câu 3 (2,0 điểm). Hãy đề xuất cách tích hợp năng lực AI vào bài học và giải quyết tình huống: bạn Lan hỏi chatbot 'đặt mật khẩu thế nào cho dễ nhớ' và chatbot trả lời nên dùng ngày sinh của mình.",
+     "a": [
+      "Tổ chức: GV hỏi chatbot về mật khẩu, HS đối chiếu với SGK tr.15 để kiểm chứng.",
+      "Nhận xét: lời khuyên dùng ngày sinh là sai vì ngày sinh dễ bị đoán, mật khẩu yếu.",
+      "Hậu quả nếu tin mà không kiểm chứng: bị lộ, mất tài khoản và dữ liệu.",
+      "Cách xử lí: đối chiếu SGK, hỏi thầy cô, dùng nguồn tin cậy; mật khẩu mạnh từ 8 kí tự có hoa, thường, số, kí hiệu.",
+      "Giáo dục: AI có thể sai nên phải xác thực kết quả (7.A1.2, 7.A1.MR1); không đưa mật khẩu thật cho chatbot."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T7-B05",
+   "ten": "Bài 5. Ứng xử trên mạng",
+   "tomtat": [
+    "**Giao tiếp qua mạng** (nhắn tin, thư điện tử, mạng xã hội, gọi video) khác giao tiếp trực tiếp: không thấy mặt, thông tin **lan nhanh**, khó kiểm soát.",
+    "Cần **giao tiếp, ứng xử có văn hoá**: dùng **ngôn ngữ lịch sự**, tôn trọng người khác, tôn trọng quyền riêng tư, trung thực.",
+    "**Hành vi không nên**: nói tục, bắt nạt, đăng thông tin/ảnh của người khác khi chưa được phép, giấu bố mẹ việc trò chuyện với người lạ.",
+    "Khi bị **bắt nạt trên mạng**: không trả đũa, **chia sẻ và nhờ bố mẹ, thầy cô giúp đỡ**.",
+    "**Truy cập không hợp lệ** là vào các trang có nội dung xấu, trái lứa tuổi (cờ bạc, bạo lực...). Chỉ truy cập trang **phù hợp lứa tuổi**.",
+    "Khi gặp **thông tin xấu**: **đóng ngay** trang web, **báo người lớn**, nhờ cài **phần mềm chặn**; không xem tiếp, không chia sẻ.",
+    "**Nghiện Internet** là không kiểm soát được việc dùng mạng, bỏ bê học tập, sinh hoạt; gây hại **sức khoẻ, học tập, quan hệ**.",
+    "Tác hại gồm: **thiếu giao tiếp** trực tiếp; **khó tập trung**; **dễ bị bắt nạt**; dễ bị dẫn đến **thông tin xấu**; **nghiện trò chơi**.",
+    "Bốn lời khuyên phòng tránh: **CHIA SẺ – RỜI XA – GIỚI HẠN – THEO ĐUỔI** (sở thích, hoạt động lành mạnh).",
+    "Giúp bạn nghiện mạng: trò chuyện, rủ chơi thể thao, báo thầy cô và bố mẹ.",
+    "Tích hợp AI: lời khuyên của **chatbot có thể sai**, cần **kiểm chứng** bằng SGK, thầy cô và **khai báo** khi dùng AI."
+   ],
+   "ynho": [
+    "Giao tiếp mạng: lịch sự, tôn trọng",
+    "Bị bắt nạt: chia sẻ, nhờ người lớn",
+    "Thông tin xấu: đóng ngay, báo người lớn",
+    "Phòng nghiện: CHIA SẺ – RỜI XA – GIỚI HẠN – THEO ĐUỔI",
+    "AI có thể sai: kiểm chứng, khai báo"
+   ],
+   "bang": [
+    {
+     "tieu_de": "Hành vi nên và không nên khi giao tiếp qua mạng",
+     "cot": [
+      "Nên",
+      "Không nên"
+     ],
+     "dong": [
+      [
+       "Dùng lời lẽ lịch sự",
+       "Nói tục, chửi bạn"
+      ],
+      [
+       "Tôn trọng quyền riêng tư",
+       "Đăng ảnh, tin của bạn khi chưa được phép"
+      ],
+      [
+       "Nhờ người lớn khi bị bắt nạt",
+       "Giấu bố mẹ, tự xử lí"
+      ],
+      [
+       "Trung thực về bản thân",
+       "Giả danh người khác"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Bốn lời khuyên phòng tránh nghiện Internet",
+     "cot": [
+      "Lời khuyên",
+      "Ý nghĩa"
+     ],
+     "dong": [
+      [
+       "Chia sẻ",
+       "Nói chuyện với người thân, thầy cô"
+      ],
+      [
+       "Rời xa",
+       "Tạm rời thiết bị, tránh xa nguồn cám dỗ"
+      ],
+      [
+       "Giới hạn",
+       "Đặt giờ dùng mạng và tuân thủ"
+      ],
+      [
+       "Theo đuổi",
+       "Có sở thích: thể thao, đọc sách..."
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Bạn An nhận được tin nhắn nặc danh chê bai ngoại hình, doạ sẽ đăng ảnh lên mạng. An rất lo nhưng sợ bố mẹ la nên định im lặng.",
+     "ket_luan": "→ Cần chia sẻ, nhờ bố mẹ, thầy cô giúp; không im lặng, không trả đũa."
+    },
+    {
+     "tinh_huong": "Khi tra cứu bài, Bình vô tình mở ra trang web có hình ảnh bạo lực.",
+     "ket_luan": "→ Đóng ngay trang, báo người lớn, nhờ cài phần mềm chặn; không chia sẻ cho bạn."
+    },
+    {
+     "tinh_huong": "Hà chơi game 5 giờ mỗi ngày, bỏ bài tập, ít nói chuyện với bạn. Hà đặt giờ chỉ chơi 1 giờ, tham gia câu lạc bộ cầu lông và kể với mẹ.",
+     "ket_luan": "→ Hà áp dụng giới hạn, theo đuổi, chia sẻ (và rời xa thiết bị)."
+    },
+    {
+     "tinh_huong": "Chatbot khuyên bạn nghiện game: \"(1) chơi 6 giờ/ngày; (2) tự giới hạn, theo đuổi sở thích; (3) chia sẻ với người thân\".",
+     "ket_luan": "→ Lời khuyên 1 sai (trái GIỚI HẠN); 2, 3 đúng. AI có thể sai nên phải kiểm chứng."
+    }
+   ],
+   "nho": [
+    "Phòng nghiện: CHIA SẺ – RỜI XA – GIỚI HẠN – THEO ĐUỔI (C-R-G-T).",
+    "Gặp xấu: Đóng – Báo – Chặn (đóng trang, báo người lớn, chặn).",
+    "Gặp khó trên mạng: luôn nói với người lớn, không giấu."
+   ],
+   "bay": [
+    "Giấu bố mẹ không phải là an toàn; đúng là phải chia sẻ, nhờ người lớn.",
+    "Bị bắt nạt thì trả đũa không giải quyết được vấn đề.",
+    "Lời khuyên của AI không mặc định đúng; phải đối chiếu SGK, thầy cô.",
+    "Dùng mạng nhiều chưa chắc là nghiện; nghiện là mất kiểm soát, ảnh hưởng học tập, quan hệ."
+   ],
+   "giaoan": [
+    "**Mục tiêu** – Kiến thức: phân biệt hành vi nên/không nên khi giao tiếp qua mạng; nêu ví dụ truy cập không hợp lệ và cách ứng xử khi gặp thông tin xấu; biết tác hại và cách phòng tránh nghiện Internet; Năng lực: tự chủ và tự học, giao tiếp và hợp tác, giải quyết vấn đề; năng lực tin học NLb (ứng xử phù hợp trong môi trường số), NLa, NLe; Phẩm chất: nhân ái, trách nhiệm, trung thực.",
+    "**Chuẩn bị** – GV: kế hoạch bài dạy, máy chiếu, thẻ tình huống a–j, phiếu học tập, giấy A3, máy tính có chatbot AI; HS: SGK Tin học 7, vở ghi, bút.",
+    "**Hoạt động 1 – Mở đầu** – Mục tiêu: gợi lại kinh nghiệm giao tiếp qua mạng, tạo nhu cầu học; Nội dung: em giao tiếp qua mạng bằng cách nào, khác gì trực tiếp; Sản phẩm: ≥ 3 cách giao tiếp, ≥ 1 điểm khác; Tổ chức: (1) GV chuyển giao câu hỏi; (2) HS suy nghĩ, trao đổi cặp đôi; (3) báo cáo 3 HS; (4) GV nhận xét, dẫn vào bài.",
+    "**Hoạt động 2 – Hình thành kiến thức** – Mục tiêu: phân biệt hành vi nên/không nên, xử lí thông tin xấu, tác hại và cách phòng nghiện Internet; Nội dung: phân loại thẻ nên/không nên, đóng vai tình huống thông tin xấu, mảnh ghép tìm tác hại, \"Hồi sinh cây\" cách phòng tránh; Sản phẩm: phiếu học tập, áp phích; Tổ chức 4 bước: giao nhiệm vụ nhóm; HS thảo luận; báo cáo, phản biện; GV chốt hộp ghi nhớ.",
+    "**Hoạt động 3 – Luyện tập** – Mục tiêu: củng cố kiến thức; Nội dung: giơ thẻ A/B/C/D câu hỏi SGK và Luyện tập 1, 2; Sản phẩm: đáp án đúng, giải thích; Tổ chức: GV chiếu câu hỏi, HS giơ thẻ, giải thích, GV kết luận.",
+    "**Hoạt động 4 – Vận dụng** – Mục tiêu: vận dụng và kiểm chứng AI; Nội dung: nhập lệnh hỏi chatbot lời khuyên cho bạn nghiện game, đối chiếu 4 lời khuyên SGK; Sản phẩm: phiếu kiểm chứng, kế hoạch dùng mạng hợp lí, ghi chú \"có dùng AI hỗ trợ\"; Tổ chức: giao nhiệm vụ, thảo luận cặp, báo cáo, GV chốt.",
+    "**Kiểm tra đánh giá** – Quan sát tham gia nhóm; chấm phiếu học tập, áp phích bằng rubric; câu hỏi giơ thẻ; đánh giá sản phẩm vận dụng; HS tự đánh giá và đánh giá đồng đẳng."
+   ],
+   "ai": [
+    "GV dùng chatbot tạo thêm tình huống ứng xử trên mạng, thẻ nên/không nên, rồi tự thẩm định nội dung trước khi dùng.",
+    "HS hỏi chatbot lời khuyên giúp bạn nghiện game, kiểm chứng bằng 4 lời khuyên SGK, phát hiện lời khuyên sai (7.A1.MR1).",
+    "Đạo đức AI: khai báo trung thực khi dùng AI (7.B3.1), không nhập thông tin cá nhân vào chatbot."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Khi gặp trang web có nội dung bạo lực, không phù hợp lứa tuổi, em nên làm gì trước tiên?",
+     "o": [
+      "Đóng trang web ngay và báo cho người lớn",
+      "Xem hết để biết nội dung rồi mới báo",
+      "Chia sẻ cho bạn bè cùng xem",
+      "Giấu kín, không nói với ai"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Bẫy: giấu kín nghe có vẻ an toàn nhưng SGK yêu cầu báo người lớn.",
+     "r": "SGK Tin học 7 KNTT – Bài 5"
+    },
+    {
+     "t": "s",
+     "q": "Em bị bạn nhắn tin doạ nạt, bắt nạt trên mạng. Cách ứng xử đúng là",
+     "o": [
+      "nhắn lại bằng lời lẽ nặng hơn",
+      "nhờ bố mẹ, thầy cô giáo giúp đỡ",
+      "tự chịu đựng, không kể ai",
+      "xoá tài khoản và giấu gia đình"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Phải chia sẻ và nhờ người lớn; trả đũa hoặc giấu đều sai.",
+     "r": "SGK Tin học 7 KNTT – Bài 5"
+    },
+    {
+     "t": "s",
+     "q": "Hành vi nào sau đây là NÊN làm khi giao tiếp qua mạng?",
+     "o": [
+      "Dùng từ ngữ thô tục cho vui",
+      "Đăng ảnh bạn khi chưa được phép để trêu",
+      "Dùng ngôn ngữ lịch sự, tôn trọng người khác",
+      "Giả danh người khác để nói chuyện"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Giao tiếp có văn hoá: lịch sự, tôn trọng, trung thực.",
+     "r": "SGK Tin học 7 KNTT – Bài 5"
+    },
+    {
+     "t": "s",
+     "q": "Hành vi nào sau đây là truy cập không hợp lệ đối với học sinh?",
+     "o": [
+      "Tìm tài liệu học tập trên trang giáo dục",
+      "Đọc báo thiếu nhi trực tuyến",
+      "Gửi thư điện tử cho thầy cô",
+      "Truy cập trang web cờ bạc, bạo lực"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Truy cập không hợp lệ là vào trang có nội dung xấu, trái lứa tuổi.",
+     "r": "SGK Tin học 7 KNTT – Bài 5"
+    },
+    {
+     "t": "s",
+     "q": "Bốn lời khuyên để phòng tránh nghiện Internet trong SGK là",
+     "o": [
+      "chia sẻ, rời xa, giới hạn, theo đuổi",
+      "chia sẻ, kết nối, giới hạn, theo đuổi",
+      "tìm kiếm, rời xa, tăng giờ, theo đuổi",
+      "chia sẻ, rời xa, giới hạn, từ bỏ sở thích"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Bẫy đổi 1 từ: nhớ CHIA SẺ – RỜI XA – GIỚI HẠN – THEO ĐUỔI (sở thích).",
+     "r": "SGK Tin học 7 KNTT – Bài 5"
+    },
+    {
+     "t": "s",
+     "q": "Biểu hiện nào dưới đây cho thấy nguy cơ nghiện Internet?",
+     "o": [
+      "Dùng mạng tra cứu bài khi cần rồi tắt máy",
+      "Luôn muốn dùng mạng, bỏ bê học tập và các hoạt động khác",
+      "Gọi video hỏi bài bạn một lúc",
+      "Đặt giờ dùng mạng và tuân thủ"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Nghiện: không kiểm soát được thời gian, ảnh hưởng học tập, quan hệ.",
+     "r": "SGK Tin học 7 KNTT – Bài 5"
+    },
+    {
+     "t": "s",
+     "q": "Một bạn nghiện trò chơi trực tuyến. Em nên giúp bạn bằng cách nào là phù hợp nhất?",
+     "o": [
+      "Cho bạn chơi thêm để bạn vui",
+      "Chê bạn trước lớp để bạn xấu hổ",
+      "Trò chuyện, rủ bạn chơi thể thao và báo cho thầy cô, bố mẹ",
+      "Mặc kệ vì đó là việc riêng của bạn"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Giúp bạn bằng sự quan tâm, hoạt động thay thế và nhờ người lớn.",
+     "r": "SGK Tin học 7 KNTT – Bài 5"
+    },
+    {
+     "t": "s",
+     "q": "Lời khuyên nào do chatbot AI đưa ra là SAI so với SGK về phòng tránh nghiện game?",
+     "o": [
+      "Tự giới hạn thời gian chơi",
+      "Theo đuổi một sở thích lành mạnh",
+      "Chia sẻ với người thân",
+      "Mỗi ngày chơi 6 giờ cho quen"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Trái lời khuyên GIỚI HẠN. AI có thể sai nên phải kiểm chứng bằng SGK, thầy cô.",
+     "r": "SGK Tin học 7 KNTT – Bài 5"
+    },
+    {
+     "t": "s",
+     "q": "Khi dùng chatbot AI để làm sản phẩm học tập, em cần",
+     "o": [
+      "kiểm chứng đầu ra và khai báo có dùng AI hỗ trợ",
+      "tin hoàn toàn vì AI luôn đúng",
+      "sao chép nguyên văn và nói là của mình",
+      "xoá ghi chú để thầy cô không biết"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Bẫy: AI có thể sai; trung thực là khai báo dùng AI.",
+     "r": "SGK Tin học 7 KNTT – Bài 5"
+    },
+    {
+     "t": "s",
+     "q": "Tác hại nào KHÔNG phải do nghiện Internet theo SGK?",
+     "o": [
+      "Thiếu giao tiếp với mọi người xung quanh",
+      "Cơ thể phát triển chiều cao nhanh hơn",
+      "Khó tập trung vào việc học",
+      "Dễ bị bắt nạt hoặc dẫn dắt đến thông tin xấu"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Nghiện Internet hại sức khoẻ, học tập, quan hệ; không làm phát triển nhanh hơn.",
+     "r": "SGK Tin học 7 KNTT – Bài 5"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các hành vi NÊN làm khi giao tiếp qua mạng:",
+     "o": [
+      "Dùng lời lẽ lịch sự",
+      "Nói tục khi giận",
+      "Nhờ người lớn giúp khi bị bắt nạt",
+      "Giấu bố mẹ chuyện trò chuyện với người lạ",
+      "Tôn trọng quyền riêng tư của người khác"
+     ],
+     "a": [
+      0,
+      2,
+      4
+     ],
+     "e": "Nói tục và giấu bố mẹ là không nên.",
+     "r": "SGK Tin học 7 KNTT – Bài 5"
+    },
+    {
+     "t": "m",
+     "q": "Khi gặp thông tin xấu trên mạng, em NÊN:",
+     "o": [
+      "Đóng ngay trang web",
+      "Chia sẻ cho bạn xem",
+      "Báo cho người lớn",
+      "Tiếp tục xem vì tò mò",
+      "Nhờ cài phần mềm chặn nội dung xấu"
+     ],
+     "a": [
+      0,
+      2,
+      4
+     ],
+     "e": "Không chia sẻ, không tiếp tục xem.",
+     "r": "SGK Tin học 7 KNTT – Bài 5"
+    },
+    {
+     "t": "m",
+     "q": "Những tác hại của nghiện Internet là:",
+     "o": [
+      "Thiếu giao tiếp trực tiếp",
+      "Học tập tiến bộ nhanh hơn",
+      "Khó tập trung",
+      "Dễ nghiện trò chơi",
+      "Dễ bị bắt nạt trên mạng"
+     ],
+     "a": [
+      0,
+      2,
+      3,
+      4
+     ],
+     "e": "Nghiện Internet ảnh hưởng xấu, không giúp học tốt hơn.",
+     "r": "SGK Tin học 7 KNTT – Bài 5"
+    },
+    {
+     "t": "m",
+     "q": "Việc làm giúp phòng tránh nghiện Internet:",
+     "o": [
+      "Đặt giờ dùng mạng và tuân thủ",
+      "Tránh nói với ai để không bị cấm",
+      "Chơi thể thao, đọc sách",
+      "Chơi game đến khi hết hứng",
+      "Nói chuyện với người thân khi thấy khó kiểm soát"
+     ],
+     "a": [
+      0,
+      2,
+      4
+     ],
+     "e": "Lời khuyên: chia sẻ, rời xa, giới hạn, theo đuổi.",
+     "r": "SGK Tin học 7 KNTT – Bài 5"
+    },
+    {
+     "t": "f",
+     "q": "Khi bị bắt nạt trên mạng, em cần ____ và nhờ ____ giúp đỡ.",
+     "a": [
+      [
+       "chia sẻ"
+      ],
+      [
+       "bố mẹ, thầy cô",
+       "người lớn"
+      ]
+     ],
+     "o": [
+      [
+       "chia sẻ",
+       "bố mẹ, thầy cô"
+      ],
+      [
+       "giấu kín",
+       "bố mẹ, thầy cô"
+      ],
+      [
+       "chia sẻ",
+       "bạn bè xấu"
+      ],
+      [
+       "trả đũa",
+       "người lạ"
+      ]
+     ],
+     "k": 0,
+     "e": "Phải chia sẻ và nhờ người lớn.",
+     "r": "SGK Tin học 7 KNTT – Bài 5"
+    },
+    {
+     "t": "f",
+     "q": "Trang web cờ bạc, bạo lực là ví dụ của truy cập ____; khi gặp cần ____ ngay.",
+     "a": [
+      [
+       "không hợp lệ"
+      ],
+      [
+       "đóng trang",
+       "đóng trang web"
+      ]
+     ],
+     "o": [
+      [
+       "hợp lệ",
+       "đóng trang"
+      ],
+      [
+       "không hợp lệ",
+       "chia sẻ"
+      ],
+      [
+       "không hợp lệ",
+       "đóng trang"
+      ],
+      [
+       "hợp lệ",
+       "chia sẻ"
+      ]
+     ],
+     "k": 2,
+     "e": "Truy cập không hợp lệ, đóng ngay.",
+     "r": "SGK Tin học 7 KNTT – Bài 5"
+    },
+    {
+     "t": "f",
+     "q": "Bốn lời khuyên phòng tránh nghiện Internet: chia sẻ, ____, giới hạn, ____.",
+     "a": [
+      [
+       "rời xa"
+      ],
+      [
+       "theo đuổi"
+      ]
+     ],
+     "o": [
+      [
+       "kết nối",
+       "từ bỏ"
+      ],
+      [
+       "rời xa",
+       "từ bỏ"
+      ],
+      [
+       "kết nối",
+       "theo đuổi"
+      ],
+      [
+       "rời xa",
+       "theo đuổi"
+      ]
+     ],
+     "k": 3,
+     "e": "CHIA SẺ – RỜI XA – GIỚI HẠN – THEO ĐUỔI.",
+     "r": "SGK Tin học 7 KNTT – Bài 5"
+    },
+    {
+     "t": "f",
+     "q": "Nghiện Internet gây hại cho ____, học tập và các ____ xung quanh.",
+     "a": [
+      [
+       "sức khoẻ"
+      ],
+      [
+       "mối quan hệ",
+       "quan hệ"
+      ]
+     ],
+     "o": [
+      [
+       "sức khoẻ",
+       "mối quan hệ"
+      ],
+      [
+       "thu nhập",
+       "mối quan hệ"
+      ],
+      [
+       "sức khoẻ",
+       "tài sản"
+      ],
+      [
+       "thu nhập",
+       "tài sản"
+      ]
+     ],
+     "k": 0,
+     "e": "Hại sức khoẻ, học tập, quan hệ.",
+     "r": "SGK Tin học 7 KNTT – Bài 5"
+    },
+    {
+     "t": "f",
+     "q": "Dùng chatbot AI cần ____ đầu ra bằng SGK, thầy cô và ____ việc có dùng AI.",
+     "a": [
+      [
+       "kiểm chứng"
+      ],
+      [
+       "khai báo"
+      ]
+     ],
+     "o": [
+      [
+       "tin tưởng",
+       "giấu"
+      ],
+      [
+       "kiểm chứng",
+       "giấu"
+      ],
+      [
+       "kiểm chứng",
+       "khai báo"
+      ],
+      [
+       "tin tưởng",
+       "khai báo"
+      ]
+     ],
+     "k": 2,
+     "e": "Kiểm chứng và khai báo trung thực.",
+     "r": "SGK Tin học 7 KNTT – Bài 5"
+    },
+    {
+     "t": "f",
+     "q": "Giao tiếp qua mạng cần dùng ngôn ngữ ____ và ____ người khác.",
+     "a": [
+      [
+       "lịch sự"
+      ],
+      [
+       "tôn trọng"
+      ]
+     ],
+     "o": [
+      [
+       "thô tục",
+       "tôn trọng"
+      ],
+      [
+       "lịch sự",
+       "chê bai"
+      ],
+      [
+       "thô tục",
+       "chê bai"
+      ],
+      [
+       "lịch sự",
+       "tôn trọng"
+      ]
+     ],
+     "k": 3,
+     "e": "Giao tiếp có văn hoá.",
+     "r": "SGK Tin học 7 KNTT – Bài 5"
+    }
+   ],
+   "tuluan": [
+    {
+     "q": "Câu 1 (3 điểm). Trình bày các tác hại của nghiện Internet và 4 lời khuyên để phòng tránh.",
+     "a": [
+      "Nghiện Internet: không kiểm soát việc dùng mạng, ảnh hưởng sức khoẻ, học tập, quan hệ.",
+      "Tác hại: thiếu giao tiếp trực tiếp; khó tập trung; dễ bị bắt nạt; dễ bị dẫn đến thông tin xấu; nghiện trò chơi.",
+      "Bốn lời khuyên: chia sẻ (với người thân, thầy cô); rời xa (thiết bị khi cần); giới hạn (đặt giờ dùng mạng); theo đuổi (sở thích, thể thao, đọc sách).",
+      "Ví dụ cụ thể cho mỗi lời khuyên."
+     ]
+    },
+    {
+     "q": "Câu 2 (4 điểm). Nêu mục tiêu bài \"Ứng xử trên mạng\" (Tin học 7) theo chương trình 2018 và thiết kế hoạt động tìm hiểu hành vi nên/không nên.",
+     "a": [
+      "Kiến thức: nêu ví dụ hành vi nên/không nên; truy cập không hợp lệ; cách ứng xử với thông tin xấu; tác hại và cách phòng nghiện Internet.",
+      "Năng lực: tự chủ, tự học, giao tiếp, hợp tác, giải quyết vấn đề; năng lực tin học NLb, NLa, NLe.",
+      "Phẩm chất: nhân ái, trách nhiệm, trung thực.",
+      "Hoạt động: mục tiêu – nội dung (phân loại thẻ a–j nhóm 4) – sản phẩm (phiếu học tập) – tổ chức 4 bước (giao nhiệm vụ, thực hiện, báo cáo, kết luận).",
+      "Đánh giá bằng quan sát, phiếu, đối chiếu đáp án."
+     ]
+    },
+    {
+     "q": "Câu 3 (3 điểm). Em hãy đề xuất cách tích hợp chatbot AI vào dạy bài này và lưu ý khi dùng.",
+     "a": [
+      "Cho HS hỏi chatbot lời khuyên giúp bạn nghiện game.",
+      "HS đối chiếu với 4 lời khuyên SGK, chỉ ra lời khuyên sai (ví dụ chơi 6 giờ/ngày).",
+      "Rút ra: AI có thể sai, cần kiểm chứng bằng SGK, thầy cô.",
+      "Dùng AI phải khai báo trung thực, không nhập thông tin cá nhân.",
+      "GV thẩm định nội dung do AI tạo trước khi dùng; AI chỉ hỗ trợ, con người quyết định."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T7-B06",
+   "ten": "Bài 6. Làm quen với phần mềm bảng tính",
+   "tomtat": [
+    "**Phần mềm bảng tính** là phần mềm có giao diện dạng bảng, dùng để xử lí dữ liệu dạng bảng (ví dụ Excel, Calc, Google Sheets).",
+    "**Ba chức năng cơ bản:** **lưu trữ và trình bày thông tin dạng bảng**; **tính toán**; **xây dựng biểu đồ**.",
+    "**Giao diện** gồm: **thẻ và nhóm lệnh**, **hộp địa chỉ**, **vùng nhập dữ liệu**, **hàng ghi tên cột**, **cột ghi tên hàng**, **ô hiện thời**, **trang tính**.",
+    "**Hàng ghi tên cột** dùng **chữ cái** (A, B, C…); **cột ghi tên hàng** dùng **số** (1, 2, 3…).",
+    "**Ô tính** là giao của một cột và một hàng; ô đang được chọn gọi là **ô hiện thời**, địa chỉ hiện ở **hộp địa chỉ**.",
+    "**Địa chỉ ô** = **<tên cột><tên hàng>**, ví dụ **B3** (cột B, hàng 3).",
+    "**Địa chỉ vùng** = **<ô trên trái>:<ô dưới phải>**, ví dụ **A1:C4** gồm 3 cột × 4 hàng = **12 ô**.",
+    "**Chọn** ô, hàng, cột, vùng bằng cách **nháy** hoặc **kéo thả chuột**.",
+    "**Nhập dữ liệu:** chọn ô, gõ rồi nhấn **Enter**, hoặc gõ trong **vùng nhập dữ liệu**. **Sửa:** **nháy đúp** ô rồi sửa, hoặc chọn ô rồi sửa ở vùng nhập dữ liệu.",
+    "**Mặc định:** **văn bản căn trái**; **số, ngày tháng căn phải**.",
+    "**Định dạng:** nhóm **Font** (phông, cỡ, kiểu, màu chữ); nhóm **Alignment** (căn lề); **kéo đường biên cột** để đổi độ rộng.",
+    "Thực hành: tạo bảng khảo sát “Trường học xanh”, nhập, định dạng, đổi tên trang tính và **lưu tệp** (ví dụ THXanh.xlsx)."
+   ],
+   "ynho": [
+    "Chức năng: lưu trữ – tính toán – biểu đồ",
+    "Địa chỉ ô = cột trước, hàng sau (B3)",
+    "Vùng = ô trên trái : ô dưới phải",
+    "Văn bản căn trái; số, ngày tháng căn phải",
+    "Sửa dữ liệu: nháy đúp ô"
+   ],
+   "bang": [
+    {
+     "tieu_de": "Thành phần giao diện và vai trò",
+     "cot": [
+      "Thành phần",
+      "Vai trò"
+     ],
+     "dong": [
+      [
+       "Thẻ và nhóm lệnh",
+       "Chứa các lệnh theo nhóm chức năng"
+      ],
+      [
+       "Hộp địa chỉ",
+       "Hiển thị địa chỉ ô (vùng) đang chọn"
+      ],
+      [
+       "Vùng nhập dữ liệu",
+       "Hiển thị, nhập, sửa nội dung ô hiện thời"
+      ],
+      [
+       "Hàng ghi tên cột",
+       "Kí hiệu chữ cái A, B, C…"
+      ],
+      [
+       "Cột ghi tên hàng",
+       "Kí hiệu số 1, 2, 3…"
+      ],
+      [
+       "Trang tính",
+       "Vùng gồm các ô để nhập, xử lí dữ liệu"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Địa chỉ ô và địa chỉ vùng",
+     "cot": [
+      "Đối tượng",
+      "Quy tắc",
+      "Ví dụ",
+      "Số ô"
+     ],
+     "dong": [
+      [
+       "Ô",
+       "<cột><hàng>",
+       "B3",
+       "1"
+      ],
+      [
+       "Vùng",
+       "<ô trên trái>:<ô dưới phải>",
+       "A1:C4",
+       "3×4 = 12"
+      ],
+      [
+       "Vùng",
+       "tương tự",
+       "B2:D5",
+       "3×4 = 12"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Bảng khảo sát cây xanh có dữ liệu ở cột A (Tên cây), cột B (Số lượng). Hỏi ô chứa số lượng của cây thứ 3 (hàng 4, hàng 1 là tiêu đề) nằm ở đâu?",
+     "ket_luan": "→ Cột B, hàng 4: ô B4."
+    },
+    {
+     "tinh_huong": "Vùng A5:B10 có bao nhiêu ô? Giải: cột A–B = 2 cột; hàng 5–10 = 6 hàng; 2×6 = 12.",
+     "ket_luan": "→ 12 ô (không phải 2+6 = 8)."
+    },
+    {
+     "tinh_huong": "Nhập điểm 8.5 vào ô, sau đó muốn sửa thành 9. Làm thế nào?",
+     "ket_luan": "→ Nháy đúp ô, sửa thành 9, Enter; hoặc chọn ô và sửa ở vùng nhập dữ liệu."
+    },
+    {
+     "tinh_huong": "Nhập tên “Xoài” và ngày 20/11/2024 vào hai ô. Căn lề mặc định ra sao?",
+     "ket_luan": "→ “Xoài” căn trái (văn bản); ngày 20/11/2024 căn phải (dạng số)."
+    }
+   ],
+   "nho": [
+    "Địa chỉ ô: “Cột trước – Hàng sau” (B3, không phải 3B)",
+    "Chữ nằm ngang trên đầu (cột), số nằm dọc bên trái (hàng)",
+    "Văn bản Trái, Số Phải: “chữ trái – số phải”",
+    "Số ô của vùng = số cột × số hàng"
+   ],
+   "bay": [
+    "Nhầm thứ tự địa chỉ ô: viết 3B thay vì B3.",
+    "Tính số ô của vùng bằng phép cộng thay vì nhân (A1:C4 là 12, không phải 7).",
+    "Cho rằng ngày tháng là văn bản nên căn trái; thực tế căn phải như số.",
+    "Nhầm nhóm Font với Alignment khi căn lề."
+   ],
+   "giaoan": [
+    "**Mục tiêu** – Kiến thức: nêu được chức năng cơ bản và các thành phần giao diện phần mềm bảng tính; viết đúng địa chỉ ô, địa chỉ vùng; nhập, sửa, định dạng dữ liệu. Năng lực: tin học (sử dụng giao diện, thao tác dữ liệu), tự chủ và tự học, giao tiếp hợp tác, giải quyết vấn đề; năng lực số 3.1.TC1.a, 3.1.TC1.b. Phẩm chất: chăm chỉ, cẩn thận, trung thực.",
+    "**Chuẩn bị** – GV: máy tính, máy chiếu, phần mềm bảng tính, phiếu học tập, tệp mẫu, tài khoản chatbot AI. HS: SGK Tin học 7, vở ghi, đọc trước bài.",
+    "**Hoạt động 1 – Mở đầu** (7 phút). Mục tiêu: tạo nhu cầu dùng phần mềm bảng tính. Nội dung: tình huống khảo sát 200 cây xanh “Trường học xanh”, cần lưu và tính tổng. Sản phẩm: HS nêu cần phần mềm có bảng và tự tính toán. Tổ chức: (1) GV nêu tình huống, đặt câu hỏi; (2) HS thảo luận cặp 2 phút; (3) mời 2 cặp báo cáo; (4) GV nhận xét, dẫn vào bài.",
+    "**Hoạt động 2 – Hình thành kiến thức** (43 phút). Mục tiêu: nêu chức năng, giao diện; viết địa chỉ ô, vùng; nhập, sửa, định dạng dữ liệu. Nội dung: 2.1 chức năng, giao diện; 2.2 địa chỉ ô, vùng; 2.3 nhập, sửa; 2.4 định dạng. Sản phẩm: phiếu học tập hoàn thành, ghi chép trọng tâm. Tổ chức: (1) GV chia nhóm, phát phiếu, mở phần mềm thật; (2) HS đọc SGK, đối chiếu, thực hành nhập dữ liệu; (3) nhóm báo cáo, nhóm khác phản biện; (4) GV chốt kiến thức.",
+    "**Hoạt động 3 – Luyện tập** (25 phút). Mục tiêu: củng cố giao diện, địa chỉ ô, vùng; thực hành trọn quy trình. Nội dung: giơ thẻ A–D; thực hành theo cặp tạo THXanh.xlsx (mở, nhập, định dạng, đổi tên trang tính, lưu); Luyện tập 1, 2. Sản phẩm: đáp án đúng, tệp đã lưu. Tổ chức: (1) giao nhiệm vụ; (2) HS làm, kiểm tra chéo; (3) báo cáo, đối chiếu mẫu; (4) GV nhận xét lỗi hay gặp.",
+    "**Hoạt động 4 – Vận dụng** (15 phút). Mục tiêu: vận dụng thực tế; kiểm chứng kết quả AI, khai báo dùng AI. Nội dung: Vận dụng 1 (căn lề ngày tháng); hỏi chatbot “Vùng A5:B10 có bao nhiêu ô?”, HS đối chiếu SGK; lập bảng danh sách loại cây. Sản phẩm: kết luận về độ tin cậy của AI, bảng có ghi chú “Có tham khảo AI, đã kiểm chứng”. Tổ chức: (1) GV giao việc; (2) HS thảo luận cặp; (3) báo cáo; (4) GV chốt.",
+    "**Kiểm tra đánh giá** – Quan sát thao tác và phiếu học tập; câu hỏi nhanh giơ thẻ; chấm tệp THXanh.xlsx theo tiêu chí (đúng dữ liệu, định dạng, lưu); phản hồi sản phẩm vận dụng; nhận xét tinh thần hợp tác."
+   ],
+   "ai": [
+    "GV cho chatbot trả lời “Vùng A5:B10 có bao nhiêu ô?”, HS đối chiếu quy tắc SGK (2 cột × 6 hàng = 12 ô) để phát hiện nếu AI sai (7.A1.MR1).",
+    "Thảo luận hậu quả khi tin AI không kiểm chứng: nhập sai dữ liệu, kết quả khảo sát sai (7.A1.2).",
+    "HS ghi chú “Có tham khảo AI, đã kiểm chứng” vào sản phẩm để khai báo trung thực (7.B3.1)."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Chức năng nào sau đây KHÔNG phải là chức năng cơ bản của phần mềm bảng tính?",
+     "o": [
+      "Lưu trữ và trình bày thông tin dạng bảng",
+      "Tính toán",
+      "Xây dựng biểu đồ",
+      "Soạn thảo văn bản dài kèm hiệu ứng trình chiếu"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Ba chức năng cơ bản: lưu trữ – trình bày dạng bảng, tính toán, xây dựng biểu đồ. Bẫy: nhầm với phần mềm soạn thảo/trình chiếu.",
+     "r": "SGK Tin học 7 KNTT – Bài 6"
+    },
+    {
+     "t": "s",
+     "q": "Địa chỉ của ô nằm ở giao của cột D và hàng 7 là:",
+     "o": [
+      "7D",
+      "D7",
+      "D:7",
+      "7:D"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Địa chỉ ô = <tên cột><tên hàng>, cột (chữ) viết trước. Bẫy: viết ngược thứ tự 7D.",
+     "r": "SGK Tin học 7 KNTT – Bài 6"
+    },
+    {
+     "t": "s",
+     "q": "Địa chỉ vùng gồm các ô từ B2 đến E6 được viết là:",
+     "o": [
+      "B2-E6",
+      "2B:6E",
+      "B2:E6",
+      "B2;E6"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Địa chỉ vùng = <ô trên trái>:<ô dưới phải>, dùng dấu hai chấm.",
+     "r": "SGK Tin học 7 KNTT – Bài 6"
+    },
+    {
+     "t": "s",
+     "q": "Vùng A1:C4 gồm bao nhiêu ô tính?",
+     "o": [
+      "7",
+      "12",
+      "10",
+      "8"
+     ],
+     "a": [
+      1
+     ],
+     "e": "3 cột × 4 hàng = 12 ô. Bẫy: cộng 3 + 4 = 7 thay vì nhân.",
+     "r": "SGK Tin học 7 KNTT – Bài 6"
+    },
+    {
+     "t": "s",
+     "q": "Mặc định, dữ liệu nào sau đây được căn phải trong ô tính?",
+     "o": [
+      "Ngày tháng 15/10/2024",
+      "Họ tên Nguyễn Văn An",
+      "Tên lớp 7A",
+      "Chữ Xoài"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Mặc định số và ngày tháng căn phải, văn bản căn trái. Bẫy: ngày tháng được hiểu là dữ liệu dạng số.",
+     "r": "SGK Tin học 7 KNTT – Bài 6"
+    },
+    {
+     "t": "s",
+     "q": "Hàng ghi tên cột trong trang tính dùng kí hiệu nào?",
+     "o": [
+      "Các số 1, 2, 3…",
+      "Các tên tiếng Việt như Cột 1",
+      "Chữ số La Mã",
+      "Các chữ cái A, B, C…"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Cột đánh tên bằng chữ cái, hàng đánh số. Bẫy: nhầm hàng ghi tên cột (chữ) với cột ghi tên hàng (số).",
+     "r": "SGK Tin học 7 KNTT – Bài 6"
+    },
+    {
+     "t": "s",
+     "q": "Để sửa dữ liệu đã nhập trong một ô, cách làm nào đúng?",
+     "o": [
+      "Nháy đúp chuột vào ô rồi sửa",
+      "Nháy chuột vào tên cột rồi gõ lại",
+      "Nhấn phím Esc rồi sửa",
+      "Nhấn Ctrl+S"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Nháy đúp ô (hoặc chọn ô rồi sửa trong vùng nhập dữ liệu). Esc huỷ thao tác nhập, Ctrl+S lưu tệp.",
+     "r": "SGK Tin học 7 KNTT – Bài 6"
+    },
+    {
+     "t": "s",
+     "q": "Hộp địa chỉ trên giao diện phần mềm bảng tính hiển thị thông tin gì?",
+     "o": [
+      "Tên tệp đang mở",
+      "Tổng của các số trong bảng",
+      "Địa chỉ ô hiện thời đang được chọn",
+      "Số trang tính của tệp"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Hộp địa chỉ cho biết địa chỉ của ô (vùng) đang chọn.",
+     "r": "SGK Tin học 7 KNTT – Bài 6"
+    },
+    {
+     "t": "s",
+     "q": "Muốn căn giữa dữ liệu trong ô, ta dùng nhóm lệnh nào?",
+     "o": [
+      "Font",
+      "Alignment",
+      "Clipboard",
+      "Styles"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Căn lề thuộc nhóm Alignment; Font chỉ phông, cỡ, kiểu, màu chữ. Bẫy: nhầm Font với Alignment.",
+     "r": "SGK Tin học 7 KNTT – Bài 6"
+    },
+    {
+     "t": "s",
+     "q": "Muốn thay đổi độ rộng của một cột, ta thực hiện thế nào?",
+     "o": [
+      "Nháy đúp vào hộp địa chỉ",
+      "Kéo thả đường biên bên phải ô tên cột",
+      "Kéo thả đường biên của hàng",
+      "Nhấn Enter nhiều lần"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Điều chỉnh độ rộng cột bằng kéo đường biên cột; kéo biên hàng là đổi độ cao hàng.",
+     "r": "SGK Tin học 7 KNTT – Bài 6"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các chức năng cơ bản của phần mềm bảng tính:",
+     "o": [
+      "Lưu trữ và trình bày thông tin dạng bảng",
+      "Tính toán",
+      "Xây dựng biểu đồ",
+      "Biên tập video nhiều lớp"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Ba chức năng cơ bản như trên; biên tập video không phải.",
+     "r": "SGK Tin học 7 KNTT – Bài 6"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các địa chỉ ô viết đúng:",
+     "o": [
+      "B3",
+      "3B",
+      "AA10",
+      "C-5"
+     ],
+     "a": [
+      0,
+      2
+     ],
+     "e": "Đúng: <cột><hàng>, ví dụ B3, AA10. 3B ngược thứ tự, C-5 sai kí hiệu.",
+     "r": "SGK Tin học 7 KNTT – Bài 6"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các thành phần thuộc giao diện phần mềm bảng tính:",
+     "o": [
+      "Hộp địa chỉ",
+      "Vùng nhập dữ liệu",
+      "Thẻ và nhóm lệnh",
+      "Bảng chọn slide chuyển cảnh"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Giao diện gồm thẻ và nhóm lệnh, hộp địa chỉ, vùng nhập dữ liệu, trang tính…",
+     "r": "SGK Tin học 7 KNTT – Bài 6"
+    },
+    {
+     "t": "m",
+     "q": "Phát biểu đúng về vùng A1:C4:",
+     "o": [
+      "Gồm 7 ô",
+      "Gồm 12 ô",
+      "A1 là ô trên trái",
+      "C4 là ô dưới phải"
+     ],
+     "a": [
+      1,
+      2,
+      3
+     ],
+     "e": "3 cột × 4 hàng = 12 ô. 7 là bẫy cộng thay vì nhân.",
+     "r": "SGK Tin học 7 KNTT – Bài 6"
+    },
+    {
+     "t": "f",
+     "q": "Địa chỉ ô gồm tên ____ viết trước và tên ____ viết sau.",
+     "a": [
+      [
+       "cột"
+      ],
+      [
+       "hàng"
+      ]
+     ],
+     "o": [
+      [
+       "hàng",
+       "cột"
+      ],
+      [
+       "cột",
+       "hàng"
+      ],
+      [
+       "ô",
+       "vùng"
+      ],
+      [
+       "trang",
+       "hàng"
+      ]
+     ],
+     "k": 1,
+     "e": "Ví dụ B3: cột B trước, hàng 3 sau.",
+     "r": "SGK Tin học 7 KNTT – Bài 6"
+    },
+    {
+     "t": "f",
+     "q": "Mặc định, dữ liệu văn bản được căn ____, còn số và ngày tháng được căn ____.",
+     "a": [
+      [
+       "trái"
+      ],
+      [
+       "phải"
+      ]
+     ],
+     "o": [
+      [
+       "phải",
+       "trái"
+      ],
+      [
+       "giữa",
+       "phải"
+      ],
+      [
+       "trái",
+       "phải"
+      ],
+      [
+       "trái",
+       "giữa"
+      ]
+     ],
+     "k": 2,
+     "e": "Văn bản căn trái, số/ngày tháng căn phải.",
+     "r": "SGK Tin học 7 KNTT – Bài 6"
+    },
+    {
+     "t": "f",
+     "q": "Vùng ô được xác định bởi ô ____ và ô ____.",
+     "a": [
+      [
+       "trên trái"
+      ],
+      [
+       "dưới phải"
+      ]
+     ],
+     "o": [
+      [
+       "trên trái",
+       "dưới phải"
+      ],
+      [
+       "trên phải",
+       "dưới trái"
+      ],
+      [
+       "dưới phải",
+       "trên trái"
+      ],
+      [
+       "đầu tiên nhập",
+       "cuối cùng nhập"
+      ]
+     ],
+     "k": 0,
+     "e": "Địa chỉ vùng = <ô trên trái>:<ô dưới phải>. Bẫy: đổi thứ tự hai ô.",
+     "r": "SGK Tin học 7 KNTT – Bài 6"
+    },
+    {
+     "t": "f",
+     "q": "Hàng ghi tên cột dùng ____, còn cột ghi tên hàng dùng ____.",
+     "a": [
+      [
+       "chữ cái"
+      ],
+      [
+       "số"
+      ]
+     ],
+     "o": [
+      [
+       "số",
+       "chữ cái"
+      ],
+      [
+       "chữ cái",
+       "chữ cái"
+      ],
+      [
+       "số",
+       "số"
+      ],
+      [
+       "chữ cái",
+       "số"
+      ]
+     ],
+     "k": 3,
+     "e": "Cột: A, B, C…; hàng: 1, 2, 3…",
+     "r": "SGK Tin học 7 KNTT – Bài 6"
+    },
+    {
+     "t": "f",
+     "q": "Để sửa dữ liệu trong ô ta ____ vào ô rồi sửa; để đổi độ rộng cột ta kéo ____ cột.",
+     "a": [
+      [
+       "nháy đúp"
+      ],
+      [
+       "đường biên"
+      ]
+     ],
+     "o": [
+      [
+       "nháy chuột phải",
+       "tên hàng"
+      ],
+      [
+       "nháy đúp",
+       "đường biên"
+      ],
+      [
+       "nháy đúp",
+       "hộp địa chỉ"
+      ],
+      [
+       "kéo thả",
+       "thẻ lệnh"
+      ]
+     ],
+     "k": 1,
+     "e": "Nháy đúp ô để sửa; kéo đường biên cột để đổi độ rộng.",
+     "r": "SGK Tin học 7 KNTT – Bài 6"
+    },
+    {
+     "t": "f",
+     "q": "Vùng B2:D5 có ____ cột và ____ hàng.",
+     "a": [
+      [
+       "3"
+      ],
+      [
+       "4"
+      ]
+     ],
+     "o": [
+      [
+       "4",
+       "3"
+      ],
+      [
+       "3",
+       "3"
+      ],
+      [
+       "5",
+       "4"
+      ],
+      [
+       "3",
+       "4"
+      ]
+     ],
+     "k": 3,
+     "e": "Cột B–D: 3 cột; hàng 2–5: 4 hàng; tổng 12 ô.",
+     "r": "SGK Tin học 7 KNTT – Bài 6"
+    }
+   ],
+   "tuluan": [
+    {
+     "q": "Câu 1 (2 điểm). Trình bày quy tắc viết địa chỉ ô và địa chỉ vùng. Vùng B2:D5 có bao nhiêu ô? Liệt kê.",
+     "a": [
+      "Địa chỉ ô = <tên cột><tên hàng>, ví dụ B3.",
+      "Địa chỉ vùng = <ô trên trái>:<ô dưới phải>.",
+      "B2:D5: cột B, C, D (3 cột), hàng 2–5 (4 hàng), 3×4 = 12 ô.",
+      "Liệt kê: B2, C2, D2, B3, C3, D3, B4, C4, D4, B5, C5, D5."
+     ]
+    },
+    {
+     "q": "Câu 2 (3 điểm). Nêu mục tiêu bài “Làm quen với phần mềm bảng tính” (Tin học 7) theo chương trình 2018.",
+     "a": [
+      "Kiến thức: nêu chức năng cơ bản (lưu trữ, trình bày dạng bảng; tính toán; biểu đồ); nhận biết thành phần giao diện; nêu quy tắc địa chỉ ô và vùng.",
+      "Kĩ năng: nhập, sửa, định dạng dữ liệu; tạo và lưu bảng tính đơn giản.",
+      "Năng lực: tin học (NLa, NLc), tự chủ tự học, giao tiếp hợp tác, giải quyết vấn đề; năng lực số 3.1.TC1.a, b.",
+      "Phẩm chất: chăm chỉ, kiên trì, cẩn thận, trung thực.",
+      "Mục tiêu viết bằng động từ đo được, gắn sản phẩm (tệp THXanh.xlsx)."
+     ]
+    },
+    {
+     "q": "Câu 3 (3 điểm). Thiết kế hoạt động vận dụng tích hợp AI: HS hỏi chatbot một câu về bảng tính rồi kiểm chứng.",
+     "a": [
+      "Mục tiêu: kiểm chứng thông tin AI bằng nguồn tin cậy, khai báo dùng AI.",
+      "Nội dung: GV nhập “Vùng A5:B10 có bao nhiêu ô? Giải thích.”; HS đối chiếu SGK tr.30 (2×6 = 12 ô).",
+      "Tổ chức: giao nhiệm vụ; thảo luận cặp; báo cáo; GV chốt.",
+      "Sản phẩm: kết luận đúng/sai của AI, nguồn kiểm chứng; bảng có ghi chú “Có tham khảo AI, đã kiểm chứng”.",
+      "Đánh giá: tiêu chí đối chiếu nguồn, kết quả đúng, trung thực khi khai báo."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T7-B07",
+   "ten": "Bài 7. Tính toán tự động trên bảng tính",
+   "tomtat": [
+    "Bảng tính có **4 kiểu dữ liệu**: **văn bản**, **số**, **ngày tháng** và **công thức**.",
+    "Theo mặc định **số căn phải**, **văn bản căn trái**; chỉ dữ liệu kiểu số mới tính toán được.",
+    "**Công thức** là biểu thức tính toán; bắt buộc bắt đầu bằng dấu **=**, rồi nhấn **Enter** để hiện kết quả.",
+    "Các phép toán: cộng **+**, trừ **-**, nhân *****, chia **/**, luỹ thừa **^**; dùng dấu ngoặc **( )** để đổi thứ tự tính.",
+    "Thanh công thức hiển thị **nội dung công thức** của ô đang chọn, ô chỉ hiển thị **kết quả**.",
+    "Có hai cách viết: dùng **số cụ thể** (=25*10, kết quả cố định) và dùng **địa chỉ ô** (=C4*D4, tự cập nhật).",
+    "Dùng địa chỉ ô giúp **tính toán tự động**: đổi dữ liệu ở ô nguồn thì kết quả tính lại ngay, không phải gõ lại công thức.",
+    "**Sao chép công thức**: chọn ô chứa công thức → **Ctrl+C** → chọn ô/vùng đích → **Ctrl+V**.",
+    "Khi sao chép, địa chỉ trong công thức **thay đổi theo vị trí mới** (**địa chỉ tương đối**): E4 =C4*D4 → E5 =C5*D5.",
+    "Quy trình lập bảng tính có tính toán: **nhập dữ liệu → viết công thức ô đầu → sao chép công thức → định dạng → lưu tệp**.",
+    "Dùng chatbot AI gợi ý công thức phải **kiểm chứng** (SGK, thầy cô, thử trên máy) vì AI có thể sai."
+   ],
+   "ynho": [
+    "Công thức bắt đầu bằng dấu =",
+    "Nhân là *, luỹ thừa là ^",
+    "Dùng địa chỉ ô để kết quả tự cập nhật",
+    "Sao chép công thức: địa chỉ thay đổi theo vị trí",
+    "Số căn phải, văn bản căn trái"
+   ],
+   "bang": [
+    {
+     "tieu_de": "Bốn kiểu dữ liệu trong bảng tính",
+     "cot": [
+      "Kiểu",
+      "Đặc điểm",
+      "Ví dụ"
+     ],
+     "dong": [
+      [
+       "Văn bản",
+       "Căn trái mặc định, không dùng để tính",
+       "Lớp 7A, Tổng"
+      ],
+      [
+       "Số",
+       "Căn phải mặc định, tính toán được",
+       "25; 3,5"
+      ],
+      [
+       "Ngày tháng",
+       "Biểu diễn ngày/tháng/năm",
+       "12/11/2026"
+      ],
+      [
+       "Công thức",
+       "Bắt đầu bằng =, ô hiện kết quả",
+       "=C4*D4"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Phép toán trong công thức",
+     "cot": [
+      "Phép toán",
+      "Ký hiệu",
+      "Ví dụ",
+      "Kết quả"
+     ],
+     "dong": [
+      [
+       "Cộng",
+       "+",
+       "=5+3",
+       "8"
+      ],
+      [
+       "Trừ",
+       "-",
+       "=5-3",
+       "2"
+      ],
+      [
+       "Nhân",
+       "*",
+       "=5*3",
+       "15"
+      ],
+      [
+       "Chia",
+       "/",
+       "=6/3",
+       "2"
+      ],
+      [
+       "Luỹ thừa",
+       "^",
+       "=2^3",
+       "8"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Bảng trồng cây: C4 = 5 (số cây/lớp), D4 = 20 (số lớp). Tại E4 nhập =C4*D4. Sau đó sửa D4 thành 30 thì E4 là bao nhiêu? Còn nếu E4 gõ =5*20 thì sau khi sửa D4?",
+     "ket_luan": "→ E4 = 5*30 = 150 (tự cập nhật); với =5*20 vẫn là 100, vì không dùng địa chỉ ô."
+    },
+    {
+     "tinh_huong": "E4 chứa =C4*D4. Sao chép E4 sang E5:E6. Viết công thức E5, E6.",
+     "ket_luan": "→ E5 =C5*D5; E6 =C6*D6 (địa chỉ tương đối, hàng tăng thì địa chỉ tăng)."
+    },
+    {
+     "tinh_huong": "Bảng diện tích rừng: B = rừng tự nhiên, C = rừng trồng. Tính tổng ở D4 rồi sao chép đến D8.",
+     "ket_luan": "→ D4 =B4+C4; sao chép đến D8 → D8 =B8+C8."
+    },
+    {
+     "tinh_huong": "Thành tiền F4 = Đơn giá (D4) × Số lượng (E4); D4 = 1000, E4 = 500. Sao chép F4 đến F19, F10 là gì?",
+     "ket_luan": "→ F4 =D4*E4 = 500000; F10 =D10*E10."
+    }
+   ],
+   "nho": [
+    "Mẹo 'ĐẶT = TRƯỚC': không có = thì là chữ, không phải tính.",
+    "Số – Phải; Văn bản – Trái: 'Số Phải, Chữ Trái'.",
+    "Nhân là *, mũ là ^ (sao = nhân, mũ = luỹ thừa).",
+    "Sao chép công thức: địa chỉ 'đi theo' ô như cái bóng."
+   ],
+   "bay": [
+    "Quên dấu =: ô hiện chuỗi chữ thay vì kết quả.",
+    "Gõ chữ x thay cho * để nhân.",
+    "Tưởng sao chép công thức thì giữ nguyên =C4*D4: thực tế địa chỉ đổi theo vị trí.",
+    "Dùng số cụ thể (=5*20): đổi dữ liệu mà kết quả không cập nhật."
+   ],
+   "giaoan": [
+    "**Mục tiêu** – Kiến thức: nhận biết 4 kiểu dữ liệu; viết công thức bắt đầu bằng =, dùng địa chỉ ô và các phép toán; giải thích sao chép công thức (địa chỉ tương đối); Năng lực: tin học (NLa, NLc: dùng bảng tính tính toán dữ liệu dự án 'Trường học xanh'), tự chủ và tự học, giải quyết vấn đề, hợp tác; năng lực số 3.1.TC1; Phẩm chất: chăm chỉ, cẩn thận, chính xác.",
+    "**Chuẩn bị** – GV: kế hoạch bài dạy, máy chiếu, tệp THXanh mẫu, phiếu học tập, chatbot AI, phòng máy; HS: SGK, vở, ôn Bài 6 (nhập dữ liệu), đọc trước mục 3, 4.",
+    "**Hoạt động 1 – Mở đầu** (7 phút) – Mục tiêu: tạo nhu cầu tính toán tự động. Nội dung: tính tổng số cây các lớp; có 100 hàng thì gõ 100 công thức? Sản phẩm: HS nêu nhập phép tính vào ô và sao chép công thức. Tổ chức: GV chuyển giao câu hỏi (Think–Pair–Share) → HS suy nghĩ, trao đổi cặp → báo cáo 2 HS → GV nhận xét, dẫn vào bài.",
+    "**Hoạt động 2 – Hình thành kiến thức** (38 phút) – Mục tiêu: nêu kiểu dữ liệu, viết công thức dùng địa chỉ ô, sao chép công thức. Nội dung: 2.1 kiểu dữ liệu (khăn trải bàn); 2.2 công thức, so sánh =25*10 với =C4*D4 (mảnh ghép); 2.3 sao chép công thức 4 bước, quan sát E5, E6 (cặp đôi). Sản phẩm: phiếu phân loại, công thức đúng, ghi nhớ. Tổ chức: giao nhiệm vụ → HS thực hiện → báo cáo, thảo luận → GV chốt theo hộp Ghi nhớ.",
+    "**Hoạt động 3 – Luyện tập** (30 phút) – Mục tiêu: vận dụng công thức và sao chép. Nội dung: câu hỏi tr.37 (E10 =C10*D10; G12 =H12+2*K12); Thực hành mục 4 (E7 =E4+E5+E6 = 500); Luyện tập F4 =D4*E4 đến F19. Sản phẩm: bảng tính hoàn chỉnh, lưu tệp. Tổ chức: giao việc → HS làm cặp trên máy, đổi vai → GV kiểm tra thanh công thức → nhận xét, chốt quy trình.",
+    "**Hoạt động 4 – Vận dụng** (15 phút) – Mục tiêu: lập bảng diện tích rừng; kiểm chứng công thức do AI gợi ý. Nội dung: D4 =B4+C4 sao chép đến D8; hỏi chatbot công thức tổng số cây và kết quả sao chép, đối chiếu SGK. Sản phẩm: bảng đúng, nhận xét độ tin cậy của AI. Tổ chức: GV giao nhiệm vụ, thao tác chatbot → HS đối chiếu, nhập thử → báo cáo → GV chốt.",
+    "**Kiểm tra đánh giá** – Quan sát thao tác trên máy, kiểm tra sản phẩm tệp THXanh, phiếu phân loại; câu hỏi nhanh (viết công thức, dự đoán công thức sau sao chép); phiếu tự đánh giá; củng cố, dặn học Ghi nhớ và đọc Bài 8."
+   ],
+   "ai": [
+    "GV dùng chatbot sinh bộ bài tập công thức hoặc tạo các câu lệnh mẫu (ví dụ 'Sao chép =C4*D4 từ E4 xuống E5 thì E5 là gì?'), rồi tự kiểm tra đáp án trước khi dùng.",
+    "HS đối chiếu câu trả lời của chatbot với SGK tr.34–37 và nhập thử trên máy; nêu hậu quả nếu tin sai (số liệu sai, mua thừa/thiếu cây) – 7.A1.2, 7.A1.MR1.",
+    "Giáo dục đạo đức AI: khai báo trung thực khi dùng AI trong sản phẩm học tập; AI không thay thế việc tự hiểu quy tắc công thức."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Một công thức trong bảng tính phải bắt đầu bằng ký tự nào?",
+     "o": [
+      "Dấu =",
+      "Dấu +  (chỉ dùng trong sổ sách)",
+      "Dấu #",
+      "Dấu cách"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Công thức luôn bắt đầu bằng dấu =; thiếu dấu = thì bảng tính coi là văn bản.",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "s",
+     "q": "Gõ vào ô E4 nội dung C4*D4 (không có dấu =) rồi Enter. Kết quả hiển thị trong ô là gì?",
+     "o": [
+      "Tích của C4 và D4",
+      "Chuỗi văn bản C4*D4",
+      "Thông báo lỗi và xoá nội dung",
+      "Số 0"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Bẫy: thiếu dấu = nên là dữ liệu văn bản, không tính toán.",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "s",
+     "q": "Ô C4 = 5, D4 = 20. Công thức =C4*D4 cho kết quả nào?",
+     "o": [
+      "25",
+      "520",
+      "100",
+      "15"
+     ],
+     "a": [
+      2
+     ],
+     "e": "5*20 = 100. Dấu * là phép nhân; 25 là C4+D4.",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "s",
+     "q": "Phép toán nào dùng để tính luỹ thừa trong công thức bảng tính?",
+     "o": [
+      "*",
+      "/",
+      "**x",
+      "^"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Luỹ thừa dùng ^ (vd =A1^2). Dấu * là nhân, / là chia.",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "s",
+     "q": "Ưu điểm chính của việc dùng địa chỉ ô (=C4*D4) thay vì số cụ thể (=5*20)?",
+     "o": [
+      "Khi thay đổi dữ liệu ở ô C4, D4 thì kết quả tự cập nhật",
+      "Công thức ngắn hơn luôn luôn",
+      "Không cần nhấn Enter",
+      "Kết quả được căn trái"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Cách dùng địa chỉ ô giúp tính toán tự động; công thức =5*20 cố định, không đổi khi dữ liệu đổi.",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "s",
+     "q": "Sao chép công thức =C4*D4 ở ô E4 xuống ô E5, ô E5 có công thức nào?",
+     "o": [
+      "=C4*D4",
+      "=C5*D5",
+      "=C4*D5",
+      "=D5*C5*E4"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Địa chỉ tương đối: hàng tăng 1 thì mọi địa chỉ trong công thức tăng 1 hàng. Bẫy: giữ nguyên =C4*D4.",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "s",
+     "q": "Sao chép ô D4 chứa công thức =B4+C4 sang ô D8 (cùng cột, xuống 4 hàng). Công thức tại D8 là gì?",
+     "o": [
+      "=B4+C4",
+      "=B5+C5",
+      "=B8+C8",
+      "=B4+C8"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Xuống 4 hàng → mọi địa chỉ hàng 4 thành hàng 8.",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "s",
+     "q": "Theo mặc định, dữ liệu kiểu số và kiểu văn bản được căn lề như thế nào?",
+     "o": [
+      "Số căn trái, văn bản căn phải",
+      "Cả hai căn giữa",
+      "Cả hai căn trái",
+      "Số căn phải, văn bản căn trái"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Bẫy đổi chiều: SỐ căn phải, VĂN BẢN căn trái.",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "s",
+     "q": "Công thức tính chu vi hình chữ nhật có chiều dài ở A1, chiều rộng ở B1 là?",
+     "o": [
+      "=(A1+B1)*2",
+      "=A1+B1*2",
+      "=A1*B1",
+      "(A1+B1)*2"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Cần dấu = và ngoặc để cộng trước; =A1+B1*2 nhân trước (sai); =A1*B1 là diện tích; thiếu = thì thành văn bản.",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "s",
+     "q": "Khi nhận được công thức bảng tính từ chatbot AI, việc làm đúng nhất là gì?",
+     "o": [
+      "Đối chiếu SGK/thầy cô và nhập thử trên máy để kiểm chứng",
+      "Dùng ngay vì AI luôn đúng",
+      "Chỉ hỏi lại cùng chatbot đó và tin kết quả",
+      "Không cần khai báo và không cần kiểm tra"
+     ],
+     "a": [
+      0
+     ],
+     "e": "7.A1.2, 7.A1.MR1: kiểm chứng bằng nguồn tin cậy khác; AI có thể sai (ví dụ thiếu dấu =).",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "m",
+     "q": "Những dữ liệu nào sau đây là các kiểu dữ liệu cơ bản được học trong bài?",
+     "o": [
+      "Văn bản",
+      "Số",
+      "Ngày tháng",
+      "Hình ảnh động"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Bài nêu văn bản, số, ngày tháng, công thức; hình ảnh động không nằm trong các kiểu này.",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "m",
+     "q": "Những công thức nào dưới đây VIẾT ĐÚNG quy tắc?",
+     "o": [
+      "=C4*D4",
+      "=A1+B1",
+      "=(A1+B1)*2",
+      "C4*D4"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "C4*D4 thiếu dấu =.",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "m",
+     "q": "Việc sao chép công thức (địa chỉ tương đối) giúp ích gì?",
+     "o": [
+      "Tính hàng loạt nhanh, không gõ lại từng ô",
+      "Giảm sai sót khi nhập",
+      "Địa chỉ ô trong công thức tự điều chỉnh theo vị trí mới",
+      "Luôn giữ nguyên địa chỉ ô gốc"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Địa chỉ không giữ nguyên mà thay đổi theo vị trí (tương đối) – bẫy phương án 4.",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "m",
+     "q": "Khi sửa giá trị ô D4 mà ô E4 chứa =C4*D4, điều gì đúng?",
+     "o": [
+      "E4 tự tính lại",
+      "Không cần gõ lại công thức",
+      "E4 vẫn giữ giá trị cũ",
+      "Bảng tính tự động cập nhật kết quả"
+     ],
+     "a": [
+      0,
+      1,
+      3
+     ],
+     "e": "Công thức dùng địa chỉ ô nên kết quả cập nhật tự động; E4 giữ giá trị cũ chỉ đúng với =25*10.",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "f",
+     "q": "Công thức bắt đầu bằng dấu ____ ; phép nhân dùng ký hiệu ____ .",
+     "a": [
+      [
+       "=",
+       "dấu bằng"
+      ],
+      [
+       "*",
+       "dấu sao"
+      ]
+     ],
+     "o": [
+      [
+       "=",
+       "*"
+      ],
+      [
+       "+",
+       "x"
+      ],
+      [
+       "=",
+       "x"
+      ],
+      [
+       "#",
+       "*"
+      ]
+     ],
+     "k": 0,
+     "e": "Nhân là *, không phải chữ x.",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "f",
+     "q": "Sao chép công thức =C4*D4 từ E4 xuống E6 thì E6 có công thức ____ ; địa chỉ trong công thức là địa chỉ ____ .",
+     "a": [
+      [
+       "=C6*D6"
+      ],
+      [
+       "tương đối"
+      ]
+     ],
+     "o": [
+      [
+       "=C4*D4",
+       "tuyệt đối"
+      ],
+      [
+       "=C6*D6",
+       "tương đối"
+      ],
+      [
+       "=C6*D6",
+       "tuyệt đối"
+      ],
+      [
+       "=C4*D6",
+       "tương đối"
+      ]
+     ],
+     "k": 1,
+     "e": "Hai hàng xuống nên 4→6; sao chép làm địa chỉ thay đổi nên là tương đối.",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "f",
+     "q": "Dữ liệu kiểu số mặc định căn ____ ; dữ liệu kiểu văn bản mặc định căn ____ .",
+     "a": [
+      [
+       "phải"
+      ],
+      [
+       "trái"
+      ]
+     ],
+     "o": [
+      [
+       "trái",
+       "phải"
+      ],
+      [
+       "giữa",
+       "trái"
+      ],
+      [
+       "phải",
+       "giữa"
+      ],
+      [
+       "phải",
+       "trái"
+      ]
+     ],
+     "k": 3,
+     "e": "Số phải, văn bản trái.",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "f",
+     "q": "Muốn tính tổng ba ô E4, E5, E6 ta nhập vào E7 công thức ____ , sau đó nhấn phím ____ .",
+     "a": [
+      [
+       "=E4+E5+E6"
+      ],
+      [
+       "Enter"
+      ]
+     ],
+     "o": [
+      [
+       "E4+E5+E6",
+       "Enter"
+      ],
+      [
+       "=E4+E5+E6",
+       "Esc"
+      ],
+      [
+       "=E4+E5+E6",
+       "Enter"
+      ],
+      [
+       "=E4*E5*E6",
+       "Enter"
+      ]
+     ],
+     "k": 2,
+     "e": "Thiếu = thì là văn bản; Esc là huỷ nhập.",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "f",
+     "q": "Thành tiền ở F4 = Số lượng (ô E4) nhân Đơn giá (ô D4): nhập ____ rồi sao chép xuống F19; ô F10 sẽ là ____ .",
+     "a": [
+      [
+       "=D4*E4",
+       "=E4*D4"
+      ],
+      [
+       "=D10*E10",
+       "=E10*D10"
+      ]
+     ],
+     "o": [
+      [
+       "=D4*E4",
+       "=D4*E4"
+      ],
+      [
+       "=D4+E4",
+       "=D10+E10"
+      ],
+      [
+       "=D4*E4",
+       "=D10*E10"
+      ],
+      [
+       "D4*E4",
+       "D10*E10"
+      ]
+     ],
+     "k": 2,
+     "e": "Giữ quan hệ vị trí tương đối; hàng 10.",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "f",
+     "q": "Tên ba cách phát hiện chatbot trả lời sai: đối chiếu ____ , nhập thử trên ____ , hỏi thầy cô.",
+     "a": [
+      [
+       "SGK",
+       "sách giáo khoa"
+      ],
+      [
+       "máy tính",
+       "bảng tính"
+      ]
+     ],
+     "o": [
+      [
+       "mạng xã hội",
+       "máy tính"
+      ],
+      [
+       "SGK",
+       "điện thoại người khác"
+      ],
+      [
+       "SGK",
+       "máy tính"
+      ],
+      [
+       "quảng cáo",
+       "bảng tính"
+      ]
+     ],
+     "k": 2,
+     "e": "Kiểm chứng bằng nguồn tin cậy và thử thực tế (7.A1.MR1).",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "s",
+     "q": "Ô A1 = 3, B1 = 4. Công thức =A1^2+B1^2 cho kết quả?",
+     "o": [
+      "14",
+      "25",
+      "49",
+      "10"
+     ],
+     "a": [
+      1
+     ],
+     "e": "3^2+4^2 = 9+16 = 25; 14 là nhầm ^2 thành *2.",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "m",
+     "q": "Những mệnh đề nào ĐÚNG về thanh công thức?",
+     "o": [
+      "Hiển thị nội dung công thức của ô đang chọn",
+      "Dùng để kiểm tra công thức sau khi sao chép",
+      "Ô hiển thị kết quả, thanh công thức hiển thị công thức",
+      "Chỉ hiển thị kết quả số"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Thanh công thức hiển thị công thức chứ không chỉ kết quả.",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    },
+    {
+     "t": "s",
+     "q": "Muốn sao chép công thức từ E4 sang E5:E6 theo SGK, thứ tự đúng là?",
+     "o": [
+      "Chọn E4 → Ctrl+C → chọn E5:E6 → Ctrl+V",
+      "Chọn E5:E6 → Ctrl+C → chọn E4 → Ctrl+V",
+      "Chọn E4 → Ctrl+V → chọn E5:E6 → Ctrl+C",
+      "Chọn E4 → Ctrl+X → chọn E5:E6 → Ctrl+V"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Sao chép: Copy rồi Paste; đảo bước hoặc dùng Cut là sai (Ctrl+X là cắt).",
+     "r": "SGK Tin học 7 KNTT – Bài 7"
+    }
+   ],
+   "tuluan": [
+    {
+     "q": "Câu 1 (3 điểm). Trình bày quy tắc viết công thức trong bảng tính. Cho C4 = 5, D4 = 20, viết công thức ở E4 tính tích; sao chép xuống E6 thì E5, E6 là gì? Vì sao nên dùng địa chỉ ô thay cho số cụ thể?",
+     "a": [
+      "Công thức bắt đầu bằng dấu =, sau đó là biểu thức gồm số, địa chỉ ô, phép toán + - * / ^, nhấn Enter để hiện kết quả.",
+      "E4: =C4*D4 (kết quả 100).",
+      "E5: =C5*D5; E6: =C6*D6 (địa chỉ tương đối, thay đổi theo vị trí).",
+      "Dùng địa chỉ ô thì khi dữ liệu thay đổi kết quả tự cập nhật, không phải gõ lại; sao chép công thức được cho nhiều hàng."
+     ]
+    },
+    {
+     "q": "Câu 2 (4 điểm). Nêu mục tiêu bài 'Tính toán tự động trên bảng tính' (Tin học 7) theo chương trình 2018 và thiết kế hoạt động Luyện tập 15 phút.",
+     "a": [
+      "Kiến thức: nhận biết 4 kiểu dữ liệu; viết công thức bắt đầu bằng =, dùng địa chỉ ô; giải thích sao chép công thức (địa chỉ tương đối).",
+      "Năng lực: tin học (dùng bảng tính tính toán), tự chủ tự học, giao tiếp hợp tác, giải quyết vấn đề; phẩm chất: chăm chỉ, cẩn thận, chính xác.",
+      "Hoạt động Luyện tập: mục tiêu – vận dụng công thức và sao chép; nội dung – câu hỏi tr.37 và Luyện tập F4 =D4*E4 sao chép đến F19.",
+      "Sản phẩm – bảng tính đúng, lưu tệp.",
+      "Tổ chức 4 bước: giao nhiệm vụ → HS làm cặp trên máy, đổi vai → báo cáo, nhận xét → GV kết luận, sửa lỗi hay gặp (thiếu dấu =, dùng x thay *)."
+     ]
+    },
+    {
+     "q": "Câu 3 (3 điểm). Một HS hỏi chatbot công thức tính thành tiền và nhận được 'D4+E4'. Phân tích lỗi, nêu hậu quả và cách GV hướng dẫn HS kiểm chứng, tích hợp năng lực AI.",
+     "a": [
+      "Lỗi: thiếu dấu = (thành văn bản) và dùng phép cộng thay vì nhân; đúng là =D4*E4.",
+      "Hậu quả: bảng tính không tính hoặc ra số liệu sai (7.A1.2), ảnh hưởng quyết định như mua thừa/thiếu.",
+      "Kiểm chứng: đối chiếu SGK, hỏi thầy cô, nhập thử với số đơn giản (D4 = 1000, E4 = 500 phải ra 500000) – 7.A1.MR1.",
+      "Giáo dục khai báo trung thực khi dùng AI và nguyên tắc con người chịu trách nhiệm cuối cùng."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T7-B08",
+   "ten": "Bài 8. Công cụ hỗ trợ tính toán",
+   "tomtat": [
+    "**Hàm** trong bảng tính là **công thức được định nghĩa sẵn**, có **tên hàm**, giúp tính toán nhanh và chính xác hơn so với cộng, trừ từng ô.",
+    "**Cú pháp**: **=<tên hàm>(<các tham số>)**; luôn bắt đầu bằng dấu **=**, tham số nằm trong ngoặc tròn.",
+    "**Tham số** có thể là **số**, **địa chỉ ô** hoặc **vùng ô** (ví dụ D4:J4); các tham số cách nhau bằng dấu **phẩy (,)** hoặc **chấm phẩy (;)** tuỳ cài đặt máy.",
+    "**SUM** tính **tổng** các giá trị trong tham số, ví dụ =SUM(A1:A5).",
+    "**AVERAGE** tính **trung bình cộng**, ví dụ =AVERAGE(B2:B9).",
+    "**MAX** tìm **giá trị lớn nhất**; **MIN** tìm **giá trị nhỏ nhất** trong các tham số.",
+    "**COUNT** **đếm số ô chứa dữ liệu số** trong vùng; ô chứa chữ hoặc ô trống không được đếm.",
+    "Cách nhập: gõ trực tiếp vào ô hoặc thanh công thức; vùng ô có thể chọn bằng chuột thay vì gõ địa chỉ; nhấn **Enter** để nhận kết quả.",
+    "**Sao chép hàm** giống sao chép công thức: dùng **kéo ô điền (fill)** hoặc Copy/Paste, địa chỉ ô tự điều chỉnh theo vị trí mới.",
+    "**Thực hành Trường học xanh**: **K4 =SUM(D4:J4)** (tổng), **L4 =AVERAGE(D4:J4)** (trung bình), tổng theo lớp **D9 =SUM(D4:D8)**; sau đó kéo ô điền xuống.",
+    "Kết quả hàm **tự cập nhật** khi dữ liệu trong các ô tham chiếu thay đổi."
+   ],
+   "ynho": [
+    "Hàm = công thức định nghĩa sẵn, có tên",
+    "Cú pháp: =<tên hàm>(<tham số>)",
+    "5 hàm: SUM, AVERAGE, MAX, MIN, COUNT",
+    "COUNT chỉ đếm ô chứa số",
+    "Vùng ô liên tiếp dùng dấu hai chấm (:)"
+   ],
+   "bang": [
+    {
+     "tieu_de": "Bảng 5 hàm tính toán đơn giản (A1:A5 = 5, 8, 10, 7, 5)",
+     "cot": [
+      "Hàm",
+      "Chức năng",
+      "Ví dụ",
+      "Kết quả"
+     ],
+     "dong": [
+      [
+       "SUM",
+       "Tính tổng",
+       "=SUM(A1:A5)",
+       "35"
+      ],
+      [
+       "AVERAGE",
+       "Trung bình cộng",
+       "=AVERAGE(A1:A5)",
+       "7"
+      ],
+      [
+       "MAX",
+       "Giá trị lớn nhất",
+       "=MAX(A1:A5)",
+       "10"
+      ],
+      [
+       "MIN",
+       "Giá trị nhỏ nhất",
+       "=MIN(A1:A5)",
+       "5"
+      ],
+      [
+       "COUNT",
+       "Đếm ô chứa số",
+       "=COUNT(A1:A5)",
+       "5"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Phân biệt công thức thường và hàm",
+     "cot": [
+      "Tiêu chí",
+      "Công thức thường",
+      "Hàm"
+     ],
+     "dong": [
+      [
+       "Dạng",
+       "=A1+A2+A3+A4+A5",
+       "=SUM(A1:A5)"
+      ],
+      [
+       "Độ dài",
+       "Dài, dễ nhầm khi nhiều ô",
+       "Ngắn gọn, dùng vùng ô"
+      ],
+      [
+       "Dấu bắt đầu",
+       "=",
+       "="
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Bảng điểm: D4:J4 = 8, 7, 9, 6, 10, 8, 7. Tính tổng và trung bình ở K4, L4. Lời giải: K4 =SUM(D4:J4) = 55; L4 =AVERAGE(D4:J4) = 55/7 ≈ 7,86.",
+     "ket_luan": "→ Tổng dùng SUM, trung bình dùng AVERAGE, cùng vùng D4:J4."
+    },
+    {
+     "tinh_huong": "B1:B6 = 12, \"Hà\", 8, (trống), 20, 10. =COUNT(B1:B6) = ? =SUM(B1:B6) = ? Lời giải: COUNT = 4 (12, 8, 20, 10); SUM = 50; MAX = 20; MIN = 8.",
+     "ket_luan": "→ COUNT bỏ qua ô chữ và ô trống; SUM cũng bỏ qua ô chữ."
+    },
+    {
+     "tinh_huong": "Bảng chi tiêu gia đình tháng 1 gồm 4 khoản (ô C2:C5). Muốn biết tổng chi và khoản chi lớn nhất. Lời giải: =SUM(C2:C5) và =MAX(C2:C5).",
+     "ket_luan": "→ Chọn hàm theo yêu cầu: tổng → SUM; lớn nhất → MAX."
+    },
+    {
+     "tinh_huong": "Cột B4:B8 là 5 tên hoa (chữ). Chatbot nói =COUNT(B4:B8) cho kết quả 5. Kiểm chứng: COUNT chỉ đếm ô số nên kết quả là 0.",
+     "ket_luan": "→ AI có thể sai; luôn kiểm chứng bằng SGK hoặc thử trên máy."
+    }
+   ],
+   "nho": [
+    "5 hàm: SUM – AVERAGE – MAX – MIN – COUNT (Tổng, Trung bình, Max lớn, Min nhỏ, Count đếm SỐ).",
+    "Quy tắc 3 chữ: Dấu = – Tên hàm – (Tham số).",
+    "COUNT = đếm SỐ, không đếm CHỮ; hai chấm (:) = từ ... đến."
+   ],
+   "bay": [
+    "Quên dấu = đầu tiên: máy hiểu là văn bản, không tính.",
+    "COUNT không đếm ô chữ/ô trống: COUNT(5 tên) = 0.",
+    "Nhầm dấu : (vùng liên tiếp) với dấu ; hoặc , (liệt kê từng ô): SUM(D4;J4) chỉ cộng 2 ô.",
+    "Nhầm MAX/MIN, SUM/AVERAGE khi đọc nhanh yêu cầu."
+   ],
+   "giaoan": [
+    "**Mục tiêu** – Kiến thức: nêu hàm là công thức định nghĩa sẵn, cú pháp =<tên hàm>(<tham số>); giải thích chức năng SUM, AVERAGE, MAX, MIN, COUNT; sao chép hàm. Năng lực: tự chủ và tự học, giao tiếp và hợp tác; năng lực tin học NLa, NLc; năng lực số 3.1.TC1.a; năng lực AI 7.A1.2, 7.A1.MR1. Phẩm chất: chăm chỉ, cẩn thận khi chọn vùng dữ liệu; khoa học, trung thực khi xử lí số liệu.",
+    "**Chuẩn bị** – GV: kế hoạch bài dạy, máy tính, máy chiếu, tệp bảng điểm mẫu, phiếu học tập, thẻ Đúng/Sai; HS: SGK Tin học 7, vở ghi, ôn cách nhập công thức (Bài 7).",
+    "**Hoạt động 1 – Mở đầu (4 phút)** – Mục tiêu: gợi nhớ công thức, tạo nhu cầu học hàm. Nội dung: tính tổng 30 ô bằng cách cộng từng ô có tiện không? Sản phẩm: HS nêu cách này dài, dễ sai, cần cách nhanh hơn. Tổ chức: (1) GV chiếu bảng 30 số, giao nhiệm vụ; (2) HS suy nghĩ cá nhân, chia sẻ cặp đôi (Think–Pair–Share); (3) mời 2 cặp báo cáo; (4) GV nhận xét, dẫn vào bài.",
+    "**Hoạt động 2 – Hình thành kiến thức (21 phút)** – Mục tiêu: biết khái niệm, cú pháp hàm, chức năng 5 hàm, sao chép hàm. Nội dung: 2.1 hàm và cách nhập; 2.2 năm hàm; 2.3 thực hành K4, L4. Sản phẩm: vở ghi khái niệm, cú pháp, bảng 5 hàm, kết quả thực hành. Tổ chức: (1) GV giao nhiệm vụ, phát phiếu học tập (kĩ thuật mảnh ghép); (2) HS đọc SGK, nhập thử hàm trên máy theo nhóm/cặp; (3) đại diện nhóm báo cáo, lớp nhận xét; (4) GV chốt, nhấn mạnh dấu = và vùng dữ liệu đúng.",
+    "**Hoạt động 3 – Luyện tập (10 phút)** – Mục tiêu: củng cố chọn và nhập hàm đúng. Nội dung: bảng điểm mẫu, nhập hàm cho 5 yêu cầu (tổng, trung bình, cao nhất, thấp nhất, đếm). Sản phẩm: kết quả tính đúng trên máy. Tổ chức: (1) GV phát bảng điểm, giao 5 yêu cầu; (2) HS làm theo cặp, đối chiếu; (3) GV chiếu đáp án, HS giơ thẻ Đúng/Sai; (4) GV nhận xét, nhắc lỗi hay gặp.",
+    "**Hoạt động 4 – Vận dụng (10 phút)** – Mục tiêu: vận dụng hàm vào thực tế, kiểm chứng đầu ra AI. Nội dung: chọn hàm cho bảng chi tiêu gia đình; kiểm chứng câu trả lời chatbot về COUNT. Sản phẩm: chọn đúng SUM, AVERAGE; phát hiện COUNT(B4:B8) = 0. Tổ chức: (1) GV nêu tình huống, chiếu câu trả lời chatbot; (2) HS thử trên máy, đối chiếu SGK; (3) 2–3 HS báo cáo; (4) GV kết luận phải kiểm chứng kết quả AI.",
+    "**Kiểm tra đánh giá** – Hỏi đáp, quan sát thực hành, thẻ Đúng/Sai, sản phẩm bảng tính trên máy; tiêu chí: chọn đúng hàm, nhập đúng cú pháp, vùng ô đúng, kết quả chính xác. Dặn dò: hoàn thành Vận dụng, đọc Bài 9."
+   ],
+   "ai": [
+    "GV dùng chatbot để sinh bảng dữ liệu mẫu và gợi ý bài tập về 5 hàm, nhưng phải tự kiểm tra số liệu và đáp án trước khi đưa vào bài dạy.",
+    "HS hỏi chatbot về COUNT(B4:B8) với 5 tên hoa, rồi kiểm chứng bằng SGK và thử trên bảng tính: kết quả là 0, nhận ra AI có thể sai.",
+    "Đạo đức AI: nêu hậu quả khi dùng kết quả AI chưa xác thực (báo cáo, thống kê sai), trung thực nêu nguồn khi dùng AI hỗ trợ (7.A1.2, 7.A1.MR1)."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Hàm trong bảng tính là gì?",
+     "o": [
+      "Một công thức được định nghĩa sẵn, có tên riêng",
+      "Một ô dữ liệu chứa văn bản",
+      "Một biểu đồ minh hoạ dữ liệu",
+      "Một địa chỉ ô trong trang tính"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Hàm là công thức tính toán được định nghĩa sẵn, có tên hàm.",
+     "r": "SGK Tin học 7 KNTT – Bài 8"
+    },
+    {
+     "t": "s",
+     "q": "Cú pháp tổng quát để nhập hàm vào ô tính là gì?",
+     "o": [
+      "<tên hàm>=(<tham số>)",
+      "(<tên hàm>)=<tham số>",
+      "=<tên hàm>(<các tham số>)",
+      "<tên hàm>(<tham số>)="
+     ],
+     "a": [
+      2
+     ],
+     "e": "Bẫy đổi thứ tự: dấu = phải gõ đầu tiên, sau đó tên hàm rồi tham số trong ngoặc.",
+     "r": "SGK Tin học 7 KNTT – Bài 8"
+    },
+    {
+     "t": "s",
+     "q": "Hàm nào dùng để tính trung bình cộng của các giá trị?",
+     "o": [
+      "SUM",
+      "AVERAGE",
+      "COUNT",
+      "MAX"
+     ],
+     "a": [
+      1
+     ],
+     "e": "AVERAGE là trung bình cộng; SUM là tổng (dễ nhầm).",
+     "r": "SGK Tin học 7 KNTT – Bài 8"
+    },
+    {
+     "t": "s",
+     "q": "Ô A1:A5 chứa 5, 8, 10, 7, 5. Kết quả của =MAX(A1:A5) là bao nhiêu?",
+     "o": [
+      "35",
+      "5",
+      "7",
+      "10"
+     ],
+     "a": [
+      3
+     ],
+     "e": "MAX là giá trị lớn nhất = 10; 35 là kết quả của SUM, 5 là của MIN.",
+     "r": "SGK Tin học 7 KNTT – Bài 8"
+    },
+    {
+     "t": "s",
+     "q": "Ô A1:A5 chứa 5, 8, 10, 7, 5. Kết quả của =AVERAGE(A1:A5) là bao nhiêu?",
+     "o": [
+      "7",
+      "8",
+      "35",
+      "5"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Tổng 35 chia 5 số = 7 (35 là kết quả SUM - bẫy).",
+     "r": "SGK Tin học 7 KNTT – Bài 8"
+    },
+    {
+     "t": "s",
+     "q": "Các ô B1:B6 chứa 12, chữ \"Hà\", 8, ô trống, 20, 10. Kết quả =COUNT(B1:B6) là bao nhiêu?",
+     "o": [
+      "6",
+      "5",
+      "3",
+      "4"
+     ],
+     "a": [
+      3
+     ],
+     "e": "COUNT chỉ đếm ô chứa số: 12, 8, 20, 10 = 4; bỏ qua ô chữ và ô trống.",
+     "r": "SGK Tin học 7 KNTT – Bài 8"
+    },
+    {
+     "t": "s",
+     "q": "Để tìm điểm thấp nhất của lớp trong vùng D4:D8, em nhập công thức nào?",
+     "o": [
+      "=MAX(D4:D8)",
+      "=MIN(D4:D8)",
+      "=SUM(D4:D8)",
+      "=COUNT(D4:D8)"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Thấp nhất → MIN; MAX là cao nhất (từ gần nghĩa đối lập).",
+     "r": "SGK Tin học 7 KNTT – Bài 8"
+    },
+    {
+     "t": "s",
+     "q": "Trong bài Thực hành \"Trường học xanh\", để tính tổng của hàng 4 từ cột D đến J tại ô K4, em nhập:",
+     "o": [
+      "=SUM(D4;J4)",
+      "=SUM(D4:J4)",
+      "=SUM(D4-J4)",
+      "=TOTAL(D4:J4)"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Vùng ô liên tiếp dùng dấu hai chấm D4:J4. SUM(D4;J4) chỉ cộng 2 ô D4 và J4.",
+     "r": "SGK Tin học 7 KNTT – Bài 8"
+    },
+    {
+     "t": "s",
+     "q": "Sau khi nhập hàm ở K4, muốn có kết quả cho các hàng còn lại em nên làm gì?",
+     "o": [
+      "Nhập lại từng hàm thủ công, không có cách nào khác",
+      "Sao chép ô K4 xuống các ô bên dưới (kéo ô điền)",
+      "Xoá cột rồi tạo lại bảng",
+      "Chỉ cần đổi màu ô"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Hàm có thể sao chép như công thức; địa chỉ ô tự điều chỉnh theo hàng.",
+     "r": "SGK Tin học 7 KNTT – Bài 8"
+    },
+    {
+     "t": "s",
+     "q": "Kết quả =SUM(A1:A3, 10) với A1=1, A2=2, A3=3 là bao nhiêu?",
+     "o": [
+      "6",
+      "16",
+      "10",
+      "60"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Tham số có thể là vùng ô và số: 1+2+3+10 = 16.",
+     "r": "SGK Tin học 7 KNTT – Bài 8"
+    },
+    {
+     "t": "m",
+     "q": "Những hàm nào sau đây có trong bài 8 (hàm tính toán đơn giản)?",
+     "o": [
+      "SUM",
+      "AVERAGE",
+      "COUNT",
+      "SORT"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "SORT không thuộc 5 hàm của bài (SUM, AVERAGE, MAX, MIN, COUNT).",
+     "r": "SGK Tin học 7 KNTT – Bài 8"
+    },
+    {
+     "t": "m",
+     "q": "Phát biểu nào đúng về tham số của hàm?",
+     "o": [
+      "Có thể là số",
+      "Có thể là địa chỉ ô",
+      "Có thể là vùng ô",
+      "Bắt buộc phải là chữ"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Tham số là số, địa chỉ ô hoặc vùng ô, không bắt buộc là chữ.",
+     "r": "SGK Tin học 7 KNTT – Bài 8"
+    },
+    {
+     "t": "m",
+     "q": "Với vùng A1:A4 = 4, 6, 10, chữ \"abc\", hàm nào cho kết quả đúng?",
+     "o": [
+      "=SUM(A1:A4) cho 20",
+      "=COUNT(A1:A4) cho 3",
+      "=MAX(A1:A4) cho 10",
+      "=COUNT(A1:A4) cho 4"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "COUNT chỉ đếm ô số nên = 3, không phải 4 (bẫy đếm cả ô chữ).",
+     "r": "SGK Tin học 7 KNTT – Bài 8"
+    },
+    {
+     "t": "m",
+     "q": "Khi dùng chatbot AI để hỏi về hàm bảng tính, em nên làm gì?",
+     "o": [
+      "Kiểm chứng kết quả bằng SGK hoặc thử trên bảng tính",
+      "Tin ngay vì AI luôn đúng",
+      "Đối chiếu với nguồn tin cậy",
+      "Không cần kiểm tra nếu câu trả lời dài"
+     ],
+     "a": [
+      0,
+      2
+     ],
+     "e": "AI có thể sai; phải xác thực kết quả trước khi dùng.",
+     "r": "SGK Tin học 7 KNTT – Bài 8"
+    },
+    {
+     "t": "f",
+     "q": "Hàm ____ dùng để tính tổng; hàm ____ dùng để đếm số ô chứa số.",
+     "a": [
+      [
+       "SUM"
+      ],
+      [
+       "COUNT"
+      ]
+     ],
+     "o": [
+      [
+       "SUM",
+       "COUNT"
+      ],
+      [
+       "COUNT",
+       "SUM"
+      ],
+      [
+       "AVERAGE",
+       "COUNT"
+      ],
+      [
+       "SUM",
+       "MAX"
+      ]
+     ],
+     "k": 0,
+     "e": "Đổi chỗ SUM/COUNT là bẫy đổi chức năng.",
+     "r": "SGK Tin học 7 KNTT – Bài 8"
+    },
+    {
+     "t": "f",
+     "q": "Hàm ____ cho giá trị lớn nhất, còn hàm ____ cho giá trị nhỏ nhất.",
+     "a": [
+      [
+       "MAX"
+      ],
+      [
+       "MIN"
+      ]
+     ],
+     "o": [
+      [
+       "MIN",
+       "MAX"
+      ],
+      [
+       "MAX",
+       "SUM"
+      ],
+      [
+       "AVERAGE",
+       "MIN"
+      ],
+      [
+       "MAX",
+       "MIN"
+      ]
+     ],
+     "k": 3,
+     "e": "MAX = lớn nhất, MIN = nhỏ nhất.",
+     "r": "SGK Tin học 7 KNTT – Bài 8"
+    },
+    {
+     "t": "f",
+     "q": "Khi nhập hàm, ký tự đầu tiên phải là dấu ____, các tham số cách nhau bởi dấu ____ hoặc dấu chấm phẩy.",
+     "a": [
+      [
+       "=",
+       "bằng"
+      ],
+      [
+       "phẩy",
+       ","
+      ]
+     ],
+     "o": [
+      [
+       "=",
+       "phẩy"
+      ],
+      [
+       "+",
+       "phẩy"
+      ],
+      [
+       "=",
+       "hai chấm"
+      ],
+      [
+       "#",
+       "phẩy"
+      ]
+     ],
+     "k": 0,
+     "e": "Hàm bắt đầu bằng dấu =; tham số cách nhau dấu phẩy hoặc chấm phẩy.",
+     "r": "SGK Tin học 7 KNTT – Bài 8"
+    },
+    {
+     "t": "f",
+     "q": "Vùng ô liên tiếp từ D4 đến J4 viết là ____; công thức tính trung bình là =____(D4:J4).",
+     "a": [
+      [
+       "D4:J4"
+      ],
+      [
+       "AVERAGE"
+      ]
+     ],
+     "o": [
+      [
+       "D4;J4",
+       "AVERAGE"
+      ],
+      [
+       "D4:J4",
+       "SUM"
+      ],
+      [
+       "D4:J4",
+       "AVERAGE"
+      ],
+      [
+       "D4-J4",
+       "MAX"
+      ]
+     ],
+     "k": 2,
+     "e": "Dấu : biểu diễn vùng ô liên tiếp; AVERAGE là trung bình.",
+     "r": "SGK Tin học 7 KNTT – Bài 8"
+    },
+    {
+     "t": "f",
+     "q": "Hàm là công thức được ____ sẵn; muốn sao chép hàm xuống các ô dưới ta dùng thao tác kéo ô ____.",
+     "a": [
+      [
+       "định nghĩa"
+      ],
+      [
+       "điền",
+       "fill"
+      ]
+     ],
+     "o": [
+      [
+       "nhập tay",
+       "điền"
+      ],
+      [
+       "định nghĩa",
+       "điền"
+      ],
+      [
+       "định nghĩa",
+       "xoá"
+      ],
+      [
+       "tính",
+       "màu"
+      ]
+     ],
+     "k": 1,
+     "e": "Hàm được định nghĩa sẵn; sao chép bằng kéo ô điền (fill).",
+     "r": "SGK Tin học 7 KNTT – Bài 8"
+    }
+   ],
+   "tuluan": [
+    {
+     "q": "Câu 1 (3 điểm). Nêu khái niệm hàm và cú pháp nhập hàm trong bảng tính. Trình bày chức năng của 5 hàm SUM, AVERAGE, MAX, MIN, COUNT và cho ví dụ với vùng A1:A5 = 5, 8, 10, 7, 5.",
+     "a": [
+      "Hàm là công thức được định nghĩa sẵn, có tên hàm; cú pháp =<tên hàm>(<các tham số>); tham số là số, địa chỉ ô hoặc vùng ô.",
+      "SUM tổng = 35; AVERAGE trung bình = 7; MAX lớn nhất = 10; MIN nhỏ nhất = 5; COUNT đếm ô chứa số = 5.",
+      "Lưu ý COUNT chỉ đếm ô số, bỏ qua ô chữ và ô trống."
+     ]
+    },
+    {
+     "q": "Câu 2 (3 điểm). Nêu mục tiêu bài học \"Công cụ hỗ trợ tính toán\" (Tin học 7, KNTT) theo chương trình 2018.",
+     "a": [
+      "Kiến thức: nêu được hàm là công thức có sẵn, cú pháp; giải thích chức năng SUM, AVERAGE, MAX, MIN, COUNT; sử dụng hàm để tính toán dữ liệu.",
+      "Năng lực: tự chủ và tự học, giao tiếp và hợp tác; năng lực tin học (nhập, dùng hàm xử lí dữ liệu thực tế); năng lực số 3.1.TC1.a; năng lực AI 7.A1.2, 7.A1.MR1.",
+      "Phẩm chất: chăm chỉ, cẩn thận khi chọn vùng dữ liệu; trung thực, khách quan khi xử lí số liệu và dùng AI."
+     ]
+    },
+    {
+     "q": "Câu 3 (4 điểm). Thiết kế một hoạt động vận dụng tích hợp năng lực AI cho bài này, nêu cách kiểm chứng và hậu quả nếu không kiểm chứng.",
+     "a": [
+      "Mục tiêu: HS chọn hàm thích hợp và kiểm chứng đầu ra AI.",
+      "Nội dung: GV hỏi chatbot \"COUNT(B4:B8) với 5 tên hoa cho kết quả mấy?\", chatbot trả lời sai là 5.",
+      "Tổ chức: HS thử trên bảng tính, đối chiếu SGK; kết quả đúng là 0 vì COUNT chỉ đếm ô số.",
+      "Sản phẩm: HS giải thích đúng và nêu hậu quả khi không kiểm chứng: báo cáo, thống kê sai.",
+      "Kết luận: AI chỉ hỗ trợ; phải xác thực và trung thực khi dùng."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T7-B11",
+   "ten": "Bài 11. Tạo bài trình chiếu",
+   "tomtat": [
+    "Phần mềm trình chiếu (ví dụ **PowerPoint**) có **hai chức năng cơ bản**: **tạo bài trình chiếu** và **trình chiếu**.",
+    "Bài trình chiếu gồm nhiều **trang chiếu (slide)**; khi **trình chiếu**, các trang hiển thị **lần lượt**, có thể kèm **hiệu ứng động** và **hiệu ứng chuyển trang**.",
+    "**Trang tiêu đề** là trang đầu, nêu **tên bài trình chiếu** (chủ đề) và **tác giả**.",
+    "**Trang nội dung** gồm **tiêu đề trang** (nêu nội dung chính của trang) và **nội dung** (chữ, ảnh, bảng...).",
+    "**Mẫu bố trí (layout)** là cách sắp đặt sẵn vị trí các khung (tiêu đề, nội dung, ảnh...) trên trang; mỗi trang có thể chọn layout phù hợp.",
+    "**Cấu trúc phân cấp** là cách chia nội dung thành **ý chính** và **ý phụ** nằm ở các **cấp** khác nhau (danh sách nhiều cấp).",
+    "**Lợi ích** của cấu trúc phân cấp: nội dung **mạch lạc**, **dễ hiểu**, dễ nhận ra ý chính – ý phụ, **dễ quản lí** và chỉnh sửa.",
+    "**Tăng cấp** (thành ý phụ): đặt con trỏ ở ý cần đổi rồi nhấn **Tab**; **giảm cấp**: nhấn **Shift+Tab**.",
+    "Có thể đổi **kiểu, màu kí hiệu đầu dòng** bằng công cụ **Bullets**; kết thúc bằng **lưu tệp** (Save/Ctrl+S), ví dụ **Truonghocxanh.pptx**.",
+    "**Quy trình tạo bài**: mở phần mềm → tạo trang tiêu đề → thêm trang nội dung, chọn layout → nhập tiêu đề và nội dung → tăng/giảm cấp → đổi kí hiệu đầu dòng → lưu tệp.",
+    "**Tích hợp AI**: AI có thể gợi ý bố cục, soát chính tả; **con người** kiểm chứng số liệu, quyết định nội dung và **khai báo** khi dùng AI."
+   ],
+   "ynho": [
+    "2 chức năng: tạo bài trình chiếu và trình chiếu",
+    "Trang tiêu đề = trang đầu; tiêu đề trang = tên nội dung trang",
+    "Layout = mẫu bố trí vị trí các khung",
+    "Tab tăng cấp, Shift+Tab giảm cấp",
+    "Phân cấp: ý chính – ý phụ, mạch lạc, dễ hiểu"
+   ],
+   "bang": [
+    {
+     "tieu_de": "Phân biệt trang tiêu đề và tiêu đề trang",
+     "cot": [
+      "Khái niệm",
+      "Vị trí",
+      "Nội dung"
+     ],
+     "dong": [
+      [
+       "Trang tiêu đề",
+       "Trang đầu của bài",
+       "Tên bài trình chiếu, tác giả"
+      ],
+      [
+       "Tiêu đề trang",
+       "Phần đầu mỗi trang nội dung",
+       "Nêu nội dung chính của trang đó"
+      ],
+      [
+       "Trang nội dung",
+       "Các trang tiếp theo",
+       "Tiêu đề trang + nội dung (chữ, ảnh...)"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Danh sách phẳng và danh sách phân cấp",
+     "cot": [
+      "Tiêu chí",
+      "Danh sách phẳng",
+      "Danh sách phân cấp"
+     ],
+     "dong": [
+      [
+       "Cấp của các ý",
+       "Cùng một cấp",
+       "Nhiều cấp: ý chính, ý phụ"
+      ],
+      [
+       "Mức độ dễ hiểu",
+       "Khó nhận ra ý chính",
+       "Mạch lạc, dễ theo dõi"
+      ],
+      [
+       "Thao tác đổi cấp",
+       "Không có",
+       "Tab (tăng), Shift+Tab (giảm)"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Bài báo cáo dự án \"Trường học xanh\" cần 1 trang đầu giới thiệu và 3 trang nội dung.",
+     "ket_luan": "→ Trang đầu là trang tiêu đề (tên bài, tác giả); 3 trang sau mỗi trang có tiêu đề trang riêng (Ý tưởng, Kế hoạch, Kết luận)."
+    },
+    {
+     "tinh_huong": "Trang \"Kế hoạch\" có 4 dòng cùng cấp: Trồng cây, Chọn loại cây, Chuẩn bị đất, Tưới nước. Muốn \"Chọn loại cây\" và \"Chuẩn bị đất\" là ý phụ của \"Trồng cây\".",
+     "ket_luan": "→ Đặt con trỏ ở từng dòng đó rồi nhấn Tab (tăng cấp); muốn đưa lại lên ý chính thì nhấn Shift+Tab."
+    },
+    {
+     "tinh_huong": "Trang \"Công việc trong ngày\" (Luyện tập 2): 3 mục chính (Học tập, Gia đình, Giải trí), mỗi mục có ít nhất 2 mục con.",
+     "ket_luan": "→ Tổng tối thiểu 3 + 3×2 = 9 dòng; mục chính ở cấp 1, mục con tăng cấp bằng Tab."
+    },
+    {
+     "tinh_huong": "Chatbot trả dàn ý \"Trường học xanh\" gồm 10 dòng ngang cấp và câu \"trồng 5000 cây trong 1 tuần\".",
+     "ket_luan": "→ Chưa phân cấp, số liệu vô lí: cần gom thành 3 mục chính, kiểm chứng số liệu, và khai báo đã dùng AI."
+    }
+   ],
+   "nho": [
+    "\"Tab đi vào, Shift+Tab đi ra\" (thụt vào = tăng cấp).",
+    "\"Tiêu đề TRANG đứng đầu mỗi trang; TRANG tiêu đề đứng đầu bài\".",
+    "\"Phân cấp = Chính – Phụ\" như mục lục sách.",
+    "Hai chức năng: \"Tạo rồi Chiếu\"."
+   ],
+   "bay": [
+    "Nhầm trang tiêu đề (trang đầu của bài) với tiêu đề trang (tên nội dung từng trang).",
+    "Nhầm Tab (tăng cấp) với Shift+Tab (giảm cấp).",
+    "Nhầm layout (mẫu bố trí) với hiệu ứng động hay định dạng chữ.",
+    "Tin AI tuyệt đối, không kiểm chứng số liệu và không khai báo."
+   ],
+   "giaoan": [
+    "**Mục tiêu** – Kiến thức: nêu được hai chức năng của phần mềm trình chiếu; vai trò trang tiêu đề, tiêu đề trang, layout; cấu trúc phân cấp và lợi ích; Năng lực: tạo được bài trình chiếu có tiêu đề, cấu trúc phân cấp, đổi kí hiệu đầu dòng, lưu tệp (NLa, NLc, NLe); tự chủ, tự học, giao tiếp hợp tác; nêu được việc AI làm và việc người quyết (7.A3.1); Phẩm chất: chăm chỉ, trình bày mạch lạc, trung thực khi dùng AI.",
+    "**Chuẩn bị** – GV: kế hoạch bài dạy, máy tính, máy chiếu, tệp mẫu Truonghocxanh.pptx, phiếu học tập, chatbot AI; HS: SGK Tin học 7, vở ghi, đọc trước mục 4.",
+    "**Hoạt động 1 – Mở đầu** (5 phút): Mục tiêu: tạo nhu cầu dùng phần mềm trình chiếu. Nội dung: tình huống An – Minh – Khoa (tr.55). Sản phẩm: dùng phần mềm trình chiếu; bài cần trang tiêu đề, tiêu đề trang, nội dung có thứ bậc. Tổ chức: (1) GV chiếu tình huống, nêu câu hỏi; (2) HS suy nghĩ, chia sẻ cặp (Think–Pair–Share); (3) mời 2 HS trả lời; (4) GV nhận xét, dẫn vào bài.",
+    "**Hoạt động 2 – Hình thành kiến thức** (45 phút): Mục tiêu: nêu chức năng, vai trò tiêu đề, layout, cấu trúc phân cấp; tạo trang phân cấp và lưu tệp. Nội dung: mục 1–3 (lí thuyết theo nhóm 4, khăn trải bàn), mục 4 (thực hành: tạo trang, Tab/Shift+Tab, Bullets, lưu tệp). Sản phẩm: phiếu học tập đã điền; tệp Truonghocxanh.pptx. Tổ chức: GV giao nhiệm vụ và phát phiếu → HS đọc SGK, thảo luận → nhóm báo cáo, GV làm mẫu → GV nhận xét, chốt hộp Ghi nhớ.",
+    "**Hoạt động 3 – Luyện tập** (20 phút): Mục tiêu: củng cố kiến thức, tạo trang phân cấp. Nội dung: 3 câu Đúng/Sai tr.56–57; Luyện tập 1, 2 (trang \"Công việc trong ngày\"). Sản phẩm: đáp án đúng; trang có ≥3 mục chính, mỗi mục ≥2 mục con. Tổ chức: GV giao việc → HS giơ thẻ, làm trên máy → 2 HS trình bày → GV nhận xét, chốt.",
+    "**Hoạt động 4 – Vận dụng** (20 phút): Mục tiêu: làm bài trình chiếu dự án, kiểm chứng nội dung AI, khai báo AI. Nội dung: đối chiếu dàn ý chatbot; làm Baitaptinhoc7.pptx ≥3 trang kèm slide \"Khai báo sử dụng AI\". Sản phẩm: dàn ý 3 mục; tệp có slide khai báo. Tổ chức: GV đưa kết quả chatbot → HS thảo luận cặp, kiểm chứng → trình bày → GV giao dự án.",
+    "**Kiểm tra đánh giá** – Quan sát thao tác thực hành, hỏi đáp nhanh, đánh giá phiếu học tập và sản phẩm theo tiêu chí: có trang tiêu đề, tiêu đề trang, cấu trúc phân cấp đúng, lưu tệp, có khai báo AI; dặn dò hoàn thiện Baitaptinhoc7.pptx."
+   ],
+   "ai": [
+    "GV dùng chatbot sinh dàn ý \"Trường học xanh\" (có câu \"5000 cây trong 1 tuần\"), chiếu cho HS nhận xét: dàn ý chưa phân cấp, số liệu vô lí.",
+    "HS đối chiếu mục 3 SGK, kiểm chứng số liệu với thực tế trường, phân biệt việc AI làm (gợi ý bố cục, chính tả) và việc người quyết (nội dung, số liệu) – 7.A3.1.",
+    "Đạo đức AI (7.B3.1): bài dự án phải có slide \"Khai báo sử dụng AI\" ghi rõ công cụ và phần đã dùng."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Phần mềm trình chiếu có hai chức năng cơ bản là gì?",
+     "o": [
+      "Tạo bài trình chiếu và trình chiếu",
+      "Soạn thảo văn bản và in ấn",
+      "Tính toán dữ liệu và vẽ biểu đồ",
+      "Quản lí tệp và nén tệp"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Hai chức năng: tạo bài trình chiếu (soạn các trang chiếu) và trình chiếu (hiển thị lần lượt các trang). Soạn thảo, tính toán là của phần mềm khác.",
+     "r": "SGK Tin học 7 KNTT – Bài 11"
+    },
+    {
+     "t": "s",
+     "q": "Trang chiếu đầu tiên của bài trình chiếu thường nêu nội dung nào?",
+     "o": [
+      "Danh sách toàn bộ ý phụ của bài",
+      "Tên bài trình chiếu (chủ đề) và tên tác giả",
+      "Chỉ các hình ảnh minh hoạ",
+      "Lời cảm ơn và câu hỏi của người nghe"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Đó là trang tiêu đề. Bẫy: lời cảm ơn thường ở trang cuối, không phải trang đầu.",
+     "r": "SGK Tin học 7 KNTT – Bài 11"
+    },
+    {
+     "t": "s",
+     "q": "Tiêu đề trang (tiêu đề của trang nội dung) có vai trò gì?",
+     "o": [
+      "Nêu tên tác giả của bài trình chiếu",
+      "Quy định hiệu ứng chuyển trang",
+      "Nêu nội dung chính mà trang đó trình bày",
+      "Thay thế cho trang tiêu đề"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Tiêu đề trang cho biết trang nói về nội dung gì; đừng nhầm với trang tiêu đề (trang đầu của bài).",
+     "r": "SGK Tin học 7 KNTT – Bài 11"
+    },
+    {
+     "t": "s",
+     "q": "Mẫu bố trí (layout) của trang chiếu là gì?",
+     "o": [
+      "Hiệu ứng động của các đối tượng trên trang",
+      "Kiểu chữ và cỡ chữ mặc định của cả tệp",
+      "Tên tệp khi lưu bài trình chiếu",
+      "Cách sắp đặt sẵn vị trí các khung nội dung (tiêu đề, nội dung, ảnh...) trên trang"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Layout là mẫu bố trí vị trí các khung; không phải hiệu ứng hay định dạng chữ.",
+     "r": "SGK Tin học 7 KNTT – Bài 11"
+    },
+    {
+     "t": "s",
+     "q": "Cấu trúc phân cấp trong bài trình chiếu có đặc điểm nào?",
+     "o": [
+      "Nội dung chia thành ý chính và các ý phụ thuộc ý chính, nằm ở các cấp khác nhau",
+      "Mọi ý đều cùng một cấp, ngang hàng nhau",
+      "Mỗi trang chỉ được có một dòng chữ",
+      "Chỉ dùng để trang trí cho đẹp, không giúp hiểu nội dung"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Cấu trúc phân cấp giúp trình bày mạch lạc, dễ hiểu, dễ quản lí. Danh sách phẳng (mọi ý cùng cấp) là điều ngược lại.",
+     "r": "SGK Tin học 7 KNTT – Bài 11"
+    },
+    {
+     "t": "s",
+     "q": "Trong phần mềm trình chiếu (như PowerPoint), để chuyển một ý xuống cấp thấp hơn (ý phụ) ta dùng phím nào?",
+     "o": [
+      "Shift+Tab",
+      "Tab",
+      "Ctrl+S",
+      "Delete"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Tab = tăng cấp (thụt vào, thành ý phụ). Shift+Tab = giảm cấp. Dễ đảo nhau.",
+     "r": "SGK Tin học 7 KNTT – Bài 11"
+    },
+    {
+     "t": "s",
+     "q": "Muốn đưa một ý phụ lên thành ý chính (giảm cấp) ta thực hiện thao tác nào?",
+     "o": [
+      "Đặt con trỏ ở ý đó rồi nhấn Tab",
+      "Nhấn Ctrl+N",
+      "Đặt con trỏ ở ý đó rồi nhấn Shift+Tab",
+      "Xoá ý đó rồi gõ lại ở trang mới bắt buộc"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Giảm cấp = Shift+Tab. Bẫy: Tab là tăng cấp.",
+     "r": "SGK Tin học 7 KNTT – Bài 11"
+    },
+    {
+     "t": "s",
+     "q": "Sau khi tạo xong bài trình chiếu, để lưu thành tệp ta chọn lệnh nào?",
+     "o": [
+      "Save (Lưu) trong thẻ File hoặc nhấn Ctrl+S",
+      "Print (In)",
+      "Slide Show",
+      "New Slide"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Lưu tệp dùng Save/Ctrl+S; Slide Show là chức năng trình chiếu, New Slide thêm trang mới.",
+     "r": "SGK Tin học 7 KNTT – Bài 11"
+    },
+    {
+     "t": "s",
+     "q": "Để thay đổi kiểu, màu kí hiệu đầu dòng của danh sách trong trang chiếu ta dùng công cụ nào?",
+     "o": [
+      "Slide Sorter",
+      "Bullets (Kí hiệu đầu dòng)",
+      "Transitions",
+      "Table"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Bullets đổi kí hiệu đầu dòng; Transitions là hiệu ứng chuyển trang.",
+     "r": "SGK Tin học 7 KNTT – Bài 11"
+    },
+    {
+     "t": "s",
+     "q": "Khi dùng chatbot AI để soạn dàn ý bài trình chiếu, cách làm nào đúng?",
+     "o": [
+      "Sao chép nguyên kết quả vì AI luôn đúng",
+      "Giấu việc dùng AI để bài được đánh giá cao hơn",
+      "Kiểm chứng số liệu, tự quyết nội dung và khai báo đã dùng AI",
+      "Chỉ cần chọn bố cục đẹp, không cần đọc nội dung"
+     ],
+     "a": [
+      2
+     ],
+     "e": "AI có thể sai số liệu; con người quyết định nội dung và phải trung thực khi khai báo.",
+     "r": "SGK Tin học 7 KNTT – Bài 11"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các phát biểu ĐÚNG về bài trình chiếu.",
+     "o": [
+      "Trang nội dung có tiêu đề trang và nội dung",
+      "Mọi trang bắt buộc phải có cùng một layout",
+      "Trang tiêu đề và tiêu đề trang là một khái niệm duy nhất",
+      "Cấu trúc phân cấp giúp bài mạch lạc, dễ hiểu",
+      "Trang đầu thường là trang tiêu đề"
+     ],
+     "a": [
+      0,
+      3,
+      4
+     ],
+     "e": "Trang tiêu đề (trang đầu) khác tiêu đề trang (tên nội dung từng trang); mỗi trang có thể chọn layout riêng.",
+     "r": "SGK Tin học 7 KNTT – Bài 11"
+    },
+    {
+     "t": "m",
+     "q": "Những thao tác nào dùng để xây dựng cấu trúc phân cấp trong một khung nội dung?",
+     "o": [
+      "Đặt con trỏ ở dòng cần đổi cấp",
+      "Nhấn Tab để tăng cấp",
+      "Chọn hiệu ứng chuyển trang",
+      "Nhấn Ctrl+S để tạo ý phụ",
+      "Nhấn Shift+Tab để giảm cấp"
+     ],
+     "a": [
+      0,
+      1,
+      4
+     ],
+     "e": "Đổi cấp bằng Tab/Shift+Tab; Ctrl+S là lưu tệp, chuyển trang là hiệu ứng, không tạo cấp.",
+     "r": "SGK Tin học 7 KNTT – Bài 11"
+    },
+    {
+     "t": "m",
+     "q": "Việc nào AI có thể hỗ trợ, việc nào con người phải tự quyết khi làm bài trình chiếu? Chọn các ý ĐÚNG.",
+     "o": [
+      "AI gợi ý bố cục và soát lỗi chính tả",
+      "AI chịu trách nhiệm thay cho người về số liệu",
+      "Phải khai báo nếu có dùng AI trong sản phẩm",
+      "Con người quyết định nội dung và số liệu cuối cùng",
+      "Không cần kiểm chứng vì AI trả lời tự tin"
+     ],
+     "a": [
+      0,
+      2,
+      3
+     ],
+     "e": "Theo 7.A3.1, 7.B3.1: AI hỗ trợ, người kiểm chứng, quyết định và khai báo trung thực.",
+     "r": "SGK Tin học 7 KNTT – Bài 11"
+    },
+    {
+     "t": "m",
+     "q": "Lợi ích của việc dùng cấu trúc phân cấp là gì?",
+     "o": [
+      "Dễ nhận ra ý chính và ý phụ",
+      "Dễ quản lí, chỉnh sửa nội dung",
+      "Không cần trang tiêu đề nữa",
+      "Làm bài trình chiếu luôn có dung lượng nhỏ hơn",
+      "Nội dung mạch lạc, dễ theo dõi"
+     ],
+     "a": [
+      0,
+      1,
+      4
+     ],
+     "e": "Lợi ích về cách trình bày; không liên quan dung lượng và không thay thế trang tiêu đề.",
+     "r": "SGK Tin học 7 KNTT – Bài 11"
+    },
+    {
+     "t": "f",
+     "q": "Phần mềm trình chiếu có hai chức năng: ____ và ____.",
+     "a": [
+      [
+       "tạo bài trình chiếu",
+       "tạo bài trình bày"
+      ],
+      [
+       "trình chiếu"
+      ]
+     ],
+     "o": [
+      [
+       "soạn thảo văn bản",
+       "in ấn"
+      ],
+      [
+       "tạo bài trình chiếu",
+       "trình chiếu"
+      ],
+      [
+       "tính toán",
+       "vẽ biểu đồ"
+      ],
+      [
+       "nén tệp",
+       "quản lí tệp"
+      ]
+     ],
+     "k": 1,
+     "e": "Hai chức năng cơ bản: tạo bài trình chiếu và trình chiếu.",
+     "r": "SGK Tin học 7 KNTT – Bài 11"
+    },
+    {
+     "t": "f",
+     "q": "Trang đầu của bài gọi là ____, còn tên nội dung của từng trang là ____.",
+     "a": [
+      [
+       "trang tiêu đề"
+      ],
+      [
+       "tiêu đề trang"
+      ]
+     ],
+     "o": [
+      [
+       "tiêu đề trang",
+       "trang tiêu đề"
+      ],
+      [
+       "trang nội dung",
+       "trang tiêu đề"
+      ],
+      [
+       "trang tiêu đề",
+       "tiêu đề trang"
+      ],
+      [
+       "trang cuối",
+       "tiêu đề trang"
+      ]
+     ],
+     "k": 2,
+     "e": "Bẫy đảo hai khái niệm: trang tiêu đề (trang đầu) – tiêu đề trang (tên nội dung trang).",
+     "r": "SGK Tin học 7 KNTT – Bài 11"
+    },
+    {
+     "t": "f",
+     "q": "Nhấn ____ để tăng cấp một ý và nhấn ____ để giảm cấp.",
+     "a": [
+      [
+       "Tab"
+      ],
+      [
+       "Shift+Tab"
+      ]
+     ],
+     "o": [
+      [
+       "Shift+Tab",
+       "Tab"
+      ],
+      [
+       "Ctrl+S",
+       "Tab"
+      ],
+      [
+       "Tab",
+       "Ctrl+Z"
+      ],
+      [
+       "Tab",
+       "Shift+Tab"
+      ]
+     ],
+     "k": 3,
+     "e": "Tab tăng cấp; Shift+Tab giảm cấp. Phương án đầu bị đảo thứ tự.",
+     "r": "SGK Tin học 7 KNTT – Bài 11"
+    },
+    {
+     "t": "f",
+     "q": "Mẫu bố trí gọi là ____, còn kiểu đầu dòng của danh sách đổi bằng công cụ ____.",
+     "a": [
+      [
+       "layout",
+       "mẫu bố trí"
+      ],
+      [
+       "Bullets",
+       "kí hiệu đầu dòng"
+      ]
+     ],
+     "o": [
+      [
+       "layout",
+       "Bullets"
+      ],
+      [
+       "Slide Show",
+       "Bullets"
+      ],
+      [
+       "layout",
+       "Transitions"
+      ],
+      [
+       "Animations",
+       "Save"
+      ]
+     ],
+     "k": 0,
+     "e": "Layout là mẫu bố trí; Bullets đổi kí hiệu đầu dòng.",
+     "r": "SGK Tin học 7 KNTT – Bài 11"
+    },
+    {
+     "t": "f",
+     "q": "Trình chiếu là hiển thị ____ các trang chiếu, có thể kèm ____ động và chuyển trang.",
+     "a": [
+      [
+       "lần lượt"
+      ],
+      [
+       "hiệu ứng"
+      ]
+     ],
+     "o": [
+      [
+       "đồng thời",
+       "hiệu ứng"
+      ],
+      [
+       "lần lượt",
+       "bảng tính"
+      ],
+      [
+       "lần lượt",
+       "hiệu ứng"
+      ],
+      [
+       "ngẫu nhiên",
+       "phông chữ"
+      ]
+     ],
+     "k": 2,
+     "e": "Trình chiếu hiển thị lần lượt từng trang, có hiệu ứng động và chuyển trang.",
+     "r": "SGK Tin học 7 KNTT – Bài 11"
+    },
+    {
+     "t": "f",
+     "q": "Khi dùng AI soạn dàn ý, em cần ____ số liệu và ____ việc đã dùng AI.",
+     "a": [
+      [
+       "kiểm chứng"
+      ],
+      [
+       "khai báo"
+      ]
+     ],
+     "o": [
+      [
+       "sao chép",
+       "giấu"
+      ],
+      [
+       "kiểm chứng",
+       "khai báo"
+      ],
+      [
+       "kiểm chứng",
+       "xoá"
+      ],
+      [
+       "bỏ qua",
+       "khai báo"
+      ]
+     ],
+     "k": 1,
+     "e": "Kiểm chứng số liệu (AI có thể sai) và khai báo trung thực.",
+     "r": "SGK Tin học 7 KNTT – Bài 11"
+    }
+   ],
+   "tuluan": [
+    {
+     "q": "Câu 1 (2 điểm). Nêu hai chức năng cơ bản của phần mềm trình chiếu; phân biệt trang tiêu đề và tiêu đề trang; nêu lợi ích của cấu trúc phân cấp.",
+     "a": [
+      "Hai chức năng: tạo bài trình chiếu và trình chiếu (hiển thị lần lượt các trang, có hiệu ứng động, chuyển trang).",
+      "Trang tiêu đề: trang đầu, nêu tên bài trình chiếu, tác giả.",
+      "Tiêu đề trang: phần đầu mỗi trang nội dung, nêu nội dung chính của trang.",
+      "Lợi ích cấu trúc phân cấp: nội dung mạch lạc, dễ hiểu, thấy rõ ý chính – ý phụ, dễ quản lí, chỉnh sửa."
+     ]
+    },
+    {
+     "q": "Câu 2 (3 điểm). Nêu mục tiêu bài học \"Tạo bài trình chiếu\" (Tin học 7) theo chương trình 2018 và thiết kế hoạt động thực hành tạo trang phân cấp.",
+     "a": [
+      "Kiến thức: nêu hai chức năng; vai trò trang tiêu đề, tiêu đề trang, layout; cấu trúc phân cấp và lợi ích.",
+      "Năng lực: tạo bài trình chiếu có tiêu đề, phân cấp, đổi kí hiệu đầu dòng, lưu tệp; tự chủ tự học, giao tiếp hợp tác; nêu việc AI làm và người quyết.",
+      "Phẩm chất: chăm chỉ, trình bày mạch lạc, trung thực khi dùng AI.",
+      "Hoạt động thực hành: mục tiêu – tạo trang 3 cấp; nội dung – làm theo Hình 11.8; sản phẩm – Truonghocxanh.pptx.",
+      "Tổ chức 4 bước: giao nhiệm vụ (GV làm mẫu Tab/Shift+Tab) → HS thực hành → báo cáo, nhận xét chéo → GV kết luận."
+     ]
+    },
+    {
+     "q": "Câu 3 (2 điểm). Chatbot trả dàn ý bài \"Trường học xanh\" gồm 10 dòng cùng cấp, có câu \"trồng 5000 cây trong 1 tuần\". Hãy nêu cách GV hướng dẫn HS xử lí và tích hợp năng lực AI.",
+     "a": [
+      "Nhận xét: dàn ý chưa phân cấp; số liệu 5000 cây/tuần vô lí.",
+      "Hướng dẫn gom thành 3 mục chính (Ý tưởng, Kế hoạch, Kết luận), dùng Tab tạo ý phụ.",
+      "Kiểm chứng số liệu với thực tế trường, sửa lại.",
+      "Phân biệt: AI gợi ý bố cục, chính tả; người quyết nội dung, số liệu (7.A3.1).",
+      "Khai báo sử dụng AI trong sản phẩm (7.B3.1)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T7-B14",
+   "ten": "Bài 14. Thuật toán tìm kiếm tuần tự",
+   "tomtat": [
+    "**Bài toán tìm kiếm**: cho một **danh sách** các đối tượng và một đối tượng cần tìm; yêu cầu tìm xem đối tượng đó có trong danh sách không và ở đâu.",
+    "**Đầu vào (Input)**: danh sách các đối tượng (ví dụ danh sách khách hàng) và đối tượng cần tìm (ví dụ họ tên). **Đầu ra (Output)**: kết quả tìm (ví dụ địa chỉ khách hàng) hoặc thông báo **không tìm thấy**.",
+    "**Tìm kiếm tuần tự** là xét **lần lượt từng phần tử** của danh sách **từ đầu đến cuối** để so sánh với đối tượng cần tìm.",
+    "Thuật toán có cấu trúc **lặp**: mỗi vòng lặp xét một phần tử rồi chuyển sang phần tử kế tiếp.",
+    "Vòng lặp **dừng** khi một trong **hai điều kiện** xảy ra: (1) **gặp đúng đối tượng cần tìm**; (2) **đã xét hết danh sách**.",
+    "Biểu diễn bằng **sơ đồ khối** (Hình 14.1): hình bầu dục là bắt đầu/kết thúc, hình chữ nhật là thao tác, **hình thoi** là điều kiện rẽ nhánh Đúng/Sai, mũi tên chỉ thứ tự thực hiện.",
+    "Biểu diễn bằng **ngôn ngữ tự nhiên** gồm **5 bước**: xem phần tử đầu; so sánh với đối tượng cần tìm; nếu đúng thì ghi kết quả và kết thúc; nếu chưa đúng mà hết danh sách thì thông báo **không tìm thấy**; nếu chưa hết thì xem phần tử tiếp theo và quay lại so sánh.",
+    "**Mô phỏng** thuật toán bằng bảng: mỗi dòng là một **lần xét** (phần tử đang xét, kết quả so sánh, hành động tiếp theo). Ví dụ Bảng 14.2: tìm \"Thanh Trúc\" thì lần 1–3 chưa đúng, **lần 4 đúng và dừng**.",
+    "Nếu đối tượng **không có** trong danh sách (ví dụ \"Lê Lan\" ở Bảng 14.1) thì phải xét **hết** danh sách rồi kết luận không tìm thấy.",
+    "Số lần xét từ **1** (ở đầu danh sách) đến **n** (ở cuối hoặc không có) với danh sách n phần tử; thuật toán **luôn dừng**.",
+    "Tìm kiếm tuần tự **không đòi hỏi** danh sách phải sắp xếp, dùng được cho mọi danh sách.",
+    "Chatbot AI có thể mô phỏng thuật toán **sai** (sai vị trí, xét tiếp dù đã thấy), nên cần **kiểm chứng** bằng SGK và tự mô phỏng."
+   ],
+   "ynho": [
+    "Đầu vào: danh sách + đối tượng cần tìm",
+    "Xét lần lượt từ đầu đến cuối",
+    "Hai điều kiện dừng: tìm thấy hoặc hết danh sách",
+    "Tìm thấy là dừng ngay, không xét tiếp",
+    "Luôn kiểm chứng kết quả của AI"
+   ],
+   "bang": [
+    {
+     "tieu_de": "Đầu vào, đầu ra và hai kết cục của tìm kiếm tuần tự",
+     "cot": [
+      "Thành phần",
+      "Nội dung",
+      "Ví dụ (tìm khách hàng)"
+     ],
+     "dong": [
+      [
+       "Đầu vào",
+       "Danh sách + đối tượng cần tìm",
+       "Danh sách khách hàng; họ tên cần tìm"
+      ],
+      [
+       "Đầu ra (tìm thấy)",
+       "Thông tin/vị trí đối tượng",
+       "Địa chỉ khách hàng"
+      ],
+      [
+       "Đầu ra (không có)",
+       "Thông báo không tìm thấy",
+       "\"Không tìm thấy\" (ví dụ Lê Lan)"
+      ],
+      [
+       "Số lần xét",
+       "Từ 1 đến n",
+       "Thanh Trúc: dừng ở lần 4"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Ý nghĩa các khối trong sơ đồ khối",
+     "cot": [
+      "Hình",
+      "Ý nghĩa",
+      "Ví dụ trong thuật toán"
+     ],
+     "dong": [
+      [
+       "Bầu dục",
+       "Bắt đầu / kết thúc",
+       "Bắt đầu; Kết thúc"
+      ],
+      [
+       "Chữ nhật",
+       "Thao tác",
+       "Xem tên đầu; xem tên tiếp theo; ghi địa chỉ"
+      ],
+      [
+       "Thoi",
+       "Điều kiện Đúng/Sai",
+       "Đúng tên cần tìm không? Hết danh sách chưa?"
+      ],
+      [
+       "Mũi tên",
+       "Thứ tự thực hiện",
+       "Nối các khối"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Danh sách số: 7, 3, 9, 5, 1. Tìm số 5. Lần 1: 7 ≠ 5; lần 2: 3 ≠ 5; lần 3: 9 ≠ 5; lần 4: 5 = 5 → dừng, vị trí 4.",
+     "ket_luan": "→ Tìm thấy ở lần 4, không xét số 1 (dừng ngay khi thấy)."
+    },
+    {
+     "tinh_huong": "Cùng danh sách 7, 3, 9, 5, 1, tìm số 8: lần 1 đến lần 5 đều không bằng 8; sau lần 5 đã hết danh sách.",
+     "ket_luan": "→ Xét đủ 5 phần tử, kết luận \"không tìm thấy\" (điều kiện dừng 2)."
+    },
+    {
+     "tinh_huong": "Bảng 14.3 có 9 tên nước, Iceland ở vị trí thứ 6. Mô phỏng: 5 lần đầu chưa đúng, lần 6 đúng.",
+     "ket_luan": "→ Dừng ở lần 6, không xét 3 nước còn lại."
+    },
+    {
+     "tinh_huong": "Chatbot trả lời \"Iceland ở vị trí 5, phải xét tiếp 4 nước còn lại\". HS đối chiếu Bảng 14.3 và tự mô phỏng.",
+     "ket_luan": "→ Chatbot sai 2 chỗ: vị trí đúng là 6; tìm thấy thì dừng, không xét tiếp."
+    }
+   ],
+   "nho": [
+    "\"Thấy thì dừng, hết thì thôi\" = hai điều kiện dừng",
+    "Tuần tự = từng người một xếp hàng, không nhảy cóc",
+    "Hình thoi = hỏi (Đúng/Sai); chữ nhật = làm",
+    "Xấu nhất xét n, tốt nhất xét 1"
+   ],
+   "bay": [
+    "Quên điều kiện dừng thứ hai (hết danh sách) khi đối tượng không có",
+    "Đã tìm thấy vẫn xét tiếp các phần tử sau",
+    "Đảo lẫn đầu vào và đầu ra",
+    "Nghĩ rằng phải sắp xếp danh sách trước khi tìm tuần tự"
+   ],
+   "giaoan": [
+    "**Mục tiêu** – Kiến thức: giải thích được thuật toán tìm kiếm tuần tự (đầu vào, đầu ra, hai điều kiện dừng); biểu diễn được bằng sơ đồ khối và ngôn ngữ tự nhiên; mô phỏng được trên danh sách nhỏ. Năng lực: tự chủ, tự học; giao tiếp, hợp tác; giải quyết vấn đề; NLd (Tin học): mô tả, mô phỏng thuật toán; năng lực số: 3.4.TC1.a, 5.3.TC1.b; năng lực AI: 7.A1.2, 7.A1.MR1. Phẩm chất: chăm chỉ, cẩn thận; trung thực, khai báo khi dùng AI.",
+    "**Chuẩn bị** – GV: máy tính, máy chiếu, Hình 14.1, Bảng 14.1–14.3, 5 thẻ tên, phiếu học tập, câu trả lời mẫu của chatbot AI. HS: SGK Tin học 7, vở ghi, đọc trước bài, danh sách vài cuốn sách của em.",
+    "**Hoạt động 1 – Mở đầu** (5 phút) – Mục tiêu: tạo nhu cầu tìm thông tin trong danh sách. Nội dung: tình huống mẹ An tìm địa chỉ khách hàng trong sổ dài. Sản phẩm: HS nêu cách xem lần lượt từ đầu đến cuối. Tổ chức: (1) GV giao nhiệm vụ; (2) HS suy nghĩ, thảo luận cặp (Think–Pair–Share); (3) báo cáo; (4) GV nhận xét, dẫn vào bài.",
+    "**Hoạt động 2 – Hình thành kiến thức** (50 phút) – Mục tiêu: xác định đầu vào, đầu ra; đọc sơ đồ khối; nêu hai điều kiện dừng; mô tả 5 bước. Nội dung: Hình 14.1, Hoạt động 1 điền Bảng 14.2 (tìm Thanh Trúc), 5 bước bằng ngôn ngữ tự nhiên. Sản phẩm: Bảng 14.2 đúng (dừng ở lần 4), ghép đúng khối với bước. Tổ chức: (1) GV phát phiếu, chiếu hình; (2) HS thảo luận cặp, đóng vai 5 thẻ tên; (3) các nhóm báo cáo; (4) GV chốt theo hộp Ghi nhớ.",
+    "**Hoạt động 3 – Luyện tập** (20 phút) – Mục tiêu: củng cố mô phỏng, hiểu trường hợp không tìm thấy. Nội dung: tìm \"Lê Lan\" ở Bảng 14.1; kẻ Bảng 14.3 tìm Iceland. Sản phẩm: Lê Lan xét hết danh sách, không tìm thấy; Iceland dừng ở lần 6. Tổ chức: (1) GV giao bài; (2) HS làm cặp, kiểm tra chéo; (3) mời cặp trình bày; (4) GV chốt hai điều kiện dừng.",
+    "**Hoạt động 4 – Vận dụng** (15 phút) – Mục tiêu: áp dụng vào danh sách của em; kiểm chứng kết quả chatbot. Nội dung: lập danh sách 5 cuốn sách, tìm một cuốn; đối chiếu câu trả lời sai của chatbot với Bảng 14.3. Sản phẩm: bảng tìm sách đúng; nhận ra chatbot sai vị trí và điều kiện dừng. Tổ chức: (1) GV giao nhiệm vụ, chiếu câu trả lời chatbot; (2) HS mô phỏng, đối chiếu SGK; (3) báo cáo; (4) GV kết luận cần kiểm chứng kết quả AI.",
+    "**Kiểm tra đánh giá** – Hỏi đáp nhanh/giơ thẻ A, B, C, D; đánh giá phiếu học tập (Bảng 14.2, 14.3) theo tiêu chí: xác định đúng đầu vào, đầu ra; nêu đủ hai điều kiện dừng; mô phỏng đúng số lần xét. Củng cố, dặn học thuộc hai điều kiện dừng, đọc trước Bài 15."
+   ],
+   "ai": [
+    "GV dùng chatbot AI để gợi ý thêm danh sách ví dụ (tên nước, tên sách) và phiếu bài tập mô phỏng, nhưng phải tự kiểm tra đáp án trước khi dùng.",
+    "HS kiểm chứng đầu ra của AI: cho chatbot mô phỏng tìm Iceland, đối chiếu Bảng 14.3, phát hiện sai vị trí (5 thay vì 6) và sai điều kiện dừng (xét tiếp dù đã thấy) (7.A1.2, 7.A1.MR1).",
+    "Đạo đức AI: không tin tuyệt đối kết quả AI, nêu hậu quả khi tin sai (mô phỏng sai), khai báo khi dùng AI và đối chiếu SGK, thầy cô."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Thuật toán tìm kiếm tuần tự xét các phần tử của danh sách theo cách nào?",
+     "o": [
+      "Lần lượt từ phần tử đầu tiên đến phần tử cuối cùng",
+      "Bắt đầu từ phần tử ở giữa danh sách",
+      "Từ phần tử cuối lên phần tử đầu rồi xét cả hai phía",
+      "Chọn ngẫu nhiên từng phần tử trong danh sách"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Tuần tự = lần lượt từng phần tử từ đầu. Không chọn giữa hay ngẫu nhiên.",
+     "r": "SGK Tin học 7 KNTT – Bài 14"
+    },
+    {
+     "t": "s",
+     "q": "Đầu vào của bài toán tìm kiếm trong danh sách là gì?",
+     "o": [
+      "Vị trí của đối tượng cần tìm",
+      "Danh sách các đối tượng và đối tượng cần tìm",
+      "Địa chỉ của khách hàng tìm được",
+      "Số lần so sánh đã thực hiện"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Vị trí/địa chỉ/kết quả là đầu ra, không phải đầu vào (bẫy đảo vào–ra).",
+     "r": "SGK Tin học 7 KNTT – Bài 14"
+    },
+    {
+     "t": "s",
+     "q": "Đầu ra của bài toán tìm khách hàng trong sổ theo họ tên là gì?",
+     "o": [
+      "Danh sách khách hàng và họ tên cần tìm",
+      "Số lượng khách hàng trong sổ",
+      "Thông tin (địa chỉ) của khách hàng cần tìm, hoặc thông báo không tìm thấy",
+      "Họ tên của tất cả khách hàng"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Đầu ra là kết quả tìm: có thì thông tin, không có thì thông báo không tìm thấy.",
+     "r": "SGK Tin học 7 KNTT – Bài 14"
+    },
+    {
+     "t": "s",
+     "q": "Trong thuật toán tìm kiếm tuần tự, vòng lặp dừng khi nào?",
+     "o": [
+      "Chỉ khi gặp đối tượng cần tìm",
+      "Chỉ khi xét hết danh sách",
+      "Khi xét xong đúng ba phần tử",
+      "Khi gặp đối tượng cần tìm hoặc đã xét hết danh sách"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Có HAI điều kiện dừng; bẫy: chỉ nêu một điều kiện sẽ không đúng khi đối tượng không có trong danh sách.",
+     "r": "SGK Tin học 7 KNTT – Bài 14"
+    },
+    {
+     "t": "s",
+     "q": "Danh sách là 7, 3, 9, 5, 1. Tìm số 5 bằng tìm kiếm tuần tự thì phải xét bao nhiêu phần tử trước khi dừng?",
+     "o": [
+      "3",
+      "4",
+      "5",
+      "2"
+     ],
+     "a": [
+      1
+     ],
+     "e": "5 ở vị trí thứ 4: xét 7, 3, 9, 5 rồi dừng, không xét số 1 (bẫy: xét hết 5 phần tử).",
+     "r": "SGK Tin học 7 KNTT – Bài 14"
+    },
+    {
+     "t": "s",
+     "q": "Danh sách là 7, 3, 9, 5, 1. Tìm số 8 thì thuật toán xét bao nhiêu phần tử và kết luận gì?",
+     "o": [
+      "Xét 4 phần tử, kết luận tìm thấy",
+      "Xét 1 phần tử, kết luận không tìm thấy",
+      "Xét cả 5 phần tử, kết luận không tìm thấy",
+      "Xét cả 5 phần tử, kết luận tìm thấy ở vị trí 5"
+     ],
+     "a": [
+      2
+     ],
+     "e": "8 không có trong danh sách nên phải xét hết 5 phần tử rồi dừng vì hết danh sách.",
+     "r": "SGK Tin học 7 KNTT – Bài 14"
+    },
+    {
+     "t": "s",
+     "q": "Trong sơ đồ khối Hình 14.1, khối hình thoi dùng để làm gì?",
+     "o": [
+      "Biểu diễn điều kiện rẽ nhánh Đúng/Sai (ví dụ: đúng tên cần tìm không?)",
+      "Biểu diễn bắt đầu hoặc kết thúc thuật toán",
+      "Biểu diễn thao tác ghi kết quả",
+      "Biểu diễn mũi tên chỉ thứ tự"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Hình thoi = điều kiện; hình bầu dục = bắt đầu/kết thúc; hình chữ nhật = thao tác.",
+     "r": "SGK Tin học 7 KNTT – Bài 14"
+    },
+    {
+     "t": "s",
+     "q": "Danh sách có n phần tử. Số lần xét nhiều nhất của tìm kiếm tuần tự là bao nhiêu?",
+     "o": [
+      "n/2 lần",
+      "1 lần",
+      "n + 1 lần",
+      "n lần"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Xấu nhất: đối tượng ở cuối hoặc không có, phải xét hết n phần tử. Nhiều nhất là n, không phải n+1.",
+     "r": "SGK Tin học 7 KNTT – Bài 14"
+    },
+    {
+     "t": "s",
+     "q": "Danh sách 9 tên nước, Iceland ở vị trí thứ 6 (Bảng 14.3). Khi tìm Iceland bằng tìm kiếm tuần tự, sau lần xét thứ 6 thuật toán làm gì?",
+     "o": [
+      "Xét tiếp 3 nước còn lại rồi mới dừng",
+      "Dừng và thông báo vị trí tìm thấy, không xét 3 nước còn lại",
+      "Quay lại xét từ nước đầu tiên",
+      "Thông báo không tìm thấy"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Tìm thấy là dừng ngay (điều kiện dừng 1). Bẫy: xét tiếp dù đã thấy.",
+     "r": "SGK Tin học 7 KNTT – Bài 14"
+    },
+    {
+     "t": "s",
+     "q": "Việc kiểm chứng kết quả do chatbot AI mô phỏng thuật toán (ví dụ nói Iceland ở vị trí 5) nên làm thế nào?",
+     "o": [
+      "Tin ngay vì AI luôn tính đúng",
+      "Chỉ tin nếu câu trả lời dài và trình bày đẹp",
+      "Đối chiếu với SGK và tự mô phỏng lại từng bước",
+      "Hỏi lại cùng chatbot đó và chấp nhận câu trả lời cuối"
+     ],
+     "a": [
+      2
+     ],
+     "e": "AI có thể sai; cần xác thực bằng nguồn đáng tin cậy và tự mô phỏng.",
+     "r": "SGK Tin học 7 KNTT – Bài 14"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các phát biểu ĐÚNG về thuật toán tìm kiếm tuần tự.",
+     "o": [
+      "Có đầu vào là danh sách và đối tượng cần tìm",
+      "Xét các phần tử lần lượt từ đầu danh sách",
+      "Luôn phải xét hết danh sách dù đã tìm thấy",
+      "Có thể kết thúc mà không tìm thấy"
+     ],
+     "a": [
+      0,
+      1,
+      3
+     ],
+     "e": "Tìm thấy là dừng, không phải xét hết; không có trong danh sách thì kết luận không tìm thấy.",
+     "r": "SGK Tin học 7 KNTT – Bài 14"
+    },
+    {
+     "t": "m",
+     "q": "Những trường hợp nào làm vòng lặp của thuật toán tìm kiếm tuần tự dừng?",
+     "o": [
+      "Gặp phần tử đúng bằng đối tượng cần tìm",
+      "Đã xét xong phần tử cuối của danh sách",
+      "Phần tử đang xét có giá trị nhỏ hơn đối tượng cần tìm",
+      "Người dùng nhập sai tên"
+     ],
+     "a": [
+      0,
+      1
+     ],
+     "e": "Chỉ hai điều kiện dừng: tìm thấy hoặc hết danh sách; so sánh lớn nhỏ không thuộc thuật toán này.",
+     "r": "SGK Tin học 7 KNTT – Bài 14"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các cách biểu diễn thuật toán tìm kiếm tuần tự có trong bài học.",
+     "o": [
+      "Sơ đồ khối",
+      "Ngôn ngữ tự nhiên (các bước)",
+      "Bảng mô phỏng từng lần xét",
+      "Biểu đồ cột"
+     ],
+     "a": [
+      0,
+      1,
+      2
+     ],
+     "e": "Bài dùng sơ đồ khối, mô tả các bước bằng lời và bảng mô phỏng; không dùng biểu đồ cột.",
+     "r": "SGK Tin học 7 KNTT – Bài 14"
+    },
+    {
+     "t": "m",
+     "q": "Danh sách 7, 3, 9, 5, 1; tìm số 9. Chọn các phát biểu ĐÚNG.",
+     "o": [
+      "Số 9 ở vị trí thứ 3",
+      "Thuật toán dừng sau lần xét thứ 3",
+      "Thuật toán phải xét cả 5 phần tử",
+      "Số 5 và số 1 không được xét"
+     ],
+     "a": [
+      0,
+      1,
+      3
+     ],
+     "e": "9 ở vị trí 3, dừng ngay sau lần 3, hai phần tử sau không xét.",
+     "r": "SGK Tin học 7 KNTT – Bài 14"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các bước thuộc mô tả thuật toán tìm kiếm tuần tự bằng ngôn ngữ tự nhiên.",
+     "o": [
+      "Xem phần tử đầu tiên của danh sách",
+      "So sánh phần tử đang xét với đối tượng cần tìm",
+      "Sắp xếp danh sách tăng dần trước khi tìm",
+      "Nếu chưa hết danh sách, xét phần tử tiếp theo"
+     ],
+     "a": [
+      0,
+      1,
+      3
+     ],
+     "e": "Tìm kiếm tuần tự không yêu cầu sắp xếp trước.",
+     "r": "SGK Tin học 7 KNTT – Bài 14"
+    },
+    {
+     "t": "f",
+     "q": "Tìm kiếm tuần tự xét các phần tử ____ từ đầu đến cuối và dừng khi ____ hoặc hết danh sách.",
+     "a": [
+      [
+       "lần lượt"
+      ],
+      [
+       "tìm thấy"
+      ]
+     ],
+     "o": [
+      [
+       "ngẫu nhiên",
+       "tìm thấy"
+      ],
+      [
+       "lần lượt",
+       "xét xong phần tử giữa"
+      ],
+      [
+       "lần lượt",
+       "tìm thấy"
+      ],
+      [
+       "từ giữa ra",
+       "hết danh sách"
+      ]
+     ],
+     "k": 2,
+     "e": "Hai điều kiện dừng: tìm thấy hoặc hết danh sách.",
+     "r": "SGK Tin học 7 KNTT – Bài 14"
+    },
+    {
+     "t": "f",
+     "q": "Bài toán tìm kiếm có đầu vào là ____ và đầu ra là ____.",
+     "a": [
+      [
+       "danh sách và đối tượng cần tìm"
+      ],
+      [
+       "kết quả tìm kiếm"
+      ]
+     ],
+     "o": [
+      [
+       "danh sách và đối tượng cần tìm",
+       "kết quả tìm kiếm"
+      ],
+      [
+       "kết quả tìm kiếm",
+       "danh sách và đối tượng cần tìm"
+      ],
+      [
+       "đối tượng cần tìm",
+       "danh sách"
+      ],
+      [
+       "số lần so sánh",
+       "vị trí đầu tiên"
+      ]
+     ],
+     "k": 0,
+     "e": "Đừng đảo đầu vào và đầu ra.",
+     "r": "SGK Tin học 7 KNTT – Bài 14"
+    },
+    {
+     "t": "f",
+     "q": "Trong sơ đồ khối Hình 14.1, hình ____ biểu diễn điều kiện, hình ____ biểu diễn thao tác.",
+     "a": [
+      [
+       "thoi"
+      ],
+      [
+       "chữ nhật"
+      ]
+     ],
+     "o": [
+      [
+       "chữ nhật",
+       "thoi"
+      ],
+      [
+       "thoi",
+       "chữ nhật"
+      ],
+      [
+       "bầu dục",
+       "thoi"
+      ],
+      [
+       "thoi",
+       "bầu dục"
+      ]
+     ],
+     "k": 1,
+     "e": "Hình thoi: điều kiện; chữ nhật: thao tác; bầu dục: bắt đầu/kết thúc.",
+     "r": "SGK Tin học 7 KNTT – Bài 14"
+    },
+    {
+     "t": "f",
+     "q": "Danh sách 7, 3, 9, 5, 1: tìm số 5 xét ____ phần tử; tìm số 8 xét ____ phần tử.",
+     "a": [
+      [
+       "4"
+      ],
+      [
+       "5"
+      ]
+     ],
+     "o": [
+      [
+       "5",
+       "4"
+      ],
+      [
+       "3",
+       "5"
+      ],
+      [
+       "4",
+       "6"
+      ],
+      [
+       "4",
+       "5"
+      ]
+     ],
+     "k": 3,
+     "e": "5 ở vị trí 4; 8 không có nên xét hết 5 phần tử.",
+     "r": "SGK Tin học 7 KNTT – Bài 14"
+    },
+    {
+     "t": "f",
+     "q": "Khi đối tượng cần tìm ____ trong danh sách thì thuật toán xét ____ danh sách rồi thông báo không tìm thấy.",
+     "a": [
+      [
+       "không có"
+      ],
+      [
+       "hết"
+      ]
+     ],
+     "o": [
+      [
+       "không có",
+       "hết"
+      ],
+      [
+       "có",
+       "hết"
+      ],
+      [
+       "không có",
+       "một nửa"
+      ],
+      [
+       "có",
+       "một nửa"
+      ]
+     ],
+     "k": 0,
+     "e": "Không có thì phải xét hết danh sách.",
+     "r": "SGK Tin học 7 KNTT – Bài 14"
+    },
+    {
+     "t": "f",
+     "q": "Tìm kiếm tuần tự cần xét nhiều nhất ____ phần tử với danh sách n phần tử, trường hợp đối tượng ở ____ danh sách hoặc không có.",
+     "a": [
+      [
+       "n"
+      ],
+      [
+       "cuối"
+      ]
+     ],
+     "o": [
+      [
+       "n/2",
+       "cuối"
+      ],
+      [
+       "n",
+       "cuối"
+      ],
+      [
+       "1",
+       "đầu"
+      ],
+      [
+       "n",
+       "đầu"
+      ]
+     ],
+     "k": 1,
+     "e": "Xấu nhất là đối tượng ở cuối hoặc không có; nếu ở đầu chỉ cần 1 lần.",
+     "r": "SGK Tin học 7 KNTT – Bài 14"
+    }
+   ],
+   "tuluan": [
+    {
+     "q": "Câu 1 (2 điểm). Trình bày thuật toán tìm kiếm tuần tự: đầu vào, đầu ra, các bước (ngôn ngữ tự nhiên) và điều kiện dừng. Mô phỏng tìm số 9 và số 4 trong danh sách 7, 3, 9, 5, 1.",
+     "a": [
+      "Đầu vào: danh sách và đối tượng cần tìm. Đầu ra: vị trí/thông tin đối tượng hoặc thông báo không tìm thấy.",
+      "Các bước: (1) xem phần tử đầu; (2) so sánh với đối tượng cần tìm; (3) nếu đúng thì ghi kết quả, kết thúc; (4) nếu chưa đúng và hết danh sách thì thông báo không tìm thấy, kết thúc; (5) nếu chưa hết thì xem phần tử tiếp theo, quay lại bước 2.",
+      "Điều kiện dừng: gặp đúng đối tượng hoặc hết danh sách.",
+      "Tìm 9: lần 1 (7), lần 2 (3), lần 3 (9, đúng) → dừng, vị trí 3, xét 3 phần tử.",
+      "Tìm 4: xét lần lượt 7, 3, 9, 5, 1 đều khác 4; hết danh sách → không tìm thấy, xét 5 phần tử."
+     ]
+    },
+    {
+     "q": "Câu 2 (2 điểm). Nêu mục tiêu bài \"Thuật toán tìm kiếm tuần tự\" (Tin học 7) theo Chương trình giáo dục phổ thông 2018.",
+     "a": [
+      "Kiến thức: giải thích được thuật toán tìm kiếm tuần tự (đầu vào, đầu ra, hai điều kiện dừng); biểu diễn được bằng sơ đồ khối và ngôn ngữ tự nhiên; mô phỏng được thuật toán trên danh sách nhỏ.",
+      "Năng lực chung: tự chủ, tự học; giao tiếp, hợp tác; giải quyết vấn đề.",
+      "Năng lực tin học: NLd (mô tả, mô phỏng thuật toán giải bài toán), NLc, NLe; năng lực số 3.4.TC1.a, 5.3.TC1.b.",
+      "Phẩm chất: chăm chỉ, cẩn thận; trung thực khi dùng AI.",
+      "Có thể tích hợp năng lực AI: nêu hậu quả khi không xác thực kết quả AI (7.A1.2)."
+     ]
+    },
+    {
+     "q": "Câu 3 (2 điểm). Thiết kế hoạt động Vận dụng có tích hợp AI: HS dùng chatbot mô phỏng tìm Iceland (vị trí 6 trong 9 nước), chatbot trả lời vị trí 5 và xét tiếp 4 nước. Nêu cách tổ chức và đánh giá.",
+     "a": [
+      "Mục tiêu: HS vận dụng thuật toán, nhận ra AI có thể sai, biết kiểm chứng kết quả AI.",
+      "Giao nhiệm vụ: chiếu câu lệnh và câu trả lời chatbot; hỏi \"Em có tin không? Kiểm chứng ở đâu?\".",
+      "HS làm cặp: tự mô phỏng lại Bảng 14.3, đối chiếu SGK và hộp Ghi nhớ.",
+      "Kết luận: chatbot sai vị trí (đúng là 6) và sai điều kiện dừng (tìm thấy thì dừng, không xét tiếp 3 nước còn lại).",
+      "Thảo luận: hậu quả nếu tin (mô phỏng sai); cần kiểm chứng bằng SGK, thầy cô; khai báo khi dùng AI.",
+      "Đánh giá: tiêu chí phát hiện đúng hai lỗi, nêu nguồn kiểm chứng, thái độ trung thực."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T7-B15",
+   "ten": "Bài 15. Thuật toán tìm kiếm nhị phân",
+   "tomtat": [
+    "**Tìm kiếm nhị phân** là thuật toán tìm một giá trị trong danh sách bằng cách **chia đôi vùng tìm kiếm** sau mỗi lần so sánh.",
+    "**Điều kiện:** danh sách phải được **sắp xếp** theo thứ tự (tăng hoặc giảm dần); danh sách chưa sắp xếp thì phải sắp xếp trước.",
+    "Ý tưởng: so sánh giá trị cần tìm với **phần tử ở giữa** vùng tìm kiếm, từ đó **loại bỏ một nửa** danh sách không thể chứa giá trị đó.",
+    "Vị trí giữa = **(vị trí đầu + vị trí cuối) : 2**, lấy **phần nguyên**.",
+    "Các bước: **(1)** xác định vùng tìm kiếm; **(2)** tính vị trí giữa; **(3)** so sánh giá trị cần tìm với phần tử giữa; **(4)** thu hẹp vùng tìm kiếm; **(5)** lặp lại đến khi tìm thấy hoặc hết vùng.",
+    "Kết quả so sánh: **bằng** thì dừng, tìm thấy; **nhỏ hơn** thì lấy **nửa trước**; **lớn hơn** thì lấy **nửa sau** (danh sách tăng dần).",
+    "**Hết vùng tìm kiếm** (đầu > cuối) nghĩa là giá trị **không có** trong danh sách.",
+    "Mô phỏng tìm “Trúc” trong Hình 15.1: giữa = 5 (Mai) → 7 (Trang) → 8 (Trúc), nên nhị phân **3 bước**, tuần tự **8 bước**.",
+    "Với n phần tử, nhị phân cần tối đa khoảng **log2(n) + 1** lượt: 100 phần tử tối đa **7**, 1000 phần tử tối đa **10**.",
+    "**Sắp xếp giúp tìm kiếm nhanh hơn;** đó là mối liên quan giữa sắp xếp và tìm kiếm. Ví dụ đời sống: tra từ điển, danh bạ, thư mục.",
+    "Trò chơi tìm số với 10 thẻ đã sắp xếp: mỗi lượt loại một nửa, tối đa **4 lượt**."
+   ],
+   "ynho": [
+    "Nhị phân chỉ dùng cho danh sách đã sắp xếp.",
+    "Mỗi lượt so sánh phần tử giữa, loại một nửa.",
+    "Giữa = (đầu + cuối) : 2, lấy phần nguyên.",
+    "Hết vùng tìm kiếm tức là không có.",
+    "Sắp xếp giúp tìm kiếm nhanh hơn."
+   ],
+   "bang": [
+    {
+     "tieu_de": "So sánh tìm kiếm tuần tự và tìm kiếm nhị phân",
+     "cot": [
+      "Tiêu chí",
+      "Tuần tự",
+      "Nhị phân"
+     ],
+     "dong": [
+      [
+       "Điều kiện danh sách",
+       "Không cần sắp xếp",
+       "**Phải đã sắp xếp**"
+      ],
+      [
+       "Cách làm",
+       "Xét lần lượt từ phần tử đầu",
+       "So với phần tử **giữa**, loại bỏ **một nửa**"
+      ],
+      [
+       "Số bước tối đa với 1000 phần tử",
+       "1000",
+       "10"
+      ],
+      [
+       "Ví dụ đời sống",
+       "Dò từng tên trong danh sách lộn xộn",
+       "Tra từ điển, danh bạ"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Hành động sau khi so sánh với phần tử giữa",
+     "cot": [
+      "Kết quả so sánh",
+      "Hành động"
+     ],
+     "dong": [
+      [
+       "Giá trị cần tìm = phần tử giữa",
+       "**Dừng**, tìm thấy"
+      ],
+      [
+       "Giá trị cần tìm < phần tử giữa",
+       "Lấy **nửa trước** làm vùng tìm kiếm mới"
+      ],
+      [
+       "Giá trị cần tìm > phần tử giữa",
+       "Lấy **nửa sau** làm vùng tìm kiếm mới"
+      ],
+      [
+       "Vùng tìm kiếm hết",
+       "Kết luận **không có**"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Tìm 56 trong danh sách 3, 7, 12, 18, 25, 31, 42, 56, 63, 70, 85 (11 phần tử). Lần 1: vùng 1–11, giữa 6 (31) < 56 → vùng 7–11. Lần 2: giữa 9 (63) > 56 → vùng 7–8. Lần 3: giữa 7 (42) < 56 → vùng 8–8. Lần 4: giữa 8 (56) = 56 → tìm thấy.",
+     "ket_luan": "→ Nhị phân 4 bước, tuần tự 8 bước."
+    },
+    {
+     "tinh_huong": "Tìm 10 trong danh sách B: 5, 9, 14, 20, 27, 33, 41, 48, 60. Lần 1: giữa 5 (27) > 10 → vùng 1–4. Lần 2: giữa 2 (9) < 10 → vùng 3–4. Lần 3: giữa 3 (14) > 10 → vùng 3–2 là rỗng.",
+     "ket_luan": "→ Không có; nhị phân 3 bước, tuần tự phải duyệt 9 phần tử."
+    },
+    {
+     "tinh_huong": "Tra từ “cat” trong từ điển Anh – Việt: mở khoảng giữa thấy chữ “m”, “cat” đứng trước nên mở nửa trước; mở tiếp giữa nửa trước thấy “f” và tiếp tục lật nửa trước nữa.",
+     "ket_luan": "→ Giống tìm kiếm nhị phân vì từ điển đã sắp xếp và mỗi lần loại bỏ một nửa."
+    },
+    {
+     "tinh_huong": "Danh sách 1000 học sinh đã xếp theo mã số. Tìm tuần tự tối đa 1000 lượt; nhị phân: 1000 → 500 → 250 → 125 → 62 → 31 → 15 → 7 → 3 → 1 nên tối đa 10 lượt.",
+     "ket_luan": "→ Danh sách càng dài, nhị phân càng có lợi."
+    }
+   ],
+   "nho": [
+    "“Sắp – Giữa – Loại nửa – Lặp”: sắp xếp, lấy giữa, loại nửa, lặp lại.",
+    "Nhớ hình ảnh tra từ điển: mở giữa, bé thì lật trước, lớn thì lật sau.",
+    "Số lượt tối đa ≈ số lần chia đôi n về 1: 10 → 4, 100 → 7, 1000 → 10."
+   ],
+   "bay": [
+    "Quên điều kiện đã sắp xếp: danh sách lộn xộn thì phải sắp xếp trước.",
+    "Tính vị trí giữa sai: lấy phần nguyên, đừng làm tròn lên, và tính trên vị trí chứ không tính trên giá trị.",
+    "Nhầm hướng: nhỏ hơn giữa thì lấy nửa trước, lớn hơn thì lấy nửa sau (danh sách tăng dần).",
+    "Không tìm thấy không có nghĩa phải duyệt hết; dừng khi vùng tìm kiếm rỗng."
+   ],
+   "giaoan": [
+    "**Mục tiêu** – Kiến thức: giải thích được thuật toán tìm kiếm nhị phân; giải thích mối liên quan giữa sắp xếp và tìm kiếm; mô phỏng với danh sách nhỏ và so sánh số bước với tìm kiếm tuần tự. Năng lực: tự chủ và tự học, giao tiếp và hợp tác, giải quyết vấn đề; năng lực tin học (giải thích, mô phỏng thuật toán). Phẩm chất: chăm chỉ, cẩn thận, trung thực.",
+    "**Chuẩn bị** – GV: máy chiếu, slide Hình 15.1 và 15.2, phiếu bảng lần lặp, 10 thẻ số, chatbot AI. HS: SGK, vở, ôn tìm kiếm tuần tự (Bài 14), 10 mảnh giấy làm thẻ số.",
+    "**Hoạt động 1 – Mở đầu** – Mục tiêu: tạo nhu cầu tìm cách nhanh hơn. Nội dung: tình huống bạn An tìm tên trong hàng trăm khách hàng. Sản phẩm: ý tưởng sắp xếp rồi tìm ở giữa. Tổ chức: GV giao nhiệm vụ → HS nghĩ, trao đổi cặp (Think–Pair–Share) → báo cáo → GV nhận xét, dẫn vào bài.",
+    "**Hoạt động 2 – Hình thành kiến thức** – Mục tiêu: mô phỏng tìm “Trúc”, nêu 5 bước thuật toán, hiểu vai trò sắp xếp. Nội dung: Hình 15.1, hộp thuật toán, trò chơi tìm số. Sản phẩm: bảng lần lặp, 5 bước, so sánh số bước. Tổ chức: GV giao phiếu → HS cặp đôi điền bảng → báo cáo → GV chốt thuật toán và điều kiện.",
+    "**Hoạt động 3 – Luyện tập** – Mục tiêu: mô phỏng với giá trị khác, so sánh với tuần tự. Nội dung: Luyện tập 1, 2 và tìm “Hoà”. Sản phẩm: bảng lần lặp của nhóm, ví dụ thực tế. Tổ chức: chia nhóm 4 (khăn trải bàn) → thảo luận → 2 nhóm trình bày → GV nhận xét, chấm điểm.",
+    "**Hoạt động 4 – Vận dụng** – Mục tiêu: liên hệ tra từ điển; kiểm chứng đầu ra của chatbot. Nội dung: câu hỏi vận dụng SGK và hỏi chatbot. Sản phẩm: giải thích cách tra từ điển, danh sách lỗi của chatbot. Tổ chức: giao nhiệm vụ → HS đối chiếu SGK và mô phỏng → báo cáo → GV chốt.",
+    "**Kiểm tra đánh giá** – Quan sát và phiếu đánh giá nhóm; chấm bảng lần lặp; hỏi đáp nhanh; sản phẩm Luyện tập. Củng cố, dặn dò: làm lại bảng tìm “Trúc”, “Hoà”, ôn Bài 15."
+   ],
+   "ai": [
+    "GV hỏi chatbot các bước tìm kiếm nhị phân và chọn câu trả lời có lỗi (như bỏ điều kiện sắp xếp) làm tình huống cho HS.",
+    "HS kiểm chứng đầu ra của AI bằng SGK và mô phỏng lại trên danh sách nhỏ trước khi tin (7.A1.MR1).",
+    "Giáo dục đạo đức AI: AI có thể sai gây kết luận sai (7.A1.2); trung thực khai báo phần có sự trợ giúp của AI."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Điều kiện bắt buộc để áp dụng thuật toán tìm kiếm nhị phân là gì?",
+     "o": [
+      "Danh sách đã được sắp xếp",
+      "Danh sách có số phần tử chẵn",
+      "Danh sách chỉ chứa số nguyên",
+      "Danh sách có ít hơn 100 phần tử"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Bẫy: nhị phân dựa vào thứ tự nên chỉ dùng cho danh sách đã sắp xếp; kiểu dữ liệu và độ dài không phải điều kiện.",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    },
+    {
+     "t": "s",
+     "q": "Danh sách có 9 phần tử đánh số 1 đến 9. Lần đầu tiên, phần tử ở giữa có vị trí nào?",
+     "o": [
+      "4",
+      "6",
+      "5",
+      "9"
+     ],
+     "a": [
+      2
+     ],
+     "e": "(1 + 9) : 2 = 5. Bẫy: nhầm lấy 9 : 2 = 4 hoặc làm tròn lên.",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    },
+    {
+     "t": "s",
+     "q": "Vùng tìm kiếm đang là các vị trí từ 6 đến 9. Vị trí giữa là bao nhiêu (lấy phần nguyên)?",
+     "o": [
+      "6",
+      "7",
+      "8",
+      "9"
+     ],
+     "a": [
+      1
+     ],
+     "e": "(6 + 9) : 2 = 7,5 → lấy phần nguyên là 7. Bẫy: nhầm với 9 : 2 hay làm tròn lên 8.",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    },
+    {
+     "t": "s",
+     "q": "Danh sách đã sắp xếp tăng dần: 3, 7, 12, 18, 25, 31, 42, 56, 63, 70, 85. Tìm kiếm nhị phân số 42 cần bao nhiêu lần so sánh với phần tử giữa?",
+     "o": [
+      "2",
+      "4",
+      "7",
+      "3"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Giữa = vị trí 6 (31) → vùng 7–11, giữa = 9 (63) → vùng 7–8, giữa = 7 (42): 3 bước. Tìm tuần tự cần 7 bước.",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    },
+    {
+     "t": "s",
+     "q": "Cùng danh sách trên, tìm số 50 (không có trong danh sách) bằng nhị phân thì kết quả là gì?",
+     "o": [
+      "Sau 3 lần so sánh, kết luận có số 50",
+      "Phải so sánh đủ 11 phần tử mới kết luận",
+      "Sau 4 lần so sánh vùng tìm kiếm rỗng, kết luận không có",
+      "Không thực hiện được vì 50 không có trong danh sách"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Các giữa lần lượt là 31, 63, 42, 56; sau đó đầu > cuối nên dừng và kết luận không có. Bẫy: nghĩ phải duyệt hết danh sách.",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    },
+    {
+     "t": "s",
+     "q": "Với danh sách đã sắp xếp có 100 phần tử, tìm kiếm nhị phân cần tối đa khoảng bao nhiêu lượt so sánh?",
+     "o": [
+      "50",
+      "7",
+      "10",
+      "100"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Mỗi lượt loại một nửa: 100 → 50 → 25 → 12 → 6 → 3 → 1 → còn tối đa 7 lượt. Tuần tự có thể cần 100.",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    },
+    {
+     "t": "s",
+     "q": "Trong tìm kiếm nhị phân, khi nào kết luận danh sách không có giá trị cần tìm?",
+     "o": [
+      "Khi phần tử giữa lớn hơn giá trị cần tìm",
+      "Khi vùng tìm kiếm không còn phần tử nào",
+      "Khi so sánh xong lần đầu tiên",
+      "Khi phần tử đầu tiên khác giá trị cần tìm"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Chỉ khi vùng tìm kiếm hết (đầu lớn hơn cuối) mới kết luận không có.",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    },
+    {
+     "t": "s",
+     "q": "Giá trị cần tìm NHỎ HƠN phần tử ở giữa. Bước tiếp theo là gì?",
+     "o": [
+      "Tìm tiếp ở nửa đứng sau phần tử giữa",
+      "Dừng và kết luận không có",
+      "Tìm tiếp ở nửa đứng trước phần tử giữa",
+      "Tìm lại từ phần tử đầu tiên của cả danh sách"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Danh sách tăng dần: giá trị nhỏ hơn nằm ở nửa trước. Bẫy: đảo hướng trước/sau.",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    },
+    {
+     "t": "s",
+     "q": "Thứ tự đúng các bước chính của thuật toán tìm kiếm nhị phân là:",
+     "o": [
+      "Tính vị trí giữa → xác định vùng tìm kiếm → so sánh → lặp lại",
+      "So sánh → xác định vùng tìm kiếm → tính vị trí giữa → lặp lại",
+      "Thu hẹp vùng → so sánh → tính vị trí giữa → xác định vùng",
+      "Xác định vùng tìm kiếm → tính vị trí giữa → so sánh → thu hẹp vùng và lặp lại"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Bẫy đảo thứ tự: phải có vùng tìm kiếm trước rồi mới tính giữa.",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    },
+    {
+     "t": "s",
+     "q": "Danh sách 1000 phần tử đã sắp xếp, trường hợp xấu nhất, số lần so sánh của tìm kiếm tuần tự và nhị phân lần lượt xấp xỉ là:",
+     "o": [
+      "1000 và 10",
+      "10 và 1000",
+      "500 và 500",
+      "1000 và 100"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Tuần tự tối đa 1000; nhị phân tối đa 10 (2^10 = 1024 ≥ 1000).",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    },
+    {
+     "t": "s",
+     "q": "Mối liên quan giữa sắp xếp và tìm kiếm được thể hiện như thế nào?",
+     "o": [
+      "Sắp xếp làm danh sách dài hơn",
+      "Tìm kiếm xong thì mới cần sắp xếp",
+      "Sắp xếp dữ liệu trước giúp việc tìm kiếm nhanh hơn",
+      "Hai việc hoàn toàn độc lập, không liên quan"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Dữ liệu có thứ tự cho phép loại một nửa mỗi lượt.",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    },
+    {
+     "t": "s",
+     "q": "Cách tra một từ trong từ điển giấy (mở khoảng giữa, so chữ cái, rồi lật sang trước hay sau) giống thuật toán nào?",
+     "o": [
+      "Tìm kiếm tuần tự",
+      "Tìm kiếm nhị phân",
+      "Sắp xếp chọn",
+      "Sắp xếp nổi bọt"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Từ điển đã sắp xếp theo chữ cái và mỗi lần loại bỏ một phần lớn: giống nhị phân.",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các phát biểu ĐÚNG về tìm kiếm nhị phân.",
+     "o": [
+      "Mỗi lần so sánh loại bỏ khoảng một nửa vùng tìm kiếm",
+      "Áp dụng cho cả danh sách chưa sắp xếp",
+      "Thường cần ít bước hơn tìm kiếm tuần tự với danh sách dài",
+      "Phần tử giữa được so sánh với giá trị cần tìm"
+     ],
+     "a": [
+      0,
+      2,
+      3
+     ],
+     "e": "Bẫy: nhị phân KHÔNG dùng được cho danh sách chưa sắp xếp.",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    },
+    {
+     "t": "m",
+     "q": "Trường hợp nào phù hợp để dùng tìm kiếm nhị phân?",
+     "o": [
+      "Tra một tên trong danh bạ đã xếp theo chữ cái",
+      "Tìm một số trong dãy điểm đã xếp tăng dần",
+      "Tìm một tên trong danh sách xếp lộn xộn theo thứ tự nhập",
+      "Tra một từ trong từ điển"
+     ],
+     "a": [
+      0,
+      1,
+      3
+     ],
+     "e": "Chỉ chọn dữ liệu đã có thứ tự; danh sách lộn xộn phải sắp xếp trước.",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    },
+    {
+     "t": "m",
+     "q": "Trong lần tìm kiếm nhị phân số 56 trên danh sách 3, 7, 12, 18, 25, 31, 42, 56, 63, 70, 85, các phần tử giữa lần lượt được so sánh là:",
+     "o": [
+      "31",
+      "63",
+      "18",
+      "42",
+      "56"
+     ],
+     "a": [
+      0,
+      1,
+      3,
+      4
+     ],
+     "e": "Giữa = 31 (vị trí 6), 63 (vị trí 9), 42 (vị trí 7), 56 (vị trí 8); 18 không bao giờ được xét. Bẫy: chọn thiếu vì tưởng dừng sớm hoặc thêm phần tử ngoài đường tìm.",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    },
+    {
+     "t": "m",
+     "q": "Khi dùng chatbot AI để hỏi về tìm kiếm nhị phân, em nên làm gì?",
+     "o": [
+      "Đối chiếu với SGK và mô phỏng lại trên ví dụ",
+      "Tin ngay vì AI luôn đúng",
+      "Kiểm tra điều kiện danh sách đã sắp xếp và số bước",
+      "Nói rõ phần thông tin có sự trợ giúp của AI"
+     ],
+     "a": [
+      0,
+      2,
+      3
+     ],
+     "e": "Kết quả AI có thể sai nên phải kiểm chứng và trung thực khi khai báo.",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    },
+    {
+     "t": "f",
+     "q": "Tìm kiếm nhị phân chỉ áp dụng cho danh sách ____ ; mỗi lần so sánh sẽ loại bỏ khoảng ____ vùng tìm kiếm.",
+     "a": [
+      [
+       "đã sắp xếp"
+      ],
+      [
+       "một nửa",
+       "1/2",
+       "nửa"
+      ]
+     ],
+     "o": [
+      [
+       "chưa sắp xếp",
+       "một nửa"
+      ],
+      [
+       "đã sắp xếp",
+       "một phần tư"
+      ],
+      [
+       "đã sắp xếp",
+       "một nửa"
+      ],
+      [
+       "ngẫu nhiên",
+       "một phần ba"
+      ]
+     ],
+     "k": 2,
+     "e": "Điều kiện là đã sắp xếp; mỗi lượt giảm một nửa.",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    },
+    {
+     "t": "f",
+     "q": "Vị trí giữa được tính bằng (vị trí đầu + vị trí cuối) ____ 2 và lấy ____ .",
+     "a": [
+      [
+       "chia"
+      ],
+      [
+       "phần nguyên"
+      ]
+     ],
+     "o": [
+      [
+       "chia",
+       "phần nguyên"
+      ],
+      [
+       "nhân",
+       "phần nguyên"
+      ],
+      [
+       "chia",
+       "số làm tròn lên"
+      ],
+      [
+       "trừ",
+       "phần thập phân"
+      ]
+     ],
+     "k": 0,
+     "e": "Công thức (đầu + cuối) : 2, lấy phần nguyên.",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    },
+    {
+     "t": "f",
+     "q": "Giá trị cần tìm ____ phần tử giữa thì tìm tiếp ở nửa ____ .",
+     "a": [
+      [
+       "lớn hơn"
+      ],
+      [
+       "sau"
+      ]
+     ],
+     "o": [
+      [
+       "lớn hơn",
+       "trước"
+      ],
+      [
+       "nhỏ hơn",
+       "sau"
+      ],
+      [
+       "bằng",
+       "trước"
+      ],
+      [
+       "lớn hơn",
+       "sau"
+      ]
+     ],
+     "k": 3,
+     "e": "Danh sách tăng dần: lớn hơn thì nằm ở nửa sau; bẫy đảo hướng.",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    },
+    {
+     "t": "f",
+     "q": "Với danh sách B: 5, 9, 14, 20, 27, 33, 41, 48, 60 thì tìm số 27 bằng nhị phân cần ____ bước, tìm số 60 cần ____ bước.",
+     "a": [
+      [
+       "1"
+      ],
+      [
+       "4"
+      ]
+     ],
+     "o": [
+      [
+       "2",
+       "4"
+      ],
+      [
+       "1",
+       "4"
+      ],
+      [
+       "1",
+       "3"
+      ],
+      [
+       "3",
+       "9"
+      ]
+     ],
+     "k": 1,
+     "e": "27 là phần tử giữa (vị trí 5): 1 bước. 60: giữa 27 → 41 → 48 → 60: 4 bước.",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    },
+    {
+     "t": "f",
+     "q": "Tìm số 10 (không có) trong danh sách B bằng nhị phân cần ____ bước rồi kết luận không có; tìm tuần tự phải so sánh ____ phần tử.",
+     "a": [
+      [
+       "3"
+      ],
+      [
+       "9"
+      ]
+     ],
+     "o": [
+      [
+       "9",
+       "3"
+      ],
+      [
+       "4",
+       "9"
+      ],
+      [
+       "3",
+       "9"
+      ],
+      [
+       "3",
+       "5"
+      ]
+     ],
+     "k": 2,
+     "e": "Giữa = 27, 9, 14 rồi vùng rỗng: 3 bước. Tuần tự phải duyệt hết 9 phần tử mới kết luận không có.",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    },
+    {
+     "t": "f",
+     "q": "Khi vùng tìm kiếm ____ (vị trí đầu lớn hơn vị trí cuối) thì kết luận ____ giá trị cần tìm trong danh sách.",
+     "a": [
+      [
+       "rỗng",
+       "hết",
+       "không còn phần tử"
+      ],
+      [
+       "không có"
+      ]
+     ],
+     "o": [
+      [
+       "rỗng",
+       "không có"
+      ],
+      [
+       "còn một phần tử",
+       "không có"
+      ],
+      [
+       "rỗng",
+       "có"
+      ],
+      [
+       "đầy đủ",
+       "có"
+      ]
+     ],
+     "k": 0,
+     "e": "Hết vùng tìm kiếm tức không có.",
+     "r": "SGK Tin học 7 KNTT – Bài 15"
+    }
+   ],
+   "tuluan": [
+    {
+     "q": "Câu 1 (3 điểm). Cho danh sách đã sắp xếp tăng dần: 4, 9, 15, 22, 30, 37, 45, 58, 66, 72. Trình bày các bước tìm kiếm nhị phân số 58 và số 20; nêu số bước mỗi trường hợp.",
+     "a": [
+      "Số 58: vùng 1–10, giữa = 5 (30) < 58 → vùng 6–10; giữa = 8 (58) = 58 → tìm thấy, 2 bước.",
+      "Số 20: giữa = 5 (30) > 20 → vùng 1–4; giữa = 2 (9) < 20 → vùng 3–4; giữa = 3 (15) < 20 → vùng 4–4; giữa = 4 (22) > 20 → vùng 4–3 rỗng; không có, 4 bước.",
+      "Nhận xét: tuần tự tìm 20 phải duyệt 10 phần tử; nhị phân chỉ 4 bước nhưng phải đã sắp xếp."
+     ]
+    },
+    {
+     "q": "Câu 2 (3 điểm). Nêu mục tiêu bài “Thuật toán tìm kiếm nhị phân” (Tin học 7, chương trình 2018) về kiến thức, năng lực và phẩm chất.",
+     "a": [
+      "Kiến thức: giải thích được thuật toán tìm kiếm nhị phân; giải thích được mối liên quan giữa sắp xếp và tìm kiếm; mô phỏng được thuật toán với danh sách nhỏ, so sánh số bước với tìm kiếm tuần tự.",
+      "Năng lực: tự chủ và tự học, giao tiếp và hợp tác, giải quyết vấn đề; năng lực tin học: giải thích, mô phỏng thuật toán, chọn thuật toán tìm kiếm phù hợp.",
+      "Phẩm chất: chăm chỉ, cẩn thận khi mô phỏng từng bước, trung thực khi báo cáo kết quả."
+     ]
+    },
+    {
+     "q": "Câu 3 (4 điểm). Thiết kế một hoạt động dạy học có tích hợp chatbot AI để học sinh hiểu điều kiện của tìm kiếm nhị phân; nêu cách đánh giá.",
+     "a": [
+      "Mục tiêu: HS nhận biết nhị phân cần danh sách đã sắp xếp và biết kiểm chứng đầu ra của AI.",
+      "Chuẩn bị: GV hỏi chatbot “Có dùng nhị phân cho danh sách chưa sắp xếp không? Nêu các bước tìm Trúc trong 9 tên” và chọn câu trả lời có lỗi cho HS xem.",
+      "Tổ chức: giao nhiệm vụ → cặp đôi đối chiếu SGK và mô phỏng trên Hình 15.1 → báo cáo chỗ sai → GV nhận xét, chốt.",
+      "Chốt: cần sắp xếp trước; không tin AI tuyệt đối, phải kiểm chứng và khai báo khi dùng AI.",
+      "Đánh giá: phiếu quan sát và bảng lần lặp; tiêu chí gồm đúng điều kiện, đúng số bước, nêu được cách kiểm chứng."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "T7-B16",
+   "ten": "Bài 16. Thuật toán sắp xếp",
+   "tomtat": [
+    "**Sắp xếp** dữ liệu là đưa các phần tử về một thứ tự nhất định: **tăng dần** (nhỏ đến lớn) hoặc **giảm dần** (lớn đến nhỏ).",
+    "Dữ liệu đã sắp xếp giúp **quản lí, theo dõi, so sánh và tìm kiếm nhanh** hơn (danh sách điểm, tên, chiều cao...).",
+    "**Hoán đổi** hai giá trị A, B cần **một chỗ chứa tạm** (như cốc C ở hình 16.1): C←A; A←B; B←C (3 bước).",
+    "**Sắp xếp nổi bọt**: duyệt dãy **từ cuối lên đầu**, so sánh **hai phần tử cạnh nhau**; nếu số sau **nhỏ hơn** số trước (xếp tăng dần) thì **hoán đổi**.",
+    "Mỗi lần duyệt hết dãy gọi là một **vòng lặp**; sau mỗi vòng, số nhỏ nhất của phần chưa sắp xếp được đưa lên đầu (như bọt khí nổi lên).",
+    "Nổi bọt **lặp lại các vòng cho đến khi không còn hoán đổi** nào thì dừng.",
+    "Ví dụ nổi bọt dãy 4, 2, 3, 1: vòng 1 → **1, 4, 2, 3**; vòng 2 → **1, 2, 4, 3**; vòng 3 → **1, 2, 3, 4**.",
+    "**Sắp xếp chọn** (theo SGK): xét **lần lượt từng vị trí từ đầu dãy**, so sánh với **các phần tử phía sau**; gặp phần tử nhỏ hơn thì **hoán đổi**.",
+    "Ví dụ sắp xếp chọn dãy 3, 4, 1, 5, 2: **1, 4, 3, 5, 2 → 1, 2, 4, 5, 3 → 1, 2, 3, 5, 4 → 1, 2, 3, 4, 5** (hình 16.5).",
+    "Hai thuật toán đều dựa trên bài toán nhỏ lặp lại: **so sánh – hoán đổi hai phần tử**.",
+    "**Chia bài toán thành những bài toán nhỏ hơn** giúp bài toán **dễ giải quyết hơn**; sắp xếp cả dãy là lặp lại bài toán nhỏ này."
+   ],
+   "ynho": [
+    "Sắp xếp: tăng dần hoặc giảm dần",
+    "Hoán đổi hai giá trị cần biến tạm",
+    "Nổi bọt: so cặp cạnh nhau, duyệt từ cuối lên",
+    "Chọn: cố định vị trí, so với các phần tử sau",
+    "Dừng khi không còn hoán đổi; luôn kiểm chứng kết quả AI"
+   ],
+   "bang": [
+    {
+     "tieu_de": "So sánh sắp xếp nổi bọt và sắp xếp chọn",
+     "cot": [
+      "Tiêu chí",
+      "Nổi bọt",
+      "Chọn"
+     ],
+     "dong": [
+      [
+       "Cách duyệt",
+       "Từ cuối dãy lên đầu",
+       "Từng vị trí từ đầu dãy"
+      ],
+      [
+       "So sánh",
+       "Hai phần tử cạnh nhau",
+       "Phần tử đang xét với các phần tử phía sau"
+      ],
+      [
+       "Hoán đổi khi",
+       "Số sau nhỏ hơn số trước",
+       "Phần tử sau nhỏ hơn phần tử đang xét"
+      ],
+      [
+       "Dừng khi",
+       "Một vòng không còn hoán đổi",
+       "Đã xét hết các vị trí"
+      ],
+      [
+       "Sau vòng 1 (3,5,4,1,2)",
+       "1, 3, 5, 4, 2",
+       "1, 5, 4, 3, 2"
+      ]
+     ]
+    },
+    {
+     "tieu_de": "Hoán đổi hai cốc A, B (hình 16.1)",
+     "cot": [
+      "Bước",
+      "Thao tác",
+      "Kết quả"
+     ],
+     "dong": [
+      [
+       "1",
+       "Đổ A sang C",
+       "A rỗng, C chứa chất lỏng của A"
+      ],
+      [
+       "2",
+       "Đổ B sang A",
+       "B rỗng, A chứa chất lỏng của B"
+      ],
+      [
+       "3",
+       "Đổ C sang B",
+       "B chứa chất lỏng ban đầu của A"
+      ]
+     ]
+    }
+   ],
+   "vidu": [
+    {
+     "tinh_huong": "Nổi bọt dãy 3, 5, 4, 1, 2 tăng dần (Hoạt động 1). Vòng 1 duyệt từ cuối: (1,2) giữ; (4,1) đổi; (5,1) đổi; (3,1) đổi → 1,3,5,4,2. Vòng 2: → 1,2,3,5,4. Vòng 3: → 1,2,3,4,5. Vòng 4: không đổi.",
+     "ket_luan": "→ Có 3 vòng có hoán đổi, vòng 4 xác nhận dừng; tổng 7 lần hoán đổi."
+    },
+    {
+     "tinh_huong": "Sắp xếp chọn dãy 3, 2, 4, 1, 5 (Luyện tập 2). Vị trí 1: đổi 3 với 2, rồi với 1 → 1,3,4,2,5. Vị trí 2: → 1,2,4,3,5. Vị trí 3: → 1,2,3,4,5. Vị trí 4: không đổi.",
+     "ket_luan": "→ Kết quả 1,2,3,4,5; các bước đã kiểm tra bằng mô phỏng."
+    },
+    {
+     "tinh_huong": "Trò chơi 'Xếp hàng': 5 HS cầm thẻ 41, 15, 17, 32, 18. Vị trí 1: 41 đổi với 15 → 15,41,17,32,18. Vị trí 2: 41 đổi 17 → 15,17,41,32,18. Vị trí 3: 41 đổi 32, rồi 32 đổi 18 → 15,17,18,41,32. Vị trí 4: → 15,17,18,32,41.",
+     "ket_luan": "→ Mỗi vị trí đặt đúng số nhỏ nhất của phần còn lại."
+    },
+    {
+     "tinh_huong": "Điểm Tin của tổ: An 7, Bình 9, Chi 6, Dũng 8, Hà 10. Xếp giảm dần bằng một thuật toán đã học.",
+     "ket_luan": "→ Hà 10, Bình 9, Dũng 8, An 7, Chi 6; dễ thấy bạn cao điểm nhất, thấp điểm nhất."
+    }
+   ],
+   "nho": [
+    "Nổi bọt = 'bọt' nổi từ đáy (cuối) lên mặt (đầu): duyệt cuối lên đầu.",
+    "Hoán đổi = 3 bước và 1 cốc phụ (C←A; A←B; B←C).",
+    "Cả hai: 'So sánh – Hoán đổi' lặp đến khi hết đổi.",
+    "Nổi bọt: cặp CẠNH nhau; Chọn: vị trí ĐANG XÉT với các số SAU."
+   ],
+   "bay": [
+    "Nổi bọt duyệt từ CUỐI dãy lên đầu, không phải từ đầu (HS hay nhầm).",
+    "Dừng khi một vòng không còn hoán đổi; không phải dừng sau vòng đầu hay khi số nhỏ nhất lên đầu.",
+    "Hoán đổi bằng A←B; B←A là sai vì mất giá trị cũ của A.",
+    "Kết quả AI có thể sai (ví dụ nói chỉ cần một vòng): phải tự mô phỏng để kiểm chứng."
+   ],
+   "giaoan": [
+    "**Mục tiêu** – Kiến thức: nêu được ý nghĩa của sắp xếp và thao tác hoán đổi; giải thích, mô phỏng được sắp xếp nổi bọt và sắp xếp chọn với dãy số nhỏ; nêu được ý nghĩa của chia bài toán thành bài toán nhỏ hơn; Năng lực: tự chủ và tự học, giao tiếp và hợp tác, giải quyết vấn đề (NLc mô phỏng thuật toán; NLd ứng dụng sắp xếp vào học tập); Phẩm chất: cẩn thận, chính xác, chăm chỉ, trách nhiệm trong nhóm.",
+    "**Chuẩn bị** – GV: kế hoạch bài dạy, máy chiếu, hình 16.1–16.5, thẻ số, phiếu học tập, máy tính có chatbot AI; HS: SGK Tin học 7, vở ghi, bút.",
+    "**Hoạt động 1 – Mở đầu** (7 phút): Mục tiêu: tạo tình huống dẫn vào thao tác hoán đổi. Nội dung: quan sát hình 16.1, nêu số bước đổi chất lỏng hai cốc A, B nhờ cốc C. Sản phẩm: 3 bước (A sang C; B sang A; C sang B). Tổ chức: (1) GV chiếu hình, nêu câu hỏi; (2) HS suy nghĩ, trao đổi cặp đôi; (3) 2 HS báo cáo, bạn khác bổ sung; (4) GV nhận xét, dẫn vào bài.",
+    "**Hoạt động 2 – Hình thành kiến thức** (38 phút): Mục tiêu: hiểu ý nghĩa sắp xếp, mô tả và mô phỏng nổi bọt, chọn, ý nghĩa chia bài toán nhỏ. Nội dung: mục 1 (hình 16.2–16.4, Hoạt động 1 dãy 3, 5, 4, 1, 2), mục 2 (hình 16.5, trò chơi Xếp hàng), mục 3. Sản phẩm: các bước và kết quả từng vòng lặp, bảng so sánh hai thuật toán, hộp Ghi nhớ. Tổ chức: (1) GV chia nhóm (mảnh ghép), giao nhiệm vụ từng vòng; (2) HS đọc SGK, so sánh từng cặp, ghi kết quả; (3) đại diện nhóm báo cáo, cặp đôi mô phỏng; (4) GV chốt thuật toán và điều kiện dừng.",
+    "**Hoạt động 3 – Luyện tập** (25 phút): Mục tiêu: củng cố hai thuật toán với dữ liệu mới. Nội dung: Luyện tập 1 (nổi bọt dãy 3, 2, 4, 1, 5), Luyện tập 2 (chọn cùng dãy), trắc nghiệm mục 2, 3. Sản phẩm: các vòng lặp đúng (1,3,2,4,5 → 1,2,3,4,5; 1,3,4,2,5 → 1,2,4,3,5 → 1,2,3,4,5). Tổ chức: (1) GV giao đề; (2) HS làm cá nhân; (3) 2 HS lên bảng, lớp đổi vở chấm chéo; (4) GV nhận xét, nhắc lỗi hay gặp.",
+    "**Hoạt động 4 – Vận dụng** (20 phút): Mục tiêu: vận dụng sắp xếp vào thực tế; kiểm chứng kết quả AI. Nội dung: sắp xếp giảm dần điểm Tin của tổ; GV hỏi chatbot, HS đối chiếu hình 16.2 và Hoạt động 1. Sản phẩm: danh sách đúng thứ tự; kết luận AI đúng/sai có minh chứng. Tổ chức: (1) GV nêu bài toán và câu lệnh mẫu; (2) HS làm cặp đôi; (3) trình bày, thảo luận hậu quả khi không kiểm chứng; (4) GV nhận xét, nhấn mạnh trung thực khi dùng AI.",
+    "**Kiểm tra đánh giá** – Quan sát tham gia nhóm; chấm sản phẩm mô phỏng các vòng lặp; hỏi đáp nhanh điều kiện dừng; câu trắc nghiệm mục 2, 3; rubric: đúng thứ tự từng vòng, giải thích được vì sao đổi chỗ, biết kiểm chứng kết quả AI."
+   ],
+   "ai": [
+    "GV dùng chatbot sinh nhiều dãy số để luyện tập và đáp án từng vòng, nhưng phải tự chạy lại thuật toán trước khi đưa vào lớp.",
+    "HS hỏi chatbot 'Sắp xếp nổi bọt dãy 3, 5, 4, 1, 2, cho biết kết quả sau vòng 1', so với kết quả đúng 1,3,5,4,2 để phát hiện AI sai (7.A1.2, 7.A1.MR1).",
+    "Đạo đức AI: khai báo khi dùng AI; không nộp nguyên kết quả AI chưa kiểm chứng; nêu hậu quả khi danh sách sắp xếp sai."
+   ],
+   "cauhoi": [
+    {
+     "t": "s",
+     "q": "Sắp xếp dãy số theo thứ tự tăng dần nghĩa là:",
+     "o": [
+      "Các số được xếp từ nhỏ đến lớn",
+      "Các số được xếp từ lớn đến nhỏ",
+      "Các số được xếp theo thứ tự nhập vào",
+      "Chỉ đưa số nhỏ nhất lên đầu dãy"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Tăng dần: từ nhỏ đến lớn; dễ nhầm với giảm dần.",
+     "r": "SGK Tin học 7 KNTT – Bài 16"
+    },
+    {
+     "t": "s",
+     "q": "Muốn hoán đổi giá trị của hai biến A và B, cách làm đúng là:",
+     "o": [
+      "A←B; B←A",
+      "Dùng thêm một biến tạm C: C←A; A←B; B←C",
+      "Chỉ cần gán A←B",
+      "C←A; B←C; A←B"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Nếu gán A←B rồi B←A thì cả hai đều mang giá trị cũ của B (mất giá trị A). Phương án chữ cuối sai thứ tự bước.",
+     "r": "SGK Tin học 7 KNTT – Bài 16"
+    },
+    {
+     "t": "s",
+     "q": "Trong thuật toán sắp xếp nổi bọt, việc duyệt dãy được bắt đầu từ:",
+     "o": [
+      "Đầu dãy, hướng xuống cuối dãy",
+      "Phần tử ở giữa dãy",
+      "Cuối dãy, hướng lên đầu dãy",
+      "Phần tử lớn nhất của dãy"
+     ],
+     "a": [
+      2
+     ],
+     "e": "SGK Tin 7 duyệt từ cuối lên đầu để số nhỏ 'nổi' lên đầu; HS hay duyệt từ đầu.",
+     "r": "SGK Tin học 7 KNTT – Bài 16"
+    },
+    {
+     "t": "s",
+     "q": "Sắp xếp nổi bọt dãy 4, 2, 3, 1 tăng dần. Sau vòng lặp thứ nhất, dãy là:",
+     "o": [
+      "2, 3, 1, 4",
+      "1, 2, 3, 4",
+      "2, 4, 3, 1",
+      "1, 4, 2, 3"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Duyệt từ cuối: (3,1) đổi → 4,2,1,3; (2,1) đổi → 4,1,2,3; (4,1) đổi → 1,4,2,3. Phương án 2,3,1,4 là kết quả khi duyệt từ đầu.",
+     "r": "SGK Tin học 7 KNTT – Bài 16"
+    },
+    {
+     "t": "s",
+     "q": "Sắp xếp nổi bọt dãy 3, 5, 4, 1, 2 tăng dần. Sau vòng lặp thứ hai, dãy là:",
+     "o": [
+      "1, 2, 3, 5, 4",
+      "1, 3, 5, 4, 2",
+      "1, 2, 3, 4, 5",
+      "1, 3, 2, 5, 4"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Vòng 1: 1,3,5,4,2; vòng 2: 1,2,3,5,4. Bẫy: nhầm kết quả vòng 1 hoặc cho rằng đã xong.",
+     "r": "SGK Tin học 7 KNTT – Bài 16"
+    },
+    {
+     "t": "s",
+     "q": "Sắp xếp nổi bọt dãy 3, 2, 4, 1, 5 tăng dần. Tổng số lần hoán đổi hai phần tử là:",
+     "o": [
+      "3",
+      "4",
+      "5",
+      "10"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Dãy có 4 cặp ngược thứ tự (3,2),(3,1),(2,1),(4,1) nên có 4 lần hoán đổi (đã mô phỏng kiểm tra). 10 là số lần so sánh mỗi vòng đầy đủ/ dãy giảm dần.",
+     "r": "SGK Tin học 7 KNTT – Bài 16"
+    },
+    {
+     "t": "s",
+     "q": "Thuật toán sắp xếp nổi bọt dừng lại khi:",
+     "o": [
+      "Đã duyệt xong vòng đầu tiên",
+      "Số nhỏ nhất đã lên đầu dãy",
+      "Trong một vòng lặp không còn phải hoán đổi cặp nào",
+      "Số lớn nhất đã xuống cuối dãy"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Điều kiện dừng là một vòng không còn hoán đổi; chỉ một vòng đầu tiên thường chưa đủ.",
+     "r": "SGK Tin học 7 KNTT – Bài 16"
+    },
+    {
+     "t": "s",
+     "q": "Với dãy 3, 4, 1, 5, 2 (sắp xếp chọn tăng dần theo SGK), sau khi xử lí vị trí đầu tiên dãy là:",
+     "o": [
+      "1, 3, 4, 5, 2",
+      "1, 2, 3, 4, 5",
+      "3, 4, 1, 2, 5",
+      "1, 4, 3, 5, 2"
+     ],
+     "a": [
+      3
+     ],
+     "e": "Vị trí 1 (số 3): so với 4 giữ nguyên; với 1 đổi → 1,4,3,5,2 (khớp hình 16.5); số 5, 2 không nhỏ hơn 1.",
+     "r": "SGK Tin học 7 KNTT – Bài 16"
+    },
+    {
+     "t": "s",
+     "q": "Điểm khác chính của sắp xếp chọn so với sắp xếp nổi bọt là:",
+     "o": [
+      "Cố định từng vị trí từ đầu dãy, so sánh với các phần tử phía sau",
+      "Chỉ so sánh các cặp cạnh nhau từ cuối dãy",
+      "Không dùng thao tác so sánh",
+      "Không dùng thao tác hoán đổi"
+     ],
+     "a": [
+      0
+     ],
+     "e": "Chọn: xét vị trí đang xét với các phần tử sau; nổi bọt: so cặp cạnh nhau. Cả hai đều so sánh và hoán đổi.",
+     "r": "SGK Tin học 7 KNTT – Bài 16"
+    },
+    {
+     "t": "s",
+     "q": "Thao tác cơ bản được lặp lại trong các thuật toán sắp xếp ở bài là:",
+     "o": [
+      "Tìm kiếm nhị phân và chia đôi dãy",
+      "So sánh và hoán đổi hai phần tử",
+      "Nhân và chia hai phần tử",
+      "Sao chép và xoá phần tử"
+     ],
+     "a": [
+      1
+     ],
+     "e": "Sắp xếp được chia thành bài toán nhỏ: so sánh – hoán đổi hai phần tử.",
+     "r": "SGK Tin học 7 KNTT – Bài 16"
+    },
+    {
+     "t": "s",
+     "q": "Việc chia bài toán sắp xếp thành những bài toán nhỏ hơn giúp:",
+     "o": [
+      "Dãy không cần phải so sánh nữa",
+      "Luôn chỉ cần một vòng lặp",
+      "Bài toán dễ giải quyết hơn",
+      "Kết quả không cần kiểm tra"
+     ],
+     "a": [
+      2
+     ],
+     "e": "Ý nghĩa SGK: dễ giải quyết hơn; không làm bỏ qua việc kiểm tra kết quả.",
+     "r": "SGK Tin học 7 KNTT – Bài 16"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các phát biểu ĐÚNG về sắp xếp nổi bọt:",
+     "o": [
+      "So sánh hai số cạnh nhau",
+      "Nếu số sau nhỏ hơn số trước (xếp tăng dần) thì hoán đổi",
+      "Chỉ cần đúng một vòng lặp cho mọi dãy",
+      "Duyệt từ đầu dãy theo SGK"
+     ],
+     "a": [
+      0,
+      1
+     ],
+     "e": "Thuật toán lặp đến khi không còn hoán đổi, nên không phải mọi dãy chỉ một vòng; SGK duyệt từ cuối dãy.",
+     "r": "SGK Tin học 7 KNTT – Bài 16"
+    },
+    {
+     "t": "m",
+     "q": "Chọn các lợi ích của dữ liệu đã được sắp xếp:",
+     "o": [
+      "Tìm kiếm thông tin nhanh hơn",
+      "Dễ quản lí, theo dõi, so sánh",
+      "Dữ liệu luôn đúng tuyệt đối",
+      "Giảm số phần tử của dãy"
+     ],
+     "a": [
+      0,
+      1
+     ],
+     "e": "Sắp xếp chỉ thay đổi thứ tự, không làm dữ liệu đúng hơn và không giảm số phần tử.",
+     "r": "SGK Tin học 7 KNTT – Bài 16"
+    },
+    {
+     "t": "m",
+     "q": "Những dãy nào sau khi sắp xếp nổi bọt tăng dần chỉ cần đúng 1 lần hoán đổi?",
+     "o": [
+      "2, 1, 3, 4, 5",
+      "1, 2, 4, 3, 5",
+      "5, 4, 3, 2, 1",
+      "1, 3, 2, 4, 5"
+     ],
+     "a": [
+      0,
+      1,
+      3
+     ],
+     "e": "Mỗi dãy a, b, d chỉ có đúng 1 cặp ngược thứ tự; dãy 5,4,3,2,1 cần 10 lần hoán đổi.",
+     "r": "SGK Tin học 7 KNTT – Bài 16"
+    },
+    {
+     "t": "m",
+     "q": "Khi dùng chatbot AI để mô phỏng thuật toán sắp xếp, HS nên:",
+     "o": [
+      "Tự mô phỏng từng vòng để đối chiếu",
+      "Đối chiếu với SGK/giáo viên",
+      "Tin ngay vì AI luôn đúng",
+      "Không cần xem lại các bước trung gian"
+     ],
+     "a": [
+      0,
+      1
+     ],
+     "e": "Kết quả AI có thể sai (ví dụ nói chỉ cần một vòng) nên phải kiểm chứng.",
+     "r": "SGK Tin học 7 KNTT – Bài 16"
+    },
+    {
+     "t": "f",
+     "q": "Trong sắp xếp nổi bọt tăng dần, nếu số ____ nhỏ hơn số ____ thì hai số được hoán đổi.",
+     "a": [
+      [
+       "sau",
+       "đứng sau"
+      ],
+      [
+       "trước",
+       "đứng trước"
+      ]
+     ],
+     "o": [
+      [
+       "trước",
+       "sau"
+      ],
+      [
+       "đầu",
+       "cuối"
+      ],
+      [
+       "nhỏ nhất",
+       "lớn nhất"
+      ],
+      [
+       "sau",
+       "trước"
+      ]
+     ],
+     "k": 3,
+     "e": "Duyệt từ cuối lên: số đứng sau mà nhỏ hơn số đứng trước thì đổi (đổi thứ tự là bẫy).",
+     "r": "SGK Tin học 7 KNTT – Bài 16"
+    },
+    {
+     "t": "f",
+     "q": "Thuật toán sắp xếp nổi bọt duyệt dãy từ ____ lên ____ và lặp đến khi ____ hoán đổi.",
+     "a": [
+      [
+       "cuối"
+      ],
+      [
+       "đầu"
+      ],
+      [
+       "không còn"
+      ]
+     ],
+     "o": [
+      [
+       "cuối",
+       "đầu",
+       "không còn"
+      ],
+      [
+       "đầu",
+       "cuối",
+       "không còn"
+      ],
+      [
+       "cuối",
+       "đầu",
+       "còn"
+      ],
+      [
+       "giữa",
+       "đầu",
+       "không còn"
+      ]
+     ],
+     "k": 0,
+     "e": "Dừng khi không còn hoán đổi; duyệt từ cuối lên đầu.",
+     "r": "SGK Tin học 7 KNTT – Bài 16"
+    },
+    {
+     "t": "f",
+     "q": "Hoán đổi hai biến A, B cần thêm biến ____ : lưu A vào ____, gán B cho A, rồi gán ____ cho B.",
+     "a": [
+      [
+       "C",
+       "tạm"
+      ],
+      [
+       "C",
+       "tạm"
+      ],
+      [
+       "C",
+       "tạm"
+      ]
+     ],
+     "o": [
+      [
+       "C",
+       "C",
+       "A"
+      ],
+      [
+       "C",
+       "C",
+       "C"
+      ],
+      [
+       "A",
+       "A",
+       "C"
+      ],
+      [
+       "B",
+       "C",
+       "B"
+      ]
+     ],
+     "k": 1,
+     "e": "Biến tạm C giữ giá trị A: C←A; A←B; B←C.",
+     "r": "SGK Tin học 7 KNTT – Bài 16"
+    },
+    {
+     "t": "f",
+     "q": "Sắp xếp ____ xét từng vị trí từ ____ dãy, so sánh với các phần tử ____ và hoán đổi nếu phần tử đó nhỏ hơn.",
+     "a": [
+      [
+       "chọn"
+      ],
+      [
+       "đầu"
+      ],
+      [
+       "phía sau",
+       "sau"
+      ]
+     ],
+     "o": [
+      [
+       "nổi bọt",
+       "đầu",
+       "phía sau"
+      ],
+      [
+       "chọn",
+       "cuối",
+       "phía sau"
+      ],
+      [
+       "chọn",
+       "đầu",
+       "phía sau"
+      ],
+      [
+       "chọn",
+       "đầu",
+       "phía trước"
+      ]
+     ],
+     "k": 2,
+     "e": "Sắp xếp chọn: từ đầu dãy, so với phần tử phía sau.",
+     "r": "SGK Tin học 7 KNTT – Bài 16"
+    },
+    {
+     "t": "f",
+     "q": "Sắp xếp dãy 4, 2, 3, 1 bằng nổi bọt: vòng 1 được ____, vòng 2 được ____, vòng 3 được ____.",
+     "a": [
+      [
+       "1, 4, 2, 3"
+      ],
+      [
+       "1, 2, 4, 3"
+      ],
+      [
+       "1, 2, 3, 4"
+      ]
+     ],
+     "o": [
+      [
+       "2, 3, 1, 4",
+       "2, 1, 3, 4",
+       "1, 2, 3, 4"
+      ],
+      [
+       "1, 4, 2, 3",
+       "1, 2, 3, 4",
+       "1, 2, 3, 4"
+      ],
+      [
+       "1, 4, 3, 2",
+       "1, 2, 4, 3",
+       "1, 3, 2, 4"
+      ],
+      [
+       "1, 4, 2, 3",
+       "1, 2, 4, 3",
+       "1, 2, 3, 4"
+      ]
+     ],
+     "k": 3,
+     "e": "Đã mô phỏng bằng chương trình: 1,4,2,3 → 1,2,4,3 → 1,2,3,4.",
+     "r": "SGK Tin học 7 KNTT – Bài 16"
+    },
+    {
+     "t": "f",
+     "q": "Sắp xếp là bài toán ____ thành bài toán nhỏ hơn là ____ hai phần tử; việc này làm bài toán ____ giải quyết hơn.",
+     "a": [
+      [
+       "chia"
+      ],
+      [
+       "so sánh – hoán đổi",
+       "so sánh và hoán đổi"
+      ],
+      [
+       "dễ"
+      ]
+     ],
+     "o": [
+      [
+       "chia",
+       "so sánh – hoán đổi",
+       "dễ"
+      ],
+      [
+       "gộp",
+       "so sánh – hoán đổi",
+       "dễ"
+      ],
+      [
+       "chia",
+       "nhân – chia",
+       "dễ"
+      ],
+      [
+       "chia",
+       "so sánh – hoán đổi",
+       "khó"
+      ]
+     ],
+     "k": 0,
+     "e": "Chia nhỏ để dễ giải quyết hơn.",
+     "r": "SGK Tin học 7 KNTT – Bài 16"
+    }
+   ],
+   "tuluan": [
+    {
+     "q": "Câu 1 (3 điểm). Mô phỏng sắp xếp nổi bọt dãy 3, 5, 4, 1, 2 theo thứ tự tăng dần và nêu điều kiện dừng của thuật toán.",
+     "a": [
+      "Duyệt từ cuối dãy lên đầu, so sánh hai số cạnh nhau, số sau nhỏ hơn số trước thì hoán đổi.",
+      "Vòng 1: (4,1) đổi, (5,1) đổi, (3,1) đổi → 1,3,5,4,2.",
+      "Vòng 2: → 1,2,3,5,4. Vòng 3: → 1,2,3,4,5 (tổng 7 lần hoán đổi).",
+      "Vòng 4: không có hoán đổi nào → dừng. Điều kiện dừng: một vòng lặp không còn phải hoán đổi."
+     ]
+    },
+    {
+     "q": "Câu 2 (3 điểm). Nêu mục tiêu bài 'Thuật toán sắp xếp' (Tin học 7) theo chương trình 2018, và thiết kế một hoạt động luyện tập.",
+     "a": [
+      "Kiến thức: nêu ý nghĩa sắp xếp và hoán đổi; giải thích, mô phỏng sắp xếp nổi bọt và chọn với dãy nhỏ; nêu ý nghĩa chia bài toán thành bài toán nhỏ.",
+      "Năng lực chung: tự chủ và tự học, giao tiếp và hợp tác, giải quyết vấn đề; năng lực tin học: NLc, NLd; phẩm chất: cẩn thận, chính xác, trách nhiệm.",
+      "Hoạt động luyện tập: mục tiêu củng cố hai thuật toán; nội dung: nổi bọt và chọn dãy 3, 2, 4, 1, 5; sản phẩm: các vòng lặp đúng.",
+      "Tổ chức 4 bước: giao nhiệm vụ; HS làm cá nhân; báo cáo, chấm chéo; GV nhận xét, chốt lỗi hay gặp."
+     ]
+    },
+    {
+     "q": "Câu 3 (4 điểm). Em sẽ làm gì để HS kiểm chứng kết quả khi dùng chatbot AI mô phỏng thuật toán sắp xếp? Nêu hậu quả khi tin ngay kết quả AI.",
+     "a": [
+      "Cho HS hỏi chatbot một dãy cụ thể (ví dụ 3, 5, 4, 1, 2) và yêu cầu liệt kê kết quả từng vòng.",
+      "HS tự mô phỏng theo SGK (hình 16.2, Hoạt động 1), đối chiếu: vòng 1 đúng là 1,3,5,4,2; chatbot nói chỉ một vòng là sai.",
+      "Thảo luận: vì sao AI có thể sai, cách đối chiếu SGK/giáo viên/bạn học.",
+      "Hậu quả: danh sách sai thứ tự, tìm kiếm nhầm, kết luận sai; cần khai báo trung thực khi dùng AI."
+     ]
+    }
+   ]
+  }
+ ]
+}

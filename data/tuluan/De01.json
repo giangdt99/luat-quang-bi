@@ -1,0 +1,115 @@
+{
+ "de": 1,
+ "focus_luat": [
+  "L1",
+  "L3",
+  "L5",
+  "L7"
+ ],
+ "focus_bai": [
+  "B1",
+  "B7",
+  "B14"
+ ],
+ "p1": [
+  {
+   "q": "Câu 1 (0,75đ). Luật Viên chức số 129/2025/QH15: (a) cho biết ngày có hiệu lực và văn bản nào hết hiệu lực khi Luật này có hiệu lực; (b) nêu khái niệm viên chức; (c) viên chức được ký hợp đồng làm việc với tối đa mấy đơn vị sự nghiệp công lập? Nêu căn cứ.",
+   "a": [
+    "(a) **Hiệu lực từ 01/7/2026** (Điều 43 khoản 1); Quốc hội thông qua ngày 10/12/2025. Luật Viên chức 58/2010/QH12 (sửa đổi bởi Luật 52/2019/QH14) hết hiệu lực từ ngày Luật mới có hiệu lực (Điều 43 khoản 2). (0,25đ)",
+    "(b) Viên chức là công dân Việt Nam, được tuyển dụng theo vị trí việc làm, làm việc tại đơn vị sự nghiệp công lập theo chế độ hợp đồng làm việc, hưởng lương từ quỹ tiền lương của đơn vị sự nghiệp công lập và từ các nguồn thu hợp pháp khác (Điều 1). (0,25đ)",
+    "(c) Chỉ được ký hợp đồng làm việc với **01 đơn vị** sự nghiệp công lập và chịu sự quản lý của đơn vị đó (Điều 8 khoản 5). (0,25đ)"
+   ]
+  },
+  {
+   "q": "Câu 2 (0,75đ). Theo Luật Nhà giáo số 73/2025/QH15, nhà giáo không được làm những việc gì đối với người học (Điều 11 khoản 2)? Điều này khác gì với quy định tại Điều 22 Luật Giáo dục về việc ép học thêm?",
+   "a": [
+    "Nhà giáo **không được** (Điều 11 khoản 2), mỗi ý đúng 0,1đ, đủ 5 ý được 0,5đ:",
+    "- Phân biệt đối xử giữa những người học dưới mọi hình thức;",
+    "- Gian lận, cố ý làm sai lệch kết quả trong tuyển sinh, đánh giá người học;",
+    "- Ép buộc người học tham gia học thêm **dưới mọi hình thức**;",
+    "- Ép buộc người học nộp tiền hoặc hiện vật ngoài quy định của pháp luật;",
+    "- Lợi dụng chức danh nhà giáo và hoạt động nghề nghiệp để thực hiện hành vi vi phạm pháp luật.",
+    "Phân biệt (0,25đ): Điều 22 Luật Giáo dục (khoản 5) chỉ cấm \"ép buộc học sinh học thêm **để thu tiền**\"; Luật Nhà giáo Điều 11.2.c cấm ép học thêm **dưới mọi hình thức** (rộng hơn, không cần mục đích thu tiền).",
+    "Lưu ý: quyền của nhà giáo là Điều 8, nghĩa vụ là Điều 9 (không nhầm với Điều 9-10)."
+   ]
+  },
+  {
+   "q": "Câu 3 (0,75đ). Theo Nghị định 259/2026/NĐ-CP, thi tuyển viên chức gồm mấy vòng? Nêu nội dung, thời gian vòng 1 và điều kiện để được dự thi vòng 2. Thi tuyển giáo viên có điểm gì khác (nêu hình thức vòng 2 theo Nghị định 93/2026/NĐ-CP)?",
+   "a": [
+    "**Hai vòng** (Điều 11 NĐ 259). (0,1đ)",
+    "Vòng 1 (thi trắc nghiệm trên máy tính): (a) kiến thức chung **60 câu, 60 phút**; (b) ngoại ngữ theo thông báo tuyển dụng, tối đa 60 phút (số câu do Hội đồng quyết định; có văn bằng/chứng chỉ phù hợp thì miễn). (0,25đ)",
+    "Điều kiện dự vòng 2: trả lời đúng **từ 50% số câu trở lên của từng phần**. (0,15đ)",
+    "Vòng 2 viên chức nói chung: thi nghiệp vụ chuyên ngành, chọn 1 trong 2 hình thức: thực hành, hoặc kết hợp viết và phỏng vấn (thang 100; viết 70%, phỏng vấn 30%).",
+    "Giáo viên (NĐ 93 Điều 7): vòng 1 gồm kiến thức chung 60 câu/60 phút và ngoại ngữ 30 câu/30 phút (nếu vị trí yêu cầu); **vòng 2 là thực hành sư phạm**, người đứng đầu chọn 1 trong 3 hình thức: vấn đáp, thực hành giảng dạy hoặc thi viết; thang 100 điểm. (0,25đ)",
+    "Ghi chú: ưu tiên áp dụng NĐ 93 cho vị trí giáo viên; cần đối chiếu thông báo tuyển dụng của địa phương (đối chiếu văn bản gốc)."
+   ]
+  },
+  {
+   "q": "Câu 4 (0,75đ). Thông tư 03/2026/TT-BGDĐT về quy tắc ứng xử của nhà giáo: (a) ban hành ngày nào, thay thế văn bản nào; (b) quy tắc ứng xử chia thành mấy nhóm quan hệ? Kể tên; (c) khi phát hiện học sinh bị bạo lực, xâm hại, nhà giáo phải làm gì?",
+   "a": [
+    "(a) Ban hành và có hiệu lực **30/01/2026**; gồm 03 chương, 15 điều; thay thế Quyết định 16/2008/QĐ-BGDĐT (đạo đức nhà giáo) và Điều 6 Thông tư 06/2019/TT-BGDĐT. (0,25đ)",
+    "(b) **6 nhóm** (Điều 4-9): ứng xử chung; với người học; với đồng nghiệp; với cán bộ quản lý cơ sở giáo dục; với cha mẹ hoặc người giám hộ của người học; với cộng đồng. (0,25đ)",
+    "(c) **Phải báo cáo kịp thời** với lãnh đạo, cơ quan có thẩm quyền (Điều 5 khoản 4); không thờ ơ, né tránh hoặc che giấu hành vi vi phạm (Điều 4 khoản 6). (0,25đ)",
+    "Ghi chú: số điều của phần phạm vi, mục đích, nguyên tắc và tổ chức thực hiện của TT03 cần đối chiếu văn bản gốc."
+   ]
+  }
+ ],
+ "p2": [
+  {
+   "q": "Câu 1 (1đ) [Tin 7 – Bài 2: Phần mềm máy tính]. (a) Nêu khái niệm hệ điều hành và các chức năng chính. (b) Phân biệt phần mềm hệ thống và phần mềm ứng dụng, mỗi loại cho 2 ví dụ. (c) Vì sao nói Windows Explorer, Microsoft Word không phải là hệ điều hành?",
+   "a": [
+    "(a) **Hệ điều hành** là phần mềm hệ thống, chạy đầu tiên khi bật máy, quản lí và điều khiển phần cứng, tạo môi trường để các phần mềm khác hoạt động. Chức năng (0,25đ): điều khiển phần cứng, quản lí thiết bị và dữ liệu; cung cấp giao diện người dùng; tổ chức, cho phép chạy các phần mềm ứng dụng (đối chiếu SGK tr.11 về cách gộp thành 3 chức năng).",
+    "(b) (0,25đ) **Phần mềm hệ thống**: điều khiển, quản lí máy tính, làm nền cho phần mềm khác (Windows, macOS, Linux; iOS, Android). **Phần mềm ứng dụng**: giúp người dùng làm công việc cụ thể (soạn thảo Word, trình duyệt, Scratch, trò chơi).",
+    "(c) (0,25đ) Windows Explorer chỉ là ứng dụng quản lí tệp, thư mục chạy **trên** hệ điều hành; Word là phần mềm ứng dụng soạn thảo: chúng không điều khiển phần cứng, không quản lí toàn bộ tài nguyên máy.",
+    "Bổ sung (0,25đ): phần mở rộng tên tệp cho biết loại tệp và phần mềm mở nó (ví dụ .docx - Word, .xlsx - Excel, .pptx - PowerPoint, .sb3 - Scratch)."
+   ]
+  },
+  {
+   "q": "Câu 2 (1,5đ) [Tin 7 – Bài 11: Tạo bài trình chiếu]. Một nhóm làm bài trình chiếu \"Trường học xanh\" gồm 1 trang tiêu đề (có 1 tiêu đề và 1 phụ đề) và 4 trang nội dung. Mỗi trang nội dung có 1 tiêu đề trang, 3 ý chính (cấp 1) và mỗi ý chính có đúng 2 ý phụ (cấp 2). Nhóm gõ nội dung liên tục bằng bàn phím, ý phụ dùng Tab để hạ cấp, quay lại ý chính dùng Shift+Tab. (a) Bài có bao nhiêu trang? Tổng số dòng văn bản phải nhập là bao nhiêu? (b) Mỗi trang nội dung phải bấm Tab và Shift+Tab bao nhiêu lần? Cả bài? (c) Phân biệt trang tiêu đề với tiêu đề trang và nêu bố cục (layout) nên chọn cho từng loại trang.",
+   "a": [
+    "(a) Số trang = 1 + 4 = **5 trang**. (0,5đ)",
+    "Dòng văn bản: trang tiêu đề 2 dòng (tiêu đề + phụ đề); mỗi trang nội dung 1 + 3 + 3x2 = 10 dòng => 4 x 10 = 40. Tổng = 2 + 40 = **42 dòng**.",
+    "(b) (0,5đ) Mỗi trang: gõ ý chính 1, Enter, Tab (1) rồi gõ 2 ý phụ; Enter, Shift+Tab (1) gõ ý chính 2; tương tự ý chính 3 => **3 lần Tab và 2 lần Shift+Tab** mỗi trang (ý phụ thứ 2 nằm cùng cấp với ý phụ thứ nhất nên không cần Tab).",
+    "Cả bài: Tab = 3 x 4 = **12 lần**; Shift+Tab = 2 x 4 = **8 lần** (ghi chú: chuyển sang trang mới dùng lệnh New Slide, không tính vào Tab).",
+    "(c) (0,5đ) **Trang tiêu đề**: trang đầu tiên, nêu tên bài trình bày, tác giả; layout Title Slide. **Tiêu đề trang**: dòng tên chủ đề ở đầu mỗi trang nội dung; layout Title and Content (hoặc Title Only). Hạ cấp giúp thể hiện cấu trúc phân cấp, ý chính - ý phụ rõ ràng, dễ theo dõi."
+   ]
+  },
+  {
+   "q": "Câu 3 (1,5đ) [Tin 8 – Bài 8a: Danh sách liệt kê và hình ảnh trong văn bản]. Hãy xây dựng mục tiêu bài học (theo chương trình GDPT 2018: năng lực tin học, năng lực chung, phẩm chất) và thiết kế **hoạt động khám phá kiến thức về danh sách dạng liệt kê** theo 4 bước chuyển giao - thực hiện - báo cáo - kết luận. Cho biết sản phẩm học tập của hoạt động.",
+   "a": [
+    "Mục tiêu (0,5đ):",
+    "- Kiến thức: nêu được hai kiểu danh sách (dấu đầu dòng, có thứ tự) và tác dụng; biết chèn, co dãn ảnh, vẽ hình đồ họa trong Word.",
+    "- Năng lực tin học: **NLa** (sử dụng phần mềm soạn thảo để tạo danh sách, chèn ảnh); **NLd** (ứng dụng tin học trong học tập: trình bày tờ rơi, danh sách); **NLb** (ghi nguồn ảnh, tôn trọng bản quyền; khai báo khi dùng AI).",
+    "- Năng lực chung: tự chủ - tự học, giao tiếp - hợp tác (làm việc nhóm). Phẩm chất: chăm chỉ, trung thực (không sao chép, ghi nguồn).",
+    "Hoạt động khám phá (1đ):",
+    "- **Chuyển giao**: GV chiếu Hình 8a.1 (danh sách 500 mục), hỏi: có phải gõ từng số không? Phát phiếu học tập: so sánh danh sách dấu đầu dòng và có thứ tự qua 2 ví dụ (bước nấu ăn, đồ dùng học tập); nêu cách tạo (Bullets/Numbering).",
+    "- **Thực hiện**: nhóm 4 HS thảo luận Think-Pair-Share, thử trên máy: gõ Enter tạo mục mới, xóa mục giữa xem số tự cập nhật, dùng Tab xuống cấp. GV quan sát, hỗ trợ nhóm yếu.",
+    "- **Báo cáo**: đại diện 2 nhóm trình bày kết quả; nhóm khác nhận xét, đặt câu hỏi; GV ghi nhận chênh lệch.",
+    "- **Kết luận**: GV chốt: dấu đầu dòng khi các mục ngang hàng; có thứ tự khi có trình tự; số tự động cập nhật khi thêm bớt; Tab để tạo danh sách nhiều cấp; lưu ý lỗi gõ số tay.",
+    "Sản phẩm: phiếu học tập hoàn thành và tệp Word có hai danh sách (một kiểu mỗi loại)."
+   ]
+  },
+  {
+   "q": "Câu 4 (1đ) [Tin 8 – Bài 8a, tích hợp AI]. Trong tiết dạy, GV hỏi chatbot \"Nêu hai kiểu danh sách trong Word và cách tạo\", chiếu nguyên văn kết quả lên bảng rồi yêu cầu cả lớp chép vào vở \"vì AI trả lời rất nhanh và đúng\". Hãy nhận xét đoạn dạy trên (ưu điểm, hạn chế) và đề xuất cách điều chỉnh để phát triển năng lực số/AI của học sinh (nêu ít nhất 2 mã yêu cầu cần đạt trong tài liệu năng lực AI).",
+   "a": [
+    "Nhận xét (0,4đ): Ưu điểm - dùng công nghệ tạo tình huống, tiết kiệm thời gian, gợi hứng thú. Hạn chế - **tuyệt đối hóa AI**, HS thụ động chép, không kiểm chứng; AI có thể sai hoặc thiếu; chưa khai báo nguồn; chưa phát triển năng lực tự học, tư duy phản biện.",
+    "Điều chỉnh (0,6đ): cho HS **đối chiếu kết quả chatbot với SGK** (Bài 8a, tr.36 trở đi), tìm chỗ thiếu/sai; thực hành thao tác trên Word để kiểm chứng; thảo luận độ tin cậy; HS ghi nguồn và **khai báo khi dùng AI**.",
+    "Mã/yêu cầu liên quan: **8.A1.2** (kiểm chứng kết quả AI), **8.A3.3**, **8.B2.1** (theo tài liệu KHDH/kw của bài; đối chiếu mã năng lực AI trong tài liệu gốc).",
+    "Có thể liên hệ NLS 3.1.TC2.a (tạo, chỉnh sửa nội dung số) của bài."
+   ]
+  }
+ ],
+ "p3": [
+  {
+   "q": "Tình huống (2đ): Em Hùng (lớp 8A, lớp thầy/cô dạy Tin học và là giáo viên chủ nhiệm) gần đây hay ngủ gật, bỏ tiết cuối, điểm sa sút. Qua bạn bè thầy/cô biết Hùng chơi game liên tục đến khuya, thậm chí trốn tiết ra quán internet. Cha mẹ Hùng đi làm xa, ở với ông bà. Hãy nêu cách xử lí và căn cứ.",
+   "a": [
+    "**Bước 1 - Tìm hiểu, không vội kết luận (0,4đ)**: nói chuyện riêng, lắng nghe, tìm nguyên nhân (áp lực, cô đơn, bạn bè rủ rê); xác minh qua bạn, giáo viên bộ môn, sổ theo dõi; **không công khai** thông tin của em trước lớp (TT03/2026 Điều 5 khoản 4).",
+    "**Bước 2 - Tư vấn, hỗ trợ (0,4đ)**: động viên, đưa ra mục tiêu nhỏ, hướng dẫn quản lí thời gian, hoạt động thay thế (CLB, thể thao); phối hợp tư vấn tâm lí học đường (HS có quyền được tư vấn tâm lí - TT15/2026 Điều 33 khoản 6); lồng ghép bài học Tin 7 Bài 5 về nghiện Internet (chia sẻ - rời xa - giới hạn - theo đuổi).",
+    "**Bước 3 - Phối hợp gia đình (0,4đ)**: mời ông bà, liên hệ cha mẹ qua điện thoại; trao đổi thông tin trung thực về học sinh; thỏa thuận quy tắc dùng thiết bị ở nhà (TT03/2026 Điều 8 khoản 1, 2: hợp tác vì sự tiến bộ của người học, thông tin trung thực khi được cấp quản lí đồng ý theo thẩm quyền). Gia đình có trách nhiệm giáo dục con (Luật Giáo dục Điều 16 khoản 3 - phối hợp nhà trường, gia đình, xã hội).",
+    "**Bước 4 - Báo cáo, phối hợp nhà trường và địa phương (0,4đ)**: báo cáo hiệu trưởng/ban giám hiệu; nhờ Đoàn - Đội, giáo viên bộ môn cùng theo dõi; phối hợp chính quyền, công an xã nếu tiệm internet cho HS vào trong giờ học (xã hội có trách nhiệm - Luật Giáo dục Điều 16 khoản 3). Giáo viên chủ nhiệm được quyền cho phép HS nghỉ học có lý do chính đáng không quá 03 ngày liên tục (TT15/2026 Điều 26 khoản 3), không tự ý vượt quyền.",
+    "**Bước 5 - Theo dõi, đánh giá (0,2đ)**: ghi nhận tiến bộ, đánh giá đúng thực chất, không phân biệt đối xử, không trù dập (TT03/2026 Điều 5 khoản 3, 4; Luật Nhà giáo Điều 9 khoản 2 điểm d; Điều 11 khoản 2 điểm a).",
+    "Lưu ý khi chấm: thái độ thấu hiểu, giáo dục là chính; **không** đánh mắng, công khai danh tính, không ép buộc; nếu nghi có dấu hiệu bị rủ rê vào tệ nạn (cờ bạc, cá độ) phải báo cáo cấp có thẩm quyền (đối chiếu quy định hiện hành)."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "de": 13,
+ "focus_luat": [
+  "L4",
+  "L6",
+  "L8",
+  "L1"
+ ],
+ "focus_bai": [
+  "B13",
+  "B19",
+  "B6"
+ ],
+ "p1": [
+  {
+   "q": "Câu 1 (0,75đ). Theo Nghị định 93/2026/NĐ-CP: (a) giáo viên trung học cơ sở có chia hạng không? (b) Thời gian nghỉ hè của giáo viên THCS là bao lâu, ai quyết định thời điểm nghỉ hè? (c) Giáo viên được phân công dạy liên trường thì số tiết tính theo chế độ làm việc như thế nào, ai chi trả lương?",
+   "a": [
+    "**(a) (0,25đ)** Không. \"Giáo viên trung học cơ sở\" là một chức danh, không chia hạng I, II, III (Điều 3 khoản 1); chỉ chức danh giảng viên mới có phân cấp.",
+    "**(b) (0,25đ)** 08 tuần/năm, bao gồm cả nghỉ phép hằng năm, hưởng nguyên lương và phụ cấp (Điều 17 khoản 1 điểm a, g); Chủ tịch UBND cấp tỉnh quyết định thời điểm nghỉ hè theo kế hoạch năm học của Bộ GDĐT (Điều 17 khoản 3).",
+    "**(c) (0,25đ)** Số tiết theo chế độ làm việc là TỔNG số tiết ở các cơ sở được phân công (Điều 13 khoản 3 điểm a); lương và chế độ theo lương do cơ sở QUẢN LÝ nhà giáo chi trả (khoản 3 điểm c); việc phân công do UBND cấp xã/Sở GDĐT ra quyết định (khoản 2)."
+   ]
+  },
+  {
+   "q": "Câu 2 (0,75đ). Theo Nghị quyết 248/2025/QH15, từ năm học nào thực hiện một bộ sách giáo khoa thống nhất toàn quốc, đến năm nào hoàn thành cung cấp sách giáo khoa miễn phí? Nêu tỉ lệ chi ngân sách tối thiểu cho giáo dục và cách xử lí chuyển tiếp khi hội đồng trường công lập chấm dứt hoạt động.",
+   "a": [
+    "**SGK (0,25đ):** Bộ trưởng Bộ GDĐT quyết định một bộ SGK giáo dục phổ thông dùng thống nhất toàn quốc, thực hiện từ năm học 2026–2027; đến năm 2030 hoàn thành cung cấp miễn phí SGK cho học sinh (Điều 3 khoản 1).",
+    "**Ngân sách (0,2đ):** bố trí tối thiểu 20% tổng chi NSNN cho giáo dục và đào tạo (Điều 6 khoản 4).",
+    "**Chuyển tiếp hội đồng trường (0,3đ):** trong 06 tháng sau khi hội đồng trường chấm dứt, cơ quan quản lí trực tiếp quyết định công việc tổ chức, nhân sự do hội đồng trường đảm nhiệm và quyết định người đứng đầu; số cấp phó được vượt mức tối đa trong 05 năm và phải lập kế hoạch giảm dần (Điều 7).",
+    "(Kết hợp Luật 123/2025: từ 01/01/2026 hội đồng trường các cơ sở phổ thông công lập kết thúc hoạt động, bàn giao hồ sơ cho hiệu trưởng. Số khoản Điều 6, 7: đối chiếu văn bản gốc.)"
+   ]
+  },
+  {
+   "q": "Câu 3 (0,75đ). Nghị quyết 71-NQ/TW nêu phương châm nào về thầy – trò? Nêu vị trí của người học, nhà trường, nhà giáo. Kể 3 nhiệm vụ, giải pháp có liên quan đến môn Tin học và chuyển đổi số trong giáo dục phổ thông.",
+   "a": [
+    "**Phương châm (0,15đ):** \"Thầy ra thầy, trò ra trò\".",
+    "**Vị trí (0,2đ):** người học là trung tâm, chủ thể; nhà trường là nền tảng; nhà giáo là động lực, quyết định chất lượng giáo dục.",
+    "**3 nhiệm vụ, giải pháp (0,4đ):**",
+    "- Chuyển đổi số, AI: xây dựng nền tảng giáo dục quốc gia ứng dụng AI có kiểm soát; nâng chuẩn năng lực số và AI cho người học và nhà giáo.",
+    "- Tăng thời lượng khoa học, công nghệ, tin học, nghệ thuật; nghiên cứu đưa năng lực số, AI vào chương trình phổ thông; STEM/STEAM.",
+    "- Đưa tiếng Anh từng bước thành ngôn ngữ thứ hai trong trường học; khắc phục dạy thêm, học thêm tràn lan.",
+    "(Ngoài ra: một bộ SGK thống nhất, phấn đấu 2030 miễn phí SGK.)"
+   ]
+  },
+  {
+   "q": "Câu 4 (0,75đ). Theo Luật Viên chức 129/2025/QH15: (a) nêu các hình thức kỉ luật viên chức, hình thức nào chỉ áp dụng với viên chức quản lí? (b) Thời hiệu và thời hạn xử lí kỉ luật? (c) Trường hợp nào đương nhiên bị buộc thôi việc?",
+   "a": [
+    "**(a) (0,25đ)** 4 hình thức: khiển trách; cảnh cáo; cách chức (áp dụng đối với viên chức quản lí); buộc thôi việc (Điều 35 khoản 1).",
+    "**(b) (0,3đ)** Thời hiệu 05 năm (khiển trách) và 10 năm (các hình thức còn lại) – Điều 36 khoản 1; thời hạn xử lí kỉ luật không quá 90 ngày, vụ việc phức tạp kéo dài không quá 150 ngày – Điều 36 khoản 3. Một số trường hợp không áp dụng thời hiệu, ví dụ dùng văn bằng, chứng chỉ giả (Điều 36 khoản 2).",
+    "**(c) (0,2đ)** Bị Tòa án kết án phạt tù không được hưởng án treo hoặc bị kết án về tội tham nhũng thì đương nhiên bị buộc thôi việc kể từ ngày bản án có hiệu lực (Điều 35 khoản 3); viên chức quản lí phạm tội bị kết án đương nhiên thôi giữ chức vụ."
+   ]
+  }
+ ],
+ "p2": [
+  {
+   "q": "Câu 1 (1,0đ). [Tin 8 – Bài 5: Sử dụng bảng tính giải quyết bài toán thực tế] Phân biệt địa chỉ tương đối và địa chỉ tuyệt đối. Khi nào cần dùng địa chỉ tuyệt đối? Nêu cách tạo địa chỉ tuyệt đối. Ví dụ: ô G2 = E2*$F$1 được sao chép sang G3 thì công thức thế nào?",
+   "a": [
+    "**Địa chỉ tương đối (0,3đ):** địa chỉ thay đổi theo vị trí ô đích khi sao chép công thức (ví dụ =A1*B1 ở C1 sao chép xuống C2 thành =A2*B2).",
+    "**Địa chỉ tuyệt đối (0,3đ):** có kí hiệu $ trước tên cột và số hàng (ví dụ $B$1); giữ nguyên khi sao chép.",
+    "**Khi nào dùng (0,2đ):** khi công thức phải luôn tham chiếu một ô cố định (ví dụ tỉ lệ giảm giá, tỉ lệ 75%, đơn giá) trong bài toán doanh thu, giảm giá.",
+    "**Cách tạo:** gõ dấu $ hoặc đặt con trỏ vào địa chỉ trong thanh công thức rồi nhấn phím **F4**; sau đó kéo núm điền.",
+    "**Ví dụ (0,2đ):** G3 = E3*$F$1 (E đổi theo hàng, $F$1 giữ nguyên). Lỗi hay gặp: quên $ ở ô cố định nên kết quả sai khi kéo; gắn $ cho cả ô phải đổi theo dòng."
+   ]
+  },
+  {
+   "q": "Câu 2 (1,5đ). [Tin 8 – Bài 15: Gỡ lỗi] Chương trình sau dùng để tính tổng S = 1 + 2 + … + n:\n B1. tong ← 0; i ← 1.\n B2. Lặp n lần: i ← i + 1; tong ← tong + i.\n B3. Thông báo tong.\na) Tính kết quả chương trình cho n = 5 và kết quả đúng. Đây là lỗi cú pháp hay lỗi lôgic? Vì sao?\nb) Lập bảng 4 ca kiểm thử n = 0, 1, 5, 10: cho biết kết quả mong đợi, kết quả chương trình, ca nào phát hiện lỗi.\nc) Nêu 2 cách sửa và quy trình gỡ lỗi sau khi sửa.",
+   "a": [
+    "**a) (0,5đ):** chương trình cộng i sau khi tăng nên cộng 2, 3, 4, 5, 6: **tong = 20**; kết quả đúng 1 + 2 + 3 + 4 + 5 = **15**. Đây là **lỗi lôgic** (chương trình vẫn chạy, đúng quy tắc nhưng sai kịch bản), khó phát hiện hơn lỗi cú pháp.",
+    "**b) (0,6đ) – Bảng ca kiểm thử:**",
+    "- n = 0: mong đợi 0; chương trình 0 – không phát hiện lỗi (ca biên bỏ sót).",
+    "- n = 1: mong đợi 1; chương trình 2 – phát hiện lỗi.",
+    "- n = 5: mong đợi 15; chương trình 20 – phát hiện lỗi.",
+    "- n = 10: mong đợi 55; chương trình 2 + 3 + … + 11 = 65 – phát hiện lỗi.",
+    "**c) (0,4đ):** Cách 1: đặt i ← 0 ở B1. Cách 2: đổi thứ tự trong vòng lặp: tong ← tong + i trước, rồi i ← i + 1. (Một lỗi có nhiều cách sửa.)",
+    "- Quy trình: chạy thử → so với kịch bản → tìm lệnh gây lỗi (phân tích lôgic hoặc theo dõi giá trị biến từng bước) → sửa → **chạy thử lại** với toàn bộ ca kiểm thử."
+   ]
+  },
+  {
+   "q": "Câu 3 (1,5đ). [Tin 7 – Bài 8: Công cụ hỗ trợ tính toán] Xây dựng công cụ đánh giá (bảng tiêu chí 3 mức) cho hoạt động thực hành: dùng hàm SUM, AVERAGE, MAX, MIN, COUNT tính trên bảng điểm 5 học sinh. Nêu các hình thức đánh giá nên phối hợp và cách dùng kết quả đánh giá.",
+   "a": [
+    "**Bảng tiêu chí (0,8đ, 4 tiêu chí × 0,2đ; mỗi tiêu chí mô tả 3 mức Tốt / Đạt / Cần cố gắng):**",
+    "- Công thức, cú pháp: Tốt – viết đúng dấu =, tên hàm, vùng ô cả 5 hàm; Đạt – đúng 3–4 hàm; Cần cố gắng – dưới 3 hàm hoặc quên dấu =.",
+    "- Chọn đúng hàm cho yêu cầu (tổng, trung bình, lớn nhất, nhỏ nhất, đếm): Tốt – đúng cả 5; Đạt – sai 1; Cần cố gắng – sai từ 2 trở lên.",
+    "- Chọn vùng ô và sao chép (kéo ô điền): Tốt – chọn vùng chính xác, sao chép đúng; Đạt – cần gợi ý 1 lần; Cần cố gắng – chọn sai vùng nhiều lần.",
+    "- Hợp tác và kiểm tra kết quả: Tốt – tự kiểm tra lại bằng tính nhẩm; Đạt – kiểm tra khi được nhắc; Cần cố gắng – không kiểm tra.",
+    "**Hình thức phối hợp (0,4đ):** GV quan sát, đánh giá thường xuyên bằng bảng kiểm; đánh giá đồng đẳng giữa các cặp; HS tự đánh giá; sản phẩm: tệp bảng điểm đã lưu.",
+    "**Sử dụng kết quả (0,3đ):** phản hồi ngay, giúp HS sửa lỗi và chạy lại; điều chỉnh bài dạy, phân hóa bài tập; đánh giá vì sự tiến bộ, không so sánh học sinh này với học sinh khác (TT 15/2026 Điều 22).",
+    "**Lưu ý (0,1đ):** công bố tiêu chí cho HS trước khi làm."
+   ]
+  },
+  {
+   "q": "Câu 4 (1,0đ). [Năng lực AI và an toàn thông tin – Tin 7 Bài 8] Bảng tính có vùng D4:D8 chứa: 4; 5; chữ \"vắng\"; 7; một ô trống. Một học sinh hỏi chatbot kết quả của =COUNT(D4:D8) và chatbot trả lời \"5\". (a) Tính đúng COUNT, SUM, AVERAGE của vùng. (b) Nêu cách hướng dẫn HS kiểm chứng, và (c) những điều cần dặn về an toàn thông tin khi dùng chatbot với bảng điểm.",
+   "a": [
+    "**(a) (0,4đ):** COUNT chỉ đếm ô chứa số: 4, 5, 7 → **3** (chatbot sai: nhầm COUNT với đếm mọi ô). SUM = 4 + 5 + 7 = **16** (bỏ qua chữ và ô trống). AVERAGE = 16 / 3 ≈ **5,33**.",
+    "**(b) (0,3đ):** đối chiếu bảng 5 hàm trong SGK (COUNT đếm ô chứa số); chạy thử công thức trên máy; so sánh kết quả với kết quả chatbot, ghi nhận mức độ tin cậy; khai báo khi có dùng AI.",
+    "**(c) (0,3đ):** không nhập bảng điểm thật, họ tên, mã học sinh hoặc thông tin cá nhân vào chatbot; dùng dữ liệu mẫu; không công khai thông tin của người học trái quy định (TT 03/2026 Điều 5 khoản 4).",
+    "(Mã năng lực AI tham chiếu: 7.A1.2, 7.A1.MR1.)"
+   ]
+  }
+ ],
+ "p3": [
+  {
+   "q": "Tình huống (2,0đ). Phòng máy của trường có 40 máy nhưng chỉ còn 15 máy hoạt động. Tuần sau đoàn kiểm tra chuyên môn đến dự giờ. Hiệu trưởng nhắc thầy/cô giáo viên Tin học: \"cứ dạy bình thường, báo cáo là đủ tiết thực hành, đừng nói máy hỏng\". Có học sinh còn tranh thủ chơi game trên các máy còn chạy. Thầy/cô xử lí thế nào? Nêu căn cứ.",
+   "a": [
+    "**Nguyên tắc (0,3đ):** trung thực trong báo cáo; vẫn bảo đảm chất lượng dạy học bằng phương án phù hợp.",
+    "**Giải pháp chuyên môn (0,6đ):** chia nhóm 2–3 học sinh/máy, luân phiên thực hành; kết hợp bài giảng trực quan, mô phỏng, hoạt động \"không cắm điện\" (phiếu học tập, sơ đồ khối) cho phần còn lại; điều chỉnh kế hoạch bài dạy, vẫn đạt yêu cầu cần đạt; GV được chủ động sắp xếp nội dung, lựa chọn học liệu theo chương trình (Luật Nhà giáo Điều 8 khoản 2 điểm a).",
+    "**Quản lí học sinh dùng máy (0,3đ):** nêu nội quy phòng máy, phân công ghi sổ sử dụng máy, giám sát bằng phần mềm/quan sát, giáo dục HS về dùng máy đúng mục đích; nếu HS tái phạm thì phối hợp GVCN, cha mẹ (TT 03/2026 Điều 5 khoản 3 – tư vấn, hỗ trợ phù hợp tâm sinh lí lứa tuổi).",
+    "**Báo cáo, đề xuất (0,4đ):** lập biên bản hiện trạng thiết bị, đề xuất bằng văn bản với hiệu trưởng/tổ trưởng về kế hoạch sửa chữa, bổ sung (nhà trường chịu trách nhiệm quản lí cơ sở vật chất, thiết bị – TT 15/2026 Điều 3 khoản 9); báo cáo đúng thực tế về số tiết thực hành (Luật Viên chức Điều 8 khoản 1: chịu trách nhiệm về kết quả nhiệm vụ; khoản 2: chấp hành quy chế, báo cáo khi phát hiện vi phạm).",
+    "**Ứng xử với hiệu trưởng (0,3đ):** lễ phép trình bày thực trạng và rủi ro khi báo cáo sai; không tự ý khai khống hồ sơ, sổ sách chuyên môn (TT 15/2026 Điều 21 quy định hồ sơ giáo viên gồm kế hoạch bài dạy; yêu cầu trung thực theo TT 03/2026 Điều 4 khoản 2); thể hiện chính kiến đúng kênh, chấp hành phân công trong phạm vi chức năng (TT 03/2026 Điều 7 khoản 1, 3).",
+    "**Không được làm (0,1đ):** khai khống số tiết, che giấu hạn chế thiết bị (TT 03/2026 Điều 4 khoản 2: trung thực).",
+    "(Mức xử lí đối với hành vi báo cáo sai sự thật: đối chiếu văn bản gốc.)"
+   ]
+  }
+ ]
+}

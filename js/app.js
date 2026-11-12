@@ -1,6 +1,7 @@
 (function(){
 'use strict';
 var LAWS=(window.LAWS||[]).slice().sort(function(a,b){return a.id.localeCompare(b.id,'en',{numeric:true})});
+var ALL=LAWS.slice();LAWS=ALL.filter(function(L){return /^L\d/.test(L.id)});var CMS=ALL.filter(function(L){return /^CM/.test(L.id)});
 var app=document.getElementById('app');
 var EXAM_N=50, EXAM_MIN=60, MIX_COUNT=30;
 
@@ -18,8 +19,8 @@ function setRes(key,ok){S.res[key]=ok?1:0;store.save()}
 
 /* ---------- ngân hàng ---------- */
 var POOL=[],BYKEY={};
-LAWS.forEach(function(L){L.baihoc.forEach(function(b){b.cauhoi.forEach(function(q,i){
-  var o=Object.assign({},q,{key:L.id+'|'+b.id+'|'+i,law:L.id,lawTen:L.ten,bai:b.ten});
+ALL.forEach(function(L){L.baihoc.forEach(function(b){b.cauhoi.forEach(function(q,i){
+  var o=Object.assign({},q,{key:L.id+'|'+b.id+'|'+i,law:L.id,lawTen:L.ten,bai:b.ten,cm:L.id.indexOf('CM')===0});
   if(o.t==='f'){ /* điền chỗ trống -> chọn phương án */
     var n=0;o.q=o.q.replace(/____/g,function(){n++;return '【'+(n>1||o.q.split('____').length>2?'('+n+') ':'')+'……】'});
     o.o=o.o.map(function(c){return c.length>1?c.map(function(x,j){return '('+(j+1)+') '+x}).join('   ·   '):c[0]});
@@ -139,19 +140,32 @@ function practiceList(qs,titleEl){
 
 /* ---------- trang chủ ---------- */
 function pageHome(){
-  var tot=POOL.length,ok=0;POOL.forEach(function(q){if(S.res[q.key]===1)ok++});
-  var h='<div class="hero"><h1>Ôn thi viên chức giáo viên THCS – Phần Luật</h1><p>'+LAWS.length+' văn bản · '+tot+' câu hỏi · chọn 1 đáp án, chọn nhiều đáp án, điền chỗ trống</p></div><div class="wrap">';
-  h+='<div class="row" style="margin-bottom:16px"><a class="btn blue" href="#/mix">📝 Làm đề mix ('+MIX_COUNT+' đề)</a><a class="btn amber" href="#/wrong">🔁 Ôn câu làm sai</a><span style="color:#6b7280">Đã đúng '+ok+'/'+tot+' câu</span></div><div class="grid">';
+  var LP=POOL.filter(function(q){return !q.cm}),tot=LP.length,ok=0;LP.forEach(function(q){if(S.res[q.key]===1)ok++});
+  var cmN=POOL.length-tot,cmOk=0;POOL.forEach(function(q){if(q.cm&&S.res[q.key]===1)cmOk++});
+  var h='<div class="hero"><h1>Ôn thi viên chức giáo viên THCS</h1><p>Vòng 1: trắc nghiệm kiến thức chung (luật) · Vòng 2: chuyên môn Tin học + tự luận</p></div><div class="wrap">';
+  h+='<h2>🟦 Vòng 1 – Kiến thức chung (trắc nghiệm)</h2><div class="row" style="margin-bottom:14px"><a class="btn blue" href="#/mix">📝 Làm đề mix ('+MIX_COUNT+' đề × '+EXAM_N+' câu)</a><span style="color:#6b7280">'+LAWS.length+' văn bản · '+tot+' câu · đã đúng '+ok+'/'+tot+'</span></div><div class="grid">';
   LAWS.forEach(function(L){
     var s=lawStats(L),p=Math.round(100*s.ok/s.t);
     h+='<a class="card" href="#/law/'+L.id+'"><h3>'+esc(L.ten)+'</h3><div class="meta">'+esc(L.so)+(L.hieuluc?' · hiệu lực '+esc(L.hieuluc):'')+'</div><div style="font-size:14px;margin-bottom:6px">'+esc(L.mota||'')+'</div><span class="pill">'+L.baihoc.length+' bài</span><span class="pill">'+s.t+' câu</span><div class="bar"><i style="width:'+p+'%"></i></div><div class="meta" style="margin:0">Đúng '+s.ok+'/'+s.t+(s.bad?' · sai '+s.bad:'')+'</div></a>';
   });
-  app.innerHTML=h+'</div></div>';
+  h+='</div><h2 style="margin-top:28px">🟩 Vòng 2 – Chuyên môn Tin học THCS</h2><div class="row" style="margin-bottom:14px"><a class="btn" href="#/cm">📚 Bài học chuyên môn (20 bài)</a><a class="btn amber" href="#/tl">✍ Đề tự luận ('+TLN()+' đề)</a><a class="btn gray" href="#/wrong">🔁 Câu làm sai</a><span style="color:#6b7280">'+cmN+' câu trắc nghiệm chuyên môn · đúng '+cmOk+'/'+cmN+'</span></div>';
+  app.innerHTML=h+'</div>';
+}
+function TLN(){return (window.TL||[]).length}
+function pageCM(){
+  var h='<div class="wrap"><div class="crumb"><a href="#/">Trang chủ</a> / Chuyên môn</div><h2>🟩 Vòng 2 – Chuyên môn Tin học THCS</h2><p style="color:#6b7280">Mỗi bài: kiến thức, bảng, ví dụ, mẹo nhớ, khung giáo án + tích hợp AI, câu trắc nghiệm luyện tập và câu tự luận có lời giải. Sau khi học xong, làm <a href="#/tl" style="color:#2aa7e0">đề tự luận</a>.</p>';
+  CMS.forEach(function(L){
+    h+='<h3 class="sh">'+esc(L.ten)+'</h3><div class="grid">';
+    L.baihoc.forEach(function(b,i){var s=baiStats(b),p=Math.round(100*s.ok/s.t);
+      h+='<a class="card" href="#/law/'+L.id+'/'+b.id+'"><h3>'+esc(b.ten)+'</h3><span class="pill">'+s.t+' câu trắc nghiệm</span><span class="pill">'+(b.tuluan||[]).length+' tự luận</span><div class="bar"><i style="width:'+p+'%"></i></div><div class="meta" style="margin:0">Đúng '+s.ok+'/'+s.t+(s.bad?' · sai '+s.bad:'')+'</div></a>'});
+    h+='</div>';
+  });
+  app.innerHTML=h+'</div>';
 }
 
 /* ---------- trang văn bản ---------- */
 function pageLaw(id){
-  var L=LAWS.filter(function(x){return x.id===id})[0];if(!L)return notFound();
+  var L=ALL.filter(function(x){return x.id===id})[0];if(!L)return notFound();
   var h='<div class="wrap"><div class="crumb"><a href="#/">Trang chủ</a> / '+esc(L.ten)+'</div><div class="sec"><h2>'+esc(L.ten)+'</h2><div>'+esc(L.so)+(L.hieuluc?' · hiệu lực '+esc(L.hieuluc):'')+'</div><div style="margin-top:6px">'+esc(L.mota||'')+'</div></div><div class="grid">';
   L.baihoc.forEach(function(b,i){var s=baiStats(b),p=Math.round(100*s.ok/s.t);
     h+='<a class="card" href="#/law/'+L.id+'/'+b.id+'"><h3>Bài '+(i+1)+'. '+esc(b.ten)+'</h3><span class="pill">'+(b.tomtat||[]).length+' ý chính</span><span class="pill">'+s.t+' câu luyện tập</span><div class="bar"><i style="width:'+p+'%"></i></div><div class="meta" style="margin:0">Đúng '+s.ok+'/'+s.t+(s.bad?' · sai '+s.bad:'')+'</div></a>'});
@@ -160,23 +174,27 @@ function pageLaw(id){
 
 /* ---------- trang bài học + luyện tập ---------- */
 function pageBai(lid,bid){
-  var L=LAWS.filter(function(x){return x.id===lid})[0];if(!L)return notFound();
+  var L=ALL.filter(function(x){return x.id===lid})[0];if(!L)return notFound();
   var bi=-1;L.baihoc.forEach(function(b,i){if(b.id===bid)bi=i});if(bi<0)return notFound();
   var b=L.baihoc[bi];
-  var tabs='<div class="tabs">';L.baihoc.forEach(function(x,i){tabs+='<a class="'+(i===bi?'act':'')+'" href="#/law/'+L.id+'/'+x.id+'">Bài '+(i+1)+'</a>'});tabs+='</div>';
-  var h='<div class="wrap"><div class="crumb"><a href="#/">Trang chủ</a> / <a href="#/law/'+L.id+'">'+esc(L.ten)+'</a> / Bài '+(bi+1)+'</div>'+tabs;
-  h+='<div class="sec"><h2>Bài '+(bi+1)+'. '+esc(b.ten)+'</h2>';
+  var tabs='<div class="tabs">';var isCM=L.id.indexOf('CM')===0;function lab(x,i){return isCM?((x.ten.match(/^(Bài \w+)\./)||[])[1]||('Bài '+(i+1))):'Bài '+(i+1)}
+  L.baihoc.forEach(function(x,i){tabs+='<a class="'+(i===bi?'act':'')+'" href="#/law/'+L.id+'/'+x.id+'">'+lab(x,i)+'</a>'});tabs+='</div>';
+  var h='<div class="wrap"><div class="crumb"><a href="#/">Trang chủ</a> / '+(L.id.indexOf('CM')===0?'<a href="#/cm">Chuyên môn</a>':'')+(L.id.indexOf('CM')===0?' / ':'')+'<a href="#/law/'+L.id+'">'+esc(L.ten)+'</a> / Bài '+(bi+1)+'</div>'+tabs;
+  h+='<div class="sec"><h2>'+(isCM?'':'Bài '+(bi+1)+'. ')+esc(b.ten)+'</h2>';
   if(b.ynho&&b.ynho.length)h+='<div class="ynho"><b>⭐ Cần nhớ nhất</b><ol>'+b.ynho.map(function(t){return'<li>'+fmt(t)+'</li>'}).join('')+'</ol></div>';
   h+='<h3 class="sh">📖 Nội dung chi tiết</h3><ul>'+(b.tomtat||[]).map(function(t){return'<li>'+fmt(t)+'</li>'}).join('')+'</ul></div>';
   (b.bang||[]).forEach(function(t){
     h+='<div class="sec"><h3 class="sh" style="margin-top:0">📊 '+esc(t.tieu_de||'Bảng tóm tắt')+'</h3><div class="tw"><table><thead><tr>'+t.cot.map(function(c){return'<th>'+fmt(c)+'</th>'}).join('')+'</tr></thead><tbody>'+t.dong.map(function(r){return'<tr>'+r.map(function(c){return'<td>'+fmt(c)+'</td>'}).join('')+'</tr>'}).join('')+'</tbody></table></div></div>'});
   if(b.vidu&&b.vidu.length)h+='<div class="sec"><h3 class="sh" style="margin-top:0">💡 Ví dụ minh hoạ</h3>'+b.vidu.map(function(v,i){return'<div class="vd"><div><b>Ví dụ '+(i+1)+'.</b> '+fmt(v.tinh_huong)+'</div><div class="kl">'+fmt(v.ket_luan)+'</div></div>'}).join('')+'</div>';
+  if(b.giaoan&&b.giaoan.length)h+='<div class="sec"><h3 class="sh" style="margin-top:0">📝 Khung giáo án (để trả lời tự luận)</h3><ul>'+b.giaoan.map(function(t){return'<li>'+fmt(t)+'</li>'}).join('')+'</ul></div>';
+  if(b.ai&&b.ai.length)h+='<div class="sec"><h3 class="sh" style="margin-top:0">🤖 Tích hợp năng lực AI</h3><ul>'+b.ai.map(function(t){return'<li>'+fmt(t)+'</li>'}).join('')+'</ul></div>';
   if(b.nho&&b.nho.length)h+='<div class="sec nho"><h3 class="sh" style="margin-top:0">🧠 Mẹo ghi nhớ</h3><ul>'+b.nho.map(function(t){return'<li>'+fmt(t)+'</li>'}).join('')+'</ul></div>';
   if(b.bay&&b.bay.length)h+='<div class="sec bay"><h2>⚠ Chỗ hay bị đánh lừa</h2><ul>'+b.bay.map(function(t){return'<li>'+fmt(String(t).replace(/^\s*⚠️?\s*/,''))+'</li>'}).join('')+'</ul></div>';
   h+='<h2 style="margin:18px 0 10px">✍ Luyện tập ('+b.cauhoi.length+' câu)</h2><div id="pl"></div>';
   var nx='<div class="nvg">'+(bi>0?'<a class="btn gray" href="#/law/'+L.id+'/'+L.baihoc[bi-1].id+'">← Bài trước</a>':'<span></span>')+(bi<L.baihoc.length-1?'<a class="btn blue" href="#/law/'+L.id+'/'+L.baihoc[bi+1].id+'">Bài sau →</a>':'<a class="btn blue" href="#/law/'+L.id+'">Về danh sách bài</a>')+'</div>';
   app.innerHTML=h+nx+'</div>';
   document.getElementById('pl').appendChild(practiceList(b.cauhoi));
+  if(b.tuluan&&b.tuluan.length){var tb=el('<div><h2 style="margin:22px 0 10px">✍ Câu tự luận (vòng 2)</h2></div>');b.tuluan.forEach(function(q){var c=el('<div class="q"><div class="qt">'+fmt(q.q)+'</div><button class="btn blue">👁 Xem lời giải</button><div class="exp ok" style="display:none"><ul style="margin:0;padding-left:18px">'+q.a.map(function(t){return'<li>'+fmt(t)+'</li>'}).join('')+'</ul></div></div>');var bt=c.querySelector('button'),ex=c.querySelector('.exp');bt.onclick=function(){var o=ex.style.display==='none';ex.style.display=o?'':'none';bt.textContent=o?'🙈 Ẩn lời giải':'👁 Xem lời giải'};tb.appendChild(c)});document.getElementById('pl').parentNode.insertBefore(tb,document.getElementById('pl').nextSibling)}
 }
 
 /* ---------- câu làm sai ---------- */
@@ -190,7 +208,7 @@ function pageWrong(){
 
 /* ---------- đề mix ---------- */
 var MIX=(function(){
-  var r=mulberry(20260101),pool=POOL.slice(),seq=[];
+  var r=mulberry(20260101),pool=POOL.filter(function(q){return !q.cm}),seq=[];
   for(var p=0;p<4;p++)seq=seq.concat(shuffle(pool,r));
   var des=[],pos=0;
   for(var d=0;d<MIX_COUNT;d++){
@@ -270,18 +288,50 @@ function pageExam(n){
   }
 }
 
+
+/* ---------- đề tự luận (chuyên môn + tình huống) ---------- */
+var TL=window.TL||[];
+function pageTL(){
+  var h='<div class="wrap"><div class="crumb"><a href="#/">Trang chủ</a> / Đề tự luận</div><h2>✍ Đề tự luận mô phỏng ('+TL.length+' đề)</h2><p style="color:#6b7280">Mỗi đề gồm: Phần I kiến thức chung/luật (3đ) · Phần II nghiệp vụ chuyên ngành Tin 7–8 (5đ) · Phần III xử lý tình huống (2đ). Tự làm nháp rồi bấm "Xem lời giải" để đối chiếu. Đề tự soạn, không phải đề chính thức.</p><div class="grid">';
+  TL.forEach(function(d){
+    var seen=0,tot=d.p1.length+d.p2.length+d.p3.length;
+    for(var i=0;i<tot;i++)if(S.tl&&S.tl[d.de+'-'+i])seen++;
+    h+='<a class="card" href="#/tl/'+d.de+'"><h3>Đề số '+d.de+'</h3><div class="meta">'+tot+' câu · luật '+esc((d.focus_luat||[]).join(', '))+'</div><span class="pill">Đã xem lời giải '+seen+'/'+tot+'</span></a>'});
+  app.innerHTML=h+'</div></div>';
+}
+function pageTLDe(n){
+  var d=TL.filter(function(x){return x.de===+n})[0];if(!d)return notFound();
+  var h='<div class="wrap"><div class="crumb"><a href="#/">Trang chủ</a> / <a href="#/tl">Đề tự luận</a> / Đề '+d.de+'</div><div class="tabs">';
+  TL.forEach(function(x){h+='<a class="'+(x.de===d.de?'act':'')+'" href="#/tl/'+x.de+'">'+x.de+'</a>'});
+  h+='</div><h2>Đề số '+d.de+'</h2><div id="tlb"></div>';
+  h+='<div class="nvg">'+(d.de>1?'<a class="btn gray" href="#/tl/'+(d.de-1)+'">← Đề trước</a>':'<span></span>')+(d.de<TL.length?'<a class="btn blue" href="#/tl/'+(d.de+1)+'">Đề sau →</a>':'')+'</div></div>';
+  app.innerHTML=h;var box=document.getElementById('tlb'),idx=0;
+  [['PHẦN I. KIẾN THỨC CHUNG (3 điểm)','p1'],['PHẦN II. NGHIỆP VỤ CHUYÊN NGÀNH TIN HỌC THCS (5 điểm)','p2'],['PHẦN III. XỬ LÝ TÌNH HUỐNG SƯ PHẠM (2 điểm)','p3']].forEach(function(pt){
+    box.appendChild(el('<h3 class="sh">'+pt[0]+'</h3>'));
+    d[pt[1]].forEach(function(q){
+      var k=d.de+'-'+(idx++);
+      var c=el('<div class="q"><div class="qt">'+fmt(q.q)+'</div><button class="btn blue">👁 Xem lời giải</button><div class="exp ok" style="display:none"><ul style="margin:0;padding-left:18px">'+q.a.map(function(t){return'<li>'+fmt(t)+'</li>'}).join('')+'</ul></div></div>');
+      var btn=c.querySelector('button'),ex=c.querySelector('.exp');
+      btn.onclick=function(){var open=ex.style.display==='none';ex.style.display=open?'':'none';btn.textContent=open?'🙈 Ẩn lời giải':'👁 Xem lời giải';if(open){S.tl=S.tl||{};S.tl[k]=1;store.save()}};
+      box.appendChild(c)});
+  });
+}
+
 function notFound(){app.innerHTML='<div class="wrap"><div class="empty">Không tìm thấy trang. <a href="#/" style="color:#2aa7e0">Về trang chủ</a></div></div>'}
 
 /* ---------- router ---------- */
 function route(){
   stopTimer();
   var h=(location.hash||'#/').replace(/^#\/?/,'').split('/');
-  ['home','mix','wrong'].forEach(function(k){var a=document.getElementById('n-'+k);a&&a.classList.remove('act')});
-  var act=h[0]==='mix'?'mix':h[0]==='wrong'?'wrong':'home';document.getElementById('n-'+act).classList.add('act');
+  ['home','mix','wrong','tl','cm'].forEach(function(k){var a=document.getElementById('n-'+k);a&&a.classList.remove('act')});
+  var act=h[0]==='cm'||(h[0]==='law'&&/^CM/.test(h[1]||''))?'cm':h[0]==='tl'?'tl':h[0]==='mix'?'mix':h[0]==='wrong'?'wrong':'home';document.getElementById('n-'+act).classList.add('act');
   if(h[0]==='law'&&h[1]&&h[2])pageBai(h[1],h[2]);
   else if(h[0]==='law'&&h[1])pageLaw(h[1]);
   else if(h[0]==='mix'&&h[1])pageExam(h[1]);
   else if(h[0]==='mix')pageMix();
+  else if(h[0]==='cm')pageCM();
+  else if(h[0]==='tl'&&h[1])pageTLDe(h[1]);
+  else if(h[0]==='tl')pageTL();
   else if(h[0]==='wrong')pageWrong();
   else pageHome();
   if(!(h[0]==='mix'&&h[1]))window.scrollTo(0,0);

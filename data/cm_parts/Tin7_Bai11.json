@@ -1,0 +1,576 @@
+{
+ "id": "T7-B11",
+ "ten": "Bài 11. Tạo bài trình chiếu",
+ "tomtat": [
+  "Phần mềm trình chiếu (ví dụ **PowerPoint**) có **hai chức năng cơ bản**: **tạo bài trình chiếu** và **trình chiếu**.",
+  "Bài trình chiếu gồm nhiều **trang chiếu (slide)**; khi **trình chiếu**, các trang hiển thị **lần lượt**, có thể kèm **hiệu ứng động** và **hiệu ứng chuyển trang**.",
+  "**Trang tiêu đề** là trang đầu, nêu **tên bài trình chiếu** (chủ đề) và **tác giả**.",
+  "**Trang nội dung** gồm **tiêu đề trang** (nêu nội dung chính của trang) và **nội dung** (chữ, ảnh, bảng...).",
+  "**Mẫu bố trí (layout)** là cách sắp đặt sẵn vị trí các khung (tiêu đề, nội dung, ảnh...) trên trang; mỗi trang có thể chọn layout phù hợp.",
+  "**Cấu trúc phân cấp** là cách chia nội dung thành **ý chính** và **ý phụ** nằm ở các **cấp** khác nhau (danh sách nhiều cấp).",
+  "**Lợi ích** của cấu trúc phân cấp: nội dung **mạch lạc**, **dễ hiểu**, dễ nhận ra ý chính – ý phụ, **dễ quản lí** và chỉnh sửa.",
+  "**Tăng cấp** (thành ý phụ): đặt con trỏ ở ý cần đổi rồi nhấn **Tab**; **giảm cấp**: nhấn **Shift+Tab**.",
+  "Có thể đổi **kiểu, màu kí hiệu đầu dòng** bằng công cụ **Bullets**; kết thúc bằng **lưu tệp** (Save/Ctrl+S), ví dụ **Truonghocxanh.pptx**.",
+  "**Quy trình tạo bài**: mở phần mềm → tạo trang tiêu đề → thêm trang nội dung, chọn layout → nhập tiêu đề và nội dung → tăng/giảm cấp → đổi kí hiệu đầu dòng → lưu tệp.",
+  "**Tích hợp AI**: AI có thể gợi ý bố cục, soát chính tả; **con người** kiểm chứng số liệu, quyết định nội dung và **khai báo** khi dùng AI."
+ ],
+ "ynho": [
+  "2 chức năng: tạo bài trình chiếu và trình chiếu",
+  "Trang tiêu đề = trang đầu; tiêu đề trang = tên nội dung trang",
+  "Layout = mẫu bố trí vị trí các khung",
+  "Tab tăng cấp, Shift+Tab giảm cấp",
+  "Phân cấp: ý chính – ý phụ, mạch lạc, dễ hiểu"
+ ],
+ "bang": [
+  {
+   "tieu_de": "Phân biệt trang tiêu đề và tiêu đề trang",
+   "cot": [
+    "Khái niệm",
+    "Vị trí",
+    "Nội dung"
+   ],
+   "dong": [
+    [
+     "Trang tiêu đề",
+     "Trang đầu của bài",
+     "Tên bài trình chiếu, tác giả"
+    ],
+    [
+     "Tiêu đề trang",
+     "Phần đầu mỗi trang nội dung",
+     "Nêu nội dung chính của trang đó"
+    ],
+    [
+     "Trang nội dung",
+     "Các trang tiếp theo",
+     "Tiêu đề trang + nội dung (chữ, ảnh...)"
+    ]
+   ]
+  },
+  {
+   "tieu_de": "Danh sách phẳng và danh sách phân cấp",
+   "cot": [
+    "Tiêu chí",
+    "Danh sách phẳng",
+    "Danh sách phân cấp"
+   ],
+   "dong": [
+    [
+     "Cấp của các ý",
+     "Cùng một cấp",
+     "Nhiều cấp: ý chính, ý phụ"
+    ],
+    [
+     "Mức độ dễ hiểu",
+     "Khó nhận ra ý chính",
+     "Mạch lạc, dễ theo dõi"
+    ],
+    [
+     "Thao tác đổi cấp",
+     "Không có",
+     "Tab (tăng), Shift+Tab (giảm)"
+    ]
+   ]
+  }
+ ],
+ "vidu": [
+  {
+   "tinh_huong": "Bài báo cáo dự án \"Trường học xanh\" cần 1 trang đầu giới thiệu và 3 trang nội dung.",
+   "ket_luan": "→ Trang đầu là trang tiêu đề (tên bài, tác giả); 3 trang sau mỗi trang có tiêu đề trang riêng (Ý tưởng, Kế hoạch, Kết luận)."
+  },
+  {
+   "tinh_huong": "Trang \"Kế hoạch\" có 4 dòng cùng cấp: Trồng cây, Chọn loại cây, Chuẩn bị đất, Tưới nước. Muốn \"Chọn loại cây\" và \"Chuẩn bị đất\" là ý phụ của \"Trồng cây\".",
+   "ket_luan": "→ Đặt con trỏ ở từng dòng đó rồi nhấn Tab (tăng cấp); muốn đưa lại lên ý chính thì nhấn Shift+Tab."
+  },
+  {
+   "tinh_huong": "Trang \"Công việc trong ngày\" (Luyện tập 2): 3 mục chính (Học tập, Gia đình, Giải trí), mỗi mục có ít nhất 2 mục con.",
+   "ket_luan": "→ Tổng tối thiểu 3 + 3×2 = 9 dòng; mục chính ở cấp 1, mục con tăng cấp bằng Tab."
+  },
+  {
+   "tinh_huong": "Chatbot trả dàn ý \"Trường học xanh\" gồm 10 dòng ngang cấp và câu \"trồng 5000 cây trong 1 tuần\".",
+   "ket_luan": "→ Chưa phân cấp, số liệu vô lí: cần gom thành 3 mục chính, kiểm chứng số liệu, và khai báo đã dùng AI."
+  }
+ ],
+ "nho": [
+  "\"Tab đi vào, Shift+Tab đi ra\" (thụt vào = tăng cấp).",
+  "\"Tiêu đề TRANG đứng đầu mỗi trang; TRANG tiêu đề đứng đầu bài\".",
+  "\"Phân cấp = Chính – Phụ\" như mục lục sách.",
+  "Hai chức năng: \"Tạo rồi Chiếu\"."
+ ],
+ "bay": [
+  "Nhầm trang tiêu đề (trang đầu của bài) với tiêu đề trang (tên nội dung từng trang).",
+  "Nhầm Tab (tăng cấp) với Shift+Tab (giảm cấp).",
+  "Nhầm layout (mẫu bố trí) với hiệu ứng động hay định dạng chữ.",
+  "Tin AI tuyệt đối, không kiểm chứng số liệu và không khai báo."
+ ],
+ "giaoan": [
+  "**Mục tiêu** – Kiến thức: nêu được hai chức năng của phần mềm trình chiếu; vai trò trang tiêu đề, tiêu đề trang, layout; cấu trúc phân cấp và lợi ích; Năng lực: tạo được bài trình chiếu có tiêu đề, cấu trúc phân cấp, đổi kí hiệu đầu dòng, lưu tệp (NLa, NLc, NLe); tự chủ, tự học, giao tiếp hợp tác; nêu được việc AI làm và việc người quyết (7.A3.1); Phẩm chất: chăm chỉ, trình bày mạch lạc, trung thực khi dùng AI.",
+  "**Chuẩn bị** – GV: kế hoạch bài dạy, máy tính, máy chiếu, tệp mẫu Truonghocxanh.pptx, phiếu học tập, chatbot AI; HS: SGK Tin học 7, vở ghi, đọc trước mục 4.",
+  "**Hoạt động 1 – Mở đầu** (5 phút): Mục tiêu: tạo nhu cầu dùng phần mềm trình chiếu. Nội dung: tình huống An – Minh – Khoa (tr.55). Sản phẩm: dùng phần mềm trình chiếu; bài cần trang tiêu đề, tiêu đề trang, nội dung có thứ bậc. Tổ chức: (1) GV chiếu tình huống, nêu câu hỏi; (2) HS suy nghĩ, chia sẻ cặp (Think–Pair–Share); (3) mời 2 HS trả lời; (4) GV nhận xét, dẫn vào bài.",
+  "**Hoạt động 2 – Hình thành kiến thức** (45 phút): Mục tiêu: nêu chức năng, vai trò tiêu đề, layout, cấu trúc phân cấp; tạo trang phân cấp và lưu tệp. Nội dung: mục 1–3 (lí thuyết theo nhóm 4, khăn trải bàn), mục 4 (thực hành: tạo trang, Tab/Shift+Tab, Bullets, lưu tệp). Sản phẩm: phiếu học tập đã điền; tệp Truonghocxanh.pptx. Tổ chức: GV giao nhiệm vụ và phát phiếu → HS đọc SGK, thảo luận → nhóm báo cáo, GV làm mẫu → GV nhận xét, chốt hộp Ghi nhớ.",
+  "**Hoạt động 3 – Luyện tập** (20 phút): Mục tiêu: củng cố kiến thức, tạo trang phân cấp. Nội dung: 3 câu Đúng/Sai tr.56–57; Luyện tập 1, 2 (trang \"Công việc trong ngày\"). Sản phẩm: đáp án đúng; trang có ≥3 mục chính, mỗi mục ≥2 mục con. Tổ chức: GV giao việc → HS giơ thẻ, làm trên máy → 2 HS trình bày → GV nhận xét, chốt.",
+  "**Hoạt động 4 – Vận dụng** (20 phút): Mục tiêu: làm bài trình chiếu dự án, kiểm chứng nội dung AI, khai báo AI. Nội dung: đối chiếu dàn ý chatbot; làm Baitaptinhoc7.pptx ≥3 trang kèm slide \"Khai báo sử dụng AI\". Sản phẩm: dàn ý 3 mục; tệp có slide khai báo. Tổ chức: GV đưa kết quả chatbot → HS thảo luận cặp, kiểm chứng → trình bày → GV giao dự án.",
+  "**Kiểm tra đánh giá** – Quan sát thao tác thực hành, hỏi đáp nhanh, đánh giá phiếu học tập và sản phẩm theo tiêu chí: có trang tiêu đề, tiêu đề trang, cấu trúc phân cấp đúng, lưu tệp, có khai báo AI; dặn dò hoàn thiện Baitaptinhoc7.pptx."
+ ],
+ "ai": [
+  "GV dùng chatbot sinh dàn ý \"Trường học xanh\" (có câu \"5000 cây trong 1 tuần\"), chiếu cho HS nhận xét: dàn ý chưa phân cấp, số liệu vô lí.",
+  "HS đối chiếu mục 3 SGK, kiểm chứng số liệu với thực tế trường, phân biệt việc AI làm (gợi ý bố cục, chính tả) và việc người quyết (nội dung, số liệu) – 7.A3.1.",
+  "Đạo đức AI (7.B3.1): bài dự án phải có slide \"Khai báo sử dụng AI\" ghi rõ công cụ và phần đã dùng."
+ ],
+ "cauhoi": [
+  {
+   "t": "s",
+   "q": "Phần mềm trình chiếu có hai chức năng cơ bản là gì?",
+   "o": [
+    "Tạo bài trình chiếu và trình chiếu",
+    "Soạn thảo văn bản và in ấn",
+    "Tính toán dữ liệu và vẽ biểu đồ",
+    "Quản lí tệp và nén tệp"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Hai chức năng: tạo bài trình chiếu (soạn các trang chiếu) và trình chiếu (hiển thị lần lượt các trang). Soạn thảo, tính toán là của phần mềm khác.",
+   "r": "SGK Tin học 7 KNTT – Bài 11"
+  },
+  {
+   "t": "s",
+   "q": "Trang chiếu đầu tiên của bài trình chiếu thường nêu nội dung nào?",
+   "o": [
+    "Danh sách toàn bộ ý phụ của bài",
+    "Tên bài trình chiếu (chủ đề) và tên tác giả",
+    "Chỉ các hình ảnh minh hoạ",
+    "Lời cảm ơn và câu hỏi của người nghe"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Đó là trang tiêu đề. Bẫy: lời cảm ơn thường ở trang cuối, không phải trang đầu.",
+   "r": "SGK Tin học 7 KNTT – Bài 11"
+  },
+  {
+   "t": "s",
+   "q": "Tiêu đề trang (tiêu đề của trang nội dung) có vai trò gì?",
+   "o": [
+    "Nêu tên tác giả của bài trình chiếu",
+    "Quy định hiệu ứng chuyển trang",
+    "Nêu nội dung chính mà trang đó trình bày",
+    "Thay thế cho trang tiêu đề"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Tiêu đề trang cho biết trang nói về nội dung gì; đừng nhầm với trang tiêu đề (trang đầu của bài).",
+   "r": "SGK Tin học 7 KNTT – Bài 11"
+  },
+  {
+   "t": "s",
+   "q": "Mẫu bố trí (layout) của trang chiếu là gì?",
+   "o": [
+    "Hiệu ứng động của các đối tượng trên trang",
+    "Kiểu chữ và cỡ chữ mặc định của cả tệp",
+    "Tên tệp khi lưu bài trình chiếu",
+    "Cách sắp đặt sẵn vị trí các khung nội dung (tiêu đề, nội dung, ảnh...) trên trang"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Layout là mẫu bố trí vị trí các khung; không phải hiệu ứng hay định dạng chữ.",
+   "r": "SGK Tin học 7 KNTT – Bài 11"
+  },
+  {
+   "t": "s",
+   "q": "Cấu trúc phân cấp trong bài trình chiếu có đặc điểm nào?",
+   "o": [
+    "Nội dung chia thành ý chính và các ý phụ thuộc ý chính, nằm ở các cấp khác nhau",
+    "Mọi ý đều cùng một cấp, ngang hàng nhau",
+    "Mỗi trang chỉ được có một dòng chữ",
+    "Chỉ dùng để trang trí cho đẹp, không giúp hiểu nội dung"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Cấu trúc phân cấp giúp trình bày mạch lạc, dễ hiểu, dễ quản lí. Danh sách phẳng (mọi ý cùng cấp) là điều ngược lại.",
+   "r": "SGK Tin học 7 KNTT – Bài 11"
+  },
+  {
+   "t": "s",
+   "q": "Trong phần mềm trình chiếu (như PowerPoint), để chuyển một ý xuống cấp thấp hơn (ý phụ) ta dùng phím nào?",
+   "o": [
+    "Shift+Tab",
+    "Tab",
+    "Ctrl+S",
+    "Delete"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Tab = tăng cấp (thụt vào, thành ý phụ). Shift+Tab = giảm cấp. Dễ đảo nhau.",
+   "r": "SGK Tin học 7 KNTT – Bài 11"
+  },
+  {
+   "t": "s",
+   "q": "Muốn đưa một ý phụ lên thành ý chính (giảm cấp) ta thực hiện thao tác nào?",
+   "o": [
+    "Đặt con trỏ ở ý đó rồi nhấn Tab",
+    "Nhấn Ctrl+N",
+    "Đặt con trỏ ở ý đó rồi nhấn Shift+Tab",
+    "Xoá ý đó rồi gõ lại ở trang mới bắt buộc"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Giảm cấp = Shift+Tab. Bẫy: Tab là tăng cấp.",
+   "r": "SGK Tin học 7 KNTT – Bài 11"
+  },
+  {
+   "t": "s",
+   "q": "Sau khi tạo xong bài trình chiếu, để lưu thành tệp ta chọn lệnh nào?",
+   "o": [
+    "Save (Lưu) trong thẻ File hoặc nhấn Ctrl+S",
+    "Print (In)",
+    "Slide Show",
+    "New Slide"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Lưu tệp dùng Save/Ctrl+S; Slide Show là chức năng trình chiếu, New Slide thêm trang mới.",
+   "r": "SGK Tin học 7 KNTT – Bài 11"
+  },
+  {
+   "t": "s",
+   "q": "Để thay đổi kiểu, màu kí hiệu đầu dòng của danh sách trong trang chiếu ta dùng công cụ nào?",
+   "o": [
+    "Slide Sorter",
+    "Bullets (Kí hiệu đầu dòng)",
+    "Transitions",
+    "Table"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Bullets đổi kí hiệu đầu dòng; Transitions là hiệu ứng chuyển trang.",
+   "r": "SGK Tin học 7 KNTT – Bài 11"
+  },
+  {
+   "t": "s",
+   "q": "Khi dùng chatbot AI để soạn dàn ý bài trình chiếu, cách làm nào đúng?",
+   "o": [
+    "Sao chép nguyên kết quả vì AI luôn đúng",
+    "Giấu việc dùng AI để bài được đánh giá cao hơn",
+    "Kiểm chứng số liệu, tự quyết nội dung và khai báo đã dùng AI",
+    "Chỉ cần chọn bố cục đẹp, không cần đọc nội dung"
+   ],
+   "a": [
+    2
+   ],
+   "e": "AI có thể sai số liệu; con người quyết định nội dung và phải trung thực khi khai báo.",
+   "r": "SGK Tin học 7 KNTT – Bài 11"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các phát biểu ĐÚNG về bài trình chiếu.",
+   "o": [
+    "Trang nội dung có tiêu đề trang và nội dung",
+    "Mọi trang bắt buộc phải có cùng một layout",
+    "Trang tiêu đề và tiêu đề trang là một khái niệm duy nhất",
+    "Cấu trúc phân cấp giúp bài mạch lạc, dễ hiểu",
+    "Trang đầu thường là trang tiêu đề"
+   ],
+   "a": [
+    0,
+    3,
+    4
+   ],
+   "e": "Trang tiêu đề (trang đầu) khác tiêu đề trang (tên nội dung từng trang); mỗi trang có thể chọn layout riêng.",
+   "r": "SGK Tin học 7 KNTT – Bài 11"
+  },
+  {
+   "t": "m",
+   "q": "Những thao tác nào dùng để xây dựng cấu trúc phân cấp trong một khung nội dung?",
+   "o": [
+    "Đặt con trỏ ở dòng cần đổi cấp",
+    "Nhấn Tab để tăng cấp",
+    "Chọn hiệu ứng chuyển trang",
+    "Nhấn Ctrl+S để tạo ý phụ",
+    "Nhấn Shift+Tab để giảm cấp"
+   ],
+   "a": [
+    0,
+    1,
+    4
+   ],
+   "e": "Đổi cấp bằng Tab/Shift+Tab; Ctrl+S là lưu tệp, chuyển trang là hiệu ứng, không tạo cấp.",
+   "r": "SGK Tin học 7 KNTT – Bài 11"
+  },
+  {
+   "t": "m",
+   "q": "Việc nào AI có thể hỗ trợ, việc nào con người phải tự quyết khi làm bài trình chiếu? Chọn các ý ĐÚNG.",
+   "o": [
+    "AI gợi ý bố cục và soát lỗi chính tả",
+    "AI chịu trách nhiệm thay cho người về số liệu",
+    "Phải khai báo nếu có dùng AI trong sản phẩm",
+    "Con người quyết định nội dung và số liệu cuối cùng",
+    "Không cần kiểm chứng vì AI trả lời tự tin"
+   ],
+   "a": [
+    0,
+    2,
+    3
+   ],
+   "e": "Theo 7.A3.1, 7.B3.1: AI hỗ trợ, người kiểm chứng, quyết định và khai báo trung thực.",
+   "r": "SGK Tin học 7 KNTT – Bài 11"
+  },
+  {
+   "t": "m",
+   "q": "Lợi ích của việc dùng cấu trúc phân cấp là gì?",
+   "o": [
+    "Dễ nhận ra ý chính và ý phụ",
+    "Dễ quản lí, chỉnh sửa nội dung",
+    "Không cần trang tiêu đề nữa",
+    "Làm bài trình chiếu luôn có dung lượng nhỏ hơn",
+    "Nội dung mạch lạc, dễ theo dõi"
+   ],
+   "a": [
+    0,
+    1,
+    4
+   ],
+   "e": "Lợi ích về cách trình bày; không liên quan dung lượng và không thay thế trang tiêu đề.",
+   "r": "SGK Tin học 7 KNTT – Bài 11"
+  },
+  {
+   "t": "f",
+   "q": "Phần mềm trình chiếu có hai chức năng: ____ và ____.",
+   "a": [
+    [
+     "tạo bài trình chiếu",
+     "tạo bài trình bày"
+    ],
+    [
+     "trình chiếu"
+    ]
+   ],
+   "o": [
+    [
+     "soạn thảo văn bản",
+     "in ấn"
+    ],
+    [
+     "tạo bài trình chiếu",
+     "trình chiếu"
+    ],
+    [
+     "tính toán",
+     "vẽ biểu đồ"
+    ],
+    [
+     "nén tệp",
+     "quản lí tệp"
+    ]
+   ],
+   "k": 1,
+   "e": "Hai chức năng cơ bản: tạo bài trình chiếu và trình chiếu.",
+   "r": "SGK Tin học 7 KNTT – Bài 11"
+  },
+  {
+   "t": "f",
+   "q": "Trang đầu của bài gọi là ____, còn tên nội dung của từng trang là ____.",
+   "a": [
+    [
+     "trang tiêu đề"
+    ],
+    [
+     "tiêu đề trang"
+    ]
+   ],
+   "o": [
+    [
+     "tiêu đề trang",
+     "trang tiêu đề"
+    ],
+    [
+     "trang nội dung",
+     "trang tiêu đề"
+    ],
+    [
+     "trang tiêu đề",
+     "tiêu đề trang"
+    ],
+    [
+     "trang cuối",
+     "tiêu đề trang"
+    ]
+   ],
+   "k": 2,
+   "e": "Bẫy đảo hai khái niệm: trang tiêu đề (trang đầu) – tiêu đề trang (tên nội dung trang).",
+   "r": "SGK Tin học 7 KNTT – Bài 11"
+  },
+  {
+   "t": "f",
+   "q": "Nhấn ____ để tăng cấp một ý và nhấn ____ để giảm cấp.",
+   "a": [
+    [
+     "Tab"
+    ],
+    [
+     "Shift+Tab"
+    ]
+   ],
+   "o": [
+    [
+     "Shift+Tab",
+     "Tab"
+    ],
+    [
+     "Ctrl+S",
+     "Tab"
+    ],
+    [
+     "Tab",
+     "Ctrl+Z"
+    ],
+    [
+     "Tab",
+     "Shift+Tab"
+    ]
+   ],
+   "k": 3,
+   "e": "Tab tăng cấp; Shift+Tab giảm cấp. Phương án đầu bị đảo thứ tự.",
+   "r": "SGK Tin học 7 KNTT – Bài 11"
+  },
+  {
+   "t": "f",
+   "q": "Mẫu bố trí gọi là ____, còn kiểu đầu dòng của danh sách đổi bằng công cụ ____.",
+   "a": [
+    [
+     "layout",
+     "mẫu bố trí"
+    ],
+    [
+     "Bullets",
+     "kí hiệu đầu dòng"
+    ]
+   ],
+   "o": [
+    [
+     "layout",
+     "Bullets"
+    ],
+    [
+     "Slide Show",
+     "Bullets"
+    ],
+    [
+     "layout",
+     "Transitions"
+    ],
+    [
+     "Animations",
+     "Save"
+    ]
+   ],
+   "k": 0,
+   "e": "Layout là mẫu bố trí; Bullets đổi kí hiệu đầu dòng.",
+   "r": "SGK Tin học 7 KNTT – Bài 11"
+  },
+  {
+   "t": "f",
+   "q": "Trình chiếu là hiển thị ____ các trang chiếu, có thể kèm ____ động và chuyển trang.",
+   "a": [
+    [
+     "lần lượt"
+    ],
+    [
+     "hiệu ứng"
+    ]
+   ],
+   "o": [
+    [
+     "đồng thời",
+     "hiệu ứng"
+    ],
+    [
+     "lần lượt",
+     "bảng tính"
+    ],
+    [
+     "lần lượt",
+     "hiệu ứng"
+    ],
+    [
+     "ngẫu nhiên",
+     "phông chữ"
+    ]
+   ],
+   "k": 2,
+   "e": "Trình chiếu hiển thị lần lượt từng trang, có hiệu ứng động và chuyển trang.",
+   "r": "SGK Tin học 7 KNTT – Bài 11"
+  },
+  {
+   "t": "f",
+   "q": "Khi dùng AI soạn dàn ý, em cần ____ số liệu và ____ việc đã dùng AI.",
+   "a": [
+    [
+     "kiểm chứng"
+    ],
+    [
+     "khai báo"
+    ]
+   ],
+   "o": [
+    [
+     "sao chép",
+     "giấu"
+    ],
+    [
+     "kiểm chứng",
+     "khai báo"
+    ],
+    [
+     "kiểm chứng",
+     "xoá"
+    ],
+    [
+     "bỏ qua",
+     "khai báo"
+    ]
+   ],
+   "k": 1,
+   "e": "Kiểm chứng số liệu (AI có thể sai) và khai báo trung thực.",
+   "r": "SGK Tin học 7 KNTT – Bài 11"
+  }
+ ],
+ "tuluan": [
+  {
+   "q": "Câu 1 (2 điểm). Nêu hai chức năng cơ bản của phần mềm trình chiếu; phân biệt trang tiêu đề và tiêu đề trang; nêu lợi ích của cấu trúc phân cấp.",
+   "a": [
+    "Hai chức năng: tạo bài trình chiếu và trình chiếu (hiển thị lần lượt các trang, có hiệu ứng động, chuyển trang).",
+    "Trang tiêu đề: trang đầu, nêu tên bài trình chiếu, tác giả.",
+    "Tiêu đề trang: phần đầu mỗi trang nội dung, nêu nội dung chính của trang.",
+    "Lợi ích cấu trúc phân cấp: nội dung mạch lạc, dễ hiểu, thấy rõ ý chính – ý phụ, dễ quản lí, chỉnh sửa."
+   ]
+  },
+  {
+   "q": "Câu 2 (3 điểm). Nêu mục tiêu bài học \"Tạo bài trình chiếu\" (Tin học 7) theo chương trình 2018 và thiết kế hoạt động thực hành tạo trang phân cấp.",
+   "a": [
+    "Kiến thức: nêu hai chức năng; vai trò trang tiêu đề, tiêu đề trang, layout; cấu trúc phân cấp và lợi ích.",
+    "Năng lực: tạo bài trình chiếu có tiêu đề, phân cấp, đổi kí hiệu đầu dòng, lưu tệp; tự chủ tự học, giao tiếp hợp tác; nêu việc AI làm và người quyết.",
+    "Phẩm chất: chăm chỉ, trình bày mạch lạc, trung thực khi dùng AI.",
+    "Hoạt động thực hành: mục tiêu – tạo trang 3 cấp; nội dung – làm theo Hình 11.8; sản phẩm – Truonghocxanh.pptx.",
+    "Tổ chức 4 bước: giao nhiệm vụ (GV làm mẫu Tab/Shift+Tab) → HS thực hành → báo cáo, nhận xét chéo → GV kết luận."
+   ]
+  },
+  {
+   "q": "Câu 3 (2 điểm). Chatbot trả dàn ý bài \"Trường học xanh\" gồm 10 dòng cùng cấp, có câu \"trồng 5000 cây trong 1 tuần\". Hãy nêu cách GV hướng dẫn HS xử lí và tích hợp năng lực AI.",
+   "a": [
+    "Nhận xét: dàn ý chưa phân cấp; số liệu 5000 cây/tuần vô lí.",
+    "Hướng dẫn gom thành 3 mục chính (Ý tưởng, Kế hoạch, Kết luận), dùng Tab tạo ý phụ.",
+    "Kiểm chứng số liệu với thực tế trường, sửa lại.",
+    "Phân biệt: AI gợi ý bố cục, chính tả; người quyết nội dung, số liệu (7.A3.1).",
+    "Khai báo sử dụng AI trong sản phẩm (7.B3.1)."
+   ]
+  }
+ ]
+}

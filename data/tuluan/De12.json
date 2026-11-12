@@ -1,0 +1,121 @@
+{
+ "de": 12,
+ "focus_luat": [
+  "L3",
+  "L5",
+  "L7",
+  "L9"
+ ],
+ "focus_bai": [
+  "B12",
+  "B18",
+  "B5"
+ ],
+ "p1": [
+  {
+   "q": "Câu 1 (0,75đ). Theo Luật Nhà giáo 2025, quyền, nghĩa vụ, đạo đức nhà giáo và những việc nhà giáo không được làm quy định ở các điều nào? Nêu 5 việc nhà giáo không được làm đối với người học.",
+   "a": [
+    "**Căn cứ điều (0,25đ):** quyền – Điều 8; nghĩa vụ – Điều 9; đạo đức nhà giáo – Điều 10 (Bộ trưởng Bộ GDĐT ban hành quy tắc ứng xử); những việc không được làm – Điều 11. (Hay nhầm: không phải Điều 9–10.)",
+    "**5 việc không được làm (Điều 11 khoản 2) (0,5đ):**",
+    "- Phân biệt đối xử giữa những người học dưới mọi hình thức.",
+    "- Gian lận, cố ý làm sai lệch kết quả trong tuyển sinh, đánh giá người học.",
+    "- Ép buộc người học tham gia học thêm dưới mọi hình thức.",
+    "- Ép buộc người học nộp tiền hoặc hiện vật ngoài quy định của pháp luật.",
+    "- Lợi dụng chức danh nhà giáo và hoạt động nghề nghiệp để thực hiện hành vi vi phạm pháp luật.",
+    "(Nhà giáo công lập còn không được làm những việc viên chức không được làm – Điều 11 khoản 1.)"
+   ]
+  },
+  {
+   "q": "Câu 2 (0,75đ). Theo Nghị định 259/2026/NĐ-CP, (a) vòng 1 thi tuyển viên chức gồm những phần nào, điều kiện để dự vòng 2? (b) Vòng 2 có những hình thức nào? (c) Thí sinh A thi vòng 2 theo hình thức kết hợp viết và phỏng vấn, được 80 điểm bài viết, 60 điểm phỏng vấn, thuộc diện ưu tiên 5 điểm. Thí sinh B được 45 điểm bài viết, 90 điểm phỏng vấn. Tính điểm vòng 2 của mỗi thí sinh và cho biết ai đủ điều kiện xét trúng tuyển.",
+   "a": [
+    "**(a) (0,25đ)** Vòng 1 trắc nghiệm trên máy tính: kiến thức chung 60 câu/60 phút; ngoại ngữ theo thông báo tuyển dụng (tối đa 60 phút; có văn bằng, chứng chỉ phù hợp thì được miễn). Trả lời đúng từ 50% số câu của TỪNG phần mới được dự vòng 2 (Điều 11 khoản 1).",
+    "**(b) (0,1đ)** Vòng 2 – môn nghiệp vụ chuyên ngành: chọn 1 trong 2 hình thức: thực hành; hoặc kết hợp viết và phỏng vấn (Điều 11 khoản 2).",
+    "**(c) (0,4đ)** Kết hợp viết và phỏng vấn: quy đổi thang 100 theo tỉ lệ viết 70%, phỏng vấn 30%.",
+    "- A: 0,7 × 80 + 0,3 × 60 = 56 + 18 = **74 điểm**; cộng ưu tiên 5 điểm vào kết quả vòng 2: 74 + 5 = **79 điểm** (Điều 8, Điều 12). Hai bài đều trên 50 điểm nên **đủ điều kiện**.",
+    "- B: 0,7 × 45 + 0,3 × 90 = 31,5 + 27 = 58,5 điểm; nhưng bài viết 45 < 50 (dưới 50% điểm tối đa) nên **không đủ điều kiện** trúng tuyển (Điều 12 khoản 1 điểm a: phải dự đủ 2 bài, mỗi bài đạt từ 50% điểm tối đa).",
+    "(Thứ tự quy đổi và cộng điểm ưu tiên khi xếp hạng: đối chiếu văn bản gốc. Vị trí giáo viên áp dụng thêm Nghị định 93/2026.)"
+   ]
+  },
+  {
+   "q": "Câu 3 (0,75đ). Theo Thông tư 03/2026/TT-BGDĐT, nhà giáo ứng xử với cha mẹ hoặc người giám hộ của người học như thế nào (Điều 8)? Nêu điều kiện khi cung cấp thông tin và những điều không được làm.",
+   "a": [
+    "**Điều 8 – ứng xử với cha mẹ/người giám hộ (0,25đ):** sẵn sàng hợp tác, hỗ trợ, chia sẻ về hoạt động giảng dạy, giáo dục vì sự tiến bộ của người học; khuyến khích, tạo điều kiện để cha mẹ tham gia hoạt động giáo dục.",
+    "**Điều kiện cung cấp thông tin (0,25đ):** chủ động, kịp thời cung cấp, trao đổi thông tin TRUNG THỰC về người học; chương trình, kế hoạch giảng dạy, giáo dục khi được sự đồng ý của cấp quản lý theo thẩm quyền.",
+    "**Không được làm (0,25đ):** xúc phạm, áp đặt, vụ lợi, ép buộc cha mẹ tham gia hoạt động trái quy định của Nhà nước và các hoạt động mang tính chất tự nguyện.",
+    "(Ghi nhớ: quy tắc ứng xử có 6 nhóm ở Điều 4–9: chung, người học, đồng nghiệp, cán bộ quản lý, cha mẹ/người giám hộ, cộng đồng.)"
+   ]
+  },
+  {
+   "q": "Câu 4 (0,75đ). Theo Điều lệ trường phổ thông (Thông tư 15/2026/TT-BGDĐT): (a) tổ chuyên môn do ai bổ nhiệm tổ trưởng, khi nào có tổ phó, sinh hoạt tối thiểu bao lâu một lần? (b) Sĩ số tối đa của lớp THCS? Ai quy định cụ thể? (c) Nhiệm kì hiệu trưởng trường công lập và giới hạn số nhiệm kì liên tiếp?",
+   "a": [
+    "**(a) (0,3đ)** Hiệu trưởng bổ nhiệm tổ trưởng, tổ phó; tổ có từ 07 thành viên trở lên thì có tổ phó; sinh hoạt chuyên môn ít nhất 01 lần trong 02 tuần (Điều 13).",
+    "**(b) (0,25đ)** Mỗi lớp THCS và THPT không quá 45 học sinh (tiểu học không quá 35); Chủ tịch UBND cấp tỉnh quy định cụ thể theo hướng giảm sĩ số (Điều 16 khoản 3).",
+    "**(c) (0,2đ)** Nhiệm kì hiệu trưởng 05 năm; giữ chức vụ tại một trường công lập không quá hai nhiệm kì liên tiếp (vùng sâu, vùng xa, đặc biệt khó khăn do cấp bổ nhiệm xem xét) (Điều 10 khoản 1 điểm c).",
+    "(Thông tư 15/2026 hiệu lực từ 10/5/2026; trường THCS do UBND cấp xã quản lý – Điều 6.)"
+   ]
+  }
+ ],
+ "p2": [
+  {
+   "q": "Câu 1 (1,0đ). [Tin 8 – Bài 4: Đạo đức và văn hoá trong sử dụng công nghệ kĩ thuật số] Phân biệt biểu hiện vi phạm đạo đức, vi phạm pháp luật và thiếu văn hoá khi dùng công nghệ số (mỗi loại cho 1 ví dụ). Nêu 3 điều cần lưu ý khi dùng sản phẩm số của người khác và 4 yêu cầu đối với sản phẩm số do em tạo ra.",
+   "a": [
+    "**Phân biệt (0,4đ, mỗi loại 0,13đ; ví dụ minh hoạ):**",
+    "- Vi phạm pháp luật: dùng phần mềm bẻ khoá, xem web phim không bản quyền, phát tán thông tin sai sự thật (vi phạm bản quyền, có thể bị xử phạt).",
+    "- Vi phạm đạo đức: tự ý sửa, đăng ảnh của bạn khi chưa xin phép (xâm phạm quyền riêng tư); chép bài của người khác nhận là của mình.",
+    "- Thiếu văn hoá: dùng ngôn từ thô tục, bình luận miệt thị trên mạng xã hội (chưa chắc vi phạm pháp luật).",
+    "**3 điều lưu ý (0,3đ):** (1) tìm hiểu quy định về sử dụng sản phẩm; (2) chỉ dùng khi được phép; (3) hầu hết thông tin trên Internet có bản quyền – xin phép, ghi nguồn.",
+    "**4 yêu cầu với sản phẩm số (0,3đ):** trung thực; tự tạo nội dung; có đạo đức, văn hoá; không vi phạm pháp luật.",
+    "Lưu ý: sửa ảnh người khác vẫn phải xin phép và ghi nguồn."
+   ]
+  },
+  {
+   "q": "Câu 2 (1,5đ). [Tin 8 – Bài 14: Cấu trúc điều khiển] Cho thuật toán:\n B1. tong ← 0; i ← 1.\n B2. Lặp lại cho đến khi i > 10:\n   B2.1. Nếu (i chia lấy dư 2) = 1 thì tong ← tong + i.\n   B2.2. i ← i + 1.\n B3. Thông báo tong.\na) Chỉ ra các cấu trúc điều khiển có trong thuật toán và loại của từng cấu trúc.\nb) Lập bảng theo dõi giá trị i và tong sau mỗi lần lặp, cho biết kết quả và số lần lặp.\nc) Nếu đổi điều kiện dừng thành i > 7 thì kết quả là bao nhiêu? Sửa B2.1 thành \"Nếu i chia hết cho 2 thì tongchan ← tongchan + i, nếu không thì tongle ← tongle + i\" (cả hai tổng bắt đầu bằng 0, dừng khi i > 10): cho biết hai kết quả và gọi tên loại rẽ nhánh.",
+   "a": [
+    "**a) (0,4đ):** tuần tự (B1 → B2 → B3 thực hiện lần lượt); lặp đến khi điều kiện đúng (i > 10) ở B2; rẽ nhánh khuyết (\"Nếu … thì …\", không có nhánh còn lại) ở B2.1.",
+    "**b) (0,6đ) Bảng (i trước khi cộng → tong sau lần lặp):** i=1 → 1; i=2 → 1; i=3 → 4; i=4 → 4; i=5 → 9; i=6 → 9; i=7 → 16; i=8 → 16; i=9 → 25; i=10 → 25. Sau lần lặp thứ 10, i = 11 > 10 nên dừng.",
+    "- Kết quả **tong = 25** (tổng các số lẻ 1 + 3 + 5 + 7 + 9); lặp **10 lần**; nhánh \"đúng\" thực hiện 5 lần.",
+    "**c) (0,5đ):** dừng khi i > 7 (lặp 7 lần): tong = 1 + 3 + 5 + 7 = **16**.",
+    "- Phiên bản sửa: tongchan = 2 + 4 + 6 + 8 + 10 = **30**; tongle = 1 + 3 + 5 + 7 + 9 = **25**; đây là cấu trúc **rẽ nhánh đầy đủ** (có cả nhánh \"nếu không thì\").",
+    "Lưu ý hay nhầm: rẽ nhánh khuyết với đầy đủ; lặp có điều kiện kết thúc với lặp vô hạn."
+   ]
+  },
+  {
+   "q": "Câu 3 (1,5đ). [Tin 7 – Bài 7: Tính toán tự động trên bảng tính] Đề xuất phương pháp và kĩ thuật dạy học phù hợp cho nội dung \"Sao chép công thức\" (bảng diện tích rừng: D4 = B4 + C4, sao chép cho D5:D8; lớp 40 học sinh, phòng máy 20 máy). Nêu cách thực hiện, vì sao chọn và những lỗi thường gặp cần lưu ý.",
+   "a": [
+    "**Phương pháp (0,4đ):** dạy học nêu và giải quyết vấn đề (mở đầu: tính tổng số cây của các lớp, nhập phép tính được không?); dạy học hợp tác, thực hành trực quan trên máy (2 HS/máy).",
+    "**Kĩ thuật (0,5đ):**",
+    "- Think – Pair – Share: HS dự đoán công thức ở D5 khi sao chép từ D4 rồi trao đổi cặp đôi.",
+    "- Mảnh ghép hoặc khăn trải bàn: nhóm chuyên gia tìm hiểu 3 việc (gõ công thức bắt đầu bằng =, sao chép bằng Ctrl+C/Ctrl+V, quan sát công thức ô mới), rồi chia sẻ ở nhóm ghép.",
+    "- Tia chớp/giơ thẻ: kiểm tra nhanh E5 sau khi sao chép E4 = C4*D4 là gì (E5 = C5*D5).",
+    "**Vì sao chọn (0,3đ):** phòng máy ít máy nên làm cặp; hợp tác giúp HS yếu theo kịp; trực quan, tự quan sát địa chỉ tương đối đổi theo vị trí; phù hợp năng lực NLa, NLc và năng lực chung giao tiếp – hợp tác.",
+    "**Lỗi thường gặp (0,3đ):** quên dấu =; gõ số thay vì địa chỉ ô nên sửa ô gốc kết quả không tự cập nhật; nhầm dấu × với *; sao chép sai vùng đích."
+   ]
+  },
+  {
+   "q": "Câu 4 (1,0đ). [Tích hợp liên môn và năng lực AI – Tin 8 Bài 4] Một học sinh nộp bài thuyết trình \"An toàn trên mạng\" do chatbot viết toàn bộ, dán nguyên văn, không nêu nguồn và không khai báo. Em xử lí tình huống sư phạm này như thế nào để giáo dục đúng chuẩn mực số? Đề xuất 1 hoạt động tích hợp với môn Giáo dục công dân hoặc Ngữ văn.",
+   "a": [
+    "**Đối chiếu với 4 yêu cầu sản phẩm số (0,3đ):** vi phạm \"trung thực\" và \"tự tạo nội dung\"; chưa khai báo khi dùng AI.",
+    "**Cách xử lí (0,4đ):** trao đổi riêng, không công khai làm xấu hổ; yêu cầu HS đọc lại, kiểm chứng thông tin bằng nguồn tin cậy (SGK, trang chính thống); làm lại bằng lời của em, chỉ dùng AI để gợi ý và có câu khai báo; AI không chịu trách nhiệm, người dùng chịu trách nhiệm; nêu tiêu chí đánh giá rõ ràng cho lần sau.",
+    "**Tích hợp liên môn (0,3đ):** ví dụ phối hợp Giáo dục công dân (quyền tác giả, trung thực) hoặc Ngữ văn (viết đoạn văn thuyết phục về quy tắc ứng xử trên mạng); sản phẩm: áp phích/khẩu hiệu nhắc bạn dùng công nghệ số đúng chuẩn mực.",
+    "(Mã năng lực AI tham chiếu: 8.A3.3.)"
+   ]
+  }
+ ],
+ "p3": [
+  {
+   "q": "Tình huống (2,0đ). Cuối học kì, hiệu trưởng nhắn riêng cho thầy/cô, yêu cầu \"điều chỉnh điểm kiểm tra giữa kì\" của 6 học sinh lớp 8B lên mức Khá để lớp đạt danh hiệu thi đua, đồng thời nói \"việc này không ai biết, cứ làm theo chỉ đạo\". Thầy/cô là giáo viên dạy Tin học lớp 8B. Hãy nêu cách xử lí và căn cứ.",
+   "a": [
+    "**Nhận diện đúng (0,3đ):** sửa điểm để đạt thi đua là gian lận, làm sai lệch kết quả đánh giá người học – trái pháp luật.",
+    "**Căn cứ (0,6đ):**",
+    "- Luật Nhà giáo Điều 11 khoản 2 điểm b: nhà giáo không được gian lận, cố ý làm sai lệch kết quả trong tuyển sinh, đánh giá người học; Điều 9 khoản 2: bảo đảm liêm chính, đối xử công bằng với người học.",
+    "- TT 03/2026 Điều 5 khoản 3, 4: đánh giá đúng thực chất năng lực, không gian lận, làm sai lệch kết quả đánh giá.",
+    "- Luật Viên chức 2025 Điều 11 (quyền từ chối thực hiện công việc nếu cho rằng trái pháp luật – khoản 6) và Điều 8 khoản 2 (báo cáo người có thẩm quyền khi phát hiện vi phạm pháp luật trong đơn vị).",
+    "- TT 15/2026 Điều 22: đánh giá trung thực, khách quan, không gây áp lực cho học sinh, giáo viên.",
+    "**Cách ứng xử (0,7đ):** không thực hiện; trao đổi lại với hiệu trưởng một cách lễ phép, nêu rõ căn cứ, đề xuất giải pháp hợp lệ (ôn tập, kiểm tra lại cho học sinh có nhu cầu theo quy chế); lưu giữ tin nhắn; nếu vẫn bị ép, báo cáo bằng văn bản lên cấp quản lí trực tiếp (UBND cấp xã/Sở GDĐT) hoặc cơ quan có thẩm quyền; giữ nguyên bảng điểm đã lập.",
+    "**Vừa đúng quy tắc, vừa giữ đoàn kết (0,2đ):** TT 03/2026 Điều 7 – chấp hành phân công trong phạm vi chức năng, nhiệm vụ, nhưng được tham mưu và thể hiện chính kiến đúng kênh; không xúc phạm, không đăng lên mạng xã hội.",
+    "**Không được làm (0,2đ):** làm theo vì sợ bị trù dập; che giấu vi phạm (TT 03/2026 Điều 4 khoản 6 – không thờ ơ, né tránh, che giấu).",
+    "(Chế tài cụ thể đối với người ra lệnh gian lận: đối chiếu văn bản gốc.)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,631 @@
+{
+ "id": "T7-B16",
+ "ten": "Bài 16. Thuật toán sắp xếp",
+ "tomtat": [
+  "**Sắp xếp** dữ liệu là đưa các phần tử về một thứ tự nhất định: **tăng dần** (nhỏ đến lớn) hoặc **giảm dần** (lớn đến nhỏ).",
+  "Dữ liệu đã sắp xếp giúp **quản lí, theo dõi, so sánh và tìm kiếm nhanh** hơn (danh sách điểm, tên, chiều cao...).",
+  "**Hoán đổi** hai giá trị A, B cần **một chỗ chứa tạm** (như cốc C ở hình 16.1): C←A; A←B; B←C (3 bước).",
+  "**Sắp xếp nổi bọt**: duyệt dãy **từ cuối lên đầu**, so sánh **hai phần tử cạnh nhau**; nếu số sau **nhỏ hơn** số trước (xếp tăng dần) thì **hoán đổi**.",
+  "Mỗi lần duyệt hết dãy gọi là một **vòng lặp**; sau mỗi vòng, số nhỏ nhất của phần chưa sắp xếp được đưa lên đầu (như bọt khí nổi lên).",
+  "Nổi bọt **lặp lại các vòng cho đến khi không còn hoán đổi** nào thì dừng.",
+  "Ví dụ nổi bọt dãy 4, 2, 3, 1: vòng 1 → **1, 4, 2, 3**; vòng 2 → **1, 2, 4, 3**; vòng 3 → **1, 2, 3, 4**.",
+  "**Sắp xếp chọn** (theo SGK): xét **lần lượt từng vị trí từ đầu dãy**, so sánh với **các phần tử phía sau**; gặp phần tử nhỏ hơn thì **hoán đổi**.",
+  "Ví dụ sắp xếp chọn dãy 3, 4, 1, 5, 2: **1, 4, 3, 5, 2 → 1, 2, 4, 5, 3 → 1, 2, 3, 5, 4 → 1, 2, 3, 4, 5** (hình 16.5).",
+  "Hai thuật toán đều dựa trên bài toán nhỏ lặp lại: **so sánh – hoán đổi hai phần tử**.",
+  "**Chia bài toán thành những bài toán nhỏ hơn** giúp bài toán **dễ giải quyết hơn**; sắp xếp cả dãy là lặp lại bài toán nhỏ này."
+ ],
+ "ynho": [
+  "Sắp xếp: tăng dần hoặc giảm dần",
+  "Hoán đổi hai giá trị cần biến tạm",
+  "Nổi bọt: so cặp cạnh nhau, duyệt từ cuối lên",
+  "Chọn: cố định vị trí, so với các phần tử sau",
+  "Dừng khi không còn hoán đổi; luôn kiểm chứng kết quả AI"
+ ],
+ "bang": [
+  {
+   "tieu_de": "So sánh sắp xếp nổi bọt và sắp xếp chọn",
+   "cot": [
+    "Tiêu chí",
+    "Nổi bọt",
+    "Chọn"
+   ],
+   "dong": [
+    [
+     "Cách duyệt",
+     "Từ cuối dãy lên đầu",
+     "Từng vị trí từ đầu dãy"
+    ],
+    [
+     "So sánh",
+     "Hai phần tử cạnh nhau",
+     "Phần tử đang xét với các phần tử phía sau"
+    ],
+    [
+     "Hoán đổi khi",
+     "Số sau nhỏ hơn số trước",
+     "Phần tử sau nhỏ hơn phần tử đang xét"
+    ],
+    [
+     "Dừng khi",
+     "Một vòng không còn hoán đổi",
+     "Đã xét hết các vị trí"
+    ],
+    [
+     "Sau vòng 1 (3,5,4,1,2)",
+     "1, 3, 5, 4, 2",
+     "1, 5, 4, 3, 2"
+    ]
+   ]
+  },
+  {
+   "tieu_de": "Hoán đổi hai cốc A, B (hình 16.1)",
+   "cot": [
+    "Bước",
+    "Thao tác",
+    "Kết quả"
+   ],
+   "dong": [
+    [
+     "1",
+     "Đổ A sang C",
+     "A rỗng, C chứa chất lỏng của A"
+    ],
+    [
+     "2",
+     "Đổ B sang A",
+     "B rỗng, A chứa chất lỏng của B"
+    ],
+    [
+     "3",
+     "Đổ C sang B",
+     "B chứa chất lỏng ban đầu của A"
+    ]
+   ]
+  }
+ ],
+ "vidu": [
+  {
+   "tinh_huong": "Nổi bọt dãy 3, 5, 4, 1, 2 tăng dần (Hoạt động 1). Vòng 1 duyệt từ cuối: (1,2) giữ; (4,1) đổi; (5,1) đổi; (3,1) đổi → 1,3,5,4,2. Vòng 2: → 1,2,3,5,4. Vòng 3: → 1,2,3,4,5. Vòng 4: không đổi.",
+   "ket_luan": "→ Có 3 vòng có hoán đổi, vòng 4 xác nhận dừng; tổng 7 lần hoán đổi."
+  },
+  {
+   "tinh_huong": "Sắp xếp chọn dãy 3, 2, 4, 1, 5 (Luyện tập 2). Vị trí 1: đổi 3 với 2, rồi với 1 → 1,3,4,2,5. Vị trí 2: → 1,2,4,3,5. Vị trí 3: → 1,2,3,4,5. Vị trí 4: không đổi.",
+   "ket_luan": "→ Kết quả 1,2,3,4,5; các bước đã kiểm tra bằng mô phỏng."
+  },
+  {
+   "tinh_huong": "Trò chơi 'Xếp hàng': 5 HS cầm thẻ 41, 15, 17, 32, 18. Vị trí 1: 41 đổi với 15 → 15,41,17,32,18. Vị trí 2: 41 đổi 17 → 15,17,41,32,18. Vị trí 3: 41 đổi 32, rồi 32 đổi 18 → 15,17,18,41,32. Vị trí 4: → 15,17,18,32,41.",
+   "ket_luan": "→ Mỗi vị trí đặt đúng số nhỏ nhất của phần còn lại."
+  },
+  {
+   "tinh_huong": "Điểm Tin của tổ: An 7, Bình 9, Chi 6, Dũng 8, Hà 10. Xếp giảm dần bằng một thuật toán đã học.",
+   "ket_luan": "→ Hà 10, Bình 9, Dũng 8, An 7, Chi 6; dễ thấy bạn cao điểm nhất, thấp điểm nhất."
+  }
+ ],
+ "nho": [
+  "Nổi bọt = 'bọt' nổi từ đáy (cuối) lên mặt (đầu): duyệt cuối lên đầu.",
+  "Hoán đổi = 3 bước và 1 cốc phụ (C←A; A←B; B←C).",
+  "Cả hai: 'So sánh – Hoán đổi' lặp đến khi hết đổi.",
+  "Nổi bọt: cặp CẠNH nhau; Chọn: vị trí ĐANG XÉT với các số SAU."
+ ],
+ "bay": [
+  "Nổi bọt duyệt từ CUỐI dãy lên đầu, không phải từ đầu (HS hay nhầm).",
+  "Dừng khi một vòng không còn hoán đổi; không phải dừng sau vòng đầu hay khi số nhỏ nhất lên đầu.",
+  "Hoán đổi bằng A←B; B←A là sai vì mất giá trị cũ của A.",
+  "Kết quả AI có thể sai (ví dụ nói chỉ cần một vòng): phải tự mô phỏng để kiểm chứng."
+ ],
+ "giaoan": [
+  "**Mục tiêu** – Kiến thức: nêu được ý nghĩa của sắp xếp và thao tác hoán đổi; giải thích, mô phỏng được sắp xếp nổi bọt và sắp xếp chọn với dãy số nhỏ; nêu được ý nghĩa của chia bài toán thành bài toán nhỏ hơn; Năng lực: tự chủ và tự học, giao tiếp và hợp tác, giải quyết vấn đề (NLc mô phỏng thuật toán; NLd ứng dụng sắp xếp vào học tập); Phẩm chất: cẩn thận, chính xác, chăm chỉ, trách nhiệm trong nhóm.",
+  "**Chuẩn bị** – GV: kế hoạch bài dạy, máy chiếu, hình 16.1–16.5, thẻ số, phiếu học tập, máy tính có chatbot AI; HS: SGK Tin học 7, vở ghi, bút.",
+  "**Hoạt động 1 – Mở đầu** (7 phút): Mục tiêu: tạo tình huống dẫn vào thao tác hoán đổi. Nội dung: quan sát hình 16.1, nêu số bước đổi chất lỏng hai cốc A, B nhờ cốc C. Sản phẩm: 3 bước (A sang C; B sang A; C sang B). Tổ chức: (1) GV chiếu hình, nêu câu hỏi; (2) HS suy nghĩ, trao đổi cặp đôi; (3) 2 HS báo cáo, bạn khác bổ sung; (4) GV nhận xét, dẫn vào bài.",
+  "**Hoạt động 2 – Hình thành kiến thức** (38 phút): Mục tiêu: hiểu ý nghĩa sắp xếp, mô tả và mô phỏng nổi bọt, chọn, ý nghĩa chia bài toán nhỏ. Nội dung: mục 1 (hình 16.2–16.4, Hoạt động 1 dãy 3, 5, 4, 1, 2), mục 2 (hình 16.5, trò chơi Xếp hàng), mục 3. Sản phẩm: các bước và kết quả từng vòng lặp, bảng so sánh hai thuật toán, hộp Ghi nhớ. Tổ chức: (1) GV chia nhóm (mảnh ghép), giao nhiệm vụ từng vòng; (2) HS đọc SGK, so sánh từng cặp, ghi kết quả; (3) đại diện nhóm báo cáo, cặp đôi mô phỏng; (4) GV chốt thuật toán và điều kiện dừng.",
+  "**Hoạt động 3 – Luyện tập** (25 phút): Mục tiêu: củng cố hai thuật toán với dữ liệu mới. Nội dung: Luyện tập 1 (nổi bọt dãy 3, 2, 4, 1, 5), Luyện tập 2 (chọn cùng dãy), trắc nghiệm mục 2, 3. Sản phẩm: các vòng lặp đúng (1,3,2,4,5 → 1,2,3,4,5; 1,3,4,2,5 → 1,2,4,3,5 → 1,2,3,4,5). Tổ chức: (1) GV giao đề; (2) HS làm cá nhân; (3) 2 HS lên bảng, lớp đổi vở chấm chéo; (4) GV nhận xét, nhắc lỗi hay gặp.",
+  "**Hoạt động 4 – Vận dụng** (20 phút): Mục tiêu: vận dụng sắp xếp vào thực tế; kiểm chứng kết quả AI. Nội dung: sắp xếp giảm dần điểm Tin của tổ; GV hỏi chatbot, HS đối chiếu hình 16.2 và Hoạt động 1. Sản phẩm: danh sách đúng thứ tự; kết luận AI đúng/sai có minh chứng. Tổ chức: (1) GV nêu bài toán và câu lệnh mẫu; (2) HS làm cặp đôi; (3) trình bày, thảo luận hậu quả khi không kiểm chứng; (4) GV nhận xét, nhấn mạnh trung thực khi dùng AI.",
+  "**Kiểm tra đánh giá** – Quan sát tham gia nhóm; chấm sản phẩm mô phỏng các vòng lặp; hỏi đáp nhanh điều kiện dừng; câu trắc nghiệm mục 2, 3; rubric: đúng thứ tự từng vòng, giải thích được vì sao đổi chỗ, biết kiểm chứng kết quả AI."
+ ],
+ "ai": [
+  "GV dùng chatbot sinh nhiều dãy số để luyện tập và đáp án từng vòng, nhưng phải tự chạy lại thuật toán trước khi đưa vào lớp.",
+  "HS hỏi chatbot 'Sắp xếp nổi bọt dãy 3, 5, 4, 1, 2, cho biết kết quả sau vòng 1', so với kết quả đúng 1,3,5,4,2 để phát hiện AI sai (7.A1.2, 7.A1.MR1).",
+  "Đạo đức AI: khai báo khi dùng AI; không nộp nguyên kết quả AI chưa kiểm chứng; nêu hậu quả khi danh sách sắp xếp sai."
+ ],
+ "cauhoi": [
+  {
+   "t": "s",
+   "q": "Sắp xếp dãy số theo thứ tự tăng dần nghĩa là:",
+   "o": [
+    "Các số được xếp từ nhỏ đến lớn",
+    "Các số được xếp từ lớn đến nhỏ",
+    "Các số được xếp theo thứ tự nhập vào",
+    "Chỉ đưa số nhỏ nhất lên đầu dãy"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Tăng dần: từ nhỏ đến lớn; dễ nhầm với giảm dần.",
+   "r": "SGK Tin học 7 KNTT – Bài 16"
+  },
+  {
+   "t": "s",
+   "q": "Muốn hoán đổi giá trị của hai biến A và B, cách làm đúng là:",
+   "o": [
+    "A←B; B←A",
+    "Dùng thêm một biến tạm C: C←A; A←B; B←C",
+    "Chỉ cần gán A←B",
+    "C←A; B←C; A←B"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Nếu gán A←B rồi B←A thì cả hai đều mang giá trị cũ của B (mất giá trị A). Phương án chữ cuối sai thứ tự bước.",
+   "r": "SGK Tin học 7 KNTT – Bài 16"
+  },
+  {
+   "t": "s",
+   "q": "Trong thuật toán sắp xếp nổi bọt, việc duyệt dãy được bắt đầu từ:",
+   "o": [
+    "Đầu dãy, hướng xuống cuối dãy",
+    "Phần tử ở giữa dãy",
+    "Cuối dãy, hướng lên đầu dãy",
+    "Phần tử lớn nhất của dãy"
+   ],
+   "a": [
+    2
+   ],
+   "e": "SGK Tin 7 duyệt từ cuối lên đầu để số nhỏ 'nổi' lên đầu; HS hay duyệt từ đầu.",
+   "r": "SGK Tin học 7 KNTT – Bài 16"
+  },
+  {
+   "t": "s",
+   "q": "Sắp xếp nổi bọt dãy 4, 2, 3, 1 tăng dần. Sau vòng lặp thứ nhất, dãy là:",
+   "o": [
+    "2, 3, 1, 4",
+    "1, 2, 3, 4",
+    "2, 4, 3, 1",
+    "1, 4, 2, 3"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Duyệt từ cuối: (3,1) đổi → 4,2,1,3; (2,1) đổi → 4,1,2,3; (4,1) đổi → 1,4,2,3. Phương án 2,3,1,4 là kết quả khi duyệt từ đầu.",
+   "r": "SGK Tin học 7 KNTT – Bài 16"
+  },
+  {
+   "t": "s",
+   "q": "Sắp xếp nổi bọt dãy 3, 5, 4, 1, 2 tăng dần. Sau vòng lặp thứ hai, dãy là:",
+   "o": [
+    "1, 2, 3, 5, 4",
+    "1, 3, 5, 4, 2",
+    "1, 2, 3, 4, 5",
+    "1, 3, 2, 5, 4"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Vòng 1: 1,3,5,4,2; vòng 2: 1,2,3,5,4. Bẫy: nhầm kết quả vòng 1 hoặc cho rằng đã xong.",
+   "r": "SGK Tin học 7 KNTT – Bài 16"
+  },
+  {
+   "t": "s",
+   "q": "Sắp xếp nổi bọt dãy 3, 2, 4, 1, 5 tăng dần. Tổng số lần hoán đổi hai phần tử là:",
+   "o": [
+    "3",
+    "4",
+    "5",
+    "10"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Dãy có 4 cặp ngược thứ tự (3,2),(3,1),(2,1),(4,1) nên có 4 lần hoán đổi (đã mô phỏng kiểm tra). 10 là số lần so sánh mỗi vòng đầy đủ/ dãy giảm dần.",
+   "r": "SGK Tin học 7 KNTT – Bài 16"
+  },
+  {
+   "t": "s",
+   "q": "Thuật toán sắp xếp nổi bọt dừng lại khi:",
+   "o": [
+    "Đã duyệt xong vòng đầu tiên",
+    "Số nhỏ nhất đã lên đầu dãy",
+    "Trong một vòng lặp không còn phải hoán đổi cặp nào",
+    "Số lớn nhất đã xuống cuối dãy"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Điều kiện dừng là một vòng không còn hoán đổi; chỉ một vòng đầu tiên thường chưa đủ.",
+   "r": "SGK Tin học 7 KNTT – Bài 16"
+  },
+  {
+   "t": "s",
+   "q": "Với dãy 3, 4, 1, 5, 2 (sắp xếp chọn tăng dần theo SGK), sau khi xử lí vị trí đầu tiên dãy là:",
+   "o": [
+    "1, 3, 4, 5, 2",
+    "1, 2, 3, 4, 5",
+    "3, 4, 1, 2, 5",
+    "1, 4, 3, 5, 2"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Vị trí 1 (số 3): so với 4 giữ nguyên; với 1 đổi → 1,4,3,5,2 (khớp hình 16.5); số 5, 2 không nhỏ hơn 1.",
+   "r": "SGK Tin học 7 KNTT – Bài 16"
+  },
+  {
+   "t": "s",
+   "q": "Điểm khác chính của sắp xếp chọn so với sắp xếp nổi bọt là:",
+   "o": [
+    "Cố định từng vị trí từ đầu dãy, so sánh với các phần tử phía sau",
+    "Chỉ so sánh các cặp cạnh nhau từ cuối dãy",
+    "Không dùng thao tác so sánh",
+    "Không dùng thao tác hoán đổi"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Chọn: xét vị trí đang xét với các phần tử sau; nổi bọt: so cặp cạnh nhau. Cả hai đều so sánh và hoán đổi.",
+   "r": "SGK Tin học 7 KNTT – Bài 16"
+  },
+  {
+   "t": "s",
+   "q": "Thao tác cơ bản được lặp lại trong các thuật toán sắp xếp ở bài là:",
+   "o": [
+    "Tìm kiếm nhị phân và chia đôi dãy",
+    "So sánh và hoán đổi hai phần tử",
+    "Nhân và chia hai phần tử",
+    "Sao chép và xoá phần tử"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Sắp xếp được chia thành bài toán nhỏ: so sánh – hoán đổi hai phần tử.",
+   "r": "SGK Tin học 7 KNTT – Bài 16"
+  },
+  {
+   "t": "s",
+   "q": "Việc chia bài toán sắp xếp thành những bài toán nhỏ hơn giúp:",
+   "o": [
+    "Dãy không cần phải so sánh nữa",
+    "Luôn chỉ cần một vòng lặp",
+    "Bài toán dễ giải quyết hơn",
+    "Kết quả không cần kiểm tra"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Ý nghĩa SGK: dễ giải quyết hơn; không làm bỏ qua việc kiểm tra kết quả.",
+   "r": "SGK Tin học 7 KNTT – Bài 16"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các phát biểu ĐÚNG về sắp xếp nổi bọt:",
+   "o": [
+    "So sánh hai số cạnh nhau",
+    "Nếu số sau nhỏ hơn số trước (xếp tăng dần) thì hoán đổi",
+    "Chỉ cần đúng một vòng lặp cho mọi dãy",
+    "Duyệt từ đầu dãy theo SGK"
+   ],
+   "a": [
+    0,
+    1
+   ],
+   "e": "Thuật toán lặp đến khi không còn hoán đổi, nên không phải mọi dãy chỉ một vòng; SGK duyệt từ cuối dãy.",
+   "r": "SGK Tin học 7 KNTT – Bài 16"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các lợi ích của dữ liệu đã được sắp xếp:",
+   "o": [
+    "Tìm kiếm thông tin nhanh hơn",
+    "Dễ quản lí, theo dõi, so sánh",
+    "Dữ liệu luôn đúng tuyệt đối",
+    "Giảm số phần tử của dãy"
+   ],
+   "a": [
+    0,
+    1
+   ],
+   "e": "Sắp xếp chỉ thay đổi thứ tự, không làm dữ liệu đúng hơn và không giảm số phần tử.",
+   "r": "SGK Tin học 7 KNTT – Bài 16"
+  },
+  {
+   "t": "m",
+   "q": "Những dãy nào sau khi sắp xếp nổi bọt tăng dần chỉ cần đúng 1 lần hoán đổi?",
+   "o": [
+    "2, 1, 3, 4, 5",
+    "1, 2, 4, 3, 5",
+    "5, 4, 3, 2, 1",
+    "1, 3, 2, 4, 5"
+   ],
+   "a": [
+    0,
+    1,
+    3
+   ],
+   "e": "Mỗi dãy a, b, d chỉ có đúng 1 cặp ngược thứ tự; dãy 5,4,3,2,1 cần 10 lần hoán đổi.",
+   "r": "SGK Tin học 7 KNTT – Bài 16"
+  },
+  {
+   "t": "m",
+   "q": "Khi dùng chatbot AI để mô phỏng thuật toán sắp xếp, HS nên:",
+   "o": [
+    "Tự mô phỏng từng vòng để đối chiếu",
+    "Đối chiếu với SGK/giáo viên",
+    "Tin ngay vì AI luôn đúng",
+    "Không cần xem lại các bước trung gian"
+   ],
+   "a": [
+    0,
+    1
+   ],
+   "e": "Kết quả AI có thể sai (ví dụ nói chỉ cần một vòng) nên phải kiểm chứng.",
+   "r": "SGK Tin học 7 KNTT – Bài 16"
+  },
+  {
+   "t": "f",
+   "q": "Trong sắp xếp nổi bọt tăng dần, nếu số ____ nhỏ hơn số ____ thì hai số được hoán đổi.",
+   "a": [
+    [
+     "sau",
+     "đứng sau"
+    ],
+    [
+     "trước",
+     "đứng trước"
+    ]
+   ],
+   "o": [
+    [
+     "trước",
+     "sau"
+    ],
+    [
+     "đầu",
+     "cuối"
+    ],
+    [
+     "nhỏ nhất",
+     "lớn nhất"
+    ],
+    [
+     "sau",
+     "trước"
+    ]
+   ],
+   "k": 3,
+   "e": "Duyệt từ cuối lên: số đứng sau mà nhỏ hơn số đứng trước thì đổi (đổi thứ tự là bẫy).",
+   "r": "SGK Tin học 7 KNTT – Bài 16"
+  },
+  {
+   "t": "f",
+   "q": "Thuật toán sắp xếp nổi bọt duyệt dãy từ ____ lên ____ và lặp đến khi ____ hoán đổi.",
+   "a": [
+    [
+     "cuối"
+    ],
+    [
+     "đầu"
+    ],
+    [
+     "không còn"
+    ]
+   ],
+   "o": [
+    [
+     "cuối",
+     "đầu",
+     "không còn"
+    ],
+    [
+     "đầu",
+     "cuối",
+     "không còn"
+    ],
+    [
+     "cuối",
+     "đầu",
+     "còn"
+    ],
+    [
+     "giữa",
+     "đầu",
+     "không còn"
+    ]
+   ],
+   "k": 0,
+   "e": "Dừng khi không còn hoán đổi; duyệt từ cuối lên đầu.",
+   "r": "SGK Tin học 7 KNTT – Bài 16"
+  },
+  {
+   "t": "f",
+   "q": "Hoán đổi hai biến A, B cần thêm biến ____ : lưu A vào ____, gán B cho A, rồi gán ____ cho B.",
+   "a": [
+    [
+     "C",
+     "tạm"
+    ],
+    [
+     "C",
+     "tạm"
+    ],
+    [
+     "C",
+     "tạm"
+    ]
+   ],
+   "o": [
+    [
+     "C",
+     "C",
+     "A"
+    ],
+    [
+     "C",
+     "C",
+     "C"
+    ],
+    [
+     "A",
+     "A",
+     "C"
+    ],
+    [
+     "B",
+     "C",
+     "B"
+    ]
+   ],
+   "k": 1,
+   "e": "Biến tạm C giữ giá trị A: C←A; A←B; B←C.",
+   "r": "SGK Tin học 7 KNTT – Bài 16"
+  },
+  {
+   "t": "f",
+   "q": "Sắp xếp ____ xét từng vị trí từ ____ dãy, so sánh với các phần tử ____ và hoán đổi nếu phần tử đó nhỏ hơn.",
+   "a": [
+    [
+     "chọn"
+    ],
+    [
+     "đầu"
+    ],
+    [
+     "phía sau",
+     "sau"
+    ]
+   ],
+   "o": [
+    [
+     "nổi bọt",
+     "đầu",
+     "phía sau"
+    ],
+    [
+     "chọn",
+     "cuối",
+     "phía sau"
+    ],
+    [
+     "chọn",
+     "đầu",
+     "phía sau"
+    ],
+    [
+     "chọn",
+     "đầu",
+     "phía trước"
+    ]
+   ],
+   "k": 2,
+   "e": "Sắp xếp chọn: từ đầu dãy, so với phần tử phía sau.",
+   "r": "SGK Tin học 7 KNTT – Bài 16"
+  },
+  {
+   "t": "f",
+   "q": "Sắp xếp dãy 4, 2, 3, 1 bằng nổi bọt: vòng 1 được ____, vòng 2 được ____, vòng 3 được ____.",
+   "a": [
+    [
+     "1, 4, 2, 3"
+    ],
+    [
+     "1, 2, 4, 3"
+    ],
+    [
+     "1, 2, 3, 4"
+    ]
+   ],
+   "o": [
+    [
+     "2, 3, 1, 4",
+     "2, 1, 3, 4",
+     "1, 2, 3, 4"
+    ],
+    [
+     "1, 4, 2, 3",
+     "1, 2, 3, 4",
+     "1, 2, 3, 4"
+    ],
+    [
+     "1, 4, 3, 2",
+     "1, 2, 4, 3",
+     "1, 3, 2, 4"
+    ],
+    [
+     "1, 4, 2, 3",
+     "1, 2, 4, 3",
+     "1, 2, 3, 4"
+    ]
+   ],
+   "k": 3,
+   "e": "Đã mô phỏng bằng chương trình: 1,4,2,3 → 1,2,4,3 → 1,2,3,4.",
+   "r": "SGK Tin học 7 KNTT – Bài 16"
+  },
+  {
+   "t": "f",
+   "q": "Sắp xếp là bài toán ____ thành bài toán nhỏ hơn là ____ hai phần tử; việc này làm bài toán ____ giải quyết hơn.",
+   "a": [
+    [
+     "chia"
+    ],
+    [
+     "so sánh – hoán đổi",
+     "so sánh và hoán đổi"
+    ],
+    [
+     "dễ"
+    ]
+   ],
+   "o": [
+    [
+     "chia",
+     "so sánh – hoán đổi",
+     "dễ"
+    ],
+    [
+     "gộp",
+     "so sánh – hoán đổi",
+     "dễ"
+    ],
+    [
+     "chia",
+     "nhân – chia",
+     "dễ"
+    ],
+    [
+     "chia",
+     "so sánh – hoán đổi",
+     "khó"
+    ]
+   ],
+   "k": 0,
+   "e": "Chia nhỏ để dễ giải quyết hơn.",
+   "r": "SGK Tin học 7 KNTT – Bài 16"
+  }
+ ],
+ "tuluan": [
+  {
+   "q": "Câu 1 (3 điểm). Mô phỏng sắp xếp nổi bọt dãy 3, 5, 4, 1, 2 theo thứ tự tăng dần và nêu điều kiện dừng của thuật toán.",
+   "a": [
+    "Duyệt từ cuối dãy lên đầu, so sánh hai số cạnh nhau, số sau nhỏ hơn số trước thì hoán đổi.",
+    "Vòng 1: (4,1) đổi, (5,1) đổi, (3,1) đổi → 1,3,5,4,2.",
+    "Vòng 2: → 1,2,3,5,4. Vòng 3: → 1,2,3,4,5 (tổng 7 lần hoán đổi).",
+    "Vòng 4: không có hoán đổi nào → dừng. Điều kiện dừng: một vòng lặp không còn phải hoán đổi."
+   ]
+  },
+  {
+   "q": "Câu 2 (3 điểm). Nêu mục tiêu bài 'Thuật toán sắp xếp' (Tin học 7) theo chương trình 2018, và thiết kế một hoạt động luyện tập.",
+   "a": [
+    "Kiến thức: nêu ý nghĩa sắp xếp và hoán đổi; giải thích, mô phỏng sắp xếp nổi bọt và chọn với dãy nhỏ; nêu ý nghĩa chia bài toán thành bài toán nhỏ.",
+    "Năng lực chung: tự chủ và tự học, giao tiếp và hợp tác, giải quyết vấn đề; năng lực tin học: NLc, NLd; phẩm chất: cẩn thận, chính xác, trách nhiệm.",
+    "Hoạt động luyện tập: mục tiêu củng cố hai thuật toán; nội dung: nổi bọt và chọn dãy 3, 2, 4, 1, 5; sản phẩm: các vòng lặp đúng.",
+    "Tổ chức 4 bước: giao nhiệm vụ; HS làm cá nhân; báo cáo, chấm chéo; GV nhận xét, chốt lỗi hay gặp."
+   ]
+  },
+  {
+   "q": "Câu 3 (4 điểm). Em sẽ làm gì để HS kiểm chứng kết quả khi dùng chatbot AI mô phỏng thuật toán sắp xếp? Nêu hậu quả khi tin ngay kết quả AI.",
+   "a": [
+    "Cho HS hỏi chatbot một dãy cụ thể (ví dụ 3, 5, 4, 1, 2) và yêu cầu liệt kê kết quả từng vòng.",
+    "HS tự mô phỏng theo SGK (hình 16.2, Hoạt động 1), đối chiếu: vòng 1 đúng là 1,3,5,4,2; chatbot nói chỉ một vòng là sai.",
+    "Thảo luận: vì sao AI có thể sai, cách đối chiếu SGK/giáo viên/bạn học.",
+    "Hậu quả: danh sách sai thứ tự, tìm kiếm nhầm, kết luận sai; cần khai báo trung thực khi dùng AI."
+   ]
+  }
+ ]
+}

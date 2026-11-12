@@ -1,0 +1,568 @@
+{
+ "id": "T8-B04",
+ "ten": "Bài 4. Đạo đức và văn hoá trong sử dụng công nghệ kĩ thuật số",
+ "tomtat": [
+  "Khi dùng công nghệ số, em có thể mắc các **biểu hiện vi phạm** thuộc 3 nhóm: **vi phạm pháp luật, bản quyền**; **vi phạm đạo đức, quyền riêng tư**; **thiếu văn hoá**.",
+  "**Pháp luật, bản quyền**: tải, phát tán nhạc, phim **lậu**; dùng phần mềm **bẻ khoá** (crack).",
+  "**Đạo đức, quyền riêng tư**: **ghi âm trái phép**; đăng thông tin, hình ảnh của người khác khi chưa được phép.",
+  "**Thiếu văn hoá**: quay phim, chụp ảnh ở nơi cấm (ví dụ **trong rạp chiếu phim**).",
+  "**3 điều lưu ý**: (1) **tìm hiểu quy định** liên quan; (2) **chỉ sử dụng sản phẩm khi được phép**; (3) **hầu hết thông tin trên Internet có bản quyền**.",
+  "Sản phẩm số em tạo ra cần đáp ứng **4 yêu cầu**: **trung thực**; **tự tạo nội dung**; **có đạo đức, văn hoá**; **không vi phạm pháp luật**.",
+  "Khi dùng sản phẩm của người khác (ảnh, bài viết...) phải **xin phép** và **ghi tên tác giả/nguồn**; sửa ảnh người khác rồi đăng như của mình là **thiếu trung thực**.",
+  "Tình huống mở đầu An – Khoa: cách đúng là **xin phép Khoa và ghi tên tác giả**.",
+  "Khi dùng **AI**, cần **kiểm chứng** câu trả lời bằng nguồn tin cậy (như SGK) và **khai báo** có dùng AI.",
+  "AI có thể sai, thiếu cơ sở; **người dùng chịu trách nhiệm** về nội dung mình sử dụng (**trách nhiệm giải trình**, NL 8.A3.3)."
+ ],
+ "ynho": [
+  "3 nhóm vi phạm: pháp luật, đạo đức, thiếu văn hoá",
+  "3 lưu ý: tìm hiểu quy định – xin phép – thông tin mạng có bản quyền",
+  "4 yêu cầu: trung thực, tự tạo, đạo đức văn hoá, đúng pháp luật",
+  "Dùng của người khác: xin phép, ghi nguồn",
+  "Dùng AI: kiểm chứng và khai báo; người dùng chịu trách nhiệm"
+ ],
+ "bang": [
+  {
+   "tieu_de": "Phân loại biểu hiện vi phạm",
+   "cot": [
+    "Nhóm",
+    "Ví dụ",
+    "Dấu hiệu"
+   ],
+   "dong": [
+    [
+     "Pháp luật, bản quyền",
+     "Tải nhạc, phim lậu; dùng phần mềm bẻ khoá",
+     "Dùng sản phẩm không được phép"
+    ],
+    [
+     "Đạo đức, quyền riêng tư",
+     "Ghi âm trái phép; đăng thông tin người khác",
+     "Xâm phạm đời tư người khác"
+    ],
+    [
+     "Thiếu văn hoá",
+     "Quay phim trong rạp; chụp ảnh nơi cấm",
+     "Ứng xử thiếu lịch sự nơi công cộng"
+    ]
+   ]
+  },
+  {
+   "tieu_de": "Dùng sản phẩm số của người khác",
+   "cot": [
+    "Cách làm",
+    "Đánh giá"
+   ],
+   "dong": [
+    [
+     "Xin phép + ghi tên tác giả",
+     "Đúng, trung thực"
+    ],
+    [
+     "Sửa rồi đăng như của mình",
+     "Sai, thiếu trung thực"
+    ],
+    [
+     "Dùng khi chưa được phép",
+     "Có thể vi phạm pháp luật"
+    ]
+   ]
+  }
+ ],
+ "vidu": [
+  {
+   "tinh_huong": "An chụp lại ảnh của Khoa, chỉnh màu rồi đăng lên trang lớp mà không nói gì. Khoa phản đối.",
+   "ket_luan": "→ An thiếu trung thực, thiếu tôn trọng; cần xin phép và ghi tên Khoa."
+  },
+  {
+   "tinh_huong": "Em muốn xem phim mới, thấy trang web chiếu phim miễn phí không rõ nguồn.",
+   "ket_luan": "→ Có thể là phim lậu (vi phạm bản quyền); nên xem nguồn hợp pháp."
+  },
+  {
+   "tinh_huong": "Bạn quay lén video ở rạp chiếu phim để đăng mạng.",
+   "ket_luan": "→ Thiếu văn hoá và có thể vi phạm pháp luật; không nên làm."
+  },
+  {
+   "tinh_huong": "HS hỏi chatbot về một khái niệm, chép nguyên văn vào bài mà không kiểm tra.",
+   "ket_luan": "→ Chưa có trách nhiệm giải trình: cần đối chiếu SGK, khai báo có dùng AI."
+  }
+ ],
+ "nho": [
+  "Nhóm vi phạm: PL – ĐĐ – VH (Pháp luật, Đạo đức, Văn hoá).",
+  "3 lưu ý: Hiểu – Hỏi phép – Hãy nhớ có bản quyền.",
+  "4 yêu cầu: Thật – Tự – Tử tế – Tuân luật.",
+  "Dùng của người: Xin – Ghi."
+ ],
+ "bay": [
+  "Lẫn 'thiếu văn hoá' với 'vi phạm pháp luật': quay phim trong rạp thuộc nhóm thiếu văn hoá.",
+  "Nghĩ thông tin trên mạng miễn phí là dùng tự do: thực tế hầu hết có bản quyền.",
+  "Sửa ảnh người khác vẫn phải xin phép và ghi nguồn.",
+  "Cho rằng AI chịu trách nhiệm: người dùng mới chịu trách nhiệm."
+ ],
+ "giaoan": [
+  "**Mục tiêu** – Kiến thức: nêu được biểu hiện vi phạm đạo đức, pháp luật, thiếu văn hoá; 3 điều lưu ý; 4 yêu cầu sản phẩm số; Năng lực: tự chủ, tự học; giao tiếp, hợp tác; NLb nhận diện tình huống không phù hợp, NLd tạo sản phẩm số trung thực, ghi nguồn; NLS 2.5.TC2.a, 3.3.TC2.a, 4.2.TC2.b; NL AI 8.A3.3; Phẩm chất: trách nhiệm, trung thực, tôn trọng pháp luật, bản quyền.",
+  "**Chuẩn bị** – GV: kế hoạch bài dạy, máy chiếu, hình 4.1–4.3, phiếu học tập; HS: SGK, vở, đọc trước bài.",
+  "**Hoạt động 1 – Mở đầu** (5 phút): Mục tiêu: nhận ra phải xin phép, ghi tên tác giả. Nội dung: tình huống An – Khoa. Sản phẩm: chọn cách xin phép, ghi tên. Tổ chức: (1) GV chiếu tình huống; (2) HS suy nghĩ, chia sẻ cặp đôi; (3) 2 HS báo cáo; (4) GV kết luận, dẫn vào bài.",
+  "**Hoạt động 2 – Hình thành kiến thức** (20 phút): Mục tiêu: nêu biểu hiện vi phạm, 3 lưu ý, 4 yêu cầu. Nội dung: 2.1 biểu hiện vi phạm; 2.2 trung thực khi tạo sản phẩm số. Sản phẩm: bảng 3 nhóm vi phạm, 3 lưu ý, 4 yêu cầu. Tổ chức: (1) GV giao nhiệm vụ nhóm (khăn trải bàn); (2) HS đọc SGK, thảo luận điền phiếu; (3) nhóm báo cáo, lớp bổ sung; (4) GV nhận xét, chốt.",
+  "**Hoạt động 3 – Luyện tập** (10 phút): Mục tiêu: phân biệt hành động vi phạm hay không. Nội dung: 6 hành động a–f (SGK), giơ thẻ; GV hỏi chatbot về web phim không bản quyền để HS đối chiếu SGK. Sản phẩm: xác định đúng a, c, e, f vi phạm; b, d không; nhận xét độ tin cậy của AI. Tổ chức: (1) GV nêu luật chơi; (2) HS giơ thẻ, giải thích; (3) thảo luận; (4) GV chốt, nhấn mạnh kiểm chứng, khai báo AI.",
+  "**Hoạt động 4 – Vận dụng** (10 phút): Mục tiêu: thiết kế sản phẩm số có đạo đức, văn hoá. Nội dung: phác thảo khẩu hiệu/áp phích nhắc bạn dùng công nghệ số đúng chuẩn mực, ghi dòng khai báo AI. Sản phẩm: khẩu hiệu đúng chuẩn mực. Tổ chức: (1) GV giao việc; (2) HS phác thảo, tự kiểm tra theo 4 yêu cầu; (3) trình bày 1 phút; (4) GV nhận xét, dặn hoàn thiện ở nhà.",
+  "**Kiểm tra đánh giá** – Quan sát tham gia nhóm; phiếu học tập; hỏi đáp, giơ thẻ; sản phẩm khẩu hiệu/áp phích theo tiêu chí 4 yêu cầu; câu hỏi trắc nghiệm ngắn."
+ ],
+ "ai": [
+  "GV dùng chatbot hỏi về web phim không bản quyền để HS đối chiếu SGK, thảo luận độ tin cậy (NL 8.A3.3).",
+  "HS kiểm chứng câu trả lời của AI bằng SGK/nguồn tin cậy, không chép nguyên văn.",
+  "Đạo đức AI: ghi dòng khai báo 'có/không dùng AI, ở phần nào'; người dùng chịu trách nhiệm."
+ ],
+ "cauhoi": [
+  {
+   "t": "s",
+   "q": "Hành động nào sau đây là biểu hiện vi phạm pháp luật, bản quyền khi dùng công nghệ số?",
+   "o": [
+    "Tải phim, nhạc lậu về máy và chia sẻ cho bạn bè",
+    "Xin phép bạn rồi đăng ảnh của bạn lên mạng",
+    "Ghi rõ nguồn khi trích dẫn thông tin",
+    "Dùng phần mềm có giấy phép hợp lệ"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Tải, phát tán nhạc, phim lậu là vi phạm bản quyền (pháp luật).",
+   "r": "SGK Tin học 8 KNTT – Bài 4"
+  },
+  {
+   "t": "s",
+   "q": "Quay phim, chụp ảnh ở nơi có biển cấm (ví dụ trong rạp chiếu phim) chủ yếu là biểu hiện của hành vi nào?",
+   "o": [
+    "Hoàn toàn đúng chuẩn mực",
+    "Thiếu văn hoá (và có thể vi phạm quy định)",
+    "Chỉ là lỗi kĩ thuật của thiết bị",
+    "Việc làm bắt buộc khi dùng công nghệ số"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Bẫy: HS hay lẫn thiếu văn hoá với vi phạm pháp luật; SGK xếp quay phim trong rạp vào nhóm thiếu văn hoá.",
+   "r": "SGK Tin học 8 KNTT – Bài 4"
+  },
+  {
+   "t": "s",
+   "q": "Theo SGK, hầu hết thông tin trên Internet như thế nào?",
+   "o": [
+    "Không có bản quyền, ai cũng được dùng tự do",
+    "Chỉ có ảnh mới có bản quyền",
+    "Có bản quyền, muốn dùng phải được phép",
+    "Chỉ có thông tin trả phí mới có bản quyền"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Đây là điều lưu ý thứ 3. Bẫy: nghĩ thông tin miễn phí trên mạng là tự do sử dụng.",
+   "r": "SGK Tin học 8 KNTT – Bài 4"
+  },
+  {
+   "t": "s",
+   "q": "Ghi âm cuộc trò chuyện của người khác mà không được họ đồng ý là hành vi vi phạm điều gì?",
+   "o": [
+    "Quy tắc đặt tên tệp",
+    "Giới hạn dung lượng bộ nhớ",
+    "Quy định về phần cứng",
+    "Đạo đức và quyền riêng tư của người khác"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Ghi âm trái phép xâm phạm quyền riêng tư, vi phạm đạo đức.",
+   "r": "SGK Tin học 8 KNTT – Bài 4"
+  },
+  {
+   "t": "s",
+   "q": "Việc dùng phần mềm bẻ khoá (crack) để dùng miễn phí phần mềm có bản quyền là gì?",
+   "o": [
+    "Hành động tiết kiệm được khuyến khích",
+    "Vi phạm bản quyền, vi phạm pháp luật",
+    "Hành vi chỉ thiếu văn hoá, không liên quan pháp luật",
+    "Cách sử dụng phần mềm hợp lệ"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Bẻ khoá là vi phạm bản quyền. Bẫy: chỉ coi là 'thiếu văn hoá'.",
+   "r": "SGK Tin học 8 KNTT – Bài 4"
+  },
+  {
+   "t": "s",
+   "q": "Điều lưu ý nào sau đây KHÔNG nằm trong 3 điều lưu ý để tránh vi phạm khi dùng công nghệ số?",
+   "o": [
+    "Tìm hiểu các quy định liên quan",
+    "Chỉ sử dụng sản phẩm khi được phép",
+    "Cứ dùng trước, bị nhắc nhở thì xin phép sau",
+    "Nhớ hầu hết thông tin trên Internet có bản quyền"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Phải xin phép TRƯỚC khi sử dụng, không phải sau.",
+   "r": "SGK Tin học 8 KNTT – Bài 4"
+  },
+  {
+   "t": "s",
+   "q": "Khi dùng ảnh do bạn chụp để làm bài trình chiếu, em nên làm gì để đúng chuẩn mực?",
+   "o": [
+    "Xoá tên bạn, ghi tên mình",
+    "Chỉ cần sửa nhẹ ảnh là thành của mình",
+    "Không cần làm gì vì ảnh trên máy em",
+    "Xin phép bạn và ghi tên tác giả"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Sửa ảnh người khác vẫn phải xin phép và ghi nguồn (tình huống An – Khoa).",
+   "r": "SGK Tin học 8 KNTT – Bài 4"
+  },
+  {
+   "t": "s",
+   "q": "Yêu cầu nào KHÔNG thuộc 4 yêu cầu đối với sản phẩm số trung thực, có đạo đức, văn hoá?",
+   "o": [
+    "Sản phẩm phải càng giống sản phẩm người khác càng tốt",
+    "Trung thực",
+    "Tự tạo nội dung",
+    "Không vi phạm pháp luật"
+   ],
+   "a": [
+    0
+   ],
+   "e": "4 yêu cầu: trung thực; tự tạo; có đạo đức, văn hoá; không vi phạm pháp luật.",
+   "r": "SGK Tin học 8 KNTT – Bài 4"
+  },
+  {
+   "t": "s",
+   "q": "Khi dùng chatbot AI để tìm hiểu thông tin, người dùng cần làm gì?",
+   "o": [
+    "Tin hoàn toàn vì AI luôn đúng",
+    "Kiểm chứng bằng nguồn tin cậy và khai báo có dùng AI",
+    "Xoá dấu vết dùng AI để không bị nghi ngờ",
+    "Chuyển trách nhiệm cho AI nếu sai"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Năng lực 8.A3.3: trách nhiệm giải trình – kiểm tra độ chính xác và khai báo.",
+   "r": "SGK Tin học 8 KNTT – Bài 4"
+  },
+  {
+   "t": "s",
+   "q": "Nếu nội dung do AI tạo ra có sai sót và em đã nộp bài, ai chịu trách nhiệm?",
+   "o": [
+    "Người sử dụng (em)",
+    "Chatbot AI",
+    "Nhà sản xuất máy tính",
+    "Không ai phải chịu trách nhiệm"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Bẫy: AI không chịu trách nhiệm; người dùng chịu trách nhiệm.",
+   "r": "SGK Tin học 8 KNTT – Bài 4"
+  },
+  {
+   "t": "m",
+   "q": "Những hành động nào sau đây là biểu hiện vi phạm khi dùng công nghệ số?",
+   "o": [
+    "Xin phép tác giả trước khi dùng ảnh",
+    "Tải phim lậu về xem",
+    "Trích dẫn đoạn văn và ghi rõ nguồn",
+    "Đăng thông tin cá nhân của bạn khi chưa được phép"
+   ],
+   "a": [
+    1,
+    3
+   ],
+   "e": "Tải phim lậu vi phạm bản quyền; đăng thông tin người khác vi phạm quyền riêng tư. Xin phép, ghi nguồn là đúng.",
+   "r": "SGK Tin học 8 KNTT – Bài 4"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các yêu cầu đúng đối với sản phẩm số mà em tạo ra:",
+   "o": [
+    "Trung thực",
+    "Có thể sao chép nguyên bản của người khác nếu ghi tên mình",
+    "Không vi phạm pháp luật",
+    "Có đạo đức, văn hoá"
+   ],
+   "a": [
+    0,
+    2,
+    3
+   ],
+   "e": "Sao chép của người khác rồi ghi tên mình là thiếu trung thực.",
+   "r": "SGK Tin học 8 KNTT – Bài 4"
+  },
+  {
+   "t": "m",
+   "q": "Những việc nào cho thấy HS thể hiện trách nhiệm giải trình khi dùng AI?",
+   "o": [
+    "Ghi rõ có dùng AI ở phần nào của bài",
+    "Sao chép nguyên văn câu trả lời của AI và nói là tự làm",
+    "Đối chiếu câu trả lời của AI với SGK",
+    "Không kiểm tra vì AI rất thông minh"
+   ],
+   "a": [
+    0,
+    2
+   ],
+   "e": "Kiểm chứng và khai báo là hai việc cần làm.",
+   "r": "SGK Tin học 8 KNTT – Bài 4"
+  },
+  {
+   "t": "m",
+   "q": "Hành động nào sau đây xâm phạm quyền riêng tư của người khác?",
+   "o": [
+    "Chia sẻ lại tin cá nhân của người khác",
+    "Đăng ảnh, thông tin cá nhân của bạn lên mạng khi chưa xin phép",
+    "Tự đặt mật khẩu cho tài khoản của mình",
+    "Ghi âm cuộc nói chuyện khi chưa được đồng ý"
+   ],
+   "a": [
+    0,
+    1,
+    3
+   ],
+   "e": "Đặt mật khẩu cho tài khoản mình là bảo vệ bản thân.",
+   "r": "SGK Tin học 8 KNTT – Bài 4"
+  },
+  {
+   "t": "f",
+   "q": "3 điều lưu ý: tìm hiểu ____; chỉ sử dụng sản phẩm khi được ____; hầu hết thông tin trên Internet có ____.",
+   "a": [
+    [
+     "quy định"
+    ],
+    [
+     "phép"
+    ],
+    [
+     "bản quyền"
+    ]
+   ],
+   "o": [
+    [
+     "quy định",
+     "phép",
+     "bản quyền"
+    ],
+    [
+     "quy định",
+     "phép",
+     "miễn phí"
+    ],
+    [
+     "mật khẩu",
+     "phép",
+     "bản quyền"
+    ],
+    [
+     "quy định",
+     "tải về",
+     "bản quyền"
+    ]
+   ],
+   "k": 0,
+   "e": "Bẫy: thông tin trên mạng 'có bản quyền' chứ không phải 'miễn phí'.",
+   "r": "SGK Tin học 8 KNTT – Bài 4"
+  },
+  {
+   "t": "f",
+   "q": "Tải phim, nhạc lậu là vi phạm ____; quay phim trong rạp chiếu là hành vi thiếu ____.",
+   "a": [
+    [
+     "pháp luật"
+    ],
+    [
+     "văn hoá"
+    ]
+   ],
+   "o": [
+    [
+     "văn hoá",
+     "pháp luật"
+    ],
+    [
+     "đạo đức",
+     "kĩ thuật"
+    ],
+    [
+     "pháp luật",
+     "văn hoá"
+    ],
+    [
+     "kĩ thuật",
+     "văn hoá"
+    ]
+   ],
+   "k": 2,
+   "e": "Đổi thứ tự hai khái niệm là bẫy.",
+   "r": "SGK Tin học 8 KNTT – Bài 4"
+  },
+  {
+   "t": "f",
+   "q": "Sản phẩm số cần ____, tự tạo nội dung, có đạo đức văn hoá và không vi phạm ____.",
+   "a": [
+    [
+     "trung thực"
+    ],
+    [
+     "pháp luật"
+    ]
+   ],
+   "o": [
+    [
+     "sáng tạo",
+     "dung lượng"
+    ],
+    [
+     "trung thực",
+     "pháp luật"
+    ],
+    [
+     "nhanh chóng",
+     "pháp luật"
+    ],
+    [
+     "trung thực",
+     "kĩ thuật"
+    ]
+   ],
+   "k": 1,
+   "e": "4 yêu cầu: trung thực; tự tạo; đạo đức, văn hoá; không vi phạm pháp luật.",
+   "r": "SGK Tin học 8 KNTT – Bài 4"
+  },
+  {
+   "t": "f",
+   "q": "Khi dùng sản phẩm của người khác em phải xin ____ và ghi tên ____.",
+   "a": [
+    [
+     "phép"
+    ],
+    [
+     "tác giả"
+    ]
+   ],
+   "o": [
+    [
+     "tiền",
+     "tác giả"
+    ],
+    [
+     "phép",
+     "người đăng lại"
+    ],
+    [
+     "lỗi",
+     "bạn"
+    ],
+    [
+     "phép",
+     "tác giả"
+    ]
+   ],
+   "k": 3,
+   "e": "Xin phép, ghi nguồn/tác giả.",
+   "r": "SGK Tin học 8 KNTT – Bài 4"
+  },
+  {
+   "t": "f",
+   "q": "Với câu trả lời của AI, cần ____ bằng nguồn tin cậy và ____ khi sử dụng AI.",
+   "a": [
+    [
+     "kiểm chứng"
+    ],
+    [
+     "khai báo"
+    ]
+   ],
+   "o": [
+    [
+     "sao chép",
+     "khai báo"
+    ],
+    [
+     "kiểm chứng",
+     "che giấu"
+    ],
+    [
+     "kiểm chứng",
+     "khai báo"
+    ],
+    [
+     "xoá",
+     "chia sẻ"
+    ]
+   ],
+   "k": 2,
+   "e": "Hai việc: kiểm chứng và khai báo.",
+   "r": "SGK Tin học 8 KNTT – Bài 4"
+  },
+  {
+   "t": "f",
+   "q": "Ghi âm trái phép vi phạm ____ riêng tư; người dùng AI chịu ____ về sản phẩm của mình.",
+   "a": [
+    [
+     "quyền"
+    ],
+    [
+     "trách nhiệm"
+    ]
+   ],
+   "o": [
+    [
+     "quyền",
+     "trách nhiệm"
+    ],
+    [
+     "dung lượng",
+     "trách nhiệm"
+    ],
+    [
+     "quyền",
+     "quyền lợi"
+    ],
+    [
+     "tốc độ",
+     "bản quyền"
+    ]
+   ],
+   "k": 0,
+   "e": "AI không chịu trách nhiệm, người dùng chịu trách nhiệm.",
+   "r": "SGK Tin học 8 KNTT – Bài 4"
+  }
+ ],
+ "tuluan": [
+  {
+   "q": "Câu 1 (2 điểm). Nêu các biểu hiện vi phạm khi sử dụng công nghệ số và 3 điều lưu ý để tránh vi phạm.",
+   "a": [
+    "Pháp luật, bản quyền: tải nhạc, phim lậu; dùng phần mềm bẻ khoá.",
+    "Đạo đức, quyền riêng tư: ghi âm trái phép; đăng thông tin người khác khi chưa được phép.",
+    "Thiếu văn hoá: quay phim, chụp ảnh nơi cấm, trong rạp.",
+    "3 lưu ý: tìm hiểu quy định; chỉ dùng sản phẩm khi được phép; hầu hết thông tin trên Internet có bản quyền."
+   ]
+  },
+  {
+   "q": "Câu 2 (3 điểm). Nêu mục tiêu bài học 'Đạo đức và văn hoá trong sử dụng công nghệ kĩ thuật số' (Tin học 8) theo chương trình 2018.",
+   "a": [
+    "Kiến thức: nêu biểu hiện vi phạm đạo đức, pháp luật, thiếu văn hoá; 3 điều lưu ý; 4 yêu cầu sản phẩm số.",
+    "Năng lực chung: tự chủ, tự học; giao tiếp, hợp tác; giải quyết vấn đề.",
+    "Năng lực Tin học: nhận diện tình huống không phù hợp, ứng xử đúng; tạo sản phẩm số trung thực, ghi nguồn.",
+    "Năng lực số, AI: tôn trọng bản quyền, quyền riêng tư; kiểm chứng và khai báo khi dùng AI (8.A3.3).",
+    "Phẩm chất: trách nhiệm, trung thực, tôn trọng pháp luật, bản quyền."
+   ]
+  },
+  {
+   "q": "Câu 3 (3 điểm). Thiết kế hoạt động Vận dụng giúp HS lớp 8 tạo sản phẩm số trung thực và tích hợp năng lực AI.",
+   "a": [
+    "Mục tiêu: HS tạo khẩu hiệu/áp phích đúng chuẩn mực, trung thực.",
+    "Nội dung: phác thảo sản phẩm; nếu nhờ AI gợi ý thì kiểm chứng và ghi dòng khai báo AI.",
+    "Tổ chức: giao nhiệm vụ; HS phác thảo, tự kiểm tra theo 4 yêu cầu; trình bày 1 phút; GV nhận xét.",
+    "Sản phẩm, đánh giá: khẩu hiệu như 'Xin phép, ghi nguồn – dùng mạng văn minh', có khai báo AI; đánh giá theo tiêu chí 4 yêu cầu."
+   ]
+  }
+ ]
+}

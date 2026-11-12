@@ -1,0 +1,642 @@
+{
+ "id": "T7-B07",
+ "ten": "Bài 7. Tính toán tự động trên bảng tính",
+ "tomtat": [
+  "Bảng tính có **4 kiểu dữ liệu**: **văn bản**, **số**, **ngày tháng** và **công thức**.",
+  "Theo mặc định **số căn phải**, **văn bản căn trái**; chỉ dữ liệu kiểu số mới tính toán được.",
+  "**Công thức** là biểu thức tính toán; bắt buộc bắt đầu bằng dấu **=**, rồi nhấn **Enter** để hiện kết quả.",
+  "Các phép toán: cộng **+**, trừ **-**, nhân *****, chia **/**, luỹ thừa **^**; dùng dấu ngoặc **( )** để đổi thứ tự tính.",
+  "Thanh công thức hiển thị **nội dung công thức** của ô đang chọn, ô chỉ hiển thị **kết quả**.",
+  "Có hai cách viết: dùng **số cụ thể** (=25*10, kết quả cố định) và dùng **địa chỉ ô** (=C4*D4, tự cập nhật).",
+  "Dùng địa chỉ ô giúp **tính toán tự động**: đổi dữ liệu ở ô nguồn thì kết quả tính lại ngay, không phải gõ lại công thức.",
+  "**Sao chép công thức**: chọn ô chứa công thức → **Ctrl+C** → chọn ô/vùng đích → **Ctrl+V**.",
+  "Khi sao chép, địa chỉ trong công thức **thay đổi theo vị trí mới** (**địa chỉ tương đối**): E4 =C4*D4 → E5 =C5*D5.",
+  "Quy trình lập bảng tính có tính toán: **nhập dữ liệu → viết công thức ô đầu → sao chép công thức → định dạng → lưu tệp**.",
+  "Dùng chatbot AI gợi ý công thức phải **kiểm chứng** (SGK, thầy cô, thử trên máy) vì AI có thể sai."
+ ],
+ "ynho": [
+  "Công thức bắt đầu bằng dấu =",
+  "Nhân là *, luỹ thừa là ^",
+  "Dùng địa chỉ ô để kết quả tự cập nhật",
+  "Sao chép công thức: địa chỉ thay đổi theo vị trí",
+  "Số căn phải, văn bản căn trái"
+ ],
+ "bang": [
+  {
+   "tieu_de": "Bốn kiểu dữ liệu trong bảng tính",
+   "cot": [
+    "Kiểu",
+    "Đặc điểm",
+    "Ví dụ"
+   ],
+   "dong": [
+    [
+     "Văn bản",
+     "Căn trái mặc định, không dùng để tính",
+     "Lớp 7A, Tổng"
+    ],
+    [
+     "Số",
+     "Căn phải mặc định, tính toán được",
+     "25; 3,5"
+    ],
+    [
+     "Ngày tháng",
+     "Biểu diễn ngày/tháng/năm",
+     "12/11/2026"
+    ],
+    [
+     "Công thức",
+     "Bắt đầu bằng =, ô hiện kết quả",
+     "=C4*D4"
+    ]
+   ]
+  },
+  {
+   "tieu_de": "Phép toán trong công thức",
+   "cot": [
+    "Phép toán",
+    "Ký hiệu",
+    "Ví dụ",
+    "Kết quả"
+   ],
+   "dong": [
+    [
+     "Cộng",
+     "+",
+     "=5+3",
+     "8"
+    ],
+    [
+     "Trừ",
+     "-",
+     "=5-3",
+     "2"
+    ],
+    [
+     "Nhân",
+     "*",
+     "=5*3",
+     "15"
+    ],
+    [
+     "Chia",
+     "/",
+     "=6/3",
+     "2"
+    ],
+    [
+     "Luỹ thừa",
+     "^",
+     "=2^3",
+     "8"
+    ]
+   ]
+  }
+ ],
+ "vidu": [
+  {
+   "tinh_huong": "Bảng trồng cây: C4 = 5 (số cây/lớp), D4 = 20 (số lớp). Tại E4 nhập =C4*D4. Sau đó sửa D4 thành 30 thì E4 là bao nhiêu? Còn nếu E4 gõ =5*20 thì sau khi sửa D4?",
+   "ket_luan": "→ E4 = 5*30 = 150 (tự cập nhật); với =5*20 vẫn là 100, vì không dùng địa chỉ ô."
+  },
+  {
+   "tinh_huong": "E4 chứa =C4*D4. Sao chép E4 sang E5:E6. Viết công thức E5, E6.",
+   "ket_luan": "→ E5 =C5*D5; E6 =C6*D6 (địa chỉ tương đối, hàng tăng thì địa chỉ tăng)."
+  },
+  {
+   "tinh_huong": "Bảng diện tích rừng: B = rừng tự nhiên, C = rừng trồng. Tính tổng ở D4 rồi sao chép đến D8.",
+   "ket_luan": "→ D4 =B4+C4; sao chép đến D8 → D8 =B8+C8."
+  },
+  {
+   "tinh_huong": "Thành tiền F4 = Đơn giá (D4) × Số lượng (E4); D4 = 1000, E4 = 500. Sao chép F4 đến F19, F10 là gì?",
+   "ket_luan": "→ F4 =D4*E4 = 500000; F10 =D10*E10."
+  }
+ ],
+ "nho": [
+  "Mẹo 'ĐẶT = TRƯỚC': không có = thì là chữ, không phải tính.",
+  "Số – Phải; Văn bản – Trái: 'Số Phải, Chữ Trái'.",
+  "Nhân là *, mũ là ^ (sao = nhân, mũ = luỹ thừa).",
+  "Sao chép công thức: địa chỉ 'đi theo' ô như cái bóng."
+ ],
+ "bay": [
+  "Quên dấu =: ô hiện chuỗi chữ thay vì kết quả.",
+  "Gõ chữ x thay cho * để nhân.",
+  "Tưởng sao chép công thức thì giữ nguyên =C4*D4: thực tế địa chỉ đổi theo vị trí.",
+  "Dùng số cụ thể (=5*20): đổi dữ liệu mà kết quả không cập nhật."
+ ],
+ "giaoan": [
+  "**Mục tiêu** – Kiến thức: nhận biết 4 kiểu dữ liệu; viết công thức bắt đầu bằng =, dùng địa chỉ ô và các phép toán; giải thích sao chép công thức (địa chỉ tương đối); Năng lực: tin học (NLa, NLc: dùng bảng tính tính toán dữ liệu dự án 'Trường học xanh'), tự chủ và tự học, giải quyết vấn đề, hợp tác; năng lực số 3.1.TC1; Phẩm chất: chăm chỉ, cẩn thận, chính xác.",
+  "**Chuẩn bị** – GV: kế hoạch bài dạy, máy chiếu, tệp THXanh mẫu, phiếu học tập, chatbot AI, phòng máy; HS: SGK, vở, ôn Bài 6 (nhập dữ liệu), đọc trước mục 3, 4.",
+  "**Hoạt động 1 – Mở đầu** (7 phút) – Mục tiêu: tạo nhu cầu tính toán tự động. Nội dung: tính tổng số cây các lớp; có 100 hàng thì gõ 100 công thức? Sản phẩm: HS nêu nhập phép tính vào ô và sao chép công thức. Tổ chức: GV chuyển giao câu hỏi (Think–Pair–Share) → HS suy nghĩ, trao đổi cặp → báo cáo 2 HS → GV nhận xét, dẫn vào bài.",
+  "**Hoạt động 2 – Hình thành kiến thức** (38 phút) – Mục tiêu: nêu kiểu dữ liệu, viết công thức dùng địa chỉ ô, sao chép công thức. Nội dung: 2.1 kiểu dữ liệu (khăn trải bàn); 2.2 công thức, so sánh =25*10 với =C4*D4 (mảnh ghép); 2.3 sao chép công thức 4 bước, quan sát E5, E6 (cặp đôi). Sản phẩm: phiếu phân loại, công thức đúng, ghi nhớ. Tổ chức: giao nhiệm vụ → HS thực hiện → báo cáo, thảo luận → GV chốt theo hộp Ghi nhớ.",
+  "**Hoạt động 3 – Luyện tập** (30 phút) – Mục tiêu: vận dụng công thức và sao chép. Nội dung: câu hỏi tr.37 (E10 =C10*D10; G12 =H12+2*K12); Thực hành mục 4 (E7 =E4+E5+E6 = 500); Luyện tập F4 =D4*E4 đến F19. Sản phẩm: bảng tính hoàn chỉnh, lưu tệp. Tổ chức: giao việc → HS làm cặp trên máy, đổi vai → GV kiểm tra thanh công thức → nhận xét, chốt quy trình.",
+  "**Hoạt động 4 – Vận dụng** (15 phút) – Mục tiêu: lập bảng diện tích rừng; kiểm chứng công thức do AI gợi ý. Nội dung: D4 =B4+C4 sao chép đến D8; hỏi chatbot công thức tổng số cây và kết quả sao chép, đối chiếu SGK. Sản phẩm: bảng đúng, nhận xét độ tin cậy của AI. Tổ chức: GV giao nhiệm vụ, thao tác chatbot → HS đối chiếu, nhập thử → báo cáo → GV chốt.",
+  "**Kiểm tra đánh giá** – Quan sát thao tác trên máy, kiểm tra sản phẩm tệp THXanh, phiếu phân loại; câu hỏi nhanh (viết công thức, dự đoán công thức sau sao chép); phiếu tự đánh giá; củng cố, dặn học Ghi nhớ và đọc Bài 8."
+ ],
+ "ai": [
+  "GV dùng chatbot sinh bộ bài tập công thức hoặc tạo các câu lệnh mẫu (ví dụ 'Sao chép =C4*D4 từ E4 xuống E5 thì E5 là gì?'), rồi tự kiểm tra đáp án trước khi dùng.",
+  "HS đối chiếu câu trả lời của chatbot với SGK tr.34–37 và nhập thử trên máy; nêu hậu quả nếu tin sai (số liệu sai, mua thừa/thiếu cây) – 7.A1.2, 7.A1.MR1.",
+  "Giáo dục đạo đức AI: khai báo trung thực khi dùng AI trong sản phẩm học tập; AI không thay thế việc tự hiểu quy tắc công thức."
+ ],
+ "cauhoi": [
+  {
+   "t": "s",
+   "q": "Một công thức trong bảng tính phải bắt đầu bằng ký tự nào?",
+   "o": [
+    "Dấu =",
+    "Dấu +  (chỉ dùng trong sổ sách)",
+    "Dấu #",
+    "Dấu cách"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Công thức luôn bắt đầu bằng dấu =; thiếu dấu = thì bảng tính coi là văn bản.",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "s",
+   "q": "Gõ vào ô E4 nội dung C4*D4 (không có dấu =) rồi Enter. Kết quả hiển thị trong ô là gì?",
+   "o": [
+    "Tích của C4 và D4",
+    "Chuỗi văn bản C4*D4",
+    "Thông báo lỗi và xoá nội dung",
+    "Số 0"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Bẫy: thiếu dấu = nên là dữ liệu văn bản, không tính toán.",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "s",
+   "q": "Ô C4 = 5, D4 = 20. Công thức =C4*D4 cho kết quả nào?",
+   "o": [
+    "25",
+    "520",
+    "100",
+    "15"
+   ],
+   "a": [
+    2
+   ],
+   "e": "5*20 = 100. Dấu * là phép nhân; 25 là C4+D4.",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "s",
+   "q": "Phép toán nào dùng để tính luỹ thừa trong công thức bảng tính?",
+   "o": [
+    "*",
+    "/",
+    "**x",
+    "^"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Luỹ thừa dùng ^ (vd =A1^2). Dấu * là nhân, / là chia.",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "s",
+   "q": "Ưu điểm chính của việc dùng địa chỉ ô (=C4*D4) thay vì số cụ thể (=5*20)?",
+   "o": [
+    "Khi thay đổi dữ liệu ở ô C4, D4 thì kết quả tự cập nhật",
+    "Công thức ngắn hơn luôn luôn",
+    "Không cần nhấn Enter",
+    "Kết quả được căn trái"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Cách dùng địa chỉ ô giúp tính toán tự động; công thức =5*20 cố định, không đổi khi dữ liệu đổi.",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "s",
+   "q": "Sao chép công thức =C4*D4 ở ô E4 xuống ô E5, ô E5 có công thức nào?",
+   "o": [
+    "=C4*D4",
+    "=C5*D5",
+    "=C4*D5",
+    "=D5*C5*E4"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Địa chỉ tương đối: hàng tăng 1 thì mọi địa chỉ trong công thức tăng 1 hàng. Bẫy: giữ nguyên =C4*D4.",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "s",
+   "q": "Sao chép ô D4 chứa công thức =B4+C4 sang ô D8 (cùng cột, xuống 4 hàng). Công thức tại D8 là gì?",
+   "o": [
+    "=B4+C4",
+    "=B5+C5",
+    "=B8+C8",
+    "=B4+C8"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Xuống 4 hàng → mọi địa chỉ hàng 4 thành hàng 8.",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "s",
+   "q": "Theo mặc định, dữ liệu kiểu số và kiểu văn bản được căn lề như thế nào?",
+   "o": [
+    "Số căn trái, văn bản căn phải",
+    "Cả hai căn giữa",
+    "Cả hai căn trái",
+    "Số căn phải, văn bản căn trái"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Bẫy đổi chiều: SỐ căn phải, VĂN BẢN căn trái.",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "s",
+   "q": "Công thức tính chu vi hình chữ nhật có chiều dài ở A1, chiều rộng ở B1 là?",
+   "o": [
+    "=(A1+B1)*2",
+    "=A1+B1*2",
+    "=A1*B1",
+    "(A1+B1)*2"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Cần dấu = và ngoặc để cộng trước; =A1+B1*2 nhân trước (sai); =A1*B1 là diện tích; thiếu = thì thành văn bản.",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "s",
+   "q": "Khi nhận được công thức bảng tính từ chatbot AI, việc làm đúng nhất là gì?",
+   "o": [
+    "Đối chiếu SGK/thầy cô và nhập thử trên máy để kiểm chứng",
+    "Dùng ngay vì AI luôn đúng",
+    "Chỉ hỏi lại cùng chatbot đó và tin kết quả",
+    "Không cần khai báo và không cần kiểm tra"
+   ],
+   "a": [
+    0
+   ],
+   "e": "7.A1.2, 7.A1.MR1: kiểm chứng bằng nguồn tin cậy khác; AI có thể sai (ví dụ thiếu dấu =).",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "m",
+   "q": "Những dữ liệu nào sau đây là các kiểu dữ liệu cơ bản được học trong bài?",
+   "o": [
+    "Văn bản",
+    "Số",
+    "Ngày tháng",
+    "Hình ảnh động"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Bài nêu văn bản, số, ngày tháng, công thức; hình ảnh động không nằm trong các kiểu này.",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "m",
+   "q": "Những công thức nào dưới đây VIẾT ĐÚNG quy tắc?",
+   "o": [
+    "=C4*D4",
+    "=A1+B1",
+    "=(A1+B1)*2",
+    "C4*D4"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "C4*D4 thiếu dấu =.",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "m",
+   "q": "Việc sao chép công thức (địa chỉ tương đối) giúp ích gì?",
+   "o": [
+    "Tính hàng loạt nhanh, không gõ lại từng ô",
+    "Giảm sai sót khi nhập",
+    "Địa chỉ ô trong công thức tự điều chỉnh theo vị trí mới",
+    "Luôn giữ nguyên địa chỉ ô gốc"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Địa chỉ không giữ nguyên mà thay đổi theo vị trí (tương đối) – bẫy phương án 4.",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "m",
+   "q": "Khi sửa giá trị ô D4 mà ô E4 chứa =C4*D4, điều gì đúng?",
+   "o": [
+    "E4 tự tính lại",
+    "Không cần gõ lại công thức",
+    "E4 vẫn giữ giá trị cũ",
+    "Bảng tính tự động cập nhật kết quả"
+   ],
+   "a": [
+    0,
+    1,
+    3
+   ],
+   "e": "Công thức dùng địa chỉ ô nên kết quả cập nhật tự động; E4 giữ giá trị cũ chỉ đúng với =25*10.",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "f",
+   "q": "Công thức bắt đầu bằng dấu ____ ; phép nhân dùng ký hiệu ____ .",
+   "a": [
+    [
+     "=",
+     "dấu bằng"
+    ],
+    [
+     "*",
+     "dấu sao"
+    ]
+   ],
+   "o": [
+    [
+     "=",
+     "*"
+    ],
+    [
+     "+",
+     "x"
+    ],
+    [
+     "=",
+     "x"
+    ],
+    [
+     "#",
+     "*"
+    ]
+   ],
+   "k": 0,
+   "e": "Nhân là *, không phải chữ x.",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "f",
+   "q": "Sao chép công thức =C4*D4 từ E4 xuống E6 thì E6 có công thức ____ ; địa chỉ trong công thức là địa chỉ ____ .",
+   "a": [
+    [
+     "=C6*D6"
+    ],
+    [
+     "tương đối"
+    ]
+   ],
+   "o": [
+    [
+     "=C4*D4",
+     "tuyệt đối"
+    ],
+    [
+     "=C6*D6",
+     "tương đối"
+    ],
+    [
+     "=C6*D6",
+     "tuyệt đối"
+    ],
+    [
+     "=C4*D6",
+     "tương đối"
+    ]
+   ],
+   "k": 1,
+   "e": "Hai hàng xuống nên 4→6; sao chép làm địa chỉ thay đổi nên là tương đối.",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "f",
+   "q": "Dữ liệu kiểu số mặc định căn ____ ; dữ liệu kiểu văn bản mặc định căn ____ .",
+   "a": [
+    [
+     "phải"
+    ],
+    [
+     "trái"
+    ]
+   ],
+   "o": [
+    [
+     "trái",
+     "phải"
+    ],
+    [
+     "giữa",
+     "trái"
+    ],
+    [
+     "phải",
+     "giữa"
+    ],
+    [
+     "phải",
+     "trái"
+    ]
+   ],
+   "k": 3,
+   "e": "Số phải, văn bản trái.",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "f",
+   "q": "Muốn tính tổng ba ô E4, E5, E6 ta nhập vào E7 công thức ____ , sau đó nhấn phím ____ .",
+   "a": [
+    [
+     "=E4+E5+E6"
+    ],
+    [
+     "Enter"
+    ]
+   ],
+   "o": [
+    [
+     "E4+E5+E6",
+     "Enter"
+    ],
+    [
+     "=E4+E5+E6",
+     "Esc"
+    ],
+    [
+     "=E4+E5+E6",
+     "Enter"
+    ],
+    [
+     "=E4*E5*E6",
+     "Enter"
+    ]
+   ],
+   "k": 2,
+   "e": "Thiếu = thì là văn bản; Esc là huỷ nhập.",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "f",
+   "q": "Thành tiền ở F4 = Số lượng (ô E4) nhân Đơn giá (ô D4): nhập ____ rồi sao chép xuống F19; ô F10 sẽ là ____ .",
+   "a": [
+    [
+     "=D4*E4",
+     "=E4*D4"
+    ],
+    [
+     "=D10*E10",
+     "=E10*D10"
+    ]
+   ],
+   "o": [
+    [
+     "=D4*E4",
+     "=D4*E4"
+    ],
+    [
+     "=D4+E4",
+     "=D10+E10"
+    ],
+    [
+     "=D4*E4",
+     "=D10*E10"
+    ],
+    [
+     "D4*E4",
+     "D10*E10"
+    ]
+   ],
+   "k": 2,
+   "e": "Giữ quan hệ vị trí tương đối; hàng 10.",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "f",
+   "q": "Tên ba cách phát hiện chatbot trả lời sai: đối chiếu ____ , nhập thử trên ____ , hỏi thầy cô.",
+   "a": [
+    [
+     "SGK",
+     "sách giáo khoa"
+    ],
+    [
+     "máy tính",
+     "bảng tính"
+    ]
+   ],
+   "o": [
+    [
+     "mạng xã hội",
+     "máy tính"
+    ],
+    [
+     "SGK",
+     "điện thoại người khác"
+    ],
+    [
+     "SGK",
+     "máy tính"
+    ],
+    [
+     "quảng cáo",
+     "bảng tính"
+    ]
+   ],
+   "k": 2,
+   "e": "Kiểm chứng bằng nguồn tin cậy và thử thực tế (7.A1.MR1).",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "s",
+   "q": "Ô A1 = 3, B1 = 4. Công thức =A1^2+B1^2 cho kết quả?",
+   "o": [
+    "14",
+    "25",
+    "49",
+    "10"
+   ],
+   "a": [
+    1
+   ],
+   "e": "3^2+4^2 = 9+16 = 25; 14 là nhầm ^2 thành *2.",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "m",
+   "q": "Những mệnh đề nào ĐÚNG về thanh công thức?",
+   "o": [
+    "Hiển thị nội dung công thức của ô đang chọn",
+    "Dùng để kiểm tra công thức sau khi sao chép",
+    "Ô hiển thị kết quả, thanh công thức hiển thị công thức",
+    "Chỉ hiển thị kết quả số"
+   ],
+   "a": [
+    0,
+    1,
+    2
+   ],
+   "e": "Thanh công thức hiển thị công thức chứ không chỉ kết quả.",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  },
+  {
+   "t": "s",
+   "q": "Muốn sao chép công thức từ E4 sang E5:E6 theo SGK, thứ tự đúng là?",
+   "o": [
+    "Chọn E4 → Ctrl+C → chọn E5:E6 → Ctrl+V",
+    "Chọn E5:E6 → Ctrl+C → chọn E4 → Ctrl+V",
+    "Chọn E4 → Ctrl+V → chọn E5:E6 → Ctrl+C",
+    "Chọn E4 → Ctrl+X → chọn E5:E6 → Ctrl+V"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Sao chép: Copy rồi Paste; đảo bước hoặc dùng Cut là sai (Ctrl+X là cắt).",
+   "r": "SGK Tin học 7 KNTT – Bài 7"
+  }
+ ],
+ "tuluan": [
+  {
+   "q": "Câu 1 (3 điểm). Trình bày quy tắc viết công thức trong bảng tính. Cho C4 = 5, D4 = 20, viết công thức ở E4 tính tích; sao chép xuống E6 thì E5, E6 là gì? Vì sao nên dùng địa chỉ ô thay cho số cụ thể?",
+   "a": [
+    "Công thức bắt đầu bằng dấu =, sau đó là biểu thức gồm số, địa chỉ ô, phép toán + - * / ^, nhấn Enter để hiện kết quả.",
+    "E4: =C4*D4 (kết quả 100).",
+    "E5: =C5*D5; E6: =C6*D6 (địa chỉ tương đối, thay đổi theo vị trí).",
+    "Dùng địa chỉ ô thì khi dữ liệu thay đổi kết quả tự cập nhật, không phải gõ lại; sao chép công thức được cho nhiều hàng."
+   ]
+  },
+  {
+   "q": "Câu 2 (4 điểm). Nêu mục tiêu bài 'Tính toán tự động trên bảng tính' (Tin học 7) theo chương trình 2018 và thiết kế hoạt động Luyện tập 15 phút.",
+   "a": [
+    "Kiến thức: nhận biết 4 kiểu dữ liệu; viết công thức bắt đầu bằng =, dùng địa chỉ ô; giải thích sao chép công thức (địa chỉ tương đối).",
+    "Năng lực: tin học (dùng bảng tính tính toán), tự chủ tự học, giao tiếp hợp tác, giải quyết vấn đề; phẩm chất: chăm chỉ, cẩn thận, chính xác.",
+    "Hoạt động Luyện tập: mục tiêu – vận dụng công thức và sao chép; nội dung – câu hỏi tr.37 và Luyện tập F4 =D4*E4 sao chép đến F19.",
+    "Sản phẩm – bảng tính đúng, lưu tệp.",
+    "Tổ chức 4 bước: giao nhiệm vụ → HS làm cặp trên máy, đổi vai → báo cáo, nhận xét → GV kết luận, sửa lỗi hay gặp (thiếu dấu =, dùng x thay *)."
+   ]
+  },
+  {
+   "q": "Câu 3 (3 điểm). Một HS hỏi chatbot công thức tính thành tiền và nhận được 'D4+E4'. Phân tích lỗi, nêu hậu quả và cách GV hướng dẫn HS kiểm chứng, tích hợp năng lực AI.",
+   "a": [
+    "Lỗi: thiếu dấu = (thành văn bản) và dùng phép cộng thay vì nhân; đúng là =D4*E4.",
+    "Hậu quả: bảng tính không tính hoặc ra số liệu sai (7.A1.2), ảnh hưởng quyết định như mua thừa/thiếu.",
+    "Kiểm chứng: đối chiếu SGK, hỏi thầy cô, nhập thử với số đơn giản (D4 = 1000, E4 = 500 phải ra 500000) – 7.A1.MR1.",
+    "Giáo dục khai báo trung thực khi dùng AI và nguyên tắc con người chịu trách nhiệm cuối cùng."
+   ]
+  }
+ ]
+}

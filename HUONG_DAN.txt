@@ -4,4 +4,4 @@ CÁCH DÙNG
 - Đề mix: 30 đề x 50 câu / 60 phút, có đồng hồ, đánh dấu câu, nộp bài và xem lại câu sai.
 - Câu làm sai được lưu trên trình duyệt (mục "Câu làm sai").
 CẬP NHẬT CÂU HỎI
-- Sửa file trong data/json/L*.json, rồi chạy: python3 tools/validate.py && python3 tools/build.py && python3 tools/bundle.py
+- Sửa file trong data/json/L*.json, rồi chạy: python3 tools/validate.py && python3 tools/build.py && python3 tools/build_tl.py && python3 tools/bundle.py

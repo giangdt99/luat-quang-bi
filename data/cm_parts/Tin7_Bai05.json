@@ -1,0 +1,576 @@
+{
+ "id": "T7-B05",
+ "ten": "Bài 5. Ứng xử trên mạng",
+ "tomtat": [
+  "**Giao tiếp qua mạng** (nhắn tin, thư điện tử, mạng xã hội, gọi video) khác giao tiếp trực tiếp: không thấy mặt, thông tin **lan nhanh**, khó kiểm soát.",
+  "Cần **giao tiếp, ứng xử có văn hoá**: dùng **ngôn ngữ lịch sự**, tôn trọng người khác, tôn trọng quyền riêng tư, trung thực.",
+  "**Hành vi không nên**: nói tục, bắt nạt, đăng thông tin/ảnh của người khác khi chưa được phép, giấu bố mẹ việc trò chuyện với người lạ.",
+  "Khi bị **bắt nạt trên mạng**: không trả đũa, **chia sẻ và nhờ bố mẹ, thầy cô giúp đỡ**.",
+  "**Truy cập không hợp lệ** là vào các trang có nội dung xấu, trái lứa tuổi (cờ bạc, bạo lực...). Chỉ truy cập trang **phù hợp lứa tuổi**.",
+  "Khi gặp **thông tin xấu**: **đóng ngay** trang web, **báo người lớn**, nhờ cài **phần mềm chặn**; không xem tiếp, không chia sẻ.",
+  "**Nghiện Internet** là không kiểm soát được việc dùng mạng, bỏ bê học tập, sinh hoạt; gây hại **sức khoẻ, học tập, quan hệ**.",
+  "Tác hại gồm: **thiếu giao tiếp** trực tiếp; **khó tập trung**; **dễ bị bắt nạt**; dễ bị dẫn đến **thông tin xấu**; **nghiện trò chơi**.",
+  "Bốn lời khuyên phòng tránh: **CHIA SẺ – RỜI XA – GIỚI HẠN – THEO ĐUỔI** (sở thích, hoạt động lành mạnh).",
+  "Giúp bạn nghiện mạng: trò chuyện, rủ chơi thể thao, báo thầy cô và bố mẹ.",
+  "Tích hợp AI: lời khuyên của **chatbot có thể sai**, cần **kiểm chứng** bằng SGK, thầy cô và **khai báo** khi dùng AI."
+ ],
+ "ynho": [
+  "Giao tiếp mạng: lịch sự, tôn trọng",
+  "Bị bắt nạt: chia sẻ, nhờ người lớn",
+  "Thông tin xấu: đóng ngay, báo người lớn",
+  "Phòng nghiện: CHIA SẺ – RỜI XA – GIỚI HẠN – THEO ĐUỔI",
+  "AI có thể sai: kiểm chứng, khai báo"
+ ],
+ "bang": [
+  {
+   "tieu_de": "Hành vi nên và không nên khi giao tiếp qua mạng",
+   "cot": [
+    "Nên",
+    "Không nên"
+   ],
+   "dong": [
+    [
+     "Dùng lời lẽ lịch sự",
+     "Nói tục, chửi bạn"
+    ],
+    [
+     "Tôn trọng quyền riêng tư",
+     "Đăng ảnh, tin của bạn khi chưa được phép"
+    ],
+    [
+     "Nhờ người lớn khi bị bắt nạt",
+     "Giấu bố mẹ, tự xử lí"
+    ],
+    [
+     "Trung thực về bản thân",
+     "Giả danh người khác"
+    ]
+   ]
+  },
+  {
+   "tieu_de": "Bốn lời khuyên phòng tránh nghiện Internet",
+   "cot": [
+    "Lời khuyên",
+    "Ý nghĩa"
+   ],
+   "dong": [
+    [
+     "Chia sẻ",
+     "Nói chuyện với người thân, thầy cô"
+    ],
+    [
+     "Rời xa",
+     "Tạm rời thiết bị, tránh xa nguồn cám dỗ"
+    ],
+    [
+     "Giới hạn",
+     "Đặt giờ dùng mạng và tuân thủ"
+    ],
+    [
+     "Theo đuổi",
+     "Có sở thích: thể thao, đọc sách..."
+    ]
+   ]
+  }
+ ],
+ "vidu": [
+  {
+   "tinh_huong": "Bạn An nhận được tin nhắn nặc danh chê bai ngoại hình, doạ sẽ đăng ảnh lên mạng. An rất lo nhưng sợ bố mẹ la nên định im lặng.",
+   "ket_luan": "→ Cần chia sẻ, nhờ bố mẹ, thầy cô giúp; không im lặng, không trả đũa."
+  },
+  {
+   "tinh_huong": "Khi tra cứu bài, Bình vô tình mở ra trang web có hình ảnh bạo lực.",
+   "ket_luan": "→ Đóng ngay trang, báo người lớn, nhờ cài phần mềm chặn; không chia sẻ cho bạn."
+  },
+  {
+   "tinh_huong": "Hà chơi game 5 giờ mỗi ngày, bỏ bài tập, ít nói chuyện với bạn. Hà đặt giờ chỉ chơi 1 giờ, tham gia câu lạc bộ cầu lông và kể với mẹ.",
+   "ket_luan": "→ Hà áp dụng giới hạn, theo đuổi, chia sẻ (và rời xa thiết bị)."
+  },
+  {
+   "tinh_huong": "Chatbot khuyên bạn nghiện game: \"(1) chơi 6 giờ/ngày; (2) tự giới hạn, theo đuổi sở thích; (3) chia sẻ với người thân\".",
+   "ket_luan": "→ Lời khuyên 1 sai (trái GIỚI HẠN); 2, 3 đúng. AI có thể sai nên phải kiểm chứng."
+  }
+ ],
+ "nho": [
+  "Phòng nghiện: CHIA SẺ – RỜI XA – GIỚI HẠN – THEO ĐUỔI (C-R-G-T).",
+  "Gặp xấu: Đóng – Báo – Chặn (đóng trang, báo người lớn, chặn).",
+  "Gặp khó trên mạng: luôn nói với người lớn, không giấu."
+ ],
+ "bay": [
+  "Giấu bố mẹ không phải là an toàn; đúng là phải chia sẻ, nhờ người lớn.",
+  "Bị bắt nạt thì trả đũa không giải quyết được vấn đề.",
+  "Lời khuyên của AI không mặc định đúng; phải đối chiếu SGK, thầy cô.",
+  "Dùng mạng nhiều chưa chắc là nghiện; nghiện là mất kiểm soát, ảnh hưởng học tập, quan hệ."
+ ],
+ "giaoan": [
+  "**Mục tiêu** – Kiến thức: phân biệt hành vi nên/không nên khi giao tiếp qua mạng; nêu ví dụ truy cập không hợp lệ và cách ứng xử khi gặp thông tin xấu; biết tác hại và cách phòng tránh nghiện Internet; Năng lực: tự chủ và tự học, giao tiếp và hợp tác, giải quyết vấn đề; năng lực tin học NLb (ứng xử phù hợp trong môi trường số), NLa, NLe; Phẩm chất: nhân ái, trách nhiệm, trung thực.",
+  "**Chuẩn bị** – GV: kế hoạch bài dạy, máy chiếu, thẻ tình huống a–j, phiếu học tập, giấy A3, máy tính có chatbot AI; HS: SGK Tin học 7, vở ghi, bút.",
+  "**Hoạt động 1 – Mở đầu** – Mục tiêu: gợi lại kinh nghiệm giao tiếp qua mạng, tạo nhu cầu học; Nội dung: em giao tiếp qua mạng bằng cách nào, khác gì trực tiếp; Sản phẩm: ≥ 3 cách giao tiếp, ≥ 1 điểm khác; Tổ chức: (1) GV chuyển giao câu hỏi; (2) HS suy nghĩ, trao đổi cặp đôi; (3) báo cáo 3 HS; (4) GV nhận xét, dẫn vào bài.",
+  "**Hoạt động 2 – Hình thành kiến thức** – Mục tiêu: phân biệt hành vi nên/không nên, xử lí thông tin xấu, tác hại và cách phòng nghiện Internet; Nội dung: phân loại thẻ nên/không nên, đóng vai tình huống thông tin xấu, mảnh ghép tìm tác hại, \"Hồi sinh cây\" cách phòng tránh; Sản phẩm: phiếu học tập, áp phích; Tổ chức 4 bước: giao nhiệm vụ nhóm; HS thảo luận; báo cáo, phản biện; GV chốt hộp ghi nhớ.",
+  "**Hoạt động 3 – Luyện tập** – Mục tiêu: củng cố kiến thức; Nội dung: giơ thẻ A/B/C/D câu hỏi SGK và Luyện tập 1, 2; Sản phẩm: đáp án đúng, giải thích; Tổ chức: GV chiếu câu hỏi, HS giơ thẻ, giải thích, GV kết luận.",
+  "**Hoạt động 4 – Vận dụng** – Mục tiêu: vận dụng và kiểm chứng AI; Nội dung: nhập lệnh hỏi chatbot lời khuyên cho bạn nghiện game, đối chiếu 4 lời khuyên SGK; Sản phẩm: phiếu kiểm chứng, kế hoạch dùng mạng hợp lí, ghi chú \"có dùng AI hỗ trợ\"; Tổ chức: giao nhiệm vụ, thảo luận cặp, báo cáo, GV chốt.",
+  "**Kiểm tra đánh giá** – Quan sát tham gia nhóm; chấm phiếu học tập, áp phích bằng rubric; câu hỏi giơ thẻ; đánh giá sản phẩm vận dụng; HS tự đánh giá và đánh giá đồng đẳng."
+ ],
+ "ai": [
+  "GV dùng chatbot tạo thêm tình huống ứng xử trên mạng, thẻ nên/không nên, rồi tự thẩm định nội dung trước khi dùng.",
+  "HS hỏi chatbot lời khuyên giúp bạn nghiện game, kiểm chứng bằng 4 lời khuyên SGK, phát hiện lời khuyên sai (7.A1.MR1).",
+  "Đạo đức AI: khai báo trung thực khi dùng AI (7.B3.1), không nhập thông tin cá nhân vào chatbot."
+ ],
+ "cauhoi": [
+  {
+   "t": "s",
+   "q": "Khi gặp trang web có nội dung bạo lực, không phù hợp lứa tuổi, em nên làm gì trước tiên?",
+   "o": [
+    "Đóng trang web ngay và báo cho người lớn",
+    "Xem hết để biết nội dung rồi mới báo",
+    "Chia sẻ cho bạn bè cùng xem",
+    "Giấu kín, không nói với ai"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Bẫy: giấu kín nghe có vẻ an toàn nhưng SGK yêu cầu báo người lớn.",
+   "r": "SGK Tin học 7 KNTT – Bài 5"
+  },
+  {
+   "t": "s",
+   "q": "Em bị bạn nhắn tin doạ nạt, bắt nạt trên mạng. Cách ứng xử đúng là",
+   "o": [
+    "nhắn lại bằng lời lẽ nặng hơn",
+    "nhờ bố mẹ, thầy cô giáo giúp đỡ",
+    "tự chịu đựng, không kể ai",
+    "xoá tài khoản và giấu gia đình"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Phải chia sẻ và nhờ người lớn; trả đũa hoặc giấu đều sai.",
+   "r": "SGK Tin học 7 KNTT – Bài 5"
+  },
+  {
+   "t": "s",
+   "q": "Hành vi nào sau đây là NÊN làm khi giao tiếp qua mạng?",
+   "o": [
+    "Dùng từ ngữ thô tục cho vui",
+    "Đăng ảnh bạn khi chưa được phép để trêu",
+    "Dùng ngôn ngữ lịch sự, tôn trọng người khác",
+    "Giả danh người khác để nói chuyện"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Giao tiếp có văn hoá: lịch sự, tôn trọng, trung thực.",
+   "r": "SGK Tin học 7 KNTT – Bài 5"
+  },
+  {
+   "t": "s",
+   "q": "Hành vi nào sau đây là truy cập không hợp lệ đối với học sinh?",
+   "o": [
+    "Tìm tài liệu học tập trên trang giáo dục",
+    "Đọc báo thiếu nhi trực tuyến",
+    "Gửi thư điện tử cho thầy cô",
+    "Truy cập trang web cờ bạc, bạo lực"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Truy cập không hợp lệ là vào trang có nội dung xấu, trái lứa tuổi.",
+   "r": "SGK Tin học 7 KNTT – Bài 5"
+  },
+  {
+   "t": "s",
+   "q": "Bốn lời khuyên để phòng tránh nghiện Internet trong SGK là",
+   "o": [
+    "chia sẻ, rời xa, giới hạn, theo đuổi",
+    "chia sẻ, kết nối, giới hạn, theo đuổi",
+    "tìm kiếm, rời xa, tăng giờ, theo đuổi",
+    "chia sẻ, rời xa, giới hạn, từ bỏ sở thích"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Bẫy đổi 1 từ: nhớ CHIA SẺ – RỜI XA – GIỚI HẠN – THEO ĐUỔI (sở thích).",
+   "r": "SGK Tin học 7 KNTT – Bài 5"
+  },
+  {
+   "t": "s",
+   "q": "Biểu hiện nào dưới đây cho thấy nguy cơ nghiện Internet?",
+   "o": [
+    "Dùng mạng tra cứu bài khi cần rồi tắt máy",
+    "Luôn muốn dùng mạng, bỏ bê học tập và các hoạt động khác",
+    "Gọi video hỏi bài bạn một lúc",
+    "Đặt giờ dùng mạng và tuân thủ"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Nghiện: không kiểm soát được thời gian, ảnh hưởng học tập, quan hệ.",
+   "r": "SGK Tin học 7 KNTT – Bài 5"
+  },
+  {
+   "t": "s",
+   "q": "Một bạn nghiện trò chơi trực tuyến. Em nên giúp bạn bằng cách nào là phù hợp nhất?",
+   "o": [
+    "Cho bạn chơi thêm để bạn vui",
+    "Chê bạn trước lớp để bạn xấu hổ",
+    "Trò chuyện, rủ bạn chơi thể thao và báo cho thầy cô, bố mẹ",
+    "Mặc kệ vì đó là việc riêng của bạn"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Giúp bạn bằng sự quan tâm, hoạt động thay thế và nhờ người lớn.",
+   "r": "SGK Tin học 7 KNTT – Bài 5"
+  },
+  {
+   "t": "s",
+   "q": "Lời khuyên nào do chatbot AI đưa ra là SAI so với SGK về phòng tránh nghiện game?",
+   "o": [
+    "Tự giới hạn thời gian chơi",
+    "Theo đuổi một sở thích lành mạnh",
+    "Chia sẻ với người thân",
+    "Mỗi ngày chơi 6 giờ cho quen"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Trái lời khuyên GIỚI HẠN. AI có thể sai nên phải kiểm chứng bằng SGK, thầy cô.",
+   "r": "SGK Tin học 7 KNTT – Bài 5"
+  },
+  {
+   "t": "s",
+   "q": "Khi dùng chatbot AI để làm sản phẩm học tập, em cần",
+   "o": [
+    "kiểm chứng đầu ra và khai báo có dùng AI hỗ trợ",
+    "tin hoàn toàn vì AI luôn đúng",
+    "sao chép nguyên văn và nói là của mình",
+    "xoá ghi chú để thầy cô không biết"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Bẫy: AI có thể sai; trung thực là khai báo dùng AI.",
+   "r": "SGK Tin học 7 KNTT – Bài 5"
+  },
+  {
+   "t": "s",
+   "q": "Tác hại nào KHÔNG phải do nghiện Internet theo SGK?",
+   "o": [
+    "Thiếu giao tiếp với mọi người xung quanh",
+    "Cơ thể phát triển chiều cao nhanh hơn",
+    "Khó tập trung vào việc học",
+    "Dễ bị bắt nạt hoặc dẫn dắt đến thông tin xấu"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Nghiện Internet hại sức khoẻ, học tập, quan hệ; không làm phát triển nhanh hơn.",
+   "r": "SGK Tin học 7 KNTT – Bài 5"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các hành vi NÊN làm khi giao tiếp qua mạng:",
+   "o": [
+    "Dùng lời lẽ lịch sự",
+    "Nói tục khi giận",
+    "Nhờ người lớn giúp khi bị bắt nạt",
+    "Giấu bố mẹ chuyện trò chuyện với người lạ",
+    "Tôn trọng quyền riêng tư của người khác"
+   ],
+   "a": [
+    0,
+    2,
+    4
+   ],
+   "e": "Nói tục và giấu bố mẹ là không nên.",
+   "r": "SGK Tin học 7 KNTT – Bài 5"
+  },
+  {
+   "t": "m",
+   "q": "Khi gặp thông tin xấu trên mạng, em NÊN:",
+   "o": [
+    "Đóng ngay trang web",
+    "Chia sẻ cho bạn xem",
+    "Báo cho người lớn",
+    "Tiếp tục xem vì tò mò",
+    "Nhờ cài phần mềm chặn nội dung xấu"
+   ],
+   "a": [
+    0,
+    2,
+    4
+   ],
+   "e": "Không chia sẻ, không tiếp tục xem.",
+   "r": "SGK Tin học 7 KNTT – Bài 5"
+  },
+  {
+   "t": "m",
+   "q": "Những tác hại của nghiện Internet là:",
+   "o": [
+    "Thiếu giao tiếp trực tiếp",
+    "Học tập tiến bộ nhanh hơn",
+    "Khó tập trung",
+    "Dễ nghiện trò chơi",
+    "Dễ bị bắt nạt trên mạng"
+   ],
+   "a": [
+    0,
+    2,
+    3,
+    4
+   ],
+   "e": "Nghiện Internet ảnh hưởng xấu, không giúp học tốt hơn.",
+   "r": "SGK Tin học 7 KNTT – Bài 5"
+  },
+  {
+   "t": "m",
+   "q": "Việc làm giúp phòng tránh nghiện Internet:",
+   "o": [
+    "Đặt giờ dùng mạng và tuân thủ",
+    "Tránh nói với ai để không bị cấm",
+    "Chơi thể thao, đọc sách",
+    "Chơi game đến khi hết hứng",
+    "Nói chuyện với người thân khi thấy khó kiểm soát"
+   ],
+   "a": [
+    0,
+    2,
+    4
+   ],
+   "e": "Lời khuyên: chia sẻ, rời xa, giới hạn, theo đuổi.",
+   "r": "SGK Tin học 7 KNTT – Bài 5"
+  },
+  {
+   "t": "f",
+   "q": "Khi bị bắt nạt trên mạng, em cần ____ và nhờ ____ giúp đỡ.",
+   "a": [
+    [
+     "chia sẻ"
+    ],
+    [
+     "bố mẹ, thầy cô",
+     "người lớn"
+    ]
+   ],
+   "o": [
+    [
+     "chia sẻ",
+     "bố mẹ, thầy cô"
+    ],
+    [
+     "giấu kín",
+     "bố mẹ, thầy cô"
+    ],
+    [
+     "chia sẻ",
+     "bạn bè xấu"
+    ],
+    [
+     "trả đũa",
+     "người lạ"
+    ]
+   ],
+   "k": 0,
+   "e": "Phải chia sẻ và nhờ người lớn.",
+   "r": "SGK Tin học 7 KNTT – Bài 5"
+  },
+  {
+   "t": "f",
+   "q": "Trang web cờ bạc, bạo lực là ví dụ của truy cập ____; khi gặp cần ____ ngay.",
+   "a": [
+    [
+     "không hợp lệ"
+    ],
+    [
+     "đóng trang",
+     "đóng trang web"
+    ]
+   ],
+   "o": [
+    [
+     "hợp lệ",
+     "đóng trang"
+    ],
+    [
+     "không hợp lệ",
+     "chia sẻ"
+    ],
+    [
+     "không hợp lệ",
+     "đóng trang"
+    ],
+    [
+     "hợp lệ",
+     "chia sẻ"
+    ]
+   ],
+   "k": 2,
+   "e": "Truy cập không hợp lệ, đóng ngay.",
+   "r": "SGK Tin học 7 KNTT – Bài 5"
+  },
+  {
+   "t": "f",
+   "q": "Bốn lời khuyên phòng tránh nghiện Internet: chia sẻ, ____, giới hạn, ____.",
+   "a": [
+    [
+     "rời xa"
+    ],
+    [
+     "theo đuổi"
+    ]
+   ],
+   "o": [
+    [
+     "kết nối",
+     "từ bỏ"
+    ],
+    [
+     "rời xa",
+     "từ bỏ"
+    ],
+    [
+     "kết nối",
+     "theo đuổi"
+    ],
+    [
+     "rời xa",
+     "theo đuổi"
+    ]
+   ],
+   "k": 3,
+   "e": "CHIA SẺ – RỜI XA – GIỚI HẠN – THEO ĐUỔI.",
+   "r": "SGK Tin học 7 KNTT – Bài 5"
+  },
+  {
+   "t": "f",
+   "q": "Nghiện Internet gây hại cho ____, học tập và các ____ xung quanh.",
+   "a": [
+    [
+     "sức khoẻ"
+    ],
+    [
+     "mối quan hệ",
+     "quan hệ"
+    ]
+   ],
+   "o": [
+    [
+     "sức khoẻ",
+     "mối quan hệ"
+    ],
+    [
+     "thu nhập",
+     "mối quan hệ"
+    ],
+    [
+     "sức khoẻ",
+     "tài sản"
+    ],
+    [
+     "thu nhập",
+     "tài sản"
+    ]
+   ],
+   "k": 0,
+   "e": "Hại sức khoẻ, học tập, quan hệ.",
+   "r": "SGK Tin học 7 KNTT – Bài 5"
+  },
+  {
+   "t": "f",
+   "q": "Dùng chatbot AI cần ____ đầu ra bằng SGK, thầy cô và ____ việc có dùng AI.",
+   "a": [
+    [
+     "kiểm chứng"
+    ],
+    [
+     "khai báo"
+    ]
+   ],
+   "o": [
+    [
+     "tin tưởng",
+     "giấu"
+    ],
+    [
+     "kiểm chứng",
+     "giấu"
+    ],
+    [
+     "kiểm chứng",
+     "khai báo"
+    ],
+    [
+     "tin tưởng",
+     "khai báo"
+    ]
+   ],
+   "k": 2,
+   "e": "Kiểm chứng và khai báo trung thực.",
+   "r": "SGK Tin học 7 KNTT – Bài 5"
+  },
+  {
+   "t": "f",
+   "q": "Giao tiếp qua mạng cần dùng ngôn ngữ ____ và ____ người khác.",
+   "a": [
+    [
+     "lịch sự"
+    ],
+    [
+     "tôn trọng"
+    ]
+   ],
+   "o": [
+    [
+     "thô tục",
+     "tôn trọng"
+    ],
+    [
+     "lịch sự",
+     "chê bai"
+    ],
+    [
+     "thô tục",
+     "chê bai"
+    ],
+    [
+     "lịch sự",
+     "tôn trọng"
+    ]
+   ],
+   "k": 3,
+   "e": "Giao tiếp có văn hoá.",
+   "r": "SGK Tin học 7 KNTT – Bài 5"
+  }
+ ],
+ "tuluan": [
+  {
+   "q": "Câu 1 (3 điểm). Trình bày các tác hại của nghiện Internet và 4 lời khuyên để phòng tránh.",
+   "a": [
+    "Nghiện Internet: không kiểm soát việc dùng mạng, ảnh hưởng sức khoẻ, học tập, quan hệ.",
+    "Tác hại: thiếu giao tiếp trực tiếp; khó tập trung; dễ bị bắt nạt; dễ bị dẫn đến thông tin xấu; nghiện trò chơi.",
+    "Bốn lời khuyên: chia sẻ (với người thân, thầy cô); rời xa (thiết bị khi cần); giới hạn (đặt giờ dùng mạng); theo đuổi (sở thích, thể thao, đọc sách).",
+    "Ví dụ cụ thể cho mỗi lời khuyên."
+   ]
+  },
+  {
+   "q": "Câu 2 (4 điểm). Nêu mục tiêu bài \"Ứng xử trên mạng\" (Tin học 7) theo chương trình 2018 và thiết kế hoạt động tìm hiểu hành vi nên/không nên.",
+   "a": [
+    "Kiến thức: nêu ví dụ hành vi nên/không nên; truy cập không hợp lệ; cách ứng xử với thông tin xấu; tác hại và cách phòng nghiện Internet.",
+    "Năng lực: tự chủ, tự học, giao tiếp, hợp tác, giải quyết vấn đề; năng lực tin học NLb, NLa, NLe.",
+    "Phẩm chất: nhân ái, trách nhiệm, trung thực.",
+    "Hoạt động: mục tiêu – nội dung (phân loại thẻ a–j nhóm 4) – sản phẩm (phiếu học tập) – tổ chức 4 bước (giao nhiệm vụ, thực hiện, báo cáo, kết luận).",
+    "Đánh giá bằng quan sát, phiếu, đối chiếu đáp án."
+   ]
+  },
+  {
+   "q": "Câu 3 (3 điểm). Em hãy đề xuất cách tích hợp chatbot AI vào dạy bài này và lưu ý khi dùng.",
+   "a": [
+    "Cho HS hỏi chatbot lời khuyên giúp bạn nghiện game.",
+    "HS đối chiếu với 4 lời khuyên SGK, chỉ ra lời khuyên sai (ví dụ chơi 6 giờ/ngày).",
+    "Rút ra: AI có thể sai, cần kiểm chứng bằng SGK, thầy cô.",
+    "Dùng AI phải khai báo trung thực, không nhập thông tin cá nhân.",
+    "GV thẩm định nội dung do AI tạo trước khi dùng; AI chỉ hỗ trợ, con người quyết định."
+   ]
+  }
+ ]
+}

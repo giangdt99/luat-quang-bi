@@ -1,0 +1,600 @@
+{
+ "id": "T8-B12",
+ "ten": "Bài 12. Từ thuật toán đến chương trình",
+ "tomtat": [
+  "Muốn máy tính làm việc, phải **mô tả chính xác từng bước**: máy tính chỉ thực hiện các **lệnh** rõ ràng, đúng thứ tự.",
+  "Thuật toán có thể mô tả bằng **ngôn ngữ tự nhiên** hoặc **sơ đồ khối**; máy tính không hiểu trực tiếp các cách mô tả này.",
+  "**Chương trình** là **dãy các lệnh** điều khiển máy tính thực hiện một **thuật toán** (Ghi nhớ SGK).",
+  "Mỗi **bước** của thuật toán (sơ đồ khối) được chuyển thành **một lệnh (hoặc vài lệnh)** trong chương trình.",
+  "Thuật toán vẽ **tam giác đều**: **lặp lại 3 lần** [di chuyển một đoạn; quay một góc **120°**].",
+  "Góc quay (góc ngoài) = **360° : số cạnh**; tam giác đều quay 120°, hình vuông 90°, ngũ giác đều 72°, lục giác đều 60°.",
+  "Tương ứng trong Scratch: lặp 3 lần → **lặp lại 3**; di chuyển → **di chuyển ... bước**; quay → **xoay trái/phải ... độ** (nhóm Chuyển động).",
+  "Để thấy nét vẽ dùng nhóm lệnh **Bút vẽ** (**đặt bút**, **nhấc bút**); có thể thêm **Đợi 1 giây** trong vòng lặp để quan sát từng bước.",
+  "Thực hành: **Nhiệm vụ 1** tạo chương trình (khi bấm cờ xanh, lặp lại, di chuyển, xoay); **Nhiệm vụ 2** thêm Bút vẽ, chạy thử và **lưu tệp** (VeHinh.sb3).",
+  "Muốn vẽ hình khác chỉ cần đổi **số lần lặp** (= số cạnh) và **góc quay**, có thể đổi độ dài cạnh để thay kích thước.",
+  "Có thể lặp **theo điều kiện** (ví dụ xe chạy cho đến khi cách hòn đá < 120 bước, mỗi lần di chuyển 5 bước).",
+  "Kết quả chatbot AI viết chương trình có thể **sai** (ví dụ sai góc quay) nên phải **chạy thử, kiểm chứng**, khai báo dùng AI."
+ ],
+ "ynho": [
+  "Chương trình = dãy lệnh thực hiện một thuật toán",
+  "Mỗi bước thuật toán ứng một lệnh",
+  "Góc quay = 360° : số cạnh",
+  "Tam giác đều: lặp 3, quay 120°",
+  "Kết quả AI phải chạy thử, kiểm chứng"
+ ],
+ "bang": [
+  {
+   "tieu_de": "Hình đều – số lần lặp – góc quay",
+   "cot": [
+    "Hình",
+    "Số cạnh = số lần lặp",
+    "Góc quay (360° : số cạnh)"
+   ],
+   "dong": [
+    [
+     "Tam giác đều",
+     "3",
+     "120°"
+    ],
+    [
+     "Hình vuông",
+     "4",
+     "90°"
+    ],
+    [
+     "Ngũ giác đều",
+     "5",
+     "72°"
+    ],
+    [
+     "Lục giác đều",
+     "6",
+     "60°"
+    ],
+    [
+     "Bát giác đều",
+     "8",
+     "45°"
+    ]
+   ]
+  },
+  {
+   "tieu_de": "Sơ đồ khối và lệnh Scratch",
+   "cot": [
+    "Bước trong thuật toán",
+    "Lệnh Scratch",
+    "Nhóm lệnh"
+   ],
+   "dong": [
+    [
+     "Lặp lại 3 lần",
+     "lặp lại 3",
+     "Điều khiển"
+    ],
+    [
+     "Di chuyển một đoạn",
+     "di chuyển ... bước",
+     "Chuyển động"
+    ],
+    [
+     "Quay một góc",
+     "xoay trái/phải ... độ",
+     "Chuyển động"
+    ],
+    [
+     "Vẽ nét",
+     "đặt bút / nhấc bút",
+     "Bút vẽ"
+    ],
+    [
+     "Bắt đầu chạy",
+     "khi bấm cờ xanh",
+     "Sự kiện"
+    ]
+   ]
+  }
+ ],
+ "vidu": [
+  {
+   "tinh_huong": "Bài toán: vẽ tam giác đều bằng Scratch. Thuật toán: lặp 3 lần [di chuyển một đoạn; quay trái 120°]. Chương trình: khi bấm cờ xanh → đặt bút → lặp lại 3 [di chuyển 60 bước; xoay trái 120 độ] → nhấc bút. Tổng góc quay 3 × 120° = 360°.",
+   "ket_luan": "→ Mỗi bước thuật toán ứng một lệnh; quay đủ 360° thì hình khép kín."
+  },
+  {
+   "tinh_huong": "Vẽ hình vuông (Luyện tập 1): sơ đồ khối gồm Bắt đầu → lặp 4 lần [di chuyển; quay 90°] → Kết thúc. 4 × 90° = 360°.",
+   "ket_luan": "→ Hình vuông: lặp 4, quay 90°."
+  },
+  {
+   "tinh_huong": "Đổi hình: ngũ giác đều quay 360 : 5 = 72°, lục giác đều quay 360 : 6 = 60°, bát giác đều quay 360 : 8 = 45°; số lần lặp bằng số cạnh.",
+   "ket_luan": "→ Đổi hình chỉ cần đổi hai số: số lần lặp và góc quay."
+  },
+  {
+   "tinh_huong": "Xe – hòn đá (Luyện tập 3): lặp lại cho đến khi cách hòn đá < 120 bước: di chuyển 5 bước. Điều kiện kiểm tra ở ô ① 'Cách hòn đá < 120 bước?', ô ② 'Di chuyển 5 bước'.",
+   "ket_luan": "→ Có thể lặp theo điều kiện, không chỉ theo số lần cố định."
+  }
+ ],
+ "nho": [
+  "'Cạnh bao nhiêu – lặp bấy nhiêu; 360 chia cạnh ra góc quay'.",
+  "Thuật toán = ý tưởng; chương trình = ý tưởng viết bằng lệnh.",
+  "Tam giác: 3 – 120; vuông: 4 – 90; lục giác: 6 – 60 (nhân lại luôn ra 360)."
+ ],
+ "bay": [
+  "Nhầm góc quay với góc trong: tam giác đều quay 120°, không phải 60°.",
+  "Nhầm sơ đồ khối/ngôn ngữ tự nhiên với chương trình: chỉ chương trình mới điều khiển máy.",
+  "Quên nhóm Bút vẽ (đặt bút) nên nhân vật chạy mà không có nét.",
+  "Tin AI vô điều kiện: đoạn lệnh AI đưa ra vẫn phải chạy thử và kiểm chứng."
+ ],
+ "giaoan": [
+  "**Mục tiêu** – Kiến thức: mô tả được thuật toán vẽ tam giác đều bằng ngôn ngữ tự nhiên và sơ đồ khối; nêu được chương trình là dãy lệnh điều khiển máy tính thực hiện thuật toán; chuyển được sơ đồ khối thành lệnh Scratch; Năng lực: tự chủ, tự học; giao tiếp, hợp tác; năng lực tin học NLc (mô tả thuật toán, chuyển thành chương trình), NLd (dùng Scratch); Phẩm chất: kiên trì, cẩn thận, trung thực khi dùng AI.",
+  "**Chuẩn bị** – GV: kế hoạch bài dạy, máy tính, máy chiếu, Scratch, phiếu học tập; HS: SGK Tin học 8, vở ghi, ôn lại thuật toán, sơ đồ khối, lệnh lặp.",
+  "**Hoạt động 1 – Mở đầu** (8 phút). Mục tiêu: tạo hứng thú, HS nhận ra cần mô tả từng bước chính xác. Nội dung: tình huống bọ rùa đi theo tam giác đều (Hình 12.1). Sản phẩm: máy tính chỉ làm theo lệnh rõ ràng, đúng thứ tự. Tổ chức: (1) GV giao nhiệm vụ; (2) HS nghĩ cá nhân, trao đổi cặp (Think – Pair – Share); (3) mời 2 cặp báo cáo; (4) GV nhận xét, dẫn vào bài.",
+  "**Hoạt động 2 – Hình thành kiến thức** (40 phút). Mục tiêu: mô tả thuật toán, nêu khái niệm chương trình, tạo/chạy/lưu chương trình Scratch. Nội dung: Hoạt động 1 (Hình 12.2), Hình 12.3, Ghi nhớ, Thực hành Nhiệm vụ 1–2. Sản phẩm: thuật toán lặp 3 lần [di chuyển; quay 120°], chương trình Scratch, tệp VeHinh.sb3. Tổ chức: (1) GV giao nhóm 4 HS (khăn trải bàn); (2) HS xác định góc quay, viết thuật toán, ghép sơ đồ khối với lệnh, thực hành; (3) nhóm trình bày, trình chiếu; (4) GV nhận xét, chốt Ghi nhớ.",
+  "**Hoạt động 3 – Luyện tập** (22 phút). Mục tiêu: vận dụng chuyển thuật toán thành chương trình. Nội dung: Luyện tập 1 (hình vuông), 2 (nhân vật mới, bấm chuột), 3 (xe – hòn đá). Sản phẩm: lặp 4 lần [di chuyển; quay 90°]; chương trình xe dừng khi cách hòn đá < 120 bước. Tổ chức: (1) GV giao theo cặp; (2) HS vẽ sơ đồ, lập trình; (3) 3 cặp báo cáo, nhận xét chéo; (4) GV sửa lỗi thường gặp.",
+  "**Hoạt động 4 – Vận dụng** (20 phút). Mục tiêu: khái quát đổi hình thì đổi số nào; kiểm chứng kết quả chatbot. Nội dung: câu Vận dụng SGK; GV hỏi chatbot vẽ hình vuông, đáp án sai góc 60°. Sản phẩm: bảng hình – số cạnh – góc; sửa góc thành 90°; nêu việc cần làm khi dùng AI. Tổ chức: (1) giao nhiệm vụ; (2) HS chạy thử, đối chiếu, thảo luận; (3) báo cáo; (4) GV chốt: AI chỉ hỗ trợ.",
+  "**Kiểm tra đánh giá** – Quan sát thực hành, chương trình Scratch của nhóm (đúng số lần lặp, góc quay, có Bút vẽ); phiếu học tập, câu hỏi nhanh, bài tập trắc nghiệm; nhận xét chéo; dặn hoàn thiện VeHinh.sb3 và đọc Bài 13."
+ ],
+ "ai": [
+  "GV dùng chatbot sinh sẵn một chương trình vẽ hình vuông có lỗi (góc 60°) làm tình huống để HS chạy thử, phát hiện và sửa lỗi (8.A1.2).",
+  "HS đối chiếu đầu ra của chatbot với công thức góc quay = 360 : số cạnh trong SGK, chạy thử trên Scratch trước khi tin dùng.",
+  "Đạo đức AI: ghi rõ phần có sự hỗ trợ của AI, tự kiểm tra và chịu trách nhiệm về sản phẩm (8.A3.3)."
+ ],
+ "cauhoi": [
+  {
+   "t": "s",
+   "q": "Theo SGK Tin học 8 (Bài 12), chương trình máy tính là gì?",
+   "o": [
+    "Dãy các lệnh điều khiển máy tính thực hiện một thuật toán",
+    "Dãy các bước mô tả thuật toán bằng ngôn ngữ tự nhiên",
+    "Hình vẽ các khối thể hiện thuật toán",
+    "Phần mềm Scratch cài trên máy tính"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Bẫy: ngôn ngữ tự nhiên và sơ đồ khối chỉ MÔ TẢ thuật toán; chương trình là dãy LỆNH để máy thực hiện.",
+   "r": "SGK Tin học 8 KNTT – Bài 12"
+  },
+  {
+   "t": "s",
+   "q": "Để bọ rùa vẽ tam giác đều, mỗi lần quay cần xoay một góc bao nhiêu độ?",
+   "o": [
+    "60°",
+    "90°",
+    "120°",
+    "180°"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Bẫy: 60° là góc trong của tam giác đều; góc quay (góc ngoài) = 360° : 3 = 120°.",
+   "r": "SGK Tin học 8 KNTT – Bài 12"
+  },
+  {
+   "t": "s",
+   "q": "Thuật toán vẽ tam giác đều (cạnh bất kì) được mô tả đúng là:",
+   "o": [
+    "Lặp lại 3 lần: di chuyển một đoạn; quay một góc 60°",
+    "Lặp lại 3 lần: di chuyển một đoạn; quay một góc 120°",
+    "Lặp lại 6 lần: di chuyển một đoạn; quay một góc 120°",
+    "Lặp lại 3 lần: quay 120° rồi dừng, không di chuyển"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Đổi số lần lặp hoặc góc quay là sai; tam giác có 3 cạnh nên lặp 3 lần.",
+   "r": "SGK Tin học 8 KNTT – Bài 12"
+  },
+  {
+   "t": "s",
+   "q": "Trong chương trình Scratch vẽ tam giác đều, khối lệnh nào thể hiện bước \"Lặp lại 3 lần\" của sơ đồ khối?",
+   "o": [
+    "luôn luôn",
+    "đợi 3 giây",
+    "lặp lại cho đến khi",
+    "lặp lại 3"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Bẫy: 'luôn luôn' lặp vô hạn; 'đợi' chỉ tạm dừng.",
+   "r": "SGK Tin học 8 KNTT – Bài 12"
+  },
+  {
+   "t": "s",
+   "q": "Hình đều có 5 cạnh (ngũ giác đều) thì cần lặp mấy lần và quay một góc bao nhiêu độ?",
+   "o": [
+    "Lặp 5 lần, quay 108°",
+    "Lặp 5 lần, quay 72°",
+    "Lặp 5 lần, quay 60°",
+    "Lặp 72 lần, quay 5°"
+   ],
+   "a": [
+    1
+   ],
+   "e": "360 : 5 = 72. Góc trong ngũ giác đều là 108° – không phải góc quay.",
+   "r": "SGK Tin học 8 KNTT – Bài 12"
+  },
+  {
+   "t": "s",
+   "q": "Trong Scratch, nhóm lệnh nào chứa các lệnh \"đặt bút\" và \"nhấc bút\" để nhân vật để lại nét vẽ?",
+   "o": [
+    "Bút vẽ",
+    "Chuyển động",
+    "Hiển thị",
+    "Điều khiển"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Lệnh Chuyển động chỉ làm nhân vật di chuyển, không để lại nét; phải thêm Bút vẽ (đặt bút).",
+   "r": "SGK Tin học 8 KNTT – Bài 12"
+  },
+  {
+   "t": "s",
+   "q": "Bạn An thêm khối \"Đợi 1 giây\" vào trong vòng lặp vẽ tam giác. Mục đích của việc này là:",
+   "o": [
+    "Làm hình tam giác to hơn",
+    "Thay đổi góc quay thành 60°",
+    "Quan sát được từng bước vẽ của nhân vật",
+    "Giúp chương trình chạy nhanh hơn"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Đợi chỉ làm chậm, không thay đổi hình vẽ; còn làm chương trình chạy chậm hơn.",
+   "r": "SGK Tin học 8 KNTT – Bài 12"
+  },
+  {
+   "t": "s",
+   "q": "Phát biểu nào về quan hệ giữa thuật toán và chương trình là đúng?",
+   "o": [
+    "Chương trình và thuật toán luôn là một, không khác nhau",
+    "Mỗi bước của thuật toán được chuyển thành một (hay vài) lệnh trong chương trình",
+    "Thuật toán chỉ có thể viết bằng sơ đồ khối, chương trình viết bằng ngôn ngữ tự nhiên",
+    "Máy tính có thể thực hiện trực tiếp thuật toán viết bằng ngôn ngữ tự nhiên"
+   ],
+   "a": [
+    1
+   ],
+   "e": "Máy chỉ hiểu lệnh trong chương trình (ngôn ngữ lập trình); thuật toán là ý tưởng, chương trình là cài đặt.",
+   "r": "SGK Tin học 8 KNTT – Bài 12"
+  },
+  {
+   "t": "s",
+   "q": "Để vẽ hình vuông bằng Scratch, ta đặt lệnh nào trong vòng lặp?",
+   "o": [
+    "Lặp 4 lần: di chuyển; xoay 45°",
+    "Lặp 90 lần: di chuyển; xoay 4°",
+    "Lặp 2 lần: di chuyển; xoay 90°",
+    "Lặp 4 lần: di chuyển; xoay 90°"
+   ],
+   "a": [
+    3
+   ],
+   "e": "Hình vuông 4 cạnh, góc quay 360 : 4 = 90°.",
+   "r": "SGK Tin học 8 KNTT – Bài 12"
+  },
+  {
+   "t": "s",
+   "q": "Chatbot trả lời: \"Vẽ hình vuông: lặp 4 lần [di chuyển 80 bước; xoay trái 60 độ], chạy đúng 100%\". Cách xử lí đúng của HS là:",
+   "o": [
+    "Chạy thử, nhận ra góc phải là 90°, sửa lại và ghi rõ đã dùng AI",
+    "Tin tưởng hoàn toàn vì AI không bao giờ sai",
+    "Nộp luôn mà không cần chạy thử",
+    "Xoá hết và không bao giờ dùng AI"
+   ],
+   "a": [
+    0
+   ],
+   "e": "Kết quả của AI phải được kiểm chứng; chịu trách nhiệm với sản phẩm (8.A1.2, 8.A3.3).",
+   "r": "SGK Tin học 8 KNTT – Bài 12"
+  },
+  {
+   "t": "m",
+   "q": "Chọn các phát biểu ĐÚNG về vẽ tam giác đều bằng Scratch:",
+   "o": [
+    "Lặp lại 3 lần",
+    "Góc quay mỗi lần là 60°",
+    "Góc quay mỗi lần là 120°",
+    "Chỉ cần di chuyển, không cần quay"
+   ],
+   "a": [
+    0,
+    2
+   ],
+   "e": "Bẫy: 60° là góc trong, không phải góc quay.",
+   "r": "SGK Tin học 8 KNTT – Bài 12"
+  },
+  {
+   "t": "m",
+   "q": "Những đặc điểm nào đúng với chương trình theo SGK Tin học 8?",
+   "o": [
+    "Là dãy các lệnh",
+    "Điều khiển máy tính thực hiện một thuật toán",
+    "Chỉ gồm các hình vẽ sơ đồ khối",
+    "Mỗi bước thuật toán ứng với lệnh trong chương trình"
+   ],
+   "a": [
+    0,
+    1,
+    3
+   ],
+   "e": "Sơ đồ khối chỉ là cách mô tả thuật toán.",
+   "r": "SGK Tin học 8 KNTT – Bài 12"
+  },
+  {
+   "t": "m",
+   "q": "Những cặp (hình đều – số lần lặp, góc quay) nào dưới đây ĐÚNG?",
+   "o": [
+    "Ngũ giác đều – lặp 5, quay 108°",
+    "Hình vuông – lặp 4, quay 90°",
+    "Lục giác đều – lặp 6, quay 60°",
+    "Tam giác đều – lặp 3, quay 60°"
+   ],
+   "a": [
+    1,
+    2
+   ],
+   "e": "Góc quay = 360 : số cạnh: 5 cạnh → 72°; 3 cạnh → 120°.",
+   "r": "SGK Tin học 8 KNTT – Bài 12"
+  },
+  {
+   "t": "m",
+   "q": "Khi dùng chatbot AI hỗ trợ viết chương trình, HS cần làm gì?",
+   "o": [
+    "Chạy thử, kiểm chứng kết quả",
+    "Ghi rõ phần nào có sự hỗ trợ của AI",
+    "Sao chép nguyên văn và coi là bài tự làm",
+    "Tự chịu trách nhiệm về sản phẩm"
+   ],
+   "a": [
+    0,
+    1,
+    3
+   ],
+   "e": "Trung thực và có trách nhiệm khi dùng AI.",
+   "r": "SGK Tin học 8 KNTT – Bài 12"
+  },
+  {
+   "t": "f",
+   "q": "Chương trình là dãy các ____ điều khiển máy tính thực hiện một ____.",
+   "a": [
+    [
+     "lệnh"
+    ],
+    [
+     "thuật toán"
+    ]
+   ],
+   "o": [
+    [
+     "thuật toán",
+     "lệnh"
+    ],
+    [
+     "dữ liệu",
+     "sơ đồ khối"
+    ],
+    [
+     "biến",
+     "chương trình"
+    ],
+    [
+     "lệnh",
+     "thuật toán"
+    ]
+   ],
+   "k": 3,
+   "e": "Đổi chỗ 'lệnh' và 'thuật toán' là bẫy.",
+   "r": "SGK Tin học 8 KNTT – Bài 12"
+  },
+  {
+   "t": "f",
+   "q": "Để vẽ tam giác đều, thuật toán lặp ____ lần: di chuyển, rồi quay một góc ____ độ.",
+   "a": [
+    [
+     "3"
+    ],
+    [
+     "120"
+    ]
+   ],
+   "o": [
+    [
+     "3",
+     "60"
+    ],
+    [
+     "3",
+     "120"
+    ],
+    [
+     "6",
+     "120"
+    ],
+    [
+     "4",
+     "90"
+    ]
+   ],
+   "k": 1,
+   "e": "Quay 120° (góc ngoài), không phải 60°.",
+   "r": "SGK Tin học 8 KNTT – Bài 12"
+  },
+  {
+   "t": "f",
+   "q": "Để vẽ hình đều n cạnh: số lần lặp bằng ____, góc quay bằng 360° chia cho ____.",
+   "a": [
+    [
+     "số cạnh"
+    ],
+    [
+     "số cạnh"
+    ]
+   ],
+   "o": [
+    [
+     "số cạnh",
+     "số cạnh"
+    ],
+    [
+     "số cạnh",
+     "độ dài cạnh"
+    ],
+    [
+     "độ dài cạnh",
+     "số cạnh"
+    ],
+    [
+     "góc trong",
+     "số cạnh"
+    ]
+   ],
+   "k": 0,
+   "e": "Độ dài cạnh chỉ ảnh hưởng kích thước, không ảnh hưởng góc quay.",
+   "r": "SGK Tin học 8 KNTT – Bài 12"
+  },
+  {
+   "t": "f",
+   "q": "Để nhân vật để lại nét vẽ trong Scratch, dùng lệnh ____ thuộc nhóm lệnh ____.",
+   "a": [
+    [
+     "đặt bút"
+    ],
+    [
+     "Bút vẽ"
+    ]
+   ],
+   "o": [
+    [
+     "đặt bút",
+     "Chuyển động"
+    ],
+    [
+     "di chuyển",
+     "Bút vẽ"
+    ],
+    [
+     "đặt bút",
+     "Bút vẽ"
+    ],
+    [
+     "nhấc bút",
+     "Hiển thị"
+    ]
+   ],
+   "k": 2,
+   "e": "Phân biệt đặt bút (bắt đầu vẽ) và nhấc bút (ngừng vẽ).",
+   "r": "SGK Tin học 8 KNTT – Bài 12"
+  },
+  {
+   "t": "f",
+   "q": "Hình lục giác đều: lặp ____ lần, mỗi lần quay ____ độ.",
+   "a": [
+    [
+     "6"
+    ],
+    [
+     "60"
+    ]
+   ],
+   "o": [
+    [
+     "6",
+     "60"
+    ],
+    [
+     "6",
+     "120"
+    ],
+    [
+     "5",
+     "72"
+    ],
+    [
+     "60",
+     "6"
+    ]
+   ],
+   "k": 0,
+   "e": "360 : 6 = 60.",
+   "r": "SGK Tin học 8 KNTT – Bài 12"
+  },
+  {
+   "t": "f",
+   "q": "Trước khi lập trình, thuật toán có thể mô tả bằng ____ hoặc bằng ____.",
+   "a": [
+    [
+     "ngôn ngữ tự nhiên"
+    ],
+    [
+     "sơ đồ khối"
+    ]
+   ],
+   "o": [
+    [
+     "sơ đồ khối",
+     "chương trình Scratch"
+    ],
+    [
+     "ngôn ngữ tự nhiên",
+     "dữ liệu đầu vào"
+    ],
+    [
+     "ngôn ngữ tự nhiên",
+     "sơ đồ khối"
+    ],
+    [
+     "lệnh Scratch",
+     "ngôn ngữ tự nhiên"
+    ]
+   ],
+   "k": 2,
+   "e": "Chương trình Scratch là bước sau (cài đặt), không phải cách mô tả thuật toán.",
+   "r": "SGK Tin học 8 KNTT – Bài 12"
+  },
+  {
+   "t": "s",
+   "q": "Trong tình huống xe – hòn đá (Luyện tập 3), xe chạy cho đến khi cách hòn đá dưới 120 bước. Vòng lặp này thể hiện:",
+   "o": [
+    "Lặp với số lần biết trước",
+    "Rẽ nhánh dạng thiếu",
+    "Lặp cho đến khi điều kiện đúng (số lần lặp chưa biết trước)",
+    "Chỉ thực hiện một lần"
+   ],
+   "a": [
+    2
+   ],
+   "e": "Điều kiện dừng quyết định vòng lặp; không biết trước số lần.",
+   "r": "SGK Tin học 8 KNTT – Bài 12"
+  }
+ ],
+ "tuluan": [
+  {
+   "q": "Câu 1 (2 điểm). Mô tả thuật toán vẽ tam giác đều bằng ngôn ngữ tự nhiên và nêu cách chuyển thành chương trình Scratch. Giải thích vì sao góc quay là 120°.",
+   "a": [
+    "Thuật toán: lặp lại 3 lần: di chuyển một đoạn; quay một góc 120°.",
+    "Chuyển: khi bấm cờ xanh → (đặt bút) → lặp lại 3 [di chuyển ... bước; xoay trái/phải 120 độ] → (nhấc bút).",
+    "Mỗi bước thuật toán ứng một lệnh; chương trình là dãy lệnh điều khiển máy tính thực hiện thuật toán.",
+    "Tổng các góc quay khi đi hết một vòng là 360° nên mỗi lần quay 360° : 3 = 120° (không phải góc trong 60°)."
+   ]
+  },
+  {
+   "q": "Câu 2 (3 điểm). Nêu mục tiêu bài \"Từ thuật toán đến chương trình\" (Tin học 8) theo chương trình 2018 và thiết kế hoạt động Luyện tập vẽ hình vuông.",
+   "a": [
+    "Kiến thức: mô tả thuật toán bằng ngôn ngữ tự nhiên, sơ đồ khối; chương trình là dãy lệnh thực hiện thuật toán; chuyển sơ đồ khối thành lệnh Scratch.",
+    "Năng lực: tự chủ, tự học, giao tiếp, hợp tác; NLc, NLd (dùng Scratch). Phẩm chất: kiên trì, cẩn thận, trung thực.",
+    "Hoạt động Luyện tập: mục tiêu – chuyển thuật toán thành chương trình cho hình vuông; nội dung – vẽ sơ đồ khối, lập trình Scratch; sản phẩm – lặp 4 lần [di chuyển; quay 90°].",
+    "Tổ chức 4 bước: giao nhiệm vụ theo cặp; HS thực hiện; báo cáo, nhận xét chéo; GV chốt, sửa lỗi."
+   ]
+  },
+  {
+   "q": "Câu 3 (2 điểm). Chatbot đề xuất chương trình vẽ hình vuông: lặp 4 lần [di chuyển 80 bước; xoay trái 60 độ] và khẳng định không cần kiểm tra. Hãy đánh giá và hướng dẫn HS cách dùng AI.",
+   "a": [
+    "Chương trình sai góc: hình vuông phải quay 360 : 4 = 90°; quay 60° không khép kín thành hình vuông.",
+    "Khẳng định 'không cần kiểm tra' là sai: AI có thể cho kết quả sai, phải chạy thử và đối chiếu SGK (8.A1.2).",
+    "Cách làm: chạy thử, sửa góc thành 90°, ghi rõ phần có hỗ trợ của AI, tự chịu trách nhiệm (8.A3.3).",
+    "Giáo dục tính trung thực: AI chỉ là công cụ hỗ trợ, không thay thế việc học."
+   ]
+  }
+ ]
+}
